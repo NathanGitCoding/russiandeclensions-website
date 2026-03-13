@@ -1,0 +1,44 @@
+/* Website-only globals - minimal styles for landing & learn */
+@import 'tailwindcss';
+
+:root {
+  --font-noto-sans-display:
+    'Noto Sans Display', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-rubik: 'Rubik', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-cyrillic: 'Noto Sans', 'Noto Sans Display', system-ui, sans-serif;
+  --color-russian-blue: #007fff;
+  --color-russian-red: #ef4444;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  body,
+  h1, h2, h3, h4, h5, h6,
+  p, ul, ol, li, blockquote, pre, figure, fieldset, legend {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+body {
+  font-family: var(--font-noto-sans-display);
+  line-height: 1.6;
+  color: rgb(15 23 42);
+  background-color: rgb(248 250 252);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[lang='ru'],
+.cyrillic,
+.russian-text {
+  font-family: var(--font-cyrillic) !important;
+}
+
+/* Modal scroll */
+.modal-scroll {
+  overscroll-behavior: none;
+  -webkit-overflow-scrolling: touch;
+}
