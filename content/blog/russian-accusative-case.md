@@ -304,7 +304,7 @@ Here is a direct comparison:
 
 Our mobile app covers all 6 Russian cases — with special focus on animate/inanimate, motion verbs, and в/на direction vs. location. Available on Android and iOS.
 
-[Download the app and start drilling today](/landing-cases)
+[Download the app and start drilling today](/)
 
 ---
 The Russian accusative case is essential for everyday communication. Every time you talk about doing something to something — reading a book, seeing a person, going somewhere — you're using the accusative.
@@ -347,4 +347,4 @@ Yes. Adjectives must **agree** with the noun. Feminine accusative: **-ую/-юю
 Most transitive verbs take accusative. Exceptions taking **genitive**: бояться, ждать (inanimate), желать, избегать, достигать, лишать. Хотеть can take both: хочу воды (gen., partitive) vs. хочу воду (acc.).
 
 
-[Practice Russian cases with our app](/landing-cases)
+[Practice Russian cases with our app](/)

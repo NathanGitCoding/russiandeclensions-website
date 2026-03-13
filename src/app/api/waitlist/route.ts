@@ -1,9 +1,5 @@
 import { NextResponse } from 'next/server';
-import { createClient } from '@supabase/supabase-js';
-
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-const supabaseAnonKey =
-  process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+import { getSupabaseClient } from '@/lib/supabase';
 
 /** Origines autorisées pour CORS (identique à delete-account) */
 const CORS_ALLOWED_ORIGINS = [
@@ -49,7 +45,8 @@ export async function OPTIONS(req: Request): Promise<NextResponse> {
 export async function POST(req: Request): Promise<NextResponse<WaitlistResponse>> {
   const cors = getCorsHeaders(req);
 
-  if (!supabaseUrl || !supabaseAnonKey) {
+  const supabase = getSupabaseClient();
+  if (!supabase) {
     return NextResponse.json(
       { success: false, error: 'Server configuration missing' },
       { status: 500, headers: cors }
@@ -103,10 +100,6 @@ export async function POST(req: Request): Promise<NextResponse<WaitlistResponse>
       { status: 400, headers: cors }
     );
   }
-
-  const supabase = createClient(supabaseUrl, supabaseAnonKey, {
-    auth: { persistSession: false },
-  });
 
   const { error } = await supabase.from('waitlist').insert({
     email: emailTrimmed,

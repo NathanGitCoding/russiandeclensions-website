@@ -199,7 +199,7 @@ Mobile apps designed specifically for Russian cases offer a significant advantag
 
 Download our Russian cases mobile app — the most focused tool for drilling all 6 Russian cases with spaced repetition and real Russian sentences. All 6 cases with full noun, adjective, and pronoun declension. Smart SRS that identifies your weak spots and drills them more. Special focus on the animate/inanimate accusative distinction. Available on Android and iOS. Free to start.
 
-[Download the app →](/landing-cases)
+[Download the app →](/)
 
 ---
 Russian cases become automatic the same way any complex skill becomes automatic: through **deliberate, varied, consistent practice** with real feedback. The five methods in this guide — spaced repetition, case-specific drills, active reading, writing practice, and speaking with correction — cover every angle of the learning process.
@@ -234,4 +234,4 @@ Start with the **nominative** (you already know it — it's the dictionary form)
 Yes — there are apps specifically designed for drilling Russian case declensions. The best ones focus on all 6 cases, include adjective declension, use spaced repetition to target your weaknesses, and provide real Russian sentences as context. Our app is built for exactly this purpose and is available on both Android and iOS.
 
 
-[Practice Russian cases with our app](/landing-cases)
+[Practice Russian cases with our app](/)

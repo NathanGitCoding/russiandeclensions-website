@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export-db": "npx tsx scripts/export-db.ts",
     "blog:import": "tsx scripts/convert-learn-to-blog.ts",
     "start": "next start",
     "lint": "next lint",
@@ -14,9 +15,10 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
-    "@supabase/supabase-js": "^2.89.0",
+    "@supabase/supabase-js": "^2.99.1",
     "framer-motion": "^12.35.2",
     "gray-matter": "^4.0.3",
+    "iuliia": "^0.8.2",
     "lucide-react": "^0.544.0",
     "next": "15.5.9",
     "react": "19.1.0",

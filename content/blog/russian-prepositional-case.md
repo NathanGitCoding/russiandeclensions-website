@@ -259,7 +259,7 @@ Is something MOVING there (accusative) or IS IT THERE (prepositional)?
 
 Our mobile app drills all 6 Russian cases — including в/на location and о + topic — with real sentences and instant feedback. Available on Android and iOS.
 
-[Download the app and start drilling today](/landing-cases)
+[Download the app and start drilling today](/)
 
 ---
 The Russian prepositional case is arguably the most beginner-friendly case to start with — its endings are regular, it always appears with a preposition (so you always know when to use it), and its uses are clear and logical.
@@ -299,4 +299,4 @@ The Russian prepositional case gets its name because it is the **only case** tha
 Locative forms are irregular prepositional endings (**-У/-Ю** instead of **-Е**) used with a small group of masculine nouns when expressing **physical location** with в or на. Examples: в лесу (in the forest), на полу (on the floor), в году (in the year), на берегу (on the shore). These same nouns use the standard -Е ending when used with о to express topic: о лесе (about the forest), о поле (about the field).
 
 
-[Practice Russian cases with our app](/landing-cases)
+[Practice Russian cases with our app](/)

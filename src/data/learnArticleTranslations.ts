@@ -49,7 +49,7 @@ export const learnArticleTranslations: Partial<
         description:
           "Notre appli mobile est conçue spécifiquement pour s'entraîner aux cas et déclinaisons russes. Exercices intelligents, répétition espacée et exemples russes réels — sur Android et iOS.",
         ctaText: "Télécharger l'appli et commencer à s'entraîner aujourd'hui",
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -323,7 +323,7 @@ export const learnArticleTranslations: Partial<
         "Cet aide-mémoire couvre **tout** : **les 6 cas** pour les noms (tous genres, singulier et pluriel), les adjectifs (radicaux durs et doux), les pronoms personnels, possessifs, démonstratifs et les paires préposition-cas.\n\n**Gardez cette référence à portée de main** pendant vos études. Plus vous l'utiliserez avec une pratique réelle du russe, plus vite ces terminaisons passeront de la mémoire consciente à la reconnaissance automatique.",
       conclusionOutro: 'Pour une explication complète de chaque cas, explorez nos guides :',
       ctaText: "S'entraîner aux cas russes avec notre appli",
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Quelle terminaison de cas russe est la plus difficile à apprendre ?',
@@ -408,7 +408,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Unsere mobile App ist speziell zum Üben russischer Fälle und Deklinationen entwickelt. Intelligente Übungen, Intervallwiederholung, echte russische Beispiele – auf Android und iOS.',
         ctaText: 'App herunterladen und heute mit dem Üben beginnen',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -690,7 +690,7 @@ export const learnArticleTranslations: Partial<
         'Dieser Spickzettel deckt **alles** ab: **alle 6 Fälle** für Substantive (alle Genera, Singular und Plural), Adjektive (hart und weich), Personalpronomen, Possessivpronomen, Demonstrativpronomen und Präposition-Fall-Paare.\n\n**Behalten Sie diese Referenz griffbereit** beim Lernen. Je mehr Sie sie mit echtem Russisch kombinieren, desto schneller werden die Endungen von bewusster Erinnerung zu automatischer Erkennung.',
       conclusionOutro: 'Für eine vollständige Erklärung jedes Falls erkunden Sie unsere Leitfäden:',
       ctaText: 'Russische Fälle mit unserer App üben',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Welche russische Fallendung ist am schwersten zu lernen?',
@@ -775,7 +775,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Mobil uygulamamız Rusça halleri ve çekimleri pratik etmek için özel olarak geliştirilmiştir. Akıllı alıştırmalar, aralıklı tekrar, gerçek Rusça örnekler — Android ve iOS.',
         ctaText: 'Uygulamayı indirin ve bugün pratik yapmaya başlayın',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -1057,7 +1057,7 @@ export const learnArticleTranslations: Partial<
         'Bu kopya kağıdı **hepsini** kapsar: İsimler için **6 hal** (tüm cinsiyetler, tekil ve çoğul), sıfatlar (sert ve yumuşak), kişi zamirleri, iyelik zamirleri, işaret zamirleri ve edat-hal çiftleri.\n\n**Bu referansı elinizin altında tutun** öğrenirken. Gerçek Rusça ile ne kadar birleştirirseniz, ekler bilinçli hatırlamadan otomatik tanımaya o kadar hızlı geçer.',
       conclusionOutro: 'Her halin tam açıklaması için rehberlerimizi keşfedin:',
       ctaText: 'Rusça halleri uygulamamızla pratik yapın',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Öğrenmesi en zor Rusça hal eki hangisi?',
@@ -1142,7 +1142,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Nasza aplikacja mobilna jest specjalnie zaprojektowana do ćwiczenia rosyjskich przypadków i deklinacji. Inteligentne ćwiczenia, powtórki rozłożone, prawdziwe rosyjskie przykłady — na Android i iOS.',
         ctaText: 'Pobierz aplikację i zacznij ćwiczyć dziś',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -1416,7 +1416,7 @@ export const learnArticleTranslations: Partial<
         'Ta ściąga obejmuje **wszystko**: **wszystkie 6 przypadków** dla rzeczowników (wszystkie rodzaje, l. poj. i mn.), przymiotników (twarde i miękkie), zaimków osobowych, dzierżawczych, wskazujących oraz pary przyimek–przypadek.\n\n**Trzymaj tę ściągę pod ręką** podczas nauki. Im więcej łączysz ją z prawdziwym rosyjskim, tym szybciej końcówki przejdą ze świadomego zapamiętywania do automatycznego rozpoznawania.',
       conclusionOutro: 'Pełne wyjaśnienie każdego przypadku znajdziesz w naszych przewodnikach:',
       ctaText: 'Ćwicz rosyjskie przypadki z naszą aplikacją',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Która końcówka przypadku rosyjskiego jest najtrudniejsza do nauki?',
@@ -1502,7 +1502,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Наше мобильное приложение создано специально для отработки падежей и склонений. Умные упражнения, интервальное повторение, реальные примеры — на Android и iOS.',
         ctaText: 'Скачать приложение и начать тренировку',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -1573,7 +1573,7 @@ export const learnArticleTranslations: Partial<
         'Окончания падежей — ключ к грамматике русского языка. Сохраните эту шпаргалку и возвращайтесь к ней при необходимости.',
       conclusionOutro: 'Продолжайте изучать русскую грамматику:',
       ctaText: 'Тренировать падежи в нашем приложении',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Сколько падежей в русском языке?',
@@ -1644,7 +1644,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Notre app mobile entraîne les 6 cas russes – dont le génitif pluriel – avec répétition espacée, phrases authentiques et retour instantané. Sur Android et iOS.',
         ctaText: "Télécharger l'app et commencer à s'entraîner",
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -1686,7 +1686,7 @@ export const learnArticleTranslations: Partial<
         "Le génitif russe est essentiel pour la communication quotidienne. Maîtrisez d'abord нет + génitif, puis les nombres, puis les prépositions. Les formes du pluriel demandent de la pratique – concentrez-vous sur les 11 irréguliers les plus fréquents.",
       conclusionOutro: 'Poursuivez avec le reste de notre série de grammaire russe :',
       ctaText: "S'entraîner aux cas russes avec notre app",
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'À quoi sert le génitif en russe ?',
@@ -1756,7 +1756,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Unsere mobile App trainiert alle 6 russischen Fälle – inkl. Genitiv Plural – mit Intervallwiederholung, echten Sätzen und sofortigem Feedback. Für Android und iOS.',
         ctaText: 'App herunterladen und heute mit dem Üben beginnen',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -2034,7 +2034,7 @@ export const learnArticleTranslations: Partial<
         'Der russische Genitiv ist das **Arbeitspferd** des Fallsystems. Er regelt **Besitz**, **Verneinung**, **Menge**, **Vergleich**, **Daten** und wird von mehr **Präpositionen** verlangt als jeder andere Fall.',
       conclusionOutro: 'Bereit weiterzumachen? Erkunden Sie die anderen Fälle in unserer Reihe:',
       ctaText: 'Russische Fälle mit unserer App üben',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Wofür wird der russische Genitiv verwendet?',
@@ -2118,7 +2118,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Mobil uygulamamız aralıklı tekrar, gerçek cümleler ve anında geri bildirimle 6 Rusça halin tamamını — tamlayan çoğul dahil — çalıştırır. Android ve iOS.',
         ctaText: 'Uygulamayı indirin ve bugün pratik yapmaya başlayın',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         { href: '/learn/lessons/russian-cases-complete-guide', label: 'Rusça haller tam rehber' },
@@ -2398,7 +2398,7 @@ export const learnArticleTranslations: Partial<
         'Rusça tamlayan hali hal sisteminin **iş atıdır**. **Mülkiyet**, **olumsuzluk**, **miktar**, **karşılaştırma**, **tarihler** ve diğer tüm hallerden fazla **edat** tarafından gerektirilir.',
       conclusionOutro: 'Devam etmeye hazır mısınız? Serimizdeki diğer halleri keşfedin:',
       ctaText: 'Rusça halleri uygulamamızla pratik edin',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Rusça tamlayan hali ne için kullanılır?',
@@ -2482,7 +2482,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Nasza aplikacja mobilna ćwiczy wszystkie 6 rosyjskich przypadków – w tym dopełniacz liczby mnogiej – z powtórkami rozłożonymi w czasie, prawdziwymi zdaniami i natychmiastową informacją zwrotną. Na Androida i iOS.',
         ctaText: 'Pobierz aplikację i zacznij ćwiczyć dziś',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -2777,7 +2777,7 @@ export const learnArticleTranslations: Partial<
         'Rosyjski dopełniacz to **konik roboczy** systemu przypadków. Reguluje **posiadanie**, **przeczenie**, **ilość**, **porównanie**, **daty** i jest wymagany przez więcej **przyimków** niż jakikolwiek inny przypadek.',
       conclusionOutro: 'Gotowy na więcej? Poznaj inne przypadki w naszej serii:',
       ctaText: 'Ćwicz rosyjskie przypadki z naszą aplikacją',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Do czego służy rosyjski dopełniacz?',
@@ -2862,7 +2862,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Наше приложение тренирует все 6 падежей — включая родительный мн. числа — с интервальным повторением и реальными примерами. На Android и iOS.',
         ctaText: 'Скачать приложение и начать тренировку',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -2901,7 +2901,7 @@ export const learnArticleTranslations: Partial<
         'Родительный падеж — основа повседневной коммуникации на русском. Освойте сначала нет + родительный, затем числительные, затем предлоги. Формы мн. числа требуют практики.',
       conclusionOutro: 'Продолжайте изучать русскую грамматику:',
       ctaText: 'Тренировать падежи в нашем приложении',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Для чего используется родительный падеж в русском?',
@@ -2970,7 +2970,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Notre app mobile couvre les 6 cas russes – avec focus sur animé/inanimé, verbes de mouvement et в/на direction vs lieu. Sur Android et iOS.',
         ctaText: "Télécharger l'app et commencer à s'entraîner",
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -3005,7 +3005,7 @@ export const learnArticleTranslations: Partial<
         "L'accusatif russe est essentiel pour la communication quotidienne. **Féminin -А/-Я** changent toujours (-а → -у, -я → -ю). **Masculin inanimé** = pas de changement. **Masculin animé** = forme du génitif. **В/НА + accusatif** = direction | **В/НА + prépositif** = lieu.",
       conclusionOutro: 'Poursuivez votre apprentissage de la grammaire russe :',
       ctaText: "S'entraîner aux cas russes avec notre app",
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: "À quoi sert l'accusatif en russe ?",
@@ -3074,7 +3074,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Unsere mobile App deckt alle 6 russischen Fälle ab – mit Fokus auf Belebt/Unbelebt, Bewegungsverben und в/на Richtung vs. Ort. Für Android und iOS.',
         ctaText: 'App herunterladen und heute mit dem Üben beginnen',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -3287,7 +3287,7 @@ export const learnArticleTranslations: Partial<
         'Der russische Akkusativ ist essenziell für die Alltagskommunikation. Jedes Mal, wenn Sie über das Tun von etwas mit etwas sprechen – ein Buch lesen, eine Person sehen, irgendwohin gehen – verwenden Sie den Akkusativ. **Feminin -А/-Я** ändern sich immer (-а → -у, -я → -ю). **Maskulin unbelebt** = keine Änderung. **Maskulin belebt** = Genitivform. **В/НА + Akkusativ** = Richtung | **В/НА + Präpositiv** = Ort.',
       conclusionOutro: 'Setzen Sie Ihre Russisch-Grammatik-Reise fort:',
       ctaText: 'Russische Fälle mit unserer App üben',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Wofür wird der Akkusativ im Russischen verwendet?',
@@ -3363,7 +3363,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Mobil uygulamamız 6 Rusça halin hepsini kapsar – canlı/cansız, hareket fiilleri ve в/на yön vs yer odağıyla. Android ve iOS.',
         ctaText: 'Uygulamayı indirin ve bugün pratik yapmaya başlayın',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -3401,7 +3401,7 @@ export const learnArticleTranslations: Partial<
         'Rusça akkusatif günlük iletişim için temeldir. **Dişil -А/-Я** her zaman değişir (-а → -у, -я → -ю). **Eril cansız** = değişiklik yok. **Eril canlı** = genitif formu. **В/НА + akkusatif** = yön | **В/НА + lokatif** = yer.',
       conclusionOutro: 'Rusça gramer yolculuğunuza devam edin:',
       ctaText: 'Rusça halleri uygulamamızla pratik yapın',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Rusçada akkusatif ne için kullanılır?',
@@ -3472,7 +3472,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Nasza aplikacja mobilna obejmuje wszystkie 6 rosyjskich przypadków – z naciskiem na żywotny/nieżywotny, czasowniki ruchu oraz в/на kierunek vs miejsce. Na Androida i iOS.',
         ctaText: 'Pobierz aplikację i zacznij ćwiczyć dziś',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -3680,7 +3680,7 @@ export const learnArticleTranslations: Partial<
         'Rosyjski biernik jest niezbędny w codziennej komunikacji. Za każdym razem, gdy mówisz o robieniu czegoś z czymś – czytaniu książki, widzeniu osoby, chodzeniu gdzieś – używasz biernika. **Żeński -А/-Я** zawsze się zmienia (-а → -у, -я → -ю). **Męski nieżywotny** = brak zmiany. **Męski żywotny** = forma dopełniacza. **В/НА + biernik** = kierunek | **В/НА + miejscownik** = miejsce.',
       conclusionOutro: 'Kontynuuj swoją podróż przez rosyjską gramatykę:',
       ctaText: 'Ćwicz rosyjskie przypadki z naszą aplikacją',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Do czego służy biernik w rosyjskim?',
@@ -3752,7 +3752,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Наше приложение охватывает все 6 падежей — с фокусом на одушевлённость, глаголы движения и в/на. На Android и iOS.',
         ctaText: 'Скачать приложение и начать тренировку',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -3784,7 +3784,7 @@ export const learnArticleTranslations: Partial<
         'Винительный падеж необходим для повседневного общения. Женский -а/-я всегда меняются. Мужской неодуш. = без изменений. Мужской одуш. = форма родительного. В/НА + винительный = направление | В/НА + предложный = место.',
       conclusionOutro: 'Продолжайте изучать русскую грамматику:',
       ctaText: 'Тренировать падежи в нашем приложении',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Для чего используется винительный падеж?',
@@ -3855,7 +3855,7 @@ export const learnArticleTranslations: Partial<
         description:
           "Notre app mobile entraîne les 6 cas russes – avec focus sur нравиться, expressions d'âge et objets indirects. Sur Android et iOS.",
         ctaText: "Télécharger l'app et commencer à s'entraîner",
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -3895,7 +3895,7 @@ export const learnArticleTranslations: Partial<
         'Le datif russe est bien plus riche que « le cas du don ». Utilisations : objet indirect, expérience de нравиться, âge, expressions impersonnelles, après к et по.',
       conclusionOutro: 'Poursuivez avec le reste de notre série de grammaire russe :',
       ctaText: "S'entraîner aux cas russes avec notre app",
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'À quoi sert le datif en russe ?',
@@ -3967,7 +3967,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Unsere mobile App übt alle 6 russischen Fälle – mit Schwerpunkt auf нравиться, Altersausdrücken, unpersönlichen Konstruktionen und indirekten Objekten. Für Android und iOS.',
         ctaText: 'App herunterladen und heute mit dem Üben beginnen',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -4759,7 +4759,7 @@ export const learnArticleTranslations: Partial<
       ],
       conclusionOutro: 'Machen Sie mit unserer Russisch-Grammatik-Serie weiter:',
       ctaText: 'Russische Fälle mit unserer App üben',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Wofür wird der Dativ im Russischen verwendet?',
@@ -4848,7 +4848,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Mobil uygulamamız 6 Rusça halin hepsini çalıştırır — нравиться, yaş ifadeleri ve dolaylı nesneler özellikle. Android ve iOS.',
         ctaText: 'Uygulamayı indirin ve pratik yapmaya başlayın',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -4888,7 +4888,7 @@ export const learnArticleTranslations: Partial<
         'Rusça datif "verme hali"nden çok daha zengindir. Kullanımlar: dolaylı nesne, нравиться deneyimi, yaş, kişisiz ifadeler, к ve по sonrası.',
       conclusionOutro: 'Rusça gramer serimizle devam edin:',
       ctaText: 'Rusça halleri uygulamamızla pratik yapın',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Rusçada datif ne için kullanılır?',
@@ -4957,7 +4957,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Nasza aplikacja mobilna ćwiczy wszystkie 6 rosyjskich przypadków — ze szczególnym naciskiem na нравиться, wyrażenia wieku i dopełnienia dalsze. Na Android i iOS.',
         ctaText: 'Pobierz aplikację i zacznij ćwiczyć',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -4997,7 +4997,7 @@ export const learnArticleTranslations: Partial<
         'Rosyjski celownik jest znacznie bogatszy niż „przypadek dawania". Zastosowania: dopełnienie dalsze, doświadczenie нравиться, wiek, wyrażenia nieosobowe, po к i по.',
       conclusionOutro: 'Kontynuuj z resztą naszej serii gramatyki rosyjskiej:',
       ctaText: 'Ćwicz rosyjskie przypadki z naszą aplikacją',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Do czego służy celownik w rosyjskim?',
@@ -5064,7 +5064,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Наше приложение тренирует все 6 падежей — с фокусом на нравиться, выражения возраста и косвенные дополнения. На Android и iOS.',
         ctaText: 'Скачать приложение и начать тренировку',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -5098,7 +5098,7 @@ export const learnArticleTranslations: Partial<
         'Дательный падеж богаче, чем «падеж давания»: косвенное дополнение, нравиться, возраст, безличные выражения, предлоги к и по.',
       conclusionOutro: 'Продолжайте изучать русскую грамматику:',
       ctaText: 'Тренировать падежи в нашем приложении',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Для чего используется дательный падеж?',
@@ -5169,7 +5169,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Notre app mobile entraîne les 6 cas russes – avec focus sur professions, с + instrumental et prépositions spatiales. Sur Android et iOS.',
         ctaText: "Télécharger l'app et commencer à s'entraîner",
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -5205,7 +5205,7 @@ export const learnArticleTranslations: Partial<
         "L'instrumental russe est moins intimidant que sa réputation. Une fois les schémas clés acquis – instruments, accompagnement, professions, prépositions spatiales, expressions de temps – il apparaît naturellement partout.",
       conclusionOutro: 'Poursuivez avec le reste de notre série de grammaire russe :',
       ctaText: "S'entraîner à l'instrumental russe avec notre app",
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: "À quoi sert l'instrumental en russe ?",
@@ -5277,7 +5277,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Unsere mobile App übt alle 6 russischen Fälle – mit Schwerpunkt auf Berufe, с + Instrumental, räumliche Präpositionen und reflexive Verben. Für Android und iOS.',
         ctaText: 'App herunterladen und heute mit dem Üben beginnen',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -5867,7 +5867,7 @@ export const learnArticleTranslations: Partial<
       ],
       conclusionOutro: 'Machen Sie mit unserer Russisch-Grammatik-Serie weiter:',
       ctaText: 'Russischen Instrumental mit unserer App üben',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Wofür wird der russische Instrumental verwendet?',
@@ -5948,7 +5948,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Nasza aplikacja ćwiczy wszystkie 6 rosyjskich przypadków – ze szczególnym naciskiem na zawody, с + narzędnik i przyimki przestrzenne. Na Android i iOS.',
         ctaText: 'Pobierz aplikację i zacznij ćwiczyć',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -5984,7 +5984,7 @@ export const learnArticleTranslations: Partial<
         'Rosyjski narzędnik jest mniej onieśmielający niż sugeruje jego reputacja. Gdy nauczysz się wzorców – narzędzie, towarzystwo, zawody, przyimki przestrzenne, wyrażenia czasu – pojawi się naturalnie wszędzie.',
       conclusionOutro: 'Kontynuuj z naszą serią gramatyki rosyjskiej:',
       ctaText: 'Ćwicz rosyjski narzędnik z naszą aplikacją',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Do czego służy narzędnik w rosyjskim?',
@@ -6047,7 +6047,7 @@ export const learnArticleTranslations: Partial<
         title: 'Rusça enstrumentali uygulamamızla pratik edin',
         description: 'Mobil uygulamamız 6 Rusça halin hepsini çalıştırır. Android ve iOS.',
         ctaText: 'Uygulamayı indirin ve bugün pratik yapmaya başlayın',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -6073,7 +6073,7 @@ export const learnArticleTranslations: Partial<
         'Rusça enstrumental itibarının önerdiğinden daha az göz korkutucudur. Ekleri düzenlidir, kullanımları mantıklıdır.',
       conclusionOutro: 'Rusça gramer serimizle devam edin:',
       ctaText: 'Rusça enstrumentali uygulamamızla pratik edin',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Rusçada enstrumental ne için kullanılır?',
@@ -6139,7 +6139,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Наше приложение тренирует все 6 падежей — с фокусом на профессии, с + творительный и пространственные предлоги. На Android и iOS.',
         ctaText: 'Скачать приложение и начать тренировку',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -6172,7 +6172,7 @@ export const learnArticleTranslations: Partial<
         'Творительный падеж проще, чем кажется. Овладейте ключевыми паттернами — орудие, совместность, профессии, предлоги, время — и он будет встречаться естественно.',
       conclusionOutro: 'Продолжайте изучать русскую грамматику:',
       ctaText: 'Тренировать творительный падеж в нашем приложении',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Для чего используется творительный падеж?',
@@ -6242,7 +6242,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Notre app mobile entraîne les 6 cas russes – dont в/на lieu et о + thème – avec des phrases authentiques. Sur Android et iOS.',
         ctaText: "Télécharger l'app et commencer à s'entraîner",
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -6285,7 +6285,7 @@ export const learnArticleTranslations: Partial<
       ],
       conclusionOutro: 'Entraînez-vous au prépositif avec notre app mobile.',
       ctaText: "S'entraîner aux cas russes avec notre app",
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: "Pourquoi l'appelle-t-on « prépositif » ?",
@@ -6355,7 +6355,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Unsere mobile App übt alle 6 russischen Fälle – inkl. в/на-Ort und о + Thema – mit echten Sätzen. Für Android und iOS.',
         ctaText: 'App herunterladen und heute mit dem Üben beginnen',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -6400,7 +6400,7 @@ export const learnArticleTranslations: Partial<
       conclusion: '',
       conclusionOutro: 'Trainieren Sie den Präpositiv mit unserer mobilen App.',
       ctaText: 'Russische Fälle mit unserer App üben',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Warum heißt er „Präpositiv"?',
@@ -6468,7 +6468,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Mobil uygulamamız 6 Rusça halin hepsini – в/на yer ve о + tema dahil – gerçek cümlelerle çalıştırır. Android ve iOS.',
         ctaText: 'Uygulamayı indirin ve bugün pratik yapmaya başlayın',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -6502,7 +6502,7 @@ export const learnArticleTranslations: Partial<
         'Rusça lokatif muhtemelen en başlangıç dostu haldir – ekleri düzenlidir, her zaman edatla gelir, kullanımları nettir.',
       conclusionOutro: 'Lokatifi mobil uygulamamızla pratik edin.',
       ctaText: 'Rusça halleri uygulamamızla pratik yapın',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Neden "lokatif" (prepositiv) deniyor?',
@@ -6569,7 +6569,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Nasza aplikacja mobilna ćwiczy wszystkie 6 rosyjskich przypadków — ze szczególnym naciskiem na в/на/о i miejscownik. Na Android i iOS.',
         ctaText: 'Pobierz aplikację i zacznij ćwiczyć',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -6595,7 +6595,7 @@ export const learnArticleTranslations: Partial<
         'Miejscownik jest jednym z najłatwiejszych do rozpoznania: jeśli widzisz в, на, о, при lub по — wiesz, że to miejscownik.',
       conclusionOutro: 'Kontynuuj z naszą serią gramatyki rosyjskiej:',
       ctaText: 'Ćwicz rosyjskie przypadki z naszą aplikacją',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Do czego służy miejscownik w rosyjskim?',
@@ -6664,7 +6664,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Наше приложение тренирует все 6 падежей — включая в/на место и о + тема. На Android и iOS.',
         ctaText: 'Скачать приложение и начать тренировку',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -6698,7 +6698,7 @@ export const learnArticleTranslations: Partial<
         'Предложный падеж — единственный, который всегда требует предлога. Его окончания регулярны, употребления понятны.',
       conclusionOutro: 'Тренируйте предложный падеж в нашем приложении.',
       ctaText: 'Тренировать падежи в нашем приложении',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Почему он называется «предложный»?',
@@ -6765,7 +6765,7 @@ export const learnArticleTranslations: Partial<
         description:
           "Téléchargez notre app de cas russes – l'outil le plus ciblé pour s'entraîner aux 6 cas. Sur Android et iOS.",
         ctaText: "Télécharger l'app →",
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -6784,7 +6784,7 @@ export const learnArticleTranslations: Partial<
         'Les cas russes deviennent automatiques grâce à une **pratique délibérée, variée et régulière** avec un vrai retour. Les cinq méthodes – répétition espacée, exercices par cas, lecture active, écriture et parole avec correction – couvrent tous les aspects.',
       conclusionOutro: 'Poursuivez avec le reste de notre série de grammaire russe :',
       ctaText: "S'entraîner aux cas russes avec notre app",
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Combien de temps pour apprendre les cas russes ?',
@@ -6848,7 +6848,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Laden Sie unsere Russisch-Fälle-App herunter – das fokussierteste Tool zum Üben aller 6 russischen Fälle. Für Android und iOS.',
         ctaText: 'App herunterladen →',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -6867,7 +6867,7 @@ export const learnArticleTranslations: Partial<
         'Russische Fälle werden automatisch durch **gezielte, abwechslungsreiche, konsequente Übung** mit echtem Feedback. Die fünf Methoden – Intervallwiederholung, fallenspezifische Übungen, aktives Lesen, Schreibübungen und Sprechen mit Korrektur – decken jeden Aspekt ab.',
       conclusionOutro: 'Machen Sie mit unserer Russisch-Grammatik-Serie weiter:',
       ctaText: 'Russische Fälle mit unserer App üben',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Wie lange dauert es, russische Fälle zu lernen?',
@@ -6936,7 +6936,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Rusça haller uygulamamızı indirin — 6 Rusça halin hepsini pratik etmek için en odaklı araç. Android ve iOS.',
         ctaText: 'Uygulamayı indir →',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -6955,7 +6955,7 @@ export const learnArticleTranslations: Partial<
         'Rusça haller **hedefli, çeşitli, tutarlı pratik** ve gerçek geri bildirimle otomatik hale gelir. Beş yöntem — Aralıklı Tekrar, hale özel alıştırmalar, aktif okuma, yazma pratiği ve düzeltmeli konuşma — her yönü kapsar.',
       conclusionOutro: 'Rusça gramer serimizle devam edin:',
       ctaText: 'Rusça halleri uygulamamızla pratik yapın',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Rusça halleri öğrenmek ne kadar sürer?',
@@ -7024,7 +7024,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Pobierz naszą aplikację do rosyjskich przypadków — najbardziej ukierunkowane narzędzie do ćwiczenia wszystkich 6 przypadków. Na Android i iOS.',
         ctaText: 'Pobierz aplikację →',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -7043,7 +7043,7 @@ export const learnArticleTranslations: Partial<
         'Rosyjskie przypadki stają się automatyczne dzięki **celowej, urozmaiconej, konsekwentnej praktyce** z prawdziwym feedbackiem. Pięć metod — powtórki rozłożone, ćwiczenia ukierunkowane na przypadki, aktywne czytanie, ćwiczenia pisania i mówienie z korektą — obejmują każdy aspekt.',
       conclusionOutro: 'Kontynuuj z naszą serią gramatyki rosyjskiej:',
       ctaText: 'Ćwicz rosyjskie przypadki z naszą aplikacją',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Ile czasu zajmuje nauka rosyjskich przypadków?',
@@ -7112,7 +7112,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Скачайте наше приложение — самый целенаправленный инструмент для практики всех 6 падежей. На Android и iOS.',
         ctaText: 'Скачать приложение →',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -7128,7 +7128,7 @@ export const learnArticleTranslations: Partial<
         'Русские падежи становятся автоматическими благодаря **целенаправленной, разнообразной, последовательной практике** с реальной обратной связью. Пять методов — интервальное повторение, упражнения по падежам, активное чтение, письменные упражнения и разговор с исправлением — охватывают каждый аспект.',
       conclusionOutro: 'Продолжайте изучать русскую грамматику:',
       ctaText: 'Тренировать падежи в нашем приложении',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Сколько времени нужно, чтобы выучить русские падежи?',
@@ -7197,7 +7197,7 @@ export const learnArticleTranslations: Partial<
         description:
           "Notre app identifie vos points faibles et vous entraîne jusqu'à la maîtrise. Sur Android et iOS.",
         ctaText: "Télécharger l'app",
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -7220,7 +7220,7 @@ export const learnArticleTranslations: Partial<
       conclusion:
         'Corrigez vos erreurs de cas avec des exercices ciblés dans notre app. Sur Android et iOS.',
       ctaText: "Télécharger l'app",
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Pourquoi les cas russes sont-ils si difficiles ?',
@@ -7282,7 +7282,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Unsere App identifiziert Ihre Schwachstellen und übt sie zur Perfektion. Für Android und iOS.',
         ctaText: 'App herunterladen',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -7305,7 +7305,7 @@ export const learnArticleTranslations: Partial<
       conclusion:
         'Beheben Sie Ihre Fallfehler mit gezielten Übungen in unserer App. Für Android und iOS.',
       ctaText: 'App herunterladen',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Warum sind russische Fälle so schwer?',
@@ -7368,7 +7368,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Uygulamamız zayıf noktalarınızı belirler ve mükemmelliğe kadar pratik eder. Android ve iOS.',
         ctaText: 'Uygulamayı indir',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         { href: '/learn/lessons/russian-cases-complete-guide', label: 'Kapsamlı rehber' },
@@ -7388,7 +7388,7 @@ export const learnArticleTranslations: Partial<
       conclusion:
         'Hal hatalarınızı uygulamamızdaki hedefli alıştırmalarla düzeltin. Android ve iOS.',
       ctaText: 'Uygulamayı indir',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Rusça haller neden bu kadar zor?',
@@ -7451,7 +7451,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Nasza aplikacja identyfikuje twoje słabe punkty i ćwiczy je do perfekcji. Na Android i iOS.',
         ctaText: 'Pobierz aplikację',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         { href: '/learn/lessons/russian-cases-complete-guide', label: 'Kompletny przewodnik' },
@@ -7471,7 +7471,7 @@ export const learnArticleTranslations: Partial<
       conclusion:
         'Napraw błędy w przypadkach dzięki celowym ćwiczeniom w naszej aplikacji. Na Android i iOS.',
       ctaText: 'Pobierz aplikację',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Dlaczego rosyjskie przypadki są tak trudne?',
@@ -7534,7 +7534,7 @@ export const learnArticleTranslations: Partial<
         description:
           'Наше приложение определяет ваши слабые места и отрабатывает их до совершенства. На Android и iOS.',
         ctaText: 'Скачать приложение',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         { href: '/learn/lessons/russian-cases-complete-guide', label: 'Полное руководство' },
@@ -7551,7 +7551,7 @@ export const learnArticleTranslations: Partial<
       conclusion:
         'Исправьте ошибки в падежах с целенаправленными упражнениями в нашем приложении. На Android и iOS.',
       ctaText: 'Скачать приложение',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Почему русские падежи такие сложные?',
@@ -7613,7 +7613,7 @@ export const learnArticleTranslations: Partial<
         title: "S'entraîner aux prépositions et cas russes avec notre app",
         description: 'Exercices ciblés pour chaque paire préposition-cas – sur Android et iOS.',
         ctaText: "Télécharger l'app",
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -7631,7 +7631,7 @@ export const learnArticleTranslations: Partial<
       conclusion:
         "Savoir quel cas chaque préposition exige est l'une des façons les plus efficaces d'améliorer votre précision grammaticale en russe.",
       ctaText: "Télécharger l'app",
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Quelles prépositions exigent le génitif ?',
@@ -7692,7 +7692,7 @@ export const learnArticleTranslations: Partial<
         title: 'Russische Präpositionen und Fälle mit unserer App üben',
         description: 'Gezielte Übungen für jede Präpositions-Fall-Paarung – für Android und iOS.',
         ctaText: 'App herunterladen',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         {
@@ -7710,7 +7710,7 @@ export const learnArticleTranslations: Partial<
       conclusion:
         'Zu wissen, welcher Fall bei welcher Präposition verlangt wird, ist eine der effektivsten Möglichkeiten, Ihre russische Grammatikgenauigkeit zu verbessern.',
       ctaText: 'App herunterladen',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Welche Präpositionen verlangen den Genitiv?',
@@ -7770,7 +7770,7 @@ export const learnArticleTranslations: Partial<
         title: 'Rusça edatları ve halleri uygulamamızla pratik edin',
         description: 'Her edat-hal çifti için hedefli alıştırmalar – Android ve iOS.',
         ctaText: 'Uygulamayı indir',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         { href: '/learn/lessons/russian-cases-complete-guide', label: 'Kapsamlı rehber' },
@@ -7785,7 +7785,7 @@ export const learnArticleTranslations: Partial<
       conclusion:
         'Hangi edatın hangi hali gerektirdiğini bilmek Rusça gramer doğruluğunuzu artırmanın en etkili yollarından biridir.',
       ctaText: 'Uygulamayı indir',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Hangi edatlar genitif gerektirir?',
@@ -7845,7 +7845,7 @@ export const learnArticleTranslations: Partial<
         title: 'Ćwicz rosyjskie przyimki i przypadki z naszą aplikacją',
         description: 'Celowane ćwiczenia dla każdej pary przyimek–przypadek — na Android i iOS.',
         ctaText: 'Pobierz aplikację',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         { href: '/learn/lessons/russian-cases-complete-guide', label: 'Kompletny przewodnik' },
@@ -7860,7 +7860,7 @@ export const learnArticleTranslations: Partial<
       conclusion:
         'Wiedza, który przypadek wymaga każdy przyimek, to jeden z najskuteczniejszych sposobów na poprawę precyzji gramatycznej w rosyjskim.',
       ctaText: 'Pobierz aplikację',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Które przyimki wymagają dopełniacza?',
@@ -7920,7 +7920,7 @@ export const learnArticleTranslations: Partial<
         title: 'Тренируйте предлоги и падежи в нашем приложении',
         description: 'Целенаправленные упражнения для каждой пары предлог–падеж. На Android и iOS.',
         ctaText: 'Скачать приложение',
-        ctaHref: '/landing-cases',
+        ctaHref: '/',
       },
       internalLinks: [
         { href: '/learn/lessons/russian-cases-complete-guide', label: 'Полное руководство' },
@@ -7932,7 +7932,7 @@ export const learnArticleTranslations: Partial<
       conclusion:
         'Знание того, какой падеж требует каждый предлог, — один из самых эффективных способов улучшить грамматическую точность в русском.',
       ctaText: 'Скачать приложение',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Какие предлоги требуют родительного падежа?',
@@ -8185,7 +8185,7 @@ export const learnArticleTranslations: Partial<
       ],
       conclusion: '',
       ctaText: 'Voir Russian Cases with Anna',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       jsonLd: {
         '@context': 'https://schema.org',
         '@type': 'Article',
@@ -8424,7 +8424,7 @@ export const learnArticleTranslations: Partial<
       ],
       conclusion: '',
       ctaText: 'Russian Cases with Anna ansehen',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       jsonLd: {
         '@context': 'https://schema.org',
         '@type': 'Article',
@@ -8650,7 +8650,7 @@ export const learnArticleTranslations: Partial<
       ],
       conclusion: '',
       ctaText: "Russian Cases with Anna'ı görüntüle",
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       jsonLd: {
         '@context': 'https://schema.org',
         '@type': 'Article',
@@ -8881,7 +8881,7 @@ export const learnArticleTranslations: Partial<
       ],
       conclusion: '',
       ctaText: 'Zobacz Russian Cases with Anna',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       jsonLd: {
         '@context': 'https://schema.org',
         '@type': 'Article',
@@ -9106,7 +9106,7 @@ export const learnArticleTranslations: Partial<
       ],
       conclusion: '',
       ctaText: 'Смотреть Russian Cases with Anna',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       jsonLd: {
         '@context': 'https://schema.org',
         '@type': 'Article',

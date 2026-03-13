@@ -1,6 +1,7 @@
 'use client';
 
 import React, { createContext, useContext, useState, useEffect, useCallback } from 'react';
+import { useRouter } from 'next/navigation';
 import type { LandingLanguage } from '@/data/website/landingTranslations';
 
 const LANDING_LANG_KEY = 'russian-coach-landing-lang';
@@ -32,7 +33,7 @@ export function getLandingLangFromCookie(): LandingLanguage | null {
   return val && VALID_LANGS.includes(val as LandingLanguage) ? (val as LandingLanguage) : null;
 }
 
-interface LandingLanguageContextValue {
+export interface LandingLanguageContextValue {
   landingLanguage: LandingLanguage;
   setLandingLanguage: (lang: LandingLanguage) => void;
 }
@@ -40,33 +41,44 @@ interface LandingLanguageContextValue {
 const LandingLanguageContext = createContext<LandingLanguageContextValue | null>(null);
 
 export function LandingLanguageProvider({ children }: { children: React.ReactNode }) {
-  const [landingLanguage, setLandingLanguageState] = useState<LandingLanguage>(() => {
-    if (typeof window === 'undefined') return 'en_en';
-    const cookie = getLandingLangFromCookie();
-    if (cookie) return cookie;
-    const stored = sessionStorage.getItem(LANDING_LANG_KEY);
-    if (stored && VALID_LANGS.includes(stored as LandingLanguage)) return stored as LandingLanguage;
-    return detectBrowserLanguage();
-  });
+  const router = useRouter();
+  // Toujours 'en_en' à l'init pour éviter le mismatch d'hydratation SSR/client.
+  // La vraie langue est détectée dans useEffect après le montage.
+  const [landingLanguage, setLandingLanguageState] = useState<LandingLanguage>('en_en');
 
   useEffect(() => {
-    if (typeof window === 'undefined') return;
     const cookie = getLandingLangFromCookie();
     if (cookie) {
       setLandingLangCookie(cookie);
       setLandingLanguageState(cookie);
-    }
-  }, []);
-
-  const setLandingLanguage = useCallback((lang: LandingLanguage) => {
-    setLandingLangCookie(lang);
-    if (lang === 'ru_ru') {
-      sessionStorage.setItem(LANDING_LANG_KEY, 'ru_ru');
     } else {
-      sessionStorage.removeItem(LANDING_LANG_KEY);
+      const stored = sessionStorage.getItem(LANDING_LANG_KEY);
+      if (stored && VALID_LANGS.includes(stored as LandingLanguage)) {
+        setLandingLanguageState(stored as LandingLanguage);
+        setLandingLangCookie(stored as LandingLanguage);
+        router.refresh();
+      } else {
+        const detected = detectBrowserLanguage();
+        setLandingLanguageState(detected);
+        setLandingLangCookie(detected);
+        router.refresh();
+      }
     }
-    setLandingLanguageState(lang);
-  }, []);
+  }, [router]);
+
+  const setLandingLanguage = useCallback(
+    (lang: LandingLanguage) => {
+      setLandingLangCookie(lang);
+      if (lang === 'ru_ru') {
+        sessionStorage.setItem(LANDING_LANG_KEY, 'ru_ru');
+      } else {
+        sessionStorage.removeItem(LANDING_LANG_KEY);
+      }
+      setLandingLanguageState(lang);
+      router.refresh();
+    },
+    [router]
+  );
 
   useEffect(() => {
     setLandingLangCookie(landingLanguage);
@@ -85,4 +97,9 @@ export function useLandingLanguage() {
     throw new Error('useLandingLanguage must be used within LandingLanguageProvider');
   }
   return ctx;
+}
+
+/** Returns context or null when outside provider — for components used in both landing and non-landing routes */
+export function useLandingLanguageOptional(): LandingLanguageContextValue | null {
+  return useContext(LandingLanguageContext);
 }

@@ -29,7 +29,7 @@ export default function LearnIndexPage() {
   return (
     <article className="learn-content">
       <div className="learn-breadcrumb">
-        <Link href="/landing-cases" className="learn-breadcrumb-link">
+        <Link href="/" className="learn-breadcrumb-link">
           {t.breadcrumb.home}
         </Link>
         <span className="learn-breadcrumb-sep">/</span>

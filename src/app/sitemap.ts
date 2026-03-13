@@ -2,12 +2,13 @@ import type { MetadataRoute } from 'next';
 import { getAllLearnLessonSlugs } from '@/data/learnLessons';
 import { getAllLearnArticleSlugs } from '@/data/learnArticles';
 import { getAllBlogSlugs } from '@/lib/blog';
+import { getAllSlugsWithBaseForm } from '@/lib/words';
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://russiandeclensions.com';
 
 export const dynamic = 'force-static';
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = siteUrl.replace(/\/$/, '');
 
   const learnLessonEntries = getAllLearnLessonSlugs().map((slug) => ({
@@ -31,6 +32,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
+  const wordItems = await getAllSlugsWithBaseForm();
+  const wordEntries = wordItems.map(({ slug }) => ({
+    url: `${baseUrl}/russian-declension/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.8,
+  }));
+
   return [
     {
       url: baseUrl,
@@ -39,10 +48,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: `${baseUrl}/landing-cases`,
+      url: `${baseUrl}/words`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
-      priority: 1,
+      priority: 0.9,
     },
     {
       url: `${baseUrl}/learn`,
@@ -59,5 +68,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...learnLessonEntries,
     ...learnArticleEntries,
     ...blogEntries,
+    ...wordEntries,
   ];
 }

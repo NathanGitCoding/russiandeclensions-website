@@ -351,7 +351,7 @@ This table will help:
 
 Our mobile app drills all 6 Russian cases — with special focus on нравиться, age expressions, impersonal constructions, and indirect objects. Available on Android and iOS.
 
-[Download the app and start drilling today](/landing-cases)
+[Download the app and start drilling today](/)
 
 ---
 - **Uses:** indirect object, experiencer of нравиться, age, impersonal expressions (мне нужно, мне холодно), after prepositions к and по
@@ -398,4 +398,4 @@ Use [person in dative] + нравится/нравятся + [subject]. Мне �
 давать/дать, говорить/сказать, писать, звонить, помогать, показывать, объяснять, советовать, верить, завидовать, мешать, принадлежать. **Нравиться** takes the experiencer in the dative.
 
 
-[Practice Russian cases with our app](/landing-cases)
+[Practice Russian cases with our app](/)

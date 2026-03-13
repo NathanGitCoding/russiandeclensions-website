@@ -6,7 +6,7 @@ Site web marketing et SEO pour Russian Cases with Anna. Contient la landing page
 
 ## Contenu
 
-- `/landing-cases` — Page d'accueil marketing
+- `/` — Page d'accueil marketing
 - `/learn` — Index des leçons et articles
 - `/learn/articles/[slug]` — Articles (guides, top apps, etc.)
 - `/learn/lessons/[slug]` — Leçons de grammaire (déclinaisons, cas)

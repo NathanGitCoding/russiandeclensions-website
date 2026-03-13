@@ -246,7 +246,7 @@ Read texts, listen to audio, and pay attention to how native speakers use declin
 
 Our mobile app is built specifically for drilling Russian cases and declensions. Smart exercises, spaced repetition, and real Russian examples — on Android and iOS.
 
-[Download the app and start drilling today](/landing-cases)
+[Download the app and start drilling today](/)
 
 ---
 This Russian case endings cheat sheet covers **everything** you need: **all 6 cases** for nouns (all genders, singular and plural), adjectives (hard and soft stems), personal pronouns, possessive pronouns, demonstrative pronouns, and preposition-case pairings.
@@ -283,4 +283,4 @@ Yes. A small set of **borrowed foreign words** (несклоняемые сущ�
 For **animate masculine** nouns, the accusative form is **identical** to the genitive. This is the famous **animate accusative = genitive** rule. Example: студент → студента (gen.) = студента (acc.). The only way to tell which case it is is by the sentence structure.
 
 
-[Practice Russian cases with our app](/landing-cases)
+[Practice Russian cases with our app](/)

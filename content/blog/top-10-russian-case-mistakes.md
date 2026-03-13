@@ -180,7 +180,7 @@ Go through the top 10 list and honestly assess each one. Score yourself:
 
 Our mobile app identifies your specific weak spots and practices them to mastery. Smart exercises, spaced repetition — on Android and iOS.
 
-[Download the app and start drilling today](/landing-cases)
+[Download the app and start drilling today](/)
 
 ---
 Russian cases are genuinely difficult — but the specific mistakes that English speakers make are **predictable, diagnosable, and fixable**. The 10 mistakes in this article account for the vast majority of Russian case errors made by native English speakers. The path forward is clear: identify which mistakes you're making, understand WHY they happen (usually because English works differently), and drill the correct pattern until it replaces the incorrect one.
@@ -208,4 +208,4 @@ Most learners reach comfortable accuracy with the most common cases (nominative,
 Based on learner error analysis, the **single most common mistake** is using the nominative after нет — saying Нет кот instead of Нет кота. The second most common is failing to change the direct object to the accusative (Я вижу кот instead of кота). These two mistakes occur in almost every sentence a beginner constructs, making them the highest-priority items to fix.
 
 
-[Download the app](/landing-cases)
+[Download the app](/)

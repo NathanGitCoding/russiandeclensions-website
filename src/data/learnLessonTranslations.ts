@@ -477,7 +477,7 @@ export const learnLessonTranslations: Partial<
       conclusionOutro:
         "La clé pour apprendre les cas russes est une pratique régulière et structurée. Apprenez les motifs un cas à la fois, entraînez-vous aux prépositions avec leurs cas requis et exposez-vous autant que possible au russe réel.\n\nMaintenant que vous avez une vue d'ensemble complète du système des cas russes, vous pouvez approfondir chaque cas. Utilisez les liens ci-dessous pour explorer chaque cas en détail :",
       ctaText: "S'entraîner aux cas russes avec notre appli",
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Combien de cas a le russe ?',
@@ -992,7 +992,7 @@ export const learnLessonTranslations: Partial<
       conclusionOutro:
         'Der Schlüssel zum Lernen der russischen Fälle ist regelmäßige, strukturierte Übung. Lernen Sie die Muster Fall für Fall, trainieren Sie Präpositionen mit ihren Fällen und setzen Sie sich viel mit echtem Russisch auseinander.\n\nNutzen Sie die Links unten, um jeden Fall im Detail zu erkunden:',
       ctaText: 'Russische Fälle mit unserer App üben',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Wie viele Fälle hat Russisch?',
@@ -1489,7 +1489,7 @@ export const learnLessonTranslations: Partial<
       conclusionOutro:
         'Rusça halleri öğrenmenin anahtarı düzenli, yapılandırılmış pratik yapmaktır. Hal kalıplarını tek tek öğrenin, edatları halleriyle pratik edin ve bolca gerçek Rusça ile temas kurun.\n\nHer hali detaylı keşfetmek için aşağıdaki bağlantıları kullanın:',
       ctaText: 'Rusça halleri uygulamamızla pratik yapın',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Rusçada kaç hal vardır?',
@@ -1999,7 +1999,7 @@ export const learnLessonTranslations: Partial<
       conclusionOutro:
         'Kluczem do nauki rosyjskich przypadków jest systematyczna, uporządkowana praktyka. Ucz się wzorców po jednym przypadku, ćwicz przyimki wraz z ich wymaganymi przypadkami i wystawiaj się na prawdziwy rosyjski jak najczęściej.\n\nTeraz, gdy masz kompletny przegląd systemu przypadków rosyjskich, możesz zagłębić się w każdy przypadek osobno. Użyj linków poniżej, aby zbadać każdy przypadek szczegółowo:',
       ctaText: 'Ćwicz rosyjskie przypadki z naszą aplikacją',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Ile przypadków ma rosyjski?',
@@ -2156,7 +2156,7 @@ export const learnLessonTranslations: Partial<
         'Падежи — основа русской грамматики. Начните с именительного, затем винительный и родительный. Добавляйте остальные по мере освоения.',
       conclusionOutro: 'Продолжайте изучать русскую грамматику:',
       ctaText: 'Тренировать падежи в нашем приложении',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       faq: [
         {
           question: 'Сколько падежей в русском языке?',
@@ -2282,7 +2282,7 @@ export const learnLessonTranslations: Partial<
       conclusion:
         "Le cas datif va bien au-delà du « donner » — il est essentiel pour exprimer les sentiments, l'âge, la nécessité et les états impersonnels en russe. Avec une pratique régulière de ces terminaisons, pronoms et combinaisons de prépositions, vous améliorerez rapidement votre grammaire russe.\n\nSi vous voulez vous entraîner aux six cas avec des exercices interactifs, l'appli Russian Cases with Anna peut vous aider.",
       ctaText: "Voir l'appli",
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       jsonLd: {
         '@context': 'https://schema.org',
         '@graph': [
@@ -2412,7 +2412,7 @@ export const learnLessonTranslations: Partial<
       conclusion:
         'Der Dativ geht weit über „Geben" hinaus – er ist unerlässlich für Gefühle, Alter, Notwendigkeit und unpersönliche Zustände im Russischen. Mit regelmäßiger Übung dieser Endungen, Pronomen und Präpositionenkombinationen verbessern Sie schnell Ihre russische Grammatik.\n\nWenn Sie alle sechs Fälle mit interaktiven Übungen üben möchten, kann Ihnen die App Russian Cases with Anna helfen.',
       ctaText: 'App ansehen',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       jsonLd: {
         '@context': 'https://schema.org',
         '@graph': [
@@ -2543,7 +2543,7 @@ export const learnLessonTranslations: Partial<
       conclusion:
         'Datif sadece "vermek"in çok ötesindedir — Rusçada duygular, yaş, gereklilik ve kişisiz durumlar için gereklidir. Bu eklerin, zamirlerin ve edat kombinasyonlarının düzenli pratiğiyle Rusça gramerinizi hızla geliştirirsiniz.\n\nAltı halin hepsini interaktif alıştırmalarla pratik etmek isterseniz, Russian Cases with Anna uygulaması yardımcı olabilir.',
       ctaText: 'Uygulamayı görün',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       jsonLd: {
         '@context': 'https://schema.org',
         '@graph': [
@@ -2678,7 +2678,7 @@ export const learnLessonTranslations: Partial<
       conclusion:
         'Celownik wykracza daleko poza „dawanie" — jest niezbędny do wyrażania uczuć, wieku, konieczności i stanów nieosobowych w rosyjskim. Dzięki regularnej praktyce tych końcówek, zaimków i kombinacji przyimków szybko poprawisz swoją rosyjską gramatykę.\n\nJeśli chcesz ćwiczyć wszystkie sześć przypadków z interaktywnymi ćwiczeniami, aplikacja Russian Cases with Anna może ci pomóc.',
       ctaText: 'Zobacz aplikację',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       jsonLd: {
         '@context': 'https://schema.org',
         '@graph': [
@@ -2767,7 +2767,7 @@ export const learnLessonTranslations: Partial<
       conclusion:
         'Дательный падеж — один из самых многозначных падежей русского языка. Освойте его для естественной речи.',
       ctaText: 'Тренировать падежи в нашем приложении',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
       jsonLd: {
         '@context': 'https://schema.org',
         '@type': 'Article',

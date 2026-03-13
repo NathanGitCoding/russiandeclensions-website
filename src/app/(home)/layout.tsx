@@ -1,6 +1,6 @@
 import React from 'react';
 import type { Metadata } from 'next';
-import './landing.css';
+import '../landing.css';
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://russiandeclensions.com';
 
@@ -12,10 +12,10 @@ export const metadata: Metadata = {
   keywords:
     'apprendre le russe, grammaire russe, cas russes, leçons de russe, application russe, Russian grammar, learn Russian',
   alternates: {
-    canonical: '/landing-cases',
+    canonical: '/',
   },
   openGraph: {
-    url: '/landing-cases',
+    url: '/',
     type: 'website',
     siteName: 'Russian Cases with Anna®',
     title: 'Russian Cases with Anna® - Learn Russian Grammar',
@@ -66,7 +66,7 @@ const jsonLd = {
   ],
 };
 
-export default function LandingCasesLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+export default function HomeLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <>
       <script

@@ -527,7 +527,7 @@ export const learnLessons: Record<string, LearnLesson> = {
     conclusionOutro:
       "The key to learning Russian cases is consistent, structured practice. Learn the patterns one case at a time, drill the prepositions alongside their required cases, and expose yourself to real Russian input as much as possible.\n\nNow that you have a complete overview of the Russian case system, you're ready to dive deeper into each individual case. Use the links below to explore each case in more detail:",
     ctaText: 'Practice Russian cases with our app',
-    ctaHref: '/landing-cases',
+    ctaHref: '/',
     faq: [
       {
         question: 'How many cases does Russian have?',
@@ -686,7 +686,7 @@ export const learnLessons: Record<string, LearnLesson> = {
     conclusion:
       'The Dative case goes far beyond "giving" — it is essential for expressing feelings, age, necessity, and impersonal states in Russian. With regular practice of these endings, pronouns, and preposition combinations, you will quickly improve your Russian grammar.\n\nIf you want to practice all six cases with interactive exercises, the app Russian Cases with Anna may help.',
     ctaText: 'See the app',
-    ctaHref: '/landing-cases',
+    ctaHref: '/',
     jsonLd: {
       '@context': 'https://schema.org',
       '@graph': [

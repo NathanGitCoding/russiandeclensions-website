@@ -49,11 +49,31 @@ export const viewport: Viewport = {
   ],
 };
 
+const webSiteJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Russian Declensions',
+  url: siteUrl,
+  description: 'Master Russian grammar. Free lessons and declension tables for Russian cases.',
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: {
+      '@type': 'EntryPoint',
+      urlTemplate: `${siteUrl}/words?q={search_term_string}`,
+    },
+    'query-input': 'required name=search_term_string',
+  },
+};
+
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
       <head>
         <link rel="shortcut icon" href="/favicon.ico" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(webSiteJsonLd) }}
+        />
       </head>
       <body
         className={`${notoSansDisplay.variable} ${rubik.variable} min-h-screen font-sans antialiased`}

@@ -50,7 +50,7 @@ const LandingCTA = dynamic(() => import('@/components/landing/LandingCTA'), {
 
 type WaitlistSource = 'ios' | 'android';
 
-export default function LandingCasesPage() {
+export default function HomePage() {
   const [waitlistModal, setWaitlistModal] = useState<{
     isOpen: boolean;
     source: WaitlistSource | null;

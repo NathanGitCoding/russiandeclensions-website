@@ -280,7 +280,7 @@ The most common **errors** learners make with the genitive case:
 
 Our mobile app drills all 6 Russian cases — including the genitive plural — with spaced repetition, real sentences, and instant feedback. Available on Android and iOS.
 
-[Download the app and start drilling today](/landing-cases)
+[Download the app and start drilling today](/)
 
 ---
 The Russian genitive case is the **workhorse** of the Russian case system. It handles **possession**, **negation**, **quantity**, **comparison**, **dates**, and is required by more **prepositions** than any other case.
@@ -318,4 +318,4 @@ Several common Russian verbs take their object in the genitive: бояться (
 Russian does not have a direct verb for "to have". Use the construction У + [person in genitive] + есть + [thing]: У меня есть машина (I have a car). For negation: У меня нет машины (I don't have a car) — the thing not owned goes into the genitive after нет.
 
 
-[Practice Russian cases with our app](/landing-cases)
+[Practice Russian cases with our app](/)

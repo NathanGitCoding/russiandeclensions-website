@@ -13,7 +13,8 @@ Tout le contenu marketing et SEO (landing, learn, articles) provient de :
 2. **WaitlistModal** : utilise `useLandingLanguage()` avec fallback `ru_ru` → `en_en` pour les traductions
 3. **Layout** : minimal (fonts, LandingLanguageProvider), pas de Supabase Auth, Capacitor, WebAccessGuard
 4. **siteUrl** : russiandeclensions.com par défaut
-5. **Sitemap** : landing-cases + learn uniquement
+5. **Sitemap** : landing + learn uniquement
+6. **URL racine** : migration vers `/` (ex-`/landing-cases`), redirection 301 en place
 
 ## Déploiement
 

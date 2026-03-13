@@ -1,5 +1,5 @@
 /**
- * Traductions pour la page /landing-cases et ses composants
+ * Traductions pour la page d'accueil (/) et ses composants
  */
 
 import type { Language } from '@/data/languages';
@@ -28,6 +28,7 @@ export interface LandingTestimonial {
 export interface LandingTranslations {
   navbar: {
     brand: string;
+    declinaisons: string;
     home: string;
     features: string;
     about: string;
@@ -567,11 +568,12 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
   en_en: {
     navbar: {
       brand: 'Russian Cases with Anna®',
-      home: 'Home',
+      declinaisons: 'Declensions',
+      home: 'App',
       features: 'Features',
       about: 'About',
       learn: 'Free Grammar Lessons',
-      getApp: 'Get the App',
+      getApp: 'Get the app for free',
     },
     hero: {
       tagline: 'Russian Cases with Anna®',
@@ -618,11 +620,12 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
   fr_fr: {
     navbar: {
       brand: 'Russian Cases with Anna®',
-      home: 'Accueil',
+      declinaisons: 'Déclinaisons',
+      home: 'App',
       features: 'Fonctionnalités',
       about: 'À propos',
       learn: 'Leçons de grammaire gratuites',
-      getApp: "Télécharger l'app",
+      getApp: "Obtenez l'app gratuitement",
     },
     hero: {
       tagline: 'Russian Cases with Anna®',
@@ -669,11 +672,12 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
   tr_tr: {
     navbar: {
       brand: 'Russian Cases with Anna®',
-      home: 'Ana Sayfa',
+      declinaisons: 'Çekimler',
+      home: 'App',
       features: 'Özellikler',
       about: 'Hakkında',
       learn: 'Ücretsiz Gramer Dersleri',
-      getApp: 'Uygulamayı İndir',
+      getApp: "Uygulamayı ücretsiz indirin",
     },
     hero: {
       tagline: 'Russian Cases with Anna®',
@@ -720,11 +724,12 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
   de_de: {
     navbar: {
       brand: 'Russian Cases with Anna®',
-      home: 'Startseite',
+      declinaisons: 'Deklinationen',
+      home: 'App',
       features: 'Funktionen',
       about: 'Über uns',
       learn: 'Kostenlose Grammatik-Lektionen',
-      getApp: 'App herunterladen',
+      getApp: 'App kostenlos herunterladen',
     },
     hero: {
       tagline: 'Russian Cases with Anna®',
@@ -771,11 +776,12 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
   pl_pl: {
     navbar: {
       brand: 'Russian Cases with Anna®',
-      home: 'Strona główna',
+      declinaisons: 'Odmiany',
+      home: 'App',
       features: 'Funkcje',
       about: 'O nas',
       learn: 'Darmowe lekcje gramatyki',
-      getApp: 'Pobierz aplikację',
+      getApp: 'Pobierz aplikację za darmo',
     },
     hero: {
       tagline: 'Russian Cases with Anna®',
@@ -822,11 +828,12 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
   ru_ru: {
     navbar: {
       brand: 'Russian Cases with Anna®',
-      home: 'Главная',
+      declinaisons: 'Склонения',
+      home: 'App',
       features: 'Функции',
       about: 'О нас',
       learn: 'Бесплатные уроки грамматики',
-      getApp: 'Скачать приложение',
+      getApp: 'Скачать приложение бесплатно',
     },
     hero: {
       tagline: 'Russian Cases with Anna®',

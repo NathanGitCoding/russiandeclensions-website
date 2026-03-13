@@ -35,7 +35,7 @@ export const ARTICLE_SLUGS = [
 ] as const;
 
 const en: LearnPageTranslations = {
-  breadcrumb: { home: 'Home', learn: 'Learn' },
+  breadcrumb: { home: 'App', learn: 'Free Grammar Lessons' },
   header: {
     title: 'Learn Russian Grammar & Cases',
     lead: 'Free lessons and articles on Russian declensions, grammatical cases, and vocabulary.',
@@ -66,7 +66,7 @@ const en: LearnPageTranslations = {
 };
 
 const fr: LearnPageTranslations = {
-  breadcrumb: { home: 'Accueil', learn: 'Apprendre' },
+  breadcrumb: { home: 'App', learn: 'Leçons de grammaire gratuites' },
   header: {
     title: 'Apprendre la grammaire russe et les cas',
     lead: 'Leçons et articles gratuits sur les déclinaisons russes, les cas grammaticaux et le vocabulaire.',
@@ -96,7 +96,7 @@ const fr: LearnPageTranslations = {
 };
 
 const tr: LearnPageTranslations = {
-  breadcrumb: { home: 'Ana Sayfa', learn: 'Öğren' },
+  breadcrumb: { home: 'App', learn: 'Ücretsiz Gramer Dersleri' },
   header: {
     title: 'Rusça grameri ve halleri öğrenin',
     lead: 'Rusça çekimler, gramer halleri ve kelime bilgisi hakkında ücretsiz dersler ve makaleler.',
@@ -124,7 +124,7 @@ const tr: LearnPageTranslations = {
 };
 
 const de: LearnPageTranslations = {
-  breadcrumb: { home: 'Startseite', learn: 'Lernen' },
+  breadcrumb: { home: 'App', learn: 'Kostenlose Grammatik-Lektionen' },
   header: {
     title: 'Russische Grammatik und Fälle lernen',
     lead: 'Kostenlose Lektionen und Artikel zu russischen Deklinationen, grammatischen Fällen und Wortschatz.',
@@ -154,7 +154,7 @@ const de: LearnPageTranslations = {
 };
 
 const pl: LearnPageTranslations = {
-  breadcrumb: { home: 'Strona główna', learn: 'Nauka' },
+  breadcrumb: { home: 'App', learn: 'Darmowe lekcje gramatyki' },
   header: {
     title: 'Naucz się gramatyki rosyjskiej i przypadków',
     lead: 'Darmowe lekcje i artykuły o rosyjskich deklinacjach, przypadkach gramatycznych i słownictwie.',
@@ -185,7 +185,7 @@ const pl: LearnPageTranslations = {
 };
 
 const ru: LearnPageTranslations = {
-  breadcrumb: { home: 'Главная', learn: 'Обучение' },
+  breadcrumb: { home: 'App', learn: 'Бесплатные уроки грамматики' },
   header: {
     title: 'Русская грамматика и падежи',
     lead: 'Бесплатные уроки и статьи о русских склонениях, падежах и лексике.',

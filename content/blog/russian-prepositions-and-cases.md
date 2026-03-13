@@ -180,7 +180,7 @@ For **в** and **на**: ask yourself — is this answering **"Where?"** (prepos
 
 Targeted exercises for every preposition-case pairing — Android and iOS.
 
-[Download the app](/landing-cases)
+[Download the app](/)
 
 ---
 - **Genitive** has the most prepositions (18) — learn the cluster без, до, из, у, от, после, для, кроме.
@@ -209,4 +209,4 @@ The main genitive prepositions are: **без**, **до**, **из**, **с**, **у
 **с + genitive** = "from" (off a surface): книга упала с полки (the book fell off the shelf). **с + instrumental** = "with" (accompaniment): я иду с другом (I am going with a friend). The meaning is completely different.
 
 
-[Practice prepositions in the app](/landing-cases)
+[Practice prepositions in the app](/)

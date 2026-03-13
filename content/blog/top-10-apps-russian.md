@@ -157,4 +157,4 @@ To master Russian, we recommend a **hybrid approach**:
 - **A "Gap-Filler":** Use **Duolingo** during your commute to keep your vocabulary fresh.
 
 
-[See Russian Cases with Anna](/landing-cases)
+[See Russian Cases with Anna](/)

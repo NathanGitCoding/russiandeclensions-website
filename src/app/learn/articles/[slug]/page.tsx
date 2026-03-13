@@ -139,8 +139,8 @@ export default async function LearnArticlePage({ params }: Props) {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: `${siteUrl}/landing-cases` },
-      { '@type': 'ListItem', position: 2, name: 'Learn', item: `${siteUrl}/learn` },
+      { '@type': 'ListItem', position: 1, name: t.breadcrumb.home, item: `${siteUrl}/` },
+      { '@type': 'ListItem', position: 2, name: t.breadcrumb.learn, item: `${siteUrl}/learn` },
       { '@type': 'ListItem', position: 3, name: 'Articles', item: `${siteUrl}/learn` },
       {
         '@type': 'ListItem',
@@ -208,7 +208,7 @@ export default async function LearnArticlePage({ params }: Props) {
       )}
       <article className="learn-detail" itemScope itemType="https://schema.org/Article">
         <nav className="learn-breadcrumb" aria-label="Breadcrumb">
-          <Link href="/landing-cases" className="learn-breadcrumb-link">
+          <Link href="/" className="learn-breadcrumb-link">
             {t.breadcrumb.home}
           </Link>
           <span className="learn-breadcrumb-sep">/</span>

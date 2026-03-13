@@ -4,7 +4,7 @@ import React, { useState, useCallback } from 'react';
 import { createPortal } from 'react-dom';
 import MascotWrapper from '@/components/ui/MascotWrapper';
 import { getWaitlistModalTranslations } from '@/data/waitlistModalTranslations';
-import { useLandingLanguage } from '@/contexts/LandingLanguageContext';
+import { useLandingLanguageOptional } from '@/contexts/LandingLanguageContext';
 import type { Language } from '@/data/languages';
 
 type WaitlistSource = 'ios' | 'android';
@@ -24,8 +24,8 @@ interface WaitlistModalProps {
 type FormState = 'idle' | 'loading' | 'success' | 'error';
 
 export function WaitlistModal({ isOpen, onClose, source }: WaitlistModalProps) {
-  const { landingLanguage } = useLandingLanguage();
-  const language = toWaitlistLanguage(landingLanguage);
+  const ctx = useLandingLanguageOptional();
+  const language = toWaitlistLanguage(ctx?.landingLanguage ?? 'en_en');
   const [email, setEmail] = useState('');
   const [marketingAccepted, setMarketingAccepted] = useState(false);
   const [formState, setFormState] = useState<FormState>('idle');
@@ -101,6 +101,7 @@ export function WaitlistModal({ isOpen, onClose, source }: WaitlistModalProps) {
               size={140}
               className="h-auto max-h-[140px] w-full object-contain"
               priority
+              customSrc="/landing-cases/russian-teacher-anna-welcome.webp"
             />
           </div>
         </div>

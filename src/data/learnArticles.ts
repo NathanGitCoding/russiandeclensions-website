@@ -345,7 +345,7 @@ export const learnArticles: Record<string, LearnArticle> = {
     ],
     conclusion: '',
     ctaText: 'See Russian Cases with Anna',
-    ctaHref: '/landing-cases',
+    ctaHref: '/',
     jsonLd: {
       '@context': 'https://schema.org',
       '@type': 'Article',
@@ -401,7 +401,7 @@ export const learnArticles: Record<string, LearnArticle> = {
       description:
         'Our mobile app is built specifically for drilling Russian cases and declensions. Smart exercises, spaced repetition, and real Russian examples — on Android and iOS.',
       ctaText: 'Download the app and start drilling today',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
     },
     internalLinks: [
       {
@@ -711,7 +711,7 @@ export const learnArticles: Record<string, LearnArticle> = {
     conclusionOutro:
       'For a complete explanation of what each case means and how to use it, explore our full guides:',
     ctaText: 'Practice Russian cases with our app',
-    ctaHref: '/landing-cases',
+    ctaHref: '/',
     faq: [
       {
         question: 'What is the hardest Russian case ending to learn?',
@@ -796,7 +796,7 @@ export const learnArticles: Record<string, LearnArticle> = {
       description:
         'Our mobile app drills all 6 Russian cases — including the genitive plural — with spaced repetition, real sentences, and instant feedback. Available on Android and iOS.',
       ctaText: 'Download the app and start drilling today',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
     },
     internalLinks: [
       {
@@ -1398,7 +1398,7 @@ export const learnArticles: Record<string, LearnArticle> = {
     conclusionOutro:
       'Ready to continue? Explore the other cases in our complete Russian grammar series:',
     ctaText: 'Practice Russian cases with our app',
-    ctaHref: '/landing-cases',
+    ctaHref: '/',
     faq: [
       {
         question: 'What is the Russian genitive case used for?',
@@ -1484,7 +1484,7 @@ export const learnArticles: Record<string, LearnArticle> = {
       description:
         'Our mobile app covers all 6 Russian cases — with special focus on animate/inanimate, motion verbs, and в/на direction vs. location. Available on Android and iOS.',
       ctaText: 'Download the app and start drilling today',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
     },
     internalLinks: [
       {
@@ -2254,7 +2254,7 @@ export const learnArticles: Record<string, LearnArticle> = {
       "The Russian accusative case is essential for everyday communication. Every time you talk about doing something to something — reading a book, seeing a person, going somewhere — you're using the accusative.\n\n**Feminine -А/-Я** always change (-а → -у, -я → -ю). **Masculine inanimate** = no change. **Masculine animate** = genitive form. **В/НА + accusative** = direction | **В/НА + prepositional** = location. **Animate plural** → genitive plural (студентов).",
     conclusionOutro: 'Continue your Russian grammar journey:',
     ctaText: 'Practice Russian cases with our app',
-    ctaHref: '/landing-cases',
+    ctaHref: '/',
     faq: [
       {
         question: 'What is the accusative case used for in Russian?',
@@ -2348,7 +2348,7 @@ export const learnArticles: Record<string, LearnArticle> = {
       description:
         'Our mobile app drills all 6 Russian cases — with special focus on нравиться, age expressions, impersonal constructions, and indirect objects. Available on Android and iOS.',
       ctaText: 'Download the app and start drilling today',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
     },
     internalLinks: [
       {
@@ -3085,7 +3085,7 @@ export const learnArticles: Record<string, LearnArticle> = {
     ],
     conclusionOutro: 'Continue with the rest of our Russian grammar series:',
     ctaText: 'Practice Russian cases with our app',
-    ctaHref: '/landing-cases',
+    ctaHref: '/',
     faq: [
       {
         question: 'What is the dative case used for in Russian?',
@@ -3176,7 +3176,7 @@ export const learnArticles: Record<string, LearnArticle> = {
       description:
         'Our mobile app drills all 6 Russian cases — with special focus on professions, с + instrumental, spatial prepositions, and reflexive verbs. Available on Android and iOS.',
       ctaText: 'Download the app and start drilling today',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
     },
     internalLinks: [
       {
@@ -3706,7 +3706,7 @@ export const learnArticles: Record<string, LearnArticle> = {
     ],
     conclusionOutro: 'Continue with the rest of our Russian grammar series:',
     ctaText: 'Practice Russian instrumental case with our app',
-    ctaHref: '/landing-cases',
+    ctaHref: '/',
     faq: [
       {
         question: 'What is the Russian instrumental case used for?',
@@ -3788,7 +3788,7 @@ export const learnArticles: Record<string, LearnArticle> = {
       description:
         'Our mobile app drills all 6 Russian cases — including в/на location and о + topic — with real sentences and instant feedback. Available on Android and iOS.',
       ctaText: 'Download the app and start drilling today',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
     },
     internalLinks: [
       {
@@ -4380,7 +4380,7 @@ export const learnArticles: Record<string, LearnArticle> = {
     conclusionOutro:
       'Practice Russian location grammar and the prepositional case with our mobile app. All 6 cases drilled with real sentences — Android and iOS.',
     ctaText: 'Practice Russian cases with our app',
-    ctaHref: '/landing-cases',
+    ctaHref: '/',
     faq: [
       {
         question: 'Why is it called the "prepositional" case?',
@@ -4753,10 +4753,10 @@ export const learnArticles: Record<string, LearnArticle> = {
       description:
         'Download our Russian cases mobile app — the most focused tool for drilling all 6 Russian cases with spaced repetition and real Russian sentences. All 6 cases with full noun, adjective, and pronoun declension. Smart SRS that identifies your weak spots and drills them more. Special focus on the animate/inanimate accusative distinction. Available on Android and iOS. Free to start.',
       ctaText: 'Download the app →',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
     },
     ctaText: 'Practice Russian cases with our app',
-    ctaHref: '/landing-cases',
+    ctaHref: '/',
     faq: [
       {
         question: 'How long does it take to learn Russian cases?',
@@ -4817,7 +4817,7 @@ export const learnArticles: Record<string, LearnArticle> = {
       description:
         'Our mobile app identifies your specific weak spots and practices them to mastery. Smart exercises, spaced repetition — on Android and iOS.',
       ctaText: 'Download the app and start drilling today',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
     },
     internalLinks: [
       {
@@ -5086,7 +5086,7 @@ export const learnArticles: Record<string, LearnArticle> = {
     conclusion:
       'Fix your Russian case mistakes with targeted drills in our mobile app. Smart exercises that identify your specific weak spots and practice them to mastery. Available on Android and iOS.',
     ctaText: 'Download the app',
-    ctaHref: '/landing-cases',
+    ctaHref: '/',
     jsonLd: {
       '@context': 'https://schema.org',
       '@type': 'Article',
@@ -5144,7 +5144,7 @@ export const learnArticles: Record<string, LearnArticle> = {
       title: 'Practice Russian prepositions and cases with our mobile app',
       description: 'Targeted exercises for every preposition-case pairing — Android and iOS.',
       ctaText: 'Download the app',
-      ctaHref: '/landing-cases',
+      ctaHref: '/',
     },
     internalLinks: [
       {
@@ -5638,7 +5638,7 @@ export const learnArticles: Record<string, LearnArticle> = {
       'Use the master table as a **lookup tool** until pairings become automatic.',
     ],
     ctaText: 'Practice prepositions in the app',
-    ctaHref: '/landing-cases',
+    ctaHref: '/',
     jsonLd: {
       '@context': 'https://schema.org',
       '@type': 'Article',

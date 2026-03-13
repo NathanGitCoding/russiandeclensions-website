@@ -2,7 +2,7 @@ import React from 'react';
 import type { Metadata } from 'next';
 import LandingNavbar from '@/components/landing/LandingNavbar';
 import LandingFooter from '@/components/landing/LandingFooter';
-import '../landing-cases/landing.css';
+import '../landing.css';
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://russiandeclensions.com';
 

@@ -254,7 +254,7 @@ Below are **30 authentic sentences** demonstrating every major use of the instru
 
 Our mobile app drills all 6 Russian cases — with special focus on professions, с + instrumental, spatial prepositions, and reflexive verbs. Available on Android and iOS.
 
-[Download the app and start drilling today](/landing-cases)
+[Download the app and start drilling today](/)
 
 ---
 - **Noun endings:** masc./neuter -ОМ/-ЕМ | fem. -ОЙ/-ЕЙ | fem. -ь → -ЬЮ | plural -АМИ/-ЯМИ
@@ -293,4 +293,4 @@ Use the **instrumental case** of the profession noun after the relevant verb: р
 Prepositions like за, под, перед, над can take either **instrumental** or **accusative**. **Instrumental** = static position (where something is): книга под столом. **Accusative** = motion toward: положи книгу под стол. Instrumental = I'm already THERE. Accusative = I'm going THERE.
 
 
-[Practice Russian instrumental case with our app](/landing-cases)
+[Practice Russian instrumental case with our app](/)

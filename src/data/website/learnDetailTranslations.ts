@@ -21,7 +21,7 @@ export interface LearnDetailTranslations {
 
 const translations: Record<LandingLanguage, LearnDetailTranslations> = {
   en_en: {
-    breadcrumb: { home: 'Home', learn: 'Learn' },
+    breadcrumb: { home: 'App', learn: 'Free Grammar Lessons' },
     backToLearn: '← Back to Learn',
     whatsInThisCheatsheet: "What's in this cheat sheet:",
     whatYouLearnInThisGuide: "What you'll learn in this guide:",
@@ -40,7 +40,7 @@ const translations: Record<LandingLanguage, LearnDetailTranslations> = {
     viewApp: 'View app →',
   },
   fr_fr: {
-    breadcrumb: { home: 'Accueil', learn: 'Apprendre' },
+    breadcrumb: { home: 'App', learn: 'Leçons de grammaire gratuites' },
     backToLearn: '← Retour à Apprendre',
     whatsInThisCheatsheet: 'Contenu de cette antisèche :',
     whatYouLearnInThisGuide: 'Ce que vous allez apprendre dans ce guide :',
@@ -59,7 +59,7 @@ const translations: Record<LandingLanguage, LearnDetailTranslations> = {
     viewApp: "Voir l'app →",
   },
   tr_tr: {
-    breadcrumb: { home: 'Ana Sayfa', learn: 'Öğren' },
+    breadcrumb: { home: 'App', learn: 'Ücretsiz Gramer Dersleri' },
     backToLearn: "← Öğren'e geri dön",
     whatsInThisCheatsheet: 'Bu kopya kağıdında neler var:',
     whatYouLearnInThisGuide: 'Bu rehberde ne öğreneceksiniz:',
@@ -78,7 +78,7 @@ const translations: Record<LandingLanguage, LearnDetailTranslations> = {
     viewApp: 'Uygulamayı görün →',
   },
   de_de: {
-    breadcrumb: { home: 'Startseite', learn: 'Lernen' },
+    breadcrumb: { home: 'App', learn: 'Kostenlose Grammatik-Lektionen' },
     backToLearn: '← Zurück zu Lernen',
     whatsInThisCheatsheet: 'Inhalt dieser Spickzettel:',
     whatYouLearnInThisGuide: 'Was Sie in diesem Leitfaden lernen:',
@@ -97,7 +97,7 @@ const translations: Record<LandingLanguage, LearnDetailTranslations> = {
     viewApp: 'App ansehen →',
   },
   pl_pl: {
-    breadcrumb: { home: 'Strona główna', learn: 'Nauka' },
+    breadcrumb: { home: 'App', learn: 'Darmowe lekcje gramatyki' },
     backToLearn: '← Powrót do Nauki',
     whatsInThisCheatsheet: 'Zawartość tej ściągi:',
     whatYouLearnInThisGuide: 'Czego nauczysz się w tym przewodniku:',
@@ -116,7 +116,7 @@ const translations: Record<LandingLanguage, LearnDetailTranslations> = {
     viewApp: 'Zobacz aplikację →',
   },
   ru_ru: {
-    breadcrumb: { home: 'Главная', learn: 'Обучение' },
+    breadcrumb: { home: 'App', learn: 'Бесплатные уроки грамматики' },
     backToLearn: '← Назад к Обучению',
     whatsInThisCheatsheet: 'Содержание этой шпаргалки:',
     whatYouLearnInThisGuide: 'Что вы узнаете в этом руководстве:',
