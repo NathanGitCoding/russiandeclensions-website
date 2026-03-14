@@ -7,14 +7,13 @@ import { getLandingTranslations } from '@/data/website/landingTranslations';
 
 const ASSETS = '/landing-cases';
 const MOCKUPS = [
-  `${ASSETS}/Mockup1.webp`,
   `${ASSETS}/Mockup2.webp`,
   `${ASSETS}/Mockup3.webp`,
-  `${ASSETS}/Mockup4.webp`,
   `${ASSETS}/Mockup5.webp`,
+  `${ASSETS}/Mockup4.webp`,
 ];
 
-const INTERVAL_MS = 2500;
+const INTERVAL_MS = 1200;
 
 interface LandingHeroProps {
   onAppStoreClick?: () => void;
@@ -38,7 +37,18 @@ export default function LandingHero({ onAppStoreClick, onPlayStoreClick }: Landi
       <div className="container mx-auto grid min-h-0 flex-1 items-center gap-4 px-4 py-8 sm:px-6 sm:py-16 md:grid-cols-2 md:gap-5 md:py-20 lg:gap-6 lg:py-24">
         {/* Mockup carousel - cycles through all mockups with crossfade | order-2 on mobile (after text), order-1 on desktop (left) */}
         <div className="relative order-2 flex justify-center md:order-1">
-          <div className="relative aspect-[322/644] w-full max-w-[200px] sm:max-w-[240px] md:max-w-[280px] lg:max-w-[322px]">
+          <div className="relative aspect-[322/644] w-full max-w-[253px] sm:max-w-[299px] md:max-w-[280px] lg:max-w-[322px]">
+            {/* Image fixe en arrière-plan pour éviter l'espace vide pendant les transitions */}
+            <Image
+              src={MOCKUPS[0]}
+              alt=""
+              width={322}
+              height={644}
+              priority
+              sizes="(max-width: 640px) 253px, (max-width: 768px) 299px, 322px"
+              className="absolute inset-0 h-full w-full object-contain drop-shadow-2xl"
+              aria-hidden
+            />
             {MOCKUPS.map((src, i) => (
               <Image
                 key={src}
@@ -47,8 +57,8 @@ export default function LandingHero({ onAppStoreClick, onPlayStoreClick }: Landi
                 width={322}
                 height={644}
                 priority={i < 2}
-                sizes="(max-width: 768px) 220px, (max-width: 1024px) 260px, 322px"
-                className={`absolute inset-0 h-full w-full object-contain drop-shadow-2xl transition-opacity duration-700 ease-in-out ${
+                sizes="(max-width: 640px) 253px, (max-width: 768px) 299px, 322px"
+                className={`absolute inset-0 h-full w-full object-contain drop-shadow-2xl transition-opacity duration-500 ease-in-out ${
                   i === currentIndex ? 'opacity-100' : 'pointer-events-none opacity-0'
                 }`}
               />
