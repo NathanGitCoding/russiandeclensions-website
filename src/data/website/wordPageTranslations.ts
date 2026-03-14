@@ -12,6 +12,24 @@ export interface CaseConfigItem {
 
 export interface WordPageTranslations {
   breadcrumb: { home: string; learn: string; words: string };
+  /** H1: Russian Declension: [Word] ([Translation]) */
+  h1Title: (baseForm: string, translation: string) => string;
+  /** H2 #1: Full Declension Table of [Word] */
+  h2FullTable: (baseForm: string) => string;
+  /** H2 #2: How to use "[Word]" in Russian (Examples) */
+  h2HowToUse: (baseForm: string) => string;
+  /** H2 #3: FAQ about [Word] Declension */
+  h2Faq: (baseForm: string) => string;
+  /** Context snippet - type of word */
+  contextSnippetType: (baseForm: string, genderLabel: string, declensionOrdinal: string) => string;
+  /** Context snippet - usage frequency */
+  contextSnippetUsage: (levelLabel: string) => string;
+  /** Footer block - internal linking */
+  peopleAlsoSearchedFor: string;
+  /** Level labels for context snippet: beginners, intermediate, advanced */
+  levelLabels: { beginners: string; intermediate: string; advanced: string };
+  /** Declension ordinals for context snippet: 1st, 2nd, 3rd */
+  declensionOrdinals: { first: string; second: string; third: string };
   fullDeclensionTable: string;
   indeclinableNotice: (baseForm: string) => string;
   indeclinableFormLabel: string;
@@ -22,6 +40,10 @@ export interface WordPageTranslations {
   caseLabel: string;
   /** Format (genericLabel, caseName) → e.g. "Cas Nominatif" (FR) or "Nominativ Fall" (DE) */
   formatCaseDisplay: (genericLabel: string, caseName: string) => string;
+  /** ToC link text for case: (baseForm, caseLabel) → e.g. "книга Nominative Case declension" (EN) or "Déclinaison de книга au nominatif" (FR) */
+  tocCaseDeclensionLink: (baseForm: string, caseLabel: string) => string;
+  /** Table of contents section title */
+  tocTitle: string;
   cases: CaseConfigItem[];
   learnMoreAboutCase: string;
   russianCaseEndingsCheatsheet: string;
@@ -61,6 +83,26 @@ export interface WordPageTranslations {
   nav: {
     previousWord: string;
     nextWord: string;
+  };
+  /** Section title for the quiz block (e.g. "Exercices QCM", "MCQ Exercises") */
+  quizSectionTitle: string;
+  /** SEO-optimized intro paragraph for the quiz section (free exercise, etc.) */
+  quizSectionIntro: (baseForm: string) => string;
+  quiz: {
+    triggerTitle: string;
+    triggerDescription: (baseForm: string) => string;
+    triggerCta: string;
+    singular: string;
+    plural: string;
+    next: string;
+    seeResults: string;
+    tryAgain: string;
+    close: string;
+    score: string;
+    /** Label prefix for "Question" — displayed as "Question X / Y" */
+    questionLabel: string;
+    correct: string;
+    incorrect: string;
   };
 }
 
@@ -126,7 +168,18 @@ const caseConfigRu: CaseConfigItem[] = [
 
 const translations: Record<LandingLanguage, WordPageTranslations> = {
   en_en: {
-    breadcrumb: { home: 'App', learn: 'Free Grammar Lessons', words: 'Declensions' },
+    breadcrumb: { home: 'App', learn: 'Free Grammar Lessons', words: 'Russian Declensions' },
+    h1Title: (base, trans) => `Russian Declension: ${base} (${trans})`,
+    h2FullTable: (base) => `Full Declension Table of ${base}`,
+    h2HowToUse: (base) => `How to use "${base}" in Russian (Examples)`,
+    h2Faq: (base) => `FAQ about ${base} Declension`,
+    contextSnippetType: (base, gender, decl) =>
+      `${base} is a ${gender} noun belonging to the ${decl} declension.`,
+    contextSnippetUsage: (level) =>
+      `It is one of the most common words in Russian, essential for ${level} learners.`,
+    peopleAlsoSearchedFor: 'People also searched for',
+    levelLabels: { beginners: 'Beginners', intermediate: 'Intermediate', advanced: 'Advanced' },
+    declensionOrdinals: { first: '1st', second: '2nd', third: '3rd' },
     fullDeclensionTable: 'Full declension table of',
     indeclinableNotice: (baseForm) =>
       `${baseForm} is indeclinable — it stays the same in all cases. There is no singular/plural distinction.`,
@@ -139,6 +192,8 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     tableHeaders: { case: 'Case', singular: 'Singular', plural: 'Plural' },
     caseLabel: 'Case',
     formatCaseDisplay: (generic, name) => `${name} ${generic}`,
+    tocCaseDeclensionLink: (baseForm, caseLabel) => `${baseForm} ${caseLabel} Case declension`,
+    tocTitle: 'Table of Contents',
     cases: caseConfigEn,
     learnMoreAboutCase: 'Learn more about each case:',
     russianCaseEndingsCheatsheet: 'Russian case endings cheatsheet',
@@ -186,20 +241,47 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
       proper_noun: 'proper noun',
     },
     metadata: {
-      title: (t, base) => `${t} in Russian — Declension of ${base}`,
-      description: (base, t, gender) => {
-        const decl = gender === 'feminine' ? 'first' : gender === 'neuter' ? 'second' : 'second';
-        return `Complete declension table for ${base} (${t}) in Russian. All 6 cases, singular and plural, with example sentences. ${gender.charAt(0).toUpperCase() + gender.slice(1)} noun, ${decl} declension.`;
-      },
+      title: (t, base) => `Declension of ${base} (${t}) in Russian - All 6 Cases Table`,
+      description: (base, t) =>
+        `Learn how to decline the Russian noun ${base} (${t}). Full declension table for all 6 cases, singular and plural. Free grammar guide with examples.`,
       wordNotFound: 'Word not found',
     },
     nav: {
       previousWord: 'Previous word',
       nextWord: 'Next word',
     },
+    quizSectionTitle: 'MCQ Exercises',
+    quizSectionIntro: (baseForm) =>
+      `Free exercise: test your mastery of the declension of ${baseForm} with this interactive multiple-choice quiz. A practical, no-signup drill to review all 6 Russian cases.`,
+    quiz: {
+      triggerTitle: 'Test your knowledge',
+      triggerDescription: (baseForm) => `Practice declining ${baseForm} across different cases.`,
+      triggerCta: 'Start quiz',
+      singular: 'Singular',
+      plural: 'Plural',
+      next: 'Next',
+      seeResults: 'See results',
+      tryAgain: 'Try again',
+      close: 'Close',
+      score: 'Score',
+      questionLabel: 'Question',
+      correct: 'Correct',
+      incorrect: 'Incorrect',
+    },
   },
   fr_fr: {
-    breadcrumb: { home: 'App', learn: 'Leçons de grammaire gratuites', words: 'Déclinaisons' },
+    breadcrumb: { home: 'App', learn: 'Leçons de grammaire gratuites', words: 'Déclinaisons russes' },
+    h1Title: (base, trans) => `Déclinaison russe : ${base} (${trans})`,
+    h2FullTable: (base) => `Tableau complet de déclinaison de ${base}`,
+    h2HowToUse: (base) => `Comment utiliser « ${base} » en russe (exemples)`,
+    h2Faq: (base) => `FAQ sur la déclinaison de ${base}`,
+    contextSnippetType: (base, gender, decl) =>
+      `${base} est un nom ${gender} appartenant à la ${decl} déclinaison.`,
+    contextSnippetUsage: (level) =>
+      `C'est l'un des mots les plus courants en russe, essentiel pour les apprenants ${level}.`,
+    peopleAlsoSearchedFor: 'Les internautes ont aussi recherché',
+    levelLabels: { beginners: 'débutants', intermediate: 'intermédiaires', advanced: 'avancés' },
+    declensionOrdinals: { first: '1re', second: '2e', third: '3e' },
     fullDeclensionTable: 'Tableau de déclinaison complet de',
     indeclinableNotice: (baseForm) =>
       `${baseForm} est indéclinable — il reste identique dans tous les cas. Pas de distinction singulier/pluriel.`,
@@ -212,6 +294,8 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     tableHeaders: { case: 'Cas', singular: 'Singulier', plural: 'Pluriel' },
     caseLabel: 'Cas',
     formatCaseDisplay: (generic, name) => `${generic} ${name}`,
+    tocCaseDeclensionLink: (baseForm, caseLabel) => `Déclinaison de ${baseForm} au ${caseLabel.toLowerCase()}`,
+    tocTitle: 'Sommaire',
     cases: caseConfigFr,
     learnMoreAboutCase: 'En savoir plus sur chaque cas :',
     russianCaseEndingsCheatsheet: 'Antisèche des terminaisons des cas russes',
@@ -259,7 +343,7 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
       proper_noun: 'nom propre',
     },
     metadata: {
-      title: (t, base) => `${t} en russe — Déclinaison de ${base}`,
+      title: (_t, base) => `Comment décliner ${base} en russe dans les 6 cas`,
       description: (base, t, gender) => {
         const decl = gender === 'feminine' ? 'première' : 'deuxième';
         const g = gender === 'masculine' ? 'masculin' : gender === 'feminine' ? 'féminin' : 'neutre';
@@ -271,9 +355,38 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
       previousWord: 'Mot précédent',
       nextWord: 'Mot suivant',
     },
+    quizSectionTitle: 'Exercices QCM',
+    quizSectionIntro: (baseForm) =>
+      `Exercice gratuit : testez votre maîtrise de la déclinaison de ${baseForm} avec ce quiz interactif à choix multiples. Un entraînement pratique et sans inscription pour réviser les 6 cas du russe.`,
+    quiz: {
+      triggerTitle: 'Testez vos connaissances',
+      triggerDescription: (baseForm) => `Entraînez-vous à décliner ${baseForm} dans différents cas.`,
+      triggerCta: 'Lancer le quiz',
+      singular: 'Singulier',
+      plural: 'Pluriel',
+      next: 'Suivant',
+      seeResults: 'Voir les résultats',
+      tryAgain: 'Recommencer',
+      close: 'Fermer',
+      score: 'Score',
+      questionLabel: 'Question',
+      correct: 'Correct',
+      incorrect: 'Incorrect',
+    },
   },
   tr_tr: {
-    breadcrumb: { home: 'App', learn: 'Ücretsiz Gramer Dersleri', words: 'Çekimler' },
+    breadcrumb: { home: 'App', learn: 'Ücretsiz Gramer Dersleri', words: 'Rusça Çekimler' },
+    h1Title: (base, trans) => `Rusça çekim: ${base} (${trans})`,
+    h2FullTable: (base) => `${base} için tam çekim tablosu`,
+    h2HowToUse: (base) => `"${base}" Rusçada nasıl kullanılır (örnekler)`,
+    h2Faq: (base) => `${base} çekimi hakkında SSS`,
+    contextSnippetType: (base, gender, decl) =>
+      `${base}, ${decl} çekime ait ${gender} bir isimdir.`,
+    contextSnippetUsage: (level) =>
+      `Rusçanın en yaygın kelimelerinden biridir, ${level} öğrenenler için vazgeçilmezdir.`,
+    peopleAlsoSearchedFor: 'İnsanlar bunları da aradı',
+    levelLabels: { beginners: 'başlangıç', intermediate: 'orta', advanced: 'ileri' },
+    declensionOrdinals: { first: '1.', second: '2.', third: '3.' },
     fullDeclensionTable: 'Tam çekim tablosu',
     indeclinableNotice: (baseForm) =>
       `${baseForm} çekimsizdir — tüm hallerde aynı kalır. Tekil/çoğul ayrımı yoktur.`,
@@ -286,6 +399,8 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     tableHeaders: { case: 'Durum', singular: 'Tekil', plural: 'Çoğul' },
     caseLabel: 'Durum',
     formatCaseDisplay: (generic, name) => `${name} ${generic}`,
+    tocCaseDeclensionLink: (baseForm, caseLabel) => `${baseForm} ${caseLabel} hali — çekim`,
+    tocTitle: 'İçindekiler',
     cases: caseConfigTr,
     learnMoreAboutCase: 'Her durum hakkında daha fazla bilgi edinin:',
     russianCaseEndingsCheatsheet: 'Rusça durum son ekleri kopya kağıdı',
@@ -326,7 +441,7 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     gender: { masculine: 'eril', feminine: 'dişil', neuter: 'nötr' },
     type: { noun: 'isim', proper_noun: 'özel isim' },
     metadata: {
-      title: (t, base) => `Rusçada ${t} — ${base} çekimi`,
+      title: (_t, base) => `Rusçada ${base} 6 durumda nasıl çekilir`,
       description: (base, t, gender) => {
         const decl = gender === 'feminine' ? 'birinci' : 'ikinci';
         const g = gender === 'masculine' ? 'eril' : gender === 'feminine' ? 'dişil' : 'nötr';
@@ -335,9 +450,38 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
       wordNotFound: 'Kelime bulunamadı',
     },
     nav: { previousWord: 'Önceki kelime', nextWord: 'Sonraki kelime' },
+    quizSectionTitle: 'Çoktan seçmeli alıştırmalar',
+    quizSectionIntro: (baseForm) =>
+      `Ücretsiz alıştırma: ${baseForm} kelimesinin çekiminde ustalığınızı bu interaktif çoktan seçmeli test ile deneyin. Tüm 6 Rusça durumu gözden geçirmek için pratik ve kayıt gerektirmeyen bir egzersiz.`,
+    quiz: {
+      triggerTitle: 'Bilginizi test edin',
+      triggerDescription: (baseForm) => `${baseForm} kelimesini farklı durumlarda çekim pratiği yapın.`,
+      triggerCta: 'Teste başla',
+      singular: 'Tekil',
+      plural: 'Çoğul',
+      next: 'Sonraki',
+      seeResults: 'Sonuçları gör',
+      tryAgain: 'Tekrar dene',
+      close: 'Kapat',
+      score: 'Puan',
+      questionLabel: 'Soru',
+      correct: 'Doğru',
+      incorrect: 'Yanlış',
+    },
   },
   de_de: {
-    breadcrumb: { home: 'App', learn: 'Kostenlose Grammatik-Lektionen', words: 'Deklinationen' },
+    breadcrumb: { home: 'App', learn: 'Kostenlose Grammatik-Lektionen', words: 'Russische Deklinationen' },
+    h1Title: (base, trans) => `Russische Deklination: ${base} (${trans})`,
+    h2FullTable: (base) => `Vollständige Deklinationstabelle von ${base}`,
+    h2HowToUse: (base) => `Wie man „${base}" auf Russisch verwendet (Beispiele)`,
+    h2Faq: (base) => `FAQ zur Deklination von ${base}`,
+    contextSnippetType: (base, gender, decl) =>
+      `${base} ist ein ${gender} Substantiv der ${decl} Deklination.`,
+    contextSnippetUsage: (level) =>
+      `Es ist eines der gebräuchlichsten Wörter im Russischen, unverzichtbar für ${level} Lernende.`,
+    peopleAlsoSearchedFor: 'Nutzer suchten auch nach',
+    levelLabels: { beginners: 'Anfänger', intermediate: 'Fortgeschrittene', advanced: 'Profi' },
+    declensionOrdinals: { first: '1.', second: '2.', third: '3.' },
     fullDeclensionTable: 'Vollständige Deklinationstabelle von',
     indeclinableNotice: (baseForm) =>
       `${baseForm} ist unveränderlich — es bleibt in allen Fällen gleich. Kein Singular/Plural-Unterschied.`,
@@ -350,6 +494,8 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     tableHeaders: { case: 'Fall', singular: 'Singular', plural: 'Plural' },
     caseLabel: 'Fall',
     formatCaseDisplay: (generic, name) => `${name} ${generic}`,
+    tocCaseDeclensionLink: (baseForm, caseLabel) => `${baseForm} im ${caseLabel} — Deklination`,
+    tocTitle: 'Inhaltsverzeichnis',
     cases: caseConfigDe,
     learnMoreAboutCase: 'Erfahren Sie mehr über jeden Fall:',
     russianCaseEndingsCheatsheet: 'Russische Fallendungen Spickzettel',
@@ -390,7 +536,7 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     gender: { masculine: 'Maskulinum', feminine: 'Femininum', neuter: 'Neutrum' },
     type: { noun: 'Substantiv', proper_noun: 'Eigenname' },
     metadata: {
-      title: (t, base) => `${t} auf Russisch — Deklination von ${base}`,
+      title: (_t, base) => `Wie man ${base} auf Russisch in allen 6 Fällen dekliniert`,
       description: (base, t, gender) => {
         const decl = gender === 'feminine' ? 'erste' : 'zweite';
         const g = gender === 'masculine' ? 'Maskulinum' : gender === 'feminine' ? 'Femininum' : 'Neutrum';
@@ -399,9 +545,38 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
       wordNotFound: 'Wort nicht gefunden',
     },
     nav: { previousWord: 'Vorheriges Wort', nextWord: 'Nächstes Wort' },
+    quizSectionTitle: 'Multiple-Choice-Übungen',
+    quizSectionIntro: (baseForm) =>
+      `Kostenlose Übung: Testen Sie Ihre Beherrschung der Deklination von ${baseForm} mit diesem interaktiven Multiple-Choice-Quiz. Eine praktische Übung ohne Anmeldung, um alle 6 russischen Fälle zu wiederholen.`,
+    quiz: {
+      triggerTitle: 'Testen Sie Ihr Wissen',
+      triggerDescription: (baseForm) => `Üben Sie die Deklination von ${baseForm} in verschiedenen Fällen.`,
+      triggerCta: 'Quiz starten',
+      singular: 'Singular',
+      plural: 'Plural',
+      next: 'Weiter',
+      seeResults: 'Ergebnisse anzeigen',
+      tryAgain: 'Nochmal versuchen',
+      close: 'Schließen',
+      score: 'Ergebnis',
+      questionLabel: 'Frage',
+      correct: 'Richtig',
+      incorrect: 'Falsch',
+    },
   },
   pl_pl: {
-    breadcrumb: { home: 'App', learn: 'Darmowe lekcje gramatyki', words: 'Odmiany' },
+    breadcrumb: { home: 'App', learn: 'Darmowe lekcje gramatyki', words: 'Rosyjskie odmiany' },
+    h1Title: (base, trans) => `Rosyjska odmiana: ${base} (${trans})`,
+    h2FullTable: (base) => `Pełna tabela odmian ${base}`,
+    h2HowToUse: (base) => `Jak używać „${base}" po rosyjsku (przykłady)`,
+    h2Faq: (base) => `FAQ o odmianie ${base}`,
+    contextSnippetType: (base, gender, decl) =>
+      `${base} to rzeczownik ${gender} należący do ${decl} odmiany.`,
+    contextSnippetUsage: (level) =>
+      `To jedno z najczęściej używanych słów w języku rosyjskim, niezbędne dla uczących się na poziomie ${level}.`,
+    peopleAlsoSearchedFor: 'Użytkownicy szukali także',
+    levelLabels: { beginners: 'początkujących', intermediate: 'średniozaawansowanych', advanced: 'zaawansowanych' },
+    declensionOrdinals: { first: '1.', second: '2.', third: '3.' },
     fullDeclensionTable: 'Pełna tabela odmian',
     indeclinableNotice: (baseForm) =>
       `${baseForm} jest nieodmienne — pozostaje takie samo we wszystkich przypadkach. Brak rozróżnienia liczba pojedyncza/mnoga.`,
@@ -414,6 +589,8 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     tableHeaders: { case: 'Przypadek', singular: 'Liczba pojedyncza', plural: 'Liczba mnoga' },
     caseLabel: 'Przypadek',
     formatCaseDisplay: (generic, name) => `${name} ${generic}`,
+    tocCaseDeclensionLink: (baseForm, caseLabel) => `${baseForm} ${caseLabel} — odmiana`,
+    tocTitle: 'Spis treści',
     cases: caseConfigPl,
     learnMoreAboutCase: 'Dowiedz się więcej o każdym przypadku:',
     russianCaseEndingsCheatsheet: 'Ściągawka rosyjskich końcówek przypadków',
@@ -454,7 +631,7 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     gender: { masculine: 'męski', feminine: 'żeński', neuter: 'nijaki' },
     type: { noun: 'rzeczownik', proper_noun: 'nazwa własna' },
     metadata: {
-      title: (t, base) => `${t} po rosyjsku — Odmiana ${base}`,
+      title: (_t, base) => `Jak odmieniać ${base} po rosyjsku we wszystkich 6 przypadkach`,
       description: (base, t, gender) => {
         const decl = gender === 'feminine' ? 'pierwsza' : 'druga';
         const g = gender === 'masculine' ? 'męski' : gender === 'feminine' ? 'żeński' : 'nijaki';
@@ -463,9 +640,38 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
       wordNotFound: 'Słowo nie znalezione',
     },
     nav: { previousWord: 'Poprzednie słowo', nextWord: 'Następne słowo' },
+    quizSectionTitle: 'Ćwiczenia testowe',
+    quizSectionIntro: (baseForm) =>
+      `Darmowe ćwiczenie: sprawdź swoją znajomość odmiany ${baseForm} w tym interaktywnym quizie wielokrotnego wyboru. Praktyczny trening bez rejestracji, aby powtórzyć wszystkie 6 rosyjskich przypadków.`,
+    quiz: {
+      triggerTitle: 'Sprawdź swoją wiedzę',
+      triggerDescription: (baseForm) => `Ćwicz odmienianie ${baseForm} w różnych przypadkach.`,
+      triggerCta: 'Rozpocznij quiz',
+      singular: 'Liczba pojedyncza',
+      plural: 'Liczba mnoga',
+      next: 'Dalej',
+      seeResults: 'Zobacz wyniki',
+      tryAgain: 'Spróbuj ponownie',
+      close: 'Zamknij',
+      score: 'Wynik',
+      questionLabel: 'Pytanie',
+      correct: 'Poprawnie',
+      incorrect: 'Niepoprawnie',
+    },
   },
   ru_ru: {
-    breadcrumb: { home: 'App', learn: 'Бесплатные уроки грамматики', words: 'Склонения' },
+    breadcrumb: { home: 'App', learn: 'Бесплатные уроки грамматики', words: 'Русские склонения' },
+    h1Title: (base, trans) => `Склонение: ${base} (${trans})`,
+    h2FullTable: (base) => `Полная таблица склонений ${base}`,
+    h2HowToUse: (base) => `Как использовать «${base}» в русском языке (примеры)`,
+    h2Faq: (base) => `Вопросы о склонении ${base}`,
+    contextSnippetType: (base, gender, decl) =>
+      `${base} — существительное ${gender} рода, относится к ${decl} склонению.`,
+    contextSnippetUsage: (level) =>
+      `Одно из самых употребительных слов в русском языке, необходимо для изучающих на уровне ${level}.`,
+    peopleAlsoSearchedFor: 'Пользователи также искали',
+    levelLabels: { beginners: 'начинающих', intermediate: 'среднего уровня', advanced: 'продвинутых' },
+    declensionOrdinals: { first: '1-го', second: '2-го', third: '3-го' },
     fullDeclensionTable: 'Полная таблица склонений',
     indeclinableNotice: (baseForm) =>
       `${baseForm} несклоняемое — не меняется во всех падежах. Нет различия единственное/множественное число.`,
@@ -478,6 +684,8 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     tableHeaders: { case: 'Падеж', singular: 'Ед. число', plural: 'Мн. число' },
     caseLabel: 'Падеж',
     formatCaseDisplay: (generic, name) => `${name} ${generic}`,
+    tocCaseDeclensionLink: (baseForm, caseLabel) => `${baseForm} в ${caseLabel} падеже`,
+    tocTitle: 'Содержание',
     cases: caseConfigRu,
     learnMoreAboutCase: 'Подробнее о каждом падеже:',
     russianCaseEndingsCheatsheet: 'Шпаргалка по окончаниям падежей',
@@ -518,7 +726,7 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     gender: { masculine: 'мужской', feminine: 'женский', neuter: 'средний' },
     type: { noun: 'существительное', proper_noun: 'имя собственное' },
     metadata: {
-      title: (t, base) => `${t} по-русски — Склонение ${base}`,
+      title: (_t, base) => `Как склонять ${base} в русском языке во всех 6 падежах`,
       description: (base, t, gender) => {
         const decl = gender === 'feminine' ? 'первое' : 'второе';
         const g = gender === 'masculine' ? 'мужского' : gender === 'feminine' ? 'женского' : 'среднего';
@@ -527,6 +735,24 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
       wordNotFound: 'Слово не найдено',
     },
     nav: { previousWord: 'Предыдущее слово', nextWord: 'Следующее слово' },
+    quizSectionTitle: 'Упражнения с выбором ответа',
+    quizSectionIntro: (baseForm) =>
+      `Бесплатное упражнение: проверьте своё знание склонения ${baseForm} с помощью этого интерактивного теста с выбором ответа. Практическая тренировка без регистрации для повторения всех 6 падежей русского языка.`,
+    quiz: {
+      triggerTitle: 'Проверьте свои знания',
+      triggerDescription: (baseForm) => `Потренируйтесь склонять ${baseForm} в разных падежах.`,
+      triggerCta: 'Начать тест',
+      singular: 'Ед. число',
+      plural: 'Мн. число',
+      next: 'Далее',
+      seeResults: 'Результаты',
+      tryAgain: 'Ещё раз',
+      close: 'Закрыть',
+      score: 'Результат',
+      questionLabel: 'Вопрос',
+      correct: 'Верно',
+      incorrect: 'Неверно',
+    },
   },
 };
 

@@ -23,8 +23,43 @@ export const metadata: Metadata = {
 export default function BlogListPage() {
   const posts = getAllBlogPosts();
 
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
+      { '@type': 'ListItem', position: 2, name: 'Blog', item: `${siteUrl}/blog` },
+    ],
+  };
+
+  const collectionPageJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'Blog - Russian Grammar & Declensions',
+    description: 'Articles and guides to master Russian grammar, cases, and declensions.',
+    url: `${siteUrl}/blog`,
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: posts.length,
+      itemListElement: posts.map((post, i) => ({
+        '@type': 'ListItem' as const,
+        position: i + 1,
+        name: post.frontmatter.title,
+        url: `${siteUrl}/blog/${post.slug}`,
+      })),
+    },
+  };
+
   return (
     <div className="min-h-screen bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionPageJsonLd) }}
+      />
       <main className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
         <h1 className="mb-8 text-3xl font-bold tracking-tight text-gray-900">
           Blog

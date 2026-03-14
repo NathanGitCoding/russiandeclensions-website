@@ -5,17 +5,20 @@ import type { Metadata } from 'next';
 import { getLandingLangFromRequest } from '@/lib/landingLangServer';
 import { getLearnDetailTranslations } from '@/data/website/learnDetailTranslations';
 import { getWordPageTranslations } from '@/data/website/wordPageTranslations';
+import { getRelatedWords } from '@/lib/words';
 import { LearnLeadMagnet } from '@/components/learn/LearnLeadMagnet';
+import { PronunciationButton } from '@/components/learn/PronunciationButton';
+
+const WORD_BASE_PATH = '/russian-declension';
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://russiandeclensions.com';
 
-const leadMagnetCta = {
-  title: 'Practice Russian declensions on your phone',
-  description:
-    'Stop memorizing tables, start practicing how to decline книга and thousands of other Russian words in interactive quizzes.',
-  ctaText: 'Download the app and start drilling today',
-  ctaHref: '/',
-};
+/** Level label for context snippet */
+function getLevelLabel(level: number, wt: { levelLabels: { beginners: string; intermediate: string; advanced: string } }): string {
+  if (level <= 1) return wt.levelLabels.beginners;
+  if (level === 2) return wt.levelLabels.intermediate;
+  return wt.levelLabels.advanced;
+}
 
 /* Gender badge colors - semantic, aligned with site palette */
 const genderBadgeClasses: Record<string, string> = {
@@ -208,8 +211,10 @@ export async function generateMetadata(): Promise<Metadata> {
     return { title: 'Not Found' };
   }
 
-  const title = `${mockWord.base_form} (${mockWord.translation_en}) – Russian Declension Table`;
-  const description = `Full declension table of ${mockWord.base_form} (${mockWord.translation_en}) in Russian. Nominative, genitive, dative, accusative, instrumental and prepositional cases with singular and plural forms.`;
+  const lang = await getLandingLangFromRequest();
+  const wt = getWordPageTranslations(lang);
+  const title = wt.metadata.title(mockWord.translation_en, mockWord.base_form);
+  const description = wt.metadata.description(mockWord.base_form, mockWord.translation_en, mockWord.gender);
 
   const canonicalUrl = `${siteUrl}/russian-declension/${mockWord.slug}`;
 
@@ -234,7 +239,24 @@ export default async function WordTemplatePage() {
   const lang = await getLandingLangFromRequest();
   const t = getLearnDetailTranslations(lang);
   const wt = getWordPageTranslations(lang);
+  const genderLabel = wt.gender[mockWord.gender] ?? mockWord.gender;
+  const typeLabel = wt.type[mockWord.type] ?? mockWord.type;
   const badgeClass = genderBadgeClasses[mockWord.gender] ?? 'bg-[hsl(var(--muted))] text-[hsl(var(--muted-foreground))]';
+
+  const declensionOrdinal = mockWord.gender === 'feminine' && mockWord.base_form?.endsWith('ь')
+    ? wt.declensionOrdinals.third
+    : mockWord.gender === 'feminine'
+      ? wt.declensionOrdinals.first
+      : wt.declensionOrdinals.second;
+  const levelLabel = getLevelLabel(mockWord.word_apparition_level ?? 1, wt);
+  const relatedWords = await getRelatedWords(mockWord.slug, mockWord.gender, 5);
+
+  const leadMagnetCta = {
+    title: wt.leadMagnet.title,
+    description: wt.leadMagnet.description(mockWord.base_form),
+    ctaText: wt.leadMagnet.ctaText,
+    ctaHref: '/',
+  };
 
   const canonicalUrl = `${siteUrl}/russian-declension/${mockWord.slug}`;
 
@@ -352,13 +374,20 @@ export default async function WordTemplatePage() {
 
       {/* [1. HERO] */}
       <section className="learn-detail-header">
-        <h1
-          className="learn-detail-title text-4xl sm:text-5xl"
-          style={{ fontFamily: 'var(--font-cyrillic)' }}
-          lang="ru"
-        >
-          {mockWord.base_form} ({mockWord.translation_en})
-        </h1>
+        <div className="flex flex-wrap items-center gap-3">
+          <h1
+            className="learn-detail-title text-4xl sm:text-5xl"
+            style={{ fontFamily: 'var(--font-cyrillic)' }}
+            lang="ru"
+          >
+            {wt.h1Title(mockWord.base_form, mockWord.translation_en)}
+          </h1>
+          <PronunciationButton
+            text={mockWord.base_form}
+            ariaLabel="Listen to Russian pronunciation"
+            size="lg"
+          />
+        </div>
         <p className="mt-2 font-mono text-sm text-[hsl(var(--muted-foreground))]">
           /{mockWord.slug}/
         </p>
@@ -366,46 +395,86 @@ export default async function WordTemplatePage() {
           <span
             className={`inline-flex rounded-full px-3 py-1 text-sm font-medium ${badgeClass}`}
           >
-            {mockWord.gender}
+            {genderLabel}
           </span>
           <span className="inline-flex rounded-full bg-[hsl(var(--muted))] px-3 py-1 text-sm font-medium text-[hsl(var(--muted-foreground))]">
-            {mockWord.type}
+            {typeLabel}
           </span>
         </div>
       </section>
 
+      {/* [1b. TABLE OF CONTENTS - SEO] */}
+      <nav
+        className="mb-8 rounded-lg border border-[hsl(var(--border))] bg-[hsl(var(--muted)_/_0.3)] px-6 py-5"
+        aria-label={wt.tocTitle}
+      >
+        <h2 className="mb-4 text-sm font-semibold uppercase tracking-wider text-[hsl(var(--muted-foreground))]">
+          {wt.tocTitle}
+        </h2>
+        <ol className="space-y-2 text-sm">
+          <li>
+            <a href="#declension-table" className="text-[hsl(var(--primary))] hover:underline">
+              {wt.h2FullTable(mockWord.base_form)}
+            </a>
+            <ul className="ml-4 mt-1.5 space-y-1 border-l-2 border-[hsl(var(--border))] pl-4">
+              {caseConfig.map((row) => {
+                const caseLabel = wt.cases.find((c) => c.key === row.key)?.label ?? row.label;
+                return (
+                  <li key={row.key}>
+                    <a href={`#case-${row.key}`} className="text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--foreground))] hover:underline">
+                      {wt.tocCaseDeclensionLink(mockWord.base_form, caseLabel)}
+                    </a>
+                  </li>
+                );
+              })}
+            </ul>
+          </li>
+          <li>
+            <a href="#usage-notes" className="text-[hsl(var(--primary))] hover:underline">
+              {wt.usageNotes}
+            </a>
+          </li>
+          <li>
+            <a href="#example-sentences" className="text-[hsl(var(--primary))] hover:underline">
+              {wt.h2HowToUse(mockWord.base_form)}
+            </a>
+          </li>
+          <li>
+            <a href="#faq-heading" className="text-[hsl(var(--primary))] hover:underline">
+              {wt.h2Faq(mockWord.base_form)}
+            </a>
+          </li>
+        </ol>
+      </nav>
+
       {/* [2. DECLENSION TABLE] */}
-      <section className="learn-detail-section">
+      <section id="declension-table" className="learn-detail-section scroll-mt-6">
         <h2 className="mb-6 text-lg font-semibold text-[hsl(var(--foreground))] block" style={{ marginBottom: '1.5rem' }}>
-          Full declension table of {mockWord.base_form}
+          {wt.h2FullTable(mockWord.base_form)}
         </h2>
         <div className="mb-4 space-y-3 text-[hsl(var(--muted-foreground))] leading-relaxed">
           <p>
-            The Russian {mockWord.type} <strong>{mockWord.base_form}</strong> ({mockWord.translation_en}) is a{' '}
-            <strong>{mockWord.gender} noun</strong>.
+            <WithBold text={wt.contextSnippetType(mockWord.base_form, genderLabel, declensionOrdinal)} />
           </p>
           <p>
-            Below is its full declension across all <strong>Russian cases</strong> (nominative, accusative, genitive,
-            dative, instrumental, prepositional and locative) in <strong>singular</strong> and <strong>plural</strong> forms.
-          </p>
-          <p>
-            How to decline {mockWord.base_form}?
+            {wt.contextSnippetUsage(levelLabel)}
           </p>
         </div>
         <div className="learn-detail-table-wrap">
           <table className="learn-detail-table">
             <thead>
               <tr>
-                <th>Case</th>
-                <th>Singular</th>
-                <th>Plural</th>
+                <th>{wt.tableHeaders.case}</th>
+                <th>{wt.tableHeaders.singular}</th>
+                <th>{wt.tableHeaders.plural}</th>
               </tr>
             </thead>
             <tbody>
               {caseConfig.map((row, index) => (
                 <tr
                   key={row.key}
-                  className={index % 2 === 0 ? 'bg-[hsl(var(--primary)_/_0.08)]' : 'bg-white'}
+                  id={`case-${row.key}`}
+                  className={`scroll-mt-24 ${index % 2 === 0 ? 'bg-[hsl(var(--primary)_/_0.08)]' : 'bg-white'}`}
                 >
                   <td>
                     <span className="font-semibold text-[hsl(var(--foreground))]">{row.label} Case</span>
@@ -414,10 +483,28 @@ export default async function WordTemplatePage() {
                     </p>
                   </td>
                   <td className="font-semibold" lang="ru">
-                    <HighlightedEnding text={row.sg} baseForm={mockWord.base_form} nominativeSg={mockWord.base_form} wordType={mockWord.type} stem={getDeclensionStem(mockWord)} />
+                    <div className="flex items-center gap-2">
+                      <span>
+                        <HighlightedEnding text={row.sg} baseForm={mockWord.base_form} nominativeSg={mockWord.base_form} wordType={mockWord.type} stem={getDeclensionStem(mockWord)} />
+                      </span>
+                      <PronunciationButton
+                        text={row.sg}
+                        size="xs"
+                        ariaLabel={`Listen to ${row.sg}`}
+                      />
+                    </div>
                   </td>
                   <td className="font-semibold" lang="ru">
-                    <HighlightedEnding text={row.pl} baseForm={mockWord.nominative_pl} nominativeSg={mockWord.base_form} wordType={mockWord.type} stem={getDeclensionStem(mockWord)} />
+                    <div className="flex items-center gap-2">
+                      <span>
+                        <HighlightedEnding text={row.pl} baseForm={mockWord.nominative_pl} nominativeSg={mockWord.base_form} wordType={mockWord.type} stem={getDeclensionStem(mockWord)} />
+                      </span>
+                      <PronunciationButton
+                        text={row.pl}
+                        size="xs"
+                        ariaLabel={`Listen to ${row.pl}`}
+                      />
+                    </div>
                   </td>
                 </tr>
               ))}
@@ -425,7 +512,7 @@ export default async function WordTemplatePage() {
           </table>
         </div>
         <p className="mt-4 text-sm text-[hsl(var(--muted-foreground))]">
-          Learn more about each case:{' '}
+          {wt.learnMoreAboutCase}{' '}
           {caseArticleLinks.map((link, i) => (
             <span key={link.slug}>
               <Link
@@ -437,39 +524,39 @@ export default async function WordTemplatePage() {
               {i < caseArticleLinks.length - 1 ? ', ' : ''}
             </span>
           ))}
-          . See also the{' '}
+          .{' '}
           <Link
             href="/learn/articles/russian-case-endings-cheatsheet"
             className="text-[hsl(var(--primary))] hover:underline"
           >
-            Russian case endings cheatsheet
+            {wt.russianCaseEndingsCheatsheet}
           </Link>
           .
         </p>
       </section>
 
       {/* [3. USAGE NOTES] */}
-      <section className="learn-detail-section">
-        <h2 className="text-lg font-semibold text-[hsl(var(--foreground))] block" style={{ marginBottom: '1.5rem' }}>Usage notes</h2>
+      <section id="usage-notes" className="learn-detail-section scroll-mt-24">
+        <h2 className="text-lg font-semibold text-[hsl(var(--foreground))] block" style={{ marginBottom: '1.5rem' }}>
+          {wt.usageNotes}
+        </h2>
         <p className="text-[hsl(var(--muted-foreground))] leading-relaxed">
-          The Russian word for book, книга, follows the standard declension pattern for feminine nouns
-          ending in -а. Use the nominative for the subject, accusative for the direct object, genitive
-          for possession or absence, dative for indirect objects (to/for), instrumental with/by, and
-          prepositional after в, на, о. See our guides on{' '}
+          {wt.usageNotesContent(mockWord.translation_en, mockWord.base_form, genderLabel)}
           <Link href="/learn/articles/russian-case-endings-cheatsheet" className="text-[hsl(var(--primary))] hover:underline">
-            Russian case endings
-          </Link>{' '}
-          and{' '}
+            {wt.usageNotesCaseEndings}
+          </Link>
+          {wt.usageNotesAnd}
           <Link href="/learn" className="text-[hsl(var(--primary))] hover:underline">
-            Russian grammar
-          </Link>{' '}
-          for more.
+            {wt.usageNotesGrammar}
+          </Link>
+          {wt.usageNotesForMore}
         </p>
       </section>
 
       {/* [4. EXAMPLE SENTENCES] */}
       <section
-        className="learn-detail-section"
+        id="example-sentences"
+        className="learn-detail-section scroll-mt-24"
         style={{
           background: 'hsl(var(--primary) / 0.06)',
           padding: '1.5rem',
@@ -478,9 +565,9 @@ export default async function WordTemplatePage() {
         }}
       >
         <h2 className="text-lg font-semibold text-[hsl(var(--foreground))] block" style={{ marginBottom: '1.5rem' }}>
-          Example sentences
+          {wt.h2HowToUse(mockWord.base_form)}
         </h2>
-        <div className="grid gap-3 sm:grid-cols-2">
+        <div className="flex flex-col gap-3">
           {exampleSentencesCases.map((item) => (
             <div
               key={item.case}
@@ -503,9 +590,9 @@ export default async function WordTemplatePage() {
       <LearnLeadMagnet cta={leadMagnetCta} />
 
       {/* [5. FAQ] - same model as /learn articles */}
-      <section className="learn-detail-faq" aria-labelledby="faq-heading">
+      <section className="learn-detail-faq scroll-mt-24" aria-labelledby="faq-heading">
         <h2 id="faq-heading" className="learn-detail-faq-title" style={{ marginBottom: '1.5rem' }}>
-          {t.frequentlyAskedQuestions}
+          {wt.h2Faq(mockWord.base_form)}
         </h2>
         <dl>
           {faqItems.map((item, i) => (
@@ -518,6 +605,29 @@ export default async function WordTemplatePage() {
           ))}
         </dl>
       </section>
+
+      {relatedWords.length > 0 && (
+        <section className="mt-8 rounded-lg border border-[hsl(var(--border))] bg-[hsl(var(--muted)_/_0.2)] px-6 py-5">
+          <h3 className="mb-3 text-sm font-semibold uppercase tracking-wider text-[hsl(var(--muted-foreground))]">
+            {wt.peopleAlsoSearchedFor}
+          </h3>
+          <p className="flex flex-wrap gap-x-2 gap-y-1">
+            {relatedWords.map((related, i) => (
+              <span key={related.slug}>
+                <Link
+                  href={`${WORD_BASE_PATH}/${related.slug}`}
+                  className="text-[hsl(var(--primary))] hover:underline"
+                >
+                  {related.base_form}
+                </Link>
+                {i < relatedWords.length - 1 && (
+                  <span className="text-[hsl(var(--muted-foreground))]"> · </span>
+                )}
+              </span>
+            ))}
+          </p>
+        </section>
+      )}
 
       {/* [6. PREV / NEXT NAVIGATION] */}
       <nav className="flex items-center justify-between border-t border-[hsl(var(--border))] pt-8">

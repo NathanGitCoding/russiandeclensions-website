@@ -1,9 +1,9 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { useLandingLanguage } from '@/contexts/LandingLanguageContext';
 import { getLandingTranslations } from '@/data/website/landingTranslations';
+import { AnimateOnScroll } from '@/components/landing/AnimateOnScroll';
 
 const ASSETS = '/landing-cases';
 
@@ -21,12 +21,10 @@ export default function LandingCTA({ onAppStoreClick, onPlayStoreClick }: Landin
       className="section-blue overflow-x-hidden py-16 sm:py-20 md:py-24 lg:py-32"
     >
       <div className="container mx-auto px-4 sm:px-6">
-        <div className="mx-auto flex max-w-4xl flex-col items-center justify-center gap-12 md:flex-row md:gap-16">
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, margin: '-50px' }}
-            transition={{ duration: 0.5, ease: 'easeOut' }}
+        <div className="mx-auto flex max-w-4xl flex-col items-center justify-center gap-8 md:flex-row md:gap-12">
+          <AnimateOnScroll
+            variant="fade-in-left"
+            rootMargin="-50px"
             className="relative order-1 aspect-square w-36 flex-shrink-0 sm:w-44 md:order-1 md:w-52 lg:w-60"
           >
             <Image
@@ -37,12 +35,11 @@ export default function LandingCTA({ onAppStoreClick, onPlayStoreClick }: Landin
               loading="lazy"
               className="object-contain"
             />
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-50px' }}
-            transition={{ duration: 0.5, ease: 'easeOut', delay: 0.08 }}
+          </AnimateOnScroll>
+          <AnimateOnScroll
+            variant="fade-up"
+            rootMargin="-50px"
+            delay={0.08}
             className="order-2 max-w-2xl text-center md:order-2 md:text-left"
           >
             <h2 className="mb-4 text-2xl font-bold tracking-tight text-white sm:text-3xl md:text-4xl lg:text-5xl">
@@ -115,7 +112,7 @@ export default function LandingCTA({ onAppStoreClick, onPlayStoreClick }: Landin
                 </a>
               )}
             </div>
-          </motion.div>
+          </AnimateOnScroll>
         </div>
       </div>
     </section>

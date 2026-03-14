@@ -1,7 +1,7 @@
 /**
  * Récupère les phrases d'exemple par cas pour les pages /russian-declension/[slug].
  * Source : data/sentences.json (généré par npm run export-db).
- * Pour chaque combo (word_id, cas), une phrase par cas est stockée avec toutes les traductions.
+ * Une phrase par cas (celle avec l'ID le plus faible). Crochets [ ] supprimés des traductions.
  */
 
 import fs from 'fs';
@@ -22,6 +22,7 @@ type SentenceByCase = {
   sentence_trad_tr?: string;
 };
 
+/** Format : { [wordId]: { [caseKey]: { sentence_ru, ... } } } */
 type SentencesData = Record<string, Record<string, SentenceByCase>>;
 
 let cachedSentences: SentencesData | null = null;
@@ -35,31 +36,52 @@ function loadSentences(): SentencesData {
   }
 
   const raw = fs.readFileSync(dataPath, 'utf-8');
-  cachedSentences = JSON.parse(raw) as SentencesData;
-  return cachedSentences ?? {};
+  const parsed = JSON.parse(raw) as Record<string, Record<string, unknown>>;
+
+  // Rétrocompatibilité : si une entrée est un tableau (ancien format), prendre le premier
+  const result: SentencesData = {};
+  for (const [wordId, cases] of Object.entries(parsed)) {
+    if (!cases || typeof cases !== 'object') continue;
+    result[wordId] = {};
+    for (const [caseKey, value] of Object.entries(cases)) {
+      result[wordId][caseKey] = Array.isArray(value) ? (value[0] as SentenceByCase) : (value as SentenceByCase);
+    }
+  }
+  cachedSentences = result;
+  return result;
+}
+
+/** Supprime les crochets [ ] des traductions. */
+function stripBrackets(s: string): string {
+  return s.replace(/\[|\]/g, '');
 }
 
 function getTranslation(row: SentenceByCase, lang: LandingLanguage): string {
+  let text: string;
   switch (lang) {
     case 'fr_fr':
-      return row.sentence_trad_fr || row.sentence_en;
+      text = row.sentence_trad_fr || row.sentence_en;
+      break;
     case 'de_de':
-      return row.sentence_trad_de || row.sentence_en;
+      text = row.sentence_trad_de || row.sentence_en;
+      break;
     case 'pl_pl':
-      return row.sentence_trad_pl || row.sentence_en;
+      text = row.sentence_trad_pl || row.sentence_en;
+      break;
     case 'tr_tr':
-      return row.sentence_trad_tr || row.sentence_en;
+      text = row.sentence_trad_tr || row.sentence_en;
+      break;
     case 'ru_ru':
     case 'en_en':
     default:
-      return row.sentence_en;
+      text = row.sentence_en;
   }
+  return stripBrackets(text);
 }
 
 /**
- * Récupère une phrase par cas pour un mot donné.
+ * Récupère une phrase par cas pour un mot donné (ID le plus faible).
  * Clé = case key (nominative, accusative, etc.), valeur = { sentence_ru, translation }.
- * Lit depuis data/sentences.json (généré par npm run export-db).
  */
 export async function getExampleSentencesForWord(
   wordId: number,
@@ -71,6 +93,7 @@ export async function getExampleSentencesForWord(
 
   const result: Record<string, ExampleSentence> = {};
   for (const [caseKey, row] of Object.entries(wordData)) {
+    if (!row) continue;
     result[caseKey] = {
       sentence_ru: row.sentence_ru,
       translation: getTranslation(row, lang),

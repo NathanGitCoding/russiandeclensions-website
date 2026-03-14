@@ -232,6 +232,33 @@ export async function getWords({
 }
 
 /**
+ * Retourne des mots apparentés pour le maillage interne (même genre, exclut le mot actuel).
+ * Utilisé pour le bloc "People also searched for" en pied de page.
+ */
+export async function getRelatedWords(
+  currentSlug: string,
+  gender: string,
+  limit = 5
+): Promise<{ slug: string; base_form: string }[]> {
+  const data = loadWords();
+  const candidates = Object.entries(data)
+    .filter(
+      ([slug, w]) =>
+        slug &&
+        slug !== currentSlug &&
+        !EXCLUDED_WORD_IDS.has(w.word_id) &&
+        w.gender === gender
+    )
+    .map(([slug, w]) => ({ slug, base_form: w.base_form ?? slug }));
+
+  // Mélanger et prendre les N premiers (déterministe par slug pour éviter le cache dynamique)
+  const shuffled = [...candidates].sort((a, b) =>
+    (a.slug + currentSlug).localeCompare(b.slug + currentSlug)
+  );
+  return shuffled.slice(0, limit);
+}
+
+/**
  * Lettres cyrilliques distinctes, triées.
  * Exclut les mots dont word_id est dans EXCLUDED_WORD_IDS.
  */

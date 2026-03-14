@@ -52,8 +52,67 @@ export default async function BlogPostPage({ params }: Props) {
   const post = getBlogPost(slug);
   if (!post) notFound();
 
+  const url = `${siteUrl}/blog/${slug}`;
+
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
+      { '@type': 'ListItem', position: 2, name: 'Blog', item: `${siteUrl}/blog` },
+      { '@type': 'ListItem', position: 3, name: post.frontmatter.title, item: url },
+    ],
+  };
+
+  const articleJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: post.frontmatter.title,
+    description: post.frontmatter.description,
+    datePublished: getPublishedDate(post.frontmatter),
+    author: post.frontmatter.author
+      ? { '@type': 'Person', name: post.frontmatter.author }
+      : { '@type': 'Organization', name: 'Russian Declensions', url: siteUrl },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Russian Declensions',
+      url: siteUrl,
+      logo: { '@type': 'ImageObject', url: `${siteUrl}/favicon.ico` },
+    },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+    image: post.frontmatter.image
+      ? `${siteUrl}${post.frontmatter.image}`
+      : `${siteUrl}/landing-cases/icon-app-russian-cases-with-anna.webp`,
+  };
+
+  const learningResourceJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'LearningResource',
+    name: post.frontmatter.title,
+    description: post.frontmatter.description,
+    learningResourceType: 'Article',
+    educationalLevel: 'Beginner',
+    about: {
+      '@type': 'Thing',
+      name: 'Russian grammar',
+      description: 'Russian cases, declensions, and grammatical structures',
+    },
+  };
+
   return (
     <div className="min-h-screen bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(learningResourceJsonLd) }}
+      />
       <main className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
         <nav className="mb-8">
           <Link

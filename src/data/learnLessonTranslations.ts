@@ -1615,7 +1615,7 @@ export const learnLessonTranslations: Partial<
         {
           h2: 'Przegląd: 6 rosyjskich przypadków w skrócie',
           image: {
-            src: '/articles/the-six-russian-cases-quick-reference.jpg',
+            src: '/articles/the-six-russian-cases-quick-reference.webp',
             alt: 'Szybka ściąga z sześciu rosyjskich przypadków',
             width: 1200,
             height: 630,
@@ -2596,7 +2596,7 @@ export const learnLessonTranslations: Partial<
       ],
       h1: 'Opanuj rosyjski celownik (Дательный падеж)',
       heroImage: {
-        src: '/articles/free-russian-lesson-dative-case.jpg',
+        src: '/articles/free-russian-lesson-dative-case.webp',
         alt: 'Rosyjski celownik: darmowa lekcja o tym, jak powiedzieć „do" i „dla" po rosyjsku',
         width: 1200,
         height: 630,
@@ -2629,7 +2629,7 @@ export const learnLessonTranslations: Partial<
         {
           h2: 'Zaimki osobowe (przypadek „uczuć")',
           image: {
-            src: '/articles/how-to-say-your-age-in-russian-grammar-rule-table.jpg',
+            src: '/articles/how-to-say-your-age-in-russian-grammar-rule-table.webp',
             alt: 'Tabela gramatyczna: jak powiedzieć swój wiek po rosyjsku (celownik)',
             width: 1200,
             height: 630,

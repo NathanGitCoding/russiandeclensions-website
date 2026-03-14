@@ -10,6 +10,7 @@ export {
   getWords,
   getCyrillicLetters,
   getLegacyRedirect,
+  getRelatedWords,
   isIndeclinable,
   type WordWithDeclensions,
   type WordListItem,

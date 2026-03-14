@@ -14,7 +14,7 @@ export default function LandingNavbar() {
   const isWords = pathname?.startsWith('/words') || pathname?.startsWith('/russian-declension');
 
   return (
-    <nav id="header" className="fixed top-0 z-50 w-full border-b border-white/10 bg-[hsl(210,100%,50%)]/95 backdrop-blur-md">
+    <nav id="header" className="fixed left-0 right-0 top-0 z-[100] w-full border-b border-white/10 bg-[hsl(210,100%,50%)]/95 backdrop-blur-md">
       <div className="container mx-auto flex h-14 items-center justify-between gap-2 px-4 sm:h-16 sm:px-6">
         <Link
           href="/"

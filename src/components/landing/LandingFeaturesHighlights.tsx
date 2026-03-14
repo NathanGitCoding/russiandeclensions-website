@@ -1,6 +1,5 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import {
   BoltIcon,
   PuzzlePieceIcon,
@@ -11,6 +10,7 @@ import {
 } from '@heroicons/react/24/outline';
 import { useLandingLanguage } from '@/contexts/LandingLanguageContext';
 import { getLandingTranslations } from '@/data/website/landingTranslations';
+import { AnimateOnScroll } from '@/components/landing/AnimateOnScroll';
 
 const HIGHLIGHT_ICONS = [
   BoltIcon,
@@ -31,13 +31,7 @@ export default function LandingFeaturesHighlights() {
       id="features"
     >
       <div className="container mx-auto px-4 sm:px-6">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-50px' }}
-          transition={{ duration: 0.5, ease: 'easeOut' }}
-          className="mb-16 text-center"
-        >
+        <AnimateOnScroll variant="fade-up" rootMargin="-50px" className="mb-16 text-center">
           <h2 className="mb-4 text-2xl font-bold tracking-tight text-[hsl(220,20%,10%)] sm:text-3xl md:text-4xl">
             {t.featuresSection.title}
           </h2>
@@ -45,22 +39,14 @@ export default function LandingFeaturesHighlights() {
             {t.featuresSection.subtitle}
           </p>
           <div className="mx-auto mt-6 h-0.5 w-20 rounded-full bg-[hsl(210,100%,50%)]/60" />
-        </motion.div>
+        </AnimateOnScroll>
 
-        <div className="grid gap-8 sm:grid-cols-2 md:gap-10 lg:grid-cols-3">
+        <AnimateOnScroll variant="fade-up" rootMargin="-30px" className="grid gap-8 sm:grid-cols-2 md:gap-10 lg:grid-cols-3">
           {highlights.map((item, index) => {
             const Icon = item.Icon ?? BookOpenIcon;
             return (
-              <motion.div
+              <div
                 key={item.title}
-                initial={{ opacity: 0, y: 16 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: '-30px' }}
-                transition={{
-                  duration: 0.4,
-                  ease: 'easeOut',
-                  delay: index * 0.06,
-                }}
                 className="flex gap-5 rounded-2xl border border-[hsl(210,20%,90%)] bg-[hsl(210,100%,96%)]/50 p-6 transition-colors hover:bg-[hsl(210,100%,96%)]/80"
               >
                 <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-[hsl(210,100%,50%)]/10">
@@ -72,10 +58,10 @@ export default function LandingFeaturesHighlights() {
                   </h3>
                   <p className="leading-relaxed text-[hsl(220,10%,40%)]">{item.description}</p>
                 </div>
-              </motion.div>
+              </div>
             );
           })}
-        </div>
+        </AnimateOnScroll>
       </div>
     </section>
   );

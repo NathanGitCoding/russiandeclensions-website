@@ -4,11 +4,36 @@ import type { Metadata } from 'next';
 import { getWords, getCyrillicLetters } from '@/lib/words';
 import { getLandingLangFromRequest } from '@/lib/landingLangServer';
 import { getWordsIndexPageTranslations } from '@/data/website/wordsIndexPageTranslations';
+import { getLearnPageTranslations } from '@/data/website/learnPageTranslations';
 import type { LandingLanguage } from '@/data/website/landingTranslations';
 import type { WordListItem } from '@/lib/data';
 
+/* Case articles for internal linking (SEO) */
+const CASE_ARTICLE_SLUGS = [
+  'russian-genitive-case',
+  'russian-accusative-case',
+  'russian-dative-case',
+  'russian-instrumental-case',
+  'russian-prepositional-case',
+  'russian-prepositions-and-cases',
+] as const;
+
+/* Popular word slugs for internal linking (SEO) */
+const POPULAR_WORDS: { slug: string; baseForm: string }[] = [
+  { slug: 'kniga', baseForm: 'Книга' },
+  { slug: 'dom', baseForm: 'Дом' },
+  { slug: 'rabota', baseForm: 'Работа' },
+  { slug: 'voda', baseForm: 'Вода' },
+  { slug: 'gorod', baseForm: 'Город' },
+  { slug: 'chelovek', baseForm: 'Человек' },
+  { slug: 'den', baseForm: 'День' },
+  { slug: 'okno', baseForm: 'Окно' },
+];
+
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://russiandeclensions.com';
 const WORDS_PER_PAGE = 50;
+
+export const revalidate = 3600;
 
 function getDisplayTranslation(word: WordListItem, lang: LandingLanguage): string {
   let text: string;
@@ -18,6 +43,12 @@ function getDisplayTranslation(word: WordListItem, lang: LandingLanguage): strin
   else if (lang === 'pl_pl') text = word.translation_pl || word.translation_en;
   else text = word.translation_en;
   return text ? text.charAt(0).toUpperCase() + text.slice(1) : '';
+}
+
+/** Renders text with **bold** segments as <strong> */
+function WithBold({ text }: { text: string }) {
+  const parts = text.split(/\*\*(.+?)\*\*/g);
+  return <>{parts.map((part, i) => (i % 2 === 1 ? <strong key={i}>{part}</strong> : part))}</>;
 }
 
 /** Première lettre en majuscule pour les mots russes (cyrillique). */
@@ -92,6 +123,8 @@ export async function generateMetadata({ searchParams }: Props): Promise<Metadat
   return {
     title: t.metadata.title(total),
     description: t.metadata.description(total),
+    keywords:
+      'Russian declensions, Russian word declension, Russian cases, Russian grammar, declension table, Russian nouns, learn Russian, русские склонения, падежи русского языка',
     alternates,
     openGraph: {
       title: t.metadata.title(total),
@@ -104,7 +137,7 @@ export async function generateMetadata({ searchParams }: Props): Promise<Metadat
           url: OG_IMAGE,
           width: 1200,
           height: 1200,
-          alt: 'Russian Cases with Anna - Learn Russian grammar app',
+          alt: '410 most useful Russian words - full declension tables for all 6 cases',
         },
       ],
     },
@@ -129,6 +162,7 @@ export default async function WordsIndexPage({ searchParams }: Props) {
     getWords({ letter, level, page, q }),
   ]);
   const t = getWordsIndexPageTranslations(lang);
+  const learnT = getLearnPageTranslations(lang);
 
   const totalPages = Math.ceil(total / WORDS_PER_PAGE);
   const from = (page - 1) * WORDS_PER_PAGE + 1;
@@ -190,15 +224,30 @@ export default async function WordsIndexPage({ searchParams }: Props) {
 
       {/* HERO */}
       <section className="learn-detail-header !mb-0">
-        <h1
-          className="learn-detail-title text-4xl sm:text-5xl"
-          style={{ fontFamily: 'var(--font-cyrillic)' }}
-        >
+        <h1 className="learn-detail-title text-4xl sm:text-5xl">
           {t.titleWithCount(total)}
         </h1>
-        <p className="mt-3 text-lg text-[hsl(var(--muted-foreground))]">
-          {t.subtitle(total)}
-        </p>
+        <div className="mt-4 space-y-3 text-lg text-[hsl(var(--muted-foreground))]">
+          {t.intro.paragraphs(total).map((para, i) => (
+            <p key={i}>
+              <WithBold text={para} />
+            </p>
+          ))}
+        </div>
+        <div className="mt-8 pt-6 border-t border-[hsl(var(--border))]">
+          <h2 className="text-xl font-semibold text-[hsl(var(--foreground))] mb-3">
+            {t.heroH2.title(total)}
+          </h2>
+          <p className="text-[hsl(var(--muted-foreground))] mb-4">
+            {t.heroH2.body(total)}
+          </p>
+          <Link
+            href="/learn/lessons/russian-cases-complete-guide"
+            className="inline-flex items-center text-[hsl(var(--primary))] font-medium hover:underline"
+          >
+            {learnT.lessonTitles['russian-cases-complete-guide']} →
+          </Link>
+        </div>
       </section>
 
       {/* WORDS TABLE + ALPHABET SIDEBAR */}
@@ -210,6 +259,7 @@ export default async function WordsIndexPage({ searchParams }: Props) {
                 <th>{t.tableHeaders.russian}</th>
                 <th>{t.tableHeaders.translation}</th>
                 <th>{t.tableHeaders.gender}</th>
+                <th className="text-right">{t.tableHeaders.viewDeclension}</th>
               </tr>
             </thead>
             <tbody>
@@ -239,6 +289,14 @@ export default async function WordsIndexPage({ searchParams }: Props) {
                     >
                       {t.gender[w.gender] ?? w.gender}
                     </span>
+                  </td>
+                  <td className="text-right">
+                    <Link
+                      href={`/russian-declension/${w.slug}`}
+                      className="inline-flex items-center gap-1.5 rounded-lg border border-[hsl(var(--primary))] bg-transparent px-3 py-1.5 text-sm font-medium text-[hsl(var(--primary))] hover:bg-[hsl(var(--primary)_/_0.1)] transition-colors"
+                    >
+                      {t.tableHeaders.viewDeclension}
+                    </Link>
                   </td>
                 </tr>
               ))}
@@ -340,6 +398,69 @@ export default async function WordsIndexPage({ searchParams }: Props) {
           </div>
         </nav>
       )}
+
+      {/* Internal links for SEO */}
+      <section
+        className="mt-12 pt-8 border-t border-[hsl(var(--border))]"
+        aria-labelledby="related-links-heading"
+      >
+        <h2 id="related-links-heading" className="text-lg font-semibold mb-4 text-[hsl(var(--foreground))]">
+          {t.relatedLinks.title}
+        </h2>
+        <div className="grid sm:grid-cols-2 gap-6">
+          <div>
+            <p className="text-sm font-medium text-[hsl(var(--muted-foreground))] mb-2">
+              {t.relatedLinks.learnLabel}
+            </p>
+            <ul className="space-y-1">
+              <li>
+                <Link
+                  href="/learn"
+                  className="text-[hsl(var(--primary))] hover:underline text-sm"
+                >
+                  {learnT.header.title}
+                </Link>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p className="text-sm font-medium text-[hsl(var(--muted-foreground))] mb-2">
+              {t.relatedLinks.caseArticlesTitle}
+            </p>
+            <ul className="space-y-1">
+              {CASE_ARTICLE_SLUGS.map((slug) => (
+                <li key={slug}>
+                  <Link
+                    href={`/learn/articles/${slug}`}
+                    className="text-[hsl(var(--primary))] hover:underline text-sm"
+                  >
+                    {learnT.lessonTitles[slug] ?? slug}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+        <div className="mt-6">
+          <p className="text-sm font-medium text-[hsl(var(--muted-foreground))] mb-2">
+            {t.relatedLinks.popularWordsTitle}
+          </p>
+          <ul className="flex flex-wrap gap-2">
+            {POPULAR_WORDS.map(({ slug, baseForm }) => (
+              <li key={slug}>
+                <Link
+                  href={`/russian-declension/${slug}`}
+                  className="inline-flex rounded-lg border border-[hsl(var(--border))] px-3 py-1.5 text-sm text-[hsl(var(--foreground))] hover:bg-[hsl(var(--muted))] transition-colors"
+                  style={{ fontFamily: 'var(--font-cyrillic)' }}
+                  lang="ru"
+                >
+                  {baseForm}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
     </article>
   );
 }

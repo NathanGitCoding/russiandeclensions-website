@@ -2,6 +2,14 @@
 
 import React, { useEffect, useRef, useState } from 'react';
 
+export interface UseIntersectionObserverOptions {
+  root?: Element | null;
+  rootMargin?: string;
+  threshold?: number | number[];
+  /** Si false, ne crée pas d'observer et retourne isVisible: true (ex. prefers-reduced-motion) */
+  enabled?: boolean;
+}
+
 /**
  * Hook pour utiliser Intersection Observer
  * Charge les images/composants uniquement quand ils sont visibles
@@ -10,44 +18,37 @@ import React, { useEffect, useRef, useState } from 'react';
  * @returns [ref, isVisible] - Ref à attacher à l'élément, et état de visibilité
  */
 export function useIntersectionObserver(
-  options: {
-    root?: Element | null;
-    rootMargin?: string;
-    threshold?: number | number[];
-  } = {}
-): [React.RefObject<HTMLElement>, boolean] {
-  const [isVisible, setIsVisible] = useState(false);
-  const ref = useRef<HTMLElement>(null);
+  options: UseIntersectionObserverOptions = {}
+): [React.RefObject<HTMLElement | null>, boolean] {
+  const { rootMargin = '50px', threshold = 0.1, enabled = true } = options;
+  const [isVisible, setIsVisible] = useState(!enabled);
+  const ref = useRef<HTMLElement | null>(null);
 
   useEffect(() => {
+    if (!enabled) {
+      setIsVisible(true);
+      return;
+    }
+
     const element = ref.current;
     if (!element) return;
 
-    // Si l'élément est déjà visible, ne pas créer d'observer
     if (isVisible) return;
 
     const observer = new IntersectionObserver(
       (entries) => {
         const entry = entries[0];
-        if (entry && entry.isIntersecting) {
+        if (entry?.isIntersecting) {
           setIsVisible(true);
-          // Désactiver l'observer une fois visible pour économiser les ressources
           observer.disconnect();
         }
       },
-      {
-        rootMargin: '50px', // Charger 50px avant d'être visible
-        threshold: 0.1, // Déclencher quand 10% est visible
-        ...options,
-      }
+      { rootMargin, threshold }
     );
 
     observer.observe(element);
-
-    return () => {
-      observer.disconnect();
-    };
-  }, [isVisible, options]);
+    return () => observer.disconnect();
+  }, [enabled, isVisible, rootMargin, threshold]);
 
   return [ref, isVisible];
 }

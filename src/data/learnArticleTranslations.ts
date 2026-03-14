@@ -1622,7 +1622,7 @@ export const learnArticleTranslations: Partial<
       ],
       h1: 'Génitif russe : règles, terminaisons et 32 exemples authentiques',
       heroImage: {
-        src: '/articles/free-russian-lesson-genitive-case.jpg',
+        src: '/articles/free-russian-lesson-genitive-case.webp',
         alt: 'Leçon gratuite de russe sur le génitif : possession, négation et quantités',
         width: 1200,
         height: 630,
@@ -2948,7 +2948,7 @@ export const learnArticleTranslations: Partial<
       ],
       h1: 'Accusatif russe : objets directs, animé vs inanimé et verbes de mouvement',
       heroImage: {
-        src: '/articles/free-russian-lesson-accusative-case.jpg',
+        src: '/articles/free-russian-lesson-accusative-case.webp',
         alt: "Leçon gratuite de russe sur l'accusatif : objets directs et verbes de mouvement",
         width: 1200,
         height: 630,
@@ -3732,7 +3732,7 @@ export const learnArticleTranslations: Partial<
       ],
       h1: 'Винительный падеж: дополнения, одушевлённость и глаголы движения',
       heroImage: {
-        src: '/articles/free-russian-lesson-accusative-case.jpg',
+        src: '/articles/free-russian-lesson-accusative-case.webp',
         alt: 'Урок русского языка: винительный падеж — дополнения и глаголы движения',
         width: 1200,
         height: 630,
@@ -3833,7 +3833,7 @@ export const learnArticleTranslations: Partial<
       ],
       h1: 'Datif russe : comment dire « à » et « pour » en russe',
       heroImage: {
-        src: '/articles/free-russian-lesson-dative-case.jpg',
+        src: '/articles/free-russian-lesson-dative-case.webp',
         alt: 'Leçon gratuite de russe sur le datif : à et pour en russe',
         width: 1200,
         height: 630,
@@ -4826,7 +4826,7 @@ export const learnArticleTranslations: Partial<
       ],
       h1: 'Rusça datif: Rusçada "kime" ve "için" nasıl söylenir',
       heroImage: {
-        src: '/articles/free-russian-lesson-dative-case.jpg',
+        src: '/articles/free-russian-lesson-dative-case.webp',
         alt: 'Ücretsiz Rusça datif dersi: Rusçada kime ve için',
         width: 1200,
         height: 630,
@@ -4935,7 +4935,7 @@ export const learnArticleTranslations: Partial<
       ],
       h1: 'Rosyjski celownik: Jak powiedzieć „do" i „dla" po rosyjsku',
       heroImage: {
-        src: '/articles/free-russian-lesson-dative-case.jpg',
+        src: '/articles/free-russian-lesson-dative-case.webp',
         alt: 'Darmowa lekcja rosyjskiego o celowniku: do i dla po rosyjsku',
         width: 1200,
         height: 630,
@@ -5043,7 +5043,7 @@ export const learnArticleTranslations: Partial<
       ],
       h1: 'Дательный падеж: как сказать «кому» и «для» по-русски',
       heroImage: {
-        src: '/articles/free-russian-lesson-dative-case.jpg',
+        src: '/articles/free-russian-lesson-dative-case.webp',
         alt: 'Урок русского языка: дательный падеж — «кому» и «для»',
         width: 1200,
         height: 630,
@@ -5148,7 +5148,7 @@ export const learnArticleTranslations: Partial<
       ],
       h1: "Instrumental russe : quand l'utiliser et pourquoi il est plus simple qu'il n'y paraît",
       heroImage: {
-        src: '/articles/free-russian-lesson-instrumental-case.jpg',
+        src: '/articles/free-russian-lesson-instrumental-case.webp',
         alt: "Leçon gratuite de russe sur l'instrumental : professions et с + instrumental",
         width: 1200,
         height: 630,
@@ -5322,7 +5322,7 @@ export const learnArticleTranslations: Partial<
           content:
             'Hier ist die vollständige Tabelle der Instrumental-Endungen für russische Substantive.\n\nDie Muster sind **konsistent**, und der Plural ist für alle Genera gleich (**-ами/-ями**).',
           image: {
-            src: '/articles/instrumental-case-russian-noun-endings-declension-table.jpg',
+            src: '/articles/instrumental-case-russian-noun-endings-declension-table.webp',
             alt: 'Instrumental-Deklinationstabelle: Russische Substantivendungen nach Genus',
             width: 1200,
             height: 630,
@@ -5927,7 +5927,7 @@ export const learnArticleTranslations: Partial<
       ],
       h1: 'Rosyjski narzędnik: Kiedy go używać i dlaczego jest prostszy niż myślisz',
       heroImage: {
-        src: '/articles/free-russian-lesson-instrumental-case.jpg',
+        src: '/articles/free-russian-lesson-instrumental-case.webp',
         alt: 'Darmowa lekcja rosyjskiego o narzędniku: zawody i с + narzędnik',
         width: 1200,
         height: 630,
@@ -6027,7 +6027,7 @@ export const learnArticleTranslations: Partial<
       ],
       h1: 'Rusça enstrumental: Ne zaman kullanılır ve neden düşündüğünüzden kolay',
       heroImage: {
-        src: '/articles/free-russian-lesson-instrumental-case.jpg',
+        src: '/articles/free-russian-lesson-instrumental-case.webp',
         alt: 'Ücretsiz Rusça enstrumental dersi: araç, meslek ve с ile',
         width: 1200,
         height: 630,
@@ -6119,7 +6119,7 @@ export const learnArticleTranslations: Partial<
       ],
       h1: 'Творительный падеж: когда использовать и почему он проще, чем кажется',
       heroImage: {
-        src: '/articles/free-russian-lesson-instrumental-case.jpg',
+        src: '/articles/free-russian-lesson-instrumental-case.webp',
         alt: 'Урок русского языка: творительный падеж — профессии и с + творительный',
         width: 1200,
         height: 630,
@@ -6220,7 +6220,7 @@ export const learnArticleTranslations: Partial<
       ],
       h1: 'Prépositif russe : le seul cas qui ne se tient jamais seul',
       heroImage: {
-        src: '/articles/free-russian-lesson-prepositional-case.jpg',
+        src: '/articles/free-russian-lesson-prepositional-case.webp',
         alt: 'Leçon gratuite de russe sur le prépositif : lieu, thème et в/на/о',
         width: 1200,
         height: 630,
@@ -6331,7 +6331,7 @@ export const learnArticleTranslations: Partial<
       ],
       h1: 'Russischer Präpositiv: Der einzige Fall, der niemals allein steht',
       heroImage: {
-        src: '/articles/free-russian-lesson-prepositional-case.jpg',
+        src: '/articles/free-russian-lesson-prepositional-case.webp',
         alt: 'Kostenlose Russisch-Lektion zum Präpositiv: Ort, Thema und в/на/о',
         width: 1200,
         height: 630,
@@ -6447,7 +6447,7 @@ export const learnArticleTranslations: Partial<
       ],
       h1: 'Rusça lokatif: Tek başına asla durmayan tek hal',
       heroImage: {
-        src: '/articles/free-russian-lesson-prepositional-case.jpg',
+        src: '/articles/free-russian-lesson-prepositional-case.webp',
         alt: 'Ücretsiz Rusça lokatif dersi: yer, tema ve в/на/о',
         width: 1200,
         height: 630,
@@ -6548,7 +6548,7 @@ export const learnArticleTranslations: Partial<
       ],
       h1: 'Rosyjski miejscownik: Jedyny przypadek, który nigdy nie stoi sam',
       heroImage: {
-        src: '/articles/free-russian-lesson-prepositional-case.jpg',
+        src: '/articles/free-russian-lesson-prepositional-case.webp',
         alt: 'Darmowa lekcja rosyjskiego o miejscowniku: miejsce, temat i в/на/о',
         width: 1200,
         height: 630,
@@ -6643,7 +6643,7 @@ export const learnArticleTranslations: Partial<
       ],
       h1: 'Предложный падеж: единственный падеж, который никогда не стоит один',
       heroImage: {
-        src: '/articles/free-russian-lesson-prepositional-case.jpg',
+        src: '/articles/free-russian-lesson-prepositional-case.webp',
         alt: 'Урок русского языка: предложный падеж — место, тема и в/на/о',
         width: 1200,
         height: 630,
@@ -6745,7 +6745,7 @@ export const learnArticleTranslations: Partial<
       ],
       h1: "Comment s'entraîner aux cas russes : 5 méthodes éprouvées pour qu'ils restent enfin",
       heroImage: {
-        src: '/articles/what-is-the-best-russian-grammar-app-to-learn-cases.jpg',
+        src: '/articles/what-is-the-best-russian-grammar-app-to-learn-cases.webp',
         alt: 'Meilleures apps de grammaire russe pour apprendre les cas',
         width: 1200,
         height: 630,
@@ -6828,7 +6828,7 @@ export const learnArticleTranslations: Partial<
       ],
       h1: 'Wie man russische Fälle übt: 5 bewährte Methoden, damit sie endlich sitzen',
       heroImage: {
-        src: '/articles/what-is-the-best-russian-grammar-app-to-learn-cases.jpg',
+        src: '/articles/what-is-the-best-russian-grammar-app-to-learn-cases.webp',
         alt: 'Beste Russisch-Grammatik-Apps zum Lernen von Fällen',
         width: 1200,
         height: 630,
@@ -6916,7 +6916,7 @@ export const learnArticleTranslations: Partial<
       ],
       h1: 'Rusça halleri nasıl pratik edilir: Sonunda oturması için 5 kanıtlanmış yöntem',
       heroImage: {
-        src: '/articles/what-is-the-best-russian-grammar-app-to-learn-cases.jpg',
+        src: '/articles/what-is-the-best-russian-grammar-app-to-learn-cases.webp',
         alt: 'Rusça haller öğrenmek için en iyi gramer uygulamaları',
         width: 1200,
         height: 630,
@@ -7004,7 +7004,7 @@ export const learnArticleTranslations: Partial<
       ],
       h1: 'Jak ćwiczyć rosyjskie przypadki: 5 sprawdzonych metod, by w końcu je opanować',
       heroImage: {
-        src: '/articles/what-is-the-best-russian-grammar-app-to-learn-cases.jpg',
+        src: '/articles/what-is-the-best-russian-grammar-app-to-learn-cases.webp',
         alt: 'Najlepsze aplikacje do gramatyki rosyjskiej do nauki przypadków',
         width: 1200,
         height: 630,
@@ -7092,7 +7092,7 @@ export const learnArticleTranslations: Partial<
       ],
       h1: 'Как практиковать русские падежи: 5 проверенных методов, чтобы они наконец закрепились',
       heroImage: {
-        src: '/articles/what-is-the-best-russian-grammar-app-to-learn-cases.jpg',
+        src: '/articles/what-is-the-best-russian-grammar-app-to-learn-cases.webp',
         alt: 'Лучшие приложения для изучения русских падежей',
         width: 1200,
         height: 630,
@@ -7178,7 +7178,7 @@ export const learnArticleTranslations: Partial<
       ],
       h1: 'Top 10 erreurs de cas russes (et comment les corriger)',
       heroImage: {
-        src: '/articles/top-russian-case-errors-and-mistakes-by-english-speakers.jpg',
+        src: '/articles/top-russian-case-errors-and-mistakes-by-english-speakers.webp',
         alt: 'Top erreurs de cas russes',
         width: 1200,
         height: 630,
@@ -7263,7 +7263,7 @@ export const learnArticleTranslations: Partial<
       ],
       h1: 'Top 10 russische Fallfehler (und wie man sie behebt)',
       heroImage: {
-        src: '/articles/top-russian-case-errors-and-mistakes-by-english-speakers.jpg',
+        src: '/articles/top-russian-case-errors-and-mistakes-by-english-speakers.webp',
         alt: 'Top russische Fallfehler',
         width: 1200,
         height: 630,
@@ -7349,7 +7349,7 @@ export const learnArticleTranslations: Partial<
       ],
       h1: 'Rusça hallerde en sık yapılan 10 hata (ve nasıl düzeltilir)',
       heroImage: {
-        src: '/articles/top-russian-case-errors-and-mistakes-by-english-speakers.jpg',
+        src: '/articles/top-russian-case-errors-and-mistakes-by-english-speakers.webp',
         alt: 'Rusça hal hataları',
         width: 1200,
         height: 630,
@@ -7432,7 +7432,7 @@ export const learnArticleTranslations: Partial<
       ],
       h1: 'Top 10 błędów w rosyjskich przypadkach (i jak je naprawić)',
       heroImage: {
-        src: '/articles/top-russian-case-errors-and-mistakes-by-english-speakers.jpg',
+        src: '/articles/top-russian-case-errors-and-mistakes-by-english-speakers.webp',
         alt: 'Top błędy w rosyjskich przypadkach',
         width: 1200,
         height: 630,
@@ -7515,7 +7515,7 @@ export const learnArticleTranslations: Partial<
       ],
       h1: 'Топ-10 ошибок в русских падежах (и как их исправить)',
       heroImage: {
-        src: '/articles/top-russian-case-errors-and-mistakes-by-english-speakers.jpg',
+        src: '/articles/top-russian-case-errors-and-mistakes-by-english-speakers.webp',
         alt: 'Топ ошибок в русских падежах',
         width: 1200,
         height: 630,
@@ -7596,7 +7596,7 @@ export const learnArticleTranslations: Partial<
       ],
       h1: 'Prépositions russes et cas : quel cas pour quelle préposition ?',
       heroImage: {
-        src: '/articles/russian-prepositions-case-grammar-reference.jpg',
+        src: '/articles/russian-prepositions-case-grammar-reference.webp',
         alt: 'Tableau de référence grammaire prépositions et cas russes',
         width: 1200,
         height: 630,
@@ -7675,7 +7675,7 @@ export const learnArticleTranslations: Partial<
       ],
       h1: 'Russische Präpositionen und Fälle: Welcher Fall bei welcher Präposition?',
       heroImage: {
-        src: '/articles/russian-prepositions-case-grammar-reference.jpg',
+        src: '/articles/russian-prepositions-case-grammar-reference.webp',
         alt: 'Russische Präpositionen und Fall-Grammatik-Referenztabelle',
         width: 1200,
         height: 630,
@@ -7753,7 +7753,7 @@ export const learnArticleTranslations: Partial<
       ],
       h1: 'Rusça edatlar ve haller: Her edat hangi hali gerektirir?',
       heroImage: {
-        src: '/articles/russian-prepositions-case-grammar-reference.jpg',
+        src: '/articles/russian-prepositions-case-grammar-reference.webp',
         alt: 'Rusça edat ve hal grameri referans tablosu',
         width: 1200,
         height: 630,
@@ -7828,7 +7828,7 @@ export const learnArticleTranslations: Partial<
       ],
       h1: 'Rosyjskie przyimki i przypadki: Który przyimek wymaga którego przypadku?',
       heroImage: {
-        src: '/articles/russian-prepositions-case-grammar-reference.jpg',
+        src: '/articles/russian-prepositions-case-grammar-reference.webp',
         alt: 'Tabela referencyjna gramatyki przyimków i przypadków rosyjskich',
         width: 1200,
         height: 630,
@@ -7903,7 +7903,7 @@ export const learnArticleTranslations: Partial<
       ],
       h1: 'Русские предлоги и падежи: какой предлог требует какой падеж?',
       heroImage: {
-        src: '/articles/russian-prepositions-case-grammar-reference.jpg',
+        src: '/articles/russian-prepositions-case-grammar-reference.webp',
         alt: 'Справочная таблица предлогов и падежей русского языка',
         width: 1200,
         height: 630,

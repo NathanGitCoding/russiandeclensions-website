@@ -53,7 +53,7 @@ export default async function Image({
     text: '#6b7280',
   };
 
-  const iconUrl = 'https://russiandeclensions.com/landing-cases/icon-app-russian-cases-with-anna.png';
+  const iconUrl = 'https://russiandeclensions.com/landing-cases/icon-app-russian-cases-with-anna.webp';
 
   return new ImageResponse(
     (

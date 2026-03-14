@@ -1,9 +1,9 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { useLandingLanguage } from '@/contexts/LandingLanguageContext';
 import { getLandingTranslations } from '@/data/website/landingTranslations';
+import { AnimateOnScroll } from '@/components/landing/AnimateOnScroll';
 
 const ASSETS = '/landing-cases';
 
@@ -17,16 +17,10 @@ export default function LandingAbout() {
     >
       <div className="container mx-auto px-6 sm:px-6 md:px-16 lg:px-24">
         <div className="grid items-center gap-10 md:grid-cols-2 md:gap-16">
-          <motion.div
-            initial={{ opacity: 0, y: 24 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-50px' }}
-            transition={{ duration: 0.5, ease: 'easeOut' }}
-            className="flex justify-center"
-          >
+          <AnimateOnScroll variant="fade-up" rootMargin="-50px" className="order-2 flex justify-center md:order-1">
             <div className="relative h-56 w-56 overflow-hidden rounded-full border-[3px] border-white shadow-xl sm:h-64 sm:w-64 md:h-72 md:w-72 lg:h-80 lg:w-80">
               <Image
-                src={`${ASSETS}/founder-photo.png`}
+                src={`${ASSETS}/founder-photo.webp`}
                 alt="Founder and creator of Russian Cases with Anna"
                 fill
                 sizes="(max-width: 640px) 224px, (max-width: 768px) 256px, (max-width: 1024px) 288px, 320px"
@@ -34,14 +28,9 @@ export default function LandingAbout() {
                 className="object-cover"
               />
             </div>
-          </motion.div>
+          </AnimateOnScroll>
 
-          <motion.div
-            initial={{ opacity: 0, x: 24 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, margin: '-50px' }}
-            transition={{ duration: 0.5, ease: 'easeOut', delay: 0.1 }}
-          >
+          <AnimateOnScroll variant="fade-in-right" rootMargin="-50px" delay={0.1} className="order-1 md:order-2">
             <p className="mb-4 text-sm font-semibold tracking-widest text-[hsl(210,100%,50%)]/60 uppercase">
               {t.about.ourStory}
             </p>
@@ -53,7 +42,7 @@ export default function LandingAbout() {
                 <p key={i}>{para}</p>
               ))}
             </div>
-          </motion.div>
+          </AnimateOnScroll>
         </div>
       </div>
     </section>

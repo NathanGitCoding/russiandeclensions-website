@@ -263,53 +263,76 @@ async function exportWords(): Promise<WordsExport> {
   return bySlug;
 }
 
-/** Format : { [wordId]: { [caseKey]: { sentence_ru, sentence_en, sentence_trad_fr, ... } } } */
-type SentencesExport = Record<string, Record<string, { sentence_ru: string; sentence_en: string; sentence_trad_fr?: string; sentence_trad_de?: string; sentence_trad_pl?: string; sentence_trad_tr?: string }>>;
+/** Supprime les crochets [ ] des chaînes de traduction (pas de modification Supabase). */
+function stripBrackets(s: string | null | undefined): string {
+  if (!s) return '';
+  return s.replace(/\[|\]/g, '');
+}
+
+/** Format : { [wordId]: { [caseKey]: { sentence_ru, sentence_en, ... } } } — une phrase par cas (ID le plus faible). */
+type SentenceEntry = { sentence_ru: string; sentence_en: string; sentence_trad_fr?: string; sentence_trad_de?: string; sentence_trad_pl?: string; sentence_trad_tr?: string };
+type SentencesExport = Record<string, Record<string, SentenceEntry>>;
 
 async function exportSentences(wordIds: number[]): Promise<SentencesExport> {
   if (wordIds.length === 0) return {};
 
   const result: SentencesExport = {};
-  const byCase = new Map<number, Map<string, { sentence_id: number; sentence_ru: string; sentence_en: string; sentence_trad_fr?: string; sentence_trad_de?: string; sentence_trad_pl?: string; sentence_trad_tr?: string }>>();
+  const byCase = new Map<number, Map<string, { sentence_id: number; entry: SentenceEntry }>>();
 
   for (let i = 0; i < wordIds.length; i += BATCH_SIZE) {
     const batchIds = wordIds.slice(i, i + BATCH_SIZE);
-    const { data: sentences, error: sErr } = await supabase
-      .from('b01_sentences')
-      .select('sentence_id, sentence_ru, sentence_en, correct_case_form, word_id')
-      .in('word_id', batchIds);
 
-    if (sErr) {
-      console.error('❌ Erreur b01_sentences:', sErr.message);
-      process.exit(1);
+    // Pagination : récupérer TOUTES les phrases (Supabase limite par défaut)
+    let offset = 0;
+    let allRows: DbSentence[] = [];
+    let hasMore = true;
+
+    while (hasMore) {
+      const { data: sentences, error: sErr } = await supabase
+        .from('b01_sentences')
+        .select('sentence_id, sentence_ru, sentence_en, correct_case_form, word_id')
+        .in('word_id', batchIds)
+        .range(offset, offset + BATCH_SIZE - 1);
+
+      if (sErr) {
+        console.error('❌ Erreur b01_sentences:', sErr.message);
+        process.exit(1);
+      }
+
+      const rows = (sentences ?? []) as DbSentence[];
+      allRows = allRows.concat(rows);
+      hasMore = rows.length === BATCH_SIZE;
+      offset += BATCH_SIZE;
     }
 
-    const rows = (sentences ?? []) as DbSentence[];
-    const sentenceIds = [...new Set(rows.map((r) => r.sentence_id))];
+    const sentenceIds = [...new Set(allRows.map((r) => r.sentence_id))];
 
-    const { data: trans } = await supabase
-      .from('b02_sentence_translations')
-      .select('sentence_id, sentence_trad_fr, sentence_trad_de, sentence_trad_pl, sentence_trad_tr')
-      .in('sentence_id', sentenceIds);
-
+    // Pagination pour les traductions si beaucoup de phrases
     const transMap = new Map<number, DbSentenceTranslation>();
-    for (const t of (trans ?? []) as DbSentenceTranslation[]) {
-      transMap.set(t.sentence_id, t);
+    for (let tOffset = 0; tOffset < sentenceIds.length; tOffset += BATCH_SIZE) {
+      const batchIds_ = sentenceIds.slice(tOffset, tOffset + BATCH_SIZE);
+      const { data: trans } = await supabase
+        .from('b02_sentence_translations')
+        .select('sentence_id, sentence_trad_fr, sentence_trad_de, sentence_trad_pl, sentence_trad_tr')
+        .in('sentence_id', batchIds_);
+
+      for (const t of (trans ?? []) as DbSentenceTranslation[]) {
+        transMap.set(t.sentence_id, t);
+      }
     }
 
-    for (const s of rows) {
+    for (const s of allRows) {
       const caseKey = extractCaseKey(s.correct_case_form);
       if (!caseKey) continue;
 
       const t = transMap.get(s.sentence_id);
-      const entry = {
-        sentence_id: s.sentence_id,
+      const entry: SentenceEntry = {
         sentence_ru: s.sentence_ru ?? '',
-        sentence_en: s.sentence_en ?? '',
-        sentence_trad_fr: t?.sentence_trad_fr ?? undefined,
-        sentence_trad_de: t?.sentence_trad_de ?? undefined,
-        sentence_trad_pl: t?.sentence_trad_pl ?? undefined,
-        sentence_trad_tr: t?.sentence_trad_tr ?? undefined,
+        sentence_en: stripBrackets(s.sentence_en ?? ''),
+        sentence_trad_fr: t?.sentence_trad_fr ? stripBrackets(t.sentence_trad_fr) : undefined,
+        sentence_trad_de: t?.sentence_trad_de ? stripBrackets(t.sentence_trad_de) : undefined,
+        sentence_trad_pl: t?.sentence_trad_pl ? stripBrackets(t.sentence_trad_pl) : undefined,
+        sentence_trad_tr: t?.sentence_trad_tr ? stripBrackets(t.sentence_trad_tr) : undefined,
       };
 
       let wordMap = byCase.get(s.word_id);
@@ -318,17 +341,17 @@ async function exportSentences(wordIds: number[]): Promise<SentencesExport> {
         byCase.set(s.word_id, wordMap);
       }
       const existing = wordMap.get(caseKey);
+      // Garder uniquement celle avec l'ID le plus faible
       if (!existing || s.sentence_id < existing.sentence_id) {
-        wordMap.set(caseKey, entry);
+        wordMap.set(caseKey, { sentence_id: s.sentence_id, entry });
       }
     }
   }
 
   for (const [wordId, wordMap] of byCase.entries()) {
-    const cases: Record<string, { sentence_ru: string; sentence_en: string; sentence_trad_fr?: string; sentence_trad_de?: string; sentence_trad_pl?: string; sentence_trad_tr?: string }> = {};
-    for (const [caseKey, v] of wordMap.entries()) {
-      const { sentence_id: _sid, ...rest } = v;
-      cases[caseKey] = rest;
+    const cases: Record<string, SentenceEntry> = {};
+    for (const [caseKey, { entry }] of wordMap.entries()) {
+      cases[caseKey] = entry;
     }
     result[String(wordId)] = cases;
   }
@@ -358,8 +381,12 @@ async function main(): Promise<void> {
   console.log('📥 Export phrases exemples...');
   const sentencesData = await exportSentences(wordIds);
   const sentenceWordCount = Object.keys(sentencesData).length;
+  const totalPhrases = Object.values(sentencesData).reduce(
+    (sum, cases) => sum + Object.keys(cases).length,
+    0
+  );
   fs.writeFileSync(SENTENCES_OUTPUT_PATH, JSON.stringify(sentencesData, null, 0), 'utf-8');
-  console.log(`   ✅ data/sentences.json : ${sentenceWordCount} mots avec phrases`);
+  console.log(`   ✅ data/sentences.json : ${sentenceWordCount} mots, ${totalPhrases} phrases`);
 
   console.log('✅ Export terminé.');
 }

@@ -1,11 +1,20 @@
 'use client';
 
-import { motion } from 'framer-motion';
+import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import { useLandingLanguage } from '@/contexts/LandingLanguageContext';
 import { getLandingTranslations } from '@/data/website/landingTranslations';
 
 const ASSETS = '/landing-cases';
+const MOCKUPS = [
+  `${ASSETS}/Mockup1.webp`,
+  `${ASSETS}/Mockup2.webp`,
+  `${ASSETS}/Mockup3.webp`,
+  `${ASSETS}/Mockup4.webp`,
+  `${ASSETS}/Mockup5.webp`,
+];
+
+const INTERVAL_MS = 2500;
 
 interface LandingHeroProps {
   onAppStoreClick?: () => void;
@@ -15,38 +24,62 @@ interface LandingHeroProps {
 export default function LandingHero({ onAppStoreClick, onPlayStoreClick }: LandingHeroProps) {
   const { landingLanguage } = useLandingLanguage();
   const t = getLandingTranslations(landingLanguage);
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const id = setInterval(() => {
+      setCurrentIndex((i) => (i + 1) % MOCKUPS.length);
+    }, INTERVAL_MS);
+    return () => clearInterval(id);
+  }, []);
+
   return (
-    <section className="section-blue relative flex min-h-screen items-center overflow-hidden pt-20">
-      <div className="container mx-auto px-4 py-16 text-center sm:px-6 sm:py-20 md:py-24">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: 'easeOut' }}
-          className="mx-auto max-w-3xl"
-        >
-          <div className="mb-8 flex justify-center">
-            <Image
-              src={`${ASSETS}/icon-app-russian-cases-with-anna.png`}
-              alt="Russian Cases with Anna app logo - Learn Russian grammar with structured lessons"
-              width={160}
-              height={160}
-              className="h-24 w-24 object-contain sm:h-28 sm:w-28 md:h-36 md:w-36 lg:h-40 lg:w-40"
-              priority
-              sizes="(max-width: 640px) 112px, (max-width: 768px) 128px, (max-width: 1024px) 144px, 160px"
-            />
+    <section className="section-blue relative flex min-h-screen items-center overflow-hidden pt-16 md:pt-20">
+      <div className="container mx-auto grid min-h-0 flex-1 items-center gap-4 px-4 py-8 sm:px-6 sm:py-16 md:grid-cols-2 md:gap-5 md:py-20 lg:gap-6 lg:py-24">
+        {/* Mockup carousel - cycles through all mockups with crossfade | order-2 on mobile (after text), order-1 on desktop (left) */}
+        <div className="relative order-2 flex justify-center md:order-1">
+          <div className="relative aspect-[322/644] w-full max-w-[200px] sm:max-w-[240px] md:max-w-[280px] lg:max-w-[322px]">
+            {MOCKUPS.map((src, i) => (
+              <Image
+                key={src}
+                src={src}
+                alt="Russian Cases with Anna app - Learn Russian grammar on your phone"
+                width={322}
+                height={644}
+                priority={i < 2}
+                sizes="(max-width: 768px) 220px, (max-width: 1024px) 260px, 322px"
+                className={`absolute inset-0 h-full w-full object-contain drop-shadow-2xl transition-opacity duration-700 ease-in-out ${
+                  i === currentIndex ? 'opacity-100' : 'pointer-events-none opacity-0'
+                }`}
+              />
+            ))}
           </div>
-          <p className="mb-3 text-base font-semibold tracking-tight text-white/90 sm:text-lg md:text-xl">
+        </div>
+        {/* Text content - order-1 on mobile (first), order-2 on desktop (right) */}
+        <div className="order-1 flex flex-col justify-center text-center md:order-2 md:text-left">
+          <div className="mb-6 flex justify-center md:justify-start">
+            <div className="overflow-hidden rounded-full">
+              <Image
+                src={`${ASSETS}/icon-app-russian-cases-with-anna.webp`}
+                alt="Russian Cases with Anna app logo"
+                width={80}
+                height={80}
+                className="h-[74px] w-[74px] object-cover sm:h-20 sm:w-20"
+                priority
+                sizes="80px"
+              />
+            </div>
+          </div>
+          <p className="mb-2 text-base font-semibold tracking-tight text-white/90 sm:text-lg md:text-xl">
             {t.hero.tagline}
           </p>
-          <h1 className="mb-6 text-2xl leading-[1.15] font-bold tracking-tight text-balance text-white sm:text-3xl md:text-4xl lg:text-5xl">
+          <h1 className="mb-4 text-2xl leading-[1.15] font-bold tracking-tight text-balance text-white sm:text-3xl md:text-4xl lg:text-5xl">
             {t.hero.title}
           </h1>
-
-          <p className="mx-auto mb-10 max-w-xl px-2 text-center text-base leading-relaxed text-white/80 sm:text-lg md:mb-12 md:text-xl">
+          <p className="mb-8 max-w-xl text-base leading-relaxed text-white/80 sm:text-lg md:mb-10 md:text-xl">
             {t.hero.subtitle}
           </p>
-
-          <div className="mb-16 flex flex-wrap justify-center gap-4">
+          <div className="flex flex-wrap justify-center gap-4 md:justify-start">
             {onAppStoreClick ? (
               <button
                 type="button"
@@ -114,7 +147,7 @@ export default function LandingHero({ onAppStoreClick, onPlayStoreClick }: Landi
               </a>
             )}
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

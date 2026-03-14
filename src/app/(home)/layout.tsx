@@ -1,43 +1,46 @@
 import React from 'react';
 import type { Metadata } from 'next';
 import '../landing.css';
+import { getLandingLangFromRequest } from '@/lib/landingLangServer';
+import { getLandingTranslations } from '@/data/website/landingTranslations';
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://russiandeclensions.com';
 
-export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
-  title: 'Russian Cases with Anna® - Learn Russian Grammar',
-  description:
-    'Master Russian grammar in 5 minutes a day. 128 structured lessons, 136 interactive quizzes, vocabulary flashcards. Learn Russian cases with Anna.',
-  keywords:
-    'apprendre le russe, grammaire russe, cas russes, leçons de russe, application russe, Russian grammar, learn Russian',
-  alternates: {
-    canonical: '/',
-  },
-  openGraph: {
-    url: '/',
-    type: 'website',
-    siteName: 'Russian Cases with Anna®',
-    title: 'Russian Cases with Anna® - Learn Russian Grammar',
-    description:
-      'Master Russian grammar in 5 minutes a day. The app that brings clarity to cases and declensions.',
-    images: [
-      {
-        url: '/landing-cases/icon-app-russian-cases-with-anna.webp',
-        width: 1200,
-        height: 1200,
-        alt: 'Russian Cases with Anna - Learn Russian grammar app',
-      },
-    ],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Russian Cases with Anna® - Learn Russian Grammar',
-    description:
-      'Master Russian grammar in 5 minutes a day. The app that brings clarity to cases and declensions.',
-    images: ['/landing-cases/icon-app-russian-cases-with-anna.webp'],
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const lang = await getLandingLangFromRequest();
+  const t = getLandingTranslations(lang);
+  const m = t.metadata;
+
+  return {
+    metadataBase: new URL(siteUrl),
+    title: m.title,
+    description: m.description,
+    alternates: {
+      canonical: '/',
+    },
+    openGraph: {
+      url: '/',
+      type: 'website',
+      siteName: 'Russian Cases with Anna®',
+      title: m.title,
+      description: m.ogDescription,
+      images: [
+        {
+          url: '/landing-cases/icon-app-russian-cases-with-anna.webp',
+          width: 1200,
+          height: 1200,
+          alt: 'Russian Cases with Anna - Learn Russian grammar app',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: m.title,
+      description: m.ogDescription,
+      images: ['/landing-cases/icon-app-russian-cases-with-anna.webp'],
+    },
+  };
+}
 
 const jsonLd = {
   '@context': 'https://schema.org',

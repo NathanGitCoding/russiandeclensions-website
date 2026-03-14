@@ -1,7 +1,7 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import Image from 'next/image';
+import { AnimateOnScroll } from '@/components/landing/AnimateOnScroll';
 import { BookOpen, MessageSquare, Zap, Trophy } from 'lucide-react';
 import { useLandingLanguage } from '@/contexts/LandingLanguageContext';
 import { getLandingTranslations } from '@/data/website/landingTranslations';
@@ -10,24 +10,24 @@ const ASSETS = '/landing-cases';
 
 const FEATURE_CONFIG = [
   {
-    mockup: `${ASSETS}/Mockup2.png`,
-    mockupAlt: `${ASSETS}/Mockup1.png`,
+    mockup: `${ASSETS}/Mockup2.webp`,
+    mockupAlt: `${ASSETS}/Mockup1.webp`,
     icon: BookOpen,
     color: 'white' as const,
   },
   {
-    mockup: `${ASSETS}/Mockup5.png`,
-    mockupAlt: `${ASSETS}/Mockup3.png`,
+    mockup: `${ASSETS}/Mockup5.webp`,
+    mockupAlt: `${ASSETS}/Mockup3.webp`,
     icon: Zap,
     color: 'blue' as const,
   },
   {
-    mockup: `${ASSETS}/Mockup3.png`,
-    mockupAlt: `${ASSETS}/Mockup1.png`,
+    mockup: `${ASSETS}/Mockup3.webp`,
+    mockupAlt: `${ASSETS}/Mockup1.webp`,
     icon: MessageSquare,
     color: 'white' as const,
   },
-  { mockup: `${ASSETS}/Mockup4.png`, mockupAlt: null, icon: Trophy, color: 'blue' as const },
+  { mockup: `${ASSETS}/Mockup4.webp`, mockupAlt: null, icon: Trophy, color: 'blue' as const },
 ];
 
 export default function LandingFeaturesShowcase() {
@@ -49,7 +49,7 @@ export default function LandingFeaturesShowcase() {
         const mockup = config.mockup;
         const mockupAlt = config.mockupAlt;
         const renderMockup = () => {
-          if (mockupAlt && mockup === `${ASSETS}/Mockup5.png`) {
+          if (mockupAlt && mockup === `${ASSETS}/Mockup5.webp`) {
             return (
               <div className="group relative mx-auto flex min-h-[300px] w-full max-w-[300px] cursor-pointer items-center justify-center overflow-visible sm:min-h-[368px] sm:max-w-[345px] md:min-h-[437px] md:max-w-[368px]">
                 <Image
@@ -74,7 +74,7 @@ export default function LandingFeaturesShowcase() {
               </div>
             );
           }
-          const src = mockupAlt && mockup === `${ASSETS}/Mockup3.png` ? mockupAlt : mockup;
+          const src = mockupAlt && mockup === `${ASSETS}/Mockup3.webp` ? mockupAlt : mockup;
           return (
             <Image
               src={src}
@@ -95,25 +95,15 @@ export default function LandingFeaturesShowcase() {
             className={`${Section} overflow-x-hidden py-16 sm:py-20 md:py-24 lg:py-32`}
           >
             <div className="container mx-auto px-6 sm:px-6 md:px-16 lg:px-24">
-              <div className="grid items-center gap-10 overflow-visible md:grid-cols-2 md:gap-16">
+              <AnimateOnScroll
+                variant="fade-up"
+                rootMargin="-40px"
+                className="grid items-center gap-10 overflow-visible md:grid-cols-2 md:gap-16"
+              >
                 {!isEven && (
-                  <motion.div
-                    initial={{ opacity: 0, y: 24 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true, margin: '-40px' }}
-                    transition={{ duration: 0.5, ease: 'easeOut' }}
-                    className="order-2 flex justify-center md:order-1"
-                  >
-                    {renderMockup()}
-                  </motion.div>
+                  <div className="order-2 flex justify-center md:order-1">{renderMockup()}</div>
                 )}
-                <motion.div
-                  initial={{ opacity: 0, x: isEven ? -24 : 24 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true, margin: '-40px' }}
-                  transition={{ duration: 0.5, ease: 'easeOut', delay: 0.05 }}
-                  className={isEven ? 'order-1' : 'order-2'}
-                >
+                <div className={`order-1 ${isEven ? 'md:order-1' : 'md:order-2'}`}>
                   <div
                     className={`mb-6 flex h-14 w-14 items-center justify-center rounded-2xl ${
                       feature.color === 'blue' ? 'bg-white/10' : 'bg-[hsl(210,100%,96%)]'
@@ -138,19 +128,11 @@ export default function LandingFeaturesShowcase() {
                       feature.color === 'blue' ? 'bg-white/60' : 'bg-[hsl(210,100%,50%)]/60'
                     }`}
                   />
-                </motion.div>
+                </div>
                 {isEven && (
-                  <motion.div
-                    initial={{ opacity: 0, y: 24 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true, margin: '-40px' }}
-                    transition={{ duration: 0.5, ease: 'easeOut' }}
-                    className="flex justify-center"
-                  >
-                    {renderMockup()}
-                  </motion.div>
+                  <div className="order-2 flex justify-center md:order-2">{renderMockup()}</div>
                 )}
-              </div>
+              </AnimateOnScroll>
             </div>
           </section>
         );

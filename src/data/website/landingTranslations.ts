@@ -26,6 +26,11 @@ export interface LandingTestimonial {
 }
 
 export interface LandingTranslations {
+  metadata: {
+    title: string;
+    description: string;
+    ogDescription: string;
+  };
   navbar: {
     brand: string;
     declinaisons: string;
@@ -566,9 +571,16 @@ const ruAboutParagraphs = [
 
 const translations: Record<LandingLanguage, LandingTranslations> = {
   en_en: {
+    metadata: {
+      title: 'Russian Cases with Anna® - Learn Russian Grammar',
+      description:
+        'Download Russian Cases with Anna® – the #1 mobile app for Russian declensions. Interactive tables, quizzes, offline. Free download on App Store & Google Play.',
+      ogDescription:
+        'Master Russian grammar in 5 minutes a day. The app that brings clarity to cases and declensions.',
+    },
     navbar: {
       brand: 'Russian Cases with Anna®',
-      declinaisons: 'Declensions',
+      declinaisons: 'Russian Declensions',
       home: 'App',
       features: 'Features',
       about: 'About',
@@ -577,7 +589,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     },
     hero: {
       tagline: 'Russian Cases with Anna®',
-      title: 'Master Russian grammar in 5 minutes a day',
+      title: 'The App to finally master Russian Declensions',
       subtitle:
         'The russian grammar app that brings clarity to cases and declensions. Never look at a declension table again.',
       appStoreAria: 'Download Russian Cases with Anna on the App Store',
@@ -601,7 +613,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       paragraphs: enAboutParagraphs,
     },
     cta: {
-      title: 'Ready to get started?',
+      title: 'Ready to Stop Struggling with Russian Cases?',
       description:
         'Download now and start your journey to mastering Russian grammar today! Try it for free.',
       appStoreAria: 'Download Russian Cases with Anna on the App Store',
@@ -618,9 +630,16 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     },
   },
   fr_fr: {
+    metadata: {
+      title: 'Russian Cases with Anna® - Apprendre la grammaire russe',
+      description:
+        'Téléchargez Russian Cases with Anna® – l\'app mobile n°1 pour les déclinaisons russes. Tableaux interactifs, quiz, mode hors ligne. Téléchargement gratuit sur App Store et Google Play.',
+      ogDescription:
+        'Maîtrisez la grammaire russe en 5 minutes par jour. L\'app qui apporte la clarté aux cas et déclinaisons.',
+    },
     navbar: {
       brand: 'Russian Cases with Anna®',
-      declinaisons: 'Déclinaisons',
+      declinaisons: 'Déclinaisons russes',
       home: 'App',
       features: 'Fonctionnalités',
       about: 'À propos',
@@ -629,7 +648,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     },
     hero: {
       tagline: 'Russian Cases with Anna®',
-      title: 'Maîtrisez la grammaire russe en 5 minutes par jour',
+      title: "L'app pour enfin maîtriser les déclinaisons russes",
       subtitle:
         "L'app de grammaire russe qui clarifie les cas et les déclinaisons. Finies les tables de déclinaison.",
       appStoreAria: "Télécharger Russian Cases with Anna sur l'App Store",
@@ -653,7 +672,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       paragraphs: frAboutParagraphs,
     },
     cta: {
-      title: 'Prêt à commencer ?',
+      title: 'Prêt à en finir avec les cas russes ?',
       description:
         'Téléchargez maintenant et commencez à maîtriser la grammaire russe ! Essai gratuit.',
       appStoreAria: "Télécharger Russian Cases with Anna sur l'App Store",
@@ -670,9 +689,16 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     },
   },
   tr_tr: {
+    metadata: {
+      title: 'Russian Cases with Anna® - Rusça grameri öğrenin',
+      description:
+        "Russian Cases with Anna®'ı indirin – Rusça çekimler için 1 numaralı mobil uygulama. İnteraktif tablolar, quizler, çevrimdışı. App Store ve Google Play'de ücretsiz indirin.",
+      ogDescription:
+        'Günde 5 dakikada Rusça gramerinde ustalaşın. Durumları ve çekimleri netleştiren uygulama.',
+    },
     navbar: {
       brand: 'Russian Cases with Anna®',
-      declinaisons: 'Çekimler',
+      declinaisons: 'Rusça Çekimler',
       home: 'App',
       features: 'Özellikler',
       about: 'Hakkında',
@@ -681,7 +707,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     },
     hero: {
       tagline: 'Russian Cases with Anna®',
-      title: 'Rusça gramerini günde 5 dakikada öğrenin',
+      title: 'Sonunda Rusça çekimlere hakim olacak uygulama',
       subtitle:
         'Rusça durumları ve çekimleri netleştiren gramer uygulaması. Çekim tablolarına veda edin.',
       appStoreAria: "Russian Cases with Anna'yı App Store'dan indirin",
@@ -705,7 +731,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       paragraphs: trAboutParagraphs,
     },
     cta: {
-      title: 'Başlamaya hazır mısınız?',
+      title: 'Rusça hallerle mücadeleye son vermeye hazır mısınız?',
       description:
         'Hemen indirin ve Rusça gramerinde ustalaşma yolculuğunuza bugün başlayın! Ücretsiz deneyin.',
       appStoreAria: "Russian Cases with Anna'yı App Store'dan indirin",
@@ -722,9 +748,16 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     },
   },
   de_de: {
+    metadata: {
+      title: 'Russian Cases with Anna® - Russische Grammatik lernen',
+      description:
+        'Laden Sie Russian Cases with Anna® herunter – die #1 Mobile-App für russische Deklinationen. Interaktive Tabellen, Quiz, Offline. Kostenlos im App Store & Google Play.',
+      ogDescription:
+        'Meistern Sie die russische Grammatik in 5 Minuten pro Tag. Die App, die Klarheit in Fälle und Deklinationen bringt.',
+    },
     navbar: {
       brand: 'Russian Cases with Anna®',
-      declinaisons: 'Deklinationen',
+      declinaisons: 'Russische Deklinationen',
       home: 'App',
       features: 'Funktionen',
       about: 'Über uns',
@@ -733,7 +766,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     },
     hero: {
       tagline: 'Russian Cases with Anna®',
-      title: 'Meistern Sie russische Grammatik in 5 Minuten pro Tag',
+      title: 'Die App, um russische Deklinationen endlich zu meistern',
       subtitle:
         'Die Russisch-Grammatik-App, die Klarheit in Fälle und Deklinationen bringt. Schluss mit Deklinationstabellen.',
       appStoreAria: 'Russian Cases with Anna im App Store herunterladen',
@@ -757,7 +790,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       paragraphs: deAboutParagraphs,
     },
     cta: {
-      title: 'Bereit loszulegen?',
+      title: 'Bereit, den Kampf mit russischen Fällen zu beenden?',
       description:
         'Laden Sie jetzt herunter und starten Sie heute Ihre Reise zur russischen Grammatik! Kostenlos testen.',
       appStoreAria: 'Russian Cases with Anna im App Store herunterladen',
@@ -774,9 +807,16 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     },
   },
   pl_pl: {
+    metadata: {
+      title: 'Russian Cases with Anna® - Nauka gramatyki rosyjskiej',
+      description:
+        'Pobierz Russian Cases with Anna® – aplikację mobilną nr 1 do rosyjskich odmian. Interaktywne tabele, quizy, tryb offline. Darmowe pobieranie w App Store i Google Play.',
+      ogDescription:
+        'Opanuj gramatykę rosyjską w 5 minut dziennie. Aplikacja, która wyjaśnia przypadki i deklinacje.',
+    },
     navbar: {
       brand: 'Russian Cases with Anna®',
-      declinaisons: 'Odmiany',
+      declinaisons: 'Rosyjskie odmiany',
       home: 'App',
       features: 'Funkcje',
       about: 'O nas',
@@ -785,7 +825,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     },
     hero: {
       tagline: 'Russian Cases with Anna®',
-      title: 'Opanuj gramatykę rosyjską w 5 minut dziennie',
+      title: 'Aplikacja, dzięki której w końcu opanujesz rosyjskie odmiany',
       subtitle:
         'Aplikacja do gramatyki rosyjskiej, która wyjaśnia przypadki i deklinacje. Koniec z tabelami odmian.',
       appStoreAria: 'Pobierz Russian Cases with Anna z App Store',
@@ -809,7 +849,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       paragraphs: plAboutParagraphs,
     },
     cta: {
-      title: 'Gotowy na start?',
+      title: 'Gotowy, by skończyć z problemami przypadków?',
       description:
         'Pobierz teraz i zacznij swoją drogę do opanowania gramatyki rosyjskiej! Wypróbuj za darmo.',
       appStoreAria: 'Pobierz Russian Cases with Anna z App Store',
@@ -826,9 +866,16 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     },
   },
   ru_ru: {
+    metadata: {
+      title: 'Russian Cases with Anna® - Изучайте русскую грамматику',
+      description:
+        'Скачайте Russian Cases with Anna® – приложение №1 для русских склонений. Интерактивные таблицы, викторины, офлайн. Бесплатная загрузка в App Store и Google Play.',
+      ogDescription:
+        'Освойте русскую грамматику за 5 минут в день. Приложение, которое объясняет падежи и склонения.',
+    },
     navbar: {
       brand: 'Russian Cases with Anna®',
-      declinaisons: 'Склонения',
+      declinaisons: 'Русские склонения',
       home: 'App',
       features: 'Функции',
       about: 'О нас',
@@ -837,7 +884,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     },
     hero: {
       tagline: 'Russian Cases with Anna®',
-      title: 'Освойте русскую грамматику за 5 минут в день',
+      title: 'Приложение, чтобы наконец освоить русские склонения',
       subtitle:
         'Приложение по русской грамматике, которое объясняет падежи и склонения. Забудьте о таблицах.',
       appStoreAria: 'Скачать Russian Cases with Anna в App Store',
@@ -861,7 +908,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       paragraphs: ruAboutParagraphs,
     },
     cta: {
-      title: 'Готовы начать?',
+      title: 'Готовы перестать мучиться с падежами?',
       description:
         'Скачайте сейчас и начните путь к освоению русской грамматики! Попробуйте бесплатно.',
       appStoreAria: 'Скачать Russian Cases with Anna в App Store',
