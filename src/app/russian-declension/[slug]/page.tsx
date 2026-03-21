@@ -349,7 +349,7 @@ export default async function WordPage({ params }: Props) {
   const nextItem = currentIndex >= 0 && currentIndex < navItems.length - 1 ? navItems[currentIndex + 1] : null;
 
   const exampleSentences = await getExampleSentencesForWord(word.word_id, lang);
-  const relatedWords = await getRelatedWords(slug, word.gender, 5);
+  const relatedWords = await getRelatedWords(slug, word.gender, 12);
 
   return (
     <article className="learn-detail">

@@ -421,6 +421,14 @@ export default async function WordsIndexPage({ searchParams }: Props) {
                   {learnT.header.title}
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/learn"
+                  className="text-[hsl(var(--primary))] hover:underline text-sm"
+                >
+                  {t.relatedLinks.blogLabel}
+                </Link>
+              </li>
             </ul>
           </div>
           <div>

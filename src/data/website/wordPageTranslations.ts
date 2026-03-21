@@ -242,8 +242,10 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     },
     metadata: {
       title: (t, base) => `Declension of ${base} (${t}) in Russian - All 6 Cases Table`,
-      description: (base, t) =>
-        `Learn how to decline the Russian noun ${base} (${t}). Full declension table for all 6 cases, singular and plural. Free grammar guide with examples.`,
+      description: (base, t, gender) => {
+        const g = gender === 'masculine' ? 'masculine' : gender === 'feminine' ? 'feminine' : 'neuter';
+        return `Full declension table of the Russian ${g} noun ${base} (${t}). All 6 cases — nominative, genitive, dative, accusative, instrumental, prepositional — singular and plural forms with example sentences.`;
+      },
       wordNotFound: 'Word not found',
     },
     nav: {

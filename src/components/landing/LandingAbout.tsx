@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { useLandingLanguage } from '@/contexts/LandingLanguageContext';
 import { getLandingTranslations } from '@/data/website/landingTranslations';
 import { AnimateOnScroll } from '@/components/landing/AnimateOnScroll';
@@ -41,6 +42,16 @@ export default function LandingAbout() {
               {t.about.paragraphs.map((para, i) => (
                 <p key={i}>{para}</p>
               ))}
+              <p className="pt-2">
+                <span className="text-[hsl(220,10%,40%)]">{t.about.exploreLabel} </span>
+                <Link href="/learn" className="font-medium text-[hsl(210,100%,50%)] hover:underline">
+                  {t.about.learnLink}
+                </Link>
+                {' · '}
+                <Link href="/words" className="font-medium text-[hsl(210,100%,50%)] hover:underline">
+                  {t.about.wordsLink}
+                </Link>
+              </p>
             </div>
           </AnimateOnScroll>
         </div>

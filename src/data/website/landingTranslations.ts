@@ -34,6 +34,7 @@ export interface LandingTranslations {
   navbar: {
     brand: string;
     declinaisons: string;
+    blog: string;
     home: string;
     features: string;
     about: string;
@@ -62,6 +63,9 @@ export interface LandingTranslations {
     ourStory: string;
     title: string;
     paragraphs: string[];
+    exploreLabel: string;
+    learnLink: string;
+    wordsLink: string;
   };
   cta: {
     title: string;
@@ -73,6 +77,8 @@ export interface LandingTranslations {
     brand: string;
     tagline: string;
     learn: string;
+    words: string;
+    blog: string;
     privacy: string;
     terms: string;
     contact: string;
@@ -581,6 +587,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     navbar: {
       brand: 'Russian Cases with Anna®',
       declinaisons: 'Russian Declensions',
+      blog: 'Blog',
       home: 'App',
       features: 'Features',
       about: 'About',
@@ -611,6 +618,9 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       ourStory: 'Our story',
       title: 'A love story that became an app',
       paragraphs: enAboutParagraphs,
+      exploreLabel: 'Explore our free resources:',
+      learnLink: 'Grammar lessons',
+      wordsLink: 'Word declensions',
     },
     cta: {
       title: 'Ready to Stop Struggling with Russian Cases?',
@@ -623,6 +633,8 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       brand: 'Russian Cases with Anna®',
       tagline: 'Practice Russian cases on your phone',
       learn: 'Learn',
+      words: 'Declensions',
+      blog: 'Blog',
       privacy: 'Privacy',
       terms: 'Terms',
       contact: 'Contact',
@@ -640,6 +652,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     navbar: {
       brand: 'Russian Cases with Anna®',
       declinaisons: 'Déclinaisons russes',
+      blog: 'Blog',
       home: 'App',
       features: 'Fonctionnalités',
       about: 'À propos',
@@ -670,6 +683,9 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       ourStory: 'Notre histoire',
       title: "Une histoire d'amour devenue une app",
       paragraphs: frAboutParagraphs,
+      exploreLabel: 'Découvrez nos ressources gratuites :',
+      learnLink: 'Leçons de grammaire',
+      wordsLink: 'Déclinaisons des mots',
     },
     cta: {
       title: 'Prêt à en finir avec les cas russes ?',
@@ -682,6 +698,8 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       brand: 'Russian Cases with Anna®',
       tagline: 'Pratiquez les cas russes sur votre téléphone',
       learn: 'Apprendre',
+      words: 'Déclinaisons',
+      blog: 'Blog',
       privacy: 'Confidentialité',
       terms: 'CGU',
       contact: 'Contact',
@@ -699,6 +717,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     navbar: {
       brand: 'Russian Cases with Anna®',
       declinaisons: 'Rusça Çekimler',
+      blog: 'Blog',
       home: 'App',
       features: 'Özellikler',
       about: 'Hakkında',
@@ -729,6 +748,9 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       ourStory: 'Hikayemiz',
       title: 'Bir aşk hikayesi uygulamaya dönüştü',
       paragraphs: trAboutParagraphs,
+      exploreLabel: 'Ücretsiz kaynaklarımızı keşfedin:',
+      learnLink: 'Gramer dersleri',
+      wordsLink: 'Kelime çekimleri',
     },
     cta: {
       title: 'Rusça hallerle mücadeleye son vermeye hazır mısınız?',
@@ -741,6 +763,8 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       brand: 'Russian Cases with Anna®',
       tagline: 'Rusça halleri telefonunuzda pratik yapın',
       learn: 'Öğren',
+      words: 'Çekimler',
+      blog: 'Blog',
       privacy: 'Gizlilik',
       terms: 'Koşullar',
       contact: 'İletişim',
@@ -758,6 +782,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     navbar: {
       brand: 'Russian Cases with Anna®',
       declinaisons: 'Russische Deklinationen',
+      blog: 'Blog',
       home: 'App',
       features: 'Funktionen',
       about: 'Über uns',
@@ -788,6 +813,9 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       ourStory: 'Unsere Geschichte',
       title: 'Eine Liebesgeschichte, die zur App wurde',
       paragraphs: deAboutParagraphs,
+      exploreLabel: 'Entdecken Sie unsere kostenlosen Ressourcen:',
+      learnLink: 'Grammatik-Lektionen',
+      wordsLink: 'Wortdeklinationen',
     },
     cta: {
       title: 'Bereit, den Kampf mit russischen Fällen zu beenden?',
@@ -800,6 +828,8 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       brand: 'Russian Cases with Anna®',
       tagline: 'Russische Fälle auf dem Handy üben',
       learn: 'Lernen',
+      words: 'Deklinationen',
+      blog: 'Blog',
       privacy: 'Datenschutz',
       terms: 'AGB',
       contact: 'Kontakt',
@@ -817,6 +847,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     navbar: {
       brand: 'Russian Cases with Anna®',
       declinaisons: 'Rosyjskie odmiany',
+      blog: 'Blog',
       home: 'App',
       features: 'Funkcje',
       about: 'O nas',
@@ -847,6 +878,9 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       ourStory: 'Nasza historia',
       title: 'Historia miłosna, która stała się aplikacją',
       paragraphs: plAboutParagraphs,
+      exploreLabel: 'Odkryj nasze darmowe zasoby:',
+      learnLink: 'Lekcje gramatyki',
+      wordsLink: 'Odmiany słów',
     },
     cta: {
       title: 'Gotowy, by skończyć z problemami przypadków?',
@@ -859,6 +893,8 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       brand: 'Russian Cases with Anna®',
       tagline: 'Ćwicz rosyjskie przypadki na telefonie',
       learn: 'Nauka',
+      words: 'Odmiany',
+      blog: 'Blog',
       privacy: 'Prywatność',
       terms: 'Regulamin',
       contact: 'Kontakt',
@@ -876,6 +912,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     navbar: {
       brand: 'Russian Cases with Anna®',
       declinaisons: 'Русские склонения',
+      blog: 'Блог',
       home: 'App',
       features: 'Функции',
       about: 'О нас',
@@ -906,6 +943,9 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       ourStory: 'Наша история',
       title: 'История любви, ставшая приложением',
       paragraphs: ruAboutParagraphs,
+      exploreLabel: 'Наши бесплатные материалы:',
+      learnLink: 'Уроки грамматики',
+      wordsLink: 'Склонения слов',
     },
     cta: {
       title: 'Готовы перестать мучиться с падежами?',
@@ -918,6 +958,8 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       brand: 'Russian Cases with Anna®',
       tagline: 'Практикуйте русские падежи на телефоне',
       learn: 'Обучение',
+      words: 'Склонения',
+      blog: 'Блог',
       privacy: 'Конфиденциальность',
       terms: 'Условия',
       contact: 'Контакты',

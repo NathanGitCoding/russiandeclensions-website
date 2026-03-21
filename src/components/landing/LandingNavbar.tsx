@@ -62,6 +62,19 @@ export default function LandingNavbar() {
               {t.navbar.declinaisons}
             </Link>
           )}
+          <span aria-hidden> / </span>
+          {isLearn ? (
+            <span className="text-white font-semibold" aria-current="page">
+              {t.navbar.blog}
+            </span>
+          ) : (
+            <Link
+              href="/learn"
+              className="transition-colors hover:text-white"
+            >
+              {t.navbar.blog}
+            </Link>
+          )}
         </nav>
         <Link
           href={isHome ? '#header' : '/#header'}

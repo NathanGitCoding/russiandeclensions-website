@@ -12,6 +12,25 @@ type WaitlistSource = 'ios' | 'android';
 
 const ASSETS = '/landing-cases';
 
+const POPULAR_WORDS = [
+  { slug: 'chelovek', label: 'человек' },
+  { slug: 'dom', label: 'дом' },
+  { slug: 'voda', label: 'вода' },
+  { slug: 'kniga', label: 'книга' },
+  { slug: 'rabota', label: 'работа' },
+  { slug: 'gorod', label: 'город' },
+  { slug: 'den', label: 'день' },
+  { slug: 'okno', label: 'окно' },
+  { slug: 'drug', label: 'друг' },
+  { slug: 'zhenshchina', label: 'женщина' },
+  { slug: 'vremya', label: 'время' },
+  { slug: 'shkola', label: 'школа' },
+  { slug: 'strana', label: 'страна' },
+  { slug: 'slovo', label: 'слово' },
+  { slug: 'noch', label: 'ночь' },
+  { slug: 'ruka', label: 'рука' },
+];
+
 export default function LandingFooter() {
   const { landingLanguage } = useLandingLanguage();
   const t = getLandingTranslations(landingLanguage);
@@ -44,6 +63,9 @@ export default function LandingFooter() {
               <Link href="/learn" className="transition-colors hover:text-white">
                 {t.footer.learn}
               </Link>
+              <Link href="/words" className="transition-colors hover:text-white">
+                {t.footer.words}
+              </Link>
               <Link href="/privacy" className="transition-colors hover:text-white">
                 {t.footer.privacy}
               </Link>
@@ -56,6 +78,22 @@ export default function LandingFooter() {
               >
                 {t.footer.contact}
               </a>
+            </div>
+          </div>
+          <div className="w-full border-t border-white/10 pt-4">
+            <p className="mb-2 text-center text-xs font-semibold uppercase tracking-wider text-white/50 md:text-left">
+              Popular Russian Declensions
+            </p>
+            <div className="flex flex-wrap justify-center gap-x-4 gap-y-1 text-sm md:justify-start">
+              {POPULAR_WORDS.map(({ slug, label }) => (
+                <Link
+                  key={slug}
+                  href={`/russian-declension/${slug}`}
+                  className="text-white/60 transition-colors hover:text-white"
+                >
+                  {label}
+                </Link>
+              ))}
             </div>
           </div>
           <div className="flex w-full flex-col items-center gap-4 md:flex-row md:items-center md:justify-between">

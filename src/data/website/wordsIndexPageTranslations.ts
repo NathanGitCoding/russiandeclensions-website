@@ -35,6 +35,7 @@ export interface WordsIndexPageTranslations {
     title: string;
     learnLabel: string;
     caseArticlesTitle: string;
+    blogLabel: string;
     popularWordsTitle: string;
   };
 }
@@ -85,6 +86,7 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
       title: 'Learn more about Russian cases',
       learnLabel: 'Grammar lessons',
       caseArticlesTitle: 'Russian case guides',
+      blogLabel: 'Blog & tips',
       popularWordsTitle: 'Popular words',
     },
   },
@@ -134,6 +136,7 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
       title: 'En savoir plus sur les cas russes',
       learnLabel: 'Leçons de grammaire',
       caseArticlesTitle: 'Guides des cas russes',
+      blogLabel: 'Blog et conseils',
       popularWordsTitle: 'Mots populaires',
     },
   },
@@ -183,6 +186,7 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
       title: 'Mehr über russische Fälle erfahren',
       learnLabel: 'Grammatik-Lektionen',
       caseArticlesTitle: 'Russische Fall-Guides',
+      blogLabel: 'Blog & Tipps',
       popularWordsTitle: 'Beliebte Wörter',
     },
   },
@@ -232,6 +236,7 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
       title: 'Rusça haller hakkında daha fazla bilgi',
       learnLabel: 'Gramer dersleri',
       caseArticlesTitle: 'Rusça hal rehberleri',
+      blogLabel: 'Blog ve ipuçları',
       popularWordsTitle: 'Popüler kelimeler',
     },
   },
@@ -281,6 +286,7 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
       title: 'Więcej o rosyjskich przypadkach',
       learnLabel: 'Lekcje gramatyki',
       caseArticlesTitle: 'Przewodniki po przypadkach',
+      blogLabel: 'Blog i porady',
       popularWordsTitle: 'Popularne słowa',
     },
   },
@@ -330,6 +336,7 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
       title: 'Подробнее о падежах русского языка',
       learnLabel: 'Уроки грамматики',
       caseArticlesTitle: 'Руководства по падежам',
+      blogLabel: 'Блог и советы',
       popularWordsTitle: 'Популярные слова',
     },
   },
