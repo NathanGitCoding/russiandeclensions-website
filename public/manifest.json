@@ -1,0 +1,24 @@
+{
+  "name": "Russian Cases with Anna",
+  "short_name": "Russian Cases",
+  "description": "Free online tool to learn and practice Russian noun declensions across all 6 grammatical cases.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/landing-cases/icon-app-russian-cases-with-anna.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["education"],
+  "lang": "en"
+}

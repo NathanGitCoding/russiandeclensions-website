@@ -26,6 +26,10 @@ export interface WordWithDeclensions {
   translation_de: string;
   translation_tr: string;
   translation_pl: string;
+  translation_es?: string;
+  translation_it?: string;
+  translation_pt?: string;
+  translation_nl?: string;
   gender: string;
   type: string;
   plural_only: string;
@@ -55,6 +59,10 @@ export interface WordListItem {
   translation_de: string;
   translation_tr: string;
   translation_pl: string;
+  translation_es?: string;
+  translation_it?: string;
+  translation_pt?: string;
+  translation_nl?: string;
   gender: string;
   type: string;
   word_apparition_level: number;
@@ -94,8 +102,9 @@ function loadWords(): WordsBySlug {
   if (legacy && typeof legacy === 'object' && !Array.isArray(legacy)) {
     cachedLegacy = legacy as Record<string, string>;
   }
-  const { [LEGACY_KEY]: _, ...words } = parsed;
-  cachedData = words as WordsBySlug;
+  const wordsOnly = { ...parsed };
+  delete wordsOnly[LEGACY_KEY];
+  cachedData = wordsOnly as WordsBySlug;
   return cachedData;
 }
 
@@ -256,6 +265,76 @@ export async function getRelatedWords(
     (a.slug + currentSlug).localeCompare(b.slug + currentSlug)
   );
   return shuffled.slice(0, limit);
+}
+
+/** Champs projetés pour le quiz practice (envoyés au client) */
+export interface PracticeWord {
+  base_form: string;
+  slug: string;
+  gender: string;
+  translation_en: string;
+  translation_fr: string;
+  translation_de: string;
+  translation_tr: string;
+  translation_pl: string;
+  translation_es?: string;
+  translation_it?: string;
+  translation_pt?: string;
+  translation_nl?: string;
+  nominative_sg: string;
+  nominative_pl: string;
+  accusative_sg: string;
+  accusative_pl: string;
+  genitive_sg: string;
+  genitive_pl: string;
+  dative_sg: string;
+  dative_pl: string;
+  instrumental_sg: string;
+  instrumental_pl: string;
+  prepositional_sg: string;
+  prepositional_pl: string;
+}
+
+/**
+ * Retourne les mots éligibles pour le quiz practice.
+ * Exclut : EXCLUDED_WORD_IDS, indéclinables, plural-only.
+ * Projette uniquement les champs nécessaires au quiz côté client.
+ */
+export async function getPracticeWords(): Promise<PracticeWord[]> {
+  const data = loadWords();
+  return Object.values(data)
+    .filter(
+      (w) =>
+        !EXCLUDED_WORD_IDS.has(w.word_id) &&
+        !isIndeclinable(w) &&
+        w.plural_only !== 'TRUE'
+    )
+    .map((w) => ({
+      base_form: w.base_form ?? '',
+      slug: w.slug ?? '',
+      gender: w.gender ?? '',
+      translation_en: w.translation_en ?? '',
+      translation_fr: w.translation_fr ?? '',
+      translation_de: w.translation_de ?? '',
+      translation_tr: w.translation_tr ?? '',
+      translation_pl: w.translation_pl ?? '',
+      translation_es: w.translation_es,
+      translation_it: w.translation_it,
+      translation_pt: w.translation_pt,
+      translation_nl: w.translation_nl,
+      nominative_sg: w.nominative_sg ?? '',
+      nominative_pl: w.nominative_pl ?? '',
+      accusative_sg: w.accusative_sg ?? '',
+      accusative_pl: w.accusative_pl ?? '',
+      genitive_sg: w.genitive_sg ?? '',
+      genitive_pl: w.genitive_pl ?? '',
+      dative_sg: w.dative_sg ?? '',
+      dative_pl: w.dative_pl ?? '',
+      instrumental_sg: w.instrumental_sg ?? '',
+      instrumental_pl: w.instrumental_pl ?? '',
+      prepositional_sg: w.prepositional_sg ?? '',
+      prepositional_pl: w.prepositional_pl ?? '',
+    }));
 }
 
 /**

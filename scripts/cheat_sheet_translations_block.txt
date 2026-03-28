@@ -1,0 +1,677 @@
+  'russian-prepositions-cases-cheat-sheet': {
+    fr_fr: {
+      slug: 'russian-prepositions-cases-cheat-sheet',
+      title: 'Aide-mémoire prépositions et cas russes : quel cas après chaque préposition',
+      metaTitle:
+        'Aide-mémoire prépositions et cas russes — quel cas utiliser | Russian Cases with Anna',
+      metaDescription:
+        'Aide-mémoire gratuit : quel cas russe suit chaque préposition. в + accusatif vs prépositionnel, на, с, о, за, под, над et plus. Tableau clair avec exemples. Mettez en favoris.',
+      keywords: [
+        'prépositions et cas russes',
+        'quel cas après в',
+        'aide-mémoire prépositions russes',
+        'в accusatif ou prépositionnel',
+        'tableau prépositions russes',
+        'cas après prépositions russes',
+        'на accusatif ou prépositionnel',
+        'с génitif ou instrumental',
+      ],
+      h1: 'Aide-mémoire prépositions et cas russes : quel cas après chaque préposition',
+      intro:
+        "Une des parties les plus déroutantes de la grammaire russe est de savoir **quel cas utiliser après chaque préposition**. La même préposition peut exiger différents cas selon le sens — « в школу » (accusatif, direction) vs « в школе » (prépositionnel, lieu) — et se tromper change complètement votre phrase.\n\nCet aide-mémoire vous donne **chaque préposition russe majeure** avec son ou ses cas requis, des exemples clairs et des astuces mnémotechniques. Mettez cette page en favoris — vous y reviendrez souvent.",
+      whatYouLearn: [
+        'Quel cas chaque préposition russe majeure exige',
+        'Les prépositions qui changent de cas selon le sens (в, на, за, под, с)',
+        'Les 10 prépositions les plus courantes avec exemples de phrases',
+        'Des astuces mnémotechniques pour ne plus jamais confondre les cas après les prépositions',
+      ],
+      sections: [
+        {
+          h2: "La règle d'or : les prépositions imposent le cas",
+          content:
+            'En russe, **les prépositions gouvernent les cas** — elles forcent le nom qui suit à prendre un cas grammatical précis. Contrairement à l\'anglais où les prépositions précèdent simplement les noms (« in the house », « to the school »), les prépositions russes modifient activement la terminaison du nom.\n\nCertaines prépositions exigent toujours le même cas. D\'autres — les plus piègeuses — exigent **des cas différents selon qu\'on exprime la direction (mouvement) ou le lieu (statique)**. Cette distinction direction-vs-lieu est la première source d\'erreurs de cas pour les apprenants.',
+        },
+        {
+          h2: 'Tableau de référence : chaque préposition par cas',
+          content:
+            'Voici la référence complète. Les prépositions marquées ★ peuvent prendre plusieurs cas (détails ci-dessous).',
+          table: {
+            headers: ['Cas', 'Prépositions', 'Sens/Usage'],
+            rows: [
+              ['Génitif', 'без, для, до, из, от, у, после, около, вокруг, кроме, вместо, из-за, из-под', 'Sans, pour, jusqu\'à/avant, de, de/loin, chez/près de, après, autour de, sauf, au lieu de, à cause de, de sous'],
+              ['Datif', 'к, по, благодаря, вопреки, навстречу, согласно', 'Vers, le long de/selon, grâce à, malgré, à la rencontre de, selon'],
+              ['Accusatif', 'через, про, сквозь', 'À travers, à propos de, à travers'],
+              ['Accusatif ★', 'в (direction), на (direction), за (direction), под (direction)', 'Dans, sur, derrière/au-delà, sous (mouvement vers)'],
+              ['Instrumental', 'с, между, над, перед, за ★, под ★', 'Avec, entre, au-dessus de, devant, derrière (lieu), sous (lieu)'],
+              ['Prépositionnel', 'о (об, обо), при', 'À propos de, pendant/en présence de'],
+              ['Prépositionnel ★', 'в (lieu), на (lieu)', 'Dans (statique), sur (statique)'],
+            ],
+            caption: 'Tableau de référence préposition-cas russe complet',
+            boldColumnIndices: [0],
+          },
+        },
+        {
+          h2: 'Les piègeuses : prépositions qui changent de cas',
+          content:
+            'Ces 5 prépositions sont responsables de la grande majorité des confusions de cas. Maîtrisez-les et vous éliminerez la plupart des erreurs de prépositions.',
+          subsections: [
+            {
+              h3: 'в — « in » / « into »',
+              content:
+                '**в + Accusatif** = direction (mouvement DANS quelque chose)\n**в + Prépositionnel** = lieu (être DANS quelque chose)\n\nC\'est la distinction prépositionnelle la plus importante en russe. La question à se poser : **est-ce que j\'y vais, ou j\'y suis déjà ?**',
+              bullets: [
+                '**в школу** (accusatif) — à l\'école (je vais à l\'école)',
+                '**в школе** (prépositionnel) — à l\'école (je suis à l\'école)',
+                '**в город** (accusatif) — en ville (j\'y vais)',
+                '**в городе** (prépositionnel) — en ville (j\'y suis déjà)',
+                '**в Россию** (accusatif) — en Russie (voyage)',
+                '**в России** (prépositionnel) — en Russie (situé)',
+              ],
+            },
+            {
+              h3: 'на — « on » / « onto »',
+              content:
+                '**на + Accusatif** = direction (mouvement SUR quelque chose)\n**на + Prépositionnel** = lieu (être SUR quelque chose)\n\nMême logique que « в » — direction vs lieu. Note : « на » s\'utilise aussi pour certains lieux inattendus (на работе = au travail, на вокзале = à la gare).',
+              bullets: [
+                '**на стол** (accusatif) — sur la table (poser quelque chose)',
+                '**на столе** (prépositionnel) — sur la table (c\'est là)',
+                '**на работу** (accusatif) — au travail (j\'y vais)',
+                '**на работе** (prépositionnel) — au travail (j\'y suis)',
+                '**на урок** (accusatif) — au cours',
+                '**на уроке** (prépositionnel) — pendant le cours',
+              ],
+            },
+            {
+              h3: 'за — « behind » / « for » / « beyond »',
+              content:
+                '**за + Accusatif** = direction (mouvement derrière/au-delà) OU « for » (en échange, en faveur de)\n**за + Instrumental** = lieu (derrière, statique)\n\nCelle-ci trompe même les apprenants intermédiaires car « за » a tant de sens.',
+              bullets: [
+                '**за дом** (accusatif) — derrière la maison (aller derrière)',
+                '**за домом** (instrumental) — derrière la maison (situé là)',
+                '**за хлебом** (instrumental) — pour du pain (aller chercher du pain)',
+                '**Спасибо за помощь** (accusatif) — Merci pour l\'aide',
+                '**Я за тебя** (accusatif) — Je suis pour toi (en ta faveur)',
+              ],
+            },
+            {
+              h3: 'под — « under »',
+              content:
+                '**под + Accusatif** = direction (mouvement sous quelque chose)\n**под + Instrumental** = lieu (sous quelque chose, statique)',
+              bullets: [
+                '**под стол** (accusatif) — sous la table (le chat a couru dessous)',
+                '**под столом** (instrumental) — sous la table (le chat est assis)',
+                '**под дождём** (instrumental) — sous la pluie (debout dedans)',
+                '**под дождь** (accusatif) — dans la pluie (sortir)',
+              ],
+            },
+            {
+              h3: 'с — « with » / « from »',
+              content:
+                '**с + Instrumental** = avec (accompagnement)\n**с + Génitif** = de (hors de, depuis)\n\nCes deux sens sont complètement différents, donc la distinction de cas aide à comprendre lequel est voulu.',
+              bullets: [
+                '**с другом** (instrumental) — avec un ami',
+                '**с молоком** (instrumental) — avec du lait',
+                '**с горы** (génitif) — de la montagne',
+                '**с работы** (génitif) — du travail (rentrer de)',
+                '**с утра** (génitif) — depuis le matin',
+              ],
+            },
+          ],
+        },
+        {
+          h2: 'Les 10 prépositions les plus courantes (avec exemples)',
+          content:
+            'Ces 10 prépositions représentent environ 80 % de l\'usage des prépositions en russe. Si vous ne mémorisez qu\'elles, vous couvrirez la plupart des situations :',
+          table: {
+            headers: ['#', 'Préposition', 'Cas', 'Exemple', 'Traduction'],
+            rows: [
+              ['1', 'в', 'Acc / Prep', 'Я иду **в магазин**. Я **в магазине**.', 'Je vais au magasin. Je suis au magasin.'],
+              ['2', 'на', 'Acc / Prep', 'Иди **на кухню**. Я **на кухне**.', 'Va à la cuisine. Je suis dans la cuisine.'],
+              ['3', 'с', 'Instr / Gen', 'Кофе **с молоком**. Пришёл **с работы**.', 'Café au lait. Il est venu du travail.'],
+              ['4', 'к', 'Dat', 'Иду **к врачу**.', 'Je vais chez le médecin.'],
+              ['5', 'из', 'Gen', 'Вышел **из дома**.', 'Il est sorti de la maison.'],
+              ['6', 'о (об)', 'Prep', 'Думаю **о тебе**.', 'Je pense à toi.'],
+              ['7', 'для', 'Gen', 'Подарок **для мамы**.', 'Un cadeau pour maman.'],
+              ['8', 'от', 'Gen', 'Письмо **от друга**.', 'Une lettre d\'un ami.'],
+              ['9', 'за', 'Acc / Instr', 'Спасибо **за помощь**. Сижу **за столом**.', 'Merci pour l\'aide. Je suis assis à la table.'],
+              ['10', 'по', 'Dat', 'Гуляю **по парку**.', 'Je me promène dans le parc.'],
+            ],
+            caption: 'Les 10 prépositions russes les plus courantes avec cas et exemples',
+            boldColumnIndices: [1],
+          },
+        },
+        {
+          h2: 'Prépositions au génitif — le plus grand groupe',
+          content:
+            'Le génitif a le plus de prépositions — ce qui a du sens car il exprime des relations comme l\'origine, la possession, l\'absence et la cause. Voici les principales :',
+          table: {
+            headers: ['Préposition', 'Sens', 'Exemple', 'Traduction'],
+            rows: [
+              ['без', 'sans', 'без **сахара**', 'sans sucre'],
+              ['для', 'pour (but)', 'для **студентов**', 'pour les étudiants'],
+              ['до', 'jusqu\'à, avant', 'до **утра**', 'jusqu\'au matin'],
+              ['из', 'de, hors de', 'из **России**', 'de Russie'],
+              ['от', 'de (personne/source)', 'от **врача**', 'du médecin'],
+              ['у', 'chez, près de, possession', 'у **меня**', 'j\'ai (chez moi)'],
+              ['после', 'après', 'после **обеда**', 'après le déjeuner'],
+              ['около', 'près de, environ', 'около **дома**', 'près de la maison'],
+              ['вокруг', 'autour de', 'вокруг **города**', 'autour de la ville'],
+              ['кроме', 'sauf, hormis', 'кроме **меня**', 'sauf moi'],
+              ['вместо', 'au lieu de', 'вместо **воды**', 'au lieu d\'eau'],
+              ['из-за', 'à cause de, de derrière', 'из-за **дождя**', 'à cause de la pluie'],
+              ['из-под', 'de sous', 'из-под **стола**', 'de sous la table'],
+            ],
+            caption: 'Prépositions au génitif avec exemples',
+            boldColumnIndices: [0],
+            accentColumnIndices: [0],
+          },
+        },
+        {
+          h2: 'Prépositions au datif',
+          content:
+            'Le datif a moins de prépositions mais elles sont très fréquentes :',
+          table: {
+            headers: ['Préposition', 'Sens', 'Exemple', 'Traduction'],
+            rows: [
+              ['к', 'vers, chez (personne)', 'к **другу**', 'chez un ami'],
+              ['по', 'le long de, autour de, selon', 'по **улице**', 'le long de la rue'],
+              ['благодаря', 'grâce à', 'благодаря **учителю**', 'grâce au professeur'],
+              ['вопреки', 'malgré, contrairement à', 'вопреки **правилам**', 'malgré les règles'],
+              ['навстречу', 'à la rencontre de', 'навстречу **мне**', 'vers moi'],
+              ['согласно', 'selon', 'согласно **закону**', 'selon la loi'],
+            ],
+            caption: 'Prépositions au datif avec exemples',
+            boldColumnIndices: [0],
+            accentColumnIndices: [0],
+          },
+        },
+        {
+          h2: 'Prépositions à l\'instrumental',
+          content:
+            'L\'instrumental marque l\'accompagnement, le lieu derrière/sous/au-dessus, et le moyen par lequel quelque chose est fait :',
+          table: {
+            headers: ['Préposition', 'Sens', 'Exemple', 'Traduction'],
+            rows: [
+              ['с', 'avec', 'с **друзьями**', 'avec des amis'],
+              ['между', 'entre', 'между **нами**', 'entre nous'],
+              ['над', 'au-dessus de', 'над **городом**', 'au-dessus de la ville'],
+              ['перед', 'devant, avant', 'перед **домом**', 'devant la maison'],
+              ['за', 'derrière (lieu)', 'за **дверью**', 'derrière la porte'],
+              ['под', 'sous (lieu)', 'под **деревом**', 'sous l\'arbre'],
+            ],
+            caption: 'Prépositions à l\'instrumental avec exemples',
+            boldColumnIndices: [0],
+            accentColumnIndices: [0],
+          },
+        },
+        {
+          h2: 'Prépositions au prépositionnel',
+          content:
+            'Malgré son nom, le prépositionnel a en fait le moins de prépositions dédiées. Il s\'utilise surtout avec в/на (lieu) et о (à propos de) :',
+          table: {
+            headers: ['Préposition', 'Sens', 'Exemple', 'Traduction'],
+            rows: [
+              ['в', 'dans (lieu)', 'в **доме**', 'dans la maison'],
+              ['на', 'sur, à (lieu)', 'на **столе**', 'sur la table'],
+              ['о (об, обо)', 'à propos de', 'о **России**', 'à propos de la Russie'],
+              ['при', 'pendant, en présence de', 'при **Петре I**', 'sous Pierre Ier'],
+            ],
+            caption: 'Prépositions au prépositionnel avec exemples',
+            boldColumnIndices: [0],
+            accentColumnIndices: [0],
+          },
+        },
+        {
+          h2: 'Astuces mnémotechniques : comment retenir quel cas',
+          content:
+            'Voici des mnémos éprouvés pour retenir les paires préposition-cas :',
+          bullets: [
+            '**Direction = Accusatif, Lieu = Prépositionnel/Instrumental.** Si vous allez quelque part (в/на + mouvement), utilisez l\'accusatif. Si vous y êtes déjà, utilisez le prépositionnel (в/на) ou l\'instrumental (за/под).',
+            '**« Avec » = Instrumental.** L\'instrumental signifie littéralement « par le moyen de » — donc « avec » (accompagnement ou outil) prend toujours l\'instrumental : с другом, с ножом.',
+            '**« De » = Génitif.** Origine, source, éloignement — tout ce qui signifie « de » ou « loin » prend le génitif : из России, от друга, с горы, без воды.',
+            '**« Vers une personne » = Datif.** Aller chez quelqu\'un ou donner quelque chose à quelqu\'un : к другу, по улице.',
+            '**« À propos de » = Prépositionnel.** Parler ou penser à quelque chose : о книге, о России.',
+            '**Pratiquer par paires.** Apprenez les paires direction/lieu ensemble : в школу / в школе, на работу / на работе, за дом / за домом. La paire renforce les deux cas simultanément.',
+          ],
+        },
+        {
+          h2: 'Erreurs courantes à éviter',
+          content:
+            'Voici les erreurs préposition-cas les plus fréquentes chez les apprenants :',
+          mistakeCards: [
+            {
+              title: 'в + mauvais cas pour le lieu',
+              wrong: 'Я живу в Москва.',
+              correct: 'Я живу в Москве.',
+              why: '« В » avec lieu exige le prépositionnel. Москва → Москве.',
+              fix: 'Demandez-vous : est-ce que je bouge ou je suis sur place ? Sur place = prépositionnel.',
+              fixHref: '/practice/prepositional',
+            },
+            {
+              title: 'с + génitif au lieu d\'instrumental',
+              wrong: 'Я пошёл с друга.',
+              correct: 'Я пошёл с другом.',
+              why: '« С » signifiant « avec » prend l\'instrumental. « С » signifiant « de » prend le génitif (с горы). Ici vous voulez dire « avec un ami ».',
+              fix: 'Si vous pouvez remplacer « с » par « ensemble avec », utilisez l\'instrumental.',
+              fixHref: '/practice/instrumental',
+            },
+            {
+              title: 'к + mauvais cas',
+              wrong: 'Я иду к друг.',
+              correct: 'Я иду к другу.',
+              why: '« К » exige toujours le datif. друг → другу.',
+              fix: 'к = toujours datif. Pas d\'exception.',
+              fixHref: '/practice/dative',
+            },
+            {
+              title: 'Confondre из et от',
+              wrong: 'Я получил письмо из друга.',
+              correct: 'Я получил письмо от друга.',
+              why: '« Из » = de l\'intérieur (из дома = de la maison). « От » = d\'une personne ou source. Une lettre vient d\'une personne → от.',
+              fix: 'из = de l\'intérieur d\'un lieu. от = d\'une personne/source.',
+            },
+            {
+              title: 'на + accusatif pour le lieu',
+              wrong: 'Книга лежит на стол.',
+              correct: 'Книга лежит на столе.',
+              why: 'Le livre est posé (statique) sur la table → на + prépositionnel. « На стол » (accusatif) signifierait « sur la table » (mouvement).',
+              fix: 'Verbes statiques (лежать, стоять, сидеть) → prépositionnel. Verbes de mouvement (идти, ставить, класть) → accusatif.',
+              fixHref: '/practice/prepositional',
+            },
+          ],
+        },
+        {
+          h2: 'Référence rapide : préposition → cas en un coup d\'œil',
+          content:
+            'Imprimez ou sauvegardez sur votre téléphone — c\'est le moyen le plus rapide de vérifier une préposition :',
+          table: {
+            headers: ['Préposition', 'Cas', 'Sens rapide'],
+            rows: [
+              ['без', 'Gen', 'sans'],
+              ['благодаря', 'Dat', 'grâce à'],
+              ['в', 'Acc → / Prep ●', 'dans → / dans ●'],
+              ['вместо', 'Gen', 'au lieu de'],
+              ['вокруг', 'Gen', 'autour de'],
+              ['вопреки', 'Dat', 'malgré'],
+              ['для', 'Gen', 'pour (but)'],
+              ['до', 'Gen', 'jusqu\'à, avant'],
+              ['за', 'Acc → / Instr ●', 'derrière → / derrière ● / pour'],
+              ['из', 'Gen', 'de (intérieur)'],
+              ['из-за', 'Gen', 'à cause de'],
+              ['из-под', 'Gen', 'de sous'],
+              ['к', 'Dat', 'vers, chez'],
+              ['кроме', 'Gen', 'sauf'],
+              ['между', 'Instr', 'entre'],
+              ['на', 'Acc → / Prep ●', 'sur → / sur ●'],
+              ['над', 'Instr', 'au-dessus de'],
+              ['навстречу', 'Dat', 'à la rencontre de'],
+              ['о (об)', 'Prep', 'à propos de'],
+              ['около', 'Gen', 'près de'],
+              ['от', 'Gen', 'de (personne/source)'],
+              ['перед', 'Instr', 'devant'],
+              ['по', 'Dat', 'le long de, autour de'],
+              ['под', 'Acc → / Instr ●', 'sous → / sous ●'],
+              ['после', 'Gen', 'après'],
+              ['при', 'Prep', 'pendant, chez'],
+              ['про', 'Acc', 'à propos de (informel)'],
+              ['с', 'Instr / Gen', 'avec / de'],
+              ['согласно', 'Dat', 'selon'],
+              ['у', 'Gen', 'chez, près de, avoir'],
+              ['через', 'Acc', 'à travers'],
+            ],
+            caption: '→ = direction/mouvement, ● = lieu/statique',
+            boldColumnIndices: [0],
+          },
+        },
+        {
+          h2: 'Conclusion : la pratique rend parfait',
+          content:
+            'Savoir quel cas suit quelle préposition est **la moitié de la bataille** de la grammaire russe. L\'autre moitié est de produire automatiquement la bonne terminaison — sans hésiter.\n\nCet aide-mémoire vous donne les règles. Maintenant il faut de la répétition. Utilisez le **quiz de déclinaison gratuit** pour pratiquer chaque cas individuellement jusqu\'à ce que les terminaisons deviennent naturelles. Commencez par l\'accusatif et le prépositionnel (les cas de prépositions les plus courants), puis ajoutez le génitif, le datif et l\'instrumental.\n\nMettez cette page en favoris et revenez-y quand une préposition vous laisse dubitatif. Avec le temps, vous en aurez de moins en moins besoin — et c\'est là que vous saurez que les cas sont acquis.',
+        },
+      ],
+      conclusion: '',
+      ctaText: 'Pratiquer les déclinaisons — Quiz gratuit',
+      ctaHref: '/practice',
+      faq: [
+        {
+          question: 'Quel cas russe est utilisé après в ?',
+          answer:
+            'Cela dépend du sens. « В » + accusatif indique la direction/le mouvement (в школу = à l\'école). « В » + prépositionnel indique le lieu (в школе = à l\'école). Demandez-vous : est-ce que j\'y vais ou j\'y suis déjà ?',
+        },
+        {
+          question: 'Combien de prépositions russes existe-t-il ?',
+          answer:
+            'Le russe compte environ 30 prépositions couramment utilisées. Une dizaine (в, на, с, к, из, о, для, от, за, по) représente environ 80 % de l\'usage. Maîtriser ces 10 couvre la plupart des situations.',
+        },
+        {
+          question: 'Quel cas a le plus de prépositions en russe ?',
+          answer:
+            'Le génitif a le plus de prépositions — plus d\'une douzaine dont без, для, до, из, от, у, после, около, вокруг, кроме, вместо, из-за et из-под. Ce qui a du sens car le génitif exprime l\'origine, l\'absence et la possession.',
+        },
+        {
+          question: 'Quelle est la différence entre из et от en russe ?',
+          answer:
+            'Les deux signifient « de » mais dans des sens différents. « Из » = de l\'intérieur d\'un lieu (из дома = de la maison, из России = de Russie). « От » = d\'une personne ou source (от друга = d\'un ami, от врача = du médecin). Les deux prennent le génitif.',
+        },
+        {
+          question: 'Comment savoir si une préposition prend l\'accusatif ou le prépositionnel ?',
+          answer:
+            'Pour les prépositions qui peuvent prendre les deux (в, на) : direction/mouvement → accusatif (в школу, на работу), lieu/statique → prépositionnel (в школе, на работе). Pour за et под : mouvement → accusatif, lieu → instrumental (за столом, под деревом).',
+        },
+      ],
+      leadMagnetCta: {
+        title: "Entraînez les terminaisons jusqu'à ce qu'elles soient automatiques",
+        description:
+          'Savoir quel cas une préposition exige est la première étape. La deuxième est de produire la bonne terminaison instantanément. Pratiquez les 6 cas avec plus de 400 mots — gratuit, sans inscription.',
+        ctaText: 'Commencer le quiz gratuit →',
+        ctaHref: '/practice',
+      },
+      internalLinks: [
+        { href: '/practice', label: 'Quiz de déclinaison russe gratuit' },
+        { href: '/practice/accusative', label: 'Pratiquer l\'accusatif' },
+        { href: '/practice/genitive', label: 'Pratiquer le génitif' },
+        { href: '/practice/dative', label: 'Pratiquer le datif' },
+        { href: '/practice/instrumental', label: "Pratiquer l'instrumental" },
+        { href: '/practice/prepositional', label: 'Pratiquer le prépositionnel' },
+        { href: '/learn/articles/russian-cases-explained-beginners-guide', label: 'Les cas russes expliqués : guide pour débutants' },
+        { href: '/learn/articles/top-10-russian-case-mistakes', label: 'Top 10 erreurs de cas russes' },
+        { href: '/words', label: 'Parcourir 400+ tableaux de déclinaison russes' },
+      ],
+      jsonLd: {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: 'Aide-mémoire prépositions et cas russes : quel cas après chaque préposition',
+        description:
+          'Aide-mémoire complet : quel cas russe suit chaque préposition. Tableaux, exemples, astuces mnémotechniques et erreurs courantes.',
+        datePublished: '2026-03-22',
+        dateModified: '2026-03-22',
+        author: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+        publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+        mainEntityOfPage: {
+          '@type': 'WebPage',
+          '@id': 'https://russiandeclensions.com/learn/articles/russian-prepositions-cases-cheat-sheet',
+        },
+        keywords:
+          'prépositions et cas russes, quel cas après в, aide-mémoire prépositions, cas après prépositions russes',
+      },
+    },
+    tr_tr: {
+      slug: 'russian-prepositions-cases-cheat-sheet',
+      title: 'Rusça edatlar ve haller: Her edattan sonra hangi hal kullanılır',
+      metaTitle:
+        'Rusça edatlar ve haller — Hangi hal? | Russian Cases with Anna',
+      metaDescription:
+        'Ücretsiz kopya kağıdı: Her Rusça edattan sonra hangi hal gelir. в + akkusatif vs lokatif, на, с, о, за, под, над ve daha fazlası. Örnekli net tablo. Yer imlerine ekleyin.',
+      keywords: [
+        'Rusça edatlar ve haller',
+        'в sonrası hangi hal',
+        'Rusça edat kopya kağıdı',
+        'в akkusatif veya lokatif',
+        'Rusça edatlar tablosu',
+        'edatlardan sonra Rusça haller',
+        'на akkusatif veya lokatif',
+        'с genitif veya enstrümental',
+      ],
+      h1: 'Rusça edatlar ve haller: Her edattan sonra hangi hal kullanılır',
+      intro:
+        "Rusça gramerin en kafa karıştıran kısımlarından biri **her edattan sonra hangi halin kullanılacağını** bilmektir. Aynı edat anlama göre farklı haller gerektirebilir — \"в школу\" (akkusatif, yön) vs \"в школе\" (lokatif, yer) — ve yanlış kullanım cümlenizi tamamen değiştirir.\n\nBu kopya kağıdı size **her önemli Rusça edatı** gerektirdiği hallerle, net örneklerle ve hafıza ipuçlarıyla sunar. Bu sayfayı yer imlerine ekleyin — sık sık geri döneceksiniz.",
+      whatYouLearn: [
+        'Her önemli Rusça edatın hangi hali gerektirdiği',
+        'Anlama göre hal değiştiren edatlar (в, на, за, под, с)',
+        'Cümle örnekleriyle en yaygın 10 edat',
+        'Edatlardan sonra halleri asla karıştırmamak için hafıza ipuçları',
+      ],
+      sections: [
+        {
+          h2: 'Altın Kural: Edatlar Hal Belirler',
+          content:
+            'Rusçada **edatlar halleri yönetir** — sonraki ismi belirli bir gramer haline zorlarlar. İngilizceden farklı olarak, Rusça edatlar ismin son ekinin değişmesini sağlar.\n\nBazı edatlar her zaman aynı hali gerektirir. Diğerleri — aldatıcı olanlar — **yön (hareket) mi yer (sabit) mi ifade ettiğinize göre farklı haller** gerektirir. Bu yön-vs-yer ayrımı öğrenenlerde en çok hata yapılan kaynaktır.',
+        },
+        {
+          h2: 'Ana Tablo: Her Edat Haline Göre',
+          content:
+            'İşte tam referans. ★ ile işaretli edatlar birden fazla hal alabilir (aşağıda ayrıntılı).',
+          table: {
+            headers: ['Hal', 'Edatlar', 'Anlam/Kullanım'],
+            rows: [
+              ['Genitif', 'без, для, до, из, от, у, после, около, вокруг, кроме, вместо, из-за, из-под', 'Olmadan, için, -e kadar/önce, -den, -den/uzakta, -de/-e yakın, sonra, etrafında, hariç, yerine, yüzünden, altından'],
+              ['Datif', 'к, по, благодаря, вопреки, навстречу, согласно', 'Doğru, boyunca/göre, sayesinde, rağmen, karşılamaya, göre'],
+              ['Akkusatif', 'через, про, сквозь', 'Boyunca, hakkında, içinden'],
+              ['Akkusatif ★', 'в (yön), на (yön), за (yön), под (yön)', 'İçine, üzerine, arkasına/ötesine, altına (hareket)'],
+              ['Enstrümental', 'с, между, над, перед, за ★, под ★', 'İle, arasında, üstünde, önünde, arkasında (yer), altında (yer)'],
+              ['Lokatif', 'о (об, обо), при', 'Hakkında, sırasında/huzurunda'],
+              ['Lokatif ★', 'в (yer), на (yer)', 'İçinde (sabit), üzerinde (sabit)'],
+            ],
+            caption: 'Tam Rusça edat-hal referans tablosu',
+            boldColumnIndices: [0],
+          },
+        },
+        {
+          h2: 'Zor Olanlar: Hal Değiştiren Edatlar',
+          content:
+            'Bu 5 edat hal karışıklığının büyük çoğunluğundan sorumludur. Bunlara hakim olun ve çoğu edat hatasını ortadan kaldırırsınız.',
+          subsections: [
+            { h3: 'в — "içinde" / "içine"', content: '**в + Akkusatif** = yön (bir şeyin İÇİNE hareket)\n**в + Lokatif** = yer (bir şeyin İÇİNDE olmak)\n\nKendinize sorun: **oraya mı gidiyorum, yoksa zaten orada mıyım?**', bullets: ['**в школу** (akkusatif) — okula (okula gidiyorum)', '**в школе** (lokatif) — okulda (okuldayım)', '**в город** (akkusatif) — şehre (oraya gidiyorum)', '**в городе** (lokatif) — şehirde (zaten oradayım)', '**в Россию** (akkusatif) — Rusya\'ya (seyahat)', '**в России** (lokatif) — Rusya\'da (bulunuyor)'] },
+            { h3: 'на — "üzerinde" / "üzerine"', content: '**на + Akkusatif** = yön (bir şeyin ÜZERİNE hareket)\n**на + Lokatif** = yer (bir şeyin ÜZERİNDE olmak)\n\n"в" ile aynı mantık — yön vs yer. Not: "на" bazı yerler için de kullanılır (на работе = işte, на вокзале = istasyonda).', bullets: ['**на стол** (akkusatif) — masaya (bir şey koymak)', '**на столе** (lokatif) — masada (orada)', '**на работу** (akkusatif) — işe (oraya gidiyorum)', '**на работе** (lokatif) — işte (zaten oradayım)', '**на урок** (akkusatif) — derse', '**на уроке** (lokatif) — derste/sırasında'] },
+            { h3: 'за — "arkasında" / "için" / "ötesinde"', content: '**за + Akkusatif** = yön (arkasına/ötesine hareket) VEYA "için" (karşılık, lehine)\n**за + Enstrümental** = yer (arkasında, sabit)', bullets: ['**за дом** (akkusatif) — evin arkasına (arkasına gitmek)', '**за домом** (enstrümental) — evin arkasında (orada bulunmak)', '**за хлебом** (enstrümental) — ekmek için (ekmek almaya gitmek)', '**Спасибо за помощь** (akkusatif) — Yardım için teşekkürler', '**Я за тебя** (akkusatif) — Senin yanındayım (lehine)'] },
+            { h3: 'под — "altında"', content: '**под + Akkusatif** = yön (bir şeyin ALTINA hareket)\n**под + Enstrümental** = yer (bir şeyin altında, sabit)', bullets: ['**под стол** (akkusatif) — masanın altına (kedi koştu)', '**под столом** (enstrümental) — masanın altında (kedi oturuyor)', '**под дождём** (enstrümental) — yağmurda (içinde durmak)', '**под дождь** (akkusatif) — yağmura (dışarı çıkmak)'] },
+            { h3: 'с — "ile" / "-den"', content: '**с + Enstrümental** = ile (birliktelik)\n**с + Genitif** = -den (üzerinden, aşağıdan)', bullets: ['**с другом** (enstrümental) — bir arkadaşla', '**с молоком** (enstrümental) — sütle', '**с горы** (genitif) — dağdan', '**с работы** (genitif) — işten (gelmek)', '**с утра** (genitif) — sabah beri'] },
+          ],
+        },
+        {
+          h2: 'En Yaygın 10 Edat (Örneklerle)',
+          content:
+            'Bu 10 edat Rusça edat kullanımının yaklaşık %80\'ini oluşturur. Sadece bunları ezberlerseniz çoğu durumu karşılarsınız:',
+          table: {
+            headers: ['#', 'Edat', 'Hal', 'Örnek', 'Çeviri'],
+            rows: [
+              ['1', 'в', 'Acc / Lok', 'Я иду **в магазин**. Я **в магазине**.', 'Mağazaya gidiyorum. Mağazadayım.'],
+              ['2', 'на', 'Acc / Lok', 'Иди **на кухню**. Я **на кухне**.', 'Mutfağa git. Mutfaktayım.'],
+              ['3', 'с', 'Enstr / Gen', 'Кофе **с молоком**. Пришёл **с работы**.', 'Sütlü kahve. İşten geldi.'],
+              ['4', 'к', 'Dat', 'Иду **к врачу**.', 'Doktora gidiyorum.'],
+              ['5', 'из', 'Gen', 'Вышел **из дома**.', 'Evden çıktı.'],
+              ['6', 'о (об)', 'Lok', 'Думаю **о тебе**.', 'Seni düşünüyorum.'],
+              ['7', 'для', 'Gen', 'Подарок **для мамы**.', 'Annem için hediye.'],
+              ['8', 'от', 'Gen', 'Письмо **от друга**.', 'Bir arkadaştan mektup.'],
+              ['9', 'за', 'Acc / Enstr', 'Спасибо **за помощь**. Сижу **за столом**.', 'Yardım için teşekkürler. Masada oturuyorum.'],
+              ['10', 'по', 'Dat', 'Гуляю **по парку**.', 'Parkta yürüyorum.'],
+            ],
+            caption: 'Hal ve örnekleriyle en yaygın 10 Rusça edat',
+            boldColumnIndices: [1],
+          },
+        },
+        {
+          h2: 'Genitif Edatları — En Büyük Grup',
+          content:
+            'Genitif en çok edata sahiptir — köken, sahiplik, yokluk ve neden ifade ettiği için mantıklı. İşte önemli olanlar:',
+          table: {
+            headers: ['Edat', 'Anlam', 'Örnek', 'Çeviri'],
+            rows: [
+              ['без', 'olmadan', 'без **сахара**', 'şekersiz'],
+              ['для', 'için (amaç)', 'для **студентов**', 'öğrenciler için'],
+              ['до', '-e kadar, önce', 'до **утра**', 'sabaha kadar'],
+              ['из', '-den, içinden', 'из **России**', 'Rusya\'dan'],
+              ['от', '-den (kişi/kaynak)', 'от **врача**', 'doktordan'],
+              ['у', '-de, yakınında, sahiplik', 'у **меня**', 'bende var'],
+              ['после', 'sonra', 'после **обеда**', 'öğle yemeğinden sonra'],
+              ['около', 'yakınında, hakkında', 'около **дома**', 'evin yakınında'],
+              ['вокруг', 'etrafında', 'вокруг **города**', 'şehir etrafında'],
+              ['кроме', 'hariç', 'кроме **меня**', 'ben hariç'],
+              ['вместо', 'yerine', 'вместо **воды**', 'su yerine'],
+              ['из-за', 'yüzünden, arkasından', 'из-за **дождя**', 'yağmur yüzünden'],
+              ['из-под', 'altından', 'из-под **стола**', 'masanın altından'],
+            ],
+            caption: 'Örneklerle genitif edatları',
+            boldColumnIndices: [0],
+            accentColumnIndices: [0],
+          },
+        },
+        {
+          h2: 'Datif Edatları',
+          content:
+            'Datif daha az edata sahiptir ama çok sık kullanılır:',
+          table: {
+            headers: ['Edat', 'Anlam', 'Örnek', 'Çeviri'],
+            rows: [
+              ['к', 'doğru, -e (kişi)', 'к **другу**', 'bir arkadaşa'],
+              ['по', 'boyunca, etrafında, göre', 'по **улице**', 'sokak boyunca'],
+              ['благодаря', 'sayesinde', 'благодаря **учителю**', 'öğretmen sayesinde'],
+              ['вопреки', 'rağmen, aksine', 'вопреки **правилам**', 'kurallara rağmen'],
+              ['навстречу', 'karşılamaya', 'навстречу **мне**', 'bana doğru'],
+              ['согласно', 'göre', 'согласно **закону**', 'yasaya göre'],
+            ],
+            caption: 'Örneklerle datif edatları',
+            boldColumnIndices: [0],
+            accentColumnIndices: [0],
+          },
+        },
+        {
+          h2: 'Enstrümental Edatları',
+          content:
+            'Enstrümental birliktelik, arkasında/altında/üstünde yeri ve bir şeyin yapıldığı aracı işaretler:',
+          table: {
+            headers: ['Edat', 'Anlam', 'Örnek', 'Çeviri'],
+            rows: [
+              ['с', 'ile', 'с **друзьями**', 'arkadaşlarla'],
+              ['между', 'arasında', 'между **нами**', 'aramızda'],
+              ['над', 'üstünde', 'над **городом**', 'şehrin üstünde'],
+              ['перед', 'önünde, önce', 'перед **домом**', 'evin önünde'],
+              ['за', 'arkasında (yer)', 'за **дверью**', 'kapının arkasında'],
+              ['под', 'altında (yer)', 'под **деревом**', 'ağacın altında'],
+            ],
+            caption: 'Örneklerle enstrümental edatları',
+            boldColumnIndices: [0],
+            accentColumnIndices: [0],
+          },
+        },
+        {
+          h2: 'Lokatif Edatları',
+          content:
+            'İsminin aksine lokatif aslında en az özel edata sahiptir. Ana olarak в/на (yer) ve о (hakkında) ile kullanılır:',
+          table: {
+            headers: ['Edat', 'Anlam', 'Örnek', 'Çeviri'],
+            rows: [
+              ['в', 'içinde (yer)', 'в **доме**', 'evde'],
+              ['на', 'üzerinde, -de (yer)', 'на **столе**', 'masada'],
+              ['о (об, обо)', 'hakkında', 'о **России**', 'Rusya hakkında'],
+              ['при', 'sırasında, huzurunda', 'при **Петре I**', 'I. Petro döneminde'],
+            ],
+            caption: 'Örneklerle lokatif edatları',
+            boldColumnIndices: [0],
+            accentColumnIndices: [0],
+          },
+        },
+        {
+          h2: 'Hafıza İpuçları: Hangi Hali Nasıl Hatırlanır',
+          content:
+            'Edat-hal eşleşmelerini hatırlamak için kanıtlanmış ipuçları:',
+          bullets: [
+            '**Yön = Akkusatif, Yer = Lokatif/Enstrümental.** Bir yere gidiyorsanız (в/на + hareket), akkusatif. Zaten oradaysanız, lokatif (в/на) veya enstrümental (за/под).',
+            '**"İle" = Enstrümental.** Enstrümental kelimenin tam anlamıyla "vasıtayla" demektir — yani "ile" (birliktelik veya araç) her zaman enstrümental alır: с другом, с ножом.',
+            '**"-Den" = Genitif.** Köken, kaynak, uzaklaşma — "den" veya "uzak" anlamına gelen her şey genitif alır: из России, от друга, с горы, без воды.',
+            '**"Bir kişiye" = Datif.** Birinin yanına gitmek veya birine bir şey vermek: к другу, по улице.',
+            '**"Hakkında" = Lokatif.** Bir şey hakkında konuşmak veya düşünmek: о книге, о России.',
+            '**Çiftler halinde pratik.** Yön/yer çiftlerini birlikte öğrenin: в школу / в школе, на работу / на работе, за дом / за домом.',
+          ],
+        },
+        {
+          h2: 'Kaçınılacak Yaygın Hatalar',
+          content:
+            'Öğrenenlerde en sık gördüğümüz edat-hal hataları:',
+          mistakeCards: [
+            { title: 'в + yer için yanlış hal', wrong: 'Я живу в Москва.', correct: 'Я живу в Москве.', why: '"В" yer ile lokatif gerektirir. Москва → Москве.', fix: 'Kendinize sorun: hareket mi ediyorum sabit mi? Sabit = lokatif.', fixHref: '/practice/prepositional' },
+            { title: 'с + enstrümental yerine genitif', wrong: 'Я пошёл с друга.', correct: 'Я пошёл с другом.', why: '"С" "ile" anlamında enstrümental alır. "С" "den" anlamında genitif (с горы). Burada "bir arkadaşla" demek istiyorsunuz.', fix: '"с"ı "birlikte" ile değiştirebiliyorsanız enstrümental kullanın.', fixHref: '/practice/instrumental' },
+            { title: 'к + yanlış hal', wrong: 'Я иду к друг.', correct: 'Я иду к другу.', why: '"К" her zaman datif gerektirir. друг → другу.', fix: 'к = her zaman datif. İstisna yok.', fixHref: '/practice/dative' },
+            { title: 'из ve от karışıklığı', wrong: 'Я получил письмо из друга.', correct: 'Я получил письмо от друга.', why: '"Из" = içinden (из дома = evden). "От" = kişi veya kaynaktan. Mektup bir kişiden gelir → от.', fix: 'из = yerin içinden. от = kişi/kaynaktan.' },
+            { title: 'на + yer için akkusatif', wrong: 'Книга лежит на стол.', correct: 'Книга лежит на столе.', why: 'Kitap (sabit) masada yatıyor → на + lokatif. "На стол" (akkusatif) "masaya" (hareket) anlamına gelirdi.', fix: 'Sabit fiiller (лежать, стоять, сидеть) → lokatif. Hareket fiilleri (идти, ставить, класть) → akkusatif.', fixHref: '/practice/prepositional' },
+          ],
+        },
+        {
+          h2: 'Hızlı Referans: Edat → Hal Bir Bakışta',
+          content:
+            'Bunu yazdırın veya telefonunuza kaydedin — herhangi bir edatı kontrol etmenin en hızlı yolu:',
+          table: {
+            headers: ['Edat', 'Hal', 'Hızlı Anlam'],
+            rows: [
+              ['без', 'Gen', 'olmadan'],
+              ['благодаря', 'Dat', 'sayesinde'],
+              ['в', 'Acc → / Lok ●', 'içine → / içinde ●'],
+              ['вместо', 'Gen', 'yerine'],
+              ['вокруг', 'Gen', 'etrafında'],
+              ['вопреки', 'Dat', 'rağmen'],
+              ['для', 'Gen', 'için (amaç)'],
+              ['до', 'Gen', '-e kadar, önce'],
+              ['за', 'Acc → / Enstr ●', 'arkasına → / arkasında ● / için'],
+              ['из', 'Gen', '-den (içinden)'],
+              ['из-за', 'Gen', 'yüzünden'],
+              ['из-под', 'Gen', 'altından'],
+              ['к', 'Dat', 'doğru, -e'],
+              ['кроме', 'Gen', 'hariç'],
+              ['между', 'Enstr', 'arasında'],
+              ['на', 'Acc → / Lok ●', 'üzerine → / üzerinde ●'],
+              ['над', 'Enstr', 'üstünde'],
+              ['навстречу', 'Dat', 'karşılamaya'],
+              ['о (об)', 'Lok', 'hakkında'],
+              ['около', 'Gen', 'yakınında'],
+              ['от', 'Gen', '-den (kişi/kaynak)'],
+              ['перед', 'Enstr', 'önünde'],
+              ['по', 'Dat', 'boyunca, etrafında'],
+              ['под', 'Acc → / Enstr ●', 'altına → / altında ●'],
+              ['после', 'Gen', 'sonra'],
+              ['при', 'Lok', 'sırasında, -de'],
+              ['про', 'Acc', 'hakkında (gayri resmi)'],
+              ['с', 'Enstr / Gen', 'ile / -den'],
+              ['согласно', 'Dat', 'göre'],
+              ['у', 'Gen', '-de, yakınında, var'],
+              ['через', 'Acc', 'boyunca'],
+            ],
+            caption: '→ = yön/hareket, ● = yer/sabit',
+            boldColumnIndices: [0],
+          },
+        },
+        {
+          h2: 'Sonuç: Pratik Kalıcı Yapar',
+          content:
+            'Hangi halin hangi edattan sonra geldiğini bilmek Rusça gramerin **yarı savaşıdır**. Diğer yarısı doğru isim son ekinin otomatik üretilmesidir — düşünmeden.\n\nBu kopya kağıdı size kuralları veriyor. Şimdi tekrara ihtiyacınız var. Her hali tek tek **ücretsiz çekim quizi** ile son ekler doğal olana kadar pratik edin. Akkusatif ve lokatif (en yaygın edat halleri) ile başlayın, sonra genitif, datif ve enstrümental ekleyin.\n\nBu sayfayı yer imlerine ekleyin ve bir edatta emin olmadığınızda geri dönün. Zamanla daha az ihtiyaç duyacaksınız — ve o zaman hallerin gerçekten oturduğunu bileceksiniz.',
+        },
+      ],
+      conclusion: '',
+      ctaText: 'Çekim Pratiği — Ücretsiz Quiz',
+      ctaHref: '/practice',
+      faq: [
+        { question: 'в\'den sonra hangi Rusça hal kullanılır?', answer: 'Anlama bağlı. "В" + akkusatif yön/hareket gösterir (в школу = okula). "В" + lokatif yer gösterir (в школе = okulda). Kendinize sorun: oraya mı gidiyorum yoksa zaten orada mıyım?' },
+        { question: 'Kaç Rusça edat vardır?', answer: 'Rusça\'da yaklaşık 30 yaygın kullanılan edat vardır. Bunların yaklaşık 10\'u (в, на, с, к, из, о, для, от, за, по) kullanımın yaklaşık %80\'ini oluşturur. Bu 10\'a hakim olmak çoğu durumu karşılar.' },
+        { question: 'Rusça\'da hangi hal en çok edata sahiptir?', answer: 'Genitif en çok edata sahiptir — без, для, до, из, от, у, после, около, вокруг, кроме, вместо, из-за ve из-под dahil bir düzineden fazla. Bu mantıklı çünkü genitif köken, yokluk ve sahiplik ifade eder.' },
+        { question: 'Rusça\'da из ve от arasındaki fark nedir?', answer: 'İkisi de "den" anlamına gelir ama farklı anlamlarda. "Из" = bir yerin içinden (из дома = evden, из России = Rusya\'dan). "От" = kişi veya kaynaktan (от друга = bir arkadaştan, от врача = doktordan). İkisi de genitif alır.' },
+        { question: 'Bir edat akkusatif mi lokatif mi aldığını nasıl bilirim?', answer: 'İkisini de alabilen edatlar için (в, на): yön/hareket → akkusatif (в школу, на работу), yer/sabit → lokatif (в школе, на работе). за ve под için: hareket → akkusatif, yer → enstrümental (за столом, под деревом).' },
+      ],
+      leadMagnetCta: {
+        title: 'Son Ekleri Otomatik Olana Kadar Pratik Yapın',
+        description: 'Bir edatın hangi hali gerektirdiğini bilmek birinci adımdır. İkinci adım doğru son eki anında üretmektir. 400+ kelimeyle 6 hali pratik edin — ücretsiz, kayıt yok.',
+        ctaText: 'Ücretsiz Quiz Başlat →',
+        ctaHref: '/practice',
+      },
+      internalLinks: [
+        { href: '/practice', label: 'Ücretsiz Rusça Çekim Quiz\'i' },
+        { href: '/practice/accusative', label: 'Akkusatif Pratiği' },
+        { href: '/practice/genitive', label: 'Genitif Pratiği' },
+        { href: '/practice/dative', label: 'Datif Pratiği' },
+        { href: '/practice/instrumental', label: 'Enstrümental Pratiği' },
+        { href: '/practice/prepositional', label: 'Lokatif Pratiği' },
+        { href: '/learn/articles/russian-cases-explained-beginners-guide', label: 'Rusça Haller Açıklandı: Yeni Başlayan Rehberi' },
+        { href: '/learn/articles/top-10-russian-case-mistakes', label: 'En Çok Yapılan 10 Rusça Hal Hatası' },
+        { href: '/words', label: '400+ Rusça Çekim Tablosuna Göz Atın' },
+      ],
+      jsonLd: {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: 'Rusça edatlar ve haller: Her edattan sonra hangi hal kullanılır',
+        description: 'Tam kopya kağıdı: Her Rusça edattan sonra hangi hal gelir. Tablolar, örnekler, hafıza ipuçları ve yaygın hatalar.',
+        datePublished: '2026-03-22',
+        dateModified: '2026-03-22',
+        author: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+        publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+        mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://russiandeclensions.com/learn/articles/russian-prepositions-cases-cheat-sheet' },
+        keywords: 'Rusça edatlar ve haller, в sonrası hangi hal, edat kopya kağıdı, edatlardan sonra haller',
+      },
+    },

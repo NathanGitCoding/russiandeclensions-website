@@ -1,23 +1,31 @@
 import { ImageResponse } from 'next/og';
-import { getWordBySlug, type WordWithDeclensions } from '@/lib/words';
+import { getWordBySlug, getAllSlugsWithBaseForm, type WordWithDeclensions } from '@/lib/words';
+import { getLandingLangFromRequest } from '@/lib/landingLangServer';
+import { getWordPageTranslations } from '@/data/website/wordPageTranslations';
+import { getWordDisplayTranslation } from '@/lib/wordPageLang';
 
 export const size = { width: 1200, height: 630 };
-/* runtime: nodejs (défaut) — nécessaire pour lire data/words.json via fs */
+export const contentType = 'image/png';
 
-const CASE_ROWS = [
-  { key: 'nominative', label: 'Nominative' },
-  { key: 'accusative', label: 'Accusative' },
-  { key: 'genitive', label: 'Genitive' },
-  { key: 'dative', label: 'Dative' },
-  { key: 'instrumental', label: 'Instrumental' },
-  { key: 'prepositional', label: 'Prepositional' },
+const CASE_ROW_KEYS = [
+  'nominative',
+  'accusative',
+  'genitive',
+  'dative',
+  'instrumental',
+  'prepositional',
 ] as const;
 
-const GENDER_STYLES: Record<string, { bg: string; text: string }> = {
-  feminine: { bg: '#ffe4e6', text: '#be123c' },
-  masculine: { bg: '#dbeafe', text: '#1d4ed8' },
-  neuter: { bg: '#f3e8ff', text: '#7c3aed' },
+const GENDER_STYLES: Record<string, { accent: string; bg: string; text: string }> = {
+  masculine: { accent: '#2563eb', bg: '#dbeafe', text: '#1e40af' },
+  feminine: { accent: '#db2777', bg: '#fce7f3', text: '#9d174d' },
+  neuter: { accent: '#9333ea', bg: '#f3e8ff', text: '#6b21a8' },
 };
+
+export async function generateStaticParams() {
+  const items = await getAllSlugsWithBaseForm();
+  return items.map(({ slug }: { slug: string }) => ({ slug }));
+}
 
 export default async function Image({
   params,
@@ -26,6 +34,8 @@ export default async function Image({
 }) {
   const { slug } = await params;
   const word = await getWordBySlug(slug);
+  const lang = await getLandingLangFromRequest();
+  const og = getWordPageTranslations(lang).ogImage;
 
   if (!word) {
     return new ImageResponse(
@@ -37,23 +47,25 @@ export default async function Image({
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            background: 'white',
-            border: '2px solid #e5e7eb',
+            background: '#f9fafb',
+            fontSize: 32,
+            color: '#6b7280',
           }}
         >
-          <div style={{ display: 'flex', fontSize: 36, color: '#6b7280' }}>Word not found</div>
+          {og.wordNotFound}
         </div>
       ),
-      { ...size }
+      { ...size },
     );
   }
 
-  const genderStyle = GENDER_STYLES[word.gender] ?? {
-    bg: '#f3f4f6',
-    text: '#6b7280',
-  };
-
-  const iconUrl = 'https://russiandeclensions.com/landing-cases/icon-app-russian-cases-with-anna.webp';
+  const gender = GENDER_STYLES[word.gender] ?? GENDER_STYLES.masculine;
+  const genderLabel = og.genderBadges[word.gender as 'masculine' | 'feminine' | 'neuter'] ?? word.gender;
+  const typeLabel =
+    getWordPageTranslations(lang).type[word.type] ?? word.type.replace(/_/g, ' ');
+  const translation = getWordDisplayTranslation(word, lang);
+  const iconUrl =
+    'https://russiandeclensions.com/landing-cases/icon-app-russian-cases-with-anna.png';
 
   return new ImageResponse(
     (
@@ -64,29 +76,43 @@ export default async function Image({
           display: 'flex',
           flexDirection: 'column',
           background: 'white',
-          border: '2px solid #e5e7eb',
           fontFamily: 'ui-sans-serif, system-ui, sans-serif',
         }}
       >
-        {/* Top section */}
         <div
           style={{
             display: 'flex',
             flexDirection: 'row',
-            alignItems: 'flex-start',
+            alignItems: 'center',
             justifyContent: 'space-between',
-            padding: '48px 56px 32px',
-            borderBottom: '1px solid #e5e7eb',
+            padding: '44px 56px 36px',
+            background: `linear-gradient(135deg, ${gender.accent}DD 0%, ${gender.accent} 100%)`,
           }}
         >
           <div style={{ display: 'flex', flexDirection: 'column', flex: 1 }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 16, marginBottom: 12 }}>
             <div
               style={{
                 display: 'flex',
-                fontSize: 72,
+                fontSize: 18,
+                fontWeight: 600,
+                color: 'rgba(255,255,255,0.9)',
+                marginBottom: 14,
+                background: 'rgba(255,255,255,0.2)',
+                padding: '5px 16px',
+                borderRadius: 20,
+                alignSelf: 'flex-start',
+              }}
+            >
+              {genderLabel} · {typeLabel}
+            </div>
+            <div
+              style={{
+                display: 'flex',
+                fontSize: word.base_form.length > 16 ? 52 : 64,
                 fontWeight: 700,
-                color: '#111827',
+                color: 'white',
+                lineHeight: 1.15,
+                marginBottom: 8,
               }}
             >
               {word.base_form}
@@ -94,119 +120,97 @@ export default async function Image({
             <div
               style={{
                 display: 'flex',
-                fontSize: 18,
-                padding: '6px 14px',
-                borderRadius: 9999,
-                background: genderStyle.bg,
-                color: genderStyle.text,
-                fontWeight: 600,
+                fontSize: 26,
+                color: 'rgba(255,255,255,0.85)',
+                fontWeight: 500,
               }}
             >
-              {word.gender}
+              {translation}
             </div>
           </div>
-          <div
-            style={{
-              display: 'flex',
-              fontSize: 18,
-              fontFamily: 'ui-monospace, monospace',
-              color: '#9ca3af',
-              marginBottom: 8,
-            }}
-          >
-            /{word.slug}/
-          </div>
-          <div style={{ display: 'flex', fontSize: 28, color: '#374151', fontWeight: 500 }}>
-            {word.translation_en}
-          </div>
-          </div>
+
           <div
             style={{
               display: 'flex',
               flexShrink: 0,
-              width: 140,
-              height: 140,
-              borderRadius: 70,
+              width: 90,
+              height: 90,
+              borderRadius: 45,
               overflow: 'hidden',
+              border: '3px solid rgba(255,255,255,0.4)',
+              marginLeft: 32,
             }}
           >
             <img
               src={iconUrl}
               alt=""
-              width={140}
-              height={140}
+              width={90}
+              height={90}
               style={{ display: 'block', objectFit: 'cover' }}
             />
           </div>
         </div>
 
-        {/* Middle section — mini declension table */}
         <div
           style={{
             flex: 1,
             display: 'flex',
             flexDirection: 'column',
-            padding: '24px 56px',
+            padding: '20px 56px 16px',
           }}
         >
           <div
             style={{
               display: 'flex',
               flexDirection: 'row',
-              padding: '12px 20px',
+              padding: '10px 20px',
               background: '#f9fafb',
-              borderBottom: '1px solid #e5e7eb',
+              borderBottom: '2px solid #e5e7eb',
               fontSize: 14,
-              fontWeight: 600,
+              fontWeight: 700,
               color: '#6b7280',
             }}
           >
-            <div style={{ display: 'flex', flex: 1.2 }}>Case</div>
-            <div style={{ display: 'flex', flex: 1 }}>Singular</div>
-            <div style={{ display: 'flex', flex: 1 }}>Plural</div>
+            <div style={{ display: 'flex', width: 110 }}>{og.tableCase}</div>
+            <div style={{ display: 'flex', flex: 1 }}>{og.tableSingular}</div>
+            <div style={{ display: 'flex', flex: 1 }}>{og.tablePlural}</div>
           </div>
-          <div
-            style={{
-              display: 'flex',
-              flexDirection: 'column',
-            }}
-          >
-          {CASE_ROWS.map((row, index) => {
-            const sg = (word as WordWithDeclensions)[
-              `${row.key}_sg` as keyof WordWithDeclensions
-            ] as string;
-            const pl = (word as WordWithDeclensions)[
-              `${row.key}_pl` as keyof WordWithDeclensions
-            ] as string;
-            const isNominative = row.key === 'nominative';
+
+          {CASE_ROW_KEYS.map((key, index) => {
+            const sg = (word as WordWithDeclensions)[`${key}_sg` as keyof WordWithDeclensions] as string;
+            const pl = (word as WordWithDeclensions)[`${key}_pl` as keyof WordWithDeclensions] as string;
+            const isNominative = key === 'nominative';
+            const rowLabel = og.caseAbbr[key] ?? key;
             return (
               <div
-                key={row.key}
+                key={key}
                 style={{
                   display: 'flex',
                   flexDirection: 'row',
-                  padding: '14px 20px',
-                  background: isNominative ? '#eff6ff' : index % 2 === 0 ? '#ffffff' : '#f9fafb',
-                  borderBottom: index < CASE_ROWS.length - 1 ? '1px solid #e5e7eb' : 'none',
-                  fontSize: 16,
+                  alignItems: 'center',
+                  padding: '8px 20px',
+                  background: isNominative ? `${gender.bg}` : index % 2 === 0 ? '#ffffff' : '#f9fafb',
+                  borderBottom: index < CASE_ROW_KEYS.length - 1 ? '1px solid #f3f4f6' : 'none',
                 }}
               >
                 <div
                   style={{
                     display: 'flex',
-                    flex: 1.2,
-                    color: '#6b7280',
-                    fontWeight: 500,
+                    width: 110,
+                    fontSize: 15,
+                    fontWeight: 600,
+                    color: isNominative ? gender.text : '#374151',
                   }}
                 >
-                  {row.label}
+                  {rowLabel}
                 </div>
                 <div
                   style={{
                     display: 'flex',
                     flex: 1,
+                    fontSize: 18,
                     color: '#111827',
-                    fontWeight: 600,
+                    fontWeight: isNominative ? 700 : 500,
                   }}
                 >
                   {sg || '—'}
@@ -215,8 +219,9 @@ export default async function Image({
                   style={{
                     display: 'flex',
                     flex: 1,
+                    fontSize: 18,
                     color: '#111827',
-                    fontWeight: 600,
+                    fontWeight: isNominative ? 700 : 500,
                   }}
                 >
                   {pl || '—'}
@@ -224,33 +229,36 @@ export default async function Image({
               </div>
             );
           })}
-          </div>
         </div>
 
-        {/* Bottom bar */}
         <div
           style={{
             display: 'flex',
             flexDirection: 'row',
             alignItems: 'center',
             justifyContent: 'space-between',
-            padding: '20px 56px',
+            padding: '16px 56px',
             background: '#f9fafb',
             borderTop: '1px solid #e5e7eb',
-            fontSize: 16,
+            fontSize: 15,
             color: '#9ca3af',
           }}
         >
           <div style={{ display: 'flex' }}>russiandeclensions.com</div>
-          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 2 }}>
+          <div
+            style={{
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'flex-end',
+              gap: 2,
+            }}
+          >
             <div style={{ display: 'flex', fontWeight: 600 }}>Russian Cases with Anna®</div>
-            <div style={{ display: 'flex', fontSize: 14, color: '#9ca3af' }}>
-              free mobile app to practice your russian cases
-            </div>
+            <div style={{ display: 'flex', fontSize: 13, color: '#9ca3af' }}>{og.footerTagline}</div>
           </div>
         </div>
       </div>
     ),
-    { ...size }
+    { ...size },
   );
 }

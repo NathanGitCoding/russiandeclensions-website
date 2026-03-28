@@ -41,6 +41,10 @@ function getDisplayTranslation(word: WordListItem, lang: LandingLanguage): strin
   else if (lang === 'de_de') text = word.translation_de || word.translation_en;
   else if (lang === 'tr_tr') text = word.translation_tr || word.translation_en;
   else if (lang === 'pl_pl') text = word.translation_pl || word.translation_en;
+  else if (lang === 'es_es') text = word.translation_es || word.translation_en;
+  else if (lang === 'it_it') text = word.translation_it || word.translation_en;
+  else if (lang === 'pt_pt') text = word.translation_pt || word.translation_en;
+  else if (lang === 'nl_nl') text = word.translation_nl || word.translation_en;
   else text = word.translation_en;
   return text ? text.charAt(0).toUpperCase() + text.slice(1) : '';
 }

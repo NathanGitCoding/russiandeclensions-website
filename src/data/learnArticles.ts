@@ -5675,6 +5675,1910 @@ export const learnArticles: Record<string, LearnArticle> = {
       },
     ],
   },
+  'best-free-resources-learn-russian': {
+    slug: 'best-free-resources-learn-russian',
+    title: '15 Best Free Resources to Learn Russian in 2026',
+    metaTitle:
+      '15 Best Free Resources to Learn Russian in 2026 | Russian Cases with Anna',
+    metaDescription:
+      'The ultimate list of free tools, apps, websites, YouTube channels, and podcasts to learn Russian in 2026. From grammar drills to conversation practice — all 100% free.',
+    keywords: [
+      'free resources learn russian',
+      'learn russian for free',
+      'best russian learning websites',
+      'free russian apps',
+      'russian learning tools 2026',
+      'learn russian online free',
+    ],
+    h1: '15 Best Free Resources to Learn Russian in 2026',
+    heroImage: {
+      src: '/articles/top-10-apps-to-learn-russian-2026.webp',
+      alt: '15 best free resources to learn Russian in 2026',
+      width: 1200,
+      height: 630,
+    },
+    intro:
+      "You don't need to spend a single dollar to start learning Russian. In 2026, there are more **high-quality free resources** than ever — from interactive apps and grammar quizzes to YouTube channels and podcasts by native speakers.\n\nWe've curated the **15 best completely free tools** to help you learn Russian, organized by category: apps, websites, video channels, podcasts, and textbooks. Whether you're a total beginner or preparing for the TORFL exam, there's something here for you.",
+    whatYouLearn: [
+      '**5 free mobile apps** for Russian grammar, vocabulary, and cases',
+      '**4 interactive websites** with quizzes, declension tables, and exercises',
+      '**3 YouTube channels** by native Russian speakers',
+      '**2 podcasts** for listening practice at every level',
+      '**1 free textbook** for self-study',
+    ],
+    leadMagnetCta: {
+      title: 'Want the best app for Russian cases?',
+      description:
+        'Russian Cases with Anna is the only app 100% dedicated to mastering Russian declensions. 128 grammar lessons, 136 quizzes, vocabulary flashcards — free to download on iOS and Android.',
+      ctaText: 'Download Russian Cases with Anna — Free',
+      ctaHref: '/',
+    },
+    sections: [
+      {
+        h2: 'Free Mobile Apps',
+        content:
+          "Mobile apps are the most convenient way to practice Russian every day. Here are the 5 best free options in 2026, each with a different strength.",
+        subsections: [
+          {
+            h3: '1. Russian Cases with Anna — Best for Grammar & Declensions',
+            content:
+              "If your goal is to **master Russian grammar**, particularly noun declensions and the 6 grammatical cases, **Russian Cases with Anna** is the best free app available. It's the only app 100% dedicated to Russian cases.\n\n**What's included for free:** 128 bite-sized grammar lessons, 136 interactive quizzes, vocabulary flashcards with spaced repetition, and a complete declension table for 400+ Russian nouns. The app covers all 6 cases (nominative, accusative, genitive, dative, instrumental, prepositional) with clear explanations and real-world examples.\n\nYou can also try the **free online quiz** at russiandeclensions.com/practice — no download required.",
+            bullets: [
+              '**Best for:** Learners who want to understand and practice Russian cases systematically',
+              '**Price:** Free (with optional premium for advanced features)',
+              '**Platforms:** iOS and Android',
+            ],
+          },
+          {
+            h3: '2. Duolingo — Best for Absolute Beginners',
+            content:
+              "**Duolingo** needs no introduction. Its gamified lessons make it easy to start learning Russian from zero. The app teaches vocabulary and basic grammar through short, addictive exercises.\n\n**Limitations for grammar:** Duolingo doesn't explain Russian cases explicitly. You'll learn patterns by repetition, but won't understand *why* endings change. For that, you'll need a grammar-focused resource like Russian Cases with Anna.",
+            bullets: [
+              '**Best for:** Total beginners who want a daily habit',
+              '**Price:** Free (with ads; optional Super subscription)',
+              '**Platforms:** iOS, Android, Web',
+            ],
+          },
+          {
+            h3: '3. Anki — Best for Vocabulary with Spaced Repetition',
+            content:
+              "**Anki** is the gold standard for flashcard-based learning. It uses a **spaced repetition algorithm** to show you cards right before you'd forget them. There are thousands of pre-made Russian decks available for free.\n\nAnki is not an \"app\" in the traditional sense — it's a flashcard system. But for vocabulary memorization, nothing beats it. Pair it with a grammar app and you'll progress fast.",
+            bullets: [
+              '**Best for:** Intermediate learners building vocabulary',
+              '**Price:** Free on desktop and Android (iOS app is paid)',
+              '**Platforms:** Desktop, Android, iOS',
+            ],
+          },
+          {
+            h3: '4. Memrise — Best for Real-World Phrases',
+            content:
+              "**Memrise** combines vocabulary learning with **video clips of native speakers** saying phrases in context. This helps you hear how Russian actually sounds in real conversations, not just textbook examples.\n\nThe free version gives you access to the core course content. It's excellent for picking up everyday phrases and improving your listening comprehension.",
+            bullets: [
+              '**Best for:** Learners who want to hear real native pronunciation',
+              '**Price:** Free core content (premium for full features)',
+              '**Platforms:** iOS, Android, Web',
+            ],
+          },
+          {
+            h3: '5. Clozemaster — Best for Advanced Vocabulary in Context',
+            content:
+              "**Clozemaster** uses a cloze (fill-in-the-blank) format with **real sentences**. You see a Russian sentence with one word missing and must choose or type the correct word. It's like a massive reading exercise.\n\nWith thousands of sentences sorted by frequency, Clozemaster is ideal for intermediate-to-advanced learners who want to expand their vocabulary beyond the basics.",
+            bullets: [
+              '**Best for:** Intermediate/advanced learners expanding vocabulary',
+              '**Price:** Free (with optional Pro subscription)',
+              '**Platforms:** iOS, Android, Web',
+            ],
+          },
+        ],
+      },
+      {
+        h2: 'Free Websites & Online Tools',
+        content:
+          "These websites offer free grammar references, interactive exercises, and declension tables you can use right from your browser.",
+        subsections: [
+          {
+            h3: '6. RussianDeclensions.com — Free Declension Quiz & Tables',
+            content:
+              "**RussianDeclensions.com** (this website!) offers two powerful free tools:\n\n• **Declension Tables** — Browse **400+ Russian nouns** with complete declension tables showing all 6 cases in singular and plural forms, with example sentences.\n\n• **Practice Quiz** — Take a **free interactive quiz** with customizable settings: choose which cases and genders to practice, then answer 10 multiple-choice questions. You can also practice a specific case individually.\n\nNo registration required. Everything is free and works on any device.",
+            bullets: [
+              '**Best for:** Practicing declensions with real quiz feedback',
+              '**Price:** 100% free, no account needed',
+            ],
+          },
+          {
+            h3: '7. Russian Grammar Wiki (Duke University)',
+            content:
+              "**Russian Grammar Wiki** is an open-source reference maintained by Duke University. It covers every aspect of Russian grammar with clear explanations and examples.\n\nThis is not an interactive tool — it's a **reference site**. But when you need to understand a specific grammar rule (e.g., when to use the instrumental case after \"с\"), this is the most reliable free source.",
+            bullets: [
+              '**Best for:** Looking up specific grammar rules',
+              '**Price:** Free',
+            ],
+          },
+          {
+            h3: '8. Reverso Context — Best for Seeing Words in Context',
+            content:
+              "**Reverso Context** shows you how any Russian word or phrase is used in **real translated texts** — movies, books, news articles. Type a word and see dozens of example sentences with translations.\n\nIt's invaluable for understanding how cases are used in natural speech. When you see that \"думать о\" is always followed by the prepositional case, it sticks much better than memorizing a rule.",
+            bullets: [
+              '**Best for:** Understanding word usage in real context',
+              '**Price:** Free (with optional premium)',
+            ],
+          },
+          {
+            h3: '9. Wiktionary (Russian entries) — Free Declension Reference',
+            content:
+              "**Wiktionary** has surprisingly detailed Russian entries. Every noun page shows the **full declension table** with all cases, stress patterns, and grammatical notes.\n\nWhile not as user-friendly as a dedicated app, it's a comprehensive free reference that covers every Russian word you'll ever encounter.",
+            bullets: [
+              '**Best for:** Quick lookup of any Russian word\'s declension',
+              '**Price:** Free',
+            ],
+          },
+        ],
+      },
+      {
+        h2: 'Free YouTube Channels',
+        content:
+          "Video content from native speakers is one of the best ways to immerse yourself in Russian without traveling. These channels are all free and regularly updated.",
+        subsections: [
+          {
+            h3: '10. Russian with Max — Immersive Storytelling',
+            content:
+              "**Russian with Max** is one of the most popular Russian-learning channels on YouTube. Max speaks entirely in Russian at a natural pace, using **subtitles in both Russian and English**. His topics range from daily life to culture and travel.\n\nThis channel is perfect for **immersion-style learning** — you absorb grammar and vocabulary naturally by listening to interesting content.",
+            bullets: [
+              '**Best for:** Intermediate learners ready for immersion',
+              '**Subscribers:** 600K+',
+            ],
+          },
+          {
+            h3: '11. Be Fluent in Russian (Fedor) — Grammar Explanations',
+            content:
+              "**Be Fluent in Russian** is run by Fedor, a native Russian teacher who explains grammar in English. His videos on **Russian cases** are particularly good — clear, systematic, with lots of examples.\n\nIf you're the type of learner who needs to *understand* the rules before practicing them, this channel is for you.",
+            bullets: [
+              '**Best for:** Grammar-focused learners who want explanations in English',
+              '**Subscribers:** 350K+',
+            ],
+          },
+          {
+            h3: '12. Easy Russian (Easy Languages) — Street Interviews',
+            content:
+              "**Easy Russian** is part of the Easy Languages network. The format is simple: street interviews with regular Russians in cities like Moscow and Saint Petersburg, with **dual subtitles** (Russian + English).\n\nYou hear real spoken Russian at natural speed — slang, reductions, and all. It's the closest you can get to being in Russia from your couch.",
+            bullets: [
+              '**Best for:** Listening practice with real spoken Russian',
+              '**Subscribers:** 200K+',
+            ],
+          },
+        ],
+      },
+      {
+        h2: 'Free Podcasts',
+        content:
+          "Podcasts are perfect for learning Russian during your commute, at the gym, or while doing chores. These two are available for free on all podcast platforms.",
+        subsections: [
+          {
+            h3: '13. RussianPod101 — Structured Audio Lessons',
+            content:
+              "**RussianPod101** offers hundreds of podcast episodes organized by level (absolute beginner to advanced). Each episode is a short audio lesson with clear explanations.\n\nThe free tier gives you access to a large library of episodes. It's a great complement to app-based learning — study grammar with an app, then listen to RussianPod101 to hear it in action.",
+            bullets: [
+              '**Best for:** Structured audio learning at any level',
+              '**Price:** Free tier available (premium for full access)',
+            ],
+          },
+          {
+            h3: '14. Slow Russian Podcast — Russian at a Comfortable Pace',
+            content:
+              "**Slow Russian** by Daria Molchanova is exactly what it sounds like: interesting topics spoken in **slow, clear Russian** with transcripts available on the website.\n\nIt's ideal for learners who find native-speed Russian too fast. Topics include Russian culture, history, and daily life. Every episode comes with a full text transcript.",
+            bullets: [
+              '**Best for:** Beginners/intermediate learners wanting to train their ear',
+              '**Price:** Free',
+            ],
+          },
+        ],
+      },
+      {
+        h2: 'Free Textbook',
+        content:
+          "For learners who prefer structured self-study with a book, there's one excellent free option.",
+        subsections: [
+          {
+            h3: '15. The New Penguin Russian Course — Classic Self-Study Grammar',
+            content:
+              "**The New Penguin Russian Course** by Nicholas J. Brown is widely considered the best English-language textbook for self-studying Russian grammar. While the physical book isn't free, the complete text is available in several open-access online libraries.\n\nIt covers everything from the Cyrillic alphabet to advanced grammar topics, with exercises and answer keys. It's particularly strong on explaining **why** grammar rules work the way they do — including detailed explanations of all 6 cases.",
+            bullets: [
+              '**Best for:** Self-disciplined learners who want a complete grammar course',
+              '**Price:** Free online (public domain / open access)',
+            ],
+          },
+        ],
+      },
+      {
+        h2: 'How to Combine These Resources for Maximum Progress',
+        content:
+          "Having 15 resources is great, but using all of them at once would be overwhelming. Here's a suggested **daily routine** combining the best of each category:",
+        bullets: [
+          '**Morning (10 min):** Study one grammar lesson in **Russian Cases with Anna** app — focus on understanding one case at a time',
+          '**Commute (15 min):** Listen to **RussianPod101** or **Slow Russian** podcast',
+          '**Lunch break (5 min):** Review vocabulary flashcards in **Anki** or practice a quick **declension quiz** at russiandeclensions.com/practice',
+          '**Evening (15 min):** Watch one video from **Russian with Max** or **Easy Russian** on YouTube',
+          '**Before bed (5 min):** Do 1 round of **Clozemaster** or **Memrise** sentences',
+        ],
+      },
+    ],
+    conclusion:
+      "You now have **15 completely free tools** to learn Russian — from grammar-focused apps to immersive YouTube channels and podcasts. The key is **consistency**: even 15 minutes a day with the right resources will get you further than sporadic 2-hour sessions.\n\nRemember: grammar is the backbone of Russian. Without understanding the **6 grammatical cases**, you'll hit a wall quickly. That's why we recommend starting with a grammar-focused tool like **Russian Cases with Anna** and our **free online declension quiz** at russiandeclensions.com/practice, then layering vocabulary and listening practice on top.",
+    conclusionBullets: [
+      '**Start with grammar:** Use Russian Cases with Anna to understand the case system',
+      '**Practice daily:** Take our free declension quiz or use Anki flashcards',
+      '**Listen actively:** Podcasts and YouTube channels build your ear for natural Russian',
+      '**Read in context:** Reverso Context and Clozemaster expose you to real sentences',
+      '**Be consistent:** 15 minutes daily beats 2 hours once a week',
+    ],
+    conclusionOutro:
+      'For more in-depth grammar resources, explore our guides:',
+    internalLinks: [
+      {
+        href: '/learn/lessons/russian-cases-complete-guide',
+        label: 'The Complete Guide to Russian Cases — all 6 cases explained',
+      },
+      {
+        href: '/learn/articles/russian-case-endings-cheatsheet',
+        label: 'Russian Case Endings Cheat Sheet — the ultimate reference chart',
+      },
+      {
+        href: '/practice',
+        label: 'Free Declension Practice Quiz — test yourself with 400+ words',
+      },
+      {
+        href: '/words',
+        label: 'Browse 400+ Russian Words — full declension tables',
+      },
+    ],
+    ctaText: 'Start practicing Russian declensions now',
+    ctaHref: '/practice',
+    faq: [
+      {
+        question: 'Can I really learn Russian for free?',
+        answer:
+          'Yes. All 15 resources listed in this article have a **free tier** or are completely free. You can build a solid foundation in Russian grammar, vocabulary, and listening without spending anything. Premium features exist for some apps, but the free versions are sufficient for most learners.',
+      },
+      {
+        question: 'What is the single best free resource for Russian grammar?',
+        answer:
+          'For **grammar specifically**, we recommend **Russian Cases with Anna** — it\'s the only app 100% focused on Russian declensions and cases, with 128 lessons and 136 quizzes. You can also use the **free online quiz** at russiandeclensions.com/practice without downloading anything.',
+      },
+      {
+        question: 'How long does it take to learn Russian with free resources?',
+        answer:
+          'According to the FSI (Foreign Service Institute), English speakers need approximately **1,100 hours** to reach professional proficiency in Russian. With **consistent daily practice** of 30-60 minutes using the resources in this guide, you can reach a conversational level (B1) in about **12-18 months**.',
+      },
+      {
+        question: 'Do I need to learn the Cyrillic alphabet first?',
+        answer:
+          'Yes, learning the **Cyrillic alphabet** is essential and should be your very first step. The good news is it only takes **1-2 weeks** of practice. Apps like Duolingo and Russian Cases with Anna teach the alphabet as part of their beginner lessons.',
+      },
+      {
+        question: 'Which free resource is best for listening practice?',
+        answer:
+          'For listening, we recommend **Slow Russian Podcast** (for beginners — slow, clear speech with transcripts) and **Russian with Max** on YouTube (for intermediate learners — natural speech with dual subtitles). Start slow and work your way up.',
+      },
+    ],
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: '15 Best Free Resources to Learn Russian in 2026',
+      description:
+        'The ultimate list of free tools, apps, websites, YouTube channels, and podcasts to learn Russian in 2026. Curated guide with 15 resources organized by category.',
+      datePublished: '2026-03-22',
+      dateModified: '2026-03-22',
+      author: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id':
+          'https://russiandeclensions.com/learn/articles/best-free-resources-learn-russian',
+      },
+      keywords:
+        'free resources learn russian, learn russian for free, best russian learning websites, free russian apps, russian learning tools 2026',
+    },
+  },
+  'russian-cases-explained-beginners-guide': {
+    slug: 'russian-cases-explained-beginners-guide',
+    title: 'Russian Cases Explained Simply: A Beginner\'s Visual Guide',
+    metaTitle:
+      'Russian Cases Explained Simply: A Beginner\'s Visual Guide | Russian Cases with Anna',
+    metaDescription:
+      'The 6 Russian grammatical cases explained in plain English with simple examples. Understand nominative, accusative, genitive, dative, instrumental, and prepositional in 10 minutes.',
+    keywords: [
+      'russian cases explained',
+      'russian cases for beginners',
+      'russian grammatical cases simple',
+      'understand russian cases',
+      'russian cases examples',
+      '6 russian cases',
+    ],
+    h1: 'Russian Cases Explained Simply: A Beginner\'s Visual Guide',
+    heroImage: {
+      src: '/articles/top-10-apps-to-learn-russian-2026.webp',
+      alt: 'The 6 Russian cases explained simply for beginners',
+      width: 1200,
+      height: 630,
+    },
+    intro:
+      "Russian has **6 grammatical cases**, and they're the single biggest hurdle for English speakers learning the language. But here's the good news: cases are not as scary as they seem. Every case answers a simple question, and once you understand **what each case does**, the endings become much easier to learn.\n\nThis guide explains all 6 Russian cases in **plain English**, with one clear example for each. No linguistic jargon, no overwhelming tables — just the essentials to get you started.",
+    whatYouLearn: [
+      '**What a grammatical case is** and why Russian uses them',
+      '**All 6 cases explained** with one simple example each',
+      '**Which cases to learn first** (beginner priority order)',
+      '**How noun endings change** — a simplified overview',
+      '**Where to practice** — free quiz and resources',
+    ],
+    leadMagnetCta: {
+      title: 'Ready to practice Russian cases?',
+      description:
+        'Download Russian Cases with Anna — the only app 100% dedicated to mastering Russian declensions. 128 lessons, 136 quizzes, 400+ words. Free on iOS and Android.',
+      ctaText: 'Download the app — Free',
+      ctaHref: '/',
+    },
+    sections: [
+      {
+        h2: 'What Is a Grammatical Case?',
+        content:
+          "In English, **word order** tells you who does what in a sentence. \"The dog bites the man\" and \"The man bites the dog\" mean completely different things — the subject always comes first.\n\nRussian works differently. Instead of relying on word order, Russian changes the **ending of a word** to show its role in the sentence. These different endings are called **cases**.\n\nThink of it like this: in English, you say \"**I** see **him**\" (not \"me see he\"). The words \"I/me\" and \"he/him\" change form depending on their role. Russian does the same thing — but for **every single noun, adjective, and pronoun** in the language.\n\nThere are **6 cases** in Russian. Each one answers a specific question and marks a specific grammatical role.",
+      },
+      {
+        h2: 'The 6 Russian Cases at a Glance',
+        content:
+          'Before diving into each case, here is a quick overview. Each case answers a question and changes the noun ending accordingly:',
+        table: {
+          headers: ['Case', 'Russian Name', 'Question', 'Example'],
+          rows: [
+            ['Nominative', 'Именительный', 'Who? What?', 'Кошка спит — The cat sleeps'],
+            ['Accusative', 'Винительный', 'Whom? What? (object)', 'Я вижу кошку — I see the cat'],
+            ['Genitive', 'Родительный', 'Of whom? Of what?', 'Нет кошки — There is no cat'],
+            ['Dative', 'Дательный', 'To whom? For whom?', 'Дай кошке — Give to the cat'],
+            ['Instrumental', 'Творительный', 'By whom? With what?', 'С кошкой — With the cat'],
+            ['Prepositional', 'Предложный', 'About whom? Where?', 'О кошке — About the cat'],
+          ],
+          caption: 'The 6 Russian cases with questions and examples using кошка (cat)',
+          accentColumnIndices: [3],
+        },
+        bullets: [
+          'Notice how the word **кошка** (cat) changes its ending in every single case: кошка → кошку → кошки → кошке → кошкой → кошке',
+          'This pattern of endings is called **declension** — and every Russian noun follows one',
+        ],
+      },
+      {
+        h2: 'Case 1: Nominative (Именительный) — The Subject',
+        content:
+          "The nominative case is the **default form** of a word — the one you find in the dictionary. It answers the questions **Кто? (Who?)** and **Что? (What?)**.\n\nYou use the nominative for the **subject** of a sentence — the person or thing performing the action.",
+        subsections: [
+          {
+            h3: 'Examples',
+            content:
+              '**Мама** готовит ужин — **Mom** is cooking dinner\n\n**Книга** лежит на столе — **The book** is on the table\n\n**Студент** читает — **The student** is reading',
+          },
+        ],
+        bullets: [
+          'The nominative is the **easiest case** — no ending changes needed',
+          'Every Russian sentence has at least one noun in the nominative',
+          'This is the form you already know from vocabulary lists',
+        ],
+      },
+      {
+        h2: 'Case 2: Accusative (Винительный) — The Direct Object',
+        content:
+          "The accusative answers **Кого? (Whom?)** and **Что? (What?)** — but this time as the **object** of the action, not the subject. It marks the thing being acted upon.\n\nThe accusative is also used with **verbs of motion** to indicate direction (going **to** somewhere).",
+        subsections: [
+          {
+            h3: 'Examples',
+            content:
+              'Я вижу **маму** — I see **mom** (мама → маму)\n\nОн читает **книгу** — He reads **the book** (книга → книгу)\n\nМы идём **в школу** — We are going **to school** (школа → школу)',
+          },
+        ],
+        bullets: [
+          'For **feminine nouns**, -а changes to **-у** (мама → маму)',
+          'For **masculine inanimate** nouns, the accusative looks the same as nominative (стол → стол)',
+          'For **masculine animate** nouns, the accusative looks like the genitive (студент → студента)',
+        ],
+      },
+      {
+        h2: 'Case 3: Genitive (Родительный) — Possession & Absence',
+        content:
+          "The genitive answers **Кого? (Of whom?)** and **Чего? (Of what?)**. It's the case of **possession** (like \"of\" or \"'s\" in English), **absence** (there is no...), and **quantities**.\n\nThis is one of the most frequently used cases in Russian — you'll encounter it everywhere.",
+        subsections: [
+          {
+            h3: 'Examples',
+            content:
+              'Книга **мамы** — **Mom\'s** book (мама → мамы)\n\nНет **воды** — There is no **water** (вода → воды)\n\nСтакан **молока** — A glass **of milk** (молоко → молока)\n\nУ **студента** есть книга — **The student** has a book (студент → студента)',
+          },
+        ],
+        bullets: [
+          'For **feminine nouns**, -а changes to **-ы** or **-и** (мама → мамы, книга → книги)',
+          'For **masculine nouns**, add **-а** or **-я** (студент → студента, учитель → учителя)',
+          'Used after **numbers 2-4** and after **нет** (negation)',
+        ],
+      },
+      {
+        h2: 'Case 4: Dative (Дательный) — The Indirect Object',
+        content:
+          "The dative answers **Кому? (To whom?)** and **Чему? (To what?)**. It marks the **recipient** of an action — the person something is given to, told to, or done for.\n\nThe dative is also used in common expressions about **age** and **feelings**.",
+        subsections: [
+          {
+            h3: 'Examples',
+            content:
+              'Я дал книгу **маме** — I gave the book **to mom** (мама → маме)\n\n**Мне** 25 лет — **I am** 25 years old (я → мне)\n\n**Студенту** нужна помощь — **The student** needs help (студент → студенту)',
+          },
+        ],
+        bullets: [
+          'For **feminine nouns**, -а changes to **-е** (мама → маме)',
+          'For **masculine nouns**, add **-у** or **-ю** (студент → студенту)',
+          'Used in age expressions: **Мне** 20 лет (literally: \"to me 20 years\")',
+        ],
+      },
+      {
+        h2: 'Case 5: Instrumental (Творительный) — Means & Accompaniment',
+        content:
+          "The instrumental answers **Кем? (By whom?)** and **Чем? (With what?)**. It describes the **instrument or means** used to do something, as well as **accompaniment** (with someone).\n\nIt's also used after the verb **быть** (to be) to describe professions.",
+        subsections: [
+          {
+            h3: 'Examples',
+            content:
+              'Я пишу **ручкой** — I write **with a pen** (ручка → ручкой)\n\nОна работает **учительницей** — She works **as a teacher** (учительница → учительницей)\n\nЯ иду **с мамой** — I\'m going **with mom** (мама → мамой)',
+          },
+        ],
+        bullets: [
+          'For **feminine nouns**, -а changes to **-ой** or **-ей** (мама → мамой, земля → землёй)',
+          'For **masculine nouns**, add **-ом** or **-ем** (студент → студентом)',
+          'Always used after the preposition **с** (with) for accompaniment',
+        ],
+      },
+      {
+        h2: 'Case 6: Prepositional (Предложный) — Location & Topic',
+        content:
+          "The prepositional answers **О ком? (About whom?)** and **О чём? (About what?)**. As its name suggests, it is **always used with a preposition** — most commonly **в** (in), **на** (on/at), and **о** (about).\n\nThis is the only Russian case that can never appear without a preposition.",
+        subsections: [
+          {
+            h3: 'Examples',
+            content:
+              'Я живу **в Москве** — I live **in Moscow** (Москва → Москве)\n\nОн думает **о маме** — He thinks **about mom** (мама → маме)\n\nКнига **на столе** — The book is **on the table** (стол → столе)',
+          },
+        ],
+        bullets: [
+          'For **feminine nouns**, -а changes to **-е** (мама → маме, Москва → Москве)',
+          'For **masculine nouns**, add **-е** (стол → столе, студент → студенте)',
+          'The prepositional and dative often have **identical endings** — context tells them apart',
+        ],
+      },
+      {
+        h2: 'Which Cases Should You Learn First?',
+        content:
+          "You don't need to master all 6 cases at once. Here's the recommended **learning order** based on frequency and difficulty:",
+        bullets: [
+          '**1. Nominative** — You already know this one (dictionary form)',
+          '**2. Accusative** — Essential for basic sentences (\"I eat bread\", \"I see a dog\")',
+          '**3. Genitive** — Very common (possession, negation, quantities)',
+          '**4. Prepositional** — Relatively easy (always with a preposition, simple endings)',
+          '**5. Dative** — Less frequent but important (indirect objects, age)',
+          '**6. Instrumental** — The least common in everyday speech, but still essential',
+        ],
+      },
+      {
+        h2: 'Start Practicing Now',
+        content:
+          "Understanding the cases is the first step. The next step is **active practice** — repeatedly seeing and choosing the correct forms until it becomes automatic.\n\nHere's how to start:\n\n• Take our **free online declension quiz** at russiandeclensions.com/practice — choose which cases to practice, and answer 10 multiple-choice questions from 400+ real Russian nouns.\n\n• Browse our **complete declension tables** at russiandeclensions.com/words — see how every word changes across all 6 cases.\n\n• Download the **Russian Cases with Anna** app for structured grammar lessons with interactive quizzes, spaced repetition, and offline access.",
+      },
+    ],
+    conclusion:
+      "Russian cases are simply **labels for the roles words play** in a sentence. The nominative is the doer, the accusative is the receiver, the genitive shows possession, the dative marks the recipient, the instrumental describes the means, and the prepositional indicates location or topic.\n\nOnce you understand **what each case means**, learning the endings becomes a matter of pattern recognition and practice. Don't try to memorize all the endings at once — learn one case at a time, practice it until it feels natural, then move to the next.",
+    conclusionBullets: [
+      '**6 cases, 6 roles** — each case answers a specific question',
+      '**Start with accusative and genitive** — the two most common cases after nominative',
+      '**Practice with real words** — use our quiz and declension tables',
+      '**One case at a time** — don\'t overwhelm yourself with all 6 at once',
+      '**Consistency wins** — 10 minutes daily beats 2 hours once a week',
+    ],
+    conclusionOutro:
+      'Dive deeper into each case with our detailed guides:',
+    internalLinks: [
+      {
+        href: '/learn/lessons/russian-cases-complete-guide',
+        label: 'The Complete Guide to Russian Cases — all 6 cases in depth',
+      },
+      {
+        href: '/learn/articles/russian-case-endings-cheatsheet',
+        label: 'Russian Case Endings Cheat Sheet — all endings in one table',
+      },
+      {
+        href: '/practice/accusative',
+        label: 'Practice Accusative Case — free quiz',
+      },
+      {
+        href: '/practice/genitive',
+        label: 'Practice Genitive Case — free quiz',
+      },
+      {
+        href: '/words',
+        label: 'Browse 400+ Russian Words — complete declension tables',
+      },
+    ],
+    ctaText: 'Start practicing Russian cases now',
+    ctaHref: '/practice',
+    faq: [
+      {
+        question: 'How many cases does Russian have?',
+        answer:
+          'Russian has **6 grammatical cases**: Nominative (Именительный), Accusative (Винительный), Genitive (Родительный), Dative (Дательный), Instrumental (Творительный), and Prepositional (Предложный). Each case changes the ending of nouns, adjectives, and pronouns to show their role in a sentence.',
+      },
+      {
+        question: 'What is the hardest Russian case to learn?',
+        answer:
+          'Most learners find the **Genitive case** the hardest because it has the most uses (possession, absence, quantities, after numbers, after many prepositions) and irregular plural endings. However, each case has its own challenges depending on your native language.',
+      },
+      {
+        question: 'Do I really need to learn all 6 Russian cases?',
+        answer:
+          'Yes — all 6 cases are actively used in modern Russian. You cannot form correct sentences without them. However, you don\'t need to learn them all at once. Start with the **nominative** and **accusative**, then gradually add the others.',
+      },
+      {
+        question: 'What is the easiest Russian case?',
+        answer:
+          'The **Nominative** case is the easiest because it\'s the dictionary form — no ending changes. After that, the **Prepositional** case is often considered the easiest to learn because it always appears with a preposition and has relatively simple, consistent endings (-е for most nouns).',
+      },
+      {
+        question: 'How long does it take to learn Russian cases?',
+        answer:
+          'With consistent daily practice, most learners can understand the basic concept of all 6 cases in **a few weeks** and use them comfortably in simple sentences within **3-6 months**. Full mastery (including all irregular forms and plural declensions) typically takes **1-2 years** of regular study.',
+      },
+    ],
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: 'Russian Cases Explained Simply: A Beginner\'s Visual Guide',
+      description:
+        'The 6 Russian grammatical cases explained in plain English with simple examples. Nominative, accusative, genitive, dative, instrumental, and prepositional made easy.',
+      datePublished: '2026-03-22',
+      dateModified: '2026-03-22',
+      author: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id':
+          'https://russiandeclensions.com/learn/articles/russian-cases-explained-beginners-guide',
+      },
+      keywords:
+        'russian cases explained, russian cases for beginners, 6 russian cases, russian grammatical cases simple, understand russian cases',
+    },
+  },
+
+  'best-apps-learn-russian-grammar': {
+    slug: 'best-apps-learn-russian-grammar',
+    title: 'Best Apps to Learn Russian Grammar in 2026 (Honest Review)',
+    metaTitle:
+      'Best Apps to Learn Russian Grammar in 2026 — Honest Review | Russian Cases with Anna',
+    metaDescription:
+      'We tested 8 apps that teach Russian grammar — cases, conjugation, sentence structure. Honest pros & cons, comparison table, and our #1 pick for mastering Russian grammar fast.',
+    keywords: [
+      'best apps learn russian grammar',
+      'russian grammar app',
+      'russian cases app',
+      'learn russian grammar',
+      'russian declension app',
+      'russian conjugation app',
+      'apps for russian grammar 2026',
+    ],
+    h1: 'Best Apps to Learn Russian Grammar in 2026: An Honest Review',
+    intro:
+      "Russian grammar is famously challenging. Six cases, three genders, two aspects for every verb, and word order rules that feel more like suggestions — it's a lot. Most general-purpose language apps gloss over grammar, leaving you stuck at the \"tourist phrases\" stage forever.\n\nWe spent weeks testing every app that claims to teach Russian grammar. Our focus: **does this app actually explain and drill grammar**, or does it just teach vocabulary and hope you figure out the rules? Here are our honest findings — no affiliate deals, no sugar-coating.",
+    whatYouLearn: [
+      '8 grammar-focused apps ranked with pros & cons',
+      'Which apps actually teach Russian cases and declensions',
+      'A comparison table to find your perfect match',
+      'Our recommended study stack for different levels',
+    ],
+    items: [
+      {
+        rank: 1,
+        title: 'Russian Cases with Anna — The Best App for Russian Cases & Declensions',
+        description:
+          "If your #1 goal is to **master Russian cases and declensions**, this is the app. While other apps mention cases in passing, Russian Cases with Anna is built entirely around them. You get structured lessons for each of the 6 cases, followed by fast-paced quizzes on 400+ real nouns. The app tracks your accuracy, highlights weak spots, and adapts difficulty. It also covers singular and plural declensions — something most apps skip entirely.\n\nThe **free online quiz** at russiandeclensions.com lets you practice specific cases (accusative, genitive, dative, instrumental, prepositional) without even installing anything. For grammar nerds and serious learners, this is the gold standard.",
+        image: {
+          src: '/articles/logos/russian-cases-with-anna-icon-app-logo.webp',
+          alt: 'Russian Cases with Anna app icon — best app for Russian grammar cases',
+          width: 256,
+          height: 256,
+        },
+        rating: 9,
+        pros: [
+          'Deepest coverage of all 6 Russian cases — no other app comes close',
+          'Interactive quizzes with 400+ words, singular & plural',
+          'Free online practice quiz (no install required)',
+          'Tracks accuracy per case so you know exactly what to review',
+          'Clear, concise grammar explanations before each quiz',
+        ],
+        cons: [
+          'Laser-focused on cases/declensions — you\'ll need a separate app for verbs and conversation',
+          'No speaking or listening exercises',
+        ],
+        price: 'Free (with optional premium)',
+      },
+      {
+        rank: 2,
+        title: 'Babbel — Best Structured Grammar Course',
+        description:
+          "Babbel treats Russian grammar seriously. Every lesson **integrates grammar explanations naturally** into dialogues and exercises, rather than dumping rules on you in isolation. You'll encounter case endings, verb conjugation, and word order in context — the way grammar should be learned.\n\nThe speech recognition feature also helps with pronunciation, which many grammar-focused apps ignore. If you want a well-rounded grammar course that feels like a university class without the boredom, Babbel delivers.",
+        image: {
+          src: '/articles/logos/babel-app-icon-logo.webp',
+          alt: 'Babbel app icon',
+          width: 256,
+          height: 256,
+        },
+        rating: 8,
+        pros: [
+          'Grammar is woven into every lesson, not an afterthought',
+          'Covers cases, conjugation, and sentence structure',
+          'Clear explanations in your native language',
+          'Speech recognition for pronunciation practice',
+        ],
+        cons: [
+          'Requires paid subscription ($7–14/month)',
+          'Case coverage is broad but not deep — you won\'t master all 6 cases here',
+          'Content can feel repetitive after intermediate level',
+        ],
+        price: '$7–14/month',
+      },
+      {
+        rank: 3,
+        title: 'Busuu — Grammar Corrections from Native Speakers',
+        description:
+          "Busuu's unique advantage is its **community correction feature**: native Russian speakers review your written exercises and give feedback. This is invaluable for grammar because textbook rules and real-world usage often diverge.\n\nThe CEFR-aligned curriculum (A1–B2) covers Russian cases, verb aspects, and complex sentence patterns. Grammar explanations pop up contextually during lessons rather than in separate theory sections.",
+        image: {
+          src: '/articles/logos/busuu-icon-app-logo.webp',
+          alt: 'Busuu app icon',
+          width: 256,
+          height: 256,
+        },
+        rating: 7,
+        pros: [
+          'Native speaker corrections catch grammar mistakes a bot would miss',
+          'CEFR-structured progression ensures you build grammar systematically',
+          'Offline mode for studying anywhere',
+        ],
+        cons: [
+          'Free version is very limited — Premium required for real progress',
+          'Grammar explanations can be too brief for complex topics like instrumental case',
+          'No dedicated drill mode for cases or conjugation',
+        ],
+        price: 'Free basic / $10–14/month Premium',
+      },
+      {
+        rank: 4,
+        title: 'Clozemaster — Grammar Through Mass Exposure',
+        description:
+          "Clozemaster takes a radically different approach: instead of teaching grammar rules, it **drowns you in thousands of real sentences** and lets your brain figure out the patterns. Fill-in-the-blank (cloze) exercises force you to choose the correct case ending, verb form, or preposition in context.\n\nThis works brilliantly for intermediate and advanced learners who already know the rules but need to internalize them. You'll encounter case usage in ways no textbook would teach you.",
+        image: {
+          src: '/articles/logos/clozemaster-icon-app-logo.webp',
+          alt: 'Clozemaster app icon',
+          width: 256,
+          height: 256,
+        },
+        rating: 7,
+        pros: [
+          'Thousands of real Russian sentences — incredible for pattern recognition',
+          'Forces you to apply grammar in context, not just memorize tables',
+          'Great for intermediate learners who have plateaued',
+          'Free tier is generous',
+        ],
+        cons: [
+          'No grammar explanations at all — you need to know the rules already',
+          'Not beginner-friendly; assumes Cyrillic literacy and basic case knowledge',
+          'Retro interface is functional but not pretty',
+        ],
+        price: 'Free / $8/month Pro',
+      },
+      {
+        rank: 5,
+        title: 'Duolingo — Gamified Grammar for Beginners',
+        description:
+          "Love it or hate it, Duolingo is how millions of people first encounter Russian grammar. The gamified approach — streaks, hearts, leaderboards — **keeps you coming back daily**, which is half the battle with grammar. The new \"Path\" structure introduces grammar concepts gradually through translation exercises.\n\nHowever, grammar explanations are minimal. You'll learn that \"книгу\" is accusative, but Duolingo won't explain *why* or give you a systematic overview of the case system. For grammar specifically, it's a starting point, not a destination.",
+        image: {
+          src: '/articles/logos/duolingo-icon-app-logo.webp',
+          alt: 'Duolingo app icon',
+          width: 256,
+          height: 256,
+        },
+        rating: 6,
+        pros: [
+          'Free and incredibly addictive — builds a daily habit',
+          'Introduces cases naturally through sentence translation',
+          'Excellent for absolute beginners learning Cyrillic',
+        ],
+        cons: [
+          'Grammar explanations are shallow — \"tips\" sections were removed in the redesign',
+          'No systematic case or declension drills',
+          'Nonsense sentences (\"the bear reads a newspaper\") don\'t always teach useful grammar',
+        ],
+        price: 'Free / $7/month Super',
+      },
+      {
+        rank: 6,
+        title: 'Lingvist — AI-Powered Vocabulary with Grammar Context',
+        description:
+          "Lingvist uses **adaptive AI to serve you sentences at exactly your level**. While it's primarily a vocabulary app, every sentence naturally includes Russian grammar — cases, verb forms, prepositions. The AI tracks which grammar patterns you struggle with and increases exposure to those patterns.\n\nIt won't teach you grammar rules explicitly, but the sheer volume of contextual sentences helps build grammatical intuition over time.",
+        rating: 6,
+        pros: [
+          'AI adapts to your weak points — including grammar patterns',
+          'Every word is learned in a grammatically correct sentence',
+          'Clean, distraction-free interface',
+        ],
+        cons: [
+          'No explicit grammar lessons or explanations',
+          'Russian course is shorter than other languages',
+          'Paid subscription required for full access',
+        ],
+        price: 'Free trial / $10/month',
+      },
+      {
+        rank: 7,
+        title: 'RussianPod101 — Deep Grammar Lessons in Podcast Format',
+        description:
+          "If you learn best by **listening to explanations**, RussianPod101 is a goldmine. The podcast-style lessons include detailed grammar breakdowns, cultural context, and PDF notes with declension tables and conjugation charts.\n\nThe grammar content goes deep — they have entire series dedicated to Russian cases, verb aspects, and complex sentence construction. The catch? There's *so much* content that it's easy to feel overwhelmed without a clear study plan.",
+        image: {
+          src: '/articles/logos/RussianPod101-icon-app-logo.webp',
+          alt: 'RussianPod101 app icon',
+          width: 256,
+          height: 256,
+        },
+        rating: 6,
+        pros: [
+          'Thorough grammar explanations you can listen to on your commute',
+          'PDF lesson notes with tables and examples',
+          'Content from absolute beginner to advanced',
+        ],
+        cons: [
+          'Overwhelming library — hard to find a structured grammar path',
+          'No interactive grammar drills (it\'s passive learning)',
+          'Aggressive upselling can be annoying',
+        ],
+        price: 'Free trial / $4–23/month',
+      },
+      {
+        rank: 8,
+        title: 'Drops — Beautiful but Grammar-Light',
+        description:
+          "We include Drops for completeness, but we need to be honest: **Drops is not a grammar app**. It teaches vocabulary through gorgeous visual associations, limiting sessions to 5 minutes. You'll learn words, but not how they change across cases or how to use them in sentences.\n\nIf your goal is specifically Russian grammar, Drops should be a supplement at best — use it to learn new nouns, then practice declining them with a grammar-focused tool.",
+        image: {
+          src: '/articles/logos/drops-icon-app-logo.webp',
+          alt: 'Drops app icon',
+          width: 256,
+          height: 256,
+        },
+        rating: 3,
+        pros: [
+          'Stunning visual design makes vocabulary learning enjoyable',
+          'Quick 5-minute sessions lower the barrier to daily practice',
+        ],
+        cons: [
+          'Zero grammar content — no cases, no conjugation, no explanations',
+          'Words are taught in isolation, not in grammatical context',
+          'Free version limits you to 5 minutes/day',
+        ],
+        price: 'Free (5 min/day) / $10/month Premium',
+      },
+    ],
+    comparisonTable: {
+      headers: [
+        'App',
+        'Cases & Declensions',
+        'Verb Conjugation',
+        'Grammar Explanations',
+        'Interactive Drills',
+        'Price',
+        'Best For',
+      ],
+      rows: [
+        {
+          App: 'Russian Cases with Anna',
+          'Cases & Declensions': '★★★★★',
+          'Verb Conjugation': '—',
+          'Grammar Explanations': '★★★★★',
+          'Interactive Drills': '★★★★★',
+          Price: 'Free+',
+          'Best For': 'Mastering cases',
+        },
+        {
+          App: 'Babbel',
+          'Cases & Declensions': '★★★☆☆',
+          'Verb Conjugation': '★★★★☆',
+          'Grammar Explanations': '★★★★☆',
+          'Interactive Drills': '★★★★☆',
+          Price: '$7–14/mo',
+          'Best For': 'Structured course',
+        },
+        {
+          App: 'Busuu',
+          'Cases & Declensions': '★★★☆☆',
+          'Verb Conjugation': '★★★☆☆',
+          'Grammar Explanations': '★★★☆☆',
+          'Interactive Drills': '★★★☆☆',
+          Price: '$10–14/mo',
+          'Best For': 'Native feedback',
+        },
+        {
+          App: 'Clozemaster',
+          'Cases & Declensions': '★★★★☆',
+          'Verb Conjugation': '★★★★☆',
+          'Grammar Explanations': '—',
+          'Interactive Drills': '★★★★★',
+          Price: 'Free+',
+          'Best For': 'Intermediate drill',
+        },
+        {
+          App: 'Duolingo',
+          'Cases & Declensions': '★★☆☆☆',
+          'Verb Conjugation': '★★☆☆☆',
+          'Grammar Explanations': '★☆☆☆☆',
+          'Interactive Drills': '★★★☆☆',
+          Price: 'Free+',
+          'Best For': 'Total beginners',
+        },
+        {
+          App: 'Lingvist',
+          'Cases & Declensions': '★★☆☆☆',
+          'Verb Conjugation': '★★☆☆☆',
+          'Grammar Explanations': '★☆☆☆☆',
+          'Interactive Drills': '★★★☆☆',
+          Price: '$10/mo',
+          'Best For': 'AI-adapted vocab',
+        },
+        {
+          App: 'RussianPod101',
+          'Cases & Declensions': '★★★☆☆',
+          'Verb Conjugation': '★★★☆☆',
+          'Grammar Explanations': '★★★★★',
+          'Interactive Drills': '★☆☆☆☆',
+          Price: '$4–23/mo',
+          'Best For': 'Audio learners',
+        },
+        {
+          App: 'Drops',
+          'Cases & Declensions': '—',
+          'Verb Conjugation': '—',
+          'Grammar Explanations': '—',
+          'Interactive Drills': '★★☆☆☆',
+          Price: 'Free+',
+          'Best For': 'Visual vocab only',
+        },
+      ],
+    },
+    conclusionIntro:
+      'No single app covers all of Russian grammar. Here is the **study stack we recommend** based on your level:',
+    conclusionBullets: [
+      '**Beginner:** Start with **Duolingo** to learn Cyrillic and basic patterns, then add **Russian Cases with Anna** as soon as you encounter your first case ending.',
+      '**Intermediate:** Use **Russian Cases with Anna** to systematically master all 6 cases, plus **Clozemaster** for mass sentence exposure. Add **Babbel** if you want structured verb lessons.',
+      '**Advanced:** Combine **Clozemaster** for pattern drilling with **RussianPod101** for deep grammar explanations on tricky topics like verbs of motion and aspect.',
+      '**All levels:** Use the **free online quiz** at russiandeclensions.com to practice specific cases anytime — no app install required.',
+    ],
+    conclusion: '',
+    ctaText: 'Try the Free Declension Quiz',
+    ctaHref: '/practice',
+    faq: [
+      {
+        question: 'What is the best app to learn Russian grammar?',
+        answer:
+          'For Russian cases and declensions specifically, Russian Cases with Anna is the best app — it\'s the only one built entirely around the case system with 400+ words and interactive quizzes. For general grammar (cases + verbs + sentence structure), Babbel offers the most complete structured course.',
+      },
+      {
+        question: 'Can I learn Russian grammar for free?',
+        answer:
+          'Yes. Russian Cases with Anna offers a free version of its app and a completely free online quiz at russiandeclensions.com. Duolingo and Clozemaster also have generous free tiers. Combined, these three tools cover cases, basic grammar, and sentence practice at no cost.',
+      },
+      {
+        question: 'Which app teaches Russian cases the best?',
+        answer:
+          'Russian Cases with Anna is specifically designed to teach all 6 Russian cases (nominative, accusative, genitive, dative, instrumental, prepositional) with structured lessons and quizzes covering singular and plural declensions for 400+ nouns.',
+      },
+      {
+        question: 'Is Duolingo good for Russian grammar?',
+        answer:
+          'Duolingo is good for getting started with Russian and building a daily habit, but its grammar coverage is shallow. It introduces cases through translation exercises without systematic explanations. For serious grammar study, you\'ll need to supplement it with a dedicated grammar app.',
+      },
+      {
+        question: 'How many apps do I need to learn Russian grammar?',
+        answer:
+          'We recommend 2–3 apps: one for grammar drills (like Russian Cases with Anna for cases), one for structured lessons (like Babbel), and optionally one for mass sentence practice (like Clozemaster). Using too many apps leads to \"app hopping\" without real progress.',
+      },
+    ],
+    leadMagnetCta: {
+      title: 'Practice Russian Cases Right Now — Free',
+      description:
+        'Test your knowledge of all 6 Russian cases with our free online quiz. Choose specific cases, set singular or plural, and get instant feedback on 400+ words.',
+      ctaText: 'Start the Free Quiz →',
+      ctaHref: '/practice',
+    },
+    internalLinks: [
+      { href: '/practice', label: 'Free Russian Declension Quiz' },
+      { href: '/practice/accusative', label: 'Practice Accusative Case' },
+      { href: '/practice/genitive', label: 'Practice Genitive Case' },
+      { href: '/practice/dative', label: 'Practice Dative Case' },
+      { href: '/learn/articles/russian-cases-explained-beginners-guide', label: 'Russian Cases Explained: A Beginner\'s Guide' },
+      { href: '/learn/articles/best-free-resources-learn-russian', label: 'Best Free Resources to Learn Russian' },
+      { href: '/words', label: 'Browse All 400+ Russian Declension Tables' },
+    ],
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: 'Best Apps to Learn Russian Grammar in 2026 (Honest Review)',
+      description:
+        'Honest review of 8 apps that teach Russian grammar — cases, conjugation, sentence structure. Comparison table and recommended study stacks.',
+      datePublished: '2026-03-22',
+      dateModified: '2026-03-22',
+      author: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id':
+          'https://russiandeclensions.com/learn/articles/best-apps-learn-russian-grammar',
+      },
+      keywords:
+        'best apps learn russian grammar, russian grammar app, russian cases app, learn russian grammar 2026',
+    },
+  },
+
+  'how-long-learn-russian': {
+    slug: 'how-long-learn-russian',
+    title: 'How Long Does It Take to Learn Russian? (Realistic Timeline)',
+    metaTitle:
+      'How Long Does It Take to Learn Russian? Realistic Timeline by Level | Russian Cases with Anna',
+    metaDescription:
+      'Realistic timeline to learn Russian: A1 to C2. How many hours you need, what affects your speed, and a concrete study plan. Based on FSI data and real learner experience.',
+    keywords: [
+      'how long to learn russian',
+      'how long does it take to learn russian',
+      'russian learning timeline',
+      'learn russian time',
+      'russian fluency timeline',
+      'hours to learn russian',
+      'FSI russian difficulty',
+    ],
+    h1: 'How Long Does It Take to Learn Russian? A Realistic Timeline',
+    intro:
+      "\"How long will it take me to learn Russian?\" — it's the first question every learner asks, and the honest answer is: **it depends**. The US Foreign Service Institute (FSI) classifies Russian as a Category IV language, estimating **1,100 classroom hours** to reach professional proficiency. But that number, while useful as a benchmark, doesn't tell the whole story.\n\nYour actual timeline depends on your native language, daily study time, methods, motivation, and what \"learn Russian\" means to you. Ordering food in Moscow? Six months. Reading Dostoevsky in the original? Several years. Let's break it down realistically.",
+    whatYouLearn: [
+      'Official FSI estimates vs. real-world timelines',
+      'How many hours each CEFR level takes (A1 → C2)',
+      '7 factors that speed up (or slow down) your progress',
+      'A concrete daily study plan with recommended tools',
+    ],
+    sections: [
+      {
+        h2: 'What the FSI Says (And What It Actually Means)',
+        content:
+          'The **Foreign Service Institute** — the US government agency that trains diplomats — groups languages into 4 difficulty categories for English speakers. Russian sits in **Category IV** ("super-hard languages"), alongside Greek, Polish, and Turkish. Their estimate: **1,100 hours of intensive classroom instruction** to reach "Professional Working Proficiency" (roughly CEFR B2/C1).\n\nBut here\'s what the FSI data doesn\'t tell you: those 1,100 hours assume **full-time immersive study** (25 hours/week in a classroom + homework), with experienced teachers, in a structured diplomatic training program. Most self-learners study 30–60 minutes per day. That changes the math dramatically.',
+        table: {
+          headers: ['Study Pace', 'Hours/Day', 'Time to ~1,100 Hours', 'Realistic Level'],
+          rows: [
+            ['FSI Intensive', '5–6h', '~44 weeks (10 months)', 'B2/C1'],
+            ['Dedicated Self-Study', '2h', '~18 months', 'B1/B2'],
+            ['Casual Learner', '30 min', '~6 years', 'A2/B1'],
+            ['Weekend Warrior', '3h/week', '~7 years', 'A2'],
+          ],
+          caption: 'Estimated timelines based on FSI\'s 1,100-hour benchmark',
+        },
+      },
+      {
+        h2: 'Timeline by CEFR Level: What to Expect at Each Stage',
+        content:
+          'Rather than thinking about "learning Russian" as a single destination, it helps to break the journey into CEFR levels. Each level has clear milestones — and each one is a meaningful achievement.',
+        subsections: [
+          {
+            h3: 'A1 — Survival Russian (60–150 hours)',
+            content:
+              'You can introduce yourself, order food, ask for directions, and handle basic transactions. You know the Cyrillic alphabet, present tense of common verbs, and **nominative and accusative cases**. Most learners reach A1 in **2–4 months** with daily 30-minute sessions. This is where you start feeling like you can actually "do something" in Russian.',
+            bullets: [
+              'Read and write Cyrillic confidently',
+              'Use nominative and accusative cases correctly',
+              'Handle greetings, numbers, basic questions',
+              'Understand simple written texts with a dictionary',
+            ],
+          },
+          {
+            h3: 'A2 — Tourist Level (150–300 hours)',
+            content:
+              'You can handle everyday situations: shopping, transportation, simple conversations about family and hobbies. You start using **genitive and prepositional cases**, past tense, and basic conjunctions. Timeline: **4–8 months** of consistent study. This is the level where most casual learners plateau — because grammar complexity ramps up significantly.',
+            bullets: [
+              'Use 4 out of 6 cases (nominative, accusative, genitive, prepositional)',
+              'Express past and future actions',
+              'Understand the gist of simple conversations',
+              'Write short messages and emails',
+            ],
+          },
+          {
+            h3: 'B1 — Conversational (300–500 hours)',
+            content:
+              'You can have real conversations on familiar topics, understand the main point of clear speech, and write coherent texts. You\'re using **all 6 cases** (including dative and instrumental), both verb aspects, and verbs of motion. Timeline: **8–14 months** of dedicated study. This is the "breakthrough" level where Russian starts to feel natural rather than translated.',
+            bullets: [
+              'All 6 cases in singular and plural',
+              'Perfective vs. imperfective verb aspects',
+              'Follow Russian TV shows with subtitles',
+              'Express opinions and explain your reasoning',
+            ],
+          },
+          {
+            h3: 'B2 — Professional Working Level (500–800 hours)',
+            content:
+              'You can participate in discussions on complex topics, understand Russian news and podcasts, read adapted literature, and write detailed texts. Your case usage is mostly automatic — you **don\'t have to think about endings anymore**. Timeline: **14–24 months** of serious study. This is the level most language learners consider "fluent enough" for practical purposes.',
+            bullets: [
+              'Case endings are mostly automatic',
+              'Read Russian news articles without a dictionary',
+              'Understand native speakers at normal speed (most topics)',
+              'Write professional emails and essays',
+            ],
+          },
+          {
+            h3: 'C1/C2 — Advanced / Near-Native (800–1,500+ hours)',
+            content:
+              'You can understand virtually everything, express yourself fluently on any topic, appreciate humor and cultural nuances, and read literature in the original. Timeline: **2–4+ years** of immersive study, ideally including time in a Russian-speaking country. Very few foreign learners reach true C2 without living in Russia.',
+            bullets: [
+              'Understand colloquial speech, slang, and regional accents',
+              'Read Chekhov, Bulgakov, or Pelevin in the original',
+              'Write with stylistic nuance',
+              'Pass the TORFL-III/IV exam',
+            ],
+          },
+        ],
+      },
+      {
+        h2: '7 Factors That Affect How Fast You Learn Russian',
+        content:
+          'Two learners starting on the same day can reach B1 months apart. Here\'s why:',
+        subsections: [
+          {
+            h3: '1. Your Native Language',
+            content:
+              'If you speak Polish, Czech, Ukrainian, or another Slavic language, Russian is dramatically easier — you share vocabulary roots, case systems, and grammatical structures. German or Latin speakers also have an advantage with cases. English speakers start with the most ground to cover.',
+          },
+          {
+            h3: '2. Daily Study Time (Consistency > Intensity)',
+            content:
+              '**30 minutes every day beats 3 hours on weekends.** Language learning relies on spaced repetition — your brain needs daily exposure to move knowledge from short-term to long-term memory. The learners who progress fastest are the ones who never miss a day, even if sessions are short.',
+          },
+          {
+            h3: '3. Study Methods',
+            content:
+              'Not all study methods are equal. Passive methods (watching YouTube, reading grammar tables) are necessary but insufficient. **Active recall** — being tested and forced to produce answers — is 3–5x more effective for retention. Apps with quiz modes (like the **free declension quiz** at russiandeclensions.com) leverage this principle.',
+          },
+          {
+            h3: '4. Grammar-First vs. Vocabulary-First',
+            content:
+              'Many learners memorize thousands of words but can\'t form correct sentences because they skipped grammar. Russian is a language where **grammar unlocks everything**: once you understand cases, word order becomes flexible and sentences click into place. Investing time in grammar early pays exponential dividends later.',
+          },
+          {
+            h3: '5. Immersion Opportunities',
+            content:
+              'Living in Russia or a Russian-speaking country can compress your timeline by 50% or more. But "immersion lite" works too: consuming Russian media daily, changing your phone language to Russian, finding a conversation partner online, or labeling objects in your house with Russian stickers.',
+          },
+          {
+            h3: '6. Age',
+            content:
+              'Children acquire languages more easily, but adults have advantages too: the ability to study grammar systematically, use mnemonics, and apply metalinguistic knowledge from other languages. **Adults who study efficiently often outpace children** in the early stages.',
+          },
+          {
+            h3: '7. Motivation and Emotional Connection',
+            content:
+              'Learners with a personal reason — a Russian partner, a job opportunity, a love for Russian literature — consistently outperform those learning "just because." Your brain prioritizes information it perceives as emotionally important.',
+          },
+        ],
+      },
+      {
+        h2: 'The Biggest Time Trap: Avoiding Grammar',
+        content:
+          'Here\'s a pattern we see constantly: a learner spends 6 months on Duolingo, knows 2,000 words, but can\'t say "I gave the book to my friend" because they never learned the **dative case**. They memorized \"друг\" (friend) but don\'t know it becomes \"другу\" after \"дать\" (to give).\n\nRussian is not a language where you can "absorb" grammar through exposure alone. The case system has clear, learnable rules — but you need to **study them explicitly and practice them actively**. Every hour you spend drilling declensions early saves you 5 hours of confusion later.\n\nThis is exactly why tools like the **free practice quiz** exist: focused, repetitive drilling on case endings until they become second nature.',
+      },
+      {
+        h2: 'A Concrete Study Plan: 30 Minutes/Day to B1',
+        content:
+          'Here\'s a realistic daily routine that can get you to B1 (conversational) in about **12 months**:',
+        table: {
+          headers: ['Time', 'Activity', 'Tool/Resource', 'Purpose'],
+          rows: [
+            ['5 min', 'Review flashcards', 'Anki / Memrise', 'Vocabulary retention'],
+            ['10 min', 'Grammar lesson', 'Russian Cases with Anna / Babbel', 'Case & verb rules'],
+            ['10 min', 'Active practice quiz', 'russiandeclensions.com/practice', 'Declension drilling'],
+            ['5 min', 'Read/listen to Russian', 'News in Slow Russian / short texts', 'Passive input'],
+          ],
+          caption: 'Sample 30-minute daily study routine',
+        },
+        bullets: [
+          '**Weeks 1–8:** Focus on Cyrillic, nominative & accusative cases, present tense',
+          '**Weeks 9–16:** Add genitive and prepositional cases, past tense, common prepositions',
+          '**Weeks 17–24:** Tackle dative and instrumental, verb aspects, start reading simple texts',
+          '**Weeks 25–36:** All 6 cases in plural, verbs of motion, begin consuming native media',
+          '**Weeks 37–52:** Refine accuracy, expand vocabulary, start speaking regularly with natives',
+        ],
+      },
+      {
+        h2: 'How to Know If You\'re on Track',
+        content:
+          'Track your progress with these milestones:',
+        bullets: [
+          '**Month 2:** You can read Cyrillic fluently and use nominative/accusative cases',
+          '**Month 4:** You can introduce yourself, describe your day, and understand simple dialogues',
+          '**Month 6:** You can use 4+ cases correctly in speech (not just exercises)',
+          '**Month 9:** You can follow a Russian podcast for beginners and catch most words',
+          '**Month 12:** You can have a 10-minute conversation on a familiar topic with a native speaker',
+          '**Month 18:** You can read a Russian news article and understand 80%+ without a dictionary',
+        ],
+      },
+      {
+        h2: 'Conclusion: It\'s a Marathon, Not a Sprint',
+        content:
+          'Learning Russian takes time — there\'s no shortcut around 6 cases, 2 verb aspects, and thousands of vocabulary words. But here\'s what most "how long" articles won\'t tell you: **you don\'t need to "finish" to start using Russian**. After just 2–3 months, you can read signs, order food, and understand basic conversations. After 6 months, you can travel confidently. After a year, you can hold real conversations.\n\nThe key is consistency, not speed. Study 30 minutes every day, focus on grammar early (especially cases), practice actively with quizzes and drills, and celebrate every small win. Russian is challenging, but every single person who reached fluency started exactly where you are now.',
+      },
+    ],
+    conclusion: '',
+    ctaText: 'Start Practicing Russian Cases Now — Free',
+    ctaHref: '/practice',
+    faq: [
+      {
+        question: 'How long does it take to learn Russian for an English speaker?',
+        answer:
+          'The FSI estimates 1,100 hours of intensive study for English speakers to reach professional proficiency (B2/C1). With 30 minutes of daily self-study, most learners reach conversational level (B1) in about 12–14 months and comfortable fluency (B2) in 18–24 months.',
+      },
+      {
+        question: 'Is Russian harder to learn than other languages?',
+        answer:
+          'Russian is classified as a Category IV language by the FSI — harder than French, Spanish, or German, but easier than Mandarin, Arabic, or Japanese. The main challenges are the Cyrillic alphabet (learnable in 1–2 weeks), the 6 grammatical cases, and the verb aspect system.',
+      },
+      {
+        question: 'Can I learn Russian in 6 months?',
+        answer:
+          'You can reach A2 level (tourist/survival Russian) in 6 months with consistent daily study. You\'ll be able to handle everyday situations, use basic cases, and have simple conversations. Full conversational fluency (B1) typically takes 12+ months.',
+      },
+      {
+        question: 'What is the fastest way to learn Russian?',
+        answer:
+          'The fastest approach combines: (1) immersion in a Russian-speaking environment, (2) structured grammar study with active practice (especially cases and declensions), (3) daily spaced-repetition flashcards, and (4) regular conversation with native speakers. Focusing on grammar early — particularly the case system — prevents the most common bottleneck.',
+      },
+      {
+        question: 'Do I need to learn all 6 Russian cases?',
+        answer:
+          'Yes, eventually. All 6 cases (nominative, accusative, genitive, dative, instrumental, prepositional) are used constantly in everyday Russian. However, you can learn them gradually: start with nominative and accusative, then add genitive and prepositional, and finally dative and instrumental. Our free quiz lets you practice each case individually.',
+      },
+    ],
+    leadMagnetCta: {
+      title: 'Start Drilling Russian Cases Today',
+      description:
+        'The case system is the #1 time investment in learning Russian. Practice all 6 cases with our free interactive quiz — 400+ words, instant feedback, no sign-up required.',
+      ctaText: 'Try the Free Declension Quiz →',
+      ctaHref: '/practice',
+    },
+    internalLinks: [
+      { href: '/practice', label: 'Free Russian Declension Quiz' },
+      { href: '/practice/accusative', label: 'Practice Accusative Case' },
+      { href: '/practice/genitive', label: 'Practice Genitive Case' },
+      { href: '/practice/dative', label: 'Practice Dative Case' },
+      { href: '/practice/instrumental', label: 'Practice Instrumental Case' },
+      { href: '/practice/prepositional', label: 'Practice Prepositional Case' },
+      { href: '/learn/articles/russian-cases-explained-beginners-guide', label: 'Russian Cases Explained: A Beginner\'s Guide' },
+      { href: '/learn/articles/best-apps-learn-russian-grammar', label: 'Best Apps to Learn Russian Grammar' },
+      { href: '/words', label: 'Browse All 400+ Russian Declension Tables' },
+    ],
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: 'How Long Does It Take to Learn Russian? A Realistic Timeline',
+      description:
+        'Realistic timeline to learn Russian from A1 to C2. FSI estimates, CEFR milestones, factors that affect speed, and a concrete daily study plan.',
+      datePublished: '2026-03-22',
+      dateModified: '2026-03-22',
+      author: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id':
+          'https://russiandeclensions.com/learn/articles/how-long-learn-russian',
+      },
+      keywords:
+        'how long to learn russian, russian learning timeline, hours to learn russian, FSI russian difficulty',
+    },
+  },
+
+  'torfl-trki-russian-language-exam-guide': {
+    slug: 'torfl-trki-russian-language-exam-guide',
+    title: 'TORFL Exam (ТРКИ): Complete Guide to the Russian Language Proficiency Test',
+    metaTitle:
+      'TORFL Exam Guide (ТРКИ) — Levels, Format, Preparation & Registration | Russian Cases with Anna',
+    metaDescription:
+      'Everything you need to know about the TORFL exam (ТРКИ): 6 levels from A1 to C2, exam format (5 sections), grammar preparation tips, test centers, costs, and how to pass.',
+    keywords: [
+      'TORFL exam',
+      'ТРКИ',
+      'TORFL preparation',
+      'russian language proficiency test',
+      'TORFL levels',
+      'TORFL exam format',
+      'test of russian as a foreign language',
+      'TORFL registration',
+      'russian language certificate',
+    ],
+    h1: 'TORFL Exam (ТРКИ): The Complete Guide to Russia\'s Official Language Proficiency Test',
+    intro:
+      "Whether you need a certificate for Russian citizenship, university admission, or professional credibility, the **TORFL** (Test of Russian as a Foreign Language / ТРКИ — Тест по русскому языку как иностранному) is the internationally recognized standard. Think of it as the Russian equivalent of the DELF for French or the Goethe-Zertifikat for German.\n\nWith **6 levels from A1 to C2**, a structured 5-section format, and recognition by governments and universities worldwide, the TORFL is the gold standard for proving your Russian proficiency. This guide covers everything: what each level requires, how the exam works, what the grammar section tests, and how to prepare effectively.",
+    whatYouLearn: [
+      'What TORFL/ТРКИ is and who needs it',
+      'All 6 levels explained (A1 → C2) with what each unlocks',
+      'The 5-section exam format in detail',
+      'Why grammar (especially cases) is the hardest section — and how to prepare',
+      'Where to take the exam, how much it costs, and how to register',
+    ],
+    sections: [
+      {
+        h2: 'What Is TORFL (ТРКИ)?',
+        content:
+          'TORFL — **Test of Russian as a Foreign Language** (Russian: ТРКИ — Тест по русскому языку как иностранному) — is the only state-recognized certification of Russian language proficiency for non-native speakers. It was developed by the Russian Ministry of Education and is administered by certified testing centers worldwide.\n\nThe certificate is:\n\n• **Required** for Russian citizenship applications (minimum level: ТРКИ-1 / B1)\n• **Required** for admission to Russian universities (most programs require ТРКИ-1 or ТРКИ-2)\n• **Recognized** internationally by employers, academic institutions, and government agencies\n• **Valid for 5 years** from the date of issue (after which you can retake the exam)\n\nUnlike informal language assessments, TORFL follows strict standardized procedures and is graded by certified examiners. Passing it genuinely proves your ability to function in Russian at a specific level.',
+      },
+      {
+        h2: 'The 6 TORFL Levels Explained',
+        content:
+          'TORFL has 6 levels aligned with the CEFR (Common European Framework of Reference). Each level has an official Russian abbreviation:',
+        table: {
+          headers: ['Level', 'Russian Name', 'CEFR', 'What It Proves', 'Who Needs It'],
+          rows: [
+            ['ТЭУ', 'Элементарный уровень', 'A1', 'Basic survival Russian', 'Beginners validating first progress'],
+            ['ТБУ', 'Базовый уровень', 'A2', 'Everyday situations', 'Required for temporary residency permit'],
+            ['ТРКИ-1', 'Первый уровень', 'B1', 'Conversational proficiency', 'Russian citizenship & most universities'],
+            ['ТРКИ-2', 'Второй уровень', 'B2', 'Professional working level', 'Graduate programs & professional roles'],
+            ['ТРКИ-3', 'Третий уровень', 'C1', 'Advanced academic proficiency', 'PhD programs, interpreters, teachers'],
+            ['ТРКИ-4', 'Четвёртый уровень', 'C2', 'Near-native mastery', 'Certified translators & Russian philologists'],
+          ],
+          caption: 'TORFL levels with CEFR equivalents and practical applications',
+          boldColumnIndices: [0],
+        },
+        subsections: [
+          {
+            h3: 'ТЭУ — Elementary Level (A1)',
+            content:
+              'The entry-level exam tests your ability to handle the most basic communication: introducing yourself, asking simple questions, understanding short written texts and slow speech. You need to know **nominative and accusative cases**, present tense, basic numbers, and approximately 700–800 words.\n\nThis level is primarily useful as a personal milestone — it has limited practical applications but proves you\'ve built a solid foundation.',
+          },
+          {
+            h3: 'ТБУ — Basic Level (A2)',
+            content:
+              'At A2, you can handle everyday situations: shopping, transportation, visiting a doctor, describing your daily routine. You\'re expected to use **nominative, accusative, genitive, and prepositional cases** correctly, along with past and future tense. Vocabulary requirement: approximately 1,300 words.\n\nThis level is required for obtaining a **temporary residency permit** (РВП) in Russia.',
+          },
+          {
+            h3: 'ТРКИ-1 — First Certificate (B1)',
+            content:
+              'This is the most commonly taken TORFL level. It certifies that you can function independently in a Russian-speaking environment: participate in conversations on familiar topics, understand Russian media (with some difficulty), write letters and short essays, and use **all 6 grammatical cases** in both singular and plural.\n\nТРКИ-1 is the minimum required for **Russian citizenship** and admission to most **undergraduate programs** at Russian universities. Vocabulary requirement: approximately 2,300 words.',
+          },
+          {
+            h3: 'ТРКИ-2 — Second Certificate (B2)',
+            content:
+              'At B2, you can discuss complex topics, understand Russian news broadcasts and newspaper articles, write analytical texts, and express nuanced opinions. Your grammar must be largely error-free, including **complex sentence structures**, participles, verbal adverbs (деепричастия), and all case forms with prepositions.\n\nRequired for **graduate programs** (master\'s, PhD) and many professional positions in Russia. Vocabulary: approximately 6,000 words.',
+          },
+          {
+            h3: 'ТРКИ-3 and ТРКИ-4 — Advanced and Mastery (C1/C2)',
+            content:
+              'These levels are for professionals who need Russian at the highest level: interpreters, translators, university lecturers, and philologists. C1 tests your ability to understand implicit meanings, idioms, and cultural references. C2 requires near-native competence across all registers — formal, informal, academic, and literary.\n\nVery few non-native speakers attempt these levels. They require **years of immersion** and typically involve living in Russia.',
+          },
+        ],
+      },
+      {
+        h2: 'Exam Format: The 5 Sections',
+        content:
+          'Every TORFL level (except minor variations at A1/A2) tests **5 skills** in separate sub-exams. You must pass **each section independently** — scoring 66% or above on each one. Failing one section means failing the entire exam (though some centers allow retaking individual sections).',
+        subsections: [
+          {
+            h3: '1. Grammar & Vocabulary (Лексика. Грамматика)',
+            content:
+              'This is where most candidates struggle. The grammar section tests your ability to choose correct case endings, verb forms, prepositions, conjunctions, and word order. At B1 and above, you face multiple-choice and fill-in-the-blank questions covering **all 6 cases**, verb aspects (perfective/imperfective), verbs of motion, and complex subordinate clauses.\n\n**Why this section matters most:** Grammar errors cascade into every other section. If you can\'t decline nouns correctly, your writing, reading comprehension, and speaking all suffer. This is the section where dedicated practice on **Russian declensions** pays off the most.',
+            bullets: [
+              'A1/A2: 100 items, 50 minutes — basic cases, verb conjugation, simple prepositions',
+              'B1: 165 items, 90 minutes — all 6 cases, verb aspects, complex prepositions',
+              'B2: 150 items, 90 minutes — participles, verbal adverbs, stylistic choices',
+            ],
+          },
+          {
+            h3: '2. Reading Comprehension (Чтение)',
+            content:
+              'You read authentic Russian texts (adapted at lower levels) and answer comprehension questions. Texts range from advertisements and schedules (A1) to newspaper articles and literary excerpts (B2+). You need to understand both the explicit content and implied meaning.',
+            bullets: [
+              'A1/A2: Short texts (ads, menus, signs) — 30–45 minutes',
+              'B1: Medium texts (articles, personal letters) — 50 minutes',
+              'B2: Long, complex texts (editorials, academic articles) — 60 minutes',
+            ],
+          },
+          {
+            h3: '3. Listening Comprehension (Аудирование)',
+            content:
+              'You listen to recorded dialogues, announcements, lectures, or news reports and answer questions. Audio is played once or twice depending on the level. At B1+, speakers talk at natural speed with natural intonation — no slow, over-articulated "textbook Russian."',
+            bullets: [
+              'A1/A2: Simple dialogues and announcements — 25–30 minutes',
+              'B1: Dialogues, radio broadcasts, short lectures — 35 minutes',
+              'B2: News broadcasts, discussions, academic lectures — 40 minutes',
+            ],
+          },
+          {
+            h3: '4. Writing (Письмо)',
+            content:
+              'You write texts appropriate to the level: filling in forms (A1), personal letters (A2–B1), formal letters and essays (B2+). Grammar accuracy is heavily weighted — case errors, agreement mistakes, and incorrect verb forms are penalized directly.',
+            bullets: [
+              'A1: Fill in a form or application — 30 minutes',
+              'A2/B1: Write a letter (personal or semi-formal) — 50–60 minutes',
+              'B2: Write a formal letter + analytical essay — 55 minutes',
+            ],
+          },
+          {
+            h3: '5. Speaking (Говорение)',
+            content:
+              'A face-to-face interview with a certified examiner. You may be asked to role-play situations (buying tickets, visiting a doctor), describe pictures, give opinions, or debate topics. The examiner evaluates fluency, pronunciation, grammar accuracy, and communicative effectiveness.\n\nThis section is the most intimidating but often the most forgiving — examiners are trained to put candidates at ease. However, **case errors in speech are noticed immediately** and affect your score.',
+            bullets: [
+              'A1/A2: Simple dialogues and self-introduction — 10–15 minutes',
+              'B1: Role-plays, picture description, opinion questions — 25 minutes',
+              'B2: Debate, abstract discussion, problem-solving — 25 minutes',
+            ],
+          },
+        ],
+      },
+      {
+        h2: 'Why Grammar (Especially Cases) Is the Key to Passing',
+        content:
+          'Across all 5 sections, **grammatical accuracy** — particularly the correct use of Russian cases — is the single most impactful factor. Here\'s why:\n\n**In the Grammar section:** This is the most direct test. You\'ll see sentences like "Я позвонил ___" (I called ___) and must choose the correct dative form. If you haven\'t drilled declensions systematically, you\'ll guess — and 165 questions leave a lot of room for wrong guesses.\n\n**In Writing:** Case errors are the most common reason for point deductions. Writing "Я живу в Москва" instead of "Я живу в Москве" (prepositional case) immediately signals a lack of proficiency.\n\n**In Speaking:** Examiners notice case mistakes in real time. Saying "Я дал книга другу" instead of "Я дал книгу другу" (accusative) undermines an otherwise fluent response.\n\n**In Reading:** Understanding case forms helps you parse complex sentences. If you don\'t recognize that "друзей" is the genitive plural of "друг," you may misunderstand the entire sentence.\n\nThe bottom line: **time spent drilling declensions is the highest-ROI preparation** for the TORFL exam at any level.',
+      },
+      {
+        h2: 'How to Prepare for the TORFL Exam',
+        content:
+          'Preparation time varies by level, but the strategy is similar:',
+        subsections: [
+          {
+            h3: 'Step 1: Assess Your Current Level',
+            content:
+              'Take a free placement test online (many Russian language schools offer them) or honestly evaluate yourself against the CEFR descriptors above. Don\'t register for a level above your current ability — the pass rate for unprepared candidates is low, and exam fees are non-refundable.',
+          },
+          {
+            h3: 'Step 2: Get the Official Practice Tests',
+            content:
+              'The TORFL consortium publishes official preparation materials for each level (called "Типовые тесты"). These are the closest thing to the real exam and show you the exact question format, timing, and difficulty. They\'re available from Zlatoust Publishing and most Russian bookstores.',
+          },
+          {
+            h3: 'Step 3: Drill Grammar Systematically',
+            content:
+              'This is where most candidates invest the bulk of their preparation time — and rightly so. For B1 and above, you need **all 6 cases** to be automatic, not something you have to think about.\n\nThe most efficient approach: use a dedicated tool for declension practice. The **free online quiz** at russiandeclensions.com lets you practice specific cases (accusative, genitive, dative, instrumental, prepositional) with 400+ real nouns in both singular and plural forms. Combine this with the **Russian Cases with Anna** app for structured lessons that explain the rules behind each case.',
+          },
+          {
+            h3: 'Step 4: Practice Under Exam Conditions',
+            content:
+              'Time yourself. The real exam is strictly timed, and many candidates fail not because they don\'t know the answers, but because they run out of time. Practice completing 165 grammar questions in 90 minutes — that\'s about 33 seconds per question.',
+          },
+          {
+            h3: 'Step 5: Get a Tutor for Speaking Preparation',
+            content:
+              'The speaking section requires specific preparation that\'s hard to do alone. Find a TORFL-experienced tutor (online or in person) who can simulate the exam interview and give you feedback on your grammar, pronunciation, and communicative strategies.',
+          },
+        ],
+      },
+      {
+        h2: 'Where to Take the TORFL Exam',
+        content:
+          'TORFL is administered by **certified testing centers** worldwide, typically affiliated with Russian universities or cultural institutions. The main testing centers are at:\n\n• **Moscow State University (МГУ)** — the original developer of TORFL\n• **Saint Petersburg State University (СПбГУ)**\n• **Peoples\' Friendship University (РУДН)**\n• **Pushkin State Russian Language Institute**\n\nInternational testing centers exist in most major cities across Europe, Asia, the Middle East, and the Americas. The official TORFL website (www.torfl.org) maintains a directory of certified centers.\n\nSome centers now offer **online TORFL exams** (introduced during COVID and maintained since), though not all levels are available remotely. Check with your preferred center for availability.',
+      },
+      {
+        h2: 'Costs, Registration, and Logistics',
+        content:
+          'Exam fees vary by country, level, and testing center. Here are approximate ranges:',
+        table: {
+          headers: ['Level', 'Approximate Fee (Russia)', 'Approximate Fee (International)', 'Exam Duration'],
+          rows: [
+            ['ТЭУ (A1)', '3,500–5,000 ₽ (~$40–55)', '$80–150', '~2.5 hours'],
+            ['ТБУ (A2)', '4,000–6,000 ₽ (~$45–65)', '$100–180', '~3 hours'],
+            ['ТРКИ-1 (B1)', '5,000–7,000 ₽ (~$55–75)', '$150–250', '~3.5 hours'],
+            ['ТРКИ-2 (B2)', '5,500–8,000 ₽ (~$60–85)', '$180–300', '~4 hours'],
+            ['ТРКИ-3 (C1)', '6,000–9,000 ₽ (~$65–100)', '$200–350', '~4 hours'],
+            ['ТРКИ-4 (C2)', '7,000–10,000 ₽ (~$75–110)', '$250–400', '~4.5 hours'],
+          ],
+          caption: 'Approximate TORFL exam fees (2025–2026, prices vary by center)',
+          boldColumnIndices: [0],
+        },
+        bullets: [
+          '**Registration:** Contact your chosen testing center directly. Most require registration 2–4 weeks in advance.',
+          '**Documents needed:** Passport (original), registration form, payment receipt.',
+          '**Results:** Typically available within 2–4 weeks. The certificate is mailed or available for pickup.',
+          '**Retaking:** If you fail one section, some centers allow retaking just that section within a set period. Otherwise, you retake the entire exam.',
+          '**Validity:** The TORFL certificate is valid for **5 years** from the date of issue.',
+        ],
+      },
+      {
+        h2: 'TORFL vs. Other Russian Language Certificates',
+        content:
+          'TORFL is not the only Russian language certificate, but it is by far the most widely recognized:',
+        table: {
+          headers: ['Certificate', 'Issuer', 'Recognition', 'Best For'],
+          rows: [
+            ['TORFL (ТРКИ)', 'Russian Ministry of Education', 'Government, universities, employers worldwide', 'Citizenship, university admission, professional use'],
+            ['ECL Russian', 'European Consortium for the Certificate of Attainment in Modern Languages', 'EU countries', 'European academic recognition'],
+            ['TELC Russian', 'telc GmbH (Germany)', 'Primarily German-speaking countries', 'Immigration to Germany/Austria with Russian proficiency'],
+          ],
+          caption: 'Comparison of Russian language proficiency certificates',
+          boldColumnIndices: [0],
+        },
+        bullets: [
+          'For most purposes — especially citizenship, university admission, or international recognition — **TORFL is the only certificate that matters**',
+          'If you\'re planning to live, work, or study in Russia, TORFL is the standard',
+        ],
+      },
+      {
+        h2: 'Conclusion: Start Preparing with Grammar',
+        content:
+          'The TORFL exam is a serious, structured assessment — but it\'s absolutely achievable with focused preparation. The candidates who pass consistently share one trait: **they invested heavily in grammar, especially cases and declensions**, before tackling the other sections.\n\nStart by identifying your target level, get the official practice tests, and begin drilling grammar daily. If you\'re aiming for B1 or above, make sure all 6 Russian cases are automatic before exam day. Tools like the **free declension quiz** and the **Russian Cases with Anna** app are designed exactly for this kind of targeted grammar practice.\n\nGood luck — удачи на экзамене! 🍀',
+      },
+    ],
+    conclusion: '',
+    ctaText: 'Practice Russian Cases for TORFL — Free Quiz',
+    ctaHref: '/practice',
+    faq: [
+      {
+        question: 'What is the TORFL exam?',
+        answer:
+          'TORFL (Test of Russian as a Foreign Language / ТРКИ — Тест по русскому языку как иностранному) is the official Russian language proficiency exam recognized by the Russian government, universities, and employers worldwide. It has 6 levels from A1 to C2 and tests 5 skills: grammar, reading, listening, writing, and speaking.',
+      },
+      {
+        question: 'Which TORFL level do I need for Russian citizenship?',
+        answer:
+          'You need at least ТРКИ-1 (B1 — First Certificate level) to apply for Russian citizenship. For a temporary residency permit (РВП), the minimum is ТБУ (A2 — Basic level).',
+      },
+      {
+        question: 'How hard is the TORFL exam?',
+        answer:
+          'TORFL is a rigorous exam with a significant failure rate among unprepared candidates. The grammar section is typically the hardest, as it tests precise knowledge of Russian cases, verb forms, and prepositions. With 3–6 months of dedicated preparation using official practice tests, the exam is very manageable.',
+      },
+      {
+        question: 'How much does the TORFL exam cost?',
+        answer:
+          'In Russia, TORFL costs approximately 3,500–10,000 rubles ($40–110) depending on the level. At international testing centers, fees range from $80 to $400. Prices vary by country and center.',
+      },
+      {
+        question: 'Can I take the TORFL exam online?',
+        answer:
+          'Some certified testing centers now offer online TORFL exams, a practice that began during COVID. Not all levels are available remotely, and policies vary by center. Contact your preferred testing center to check online availability.',
+      },
+      {
+        question: 'How long is the TORFL certificate valid?',
+        answer:
+          'The TORFL certificate is valid for 5 years from the date of issue. After that, you can retake the exam at the same or a higher level to renew your certification.',
+      },
+    ],
+    leadMagnetCta: {
+      title: 'Prepare for TORFL Grammar — Free Practice',
+      description:
+        'The grammar section is the most failed part of the TORFL exam. Drill all 6 Russian cases with our free interactive quiz: 400+ words, singular & plural, instant feedback.',
+      ctaText: 'Start Practicing Cases →',
+      ctaHref: '/practice',
+    },
+    internalLinks: [
+      { href: '/practice', label: 'Free Russian Declension Quiz' },
+      { href: '/practice/accusative', label: 'Practice Accusative Case' },
+      { href: '/practice/genitive', label: 'Practice Genitive Case' },
+      { href: '/practice/dative', label: 'Practice Dative Case' },
+      { href: '/practice/instrumental', label: 'Practice Instrumental Case' },
+      { href: '/practice/prepositional', label: 'Practice Prepositional Case' },
+      { href: '/learn/articles/how-long-learn-russian', label: 'How Long Does It Take to Learn Russian?' },
+      { href: '/learn/articles/russian-cases-explained-beginners-guide', label: 'Russian Cases Explained: A Beginner\'s Guide' },
+      { href: '/words', label: 'Browse All 400+ Russian Declension Tables' },
+    ],
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: 'TORFL Exam (ТРКИ): Complete Guide to the Russian Language Proficiency Test',
+      description:
+        'Complete guide to the TORFL exam (ТРКИ): 6 levels, 5-section format, grammar preparation, test centers, costs, and registration.',
+      datePublished: '2026-03-22',
+      dateModified: '2026-03-22',
+      author: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id':
+          'https://russiandeclensions.com/learn/articles/torfl-trki-russian-language-exam-guide',
+      },
+      keywords:
+        'TORFL exam, ТРКИ, TORFL preparation, russian language proficiency test, TORFL levels, test of russian as a foreign language',
+    },
+  },
+
+  'russian-prepositions-cases-cheat-sheet': {
+    slug: 'russian-prepositions-cases-cheat-sheet',
+    title: 'Russian Prepositions & Cases Cheat Sheet: Which Case After Every Preposition',
+    metaTitle:
+      'Russian Prepositions & Cases Cheat Sheet — Which Case to Use | Russian Cases with Anna',
+    metaDescription:
+      'Free cheat sheet: which Russian case follows every preposition. в + accusative vs prepositional, на, с, о, за, под, над, and more. Clear table with examples. Bookmark this page.',
+    keywords: [
+      'russian prepositions and cases',
+      'which case after в',
+      'russian preposition cheat sheet',
+      'в accusative or prepositional',
+      'russian prepositions table',
+      'russian cases after prepositions',
+      'на accusative or prepositional',
+      'с genitive or instrumental',
+    ],
+    h1: 'Russian Prepositions & Cases Cheat Sheet: Which Case After Every Preposition',
+    intro:
+      "One of the most confusing parts of Russian grammar is knowing **which case to use after each preposition**. The same preposition can require different cases depending on meaning — \"в школу\" (accusative, direction) vs. \"в школе\" (prepositional, location) — and getting it wrong changes your sentence entirely.\n\nThis cheat sheet gives you **every major Russian preposition** with its required case(s), clear examples, and memory tricks. Bookmark this page — you'll come back to it often.",
+    whatYouLearn: [
+      'Which case every major Russian preposition requires',
+      'Prepositions that change case depending on meaning (в, на, за, под, с)',
+      'The 10 most common prepositions with example sentences',
+      'Memory tricks to never mix up cases after prepositions again',
+    ],
+    sections: [
+      {
+        h2: 'The Golden Rule: Prepositions Dictate the Case',
+        content:
+          'In Russian, **prepositions govern cases** — they force the following noun into a specific grammatical case. Unlike English where prepositions just sit before nouns (\"in the house\", \"to the school\"), Russian prepositions actively change the noun\'s ending.\n\nSome prepositions always require the same case. Others — the tricky ones — require **different cases depending on whether you mean direction (movement) or location (stationary)**. This direction-vs-location distinction is the #1 source of case errors for learners.',
+      },
+      {
+        h2: 'Master Table: Every Preposition by Case',
+        content:
+          'Here is the complete reference. Prepositions marked with ★ can take multiple cases (explained in detail below).',
+        table: {
+          headers: ['Case', 'Prepositions', 'Meaning/Usage'],
+          rows: [
+            ['Genitive', 'без, для, до, из, от, у, после, около, вокруг, кроме, вместо, из-за, из-под', 'Without, for, until/before, from, from/away, at/near, after, around, except, instead of, because of, from under'],
+            ['Dative', 'к, по, благодаря, вопреки, навстречу, согласно', 'Toward, along/according to, thanks to, despite, toward (meeting), according to'],
+            ['Accusative', 'через, про, сквозь', 'Through/across, about, through'],
+            ['Accusative ★', 'в (direction), на (direction), за (direction), под (direction)', 'Into, onto, behind/beyond, under (movement toward)'],
+            ['Instrumental', 'с, между, над, перед, за ★, под ★', 'With, between, above, in front of, behind (location), under (location)'],
+            ['Prepositional', 'о (об, обо), при', 'About, during/in the presence of'],
+            ['Prepositional ★', 'в (location), на (location)', 'In (stationary), on (stationary)'],
+          ],
+          caption: 'Complete Russian preposition-case reference table',
+          boldColumnIndices: [0],
+        },
+      },
+      {
+        h2: 'The Tricky Ones: Prepositions That Change Case',
+        content:
+          'These 5 prepositions are responsible for the vast majority of case confusion. Master them and you eliminate most preposition errors.',
+        subsections: [
+          {
+            h3: 'в — \"in\" / \"into\"',
+            content:
+              '**в + Accusative** = direction (movement INTO something)\n**в + Prepositional** = location (being IN something)\n\nThis is the most important preposition distinction in Russian. The question to ask yourself: **am I going there, or am I already there?**',
+            bullets: [
+              '**в школу** (accusative) — to school (I\'m going to school)',
+              '**в школе** (prepositional) — at school (I\'m at school)',
+              '**в город** (accusative) — to the city (heading there)',
+              '**в городе** (prepositional) — in the city (already there)',
+              '**в Россию** (accusative) — to Russia (traveling)',
+              '**в России** (prepositional) — in Russia (located)',
+            ],
+          },
+          {
+            h3: 'на — \"on\" / \"onto\"',
+            content:
+              '**на + Accusative** = direction (movement ONTO something)\n**на + Prepositional** = location (being ON something)\n\nSame logic as \"в\" — direction vs. location. Note: \"на\" is also used for certain locations that English speakers wouldn\'t expect (на работе = at work, на вокзале = at the station).',
+            bullets: [
+              '**на стол** (accusative) — onto the table (placing something)',
+              '**на столе** (prepositional) — on the table (it\'s there)',
+              '**на работу** (accusative) — to work (heading there)',
+              '**на работе** (prepositional) — at work (already there)',
+              '**на урок** (accusative) — to the lesson',
+              '**на уроке** (prepositional) — at/during the lesson',
+            ],
+          },
+          {
+            h3: 'за — \"behind\" / \"for\" / \"beyond\"',
+            content:
+              '**за + Accusative** = direction (movement behind/beyond) OR \"for\" (in exchange, in favor of)\n**за + Instrumental** = location (behind, stationary)\n\nThis one trips up even intermediate learners because \"за\" has so many meanings.',
+            bullets: [
+              '**за дом** (accusative) — behind the house (going behind it)',
+              '**за домом** (instrumental) — behind the house (located there)',
+              '**за хлебом** (instrumental) — for bread (going to get bread)',
+              '**Спасибо за помощь** (accusative) — Thank you for the help',
+              '**Я за тебя** (accusative) — I\'m for you (in your favor)',
+            ],
+          },
+          {
+            h3: 'под — \"under\"',
+            content:
+              '**под + Accusative** = direction (movement under something)\n**под + Instrumental** = location (under something, stationary)',
+            bullets: [
+              '**под стол** (accusative) — under the table (the cat ran under)',
+              '**под столом** (instrumental) — under the table (the cat is sitting)',
+              '**под дождём** (instrumental) — in the rain (standing in it)',
+              '**под дождь** (accusative) — into the rain (stepping out)',
+            ],
+          },
+          {
+            h3: 'с — \"with\" / \"from\"',
+            content:
+              '**с + Instrumental** = with (accompaniment)\n**с + Genitive** = from (off of, down from)\n\nThese two meanings are completely different, so the case distinction actually helps you understand which meaning is intended.',
+            bullets: [
+              '**с другом** (instrumental) — with a friend',
+              '**с молоком** (instrumental) — with milk',
+              '**с горы** (genitive) — from/off the mountain',
+              '**с работы** (genitive) — from work (coming from)',
+              '**с утра** (genitive) — since morning',
+            ],
+          },
+        ],
+      },
+      {
+        h2: 'The 10 Most Common Prepositions (With Examples)',
+        content:
+          'These 10 prepositions account for roughly 80% of all preposition usage in Russian. If you only memorize these, you\'ll cover most situations:',
+        table: {
+          headers: ['#', 'Preposition', 'Case(s)', 'Example', 'Translation'],
+          rows: [
+            ['1', 'в', 'Acc / Prep', 'Я иду **в магазин**. Я **в магазине**.', 'I\'m going to the store. I\'m in the store.'],
+            ['2', 'на', 'Acc / Prep', 'Иди **на кухню**. Я **на кухне**.', 'Go to the kitchen. I\'m in the kitchen.'],
+            ['3', 'с', 'Instr / Gen', 'Кофе **с молоком**. Пришёл **с работы**.', 'Coffee with milk. Came from work.'],
+            ['4', 'к', 'Dat', 'Иду **к врачу**.', 'I\'m going to the doctor.'],
+            ['5', 'из', 'Gen', 'Вышел **из дома**.', 'Went out of the house.'],
+            ['6', 'о (об)', 'Prep', 'Думаю **о тебе**.', 'I\'m thinking about you.'],
+            ['7', 'для', 'Gen', 'Подарок **для мамы**.', 'A gift for mom.'],
+            ['8', 'от', 'Gen', 'Письмо **от друга**.', 'A letter from a friend.'],
+            ['9', 'за', 'Acc / Instr', 'Спасибо **за помощь**. Сижу **за столом**.', 'Thanks for the help. I\'m sitting at the table.'],
+            ['10', 'по', 'Dat', 'Гуляю **по парку**.', 'I\'m walking around the park.'],
+          ],
+          caption: 'The 10 most common Russian prepositions with their cases and examples',
+          boldColumnIndices: [1],
+        },
+      },
+      {
+        h2: 'Genitive Prepositions — The Largest Group',
+        content:
+          'The genitive case has the most prepositions — which makes sense because the genitive expresses relationships like origin, possession, absence, and cause. Here are the key ones:',
+        table: {
+          headers: ['Preposition', 'Meaning', 'Example', 'Translation'],
+          rows: [
+            ['без', 'without', 'без **сахара**', 'without sugar'],
+            ['для', 'for (purpose)', 'для **студентов**', 'for students'],
+            ['до', 'until, before, up to', 'до **утра**', 'until morning'],
+            ['из', 'from, out of', 'из **России**', 'from Russia'],
+            ['от', 'from (a person/source)', 'от **врача**', 'from the doctor'],
+            ['у', 'at, near, possession', 'у **меня**', 'I have (at me)'],
+            ['после', 'after', 'после **обеда**', 'after lunch'],
+            ['около', 'near, about', 'около **дома**', 'near the house'],
+            ['вокруг', 'around', 'вокруг **города**', 'around the city'],
+            ['кроме', 'except, besides', 'кроме **меня**', 'except me'],
+            ['вместо', 'instead of', 'вместо **воды**', 'instead of water'],
+            ['из-за', 'because of, from behind', 'из-за **дождя**', 'because of rain'],
+            ['из-под', 'from under', 'из-под **стола**', 'from under the table'],
+          ],
+          caption: 'Genitive prepositions with examples',
+          boldColumnIndices: [0],
+          accentColumnIndices: [0],
+        },
+      },
+      {
+        h2: 'Dative Prepositions',
+        content:
+          'The dative has fewer prepositions but they\'re used very frequently:',
+        table: {
+          headers: ['Preposition', 'Meaning', 'Example', 'Translation'],
+          rows: [
+            ['к', 'toward, to (a person)', 'к **другу**', 'to a friend\'s place'],
+            ['по', 'along, around, according to', 'по **улице**', 'along the street'],
+            ['благодаря', 'thanks to', 'благодаря **учителю**', 'thanks to the teacher'],
+            ['вопреки', 'despite, contrary to', 'вопреки **правилам**', 'despite the rules'],
+            ['навстречу', 'toward (meeting)', 'навстречу **мне**', 'toward me'],
+            ['согласно', 'according to', 'согласно **закону**', 'according to the law'],
+          ],
+          caption: 'Dative prepositions with examples',
+          boldColumnIndices: [0],
+          accentColumnIndices: [0],
+        },
+      },
+      {
+        h2: 'Instrumental Prepositions',
+        content:
+          'The instrumental case marks accompaniment, location behind/under/above, and the means by which something is done:',
+        table: {
+          headers: ['Preposition', 'Meaning', 'Example', 'Translation'],
+          rows: [
+            ['с', 'with', 'с **друзьями**', 'with friends'],
+            ['между', 'between', 'между **нами**', 'between us'],
+            ['над', 'above, over', 'над **городом**', 'above the city'],
+            ['перед', 'in front of, before', 'перед **домом**', 'in front of the house'],
+            ['за', 'behind (location)', 'за **дверью**', 'behind the door'],
+            ['под', 'under (location)', 'под **деревом**', 'under the tree'],
+          ],
+          caption: 'Instrumental prepositions with examples',
+          boldColumnIndices: [0],
+          accentColumnIndices: [0],
+        },
+      },
+      {
+        h2: 'Prepositional Case Prepositions',
+        content:
+          'Despite being named after prepositions, the prepositional case actually has the fewest dedicated prepositions. It\'s mainly used with в/на (location) and о (about):',
+        table: {
+          headers: ['Preposition', 'Meaning', 'Example', 'Translation'],
+          rows: [
+            ['в', 'in (location)', 'в **доме**', 'in the house'],
+            ['на', 'on, at (location)', 'на **столе**', 'on the table'],
+            ['о (об, обо)', 'about', 'о **России**', 'about Russia'],
+            ['при', 'during, in the presence of', 'при **Петре I**', 'during Peter I\'s reign'],
+          ],
+          caption: 'Prepositional case prepositions with examples',
+          boldColumnIndices: [0],
+          accentColumnIndices: [0],
+        },
+      },
+      {
+        h2: 'Memory Tricks: How to Remember Which Case',
+        content:
+          'Here are proven mnemonics that help learners remember preposition-case pairings:',
+        bullets: [
+          '**Direction = Accusative, Location = Prepositional/Instrumental.** If you\'re going somewhere (в/на + motion), use accusative. If you\'re already there, use prepositional (в/на) or instrumental (за/под).',
+          '**\"With\" = Instrumental.** The instrumental case literally means \"by means of\" — so \"with\" (accompaniment or tool) always takes instrumental: с другом, с ножом.',
+          '**\"From\" = Genitive.** Origin, source, removal — anything that means \"from\" or \"away\" takes genitive: из России, от друга, с горы, без воды.',
+          '**\"To a person\" = Dative.** Going to someone\'s place or giving something to someone: к другу, по улице.',
+          '**\"About\" = Prepositional.** Talking or thinking about something: о книге, о России.',
+          '**Practice by pairs.** Learn direction/location pairs together: в школу / в школе, на работу / на работе, за дом / за домом. The pair reinforces both cases simultaneously.',
+        ],
+      },
+      {
+        h2: 'Common Mistakes to Avoid',
+        content:
+          'These are the preposition-case errors we see most often from learners:',
+        mistakeCards: [
+          {
+            title: 'в + wrong case for location',
+            wrong: 'Я живу в Москва.',
+            correct: 'Я живу в Москве.',
+            why: '\"В\" with location requires prepositional case. Москва → Москве.',
+            fix: 'Ask yourself: am I moving or stationary? Stationary = prepositional.',
+            fixHref: '/practice/prepositional',
+          },
+          {
+            title: 'с + genitive instead of instrumental',
+            wrong: 'Я пошёл с друга.',
+            correct: 'Я пошёл с другом.',
+            why: '\"С\" meaning \"with\" takes instrumental. \"С\" meaning \"from\" takes genitive (с горы). Here you mean \"with a friend.\"',
+            fix: 'If you can replace \"с\" with \"together with,\" use instrumental.',
+            fixHref: '/practice/instrumental',
+          },
+          {
+            title: 'к + wrong case',
+            wrong: 'Я иду к друг.',
+            correct: 'Я иду к другу.',
+            why: '\"К\" always requires dative case. друг → другу.',
+            fix: 'к always = dative. No exceptions.',
+            fixHref: '/practice/dative',
+          },
+          {
+            title: 'Confusing из and от',
+            wrong: 'Я получил письмо из друга.',
+            correct: 'Я получил письмо от друга.',
+            why: '\"Из\" means from inside (из дома = from the house). \"От\" means from a person or source. A letter comes from a person → от.',
+            fix: 'из = from inside a place. от = from a person/source.',
+          },
+          {
+            title: 'на + accusative for location',
+            wrong: 'Книга лежит на стол.',
+            correct: 'Книга лежит на столе.',
+            why: 'The book is lying (stationary) on the table → на + prepositional. \"На стол\" (accusative) would mean \"onto the table\" (movement).',
+            fix: 'Stationary verbs (лежать, стоять, сидеть) → prepositional. Motion verbs (идти, ставить, класть) → accusative.',
+            fixHref: '/practice/prepositional',
+          },
+        ],
+      },
+      {
+        h2: 'Quick Reference: Preposition → Case at a Glance',
+        content:
+          'Print this or save it to your phone — it\'s the fastest way to look up any preposition:',
+        table: {
+          headers: ['Preposition', 'Case', 'Quick Meaning'],
+          rows: [
+            ['без', 'Gen', 'without'],
+            ['благодаря', 'Dat', 'thanks to'],
+            ['в', 'Acc → / Prep ●', 'into → / in ●'],
+            ['вместо', 'Gen', 'instead of'],
+            ['вокруг', 'Gen', 'around'],
+            ['вопреки', 'Dat', 'despite'],
+            ['для', 'Gen', 'for (purpose)'],
+            ['до', 'Gen', 'until, before'],
+            ['за', 'Acc → / Instr ●', 'behind → / behind ● / for'],
+            ['из', 'Gen', 'from (inside)'],
+            ['из-за', 'Gen', 'because of'],
+            ['из-под', 'Gen', 'from under'],
+            ['к', 'Dat', 'toward, to'],
+            ['кроме', 'Gen', 'except'],
+            ['между', 'Instr', 'between'],
+            ['на', 'Acc → / Prep ●', 'onto → / on ●'],
+            ['над', 'Instr', 'above'],
+            ['навстречу', 'Dat', 'toward (meeting)'],
+            ['о (об)', 'Prep', 'about'],
+            ['около', 'Gen', 'near'],
+            ['от', 'Gen', 'from (person/source)'],
+            ['перед', 'Instr', 'in front of'],
+            ['по', 'Dat', 'along, around'],
+            ['под', 'Acc → / Instr ●', 'under → / under ●'],
+            ['после', 'Gen', 'after'],
+            ['при', 'Prep', 'during, at'],
+            ['про', 'Acc', 'about (informal)'],
+            ['с', 'Instr / Gen', 'with / from (off)'],
+            ['согласно', 'Dat', 'according to'],
+            ['у', 'Gen', 'at, near, have'],
+            ['через', 'Acc', 'through, across'],
+          ],
+          caption: '→ = direction/motion, ● = location/stationary',
+          boldColumnIndices: [0],
+        },
+      },
+      {
+        h2: 'Conclusion: Practice Makes Permanent',
+        content:
+          'Knowing which case follows which preposition is **half the battle** of Russian grammar. The other half is being able to produce the correct noun ending automatically — without pausing to think.\n\nThis cheat sheet gives you the rules. Now you need repetition. Use the **free declension quiz** to practice each case individually until the endings become second nature. Start with accusative and prepositional (the most common preposition cases), then add genitive, dative, and instrumental.\n\nBookmark this page and come back whenever you\'re unsure about a preposition. Over time, you\'ll need it less and less — and that\'s when you know the cases have truly clicked.',
+      },
+    ],
+    conclusion: '',
+    ctaText: 'Practice Declensions — Free Quiz',
+    ctaHref: '/practice',
+    faq: [
+      {
+        question: 'Which Russian case is used after в?',
+        answer:
+          'It depends on meaning. \"В\" + accusative indicates direction/movement (в школу = to school). \"В\" + prepositional indicates location (в школе = at school). Ask yourself: am I going there or already there?',
+      },
+      {
+        question: 'How many Russian prepositions are there?',
+        answer:
+          'Russian has approximately 30 commonly used prepositions. About 10 of them (в, на, с, к, из, о, для, от, за, по) account for roughly 80% of all preposition usage. Mastering these 10 covers most situations.',
+      },
+      {
+        question: 'Which case has the most prepositions in Russian?',
+        answer:
+          'The genitive case has the most prepositions — over a dozen including без, для, до, из, от, у, после, около, вокруг, кроме, вместо, из-за, and из-под. This makes sense because the genitive expresses origin, absence, and possession.',
+      },
+      {
+        question: 'What is the difference between из and от in Russian?',
+        answer:
+          'Both mean \"from\" but in different senses. \"Из\" means from inside a place (из дома = from the house, из России = from Russia). \"От\" means from a person or source (от друга = from a friend, от врача = from the doctor). Both take the genitive case.',
+      },
+      {
+        question: 'How do I know if a preposition takes accusative or prepositional?',
+        answer:
+          'For prepositions that can take both (в, на), the rule is: direction/motion → accusative (в школу, на работу), location/stationary → prepositional (в школе, на работе). For за and под: motion → accusative, location → instrumental (за столом, под деревом).',
+      },
+    ],
+    leadMagnetCta: {
+      title: 'Drill Case Endings Until They\'re Automatic',
+      description:
+        'Knowing which case a preposition requires is step one. Step two is producing the correct noun ending instantly. Practice all 6 cases with 400+ words — free, no sign-up.',
+      ctaText: 'Start the Free Quiz →',
+      ctaHref: '/practice',
+    },
+    internalLinks: [
+      { href: '/practice', label: 'Free Russian Declension Quiz' },
+      { href: '/practice/accusative', label: 'Practice Accusative Case' },
+      { href: '/practice/genitive', label: 'Practice Genitive Case' },
+      { href: '/practice/dative', label: 'Practice Dative Case' },
+      { href: '/practice/instrumental', label: 'Practice Instrumental Case' },
+      { href: '/practice/prepositional', label: 'Practice Prepositional Case' },
+      { href: '/learn/articles/russian-cases-explained-beginners-guide', label: 'Russian Cases Explained: A Beginner\'s Guide' },
+      { href: '/learn/articles/top-10-russian-case-mistakes', label: 'Top 10 Russian Case Mistakes' },
+      { href: '/words', label: 'Browse All 400+ Russian Declension Tables' },
+    ],
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: 'Russian Prepositions & Cases Cheat Sheet: Which Case After Every Preposition',
+      description:
+        'Complete cheat sheet: which Russian case follows every preposition. Tables, examples, memory tricks, and common mistakes.',
+      datePublished: '2026-03-22',
+      dateModified: '2026-03-22',
+      author: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id':
+          'https://russiandeclensions.com/learn/articles/russian-prepositions-cases-cheat-sheet',
+      },
+      keywords:
+        'russian prepositions and cases, which case after в, russian preposition cheat sheet, russian cases after prepositions',
+    },
+  },
 };
 
 import type { LandingLanguage } from '@/data/website/landingTranslations';

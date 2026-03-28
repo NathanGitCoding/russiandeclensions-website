@@ -11,6 +11,7 @@ export default function LandingNavbar() {
   const pathname = usePathname();
   const isHome = pathname === '/';
   const isLearn = pathname?.startsWith('/learn');
+  const isPractice = pathname?.startsWith('/practice');
   const isWords = pathname?.startsWith('/words') || pathname?.startsWith('/russian-declension');
 
   return (
@@ -50,6 +51,19 @@ export default function LandingNavbar() {
             </Link>
           )}
           <span aria-hidden> / </span>
+          {isPractice ? (
+            <span className="text-white font-semibold" aria-current="page">
+              {t.navbar.practice}
+            </span>
+          ) : (
+            <Link
+              href="/practice"
+              className="transition-colors hover:text-white"
+            >
+              {t.navbar.practice}
+            </Link>
+          )}
+          <span aria-hidden> / </span>
           {isWords ? (
             <span className="text-white font-semibold" aria-current="page">
               {t.navbar.declinaisons}
@@ -78,7 +92,7 @@ export default function LandingNavbar() {
         </nav>
         <Link
           href={isHome ? '#header' : '/#header'}
-          className="shrink-0 rounded-full bg-white/20 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white/30 sm:px-6"
+          className="hidden shrink-0 rounded-full bg-white/20 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white/30 sm:inline-block sm:px-6"
         >
           {t.navbar.getApp}
         </Link>

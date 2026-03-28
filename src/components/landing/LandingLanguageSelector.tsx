@@ -4,7 +4,6 @@ import React, { useState, useRef, useEffect } from 'react';
 import { ChevronDown } from 'lucide-react';
 import { useLandingLanguage } from '@/contexts/LandingLanguageContext';
 import { SUPPORTED_LANGUAGES, getNativeLanguageName } from '@/data/languages';
-import type { LandingLanguage } from '@/data/website/landingTranslations';
 
 const LANDING_LANGUAGES = [
   ...SUPPORTED_LANGUAGES,

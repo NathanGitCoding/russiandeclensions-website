@@ -1,0 +1,144 @@
+# Russian Cases with Anna — Full Documentation
+
+> A free online tool to learn and practice Russian noun declensions. Features interactive quizzes, comprehensive grammar lessons, and complete declension tables for 400+ Russian words across all 6 grammatical cases. Available in English, French, German, Turkish, and Polish.
+
+Website: https://russiandeclensions.com
+
+---
+
+## Free Declension Practice Quiz
+
+Interactive multiple-choice quiz to practice Russian noun declensions. Select specific grammatical cases and genders. 10 questions per quiz from a database of 400+ nouns. No registration required.
+
+- [Practice Russian Declensions Online](https://russiandeclensions.com/practice): Main quiz page — choose cases, genders, and singular/plural forms.
+- [Practice Accusative Case](https://russiandeclensions.com/practice/accusative): Quiz focused on the Russian accusative case (винительный падеж) — direct objects and motion verbs.
+- [Practice Genitive Case](https://russiandeclensions.com/practice/genitive): Quiz focused on the Russian genitive case (родительный падеж) — possession, quantities, and negation.
+- [Practice Dative Case](https://russiandeclensions.com/practice/dative): Quiz focused on the Russian dative case (дательный падеж) — indirect objects and age expressions.
+- [Practice Instrumental Case](https://russiandeclensions.com/practice/instrumental): Quiz focused on the Russian instrumental case (творительный падеж) — means, instruments, and professions.
+- [Practice Prepositional Case](https://russiandeclensions.com/practice/prepositional): Quiz focused on the Russian prepositional case (предложный падеж) — locations and topics.
+
+### Quiz Features
+- 400+ Russian nouns available
+- Filter by case: Accusative, Genitive, Dative, Instrumental, Prepositional
+- Filter by gender: Masculine, Feminine, Neuter
+- Toggle singular and/or plural forms
+- 10 questions per session
+- Multiple-choice format with instant feedback
+- Score tracking and results summary
+- Completely free, no account needed
+
+---
+
+## Grammar Lessons (9 Lessons)
+
+In-depth grammar lessons covering all Russian cases with explanations, examples, and exercises.
+
+- [Learn Russian Grammar & Cases](https://russiandeclensions.com/learn): Index page for all grammar lessons and articles.
+
+### Case-Specific Lessons
+- [The Complete Guide to Russian Cases — All 6 Cases Explained](https://russiandeclensions.com/learn/lessons/russian-cases-complete-guide): Comprehensive overview of the Russian case system — Nominative, Accusative, Genitive, Dative, Instrumental, and Prepositional.
+- [Russian Accusative Case: Direct Objects, Animate vs. Inanimate & Motion Verbs](https://russiandeclensions.com/learn/lessons/russian-accusative-case): How and when to use the accusative case, with animate/inanimate rules.
+- [Russian Genitive Case: Rules, Endings & 32 Real Examples](https://russiandeclensions.com/learn/lessons/russian-genitive-case): Genitive case usage for possession, quantities, negation, and more.
+- [Russian Dative Case: How to Say "To" and "For" in Russian](https://russiandeclensions.com/learn/lessons/russian-dative-case): Dative case for indirect objects, age expressions, and impersonal constructions.
+- [How to Decline in the Dative Case in Russian](https://russiandeclensions.com/learn/lessons/dative-case-declension): Step-by-step guide to forming dative case endings.
+- [Russian Instrumental Case: When to Use It and Why It's Easier Than You Think](https://russiandeclensions.com/learn/lessons/russian-instrumental-case): Instrumental case for means, instruments, professions, and "with" expressions.
+- [Russian Prepositional Case: The Only Case That Never Stands Alone](https://russiandeclensions.com/learn/lessons/russian-prepositional-case): Prepositional case usage for locations, topics, and required prepositions.
+
+### Reference Guides
+- [Russian Case Endings: The Ultimate Cheat Sheet & Chart](https://russiandeclensions.com/learn/lessons/russian-case-endings-cheatsheet): Quick reference table of all noun endings by case, gender, and number.
+- [Russian Prepositions and Cases: Which Case Does Each Preposition Take?](https://russiandeclensions.com/learn/lessons/russian-prepositions-and-cases): Complete guide to preposition-case pairings in Russian.
+
+---
+
+## Articles (9 Articles)
+
+### App Reviews & Resources
+- [Top 10 Apps to Learn Russian in 2026](https://russiandeclensions.com/learn/articles/top-10-apps-russian): Reviews of Russian Cases with Anna, Duolingo, Babbel, Memrise, Busuu, Pimsleur, italki, RussianPod101, Clozemaster, and Drops. Comparison table and recommended study stacks.
+- [Best Apps to Learn Russian Grammar in 2026 (Honest Review)](https://russiandeclensions.com/learn/articles/best-apps-learn-russian-grammar): 8 grammar-focused apps reviewed with honest pros/cons, ratings, and a comparison table. Covers cases, conjugation, and sentence structure apps.
+- [15 Best Free Resources to Learn Russian in 2026](https://russiandeclensions.com/learn/articles/best-free-resources-learn-russian): Curated list of 15 free tools — apps (Russian Cases with Anna, Duolingo, Anki), websites (Russian Grammar Wiki, Reverso Context), YouTube channels, podcasts, and free textbooks.
+
+### Grammar Guides
+- [Russian Cases Explained Simply: A Beginner's Visual Guide](https://russiandeclensions.com/learn/articles/russian-cases-explained-beginners-guide): All 6 Russian cases explained with simple examples, a quick reference table (кошка across all cases), and practical tips for beginners.
+- [Top 10 Mistakes English Speakers Make with Russian Cases (And How to Fix Them)](https://russiandeclensions.com/learn/articles/top-10-russian-case-mistakes): Common case errors with wrong/correct examples, explanations, and links to practice specific cases.
+- [How to Practice Russian Cases: 5 Proven Methods](https://russiandeclensions.com/learn/articles/how-to-practice-russian-cases): Effective study strategies for mastering declensions — active recall, spaced repetition, context-based learning.
+- [Russian Prepositions & Cases Cheat Sheet](https://russiandeclensions.com/learn/articles/russian-prepositions-cases-cheat-sheet): Complete cheat sheet showing which case follows every Russian preposition. Covers в/на (accusative vs. prepositional), с (instrumental vs. genitive), за/под direction vs. location. Includes 8 reference tables, common mistakes, and memory tricks.
+
+### Learning Timeline & Exams
+- [How Long Does It Take to Learn Russian? (Realistic Timeline)](https://russiandeclensions.com/learn/articles/how-long-learn-russian): Realistic timeline from A1 to C2 based on FSI data. Covers hours per CEFR level, 7 factors that affect speed, and a concrete 30-minute/day study plan.
+- [TORFL Exam (ТРКИ): Complete Guide to the Russian Language Proficiency Test](https://russiandeclensions.com/learn/articles/torfl-trki-russian-language-exam-guide): Everything about Russia's official language certificate — 6 levels (A1→C2), 5-section exam format, why grammar/cases are the hardest section, test centers, costs, and preparation tips.
+
+---
+
+## Declension Tables — 400+ Russian Words
+
+Browse all words: [https://russiandeclensions.com/words](https://russiandeclensions.com/words)
+
+Each word page includes:
+- Full declension table with all 6 cases (Nominative, Accusative, Genitive, Dative, Instrumental, Prepositional)
+- Singular and plural forms
+- Gender information (masculine, feminine, or neuter)
+- Translations in English, French, German, Turkish, and Polish
+- Example sentences
+- Difficulty level (beginner, intermediate, advanced)
+
+### Example Word Pages
+- [человек (person)](https://russiandeclensions.com/russian-declension/chelovek)
+- [книга (book)](https://russiandeclensions.com/russian-declension/kniga)
+- [дом (house)](https://russiandeclensions.com/russian-declension/dom)
+- [работа (work)](https://russiandeclensions.com/russian-declension/rabota)
+- [вода (water)](https://russiandeclensions.com/russian-declension/voda)
+- [город (city)](https://russiandeclensions.com/russian-declension/gorod)
+- [день (day)](https://russiandeclensions.com/russian-declension/den)
+- [окно (window)](https://russiandeclensions.com/russian-declension/okno)
+
+### Browsing & Filtering
+- Filter by first letter (Cyrillic alphabet)
+- Filter by difficulty level (1, 2, 3)
+- Search by word
+- Paginated results (50 words per page)
+
+---
+
+## The 6 Russian Grammatical Cases
+
+1. **Nominative (Именительный)** — Subject of the sentence. "Кто? Что?" (Who? What?)
+2. **Accusative (Винительный)** — Direct objects and direction of motion. "Кого? Что?" (Whom? What?)
+3. **Genitive (Родительный)** — Possession, absence, quantities. "Кого? Чего?" (Of whom? Of what?)
+4. **Dative (Дательный)** — Indirect objects, age, impersonal constructions. "Кому? Чему?" (To whom? To what?)
+5. **Instrumental (Творительный)** — Means, instruments, professions. "Кем? Чем?" (By whom? By what?)
+6. **Prepositional (Предложный)** — Location, topic of speech. "О ком? О чём?" (About whom? About what?)
+
+---
+
+## Mobile App — Russian Cases with Anna
+
+A companion mobile app with expanded content and offline access.
+
+- [App Store (iOS)](https://apps.apple.com/app/russian-cases-with-anna/id6478286030)
+- [Google Play (Android)](https://play.google.com/store/apps/details?id=com.rusdecl.app)
+
+### App Features
+- 128 Russian grammar lessons
+- 136 interactive flash quizzes
+- Vocabulary flashcards for 400 most frequent Russian words
+- Native speaker audio pronunciation
+- Offline access — no internet required
+- Progress tracking with star rewards system
+- Covers all 6 Russian grammatical cases
+
+---
+
+## Supported Languages
+
+The website interface and word translations are available in:
+- English
+- French (Français)
+- German (Deutsch)
+- Turkish (Türkçe)
+- Polish (Polski)
+
+---
+
+## About
+
+Russian Cases with Anna was created by a French developer learning Russian who struggled with the complexity of Russian noun declensions (6 cases × 3 genders × singular/plural = dozens of possible endings). The project's mission is to make Russian grammar accessible and manageable through interactive tools, clear explanations, and extensive practice opportunities.

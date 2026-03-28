@@ -51,6 +51,10 @@ export default function LandingAbout() {
                 <Link href="/words" className="font-medium text-[hsl(210,100%,50%)] hover:underline">
                   {t.about.wordsLink}
                 </Link>
+                {' · '}
+                <Link href="/practice" className="font-medium text-[hsl(210,100%,50%)] hover:underline">
+                  {t.about.practiceLink}
+                </Link>
               </p>
             </div>
           </AnimateOnScroll>

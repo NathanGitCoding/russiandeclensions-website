@@ -5,6 +5,7 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { BookOpen } from 'lucide-react';
 import { getLearnLesson, getAllLearnLessonSlugs } from '@/data/learnLessons';
+import { getLearnArticle, getAllLearnArticleSlugs } from '@/data/learnArticles';
 import { getLandingLangFromRequest } from '@/lib/landingLangServer';
 import { getLearnDetailTranslations } from '@/data/website/learnDetailTranslations';
 
@@ -42,6 +43,53 @@ function LessonContentBlock({ block }: { block: string }) {
       <WithBold text={trimmed} />
     </p>
   );
+}
+
+/** Map lesson slugs to their corresponding practice case route */
+const SLUG_TO_PRACTICE_CASE: Record<string, string> = {
+  'dative-case-declension': 'dative',
+};
+
+/** Get related articles for a lesson (max 3) */
+function getRelatedArticles(
+  currentSlug: string,
+  lang?: string
+): { slug: string; title: string }[] {
+  const articleSlugs = getAllLearnArticleSlugs();
+  const related: { slug: string; title: string }[] = [];
+
+  // Extract case name from lesson slug for prioritization
+  const caseName = SLUG_TO_PRACTICE_CASE[currentSlug];
+  for (const aSlug of articleSlugs) {
+    const article = getLearnArticle(aSlug, lang as Parameters<typeof getLearnArticle>[1]);
+    if (!article) continue;
+    // Prioritize articles about the same case
+    if (caseName && aSlug.includes(caseName)) {
+      related.unshift({ slug: aSlug, title: article.title });
+    } else {
+      related.push({ slug: aSlug, title: article.title });
+    }
+  }
+
+  return related.slice(0, 3);
+}
+
+/** Get other lessons (max 3) */
+function getRelatedLessons(
+  currentSlug: string,
+  lang?: string
+): { slug: string; title: string }[] {
+  const lessonSlugs = getAllLearnLessonSlugs().filter((s) => s !== currentSlug);
+  const related: { slug: string; title: string }[] = [];
+
+  for (const lSlug of lessonSlugs) {
+    const lesson = getLearnLesson(lSlug, lang as Parameters<typeof getLearnLesson>[1]);
+    if (!lesson) continue;
+    related.push({ slug: lSlug, title: lesson.title });
+    if (related.length >= 3) break;
+  }
+
+  return related;
 }
 
 type Props = {
@@ -100,6 +148,10 @@ export default async function LearnLessonPage({ params }: Props) {
   const lesson = getLearnLesson(slug, lang);
   const t = getLearnDetailTranslations(lang);
   if (!lesson) notFound();
+
+  const relatedArticles = getRelatedArticles(slug, lang);
+  const relatedLessons = getRelatedLessons(slug, lang);
+  const practiceCase = SLUG_TO_PRACTICE_CASE[slug];
 
   const breadcrumbLd = {
     '@context': 'https://schema.org',
@@ -387,6 +439,64 @@ export default async function LearnLessonPage({ params }: Props) {
             </p>
           </section>
         </div>
+
+        {/* Practice CTA */}
+        {practiceCase && (
+          <section className="learn-detail-practice-cta" aria-labelledby="practice-heading">
+            <h2 id="practice-heading" className="learn-detail-related-title">
+              {t.practiceThisCase}
+            </h2>
+            <Link
+              href={`/practice/${practiceCase}`}
+              className="learn-detail-related-card"
+            >
+              <span className="learn-detail-related-card-title">{t.practiceNow}</span>
+              <span className="learn-detail-related-card-arrow">→</span>
+            </Link>
+          </section>
+        )}
+
+        {/* Related Articles */}
+        {relatedArticles.length > 0 && (
+          <section className="learn-detail-related" aria-labelledby="related-articles-heading">
+            <h2 id="related-articles-heading" className="learn-detail-related-title">
+              {t.relatedArticles}
+            </h2>
+            <div className="learn-detail-related-grid">
+              {relatedArticles.map((ra) => (
+                <Link
+                  key={ra.slug}
+                  href={`/learn/articles/${ra.slug}`}
+                  className="learn-detail-related-card"
+                >
+                  <span className="learn-detail-related-card-title">{ra.title}</span>
+                  <span className="learn-detail-related-card-arrow">→</span>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Related Lessons */}
+        {relatedLessons.length > 0 && (
+          <section className="learn-detail-related" aria-labelledby="related-lessons-heading">
+            <h2 id="related-lessons-heading" className="learn-detail-related-title">
+              {t.relatedLessons}
+            </h2>
+            <div className="learn-detail-related-grid">
+              {relatedLessons.map((rl) => (
+                <Link
+                  key={rl.slug}
+                  href={`/learn/lessons/${rl.slug}`}
+                  className="learn-detail-related-card"
+                >
+                  <span className="learn-detail-related-card-title">{rl.title}</span>
+                  <span className="learn-detail-related-card-arrow">→</span>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
       </article>
     </>
   );

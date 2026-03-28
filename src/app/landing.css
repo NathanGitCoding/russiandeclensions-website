@@ -278,6 +278,109 @@
   margin-top: 1rem;
   margin-bottom: 0;
 }
+
+/* Reading time */
+.learn-detail-reading-time {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  font-size: 0.875rem;
+  color: hsl(220 10% 55%);
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+/* Table of Contents */
+.learn-detail-toc {
+  margin-top: 1.5rem;
+  padding: 1.25rem 1.5rem;
+  background: hsl(210 100% 97%);
+  border: 1px solid hsl(210 60% 90%);
+  border-radius: 0.75rem;
+}
+.learn-detail-toc-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  color: hsl(210 100% 40%);
+  margin-bottom: 0.75rem;
+}
+.learn-detail-toc-list {
+  margin: 0;
+  padding-left: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+}
+.learn-detail-toc-list li {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+.learn-detail-toc-list a {
+  color: hsl(210 100% 45%);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+.learn-detail-toc-list a:hover {
+  color: hsl(210 100% 35%);
+  text-decoration: underline;
+}
+
+/* Related Articles */
+.learn-detail-related {
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid hsl(210 20% 90%);
+}
+.learn-detail-related-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: hsl(220 10% 25%);
+  margin-bottom: 1rem;
+}
+.learn-detail-related-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.learn-detail-related-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  background: hsl(210 100% 97%);
+  border: 1px solid hsl(210 60% 90%);
+  border-radius: 0.75rem;
+  text-decoration: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.learn-detail-related-card:hover {
+  border-color: hsl(210 100% 70%);
+  box-shadow: 0 2px 8px hsl(210 100% 50% / 0.1);
+}
+.learn-detail-related-card-title {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: hsl(220 10% 30%);
+  line-height: 1.4;
+}
+.learn-detail-related-card-arrow {
+  flex-shrink: 0;
+  font-size: 1.125rem;
+  color: hsl(210 100% 50%);
+}
+
+/* Smooth scroll for TOC anchors */
+.learn-detail {
+  scroll-behavior: smooth;
+}
+.learn-detail-section h2 {
+  scroll-margin-top: 5rem;
+}
+
 .learn-detail-hero {
   margin-top: 1.5rem;
   margin-bottom: 1.25rem;

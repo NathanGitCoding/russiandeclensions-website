@@ -37,7 +37,9 @@ export const metadata: Metadata = {
   formatDetection: { email: false, address: false, telephone: false },
   icons: {
     icon: [{ url: '/favicon.ico', sizes: '16x16 32x32', type: 'image/x-icon' }],
+    apple: [{ url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }],
   },
+  manifest: '/manifest.json',
 };
 
 export const viewport: Viewport = {

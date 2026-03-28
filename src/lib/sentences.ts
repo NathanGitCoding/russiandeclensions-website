@@ -20,6 +20,10 @@ type SentenceByCase = {
   sentence_trad_de?: string;
   sentence_trad_pl?: string;
   sentence_trad_tr?: string;
+  sentence_trad_es?: string;
+  sentence_trad_it?: string;
+  sentence_trad_pt?: string;
+  sentence_trad_nl?: string;
 };
 
 /** Format : { [wordId]: { [caseKey]: { sentence_ru, ... } } } */
@@ -70,6 +74,18 @@ function getTranslation(row: SentenceByCase, lang: LandingLanguage): string {
       break;
     case 'tr_tr':
       text = row.sentence_trad_tr || row.sentence_en;
+      break;
+    case 'es_es':
+      text = row.sentence_trad_es || row.sentence_en;
+      break;
+    case 'it_it':
+      text = row.sentence_trad_it || row.sentence_en;
+      break;
+    case 'pt_pt':
+      text = row.sentence_trad_pt || row.sentence_en;
+      break;
+    case 'nl_nl':
+      text = row.sentence_trad_nl || row.sentence_en;
       break;
     case 'ru_ru':
     case 'en_en':

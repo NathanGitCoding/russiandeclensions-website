@@ -43,6 +43,7 @@ function buildResult(
   return {
     questionIndex,
     base_form: question.base_form,
+    slug: question.slug,
     caseLabel: question.caseLabel,
     numberLabel: question.numberLabel,
     userAnswer: selectedAnswer,

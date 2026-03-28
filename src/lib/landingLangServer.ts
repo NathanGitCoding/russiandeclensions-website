@@ -8,7 +8,7 @@ import type { LandingLanguage } from '@/data/website/landingTranslations';
 
 const LANDING_LANG_COOKIE = 'russian-coach-landing-lang';
 
-const VALID_LANGS: LandingLanguage[] = ['en_en', 'fr_fr', 'tr_tr', 'de_de', 'pl_pl', 'ru_ru'];
+const VALID_LANGS: LandingLanguage[] = ['en_en', 'fr_fr', 'tr_tr', 'de_de', 'pl_pl', 'es_es', 'it_it', 'pt_pt', 'nl_nl', 'ru_ru'];
 
 function isValidLandingLang(val: string | undefined): val is LandingLanguage {
   return !!val && VALID_LANGS.includes(val as LandingLanguage);

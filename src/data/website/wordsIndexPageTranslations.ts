@@ -290,6 +290,206 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
       popularWordsTitle: 'Popularne słowa',
     },
   },
+  es_es: {
+    breadcrumb: { home: 'App', learn: 'Lecciones de gramática gratis', words: 'Declinaciones rusas' },
+    title: 'Declinaciones de palabras rusas — Lista completa',
+    titleWithCount: (total) =>
+      `${total} palabras rusas más útiles con tablas de declinación completas (6 casos)`,
+    subtitle: (total) =>
+      `Explora ${total.toLocaleString('es-ES')} palabras rusas más útiles con tablas de declinación para los 6 casos. Ejemplos interactivos gratuitos. Domina la gramática rusa rápido.`,
+    intro: {
+      paragraphs: (total) => [
+        `Descubre las ${total.toLocaleString('es-ES')} **palabras rusas** más útiles con sus **tablas de declinación** completas para los **6 casos rusos**.`,
+        `Tanto si eres principiante como intermedio, esta herramienta gratuita muestra exactamente cómo cambia cada sustantivo en **nominativo, genitivo, dativo, acusativo, instrumental y preposicional** — en **singular y plural**.`,
+        `Haz clic en cualquier palabra para ver su **tabla de declinación** completa (con pronunciación y traducción). Cada página de declinación incluye **ejercicios interactivos gratuitos**. Estas ${total.toLocaleString('es-ES')} palabras cubren el **80%** de las conversaciones cotidianas en ruso — la forma más rápida de dominar la **gramática y los casos** sin memorizar cientos de reglas.`,
+        `Perfecto para **estudiantes, viajeros y autodidactas** que prefieren ejemplos reales a la teoría.`,
+        `Explora la lista o busca una palabra rusa arriba.`,
+      ],
+    },
+    heroH2: {
+      title: (t) => `Por qué estas ${t.toLocaleString('es-ES')} palabras transformarán tu ruso`,
+      body: (t) =>
+        `Estas ${t.toLocaleString('es-ES')} palabras fueron seleccionadas para cubrir la gran mayoría del ruso cotidiano. Aprendiendo sus declinaciones entenderás cómo funcionan los casos rusos en la práctica — sin reglas abstractas. Cada palabra enlaza a una tabla completa con los 6 casos en singular y plural.`,
+    },
+    filterAll: 'Todos',
+    filterByLetter: 'Filtrar por letra',
+    level1: 'Nivel 1 — Más comunes',
+    level2: 'Nivel 2',
+    level3: 'Nivel 3+',
+    tableHeaders: { russian: 'Ruso', translation: 'Traducción', gender: 'Género', level: 'Nivel', viewDeclension: 'Ver declinación' },
+    levelBadgeTitle: (level) => `Nivel ${level}`,
+    emptyState: 'No se encontraron palabras. Prueba a cambiar los filtros.',
+    pagination: {
+      showing: (from, to, total) =>
+        `Mostrando ${from}-${to} de ${total.toLocaleString('es-ES')} palabras`,
+      previous: '← Anterior',
+      next: 'Siguiente →',
+    },
+    gender: { masculine: 'masculino', feminine: 'femenino', neuter: 'neutro' },
+    metadata: {
+      title: (total) =>
+        `${total} palabras rusas más útiles con tablas de declinación (6 casos) | RussianDeclensions`,
+      description: (total) =>
+        `Explora ${total} palabras rusas con tablas de declinación para los 6 casos. Ejemplos interactivos gratuitos. Domina la gramática rusa rápido.`,
+    },
+    relatedLinks: {
+      title: 'Más sobre los casos rusos',
+      learnLabel: 'Lecciones de gramática',
+      caseArticlesTitle: 'Guías de casos rusos',
+      blogLabel: 'Blog y consejos',
+      popularWordsTitle: 'Palabras populares',
+    },
+  },
+  it_it: {
+    breadcrumb: { home: 'App', learn: 'Lezioni di grammatica gratuite', words: 'Declinazioni russe' },
+    title: 'Declinazioni delle parole russe — Lista completa',
+    titleWithCount: (total) =>
+      `${total} parole russe più utili con tabelle di declinazione complete (6 casi)`,
+    subtitle: (total) =>
+      `Sfoglia le ${total.toLocaleString('it-IT')} parole russe più utili con tabelle di declinazione per i 6 casi. Esempi interattivi gratuiti. Padroneggia la grammatica russa velocemente.`,
+    intro: {
+      paragraphs: (total) => [
+        `Scopri le ${total.toLocaleString('it-IT')} **parole russe** più utili con le loro **tabelle di declinazione** complete per i **6 casi russi**.`,
+        `Sia che tu sia principiante o intermedio, questo strumento gratuito mostra esattamente come ogni sostantivo cambia in **nominativo, genitivo, dativo, accusativo, strumentale e preposizionale** — al **singolare e plurale**.`,
+        `Clicca su qualsiasi parola per vedere la sua **tabella di declinazione** completa (con pronuncia e traduzione). Ogni pagina di declinazione include **esercizi interattivi gratuiti**. Queste ${total.toLocaleString('it-IT')} parole coprono l'**80%** delle conversazioni quotidiane in russo — il modo più veloce per padroneggiare **grammatica e casi** senza memorizzare centinaia di regole.`,
+        `Perfetto per **studenti, viaggiatori e autodidatti** che preferiscono esempi concreti alla teoria.`,
+        `Sfoglia la lista o cerca una parola russa sopra.`,
+      ],
+    },
+    heroH2: {
+      title: (t) => `Perché queste ${t.toLocaleString('it-IT')} parole trasformeranno il tuo russo`,
+      body: (t) =>
+        `Queste ${t.toLocaleString('it-IT')} parole sono state selezionate per coprire la stragrande maggioranza del russo quotidiano. Imparando le loro declinazioni capirai come funzionano i casi russi nella pratica — senza regole astratte. Ogni parola porta a una tabella completa con i 6 casi al singolare e plurale.`,
+    },
+    filterAll: 'Tutti',
+    filterByLetter: 'Filtra per lettera',
+    level1: 'Livello 1 — Più comuni',
+    level2: 'Livello 2',
+    level3: 'Livello 3+',
+    tableHeaders: { russian: 'Russo', translation: 'Traduzione', gender: 'Genere', level: 'Livello', viewDeclension: 'Vedi declinazione' },
+    levelBadgeTitle: (level) => `Livello ${level}`,
+    emptyState: 'Nessuna parola trovata. Prova a modificare i filtri.',
+    pagination: {
+      showing: (from, to, total) =>
+        `Mostrando ${from}-${to} di ${total.toLocaleString('it-IT')} parole`,
+      previous: '← Precedente',
+      next: 'Successivo →',
+    },
+    gender: { masculine: 'maschile', feminine: 'femminile', neuter: 'neutro' },
+    metadata: {
+      title: (total) =>
+        `${total} parole russe più utili con tabelle di declinazione (6 casi) | RussianDeclensions`,
+      description: (total) =>
+        `Sfoglia ${total} parole russe con tabelle di declinazione per i 6 casi. Esempi interattivi gratuiti. Padroneggia la grammatica russa velocemente.`,
+    },
+    relatedLinks: {
+      title: 'Scopri di più sui casi russi',
+      learnLabel: 'Lezioni di grammatica',
+      caseArticlesTitle: 'Guide ai casi russi',
+      blogLabel: 'Blog e consigli',
+      popularWordsTitle: 'Parole popolari',
+    },
+  },
+  pt_pt: {
+    breadcrumb: { home: 'App', learn: 'Lições de gramática grátis', words: 'Declinações russas' },
+    title: 'Declinações de palavras russas — Lista completa',
+    titleWithCount: (total) =>
+      `${total} palavras russas mais úteis com tabelas de declinação completas (6 casos)`,
+    subtitle: (total) =>
+      `Explora as ${total.toLocaleString('pt-PT')} palavras russas mais úteis com tabelas de declinação para os 6 casos. Exemplos interativos gratuitos. Domina a gramática russa rapidamente.`,
+    intro: {
+      paragraphs: (total) => [
+        `Descobre as ${total.toLocaleString('pt-PT')} **palavras russas** mais úteis com as suas **tabelas de declinação** completas para os **6 casos russos**.`,
+        `Sejas iniciante ou intermédio, esta ferramenta gratuita mostra exatamente como cada substantivo muda no **nominativo, genitivo, dativo, acusativo, instrumental e preposicional** — no **singular e plural**.`,
+        `Clica em qualquer palavra para ver a sua **tabela de declinação** completa (com pronúncia e tradução). Cada página de declinação inclui **exercícios interativos gratuitos**. Estas ${total.toLocaleString('pt-PT')} palavras cobrem **80%** das conversas quotidianas em russo — a forma mais rápida de dominar **gramática e casos** sem memorizar centenas de regras.`,
+        `Perfeito para **estudantes, viajantes e autodidatas** que preferem exemplos concretos à teoria.`,
+        `Explora a lista ou pesquisa uma palavra russa acima.`,
+      ],
+    },
+    heroH2: {
+      title: (t) => `Por que estas ${t.toLocaleString('pt-PT')} palavras vão transformar o teu russo`,
+      body: (t) =>
+        `Estas ${t.toLocaleString('pt-PT')} palavras foram selecionadas para cobrir a vasta maioria do russo quotidiano. Aprendendo as suas declinações entenderás como funcionam os casos russos na prática — sem regras abstratas. Cada palavra leva a uma tabela completa com os 6 casos no singular e plural.`,
+    },
+    filterAll: 'Todos',
+    filterByLetter: 'Filtrar por letra',
+    level1: 'Nível 1 — Mais comuns',
+    level2: 'Nível 2',
+    level3: 'Nível 3+',
+    tableHeaders: { russian: 'Russo', translation: 'Tradução', gender: 'Género', level: 'Nível', viewDeclension: 'Ver declinação' },
+    levelBadgeTitle: (level) => `Nível ${level}`,
+    emptyState: 'Nenhuma palavra encontrada. Tenta alterar os filtros.',
+    pagination: {
+      showing: (from, to, total) =>
+        `A mostrar ${from}-${to} de ${total.toLocaleString('pt-PT')} palavras`,
+      previous: '← Anterior',
+      next: 'Seguinte →',
+    },
+    gender: { masculine: 'masculino', feminine: 'feminino', neuter: 'neutro' },
+    metadata: {
+      title: (total) =>
+        `${total} palavras russas mais úteis com tabelas de declinação (6 casos) | RussianDeclensions`,
+      description: (total) =>
+        `Explora ${total} palavras russas com tabelas de declinação para os 6 casos. Exemplos interativos gratuitos. Domina a gramática russa rapidamente.`,
+    },
+    relatedLinks: {
+      title: 'Saber mais sobre os casos russos',
+      learnLabel: 'Lições de gramática',
+      caseArticlesTitle: 'Guias dos casos russos',
+      blogLabel: 'Blog e dicas',
+      popularWordsTitle: 'Palavras populares',
+    },
+  },
+  nl_nl: {
+    breadcrumb: { home: 'App', learn: 'Gratis grammatica-lessen', words: 'Russische verbuigingen' },
+    title: 'Russische woordverbuigingen — Volledige lijst',
+    titleWithCount: (total) =>
+      `${total} meest nuttige Russische woorden met volledige verbuigingstabellen (6 gevallen)`,
+    subtitle: (total) =>
+      `Blader door de ${total.toLocaleString('nl-NL')} meest nuttige Russische woorden met verbuigingstabellen voor alle 6 gevallen. Gratis interactieve voorbeelden. Beheers Russische grammatica snel.`,
+    intro: {
+      paragraphs: (total) => [
+        `Ontdek de ${total.toLocaleString('nl-NL')} meest nuttige **Russische woorden** met hun volledige **verbuigingstabellen** voor alle **6 Russische gevallen**.`,
+        `Of je nu beginner of gevorderde bent, deze gratis tool laat precies zien hoe elk zelfstandig naamwoord verandert in **nominatief, genitief, datief, accusatief, instrumentaal en prepositioneel** — in **enkelvoud en meervoud**.`,
+        `Klik op een willekeurig woord om de volledige **verbuigingstabel** te bekijken (met uitspraak en vertaling). Elke verbuigingspagina bevat **gratis interactieve oefeningen**. Deze ${total.toLocaleString('nl-NL')} woorden dekken **80%** van de dagelijkse Russische gesprekken — de snelste manier om **grammatica en gevallen** te beheersen zonder honderden regels te memoriseren.`,
+        `Perfect voor **studenten, reizigers en zelfstandige leerders** die echte voorbeelden prefereren boven droge theorie.`,
+        `Blader nu door de lijst of zoek naar een Russisch woord hierboven.`,
+      ],
+    },
+    heroH2: {
+      title: (t) => `Waarom deze ${t.toLocaleString('nl-NL')} woorden je Russisch transformeren`,
+      body: (t) =>
+        `Deze ${t.toLocaleString('nl-NL')} woorden zijn zorgvuldig geselecteerd om het overgrote deel van het dagelijks Russisch te dekken. Door hun verbuigingen te leren begrijp je hoe Russische gevallen in de praktijk werken — zonder abstracte regels. Elk woord leidt naar een volledige tabel met alle 6 gevallen in enkelvoud en meervoud.`,
+    },
+    filterAll: 'Alle',
+    filterByLetter: 'Filter op letter',
+    level1: 'Niveau 1 — Meest voorkomend',
+    level2: 'Niveau 2',
+    level3: 'Niveau 3+',
+    tableHeaders: { russian: 'Russisch', translation: 'Vertaling', gender: 'Geslacht', level: 'Niveau', viewDeclension: 'Bekijk verbuiging' },
+    levelBadgeTitle: (level) => `Niveau ${level}`,
+    emptyState: 'Geen woorden gevonden. Probeer de filters te wijzigen.',
+    pagination: {
+      showing: (from, to, total) =>
+        `Toont ${from}-${to} van ${total.toLocaleString('nl-NL')} woorden`,
+      previous: '← Vorige',
+      next: 'Volgende →',
+    },
+    gender: { masculine: 'mannelijk', feminine: 'vrouwelijk', neuter: 'onzijdig' },
+    metadata: {
+      title: (total) =>
+        `${total} meest nuttige Russische woorden met verbuigingstabellen (6 gevallen) | RussianDeclensions`,
+      description: (total) =>
+        `Blader door ${total} meest nuttige Russische woorden met verbuigingstabellen voor alle 6 gevallen. Gratis interactieve voorbeelden. Beheers Russische grammatica snel.`,
+    },
+    relatedLinks: {
+      title: 'Meer over Russische gevallen',
+      learnLabel: 'Grammatica-lessen',
+      caseArticlesTitle: 'Russische geval-gidsen',
+      blogLabel: 'Blog en tips',
+      popularWordsTitle: 'Populaire woorden',
+    },
+  },
   ru_ru: {
     breadcrumb: { home: 'App', learn: 'Бесплатные уроки грамматики', words: 'Русские склонения' },
     title: 'Склонения русских слов — Полный список',

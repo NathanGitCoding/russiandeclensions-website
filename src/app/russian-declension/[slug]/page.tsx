@@ -3,14 +3,20 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { getLandingLangFromRequest } from '@/lib/landingLangServer';
-import { getLearnDetailTranslations } from '@/data/website/learnDetailTranslations';
-import { getWordPageTranslations, type WordPageTranslations } from '@/data/website/wordPageTranslations';
+import { getWordPageTranslations } from '@/data/website/wordPageTranslations';
 import { LearnLeadMagnet } from '@/components/learn/LearnLeadMagnet';
 import { DeclensionQuizInline } from '@/components/quiz/DeclensionQuizInline';
 import { PronunciationButton } from '@/components/learn/PronunciationButton';
 import { getWordBySlug, getAllSlugsWithBaseForm, getRelatedWords, isIndeclinable, type WordWithDeclensions } from '@/lib/words';
+import { getWordDisplayTranslation } from '@/lib/wordPageLang';
+import {
+  buildWordCaseArticleLinks,
+  buildWordCaseConfig,
+  buildWordFaqItems,
+  getWordDeclensionOrdinal,
+  getWordLevelLabel,
+} from '@/lib/wordPageBuilders';
 import { getExampleSentencesForWord } from '@/lib/sentences';
-import type { LandingLanguage } from '@/data/website/landingTranslations';
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://russiandeclensions.com';
 
@@ -20,99 +26,6 @@ const genderBadgeClasses: Record<string, string> = {
   feminine: 'bg-rose-100 text-rose-700',
   neuter: 'bg-purple-100 text-purple-700',
 };
-
-/* Internal links to Russian case articles */
-const caseArticleSlugs = [
-  { slug: 'russian-accusative-case', key: 'accusative' },
-  { slug: 'russian-genitive-case', key: 'genitive' },
-  { slug: 'russian-dative-case', key: 'dative' },
-  { slug: 'russian-instrumental-case', key: 'instrumental' },
-  { slug: 'russian-prepositional-case', key: 'prepositional' },
-] as const;
-
-function getDisplayTranslation(
-  word: WordWithDeclensions,
-  lang: LandingLanguage
-): string {
-  if (lang === 'fr_fr') return word.translation_fr || word.translation_en;
-  if (lang === 'de_de') return word.translation_de || word.translation_en;
-  if (lang === 'tr_tr') return word.translation_tr || word.translation_en;
-  if (lang === 'pl_pl') return word.translation_pl || word.translation_en;
-  return word.translation_en;
-}
-
-function buildCaseConfig(
-  word: WordWithDeclensions,
-  t: WordPageTranslations
-) {
-  return t.cases.map((c) => {
-    const sgKey = `${c.key}_sg` as keyof WordWithDeclensions;
-    const plKey = `${c.key}_pl` as keyof WordWithDeclensions;
-    return {
-      ...c,
-      sg: (word[sgKey] as string) ?? '',
-      pl: (word[plKey] as string) ?? '',
-      isBase: c.key === 'nominative',
-    };
-  });
-}
-
-function buildCaseArticleLinks(t: WordPageTranslations) {
-  return caseArticleSlugs.map(({ slug, key }) => ({
-    slug,
-    label: t.cases.find((c) => c.key === key)?.label ?? key,
-  }));
-}
-
-/** 1st/2nd/3rd declension based on gender and word ending (feminine -ь = 3rd) */
-function getDeclensionOrdinal(word: WordWithDeclensions, wt: WordPageTranslations): string {
-  if (word.gender === 'feminine' && word.base_form?.endsWith('ь')) return wt.declensionOrdinals.third;
-  if (word.gender === 'feminine') return wt.declensionOrdinals.first;
-  return wt.declensionOrdinals.second;
-}
-
-/** Level label for context snippet */
-function getLevelLabel(level: number, wt: WordPageTranslations): string {
-  if (level <= 1) return wt.levelLabels.beginners;
-  if (level === 2) return wt.levelLabels.intermediate;
-  return wt.levelLabels.advanced;
-}
-
-function buildFaqItems(
-  word: WordWithDeclensions,
-  t: WordPageTranslations,
-  translation: string,
-  genderLabel: string,
-  isIndeclinable: boolean
-) {
-  const caseConfig = buildCaseConfig(word, t);
-  return [
-    {
-      question: t.faq.howToTranslate(translation),
-      answer: t.faq.translateAnswer(translation, word.base_form, word.slug),
-    },
-    {
-      question: t.faq.whatIsMeaning(word.base_form),
-      answer: t.faq.meaningAnswer(word.base_form, translation, genderLabel),
-    },
-    ...caseConfig.map((row) => ({
-      question: t.faq.whatIsCaseOf(row.label, word.base_form),
-      answer: t.faq.caseAnswer(row.label, word.base_form, row.sg, row.pl),
-    })),
-    {
-      question: t.faq.isMasculineOrFeminine(word.base_form),
-      answer: t.faq.genderAnswer(word.base_form, genderLabel),
-    },
-    ...(isIndeclinable
-      ? [
-          {
-            question: t.faq.isRegularOrIrregular(word.base_form),
-            answer: t.faq.indeclinableAnswer(word.base_form),
-          },
-        ]
-      : []),
-  ];
-}
 
 /** Renders text with **bold** segments as <strong> */
 function WithBold({ text }: { text: string }) {
@@ -202,13 +115,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const word = await getWordBySlug(slug);
   if (!word) {
-    const t = getWordPageTranslations('en_en');
-    return { title: t.metadata.wordNotFound };
+    const langMissing = await getLandingLangFromRequest();
+    const tm = getWordPageTranslations(langMissing);
+    return { title: tm.metadata.wordNotFound };
   }
 
   const lang = await getLandingLangFromRequest();
   const t = getWordPageTranslations(lang);
-  const translation = getDisplayTranslation(word, lang);
+  const translation = getWordDisplayTranslation(word, lang);
 
   const title = t.metadata.title(translation, word.base_form);
   const description = t.metadata.description(word.base_form, translation, word.gender);
@@ -222,7 +136,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title,
       description,
       url: canonicalUrl,
-      siteName: 'Russian Declensions',
+      siteName: t.openGraph.siteName,
     },
   };
 }
@@ -233,18 +147,17 @@ export default async function WordPage({ params }: Props) {
   if (!word) notFound();
 
   const lang = await getLandingLangFromRequest();
-  const t = getLearnDetailTranslations(lang);
   const wt = getWordPageTranslations(lang);
-  const translation = getDisplayTranslation(word, lang);
+  const translation = getWordDisplayTranslation(word, lang);
   const genderLabel = wt.gender[word.gender] ?? word.gender;
   const typeLabel = wt.type[word.type] ?? word.type;
 
   const badgeClass = genderBadgeClasses[word.gender] ?? 'bg-[hsl(var(--muted))] text-[hsl(var(--muted-foreground))]';
   const wordIsIndeclinable = isIndeclinable(word);
-  const caseConfig = buildCaseConfig(word, wt);
+  const caseConfig = buildWordCaseConfig(word, wt);
   const declensionStem = getDeclensionStem(word);
-  const faqItems = buildFaqItems(word, wt, translation, genderLabel, wordIsIndeclinable);
-  const caseArticleLinks = buildCaseArticleLinks(wt);
+  const faqItems = buildWordFaqItems(word, wt, translation, genderLabel, wordIsIndeclinable);
+  const caseArticleLinks = buildWordCaseArticleLinks(wt);
 
   const leadMagnetCta = {
     title: wt.leadMagnet.title,
@@ -271,32 +184,38 @@ export default async function WordPage({ params }: Props) {
     ],
   };
 
+  const j = wt.jsonLd;
   const webPageJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    name: `${word.base_form} (${translation}) – Russian Declension Table`,
-    description: `Full declension table of ${word.base_form} in Russian. ${word.base_form} is a ${word.gender} ${word.type}.`,
+    name: j.webPageName(word.base_form, translation),
+    description: j.webPageDescription(word.base_form, genderLabel, typeLabel),
     mainEntity: {
       '@type': 'Article',
-      name: `${word.base_form} declension`,
-      articleSection: 'Russian grammar',
+      name: j.articleName(word.base_form),
+      articleSection: j.articleSection,
       datePublished: '2024-01-01',
       dateModified: '2024-12-01',
-      author: { '@type': 'Organization', name: 'Russian Declensions', url: siteUrl },
-      publisher: { '@type': 'Organization', name: 'Russian Declensions', url: siteUrl, logo: { '@type': 'ImageObject', url: `${siteUrl}/favicon.ico` } },
+      author: { '@type': 'Organization', name: j.organizationName, url: siteUrl },
+      publisher: {
+        '@type': 'Organization',
+        name: j.organizationName,
+        url: siteUrl,
+        logo: { '@type': 'ImageObject', url: `${siteUrl}/favicon.ico` },
+      },
       about: {
         '@type': 'Thing',
         name: word.base_form,
-        description: `Russian word for ${translation}`,
+        description: j.aboutDescription(translation),
       },
       hasPart: {
         '@type': 'Table',
-        name: `Declension table for ${word.base_form}`,
-        abstract: `Complete declension of the Russian ${word.type} ${word.base_form} across all cases (nominative, accusative, genitive, dative, instrumental, prepositional, locative) in singular and plural forms.`,
+        name: j.tableName(word.base_form),
+        abstract: j.tableAbstract(word.base_form, typeLabel),
         about: {
           '@type': 'Thing',
           name: word.base_form,
-          description: `Russian word for ${translation}`,
+          description: j.aboutDescription(translation),
         },
         cssSelector: '.learn-detail-table',
       },
@@ -306,12 +225,12 @@ export default async function WordPage({ params }: Props) {
   const howToJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'HowTo',
-    name: `How to decline ${word.base_form} (${translation}) in Russian`,
-    description: `Step-by-step guide to declining the Russian ${word.type} ${word.base_form} across all cases.`,
+    name: j.howToName(word.base_form, translation),
+    description: j.howToDescription(word.base_form, typeLabel),
     step: caseConfig.map((row) => ({
       '@type': 'HowToStep' as const,
-      name: `${row.label} case`,
-      text: `Singular: ${row.sg}. Plural: ${row.pl}. ${row.hint}`,
+      name: j.howToStepName(row.label),
+      text: j.howToStepText(row.sg, row.pl, row.hint),
     })),
   };
 
@@ -332,14 +251,14 @@ export default async function WordPage({ params }: Props) {
   const learningResourceJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'LearningResource',
-    name: `${word.base_form} (${translation}) – Russian Declension Table`,
-    description: `Full declension table of ${word.base_form} in Russian. ${word.base_form} is a ${word.gender} ${word.type}.`,
-    learningResourceType: 'Declension Table',
-    educationalLevel: 'Beginner',
+    name: j.learningResourceName(word.base_form, translation),
+    description: j.learningResourceDescription(word.base_form, genderLabel, typeLabel),
+    learningResourceType: j.learningResourceType,
+    educationalLevel: j.educationalLevel,
     about: {
       '@type': 'Thing',
       name: word.base_form,
-      description: `Russian word for ${translation}`,
+      description: j.aboutDescription(translation),
     },
   };
 
@@ -374,7 +293,7 @@ export default async function WordPage({ params }: Props) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(learningResourceJsonLd) }}
       />
 
-      <nav className="learn-breadcrumb mb-6" aria-label="Breadcrumb">
+      <nav className="learn-breadcrumb mb-6" aria-label={wt.a11y.breadcrumb}>
         <Link href="/" className="learn-breadcrumb-link">
           {wt.breadcrumb.home}
         </Link>
@@ -403,7 +322,7 @@ export default async function WordPage({ params }: Props) {
           </h1>
           <PronunciationButton
             text={word.base_form}
-            ariaLabel="Listen to Russian pronunciation"
+            ariaLabel={wt.a11y.listenPronunciation}
             size="lg"
           />
         </div>
@@ -487,10 +406,10 @@ export default async function WordPage({ params }: Props) {
           ) : (
             <>
               <p>
-                <WithBold text={wt.contextSnippetType(word.base_form, genderLabel, getDeclensionOrdinal(word, wt))} />
+                <WithBold text={wt.contextSnippetType(word.base_form, genderLabel, getWordDeclensionOrdinal(word, wt))} />
               </p>
               <p>
-                {wt.contextSnippetUsage(getLevelLabel(word.word_apparition_level ?? 1, wt))}
+                {wt.contextSnippetUsage(getWordLevelLabel(word.word_apparition_level ?? 1, wt))}
               </p>
             </>
           )}
@@ -525,7 +444,7 @@ export default async function WordPage({ params }: Props) {
                       <PronunciationButton
                         text={row.sg}
                         size="xs"
-                        ariaLabel={`Listen to ${row.sg}`}
+                        ariaLabel={wt.a11y.listenPronunciationOf(row.sg)}
                       />
                     </div>
                   </td>
@@ -537,7 +456,7 @@ export default async function WordPage({ params }: Props) {
                       <PronunciationButton
                         text={row.pl}
                         size="xs"
-                        ariaLabel={`Listen to ${row.pl}`}
+                        ariaLabel={wt.a11y.listenPronunciationOf(row.pl)}
                       />
                     </div>
                   </td>

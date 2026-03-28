@@ -39,6 +39,29 @@ const nextConfig: NextConfig = {
       { source: '/blog', destination: '/learn', permanent: true },
       // Deduplicate blog posts → learn articles (301)
       ...blogToArticleRedirects,
+      // SEO keyword-rich aliases → practice quiz
+      { source: '/russian-declension-quiz', destination: '/practice', permanent: true },
+      { source: '/russian-cases-quiz', destination: '/practice', permanent: true },
+      { source: '/russian-grammar-quiz', destination: '/practice', permanent: true },
+    ];
+  },
+  async headers() {
+    return [
+      {
+        source: '/(.*)',
+        headers: [
+          { key: 'X-Content-Type-Options', value: 'nosniff' },
+          { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
+          { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
+          { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=()' },
+        ],
+      },
+      {
+        source: '/(.*)\\.(ico|png|jpg|jpeg|webp|svg|gif|woff|woff2)',
+        headers: [
+          { key: 'Cache-Control', value: 'public, max-age=31536000, immutable' },
+        ],
+      },
     ];
   },
   async rewrites() {

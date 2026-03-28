@@ -5,11 +5,14 @@
 
 import type { WordWithDeclensions } from './data';
 import type { CaseConfigItem } from '@/data/website/wordPageTranslations';
+import type { LandingLanguage } from '@/data/website/landingTranslations';
+import { getWordTranslationForLandingLang } from './wordTranslationLanding';
 
 // === TYPES ===
 
 export interface DeclensionQuizQuestion {
   base_form: string;
+  slug?: string;            // word slug for internal linking
   gender: string;
   caseKey: string;         // e.g. "accusative"
   numberKey: 'sg' | 'pl';  // singular or plural
@@ -17,11 +20,14 @@ export interface DeclensionQuizQuestion {
   numberLabel: string;     // localized "Singular" or "Plural"
   correctAnswer: string;   // the correct declined form
   allAnswers: { form: string; isCorrect: boolean }[];
+  /** Base-form gloss in UI language (shown under the Russian lemma). */
+  translationHint?: string;
 }
 
 export interface DeclensionQuizResult {
   questionIndex: number;
   base_form: string;
+  slug?: string;            // word slug for internal linking
   caseLabel: string;
   numberLabel: string;
   userAnswer: string;
@@ -61,7 +67,7 @@ function shuffleArray<T>(arr: T[]): T[] {
 }
 
 function getColumnValue(word: WordWithDeclensions, column: DeclensionColumn): string | null {
-  const val = (word as any)[column];
+  const val = word[column];
   if (!val || val === '-' || val === '') return null;
   return val;
 }
@@ -73,7 +79,11 @@ export function generateDeclensionQuiz(
   cases: CaseConfigItem[],
   singularLabel: string,
   pluralLabel: string,
+  userLang?: LandingLanguage,
 ): DeclensionQuizQuestion[] {
+  const translationHint = userLang
+    ? getWordTranslationForLandingLang(word, userLang)
+    : undefined;
   // Build a case label map from translations
   const caseLabelMap: Record<string, string> = {};
   for (const c of cases) {
@@ -133,6 +143,7 @@ export function generateDeclensionQuiz(
       numberLabel: number === 'sg' ? singularLabel : pluralLabel,
       correctAnswer,
       allAnswers,
+      translationHint: translationHint || undefined,
     });
   }
 

@@ -8,6 +8,7 @@ import type { CaseConfigItem } from '@/data/website/wordPageTranslations';
 import type { QuizTranslationsClient } from './DeclensionQuizTrigger';
 import type { LearnArticleLeadMagnet } from '@/data/learnArticles';
 import { QuizLeadMagnet } from '@/components/quiz/QuizLeadMagnet';
+import { useLandingLanguage } from '@/contexts/LandingLanguageContext';
 import { ChevronRight, RotateCcw, CheckCircle2, XCircle } from 'lucide-react';
 
 interface DeclensionQuizInlineProps {
@@ -26,6 +27,7 @@ const genderColors: Record<string, string> = {
 };
 
 export function DeclensionQuizInline({ word, translations: t, cases, leadMagnetCta }: DeclensionQuizInlineProps) {
+  const { landingLanguage } = useLandingLanguage();
   const {
     currentQuestion,
     showResult,
@@ -43,9 +45,9 @@ export function DeclensionQuizInline({ word, translations: t, cases, leadMagnetC
   const [shakeAnswer, setShakeAnswer] = useState<string | null>(null);
 
   const startQuiz = useCallback(() => {
-    const questions = generateDeclensionQuiz(word, cases, t.singular, t.plural);
+    const questions = generateDeclensionQuiz(word, cases, t.singular, t.plural, landingLanguage);
     loadQuestions(questions);
-  }, [word, cases, t.singular, t.plural, loadQuestions]);
+  }, [word, cases, t.singular, t.plural, landingLanguage, loadQuestions]);
 
   // Start quiz on mount
   useEffect(() => {
@@ -139,9 +141,12 @@ export function DeclensionQuizInline({ word, translations: t, cases, leadMagnetC
 
       {/* Word card */}
       <div
-        className={`mb-3 rounded-xl border-2 px-4 py-3 text-center ${genderColors[word.gender] ?? 'bg-gray-50 text-gray-800 border-gray-200'}`}
+        className={`mb-3 flex min-h-[5.25rem] flex-col items-center justify-center gap-2 rounded-xl border-2 px-4 py-[1.125rem] text-center ${genderColors[word.gender] ?? 'bg-gray-50 text-gray-800 border-gray-200'}`}
       >
-        <span className="text-2xl font-bold" lang="ru">{currentQuestion.base_form}</span>
+        <span className="text-[1.625rem] font-bold leading-tight" lang="ru">{currentQuestion.base_form}</span>
+        {currentQuestion.translationHint ? (
+          <span className="text-[0.875rem] italic text-gray-500">{currentQuestion.translationHint}</span>
+        ) : null}
       </div>
 
       {/* Case label */}
@@ -152,7 +157,7 @@ export function DeclensionQuizInline({ word, translations: t, cases, leadMagnetC
       {/* Answer buttons */}
       <div className="grid grid-cols-2 gap-2.5" aria-live="polite">
         {currentQuestion.allAnswers.map((answer) => {
-          let btnClass = 'rounded-lg border-2 px-3 py-2.5 text-center font-medium transition-all duration-150 ';
+          let btnClass = 'rounded-lg border-2 px-3 py-[0.9375rem] text-center text-[1.125rem] font-medium leading-snug transition-all duration-150 ';
           if (!showResult) {
             btnClass += 'border-gray-200 bg-white text-gray-800 hover:border-blue-500 cursor-pointer';
           } else if (answer.isCorrect) {
@@ -178,9 +183,9 @@ export function DeclensionQuizInline({ word, translations: t, cases, leadMagnetC
         })}
       </div>
 
-      {/* Feedback + Next button */}
-      <div className={`mt-3 flex items-center justify-center gap-4 ${showResult ? 'visible' : 'invisible'}`}>
-        <p className={`text-sm font-semibold ${isCorrectAnswer ? 'text-emerald-600' : 'text-red-500'}`}>
+      {/* Feedback above Next */}
+      <div className={`mt-3 flex flex-col items-center justify-center gap-2 ${showResult ? 'visible' : 'invisible'}`}>
+        <p className={`min-h-[1.25rem] text-center text-sm font-semibold ${isCorrectAnswer ? 'text-emerald-600' : 'text-red-500'}`}>
           {showResult ? (isCorrectAnswer ? t.correct : t.incorrect) : '\u00A0'}
         </p>
         <button

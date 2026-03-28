@@ -1,0 +1,36 @@
+# Russian Cases with Anna
+
+> A free online tool to learn and practice Russian noun declensions. Features interactive quizzes, comprehensive grammar lessons, and complete declension tables for 400+ Russian words across all 6 grammatical cases.
+
+## Free Declension Practice Quiz
+- [Practice Russian Declensions Online](https://russiandeclensions.com/practice): Free interactive multiple-choice quiz to practice Russian noun declensions. Select specific grammatical cases (accusative, genitive, dative, instrumental, prepositional) and genders (masculine, feminine, neuter). 10 questions per quiz from a database of 400+ nouns. No registration required.
+- [Practice Accusative Case](https://russiandeclensions.com/practice/accusative): Quiz focused on the Russian accusative case (винительный падеж) — direct objects and motion verbs.
+- [Practice Genitive Case](https://russiandeclensions.com/practice/genitive): Quiz focused on the Russian genitive case (родительный падеж) — possession, quantities, and negation.
+- [Practice Dative Case](https://russiandeclensions.com/practice/dative): Quiz focused on the Russian dative case (дательный падеж) — indirect objects and age expressions.
+- [Practice Instrumental Case](https://russiandeclensions.com/practice/instrumental): Quiz focused on the Russian instrumental case (творительный падеж) — means, instruments, and professions.
+- [Practice Prepositional Case](https://russiandeclensions.com/practice/prepositional): Quiz focused on the Russian prepositional case (предложный падеж) — locations and topics.
+
+## Declension Tables (400+ Words)
+- [Browse All Russian Words](https://russiandeclensions.com/words): Search and browse 400+ Russian nouns with complete declension tables showing all 6 cases in singular and plural forms, with example sentences.
+- [человек (person) Declension](https://russiandeclensions.com/russian-declension/chelovek): Full declension table for человек.
+- [книга (book) Declension](https://russiandeclensions.com/russian-declension/kniga): Full declension table for книга.
+- [дом (house) Declension](https://russiandeclensions.com/russian-declension/dom): Full declension table for дом.
+
+## Grammar Lessons
+- [Learn Russian Grammar & Cases](https://russiandeclensions.com/learn): Index page for all grammar lessons and articles.
+- [Complete Guide to Russian Cases](https://russiandeclensions.com/learn/lessons/russian-cases-complete-guide): Comprehensive guide to all 6 Russian grammatical cases.
+- [Russian Case Endings Cheatsheet](https://russiandeclensions.com/learn/articles/russian-case-endings-cheatsheet): Quick reference for Russian noun endings by case and gender.
+
+## Articles — Grammar Guides & Reviews
+- [Top 10 Apps to Learn Russian in 2026](https://russiandeclensions.com/learn/articles/top-10-apps-russian): Reviews of the best Russian learning apps with pros, cons, and rankings.
+- [Top 10 Mistakes English Speakers Make with Russian Cases](https://russiandeclensions.com/learn/articles/top-10-russian-case-mistakes): Common case errors and how to fix them with examples.
+- [How to Practice Russian Cases: 5 Proven Methods](https://russiandeclensions.com/learn/articles/how-to-practice-russian-cases): Effective study strategies for mastering Russian declensions.
+- [15 Best Free Resources to Learn Russian in 2026](https://russiandeclensions.com/learn/articles/best-free-resources-learn-russian): Curated list of free apps, websites, YouTube channels, and podcasts for learning Russian.
+- [Russian Cases Explained Simply: A Beginner's Visual Guide](https://russiandeclensions.com/learn/articles/russian-cases-explained-beginners-guide): All 6 Russian cases explained with simple examples and a reference table.
+- [Best Apps to Learn Russian Grammar in 2026 (Honest Review)](https://russiandeclensions.com/learn/articles/best-apps-learn-russian-grammar): 8 grammar-focused apps reviewed with comparison table and recommended study stacks.
+- [How Long Does It Take to Learn Russian? (Realistic Timeline)](https://russiandeclensions.com/learn/articles/how-long-learn-russian): FSI estimates, CEFR level milestones, factors that affect speed, and a concrete study plan.
+- [TORFL Exam (ТРКИ): Complete Guide](https://russiandeclensions.com/learn/articles/torfl-trki-russian-language-exam-guide): Everything about Russia's official language proficiency test — levels, format, preparation, and registration.
+- [Russian Prepositions & Cases Cheat Sheet](https://russiandeclensions.com/learn/articles/russian-prepositions-cases-cheat-sheet): Which case follows every Russian preposition — complete table with examples and memory tricks.
+
+## Mobile App
+- Russian Cases with Anna is also available as a mobile app on [App Store](https://apps.apple.com/app/russian-cases-with-anna/id6478286030) and [Google Play](https://play.google.com/store/apps/details?id=com.rusdecl.app) with 128 grammar lessons, 136 interactive quizzes, vocabulary flashcards, and offline access.

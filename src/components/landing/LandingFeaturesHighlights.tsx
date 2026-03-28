@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import {
   BoltIcon,
   PuzzlePieceIcon,
@@ -20,6 +21,11 @@ const HIGHLIGHT_ICONS = [
   SignalSlashIcon,
   ChartBarIcon,
 ];
+
+// Internal link for specific highlight items (by index)
+const HIGHLIGHT_LINKS: Record<number, string> = {
+  1: '/practice', // "Interactive Quizzes" → links to /practice
+};
 
 export default function LandingFeaturesHighlights() {
   const { landingLanguage } = useLandingLanguage();
@@ -44,11 +50,11 @@ export default function LandingFeaturesHighlights() {
         <AnimateOnScroll variant="fade-up" rootMargin="-30px" className="grid gap-8 sm:grid-cols-2 md:gap-10 lg:grid-cols-3">
           {highlights.map((item, index) => {
             const Icon = item.Icon ?? BookOpenIcon;
-            return (
-              <div
-                key={item.title}
-                className="flex gap-5 rounded-2xl border border-[hsl(210,20%,90%)] bg-[hsl(210,100%,96%)]/50 p-6 transition-colors hover:bg-[hsl(210,100%,96%)]/80"
-              >
+            const href = HIGHLIGHT_LINKS[index];
+            const cardClass =
+              'flex gap-5 rounded-2xl border border-[hsl(210,20%,90%)] bg-[hsl(210,100%,96%)]/50 p-6 transition-colors hover:bg-[hsl(210,100%,96%)]/80';
+            const content = (
+              <>
                 <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-[hsl(210,100%,50%)]/10">
                   <Icon className="h-6 w-6 text-[hsl(210,100%,50%)]" strokeWidth={2} />
                 </div>
@@ -58,6 +64,15 @@ export default function LandingFeaturesHighlights() {
                   </h3>
                   <p className="leading-relaxed text-[hsl(220,10%,40%)]">{item.description}</p>
                 </div>
+              </>
+            );
+            return href ? (
+              <Link key={item.title} href={href} className={cardClass}>
+                {content}
+              </Link>
+            ) : (
+              <div key={item.title} className={cardClass}>
+                {content}
               </div>
             );
           })}

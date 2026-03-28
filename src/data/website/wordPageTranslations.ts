@@ -104,6 +104,40 @@ export interface WordPageTranslations {
     correct: string;
     incorrect: string;
   };
+  a11y: {
+    breadcrumb: string;
+    listenPronunciation: string;
+    listenPronunciationOf: (form: string) => string;
+  };
+  openGraph: { siteName: string };
+  ogImage: {
+    wordNotFound: string;
+    tableCase: string;
+    tableSingular: string;
+    tablePlural: string;
+    genderBadges: Record<'masculine' | 'feminine' | 'neuter', string>;
+    footerTagline: string;
+    caseAbbr: Record<string, string>;
+  };
+  jsonLd: {
+    webPageName: (baseForm: string, translation: string) => string;
+    webPageDescription: (baseForm: string, genderLabel: string, typeLabel: string) => string;
+    articleName: (baseForm: string) => string;
+    articleSection: string;
+    organizationName: string;
+    aboutDescription: (translation: string) => string;
+    tableName: (baseForm: string) => string;
+    tableAbstract: (baseForm: string, typeLabel: string) => string;
+    howToName: (baseForm: string, translation: string) => string;
+    howToDescription: (baseForm: string, typeLabel: string) => string;
+    howToStepName: (caseLabel: string) => string;
+    howToStepText: (sg: string, pl: string, hint: string) => string;
+    learningResourceName: (baseForm: string, translation: string) => string;
+    learningResourceDescription: (baseForm: string, genderLabel: string, typeLabel: string) => string;
+    learningResourceType: string;
+    educationalLevel: string;
+  };
+  layoutSEO: { title: string; description: string };
 }
 
 const caseConfigEn: CaseConfigItem[] = [
@@ -156,6 +190,46 @@ const caseConfigTr: CaseConfigItem[] = [
   { key: 'locative', label: 'Lokatif', hint: 'yer (в/на)' },
 ];
 
+const caseConfigNl: CaseConfigItem[] = [
+  { key: 'nominative', label: 'Nominatief', hint: 'onderwerp' },
+  { key: 'accusative', label: 'Accusatief', hint: 'lijdend voorwerp' },
+  { key: 'genitive', label: 'Genitief', hint: 'bezit / afwezigheid' },
+  { key: 'dative', label: 'Datief', hint: 'aan / voor' },
+  { key: 'instrumental', label: 'Instrumentaal', hint: 'met / door middel van' },
+  { key: 'prepositional', label: 'Prepositioneel', hint: 'plaats / onderwerp' },
+  { key: 'locative', label: 'Locatief', hint: 'specifieke plaats (в/на)' },
+];
+
+const caseConfigPt: CaseConfigItem[] = [
+  { key: 'nominative', label: 'Nominativo', hint: 'sujeito' },
+  { key: 'accusative', label: 'Acusativo', hint: 'complemento direto' },
+  { key: 'genitive', label: 'Genitivo', hint: 'posse / ausência' },
+  { key: 'dative', label: 'Dativo', hint: 'a / para' },
+  { key: 'instrumental', label: 'Instrumental', hint: 'com / por meio de' },
+  { key: 'prepositional', label: 'Preposicional', hint: 'local / tópico' },
+  { key: 'locative', label: 'Locativo', hint: 'local específico (в/на)' },
+];
+
+const caseConfigIt: CaseConfigItem[] = [
+  { key: 'nominative', label: 'Nominativo', hint: 'soggetto' },
+  { key: 'accusative', label: 'Accusativo', hint: 'complemento oggetto' },
+  { key: 'genitive', label: 'Genitivo', hint: 'possesso / assenza' },
+  { key: 'dative', label: 'Dativo', hint: 'a / per' },
+  { key: 'instrumental', label: 'Strumentale', hint: 'con / per mezzo di' },
+  { key: 'prepositional', label: 'Preposizionale', hint: 'luogo / argomento' },
+  { key: 'locative', label: 'Locativo', hint: 'luogo specifico (в/на)' },
+];
+
+const caseConfigEs: CaseConfigItem[] = [
+  { key: 'nominative', label: 'Nominativo', hint: 'sujeto' },
+  { key: 'accusative', label: 'Acusativo', hint: 'objeto directo' },
+  { key: 'genitive', label: 'Genitivo', hint: 'posesión / ausencia' },
+  { key: 'dative', label: 'Dativo', hint: 'a / para' },
+  { key: 'instrumental', label: 'Instrumental', hint: 'con / por medio de' },
+  { key: 'prepositional', label: 'Preposicional', hint: 'lugar / tema' },
+  { key: 'locative', label: 'Locativo', hint: 'lugar específico (в/на)' },
+];
+
 const caseConfigRu: CaseConfigItem[] = [
   { key: 'nominative', label: 'Именительный', hint: 'подлежащее' },
   { key: 'accusative', label: 'Винительный', hint: 'прямое дополнение' },
@@ -166,8 +240,182 @@ const caseConfigRu: CaseConfigItem[] = [
   { key: 'locative', label: 'Местный', hint: 'место (в/на)' },
 ];
 
+type WordPageMetaBundle = Pick<
+  WordPageTranslations,
+  'a11y' | 'openGraph' | 'ogImage' | 'jsonLd' | 'layoutSEO'
+>;
+
+const wordPageMetaEn: WordPageMetaBundle = {
+  a11y: {
+    breadcrumb: 'Breadcrumb',
+    listenPronunciation: 'Listen to Russian pronunciation',
+    listenPronunciationOf: (form) => `Listen to ${form}`,
+  },
+  openGraph: { siteName: 'Russian Declensions' },
+  ogImage: {
+    wordNotFound: 'Word not found',
+    tableCase: 'Case',
+    tableSingular: 'Singular',
+    tablePlural: 'Plural',
+    genderBadges: {
+      masculine: '♂ Masculine',
+      feminine: '♀ Feminine',
+      neuter: '⚬ Neuter',
+    },
+    footerTagline: '400+ words · all 6 cases · free declension tables',
+    caseAbbr: {
+      nominative: 'Nom.',
+      accusative: 'Acc.',
+      genitive: 'Gen.',
+      dative: 'Dat.',
+      instrumental: 'Inst.',
+      prepositional: 'Prep.',
+    },
+  },
+  jsonLd: {
+    webPageName: (b, t) => `${b} (${t}) – Russian Declension Table`,
+    webPageDescription: (baseForm, genderLabel, typeLabel) =>
+      `Full declension table of ${baseForm} in Russian. ${baseForm} is a ${genderLabel} ${typeLabel}.`,
+    articleName: (baseForm) => `${baseForm} declension`,
+    articleSection: 'Russian grammar',
+    organizationName: 'Russian Declensions',
+    aboutDescription: (translation) => `Russian word for ${translation}`,
+    tableName: (baseForm) => `Declension table for ${baseForm}`,
+    tableAbstract: (baseForm, typeLabel) =>
+      `Complete declension of the Russian ${typeLabel} ${baseForm} across all cases (nominative, accusative, genitive, dative, instrumental, prepositional, locative) in singular and plural forms.`,
+    howToName: (baseForm, translation) => `How to decline ${baseForm} (${translation}) in Russian`,
+    howToDescription: (baseForm, typeLabel) =>
+      `Step-by-step guide to declining the Russian ${typeLabel} ${baseForm} across all cases.`,
+    howToStepName: (caseLabel) => `${caseLabel} case`,
+    howToStepText: (sg, pl, hint) => `Singular: ${sg}. Plural: ${pl}. ${hint}`,
+    learningResourceName: (b, t) => `${b} (${t}) – Russian Declension Table`,
+    learningResourceDescription: (baseForm, genderLabel, typeLabel) =>
+      `Full declension table of ${baseForm} in Russian. ${baseForm} is a ${genderLabel} ${typeLabel}.`,
+    learningResourceType: 'Declension Table',
+    educationalLevel: 'Beginner',
+  },
+  layoutSEO: {
+    title: 'Russian declensions – Learn Russian grammar | Russian Cases with Anna',
+    description:
+      'Russian noun declension tables: all six cases, singular and plural. Free grammar reference from Russian Cases with Anna.',
+  },
+};
+
+const wordPageMetaFr: WordPageMetaBundle = {
+  a11y: {
+    breadcrumb: 'Fil d’Ariane',
+    listenPronunciation: 'Écouter la prononciation en russe',
+    listenPronunciationOf: (form) => `Écouter ${form}`,
+  },
+  openGraph: { siteName: 'Déclinaisons russes' },
+  ogImage: {
+    wordNotFound: 'Mot introuvable',
+    tableCase: 'Cas',
+    tableSingular: 'Singulier',
+    tablePlural: 'Pluriel',
+    genderBadges: {
+      masculine: '♂ Masculin',
+      feminine: '♀ Féminin',
+      neuter: '⚬ Neutre',
+    },
+    footerTagline: 'Plus de 400 mots · les 6 cas · tableaux de déclinaison gratuits',
+    caseAbbr: {
+      nominative: 'Nom.',
+      accusative: 'Acc.',
+      genitive: 'Gén.',
+      dative: 'Dat.',
+      instrumental: 'Inst.',
+      prepositional: 'Prép.',
+    },
+  },
+  jsonLd: {
+    webPageName: (b, t) => `${b} (${t}) – Tableau de déclinaison russe`,
+    webPageDescription: (baseForm, genderLabel, typeLabel) =>
+      `Tableau de déclinaison complet de ${baseForm} en russe. ${baseForm} est un ${typeLabel} ${genderLabel}.`,
+    articleName: (baseForm) => `Déclinaison de ${baseForm}`,
+    articleSection: 'Grammaire russe',
+    organizationName: 'Russian Declensions',
+    aboutDescription: (translation) => `Mot russe pour « ${translation} »`,
+    tableName: (baseForm) => `Tableau de déclinaison de ${baseForm}`,
+    tableAbstract: (baseForm, typeLabel) =>
+      `Déclinaison complète du ${typeLabel} russe ${baseForm} à travers tous les cas (nominatif, accusatif, génitif, datif, instrumental, prépositionnel, locatif), au singulier et au pluriel.`,
+    howToName: (baseForm, translation) => `Comment décliner ${baseForm} (${translation}) en russe`,
+    howToDescription: (baseForm, typeLabel) =>
+      `Guide pas à pas pour décliner le ${typeLabel} russe ${baseForm} dans tous les cas.`,
+    howToStepName: (caseLabel) => `Cas ${caseLabel}`,
+    howToStepText: (sg, pl, hint) => `Singulier : ${sg}. Pluriel : ${pl}. ${hint}`,
+    learningResourceName: (b, t) => `${b} (${t}) – Tableau de déclinaison russe`,
+    learningResourceDescription: (baseForm, genderLabel, typeLabel) =>
+      `Tableau de déclinaison complet de ${baseForm} en russe. ${baseForm} est un ${typeLabel} ${genderLabel}.`,
+    learningResourceType: 'Tableau de déclinaison',
+    educationalLevel: 'Débutant',
+  },
+  layoutSEO: {
+    title: 'Déclinaisons russes – Grammaire russe | Russian Cases with Anna',
+    description:
+      'Tableaux de déclinaison des noms russes : les six cas, singulier et pluriel. Référence gratuite par Russian Cases with Anna.',
+  },
+};
+
+const wordPageMetaRu: WordPageMetaBundle = {
+  a11y: {
+    breadcrumb: 'Навигация по разделу',
+    listenPronunciation: 'Прослушать произношение на русском',
+    listenPronunciationOf: (form) => `Прослушать: ${form}`,
+  },
+  openGraph: { siteName: 'Склонения русского языка' },
+  ogImage: {
+    wordNotFound: 'Слово не найдено',
+    tableCase: 'Падеж',
+    tableSingular: 'Ед. ч.',
+    tablePlural: 'Мн. ч.',
+    genderBadges: {
+      masculine: '♂ Мужской род',
+      feminine: '♀ Женский род',
+      neuter: '⚬ Средний род',
+    },
+    footerTagline: 'Более 400 слов · 6 падежей · бесплатные таблицы',
+    caseAbbr: {
+      nominative: 'Им.',
+      accusative: 'Вин.',
+      genitive: 'Род.',
+      dative: 'Дат.',
+      instrumental: 'Твор.',
+      prepositional: 'Предл.',
+    },
+  },
+  jsonLd: {
+    webPageName: (b, t) => `${b} (${t}) – таблица склонений`,
+    webPageDescription: (baseForm, genderLabel, typeLabel) =>
+      `Полная таблица склонений ${baseForm} в русском языке. ${baseForm} — ${typeLabel} ${genderLabel} рода.`,
+    articleName: (baseForm) => `Склонение ${baseForm}`,
+    articleSection: 'Русская грамматика',
+    organizationName: 'Russian Declensions',
+    aboutDescription: (translation) => `Русское слово для «${translation}»`,
+    tableName: (baseForm) => `Таблица склонений для ${baseForm}`,
+    tableAbstract: (baseForm, typeLabel) =>
+      `Полное склонение русского ${typeLabel} ${baseForm} по всем падежам (именительный, винительный, родительный, дательный, творительный, предложный, местный) в единственном и множественном числе.`,
+    howToName: (baseForm, translation) => `Как склонять ${baseForm} (${translation}) в русском языке`,
+    howToDescription: (baseForm, typeLabel) =>
+      `Пошаговое руководство по склонению русского ${typeLabel} ${baseForm} во всех падежах.`,
+    howToStepName: (caseLabel) => `${caseLabel} падеж`,
+    howToStepText: (sg, pl, hint) => `Ед. ч.: ${sg}. Мн. ч.: ${pl}. ${hint}`,
+    learningResourceName: (b, t) => `${b} (${t}) – таблица склонений`,
+    learningResourceDescription: (baseForm, genderLabel, typeLabel) =>
+      `Полная таблица склонений ${baseForm} в русском языке. ${baseForm} — ${typeLabel} ${genderLabel} рода.`,
+    learningResourceType: 'Таблица склонений',
+    educationalLevel: 'Начальный',
+  },
+  layoutSEO: {
+    title: 'Склонения в русском языке – грамматика | Russian Cases with Anna',
+    description:
+      'Таблицы склонения русских существительных: шесть падежей, единственное и множественное число. Бесплатный справочник Russian Cases with Anna.',
+  },
+};
+
 const translations: Record<LandingLanguage, WordPageTranslations> = {
   en_en: {
+    ...wordPageMetaEn,
     breadcrumb: { home: 'App', learn: 'Free Grammar Lessons', words: 'Russian Declensions' },
     h1Title: (base, trans) => `Russian Declension: ${base} (${trans})`,
     h2FullTable: (base) => `Full Declension Table of ${base}`,
@@ -272,6 +520,7 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     },
   },
   fr_fr: {
+    ...wordPageMetaFr,
     breadcrumb: { home: 'App', learn: 'Leçons de grammaire gratuites', words: 'Déclinaisons russes' },
     h1Title: (base, trans) => `Déclinaison russe : ${base} (${trans})`,
     h2FullTable: (base) => `Tableau complet de déclinaison de ${base}`,
@@ -377,6 +626,7 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     },
   },
   tr_tr: {
+    ...wordPageMetaEn,
     breadcrumb: { home: 'App', learn: 'Ücretsiz Gramer Dersleri', words: 'Rusça Çekimler' },
     h1Title: (base, trans) => `Rusça çekim: ${base} (${trans})`,
     h2FullTable: (base) => `${base} için tam çekim tablosu`,
@@ -472,6 +722,7 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     },
   },
   de_de: {
+    ...wordPageMetaEn,
     breadcrumb: { home: 'App', learn: 'Kostenlose Grammatik-Lektionen', words: 'Russische Deklinationen' },
     h1Title: (base, trans) => `Russische Deklination: ${base} (${trans})`,
     h2FullTable: (base) => `Vollständige Deklinationstabelle von ${base}`,
@@ -567,6 +818,7 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     },
   },
   pl_pl: {
+    ...wordPageMetaEn,
     breadcrumb: { home: 'App', learn: 'Darmowe lekcje gramatyki', words: 'Rosyjskie odmiany' },
     h1Title: (base, trans) => `Rosyjska odmiana: ${base} (${trans})`,
     h2FullTable: (base) => `Pełna tabela odmian ${base}`,
@@ -661,7 +913,388 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
       incorrect: 'Niepoprawnie',
     },
   },
+  es_es: {
+    ...wordPageMetaEn,
+    breadcrumb: { home: 'App', learn: 'Lecciones de gramática gratis', words: 'Declinaciones rusas' },
+    h1Title: (base, trans) => `Declinación rusa: ${base} (${trans})`,
+    h2FullTable: (base) => `Tabla completa de declinación de ${base}`,
+    h2HowToUse: (base) => `Cómo usar «${base}» en ruso (ejemplos)`,
+    h2Faq: (base) => `FAQ sobre la declinación de ${base}`,
+    contextSnippetType: (base, gender, decl) =>
+      `${base} es un sustantivo ${gender} que pertenece a la ${decl} declinación.`,
+    contextSnippetUsage: (level) =>
+      `Es una de las palabras más comunes en ruso, esencial para los aprendices de nivel ${level}.`,
+    peopleAlsoSearchedFor: 'Los usuarios también buscaron',
+    levelLabels: { beginners: 'principiantes', intermediate: 'intermedios', advanced: 'avanzados' },
+    declensionOrdinals: { first: '1.ª', second: '2.ª', third: '3.ª' },
+    fullDeclensionTable: 'Tabla completa de declinación de',
+    indeclinableNotice: (baseForm) =>
+      `${baseForm} es indeclinable — permanece igual en todos los casos. No hay distinción singular/plural.`,
+    indeclinableFormLabel: 'Forma invariable',
+    introParagraph1: (type, baseForm, translation, gender) =>
+      `El ${type} ruso **${baseForm}** (${translation}) es un sustantivo **${gender}**.`,
+    introParagraph3: (caseLabels) =>
+      `A continuación su declinación completa en todos los **casos rusos** (${caseLabels}) en **singular** y **plural**.`,
+    howToDecline: 'Cómo declinar',
+    tableHeaders: { case: 'Caso', singular: 'Singular', plural: 'Plural' },
+    caseLabel: 'Caso',
+    formatCaseDisplay: (generic, name) => `${name} ${generic}`,
+    tocCaseDeclensionLink: (baseForm, caseLabel) => `Declinación de ${baseForm} en ${caseLabel.toLowerCase()}`,
+    tocTitle: 'Tabla de contenidos',
+    cases: caseConfigEs,
+    learnMoreAboutCase: 'Más sobre cada caso:',
+    russianCaseEndingsCheatsheet: 'Chuleta de terminaciones de casos rusos',
+    usageNotes: 'Notas de uso',
+    usageNotesContent: (translation, baseForm, gender) =>
+      `La palabra rusa para ${translation}, ${baseForm}, sigue el patrón de declinación estándar para sustantivos ${gender}. Usa nominativo para el sujeto, acusativo para el objeto directo, genitivo para posesión o ausencia, dativo para objetos indirectos (a/para), instrumental con/por medio de, y preposicional después de в, на, о. Consulta nuestras guías sobre `,
+    usageNotesCaseEndings: 'terminaciones de casos rusos',
+    usageNotesAnd: ' y la ',
+    usageNotesGrammar: 'gramática rusa',
+    usageNotesForMore: ' para más información.',
+    exampleSentences: 'Ejemplos de oraciones',
+    comingSoon: 'Próximamente...',
+    leadMagnet: {
+      title: 'Practica declinaciones rusas en tu teléfono',
+      description: (baseForm) =>
+        `Deja de memorizar tablas y empieza a practicar cómo declinar ${baseForm} y miles de palabras rusas más en cuestionarios interactivos.`,
+      ctaText: 'Descarga la app y empieza a practicar hoy',
+    },
+    faq: {
+      howToTranslate: (t) => `¿Cómo se traduce ${t} al ruso?`,
+      translateAnswer: (t, base, slug) =>
+        `La palabra rusa para «${t}» es **${base}** (${slug}).`,
+      whatIsMeaning: (base) => `¿Qué significa ${base}?`,
+      meaningAnswer: (base, t, gender) =>
+        `**${base}** significa «${t}» en español. Es un sustantivo ${gender} en ruso.`,
+      whatIsCaseOf: (caseLabel, base) =>
+        `¿Cuál es el ${caseLabel.toLowerCase()} de ${base}?`,
+      caseAnswer: (caseLabel, base, sg, pl) =>
+        `El ${caseLabel.toLowerCase()} singular de ${base} es **${sg}**. El plural es **${pl}**.`,
+      isMasculineOrFeminine: (base) => `¿${base} es masculino o femenino?`,
+      genderAnswer: (base, gender) => `**${base}** es un sustantivo ${gender} en ruso.`,
+      isRegularOrIrregular: (base) => `¿${base} es regular o irregular?`,
+      regularAnswer: (base, gender) =>
+        `**${base}** es un sustantivo **regular**. Sigue el patrón de declinación estándar para sustantivos ${gender}.`,
+      indeclinableAnswer: (base) =>
+        `**${base}** es **indeclinable**. No cambia en ningún caso — la misma forma se usa para nominativo, acusativo, genitivo y todos los demás casos.`,
+    },
+    gender: { masculine: 'masculino', feminine: 'femenino', neuter: 'neutro' },
+    type: { noun: 'sustantivo', proper_noun: 'nombre propio' },
+    metadata: {
+      title: (t, base) => `Declinación de ${base} (${t}) en ruso - Tabla de los 6 casos`,
+      description: (base, t, gender) => {
+        const g = gender === 'masculine' ? 'masculino' : gender === 'feminine' ? 'femenino' : 'neutro';
+        return `Tabla completa de declinación del sustantivo ${g} ruso ${base} (${t}). Los 6 casos — nominativo, genitivo, dativo, acusativo, instrumental, preposicional — singular y plural con ejemplos de oraciones.`;
+      },
+      wordNotFound: 'Palabra no encontrada',
+    },
+    nav: { previousWord: 'Palabra anterior', nextWord: 'Siguiente palabra' },
+    quizSectionTitle: 'Ejercicios de opción múltiple',
+    quizSectionIntro: (baseForm) =>
+      `Ejercicio gratuito: pon a prueba tu dominio de la declinación de ${baseForm} con este cuestionario interactivo de opción múltiple. Una práctica sin registro para repasar los 6 casos rusos.`,
+    quiz: {
+      triggerTitle: 'Prueba tus conocimientos',
+      triggerDescription: (baseForm) => `Practica declinando ${baseForm} en distintos casos.`,
+      triggerCta: 'Iniciar cuestionario',
+      singular: 'Singular',
+      plural: 'Plural',
+      next: 'Siguiente',
+      seeResults: 'Ver resultados',
+      tryAgain: 'Intentar de nuevo',
+      close: 'Cerrar',
+      score: 'Puntuación',
+      questionLabel: 'Pregunta',
+      correct: 'Correcto',
+      incorrect: 'Incorrecto',
+    },
+  },
+  it_it: {
+    ...wordPageMetaEn,
+    breadcrumb: { home: 'App', learn: 'Lezioni di grammatica gratuite', words: 'Declinazioni russe' },
+    h1Title: (base, trans) => `Declinazione russa: ${base} (${trans})`,
+    h2FullTable: (base) => `Tabella completa di declinazione di ${base}`,
+    h2HowToUse: (base) => `Come usare «${base}» in russo (esempi)`,
+    h2Faq: (base) => `FAQ sulla declinazione di ${base}`,
+    contextSnippetType: (base, gender, decl) =>
+      `${base} è un sostantivo ${gender} che appartiene alla ${decl} declinazione.`,
+    contextSnippetUsage: (level) =>
+      `È una delle parole più comuni in russo, essenziale per chi studia a livello ${level}.`,
+    peopleAlsoSearchedFor: 'Gli utenti hanno cercato anche',
+    levelLabels: { beginners: 'principianti', intermediate: 'intermedi', advanced: 'avanzati' },
+    declensionOrdinals: { first: '1ª', second: '2ª', third: '3ª' },
+    fullDeclensionTable: 'Tabella completa di declinazione di',
+    indeclinableNotice: (baseForm) =>
+      `${baseForm} è indeclinabile — rimane uguale in tutti i casi. Non c'è distinzione singolare/plurale.`,
+    indeclinableFormLabel: 'Forma invariabile',
+    introParagraph1: (type, baseForm, translation, gender) =>
+      `Il ${type} russo **${baseForm}** (${translation}) è un sostantivo **${gender}**.`,
+    introParagraph3: (caseLabels) =>
+      `Di seguito la sua declinazione completa in tutti i **casi russi** (${caseLabels}) al **singolare** e **plurale**.`,
+    howToDecline: 'Come declinare',
+    tableHeaders: { case: 'Caso', singular: 'Singolare', plural: 'Plurale' },
+    caseLabel: 'Caso',
+    formatCaseDisplay: (generic, name) => `${name} ${generic}`,
+    tocCaseDeclensionLink: (baseForm, caseLabel) => `Declinazione di ${baseForm} al ${caseLabel.toLowerCase()}`,
+    tocTitle: 'Indice',
+    cases: caseConfigIt,
+    learnMoreAboutCase: 'Scopri di più su ogni caso:',
+    russianCaseEndingsCheatsheet: 'Prontuario delle terminazioni dei casi russi',
+    usageNotes: 'Note d\'uso',
+    usageNotesContent: (translation, baseForm, gender) =>
+      `La parola russa per ${translation}, ${baseForm}, segue il modello standard di declinazione per sostantivi ${gender}. Usa il nominativo per il soggetto, l\'accusativo per il complemento oggetto, il genitivo per possesso o assenza, il dativo per complementi di termine (a/per), lo strumentale con/per mezzo di, e il preposizionale dopo в, на, о. Consulta le nostre guide su `,
+    usageNotesCaseEndings: 'terminazioni dei casi russi',
+    usageNotesAnd: ' e la ',
+    usageNotesGrammar: 'grammatica russa',
+    usageNotesForMore: ' per maggiori informazioni.',
+    exampleSentences: 'Esempi di frasi',
+    comingSoon: 'Prossimamente...',
+    leadMagnet: {
+      title: 'Esercitati con le declinazioni russe sul tuo telefono',
+      description: (baseForm) =>
+        `Smetti di memorizzare tabelle e inizia a esercitarti su come declinare ${baseForm} e migliaia di altre parole russe in quiz interattivi.`,
+      ctaText: 'Scarica l\'app e inizia a esercitarti oggi',
+    },
+    faq: {
+      howToTranslate: (t) => `Come si traduce ${t} in russo?`,
+      translateAnswer: (t, base, slug) =>
+        `La parola russa per «${t}» è **${base}** (${slug}).`,
+      whatIsMeaning: (base) => `Cosa significa ${base}?`,
+      meaningAnswer: (base, t, gender) =>
+        `**${base}** significa «${t}» in italiano. È un sostantivo ${gender} in russo.`,
+      whatIsCaseOf: (caseLabel, base) =>
+        `Qual è il ${caseLabel.toLowerCase()} di ${base}?`,
+      caseAnswer: (caseLabel, base, sg, pl) =>
+        `Il ${caseLabel.toLowerCase()} singolare di ${base} è **${sg}**. Il plurale è **${pl}**.`,
+      isMasculineOrFeminine: (base) => `È ${base} maschile o femminile?`,
+      genderAnswer: (base, gender) => `**${base}** è un sostantivo ${gender} in russo.`,
+      isRegularOrIrregular: (base) => `È ${base} regolare o irregolare?`,
+      regularAnswer: (base, gender) =>
+        `**${base}** è un sostantivo **regolare**. Segue il modello standard di declinazione per sostantivi ${gender}.`,
+      indeclinableAnswer: (base) =>
+        `**${base}** è **indeclinabile**. Non cambia in nessun caso — la stessa forma si usa per nominativo, accusativo, genitivo e tutti gli altri casi.`,
+    },
+    gender: { masculine: 'maschile', feminine: 'femminile', neuter: 'neutro' },
+    type: { noun: 'sostantivo', proper_noun: 'nome proprio' },
+    metadata: {
+      title: (t, base) => `Declinazione di ${base} (${t}) in russo - Tabella dei 6 casi`,
+      description: (base, t, gender) => {
+        const g = gender === 'masculine' ? 'maschile' : gender === 'feminine' ? 'femminile' : 'neutro';
+        return `Tabella completa di declinazione del sostantivo ${g} russo ${base} (${t}). I 6 casi — nominativo, genitivo, dativo, accusativo, strumentale, preposizionale — singolare e plurale con esempi di frasi.`;
+      },
+      wordNotFound: 'Parola non trovata',
+    },
+    nav: { previousWord: 'Parola precedente', nextWord: 'Parola successiva' },
+    quizSectionTitle: 'Esercizi a scelta multipla',
+    quizSectionIntro: (baseForm) =>
+      `Esercizio gratuito: metti alla prova la tua padronanza della declinazione di ${baseForm} con questo quiz interattivo a scelta multipla. Una pratica senza registrazione per ripassare tutti e 6 i casi russi.`,
+    quiz: {
+      triggerTitle: 'Metti alla prova le tue conoscenze',
+      triggerDescription: (baseForm) => `Esercitati a declinare ${baseForm} in diversi casi.`,
+      triggerCta: 'Inizia quiz',
+      singular: 'Singolare',
+      plural: 'Plurale',
+      next: 'Avanti',
+      seeResults: 'Vedi risultati',
+      tryAgain: 'Riprova',
+      close: 'Chiudi',
+      score: 'Punteggio',
+      questionLabel: 'Domanda',
+      correct: 'Corretto',
+      incorrect: 'Sbagliato',
+    },
+  },
+  pt_pt: {
+    ...wordPageMetaEn,
+    breadcrumb: { home: 'App', learn: 'Lições de gramática grátis', words: 'Declinações russas' },
+    h1Title: (base, trans) => `Declinação russa: ${base} (${trans})`,
+    h2FullTable: (base) => `Tabela completa de declinação de ${base}`,
+    h2HowToUse: (base) => `Como usar «${base}» em russo (exemplos)`,
+    h2Faq: (base) => `FAQ sobre a declinação de ${base}`,
+    contextSnippetType: (base, gender, decl) =>
+      `${base} é um substantivo ${gender} que pertence à ${decl} declinação.`,
+    contextSnippetUsage: (level) =>
+      `É uma das palavras mais comuns em russo, essencial para quem estuda ao nível ${level}.`,
+    peopleAlsoSearchedFor: 'Os utilizadores também pesquisaram',
+    levelLabels: { beginners: 'iniciantes', intermediate: 'intermédios', advanced: 'avançados' },
+    declensionOrdinals: { first: '1.ª', second: '2.ª', third: '3.ª' },
+    fullDeclensionTable: 'Tabela completa de declinação de',
+    indeclinableNotice: (baseForm) =>
+      `${baseForm} é indeclinável — permanece igual em todos os casos. Não há distinção singular/plural.`,
+    indeclinableFormLabel: 'Forma invariável',
+    introParagraph1: (type, baseForm, translation, gender) =>
+      `O ${type} russo **${baseForm}** (${translation}) é um substantivo **${gender}**.`,
+    introParagraph3: (caseLabels) =>
+      `Segue a declinação completa em todos os **casos russos** (${caseLabels}) no **singular** e **plural**.`,
+    howToDecline: 'Como declinar',
+    tableHeaders: { case: 'Caso', singular: 'Singular', plural: 'Plural' },
+    caseLabel: 'Caso',
+    formatCaseDisplay: (generic, name) => `${name} ${generic}`,
+    tocCaseDeclensionLink: (baseForm, caseLabel) => `Declinação de ${baseForm} no ${caseLabel.toLowerCase()}`,
+    tocTitle: 'Índice',
+    cases: caseConfigPt,
+    learnMoreAboutCase: 'Saber mais sobre cada caso:',
+    russianCaseEndingsCheatsheet: 'Resumo das terminações dos casos russos',
+    usageNotes: 'Notas de utilização',
+    usageNotesContent: (translation, baseForm, gender) =>
+      `A palavra russa para ${translation}, ${baseForm}, segue o padrão de declinação padrão para substantivos ${gender}. Usa o nominativo para o sujeito, o acusativo para o complemento direto, o genitivo para posse ou ausência, o dativo para complementos indiretos (a/para), o instrumental com/por meio de, e o preposicional após в, на, о. Consulta os nossos guias sobre `,
+    usageNotesCaseEndings: 'terminações dos casos russos',
+    usageNotesAnd: ' e a ',
+    usageNotesGrammar: 'gramática russa',
+    usageNotesForMore: ' para mais informações.',
+    exampleSentences: 'Exemplos de frases',
+    comingSoon: 'Em breve...',
+    leadMagnet: {
+      title: 'Pratica declinações russas no teu telemóvel',
+      description: (baseForm) =>
+        `Deixa de memorizar tabelas e começa a praticar como declinar ${baseForm} e milhares de outras palavras russas em questionários interativos.`,
+      ctaText: 'Descarrega a app e começa a praticar hoje',
+    },
+    faq: {
+      howToTranslate: (t) => `Como se traduz ${t} para russo?`,
+      translateAnswer: (t, base, slug) =>
+        `A palavra russa para «${t}» é **${base}** (${slug}).`,
+      whatIsMeaning: (base) => `O que significa ${base}?`,
+      meaningAnswer: (base, t, gender) =>
+        `**${base}** significa «${t}» em português. É um substantivo ${gender} em russo.`,
+      whatIsCaseOf: (caseLabel, base) =>
+        `Qual é o ${caseLabel.toLowerCase()} de ${base}?`,
+      caseAnswer: (caseLabel, base, sg, pl) =>
+        `O ${caseLabel.toLowerCase()} singular de ${base} é **${sg}**. O plural é **${pl}**.`,
+      isMasculineOrFeminine: (base) => `É ${base} masculino ou feminino?`,
+      genderAnswer: (base, gender) => `**${base}** é um substantivo ${gender} em russo.`,
+      isRegularOrIrregular: (base) => `É ${base} regular ou irregular?`,
+      regularAnswer: (base, gender) =>
+        `**${base}** é um substantivo **regular**. Segue o padrão de declinação padrão para substantivos ${gender}.`,
+      indeclinableAnswer: (base) =>
+        `**${base}** é **indeclinável**. Não muda em nenhum caso — a mesma forma usa-se para nominativo, acusativo, genitivo e todos os outros casos.`,
+    },
+    gender: { masculine: 'masculino', feminine: 'feminino', neuter: 'neutro' },
+    type: { noun: 'substantivo', proper_noun: 'nome próprio' },
+    metadata: {
+      title: (t, base) => `Declinação de ${base} (${t}) em russo - Tabela dos 6 casos`,
+      description: (base, t, gender) => {
+        const g = gender === 'masculine' ? 'masculino' : gender === 'feminine' ? 'feminino' : 'neutro';
+        return `Tabela completa de declinação do substantivo ${g} russo ${base} (${t}). Os 6 casos — nominativo, genitivo, dativo, acusativo, instrumental, preposicional — singular e plural com exemplos de frases.`;
+      },
+      wordNotFound: 'Palavra não encontrada',
+    },
+    nav: { previousWord: 'Palavra anterior', nextWord: 'Palavra seguinte' },
+    quizSectionTitle: 'Exercícios de escolha múltipla',
+    quizSectionIntro: (baseForm) =>
+      `Exercício gratuito: testa o teu domínio da declinação de ${baseForm} com este questionário interativo de escolha múltipla. Uma prática sem registo para rever os 6 casos russos.`,
+    quiz: {
+      triggerTitle: 'Testa os teus conhecimentos',
+      triggerDescription: (baseForm) => `Pratica a declinar ${baseForm} em diferentes casos.`,
+      triggerCta: 'Iniciar questionário',
+      singular: 'Singular',
+      plural: 'Plural',
+      next: 'Seguinte',
+      seeResults: 'Ver resultados',
+      tryAgain: 'Tentar novamente',
+      close: 'Fechar',
+      score: 'Pontuação',
+      questionLabel: 'Pergunta',
+      correct: 'Correto',
+      incorrect: 'Incorreto',
+    },
+  },
+  nl_nl: {
+    ...wordPageMetaEn,
+    breadcrumb: { home: 'App', learn: 'Gratis grammatica-lessen', words: 'Russische verbuigingen' },
+    h1Title: (base, trans) => `Russische verbuiging: ${base} (${trans})`,
+    h2FullTable: (base) => `Volledige verbuigingstabel van ${base}`,
+    h2HowToUse: (base) => `Hoe «${base}» te gebruiken in het Russisch (voorbeelden)`,
+    h2Faq: (base) => `FAQ over de verbuiging van ${base}`,
+    contextSnippetType: (base, gender, decl) =>
+      `${base} is een ${gender} zelfstandig naamwoord dat tot de ${decl} verbuiging behoort.`,
+    contextSnippetUsage: (level) =>
+      `Het is een van de meest voorkomende woorden in het Russisch, essentieel voor ${level} leerlingen.`,
+    peopleAlsoSearchedFor: 'Gebruikers zochten ook naar',
+    levelLabels: { beginners: 'beginners', intermediate: 'gevorderden', advanced: 'experts' },
+    declensionOrdinals: { first: '1e', second: '2e', third: '3e' },
+    fullDeclensionTable: 'Volledige verbuigingstabel van',
+    indeclinableNotice: (baseForm) =>
+      `${baseForm} is onverbogen — het blijft hetzelfde in alle gevallen. Er is geen enkelvoud/meervoud-onderscheid.`,
+    indeclinableFormLabel: 'Onveranderlijke vorm',
+    introParagraph1: (type, baseForm, translation, gender) =>
+      `Het Russische ${type} **${baseForm}** (${translation}) is een **${gender}** zelfstandig naamwoord.`,
+    introParagraph3: (caseLabels) =>
+      `Hieronder staat de volledige verbuiging in alle **Russische gevallen** (${caseLabels}) in **enkelvoud** en **meervoud**.`,
+    howToDecline: 'Hoe te verbuigen',
+    tableHeaders: { case: 'Geval', singular: 'Enkelvoud', plural: 'Meervoud' },
+    caseLabel: 'Geval',
+    formatCaseDisplay: (generic, name) => `${name} ${generic}`,
+    tocCaseDeclensionLink: (baseForm, caseLabel) => `Verbuiging van ${baseForm} in de ${caseLabel.toLowerCase()}`,
+    tocTitle: 'Inhoudsopgave',
+    cases: caseConfigNl,
+    learnMoreAboutCase: 'Meer leren over elk geval:',
+    russianCaseEndingsCheatsheet: 'Russische geval-eindes spiekbriefje',
+    usageNotes: 'Gebruiksaanwijzingen',
+    usageNotesContent: (translation, baseForm, gender) =>
+      `Het Russische woord voor ${translation}, ${baseForm}, volgt het standaard verbuigingspatroon voor ${gender} zelfstandige naamwoorden. Gebruik de nominatief voor het onderwerp, de accusatief voor het lijdend voorwerp, de genitief voor bezit of afwezigheid, de datief voor meewerkende voorwerpen (aan/voor), de instrumentaal met/door middel van, en de prepositioneel na в, на, о. Zie onze gidsen over `,
+    usageNotesCaseEndings: 'Russische geval-eindes',
+    usageNotesAnd: ' en ',
+    usageNotesGrammar: 'Russische grammatica',
+    usageNotesForMore: ' voor meer.',
+    exampleSentences: 'Voorbeeldzinnen',
+    comingSoon: 'Binnenkort...',
+    leadMagnet: {
+      title: 'Oefen Russische verbuigingen op je telefoon',
+      description: (baseForm) =>
+        `Stop met tabellen memoriseren en begin te oefenen hoe je ${baseForm} en duizenden andere Russische woorden verbuigt in interactieve quizzen.`,
+      ctaText: 'Download de app en begin vandaag te oefenen',
+    },
+    faq: {
+      howToTranslate: (t) => `Hoe vertaal je ${t} naar het Russisch?`,
+      translateAnswer: (t, base, slug) =>
+        `Het Russische woord voor «${t}» is **${base}** (${slug}).`,
+      whatIsMeaning: (base) => `Wat betekent ${base}?`,
+      meaningAnswer: (base, t, gender) =>
+        `**${base}** betekent «${t}» in het Nederlands. Het is een ${gender} zelfstandig naamwoord in het Russisch.`,
+      whatIsCaseOf: (caseLabel, base) =>
+        `Wat is de ${caseLabel.toLowerCase()} van ${base}?`,
+      caseAnswer: (caseLabel, base, sg, pl) =>
+        `De ${caseLabel.toLowerCase()} enkelvoud van ${base} is **${sg}**. De meervoud is **${pl}**.`,
+      isMasculineOrFeminine: (base) => `Is ${base} mannelijk of vrouwelijk?`,
+      genderAnswer: (base, gender) => `**${base}** is een ${gender} zelfstandig naamwoord in het Russisch.`,
+      isRegularOrIrregular: (base) => `Is ${base} regelmatig of onregelmatig?`,
+      regularAnswer: (base, gender) =>
+        `**${base}** is een **regelmatig** zelfstandig naamwoord. Het volgt het standaard verbuigingspatroon voor ${gender} zelfstandige naamwoorden.`,
+      indeclinableAnswer: (base) =>
+        `**${base}** is **onverbogen**. Het verandert in geen enkel geval — dezelfde vorm wordt gebruikt voor nominatief, accusatief, genitief en alle andere gevallen.`,
+    },
+    gender: { masculine: 'mannelijk', feminine: 'vrouwelijk', neuter: 'onzijdig' },
+    type: { noun: 'zelfstandig naamwoord', proper_noun: 'eigennaam' },
+    metadata: {
+      title: (t, base) => `Verbuiging van ${base} (${t}) in het Russisch - Tabel van alle 6 gevallen`,
+      description: (base, t, gender) => {
+        const g = gender === 'masculine' ? 'mannelijk' : gender === 'feminine' ? 'vrouwelijk' : 'onzijdig';
+        return `Volledige verbuigingstabel van het Russische ${g} zelfstandig naamwoord ${base} (${t}). Alle 6 gevallen — nominatief, genitief, datief, accusatief, instrumentaal, prepositioneel — enkelvoud en meervoud met voorbeeldzinnen.`;
+      },
+      wordNotFound: 'Woord niet gevonden',
+    },
+    nav: { previousWord: 'Vorig woord', nextWord: 'Volgend woord' },
+    quizSectionTitle: 'Meerkeuzeoefeningen',
+    quizSectionIntro: (baseForm) =>
+      `Gratis oefening: test je beheersing van de verbuiging van ${baseForm} met deze interactieve meerkeuzequiz. Een praktische oefening zonder account om alle 6 Russische gevallen te herhalen.`,
+    quiz: {
+      triggerTitle: 'Test je kennis',
+      triggerDescription: (baseForm) => `Oefen het verbuigen van ${baseForm} in verschillende gevallen.`,
+      triggerCta: 'Start quiz',
+      singular: 'Enkelvoud',
+      plural: 'Meervoud',
+      next: 'Volgende',
+      seeResults: 'Bekijk resultaten',
+      tryAgain: 'Opnieuw proberen',
+      close: 'Sluiten',
+      score: 'Score',
+      questionLabel: 'Vraag',
+      correct: 'Correct',
+      incorrect: 'Incorrect',
+    },
+  },
   ru_ru: {
+    ...wordPageMetaRu,
     breadcrumb: { home: 'App', learn: 'Бесплатные уроки грамматики', words: 'Русские склонения' },
     h1Title: (base, trans) => `Склонение: ${base} (${trans})`,
     h2FullTable: (base) => `Полная таблица склонений ${base}`,

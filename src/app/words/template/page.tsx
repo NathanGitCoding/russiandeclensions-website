@@ -3,22 +3,22 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { getLandingLangFromRequest } from '@/lib/landingLangServer';
-import { getLearnDetailTranslations } from '@/data/website/learnDetailTranslations';
 import { getWordPageTranslations } from '@/data/website/wordPageTranslations';
-import { getRelatedWords } from '@/lib/words';
+import { getRelatedWords, type WordWithDeclensions } from '@/lib/words';
+import { getWordDisplayTranslation } from '@/lib/wordPageLang';
+import {
+  buildWordCaseArticleLinks,
+  buildWordCaseConfig,
+  buildWordFaqItems,
+  getWordDeclensionOrdinal,
+  getWordLevelLabel,
+} from '@/lib/wordPageBuilders';
 import { LearnLeadMagnet } from '@/components/learn/LearnLeadMagnet';
 import { PronunciationButton } from '@/components/learn/PronunciationButton';
 
 const WORD_BASE_PATH = '/russian-declension';
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://russiandeclensions.com';
-
-/** Level label for context snippet */
-function getLevelLabel(level: number, wt: { levelLabels: { beginners: string; intermediate: string; advanced: string } }): string {
-  if (level <= 1) return wt.levelLabels.beginners;
-  if (level === 2) return wt.levelLabels.intermediate;
-  return wt.levelLabels.advanced;
-}
 
 /* Gender badge colors - semantic, aligned with site palette */
 const genderBadgeClasses: Record<string, string> = {
@@ -28,6 +28,7 @@ const genderBadgeClasses: Record<string, string> = {
 };
 
 const mockWord = {
+  word_id: 0,
   base_form: 'книга',
   slug: 'kniga',
   translation_en: 'book',
@@ -55,65 +56,6 @@ const mockWord = {
   locative_sg: 'книге',
   locative_pl: 'книгах',
 };
-
-const caseConfig = [
-  {
-    key: 'nominative',
-    label: 'Nominative',
-    hint: 'subject',
-    sg: mockWord.nominative_sg,
-    pl: mockWord.nominative_pl,
-    isBase: true,
-  },
-  {
-    key: 'accusative',
-    label: 'Accusative',
-    hint: 'direct object',
-    sg: mockWord.accusative_sg,
-    pl: mockWord.accusative_pl,
-    isBase: false,
-  },
-  {
-    key: 'genitive',
-    label: 'Genitive',
-    hint: 'possession / absence',
-    sg: mockWord.genitive_sg,
-    pl: mockWord.genitive_pl,
-    isBase: false,
-  },
-  {
-    key: 'dative',
-    label: 'Dative',
-    hint: 'to / for',
-    sg: mockWord.dative_sg,
-    pl: mockWord.dative_pl,
-    isBase: false,
-  },
-  {
-    key: 'instrumental',
-    label: 'Instrumental',
-    hint: 'with / by means of',
-    sg: mockWord.instrumental_sg,
-    pl: mockWord.instrumental_pl,
-    isBase: false,
-  },
-  {
-    key: 'prepositional',
-    label: 'Prepositional',
-    hint: 'location / topic',
-    sg: mockWord.prepositional_sg,
-    pl: mockWord.prepositional_pl,
-    isBase: false,
-  },
-  {
-    key: 'locative',
-    label: 'Locative',
-    hint: 'specific location (в/на)',
-    sg: mockWord.locative_sg,
-    pl: mockWord.locative_pl,
-    isBase: false,
-  },
-];
 
 /** Renders text with **bold** segments as <strong> - same as learn articles */
 function WithBold({ text }: { text: string }) {
@@ -177,33 +119,13 @@ function HighlightedEnding({
   return <span className={mutedClass}>{text}</span>;
 }
 
-const faqItems = [
-  { question: 'How to translate book in Russian?', answer: 'The Russian word for "book" is **книга** (kniga).' },
-  { question: 'What is the meaning of книга?', answer: '**книга** means "book" in English. It is a feminine noun in Russian.' },
-  ...caseConfig.map((row) => ({
-    question: `What is the ${row.label.toLowerCase()} of ${mockWord.base_form}?`,
-    answer: `The ${row.label.toLowerCase()} singular of ${mockWord.base_form} is **${row.sg}**. The ${row.label.toLowerCase()} plural is **${row.pl}**.`,
-  })),
-  { question: 'Is книга masculine or feminine?', answer: '**книга** is a feminine noun in Russian.' },
-  { question: 'Is книга regular or irregular?', answer: '**книга** is a **regular** noun. It follows the standard declension pattern for feminine nouns ending in -а.' },
-];
-
-const exampleSentencesCases = [
-  { case: 'Nominative', ru: 'Это интересная книга.', en: 'This is an interesting book.', hasContent: true },
-  { case: 'Accusative', ru: '', en: '', hasContent: false },
-  { case: 'Genitive', ru: '', en: '', hasContent: false },
-  { case: 'Dative', ru: '', en: '', hasContent: false },
-  { case: 'Instrumental', ru: '', en: '', hasContent: false },
-  { case: 'Prepositional', ru: '', en: '', hasContent: false },
-];
-
-/* Internal links to Russian case articles (existing on site) */
-const caseArticleLinks = [
-  { slug: 'russian-accusative-case', label: 'accusative' },
-  { slug: 'russian-genitive-case', label: 'genitive' },
-  { slug: 'russian-dative-case', label: 'dative' },
-  { slug: 'russian-instrumental-case', label: 'instrumental' },
-  { slug: 'russian-prepositional-case', label: 'prepositional' },
+const TEMPLATE_EXAMPLE_CASE_KEYS = [
+  'nominative',
+  'accusative',
+  'genitive',
+  'dative',
+  'instrumental',
+  'prepositional',
 ] as const;
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -213,8 +135,9 @@ export async function generateMetadata(): Promise<Metadata> {
 
   const lang = await getLandingLangFromRequest();
   const wt = getWordPageTranslations(lang);
-  const title = wt.metadata.title(mockWord.translation_en, mockWord.base_form);
-  const description = wt.metadata.description(mockWord.base_form, mockWord.translation_en, mockWord.gender);
+  const translation = getWordDisplayTranslation(mockWord as WordWithDeclensions, lang);
+  const title = wt.metadata.title(translation, mockWord.base_form);
+  const description = wt.metadata.description(mockWord.base_form, translation, mockWord.gender);
 
   const canonicalUrl = `${siteUrl}/russian-declension/${mockWord.slug}`;
 
@@ -226,7 +149,7 @@ export async function generateMetadata(): Promise<Metadata> {
       title,
       description,
       url: canonicalUrl,
-      siteName: 'Russian Declensions',
+      siteName: wt.openGraph.siteName,
     },
   };
 }
@@ -237,19 +160,36 @@ export default async function WordTemplatePage() {
   }
 
   const lang = await getLandingLangFromRequest();
-  const t = getLearnDetailTranslations(lang);
   const wt = getWordPageTranslations(lang);
+  const w = mockWord as WordWithDeclensions;
+  const translation = getWordDisplayTranslation(w, lang);
   const genderLabel = wt.gender[mockWord.gender] ?? mockWord.gender;
   const typeLabel = wt.type[mockWord.type] ?? mockWord.type;
   const badgeClass = genderBadgeClasses[mockWord.gender] ?? 'bg-[hsl(var(--muted))] text-[hsl(var(--muted-foreground))]';
 
-  const declensionOrdinal = mockWord.gender === 'feminine' && mockWord.base_form?.endsWith('ь')
-    ? wt.declensionOrdinals.third
-    : mockWord.gender === 'feminine'
-      ? wt.declensionOrdinals.first
-      : wt.declensionOrdinals.second;
-  const levelLabel = getLevelLabel(mockWord.word_apparition_level ?? 1, wt);
+  const caseConfig = buildWordCaseConfig(w, wt);
+  const faqItems = buildWordFaqItems(w, wt, translation, genderLabel, false);
+  const caseArticleLinks = buildWordCaseArticleLinks(wt);
+  const declensionOrdinal = getWordDeclensionOrdinal(w, wt);
+  const levelLabel = getWordLevelLabel(mockWord.word_apparition_level ?? 1, wt);
   const relatedWords = await getRelatedWords(mockWord.slug, mockWord.gender, 5);
+
+  const exampleRows = TEMPLATE_EXAMPLE_CASE_KEYS.map((key) => {
+    const c = wt.cases.find((x) => x.key === key)!;
+    const hasContent = key === 'nominative';
+    return {
+      key,
+      label: c.label,
+      ru: hasContent ? 'Это интересная книга.' : '',
+      gloss:
+        hasContent && lang === 'fr_fr'
+          ? 'Ceci est un livre intéressant.'
+          : hasContent
+            ? 'This is an interesting book.'
+            : '',
+      hasContent,
+    };
+  });
 
   const leadMagnetCta = {
     title: wt.leadMagnet.title,
@@ -264,44 +204,50 @@ export default async function WordTemplatePage() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
-      { '@type': 'ListItem', position: 2, name: 'Learn', item: `${siteUrl}/learn` },
-      { '@type': 'ListItem', position: 3, name: 'Words', item: `${siteUrl}/words` },
+      { '@type': 'ListItem', position: 1, name: wt.breadcrumb.home, item: siteUrl },
+      { '@type': 'ListItem', position: 2, name: wt.breadcrumb.learn, item: `${siteUrl}/learn` },
+      { '@type': 'ListItem', position: 3, name: wt.breadcrumb.words, item: `${siteUrl}/words` },
       {
         '@type': 'ListItem',
         position: 4,
-        name: `${mockWord.base_form} (${mockWord.translation_en})`,
+        name: `${mockWord.base_form} (${translation})`,
         item: canonicalUrl,
       },
     ],
   };
 
+  const j = wt.jsonLd;
   const webPageJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    name: `${mockWord.base_form} (${mockWord.translation_en}) – Russian Declension Table`,
-    description: `Full declension table of ${mockWord.base_form} in Russian. ${mockWord.base_form} is a ${mockWord.gender} ${mockWord.type}.`,
+    name: j.webPageName(mockWord.base_form, translation),
+    description: j.webPageDescription(mockWord.base_form, genderLabel, typeLabel),
     mainEntity: {
       '@type': 'Article',
-      name: `${mockWord.base_form} declension`,
-      articleSection: 'Russian grammar',
+      name: j.articleName(mockWord.base_form),
+      articleSection: j.articleSection,
       datePublished: '2024-01-01',
       dateModified: '2024-12-01',
-      author: { '@type': 'Organization', name: 'Russian Declensions', url: siteUrl },
-      publisher: { '@type': 'Organization', name: 'Russian Declensions', url: siteUrl, logo: { '@type': 'ImageObject', url: `${siteUrl}/favicon.ico` } },
+      author: { '@type': 'Organization', name: j.organizationName, url: siteUrl },
+      publisher: {
+        '@type': 'Organization',
+        name: j.organizationName,
+        url: siteUrl,
+        logo: { '@type': 'ImageObject', url: `${siteUrl}/favicon.ico` },
+      },
       about: {
         '@type': 'Thing',
         name: mockWord.base_form,
-        description: `Russian word for ${mockWord.translation_en}`,
+        description: j.aboutDescription(translation),
       },
       hasPart: {
         '@type': 'Table',
-        name: `Declension table for ${mockWord.base_form}`,
-        abstract: `Complete declension of the Russian ${mockWord.type} ${mockWord.base_form} across all cases (nominative, accusative, genitive, dative, instrumental, prepositional, locative) in singular and plural forms.`,
+        name: j.tableName(mockWord.base_form),
+        abstract: j.tableAbstract(mockWord.base_form, typeLabel),
         about: {
           '@type': 'Thing',
           name: mockWord.base_form,
-          description: `Russian word for ${mockWord.translation_en}`,
+          description: j.aboutDescription(translation),
         },
         cssSelector: '.learn-detail-table',
       },
@@ -311,13 +257,27 @@ export default async function WordTemplatePage() {
   const howToJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'HowTo',
-    name: `How to decline ${mockWord.base_form} (${mockWord.translation_en}) in Russian`,
-    description: `Step-by-step guide to declining the Russian ${mockWord.type} ${mockWord.base_form} across all cases.`,
+    name: j.howToName(mockWord.base_form, translation),
+    description: j.howToDescription(mockWord.base_form, typeLabel),
     step: caseConfig.map((row) => ({
       '@type': 'HowToStep' as const,
-      name: `${row.label} case`,
-      text: `Singular: ${row.sg}. Plural: ${row.pl}. ${row.hint}`,
+      name: j.howToStepName(row.label),
+      text: j.howToStepText(row.sg, row.pl, row.hint),
     })),
+  };
+
+  const learningResourceJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'LearningResource',
+    name: j.learningResourceName(mockWord.base_form, translation),
+    description: j.learningResourceDescription(mockWord.base_form, genderLabel, typeLabel),
+    learningResourceType: j.learningResourceType,
+    educationalLevel: j.educationalLevel,
+    about: {
+      '@type': 'Thing',
+      name: mockWord.base_form,
+      description: j.aboutDescription(translation),
+    },
   };
 
   const faqJsonLd = {
@@ -352,9 +312,13 @@ export default async function WordTemplatePage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(learningResourceJsonLd) }}
+      />
 
       {/* Breadcrumbs */}
-      <nav className="learn-breadcrumb mb-6" aria-label="Breadcrumb">
+      <nav className="learn-breadcrumb mb-6" aria-label={wt.a11y.breadcrumb}>
         <Link href="/" className="learn-breadcrumb-link">
           {wt.breadcrumb.home}
         </Link>
@@ -368,7 +332,7 @@ export default async function WordTemplatePage() {
         </Link>
         <span className="learn-breadcrumb-sep">/</span>
         <span className="learn-breadcrumb-current" lang="ru">
-          {mockWord.base_form} ({mockWord.translation_en})
+          {mockWord.base_form} ({translation})
         </span>
       </nav>
 
@@ -380,11 +344,11 @@ export default async function WordTemplatePage() {
             style={{ fontFamily: 'var(--font-cyrillic)' }}
             lang="ru"
           >
-            {wt.h1Title(mockWord.base_form, mockWord.translation_en)}
+            {wt.h1Title(mockWord.base_form, translation)}
           </h1>
           <PronunciationButton
             text={mockWord.base_form}
-            ariaLabel="Listen to Russian pronunciation"
+            ariaLabel={wt.a11y.listenPronunciation}
             size="lg"
           />
         </div>
@@ -417,16 +381,13 @@ export default async function WordTemplatePage() {
               {wt.h2FullTable(mockWord.base_form)}
             </a>
             <ul className="ml-4 mt-1.5 space-y-1 border-l-2 border-[hsl(var(--border))] pl-4">
-              {caseConfig.map((row) => {
-                const caseLabel = wt.cases.find((c) => c.key === row.key)?.label ?? row.label;
-                return (
-                  <li key={row.key}>
-                    <a href={`#case-${row.key}`} className="text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--foreground))] hover:underline">
-                      {wt.tocCaseDeclensionLink(mockWord.base_form, caseLabel)}
-                    </a>
-                  </li>
-                );
-              })}
+              {caseConfig.map((row) => (
+                <li key={row.key}>
+                  <a href={`#case-${row.key}`} className="text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--foreground))] hover:underline">
+                    {wt.tocCaseDeclensionLink(mockWord.base_form, row.label)}
+                  </a>
+                </li>
+              ))}
             </ul>
           </li>
           <li>
@@ -477,7 +438,9 @@ export default async function WordTemplatePage() {
                   className={`scroll-mt-24 ${index % 2 === 0 ? 'bg-[hsl(var(--primary)_/_0.08)]' : 'bg-white'}`}
                 >
                   <td>
-                    <span className="font-semibold text-[hsl(var(--foreground))]">{row.label} Case</span>
+                    <span className="font-semibold text-[hsl(var(--foreground))]">
+                      {wt.formatCaseDisplay(wt.caseLabel, row.label)}
+                    </span>
                     <p className="text-xs text-[hsl(var(--muted-foreground))]" title={row.hint}>
                       {row.hint}
                     </p>
@@ -490,7 +453,7 @@ export default async function WordTemplatePage() {
                       <PronunciationButton
                         text={row.sg}
                         size="xs"
-                        ariaLabel={`Listen to ${row.sg}`}
+                        ariaLabel={wt.a11y.listenPronunciationOf(row.sg)}
                       />
                     </div>
                   </td>
@@ -502,7 +465,7 @@ export default async function WordTemplatePage() {
                       <PronunciationButton
                         text={row.pl}
                         size="xs"
-                        ariaLabel={`Listen to ${row.pl}`}
+                        ariaLabel={wt.a11y.listenPronunciationOf(row.pl)}
                       />
                     </div>
                   </td>
@@ -541,7 +504,7 @@ export default async function WordTemplatePage() {
           {wt.usageNotes}
         </h2>
         <p className="text-[hsl(var(--muted-foreground))] leading-relaxed">
-          {wt.usageNotesContent(mockWord.translation_en, mockWord.base_form, genderLabel)}
+          {wt.usageNotesContent(translation, mockWord.base_form, genderLabel)}
           <Link href="/learn/articles/russian-case-endings-cheatsheet" className="text-[hsl(var(--primary))] hover:underline">
             {wt.usageNotesCaseEndings}
           </Link>
@@ -568,19 +531,20 @@ export default async function WordTemplatePage() {
           {wt.h2HowToUse(mockWord.base_form)}
         </h2>
         <div className="flex flex-col gap-3">
-          {exampleSentencesCases.map((item) => (
-            <div
-              key={item.case}
-              className="learn-mistake-card"
-            >
-              <span className="learn-card-badge">{item.case}</span>
+          {exampleRows.map((item) => (
+            <div key={item.key} className="learn-mistake-card">
+              <span className="learn-card-badge">{item.label}</span>
               {item.hasContent ? (
                 <div className="mt-2 space-y-1">
-                  <p className="text-[hsl(var(--foreground))] whitespace-nowrap overflow-x-auto" lang="ru">{item.ru}</p>
-                  <p className="text-sm text-[hsl(var(--muted-foreground))] whitespace-nowrap overflow-x-auto">{item.en}</p>
+                  <p className="text-[hsl(var(--foreground))] whitespace-nowrap overflow-x-auto" lang="ru">
+                    {item.ru}
+                  </p>
+                  <p className="text-sm text-[hsl(var(--muted-foreground))] whitespace-nowrap overflow-x-auto">
+                    {item.gloss}
+                  </p>
                 </div>
               ) : (
-                <p className="mt-2 italic text-[hsl(var(--muted-foreground))]">Coming soon...</p>
+                <p className="mt-2 italic text-[hsl(var(--muted-foreground))]">{wt.comingSoon}</p>
               )}
             </div>
           ))}
@@ -631,10 +595,10 @@ export default async function WordTemplatePage() {
 
       {/* [6. PREV / NEXT NAVIGATION] */}
       <nav className="flex items-center justify-between border-t border-[hsl(var(--border))] pt-8">
-        <Link href="/russian-declension/dom" className="learn-detail-back" aria-label="Previous word">
+        <Link href="/russian-declension/dom" className="learn-detail-back" aria-label={wt.nav.previousWord}>
           ← дом
         </Link>
-        <Link href="/russian-declension/voda" className="learn-detail-back" aria-label="Next word">
+        <Link href="/russian-declension/voda" className="learn-detail-back" aria-label={wt.nav.nextWord}>
           вода →
         </Link>
       </nav>

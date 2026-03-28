@@ -4,7 +4,7 @@ import { buildSitemapIndexXml, getBaseUrl } from '@/lib/sitemapXml';
 export const dynamic = 'force-static';
 export const revalidate = 86400;
 
-const CONTENT_DATE = new Date('2025-03-15');
+const CONTENT_DATE = new Date('2026-03-28');
 
 export async function GET() {
   const baseUrl = getBaseUrl();

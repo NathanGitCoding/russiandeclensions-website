@@ -3,12 +3,14 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import { BookOpen, Plus, Minus } from 'lucide-react';
+import { BookOpen, Plus, Minus, Clock, List } from 'lucide-react';
 import {
   getLearnArticle,
   getAllLearnArticleSlugs,
+  type LearnArticle,
   type LearnArticleMistakeCard,
 } from '@/data/learnArticles';
+import { getLearnLesson, getAllLearnLessonSlugs } from '@/data/learnLessons';
 import { LearnLeadMagnet } from '@/components/learn/LearnLeadMagnet';
 import { getLandingLangFromRequest } from '@/lib/landingLangServer';
 import { getLearnDetailTranslations } from '@/data/website/learnDetailTranslations';
@@ -76,6 +78,126 @@ function MistakeCard({
   );
 }
 
+/** Estimate reading time in minutes from article content */
+function estimateReadingTime(article: LearnArticle): number {
+  let wordCount = 0;
+  const countWords = (text?: string) => {
+    if (!text) return;
+    wordCount += text.split(/\s+/).filter(Boolean).length;
+  };
+  countWords(article.intro);
+  countWords(article.conclusion);
+  countWords(article.conclusionIntro);
+  article.conclusionBullets?.forEach(countWords);
+  countWords(article.conclusionOutro);
+  article.sections?.forEach((s) => {
+    countWords(s.h2);
+    countWords(s.content);
+    s.bullets?.forEach(countWords);
+    s.subsections?.forEach((sub) => {
+      countWords(sub.h3);
+      countWords(sub.content);
+      sub.bullets?.forEach(countWords);
+    });
+    s.mistakeCards?.forEach((c) => {
+      countWords(c.title);
+      countWords(c.wrong);
+      countWords(c.correct);
+      countWords(c.why);
+      countWords(c.fix);
+    });
+  });
+  article.items?.forEach((item) => {
+    countWords(item.title);
+    countWords(item.description);
+    item.pros?.forEach(countWords);
+    item.cons?.forEach(countWords);
+  });
+  article.faq?.forEach((f) => {
+    countWords(f.question);
+    countWords(f.answer);
+  });
+  return Math.max(1, Math.round(wordCount / 200));
+}
+
+/** Slugify a heading for anchor IDs */
+function slugify(text: string): string {
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9а-яё\s-]/gi, '')
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-')
+    .slice(0, 60);
+}
+
+/** Get 3 related articles based on internalLinks or fallback to other articles */
+function getRelatedArticles(
+  currentSlug: string,
+  article: LearnArticle
+): { slug: string; title: string }[] {
+  const allSlugs = getAllLearnArticleSlugs().filter((s) => s !== currentSlug);
+  const related: { slug: string; title: string }[] = [];
+
+  // First: find articles referenced in internalLinks
+  if (article.internalLinks) {
+    for (const link of article.internalLinks) {
+      const match = link.href.match(/\/learn\/articles\/(.+)/);
+      if (match && allSlugs.includes(match[1])) {
+        const linkedArticle = getLearnArticle(match[1]);
+        if (linkedArticle) {
+          related.push({ slug: match[1], title: linkedArticle.title });
+        }
+      }
+      if (related.length >= 3) break;
+    }
+  }
+
+  // Fill remaining spots with other articles
+  if (related.length < 3) {
+    for (const slug of allSlugs) {
+      if (related.some((r) => r.slug === slug)) continue;
+      const a = getLearnArticle(slug);
+      if (a) related.push({ slug, title: a.title });
+      if (related.length >= 3) break;
+    }
+  }
+
+  return related;
+}
+
+/** Map article slugs to their corresponding practice case route */
+const SLUG_TO_PRACTICE_CASE: Record<string, string> = {
+  'russian-genitive-case': 'genitive',
+  'russian-accusative-case': 'accusative',
+  'russian-dative-case': 'dative',
+  'russian-instrumental-case': 'instrumental',
+  'russian-prepositional-case': 'prepositional',
+};
+
+/** Get related lessons for an article (max 3) */
+function getRelatedLessons(
+  currentSlug: string,
+  lang?: string
+): { slug: string; title: string }[] {
+  const lessonSlugs = getAllLearnLessonSlugs();
+  const related: { slug: string; title: string }[] = [];
+
+  // Case-specific articles → matching case lesson first
+  const caseName = SLUG_TO_PRACTICE_CASE[currentSlug];
+  for (const lSlug of lessonSlugs) {
+    const lesson = getLearnLesson(lSlug, lang as Parameters<typeof getLearnLesson>[1]);
+    if (!lesson) continue;
+    // Prioritize lesson that matches the same case
+    if (caseName && lSlug.includes(caseName)) {
+      related.unshift({ slug: lSlug, title: lesson.title });
+    } else {
+      related.push({ slug: lSlug, title: lesson.title });
+    }
+  }
+
+  return related.slice(0, 3);
+}
+
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://russiandeclensions.com';
 
 type Props = {
@@ -107,6 +229,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         height: 1200,
         alt: article.h1,
       };
+  const datePublished = (article.jsonLd as Record<string, unknown>).datePublished as
+    | string
+    | undefined;
+  const dateModified = (article.jsonLd as Record<string, unknown>).dateModified as
+    | string
+    | undefined;
+
   return {
     title: article.metaTitle,
     description: article.metaDescription,
@@ -118,6 +247,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: article.metaDescription,
       type: 'article',
       images: [ogImage],
+      ...(datePublished && { publishedTime: datePublished }),
+      ...(dateModified && { modifiedTime: dateModified }),
     },
     twitter: {
       card: 'summary_large_image',
@@ -134,6 +265,21 @@ export default async function LearnArticlePage({ params }: Props) {
   const article = getLearnArticle(slug, lang);
   const t = getLearnDetailTranslations(lang);
   if (!article) notFound();
+
+  const readingTime = estimateReadingTime(article);
+  const relatedArticles = getRelatedArticles(slug, article);
+  const relatedLessons = getRelatedLessons(slug, lang);
+  const practiceCase = SLUG_TO_PRACTICE_CASE[slug];
+  const hasToc = (article.sections?.length ?? 0) >= 4;
+  const tocItems = hasToc
+    ? article.sections!.map((s) => ({ id: slugify(s.h2), label: s.h2 }))
+    : [];
+
+  // Enrich the Article JSON-LD with timeRequired
+  const enrichedJsonLd = {
+    ...article.jsonLd,
+    timeRequired: `PT${readingTime}M`,
+  };
 
   const breadcrumbLd = {
     '@context': 'https://schema.org',
@@ -188,7 +334,7 @@ export default async function LearnArticlePage({ params }: Props) {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(article.jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(enrichedJsonLd) }}
       />
       <script
         type="application/ld+json"
@@ -239,6 +385,10 @@ export default async function LearnArticlePage({ params }: Props) {
           <h1 className="learn-detail-title" itemProp="headline">
             {article.h1}
           </h1>
+          <p className="learn-detail-reading-time">
+            <Clock size={14} />
+            <span>{readingTime} min read</span>
+          </p>
           <p className="learn-detail-intro" itemProp="description">
             <WithBold text={article.intro} />
           </p>
@@ -258,6 +408,21 @@ export default async function LearnArticlePage({ params }: Props) {
               </ul>
             </div>
           )}
+          {hasToc && (
+            <nav className="learn-detail-toc" aria-label="Table of contents">
+              <div className="learn-detail-toc-header">
+                <List size={16} />
+                <span>Table of Contents</span>
+              </div>
+              <ol className="learn-detail-toc-list">
+                {tocItems.map((item, i) => (
+                  <li key={i}>
+                    <a href={`#${item.id}`}>{item.label}</a>
+                  </li>
+                ))}
+              </ol>
+            </nav>
+          )}
         </header>
 
         <div className="learn-detail-body">
@@ -274,7 +439,7 @@ export default async function LearnArticlePage({ params }: Props) {
                         <span className="learn-detail-section-num" aria-hidden>
                           {idx + 1}
                         </span>
-                        <h2>{section.h2}</h2>
+                        <h2 id={slugify(section.h2)}>{section.h2}</h2>
                       </div>
                       {section.image && (
                         <figure className="learn-detail-hero">
@@ -646,6 +811,64 @@ export default async function LearnArticlePage({ params }: Props) {
             </p>
           </section>
         </div>
+
+        {/* Practice CTA */}
+        {practiceCase && (
+          <section className="learn-detail-practice-cta" aria-labelledby="practice-heading">
+            <h2 id="practice-heading" className="learn-detail-related-title">
+              {t.practiceThisCase}
+            </h2>
+            <Link
+              href={`/practice/${practiceCase}`}
+              className="learn-detail-related-card"
+            >
+              <span className="learn-detail-related-card-title">{t.practiceNow}</span>
+              <span className="learn-detail-related-card-arrow">→</span>
+            </Link>
+          </section>
+        )}
+
+        {/* Related Lessons */}
+        {relatedLessons.length > 0 && (
+          <section className="learn-detail-related" aria-labelledby="related-lessons-heading">
+            <h2 id="related-lessons-heading" className="learn-detail-related-title">
+              {t.relatedLessons}
+            </h2>
+            <div className="learn-detail-related-grid">
+              {relatedLessons.map((rl) => (
+                <Link
+                  key={rl.slug}
+                  href={`/learn/lessons/${rl.slug}`}
+                  className="learn-detail-related-card"
+                >
+                  <span className="learn-detail-related-card-title">{rl.title}</span>
+                  <span className="learn-detail-related-card-arrow">→</span>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Related Articles */}
+        {relatedArticles.length > 0 && (
+          <section className="learn-detail-related" aria-labelledby="related-heading">
+            <h2 id="related-heading" className="learn-detail-related-title">
+              {t.relatedGuides}
+            </h2>
+            <div className="learn-detail-related-grid">
+              {relatedArticles.map((ra) => (
+                <Link
+                  key={ra.slug}
+                  href={`/learn/articles/${ra.slug}`}
+                  className="learn-detail-related-card"
+                >
+                  <span className="learn-detail-related-card-title">{ra.title}</span>
+                  <span className="learn-detail-related-card-arrow">→</span>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
       </article>
     </>
   );
