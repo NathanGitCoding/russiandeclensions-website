@@ -416,7 +416,7 @@ const wordPageMetaRu: WordPageMetaBundle = {
 const translations: Record<LandingLanguage, WordPageTranslations> = {
   en_en: {
     ...wordPageMetaEn,
-    breadcrumb: { home: 'App', learn: 'Free Grammar Lessons', words: 'Russian Declensions' },
+    breadcrumb: { home: 'App', learn: 'Free Grammar Lessons', words: 'Declension tables' },
     h1Title: (base, trans) => `Russian Declension: ${base} (${trans})`,
     h2FullTable: (base) => `Full Declension Table of ${base}`,
     h2HowToUse: (base) => `How to use "${base}" in Russian (Examples)`,
@@ -521,7 +521,7 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
   },
   fr_fr: {
     ...wordPageMetaFr,
-    breadcrumb: { home: 'App', learn: 'Leçons de grammaire gratuites', words: 'Déclinaisons russes' },
+    breadcrumb: { home: 'App', learn: 'Leçons de grammaire gratuites', words: 'Tables de déclinaisons' },
     h1Title: (base, trans) => `Déclinaison russe : ${base} (${trans})`,
     h2FullTable: (base) => `Tableau complet de déclinaison de ${base}`,
     h2HowToUse: (base) => `Comment utiliser « ${base} » en russe (exemples)`,
@@ -627,7 +627,7 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
   },
   tr_tr: {
     ...wordPageMetaEn,
-    breadcrumb: { home: 'App', learn: 'Ücretsiz Gramer Dersleri', words: 'Rusça Çekimler' },
+    breadcrumb: { home: 'App', learn: 'Ücretsiz Gramer Dersleri', words: 'Çekim tabloları' },
     h1Title: (base, trans) => `Rusça çekim: ${base} (${trans})`,
     h2FullTable: (base) => `${base} için tam çekim tablosu`,
     h2HowToUse: (base) => `"${base}" Rusçada nasıl kullanılır (örnekler)`,
@@ -723,7 +723,7 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
   },
   de_de: {
     ...wordPageMetaEn,
-    breadcrumb: { home: 'App', learn: 'Kostenlose Grammatik-Lektionen', words: 'Russische Deklinationen' },
+    breadcrumb: { home: 'App', learn: 'Kostenlose Grammatik-Lektionen', words: 'Deklinationstabellen' },
     h1Title: (base, trans) => `Russische Deklination: ${base} (${trans})`,
     h2FullTable: (base) => `Vollständige Deklinationstabelle von ${base}`,
     h2HowToUse: (base) => `Wie man „${base}" auf Russisch verwendet (Beispiele)`,
@@ -819,7 +819,7 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
   },
   pl_pl: {
     ...wordPageMetaEn,
-    breadcrumb: { home: 'App', learn: 'Darmowe lekcje gramatyki', words: 'Rosyjskie odmiany' },
+    breadcrumb: { home: 'App', learn: 'Darmowe lekcje gramatyki', words: 'Tabele odmian' },
     h1Title: (base, trans) => `Rosyjska odmiana: ${base} (${trans})`,
     h2FullTable: (base) => `Pełna tabela odmian ${base}`,
     h2HowToUse: (base) => `Jak używać „${base}" po rosyjsku (przykłady)`,
@@ -915,7 +915,7 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
   },
   es_es: {
     ...wordPageMetaEn,
-    breadcrumb: { home: 'App', learn: 'Lecciones de gramática gratis', words: 'Declinaciones rusas' },
+    breadcrumb: { home: 'App', learn: 'Lecciones de gramática gratis', words: 'Tablas de declinación' },
     h1Title: (base, trans) => `Declinación rusa: ${base} (${trans})`,
     h2FullTable: (base) => `Tabla completa de declinación de ${base}`,
     h2HowToUse: (base) => `Cómo usar «${base}» en ruso (ejemplos)`,
@@ -1010,7 +1010,7 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
   },
   it_it: {
     ...wordPageMetaEn,
-    breadcrumb: { home: 'App', learn: 'Lezioni di grammatica gratuite', words: 'Declinazioni russe' },
+    breadcrumb: { home: 'App', learn: 'Lezioni di grammatica gratuite', words: 'Tabelle di declinazione' },
     h1Title: (base, trans) => `Declinazione russa: ${base} (${trans})`,
     h2FullTable: (base) => `Tabella completa di declinazione di ${base}`,
     h2HowToUse: (base) => `Come usare «${base}» in russo (esempi)`,
@@ -1105,7 +1105,7 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
   },
   pt_pt: {
     ...wordPageMetaEn,
-    breadcrumb: { home: 'App', learn: 'Lições de gramática grátis', words: 'Declinações russas' },
+    breadcrumb: { home: 'App', learn: 'Lições de gramática grátis', words: 'Tabelas de declinação' },
     h1Title: (base, trans) => `Declinação russa: ${base} (${trans})`,
     h2FullTable: (base) => `Tabela completa de declinação de ${base}`,
     h2HowToUse: (base) => `Como usar «${base}» em russo (exemplos)`,
@@ -1200,7 +1200,7 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
   },
   nl_nl: {
     ...wordPageMetaEn,
-    breadcrumb: { home: 'App', learn: 'Gratis grammatica-lessen', words: 'Russische verbuigingen' },
+    breadcrumb: { home: 'App', learn: 'Gratis grammatica-lessen', words: 'Verbuigingstabellen' },
     h1Title: (base, trans) => `Russische verbuiging: ${base} (${trans})`,
     h2FullTable: (base) => `Volledige verbuigingstabel van ${base}`,
     h2HowToUse: (base) => `Hoe «${base}» te gebruiken in het Russisch (voorbeelden)`,
@@ -1295,7 +1295,7 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
   },
   ru_ru: {
     ...wordPageMetaRu,
-    breadcrumb: { home: 'App', learn: 'Бесплатные уроки грамматики', words: 'Русские склонения' },
+    breadcrumb: { home: 'App', learn: 'Бесплатные уроки грамматики', words: 'Таблицы склонений' },
     h1Title: (base, trans) => `Склонение: ${base} (${trans})`,
     h2FullTable: (base) => `Полная таблица склонений ${base}`,
     h2HowToUse: (base) => `Как использовать «${base}» в русском языке (примеры)`,

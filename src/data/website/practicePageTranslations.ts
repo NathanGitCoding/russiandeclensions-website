@@ -163,7 +163,7 @@ const en: PracticeTranslations = {
     chelovekExample: 'человек declension',
   },
   seo: {
-    whyTitle: 'Why practice Russian declensions online?',
+    whyTitle: 'How to practice Russian declensions online for free?',
     introP1:
       'Russian has 6 grammatical cases — Nominative, Accusative, Genitive, Dative, Instrumental, and Prepositional — and every noun changes its ending depending on its role in a sentence. Mastering these declension patterns is essential for speaking and writing correct Russian.',
     introP2:
@@ -287,7 +287,7 @@ const fr: PracticeTranslations = {
     chelovekExample: 'Déclinaison de человек',
   },
   seo: {
-    whyTitle: 'Pourquoi pratiquer les déclinaisons russes en ligne ?',
+    whyTitle: 'Comment pratiquer les déclinaisons russes en ligne gratuitement ?',
     introP1:
       'Le russe compte 6 cas grammaticaux — nominatif, accusatif, génitif, datif, instrumental et prépositionnel — et chaque nom change de terminaison selon son rôle dans la phrase. Maîtriser ces schémas est indispensable pour parler et écrire correctement.',
     introP2:
@@ -411,7 +411,7 @@ const de: PracticeTranslations = {
     chelovekExample: 'Deklination von человек',
   },
   seo: {
-    whyTitle: 'Warum russische Deklinationen online üben?',
+    whyTitle: 'Wie übt man russische Deklinationen kostenlos online?',
     introP1:
       'Im Russischen gibt es 6 grammatische Fälle — Nominativ, Akkusativ, Genitiv, Dativ, Instrumental und Präpositional — und jedes Substantiv ändert je nach Satzrolle seine Endung. Diese Muster zu beherrschen ist die Basis für korrektes Russisch.',
     introP2:
@@ -535,7 +535,7 @@ const pl: PracticeTranslations = {
     chelovekExample: 'Odmiana: человек',
   },
   seo: {
-    whyTitle: 'Dlaczego ćwiczyć rosyjskie deklinacje online?',
+    whyTitle: 'Jak bezpłatnie ćwiczyć rosyjskie deklinacje online?',
     introP1:
       'Rosyjski ma 6 przypadków — mianownik, biernik, dopełniacz, celownik, narzędnik i miejscownik — a każdy rzeczownik zmienia końcówkę w zależności od roli w zdaniu. Opanowanie tych wzorców jest niezbędne do poprawnego mówienia i pisania po rosyjsku.',
     introP2:
@@ -659,7 +659,7 @@ const tr: PracticeTranslations = {
     chelovekExample: 'человек çekimi',
   },
   seo: {
-    whyTitle: 'Rusça çekimlerini neden çevrimiçi çalışmalısınız?',
+    whyTitle: 'Rusça isim çekimlerini çevrimiçi ücretsiz nasıl pratik edilir?',
     introP1:
       'Rusçada 6 dilbilgisi durumu vardır — yalın, belirtme, tamlayan, yönelme, araç ve edat — ve her isim cümledeki rolüne göre son ekini değiştirir. Bu kalıpları bilmek doğru Rusça için temeldir.',
     introP2:
@@ -790,7 +790,7 @@ const es: PracticeTranslations = {
     chelovekExample: 'Declinación de человек',
   },
   seo: {
-    whyTitle: '¿Por qué practicar declinaciones rusas en línea?',
+    whyTitle: '¿Cómo practicar gratis las declinaciones rusas en línea?',
     introP1:
       'El ruso tiene 6 casos gramaticales — nominativo, acusativo, genitivo, dativo, instrumental y preposicional — y cada sustantivo cambia su terminación según su función en la frase. Dominar estos patrones es esencial para hablar y escribir bien.',
     introP2:
@@ -921,7 +921,7 @@ const it: PracticeTranslations = {
     chelovekExample: 'Declinazione di человек',
   },
   seo: {
-    whyTitle: 'Perché esercitarsi con le declinazioni russe online?',
+    whyTitle: 'Come praticare gratuitamente le declinazioni russe online?',
     introP1:
       'Il russo ha 6 casi grammaticali — nominativo, accusativo, genitivo, dativo, strumentale e preposizionale — e ogni sostantivo cambia desinenza a seconda del ruolo nella frase. Padroneggiare questi schemi è fondamentale per parlare e scrivere correttamente.',
     introP2:
@@ -1052,7 +1052,7 @@ const pt: PracticeTranslations = {
     chelovekExample: 'Declinação de человек',
   },
   seo: {
-    whyTitle: 'Porquê praticar declinações russas online?',
+    whyTitle: 'Como praticar declinações russas online gratuitamente?',
     introP1:
       'O russo tem 6 casos gramaticais — nominativo, acusativo, genitivo, dativo, instrumental e preposicional — e cada substantivo muda a terminação consoante o papel na frase. Dominar estes padrões é essencial para falar e escrever corretamente.',
     introP2:
@@ -1183,7 +1183,7 @@ const nl: PracticeTranslations = {
     chelovekExample: 'Verbuiging van человек',
   },
   seo: {
-    whyTitle: 'Waarom Russische verbuigingen online oefenen?',
+    whyTitle: 'Hoe oefen je gratis Russische verbuigingen online?',
     introP1:
       'Het Russisch kent 6 naamvallen — nominatief, accusatief, genitief, datief, instrumentalis en prepositioneel — en elk zelfstandig naamwoord verandert van uitgang naargelang de rol in de zin. Deze patronen beheersen is essentieel voor correct Russisch.',
     introP2:
@@ -1307,7 +1307,7 @@ const ru: PracticeTranslations = {
     chelovekExample: 'Склонение слова человек',
   },
   seo: {
-    whyTitle: 'Зачем практиковать склонения русских слов онлайн?',
+    whyTitle: 'Как бесплатно практиковать склонения русских слов онлайн?',
     introP1:
       'В русском языке 6 падежей — именительный, винительный, родительный, дательный, творительный и предложный — и у каждого существительного меняется окончание в зависимости от роли в предложении. Без этих шаблонов нельзя говорить и писать грамотно.',
     introP2:

@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useCallback, useEffect } from 'react';
-import { ChevronRight } from 'lucide-react';
+import { ChevronRight, RefreshCw } from 'lucide-react';
 import type { DeclensionQuizQuestion } from '@/lib/declensionQuiz';
 import { useDeclensionQuiz } from '@/hooks/useDeclensionQuiz';
 import type { PracticeTranslations } from '@/data/website/practicePageTranslations';
@@ -17,9 +17,10 @@ interface Props {
   questions: DeclensionQuizQuestion[];
   t: PracticeTranslations;
   onFinish: (results: DeclensionQuizResult[]) => void;
+  onNewQuiz: () => void;
 }
 
-export function PracticeQuiz({ questions, t, onFinish }: Props) {
+export function PracticeQuiz({ questions, t, onFinish, onNewQuiz }: Props) {
   const {
     currentQuestion,
     showResult,
@@ -123,25 +124,38 @@ export function PracticeQuiz({ questions, t, onFinish }: Props) {
         })}
       </div>
 
-      {/* Feedback above Next */}
-      <div
-        className={`mt-3 flex flex-col items-center justify-center gap-2 ${showResult ? 'visible' : 'invisible'}`}
-      >
-        <p
-          className={`min-h-[1.25rem] text-center text-sm font-semibold ${isCorrectAnswer ? 'text-emerald-600' : 'text-red-500'}`}
-        >
-          {showResult ? (isCorrectAnswer ? t.quiz.correct : t.quiz.incorrect) : '\u00A0'}
-        </p>
-        <button
-          onClick={nextQuestion}
-          disabled={!showResult}
-          className="flex items-center gap-1 rounded-lg px-5 py-2 text-sm font-semibold text-white transition-transform hover:-translate-y-0.5"
-          style={{ background: '#0080FF' }}
-        >
-          {isLastQuestion ? t.quiz.seeResults : t.quiz.next}
-          <ChevronRight size={16} />
-        </button>
-      </div>
+      {!showResult && (
+        <div className="mt-6 flex justify-center">
+          <button
+            type="button"
+            onClick={onNewQuiz}
+            className="flex items-center justify-center gap-2 rounded-lg px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:opacity-90"
+            style={{ background: '#0080FF' }}
+          >
+            <RefreshCw size={16} />
+            {t.results.newQuiz}
+          </button>
+        </div>
+      )}
+
+      {showResult && (
+        <div className="mt-3 flex flex-col items-center justify-center gap-2">
+          <p
+            className={`min-h-[1.25rem] text-center text-sm font-semibold ${isCorrectAnswer ? 'text-emerald-600' : 'text-red-500'}`}
+          >
+            {isCorrectAnswer ? t.quiz.correct : t.quiz.incorrect}
+          </p>
+          <button
+            type="button"
+            onClick={nextQuestion}
+            className="flex items-center gap-1 rounded-lg px-5 py-2 text-sm font-semibold text-white transition-transform hover:-translate-y-0.5"
+            style={{ background: '#0080FF' }}
+          >
+            {isLastQuestion ? t.quiz.seeResults : t.quiz.next}
+            <ChevronRight size={16} />
+          </button>
+        </div>
+      )}
     </div>
   );
 }

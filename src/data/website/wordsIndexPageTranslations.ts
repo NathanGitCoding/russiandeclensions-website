@@ -42,7 +42,7 @@ export interface WordsIndexPageTranslations {
 
 const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
   en_en: {
-    breadcrumb: { home: 'App', learn: 'Free Grammar Lessons', words: 'Russian Declensions' },
+    breadcrumb: { home: 'App', learn: 'Free Grammar Lessons', words: 'Declension tables' },
     title: 'Russian Word Declensions — Complete List',
     titleWithCount: (total) =>
       `${total} Most Useful Russian Words with Full Declension Tables (All 6 Cases)`,
@@ -91,7 +91,7 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
     },
   },
   fr_fr: {
-    breadcrumb: { home: 'App', learn: 'Leçons de grammaire gratuites', words: 'Déclinaisons russes' },
+    breadcrumb: { home: 'App', learn: 'Leçons de grammaire gratuites', words: 'Tables de déclinaisons' },
     title: 'Déclinaisons des mots russes — Liste complète',
     titleWithCount: (total) =>
       `${total} mots russes les plus utiles avec tableaux de déclinaison complets (6 cas)`,
@@ -141,7 +141,7 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
     },
   },
   de_de: {
-    breadcrumb: { home: 'App', learn: 'Kostenlose Grammatik-Lektionen', words: 'Russische Deklinationen' },
+    breadcrumb: { home: 'App', learn: 'Kostenlose Grammatik-Lektionen', words: 'Deklinationstabellen' },
     title: 'Russische Wortdeklinationen — Vollständige Liste',
     titleWithCount: (total) =>
       `${total} nützlichste russische Wörter mit vollständigen Deklinationstabellen (6 Fälle)`,
@@ -191,7 +191,7 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
     },
   },
   tr_tr: {
-    breadcrumb: { home: 'App', learn: 'Ücretsiz Gramer Dersleri', words: 'Rusça Çekimler' },
+    breadcrumb: { home: 'App', learn: 'Ücretsiz Gramer Dersleri', words: 'Çekim tabloları' },
     title: 'Rusça Kelime Çekimleri — Tam Liste',
     titleWithCount: (total) =>
       `Tam çekim tablolarıyla en yararlı ${total.toLocaleString('tr-TR')} Rusça kelime (6 hal)`,
@@ -241,7 +241,7 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
     },
   },
   pl_pl: {
-    breadcrumb: { home: 'App', learn: 'Darmowe lekcje gramatyki', words: 'Rosyjskie odmiany' },
+    breadcrumb: { home: 'App', learn: 'Darmowe lekcje gramatyki', words: 'Tabele odmian' },
     title: 'Odmiany rosyjskich słów — Pełna lista',
     titleWithCount: (total) =>
       `Najbardziej przydatne ${total.toLocaleString('pl-PL')} rosyjskich słów z pełnymi tabelami odmian (6 przypadków)`,
@@ -291,7 +291,7 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
     },
   },
   es_es: {
-    breadcrumb: { home: 'App', learn: 'Lecciones de gramática gratis', words: 'Declinaciones rusas' },
+    breadcrumb: { home: 'App', learn: 'Lecciones de gramática gratis', words: 'Tablas de declinación' },
     title: 'Declinaciones de palabras rusas — Lista completa',
     titleWithCount: (total) =>
       `${total} palabras rusas más útiles con tablas de declinación completas (6 casos)`,
@@ -341,7 +341,7 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
     },
   },
   it_it: {
-    breadcrumb: { home: 'App', learn: 'Lezioni di grammatica gratuite', words: 'Declinazioni russe' },
+    breadcrumb: { home: 'App', learn: 'Lezioni di grammatica gratuite', words: 'Tabelle di declinazione' },
     title: 'Declinazioni delle parole russe — Lista completa',
     titleWithCount: (total) =>
       `${total} parole russe più utili con tabelle di declinazione complete (6 casi)`,
@@ -391,7 +391,7 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
     },
   },
   pt_pt: {
-    breadcrumb: { home: 'App', learn: 'Lições de gramática grátis', words: 'Declinações russas' },
+    breadcrumb: { home: 'App', learn: 'Lições de gramática grátis', words: 'Tabelas de declinação' },
     title: 'Declinações de palavras russas — Lista completa',
     titleWithCount: (total) =>
       `${total} palavras russas mais úteis com tabelas de declinação completas (6 casos)`,
@@ -441,7 +441,7 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
     },
   },
   nl_nl: {
-    breadcrumb: { home: 'App', learn: 'Gratis grammatica-lessen', words: 'Russische verbuigingen' },
+    breadcrumb: { home: 'App', learn: 'Gratis grammatica-lessen', words: 'Verbuigingstabellen' },
     title: 'Russische woordverbuigingen — Volledige lijst',
     titleWithCount: (total) =>
       `${total} meest nuttige Russische woorden met volledige verbuigingstabellen (6 gevallen)`,
@@ -491,7 +491,7 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
     },
   },
   ru_ru: {
-    breadcrumb: { home: 'App', learn: 'Бесплатные уроки грамматики', words: 'Русские склонения' },
+    breadcrumb: { home: 'App', learn: 'Бесплатные уроки грамматики', words: 'Таблицы склонений' },
     title: 'Склонения русских слов — Полный список',
     titleWithCount: (total) =>
       `${total.toLocaleString('ru-RU')} самых полезных русских слов с полными таблицами склонений (6 падежей)`,

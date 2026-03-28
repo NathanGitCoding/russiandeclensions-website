@@ -102,6 +102,7 @@ export default function PracticeClient({ words, initialConfig }: Props) {
           questions={questions}
           t={t}
           onFinish={handleFinish}
+          onNewQuiz={handleNewQuiz}
         />
       )}
 

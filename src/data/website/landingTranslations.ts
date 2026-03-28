@@ -34,7 +34,6 @@ export interface LandingTranslations {
   navbar: {
     brand: string;
     declinaisons: string;
-    blog: string;
     home: string;
     features: string;
     about: string;
@@ -929,8 +928,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     },
     navbar: {
       brand: 'Russian Cases with Anna®',
-      declinaisons: 'Russian Declensions',
-      blog: 'Blog',
+      declinaisons: 'Declension tables',
       home: 'App',
       features: 'Features',
       about: 'About',
@@ -997,8 +995,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     },
     navbar: {
       brand: 'Russian Cases with Anna®',
-      declinaisons: 'Déclinaisons russes',
-      blog: 'Blog',
+      declinaisons: 'Tables de déclinaisons',
       home: 'App',
       features: 'Fonctionnalités',
       about: 'À propos',
@@ -1065,8 +1062,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     },
     navbar: {
       brand: 'Russian Cases with Anna®',
-      declinaisons: 'Rusça Çekimler',
-      blog: 'Blog',
+      declinaisons: 'Çekim tabloları',
       home: 'App',
       features: 'Özellikler',
       about: 'Hakkında',
@@ -1133,8 +1129,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     },
     navbar: {
       brand: 'Russian Cases with Anna®',
-      declinaisons: 'Russische Deklinationen',
-      blog: 'Blog',
+      declinaisons: 'Deklinationstabellen',
       home: 'App',
       features: 'Funktionen',
       about: 'Über uns',
@@ -1201,8 +1196,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     },
     navbar: {
       brand: 'Russian Cases with Anna®',
-      declinaisons: 'Rosyjskie odmiany',
-      blog: 'Blog',
+      declinaisons: 'Tabele odmian',
       home: 'App',
       features: 'Funkcje',
       about: 'O nas',
@@ -1269,8 +1263,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     },
     navbar: {
       brand: 'Russian Cases with Anna®',
-      declinaisons: 'Declinaciones rusas',
-      blog: 'Blog',
+      declinaisons: 'Tablas de declinación',
       home: 'App',
       features: 'Funcionalidades',
       about: 'Sobre nosotros',
@@ -1337,8 +1330,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     },
     navbar: {
       brand: 'Russian Cases with Anna®',
-      declinaisons: 'Declinazioni russe',
-      blog: 'Blog',
+      declinaisons: 'Tabelle di declinazione',
       home: 'App',
       features: 'Funzionalità',
       about: 'Chi siamo',
@@ -1405,8 +1397,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     },
     navbar: {
       brand: 'Russian Cases with Anna®',
-      declinaisons: 'Declinações russas',
-      blog: 'Blog',
+      declinaisons: 'Tabelas de declinação',
       home: 'App',
       features: 'Funcionalidades',
       about: 'Sobre nós',
@@ -1473,8 +1464,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     },
     navbar: {
       brand: 'Russian Cases with Anna®',
-      declinaisons: 'Russische verbuigingen',
-      blog: 'Blog',
+      declinaisons: 'Verbuigingstabellen',
       home: 'App',
       features: 'Functies',
       about: 'Over ons',
@@ -1541,8 +1531,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     },
     navbar: {
       brand: 'Russian Cases with Anna®',
-      declinaisons: 'Русские склонения',
-      blog: 'Блог',
+      declinaisons: 'Таблицы склонений',
       home: 'App',
       features: 'Функции',
       about: 'О нас',
