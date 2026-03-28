@@ -1,5 +1,6 @@
 import { ImageResponse } from 'next/og';
 import { getLearnArticle, getAllLearnArticleSlugs } from '@/data/learnArticles';
+import { getOgAppIconDataUrl } from '@/lib/ogAppIconDataUrl';
 
 export const size = { width: 1200, height: 630 };
 
@@ -48,8 +49,7 @@ export default async function Image({ params }: { params: Promise<{ slug: string
     );
   }
 
-  const iconUrl =
-    'https://russiandeclensions.com/landing-cases/icon-app-russian-cases-with-anna.png';
+  const iconUrl = await getOgAppIconDataUrl();
   const badge = getBadge(article);
   const accentColor = getAccentColor(slug);
   const faqCount = article.faq?.length ?? 0;

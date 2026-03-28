@@ -36,7 +36,7 @@ Document vivant : à **mettre à jour** après chaque lot de traductions (cocher
 |-------|------|------|-------------------------|
 | `/` | Page | Accueil marketing | `src/data/website/landingTranslations.ts`, composants `src/components/landing/*` |
 | `/learn` | Page | Index leçons + articles | `src/data/website/learnPageTranslations.ts` |
-| `/learn/articles/[slug]` | Dynamique | Article long | `src/data/learnArticles.ts` (EN), `src/data/learnArticleTranslations.ts` + modules `src/data/*-translations.ts` |
+| `/learn/articles/[slug]` | Dynamique | Article long | `src/data/learnArticles.ts` (EN), `src/data/learnArticleTranslations.ts` — suivi : `docs/LEARN_ARTICLES_TRANSLATION_STATUS.md` |
 | `/learn/lessons/[slug]` | Dynamique | Leçon longue | `src/data/learnLessons.ts` (EN), `src/data/learnLessonTranslations.ts` |
 | `/words` | Page | Liste des mots | `src/data/website/wordsIndexPageTranslations.ts` |
 | `/russian-declension/[slug]` | Dynamique | Fiche déclinaison | UI : `src/data/website/wordPageTranslations.ts` · **Glose par mot** : `data/words.json` (`translation_*`) |
@@ -68,34 +68,13 @@ Toutes les langues listées dans `LandingLanguage` doivent être présentes dans
 
 ## 3. Corps des articles Learn (contenu long)
 
-Source anglaise : `learnArticles.ts`. Traductions : `learnArticleTranslations.ts` (+ imports `best-*`, `how-long-*`, `russian-cases-explained-*`, `torfl-*`, etc.).
+Source anglaise : `learnArticles.ts`. Traductions : `src/data/learnArticleTranslations.ts` uniquement.
 
-**Langues actuellement couvertes pour le corps (hors anglais source) :** `fr_fr`, `de_de`, `tr_tr`, `pl_pl`, `ru_ru`.
+**État (2026-03-28) :** les anciennes traductions (fichier monolithique + modules annexes) ont été **retirées** : le jeu était corrompu en UTF-8 (cyrillique et accents). Toute langue autre que l’anglais **replie sur l’EN** jusqu’à nouvelle entrée dans `learnArticleTranslations`.
 
-**Langues à compléter pour le corps :** `es_es`, `it_it`, `pt_pt`, `nl_nl` → aujourd’hui **repli EN** si l’utilisateur choisit l’une de ces langues.
+**Suivi détaillé article × langue :** voir **`docs/LEARN_ARTICLES_TRANSLATION_STATUS.md`** (tableau à cocher au fil des retraductions).
 
-### Tableau par article
-
-Cocher **ES / IT / PT / NL** quand l’article complet (titres, meta, sections, tableaux, alt, CTA, JSON-LD si traduit) est en place pour cette langue.
-
-| Slug | Sujet (court) | FR | DE | TR | PL | RU | ES | IT | PT | NL | Notes |
-|------|---------------|----|----|----|----|----|----|----|----|----|-------|
-| `top-10-apps-russian` | Top apps russe 2026 | ✅ | ✅ | ✅ | ✅ | ✅ | 🔲 | 🔲 | 🔲 | 🔲 | |
-| `russian-case-endings-cheatsheet` | Aide-mémoire terminaisons | ✅ | ✅ | ✅ | ✅ | ✅ | 🔲 | 🔲 | 🔲 | 🔲 | |
-| `russian-genitive-case` | Cas génitif | ✅ | ✅ | ✅ | ✅ | ✅ | 🔲 | 🔲 | 🔲 | 🔲 | |
-| `russian-accusative-case` | Cas accusatif | ✅ | ✅ | ✅ | ✅ | ✅ | 🔲 | 🔲 | 🔲 | 🔲 | |
-| `russian-dative-case` | Cas datif | ✅ | ✅ | ✅ | ✅ | ✅ | 🔲 | 🔲 | 🔲 | 🔲 | |
-| `russian-instrumental-case` | Cas instrumental | ✅ | ✅ | ✅ | ✅ | ✅ | 🔲 | 🔲 | 🔲 | 🔲 | |
-| `russian-prepositional-case` | Cas prépositionnel | ✅ | ✅ | ✅ | ✅ | ✅ | 🔲 | 🔲 | 🔲 | 🔲 | |
-| `how-to-practice-russian-cases` | Pratiquer les cas | ✅ | ✅ | ✅ | ✅ | ✅ | 🔲 | 🔲 | 🔲 | 🔲 | |
-| `top-10-russian-case-mistakes` | Erreurs fréquentes | ✅ | ✅ | ✅ | ✅ | ✅ | 🔲 | 🔲 | 🔲 | 🔲 | |
-| `russian-prepositions-and-cases` | Prépositions et cas | ✅ | ✅ | ✅ | ✅ | ✅ | 🔲 | 🔲 | 🔲 | 🔲 | |
-| `russian-prepositions-cases-cheat-sheet` | Anti-sèche prép. | ✅ | ✅ | ✅ | ✅ | ✅ | 🔲 | 🔲 | 🔲 | 🔲 | |
-| `best-free-resources-learn-russian` | Ressources gratuites | ✅ | ✅ | ✅ | ✅ | ✅ | 🔲 | 🔲 | 🔲 | 🔲 | Fichier `best-free-resources-learn-russian-translations.ts` |
-| `russian-cases-explained-beginners-guide` | Guide visuel débutant | ✅ | ✅ | ✅ | ✅ | ✅ | 🔲 | 🔲 | 🔲 | 🔲 | `russian-cases-explained-beginners-guide-translations.ts` |
-| `best-apps-learn-russian-grammar` | Apps grammaire | ✅ | ✅ | ✅ | ✅ | ✅ | 🔲 | 🔲 | 🔲 | 🔲 | `best-apps-learn-russian-grammar-translations*.ts` |
-| `how-long-learn-russian` | Durée d’apprentissage | ✅ | ✅ | ✅ | ✅ | ✅ | 🔲 | 🔲 | 🔲 | 🔲 | `how-long-learn-russian-translations.ts` |
-| `torfl-trki-russian-language-exam-guide` | Examen TORFL/TRKI | ✅ | ✅ | ✅ | ✅ | ✅ | 🔲 | 🔲 | 🔲 | 🔲 | `torfl-trki-russian-language-exam-guide-translations.ts` |
+**Périmètre retraduction articles :** uniquement **`fr_fr`**, **`de_de`**, **`tr_tr`** (Turc), **`pl_pl`** — pas de cible ES / IT / PT / NL / RU pour le corps des articles.
 
 ---
 
@@ -103,10 +82,12 @@ Cocher **ES / IT / PT / NL** quand l’article complet (titres, meta, sections, 
 
 Source anglaise : `learnLessons.ts`. Traductions : `learnLessonTranslations.ts`.
 
-| Slug | Sujet | FR | DE | TR | PL | RU | ES | IT | PT | NL | Notes |
-|------|-------|----|----|----|----|----|----|----|----|----|-------|
-| `russian-cases-complete-guide` | Guide des 6 cas | ✅ | ✅ | ✅ | ✅ | ✅ | 🔲 | 🔲 | 🔲 | 🔲 | |
-| `dative-case-declension` | Datif (leçon) | ✅ | ✅ | ✅ | ✅ | ✅ | 🔲 | 🔲 | 🔲 | 🔲 | |
+**Périmètre cible (corps des leçons) :** même logique que les articles — on ne vise activement que **FR, DE, TR, PL**. Les autres langues d’UI (ES, IT, PT, NL) restent en repli **EN** sur ces pages. *Note :* le dépôt contient encore **`ru_ru`** pour les deux leçons ci-dessous ; ce n’est pas dans le périmètre des quatre langues ci-dessus si vous standardisez le process.
+
+| Slug | Sujet | EN | FR | DE | TR | PL | Notes |
+|------|-------|----|----|----|----|-----|-------|
+| `russian-cases-complete-guide` | Guide des 6 cas | ✅ | ✅ | ✅ | ✅ | ✅ | |
+| `dative-case-declension` | Datif (leçon) | ✅ | ✅ | ✅ | ✅ | ✅ | |
 
 > Les titres affichés sur `/learn` pour d’autres slugs « type leçon » relèvent de `learnPageTranslations.ts` (section Grammar Lessons) ; les pages dynamiques `/learn/lessons/[slug]` n’existent que pour les slugs présents dans `learnLessons.ts`.
 
@@ -177,6 +158,33 @@ Pour une langue cible (ex. `es_es`) :
 | Date | Auteur | Changement |
 |------|--------|------------|
 | 2026-03-28 | — | Création du document ; état initial basé sur le dépôt |
+| 2026-03-28 | — | Articles Learn : retrait des traductions corrompues ; suivi déplacé vers `LEARN_ARTICLES_TRANSLATION_STATUS.md` |
+| 2026-03-28 | — | Article Learn `russian-accusative-case` : traduction **fr_fr** complète (`src/data/articleTranslationsFr/russian-accusative-case.ts`, entrée dans `learnArticleTranslations.ts`) |
+| 2026-03-28 | — | Article Learn `russian-accusative-case` : traduction **de_de** complète (`src/data/articleTranslationsDe/russian-accusative-case.ts`, entrée dans `learnArticleTranslations.ts`) |
+| 2026-03-28 | — | Article Learn `russian-dative-case` : traduction **fr_fr** complète (`src/data/articleTranslationsFr/russian-dative-case.ts`, entrée dans `learnArticleTranslations.ts`) |
+| 2026-03-28 | — | Article Learn `russian-dative-case` : traduction **de_de** complète (`src/data/articleTranslationsDe/russian-dative-case.ts`, entrée dans `learnArticleTranslations.ts`) |
+| 2026-03-28 | — | Article Learn `russian-dative-case` : traductions **tr_tr** et **pl_pl** (`articleTranslationsTr/russian-dative-case.ts`, `articleTranslationsPl/russian-dative-case.ts`, entrées dans `learnArticleTranslations.ts`) |
+| 2026-03-28 | — | Article Learn `russian-accusative-case` : traductions **tr_tr** et **pl_pl** (`articleTranslationsTr/russian-accusative-case.ts`, `articleTranslationsPl/russian-accusative-case.ts`, entrées dans `learnArticleTranslations.ts`) |
+| 2026-03-28 | — | Article Learn `russian-genitive-case` : traduction **fr_fr** complète (`src/data/articleTranslationsFr/russian-genitive-case.ts`, entrée dans `learnArticleTranslations.ts`) |
+| 2026-03-28 | — | Article Learn `torfl-trki-russian-language-exam-guide` : traductions **fr_fr**, **de_de**, **tr_tr**, **pl_pl** (`learnArticleTranslationsTorflTrki*.ts`, agrégation dans `learnArticleTranslations.ts`). |
+| 2026-03-28 | — | Article Learn `russian-case-endings-cheatsheet` : traduction **fr_fr** complète (objet inline dans `learnArticleTranslations.ts`) |
+| 2026-03-28 | — | Article Learn `russian-case-endings-cheatsheet` : traduction **de_de** complète (`src/data/articleTranslationsDe/russian-case-endings-cheatsheet.ts`, entrée dans `learnArticleTranslations.ts`) |
+| 2026-03-28 | — | Article Learn `russian-case-endings-cheatsheet` : traduction **tr_tr** complète (`src/data/articleTranslationsTr/russian-case-endings-cheatsheet.ts`, entrée dans `learnArticleTranslations.ts`) |
+| 2026-03-28 | — | Article Learn `russian-case-endings-cheatsheet` : traduction **pl_pl** complète (`src/data/articleTranslationsPl/russian-case-endings-cheatsheet.ts`, entrée dans `learnArticleTranslations.ts`) |
+| 2026-03-28 | — | Article Learn `russian-instrumental-case` : traduction **fr_fr** complète (`src/data/articleTranslationsFr/russian-instrumental-case.ts`, entrée dans `learnArticleTranslations.ts`) |
+| 2026-03-28 | — | Article Learn `russian-instrumental-case` : traduction **de_de** complète (`src/data/articleTranslationsDe/russian-instrumental-case.ts`, entrée dans `learnArticleTranslations.ts`) |
+| 2026-03-28 | — | Article Learn `russian-instrumental-case` : traductions **tr_tr** et **pl_pl** complètes (`articleTranslationsTr/russian-instrumental-case.ts`, `articleTranslationsPl/russian-instrumental-case.ts`, entrées dans `learnArticleTranslations.ts`) |
+| 2026-03-28 | — | Article Learn `russian-prepositional-case` : traduction **fr_fr** complète (`src/data/articleTranslationsFr/russian-prepositional-case.ts`, entrée dans `learnArticleTranslations.ts`) |
+| 2026-03-28 | — | Article Learn `russian-prepositional-case` : traduction **de_de** complète (`src/data/articleTranslationsDe/russian-prepositional-case.ts`, entrée dans `learnArticleTranslations.ts`) |
+| 2026-03-28 | — | Article Learn `russian-genitive-case` : traduction **de_de** complète (`src/data/articleTranslationsDe/russian-genitive-case.ts`, entrée dans `learnArticleTranslations.ts`) |
+| 2026-03-28 | — | Article Learn `russian-genitive-case` : traductions **tr_tr** et **pl_pl** complètes (`articleTranslationsTr/russian-genitive-case.ts`, `articleTranslationsPl/russian-genitive-case.ts`, entrées dans `learnArticleTranslations.ts`) |
+| 2026-03-28 | — | Article Learn `russian-prepositional-case` : traductions **tr_tr** et **pl_pl** complètes (`articleTranslationsTr/russian-prepositional-case.ts`, `articleTranslationsPl/russian-prepositional-case.ts`, entrées dans `learnArticleTranslations.ts`) |
+| 2026-03-28 | — | Article Learn `how-to-practice-russian-cases` : traductions **fr_fr**, **de_de**, **tr_tr**, **pl_pl** complètes (`articleTranslationsFr/De/Tr/Pl/how-to-practice-russian-cases.ts`, entrées dans `learnArticleTranslations.ts`) |
+| 2026-03-28 | — | Article Learn `top-10-russian-case-mistakes` : traductions **fr_fr**, **de_de**, **tr_tr**, **pl_pl** complètes (`articleTranslationsFr/De/Tr/Pl/top-10-russian-case-mistakes.ts`, entrées dans `learnArticleTranslations.ts`) |
+| 2026-03-28 | — | Article Learn `russian-prepositions-and-cases` : traductions **fr_fr**, **de_de**, **tr_tr**, **pl_pl** complètes (`articleTranslationsFr/De/Tr/Pl/russian-prepositions-and-cases.ts`, générateur `scripts/_gen_prepositions_article.py` + `scripts/prepositions_article_i18n.py`, entrées dans `learnArticleTranslations.ts`) |
+| 2026-03-28 | — | Article Learn `top-10-apps-russian` : traductions **fr_fr**, **de_de**, **tr_tr**, **pl_pl** (`articleTranslationsFr/De/Tr/Pl/top-10-apps-russian.ts`, entrées dans `learnArticleTranslations.ts`) |
+| 2026-03-28 | — | Article Learn `best-apps-learn-russian-grammar` : traductions **fr_fr**, **de_de**, **tr_tr**, **pl_pl** (`articleTranslationsFr/De/Tr/Pl/best-apps-learn-russian-grammar.ts`, entrées dans `learnArticleTranslations.ts`) |
+| 2026-03-28 | — | Articles Learn `best-free-resources-learn-russian`, `russian-cases-explained-beginners-guide`, `how-long-learn-russian` : traductions **fr_fr**, **de_de**, **tr_tr**, **pl_pl** (fichiers dans `articleTranslationsFr/De/Tr/Pl/`, entrées dans `learnArticleTranslations.ts`) |
 
 ---
 

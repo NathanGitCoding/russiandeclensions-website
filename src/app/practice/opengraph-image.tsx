@@ -1,6 +1,7 @@
 import { ImageResponse } from 'next/og';
 import { getLandingLangFromRequest } from '@/lib/landingLangServer';
 import { getPracticeTranslations } from '@/data/website/practicePageTranslations';
+import { getOgAppIconDataUrl } from '@/lib/ogAppIconDataUrl';
 
 export const size = { width: 1200, height: 630 };
 
@@ -16,8 +17,7 @@ const CASE_KEYS = [
 export default async function Image() {
   const lang = await getLandingLangFromRequest();
   const t = getPracticeTranslations(lang);
-  const iconUrl =
-    'https://russiandeclensions.com/landing-cases/icon-app-russian-cases-with-anna.png';
+  const iconUrl = await getOgAppIconDataUrl();
 
   return new ImageResponse(
     (

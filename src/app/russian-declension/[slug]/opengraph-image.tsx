@@ -3,6 +3,7 @@ import { getWordBySlug, getAllSlugsWithBaseForm, type WordWithDeclensions } from
 import { getLandingLangFromRequest } from '@/lib/landingLangServer';
 import { getWordPageTranslations } from '@/data/website/wordPageTranslations';
 import { getWordDisplayTranslation } from '@/lib/wordPageLang';
+import { getOgAppIconDataUrl } from '@/lib/ogAppIconDataUrl';
 
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
@@ -64,8 +65,7 @@ export default async function Image({
   const typeLabel =
     getWordPageTranslations(lang).type[word.type] ?? word.type.replace(/_/g, ' ');
   const translation = getWordDisplayTranslation(word, lang);
-  const iconUrl =
-    'https://russiandeclensions.com/landing-cases/icon-app-russian-cases-with-anna.png';
+  const iconUrl = await getOgAppIconDataUrl();
 
   return new ImageResponse(
     (
