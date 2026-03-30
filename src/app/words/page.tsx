@@ -80,14 +80,14 @@ function buildWordsUrl(params: { letter?: string; level?: number; page?: number;
 
 type Props = { searchParams: Promise<{ letter?: string; level?: string; page?: string; q?: string }> };
 
-function buildCanonicalUrl(params: { letter?: string; level?: number; page?: number; q?: string }): string {
-  const search = new URLSearchParams();
-  if (params.letter) search.set('letter', params.letter);
-  if (params.level !== undefined && params.level !== null) search.set('level', String(params.level));
-  if (params.page && params.page > 1) search.set('page', String(params.page));
-  if (params.q?.trim()) search.set('q', params.q.trim());
-  const qs = search.toString();
-  return qs ? `${siteUrl}/words?${qs}` : `${siteUrl}/words`;
+function buildCanonicalPath(params: { letter?: string; level?: number; page?: number; q?: string }): string {
+  return buildWordsUrl(params);
+}
+
+function absoluteFromSitePath(pathOrAbsolute: string): string {
+  if (pathOrAbsolute.startsWith('http')) return pathOrAbsolute;
+  const base = siteUrl.replace(/\/$/, '');
+  return `${base}${pathOrAbsolute.startsWith('/') ? '' : '/'}${pathOrAbsolute}`;
 }
 
 const OG_IMAGE = '/landing-cases/icon-app-russian-cases-with-anna.webp';
@@ -108,32 +108,31 @@ export async function generateMetadata({ searchParams }: Props): Promise<Metadat
   const t = getWordsIndexPageTranslations(lang);
   const totalPages = Math.ceil(total / WORDS_PER_PAGE);
 
-  const canonicalUrl = buildCanonicalUrl({ letter, level, page, q });
-  const prevUrl =
-    page > 1
-      ? buildCanonicalUrl({ letter, level, page: page - 1, q })
-      : undefined;
-  const nextUrl =
+  const canonicalPath = buildCanonicalPath({ letter, level, page, q });
+  const prevPath =
+    page > 1 ? buildCanonicalPath({ letter, level, page: page - 1, q }) : undefined;
+  const nextPath =
     page < totalPages
-      ? buildCanonicalUrl({ letter, level, page: page + 1, q })
+      ? buildCanonicalPath({ letter, level, page: page + 1, q })
       : undefined;
-
-  const alternates: Metadata['alternates'] = {
-    canonical: canonicalUrl,
-    ...(prevUrl && { prev: prevUrl }),
-    ...(nextUrl && { next: nextUrl }),
-  };
-
   return {
     title: t.metadata.title(total),
     description: t.metadata.description(total),
     keywords:
       'Russian declensions, Russian word declension, Russian cases, Russian grammar, declension table, Russian nouns, learn Russian, русские склонения, падежи русского языка',
-    alternates,
+    alternates: { canonical: canonicalPath },
+    ...(prevPath || nextPath
+      ? {
+          pagination: {
+            ...(prevPath && { previous: absoluteFromSitePath(prevPath) }),
+            ...(nextPath && { next: absoluteFromSitePath(nextPath) }),
+          },
+        }
+      : {}),
     openGraph: {
       title: t.metadata.title(total),
       description: t.metadata.description(total),
-      url: canonicalUrl,
+      url: canonicalPath,
       siteName: 'Russian Declensions',
       type: 'website',
       images: [
@@ -200,7 +199,7 @@ export default async function WordsIndexPage({ searchParams }: Props) {
     '@type': 'CollectionPage',
     name: t.titleWithCount(total),
     description: t.metadata.description(total),
-    url: buildCanonicalUrl({ letter, level, page }),
+    url: absoluteFromSitePath(buildCanonicalPath({ letter, level, page, q })),
     mainEntity: itemListJsonLd,
   };
 

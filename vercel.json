@@ -2,6 +2,14 @@
   "framework": "nextjs",
   "buildCommand": "npm run build",
   "installCommand": "npm install --legacy-peer-deps",
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.russiandeclensions.com" }],
+      "destination": "https://russiandeclensions.com/:path*",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/",
