@@ -60,7 +60,12 @@ const nextConfig: NextConfig = {
         source: '/(.*)\\.(ico|png|jpg|jpeg|webp|svg|gif|woff|woff2)',
         headers: [
           { key: 'Cache-Control', value: 'public, max-age=31536000, immutable' },
+          { key: 'X-Robots-Tag', value: 'noindex' },
         ],
+      },
+      {
+        source: '/_next/static/(.*)',
+        headers: [{ key: 'X-Robots-Tag', value: 'noindex' }],
       },
     ];
   },

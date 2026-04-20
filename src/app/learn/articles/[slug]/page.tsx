@@ -12,7 +12,6 @@ import {
 } from '@/data/learnArticles';
 import { getLearnLesson, getAllLearnLessonSlugs } from '@/data/learnLessons';
 import { LearnLeadMagnet } from '@/components/learn/LearnLeadMagnet';
-import { getLandingLangFromRequest } from '@/lib/landingLangServer';
 import { getLearnDetailTranslations } from '@/data/website/learnDetailTranslations';
 
 /** Renders text with **bold** segments as <strong> */
@@ -199,6 +198,7 @@ function getRelatedLessons(
 }
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://russiandeclensions.com';
+export const dynamic = 'force-static';
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -211,8 +211,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const lang = await getLandingLangFromRequest();
-  const article = getLearnArticle(slug, lang);
+  const article = getLearnArticle(slug);
   if (!article) return { title: 'Article not found' };
 
   const url = `${siteUrl}/learn/articles/${slug}`;
@@ -261,14 +260,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function LearnArticlePage({ params }: Props) {
   const { slug } = await params;
-  const lang = await getLandingLangFromRequest();
-  const article = getLearnArticle(slug, lang);
-  const t = getLearnDetailTranslations(lang);
+  const article = getLearnArticle(slug);
+  const t = getLearnDetailTranslations('en_en');
   if (!article) notFound();
 
   const readingTime = estimateReadingTime(article);
   const relatedArticles = getRelatedArticles(slug, article);
-  const relatedLessons = getRelatedLessons(slug, lang);
+  const relatedLessons = getRelatedLessons(slug, 'en_en');
   const practiceCase = SLUG_TO_PRACTICE_CASE[slug];
   const hasToc = (article.sections?.length ?? 0) >= 4;
   const tocItems = hasToc
