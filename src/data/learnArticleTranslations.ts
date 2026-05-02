@@ -79,8 +79,7 @@ export const learnArticleTranslations: Partial<
     pl_pl: russianCaseEndingsCheatsheetPl,
     fr_fr: {
       slug: 'russian-case-endings-cheatsheet',
-      title:
-        'Terminaisons des cas russes : l’aide-mémoire et le tableau complets',
+      title: 'Terminaisons des cas russes : l’aide-mémoire et le tableau complets',
       metaTitle:
         'Aide-mémoire des terminaisons des cas russes | Tableau de déclinaison complet | Russian Cases with Anna',
       metaDescription:
@@ -121,13 +120,11 @@ export const learnArticleTranslations: Partial<
       internalLinks: [
         {
           href: '/learn/lessons/russian-cases-complete-guide',
-          label:
-            'Guide complet des cas russes : les 6 cas expliqués avec exemples',
+          label: 'Guide complet des cas russes : les 6 cas expliqués avec exemples',
         },
         {
           href: '/learn/lessons/dative-case-declension',
-          label:
-            'Le datif russe : comment dire « à » et « pour » en russe',
+          label: 'Le datif russe : comment dire « à » et « pour » en russe',
         },
       ],
       sections: [
@@ -209,15 +206,7 @@ export const learnArticleTranslations: Partial<
             caption: 'Terminaisons des adjectifs selon le cas, le genre et le type de thème',
             boldColumnIndices: [0, 1, 2, 3, 4, 5],
             accentColumnIndices: [0],
-            headers: [
-              'Cas',
-              'M. dur',
-              'M. mou',
-              'F. dur',
-              'F. mou',
-              'Neutre',
-              'Pluriel',
-            ],
+            headers: ['Cas', 'M. dur', 'M. mou', 'F. dur', 'F. mou', 'Neutre', 'Pluriel'],
             rows: [
               ['Nominatif', '-ый/-ой', '-ий', '-ая', '-яя', '-ое', '-ые/-ие'],
               ['Génitif', '-ого', '-его', '-ой', '-ей', '-ого', '-ых/-их'],
@@ -439,8 +428,7 @@ export const learnArticleTranslations: Partial<
       ctaHref: '/',
       faq: [
         {
-          question:
-            'Quelle terminaison de cas russe est la plus difficile à apprendre ?',
+          question: 'Quelle terminaison de cas russe est la plus difficile à apprendre ?',
           answer:
             'Le **génitif pluriel** est souvent considéré comme le plus difficile : plusieurs formes concurrentes selon la classe du nom. Par exemple, les féminins en -а ont souvent une **terminaison zéro** (женщина → женщин), d’autres ajoutent **-ей** (ночь → ночей) ou **-ов/-ев** (certains masculins).',
         },
@@ -460,8 +448,7 @@ export const learnArticleTranslations: Partial<
             '**Animés :** personnes et animaux (человек, кот, студент, врач). **Inanimés :** objets, idées, abstractions (стол, книга, любовь, время). La grammaire russe classe parfois comme « animés » des choses qu’un francophone ne classerait pas ainsi — par ex. certaines pièces aux cartes ou aux échecs.',
         },
         {
-          question:
-            'Quelle différence entre génitif et accusatif pour les noms animés ?',
+          question: 'Quelle différence entre génitif et accusatif pour les noms animés ?',
           answer:
             'Pour les **masculins animés**, la forme à l’accusatif est **identique** au génitif. C’est la règle **accusatif animé = génitif**. Ex. : студент → студента (gén.) = студента (acc.). On ne distingue les cas que par le contexte de la phrase.',
         },
@@ -478,8 +465,7 @@ export const learnArticleTranslations: Partial<
         publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
         mainEntityOfPage: {
           '@type': 'WebPage',
-          '@id':
-            'https://russiandeclensions.com/learn/articles/russian-case-endings-cheatsheet',
+          '@id': 'https://russiandeclensions.com/learn/articles/russian-case-endings-cheatsheet',
         },
         keywords:
           'terminaisons cas russes, tableau déclinaison russe, aide-mémoire cas, pronoms russe, prépositions cas',
@@ -570,6 +556,5 @@ export const learnArticleTranslations: Partial<
     tr_tr: howLongLearnRussianTr,
     pl_pl: howLongLearnRussianPl,
   },
-  'torfl-trki-russian-language-exam-guide':
-    torflTrkiRussianLanguageExamGuideTranslations,
+  'torfl-trki-russian-language-exam-guide': torflTrkiRussianLanguageExamGuideTranslations,
 };

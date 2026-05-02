@@ -84,7 +84,7 @@ export default function LandingFooter() {
             </div>
           </div>
           <div className="w-full border-t border-white/10 pt-4">
-            <p className="mb-2 text-center text-xs font-semibold uppercase tracking-wider text-white/50 md:text-left">
+            <p className="mb-2 text-center text-xs font-semibold tracking-wider text-white/50 uppercase md:text-left">
               Popular Russian Declensions
             </p>
             <div className="flex flex-wrap justify-center gap-x-4 gap-y-1 text-sm md:justify-start">

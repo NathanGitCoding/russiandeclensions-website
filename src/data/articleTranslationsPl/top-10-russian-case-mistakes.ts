@@ -19,8 +19,7 @@ export const top10RussianCaseMistakesPl: LearnArticle = {
   h1: 'Top 10 błędów przy rosyjskich przypadkach u osób mówiących po angielsku (i jak je naprawić)',
   heroImage: {
     src: '/articles/top-russian-case-errors-and-mistakes-by-english-speakers.webp',
-    alt:
-      'Najczęstsze błędy przypadków w rosyjskim u osób mówiących po angielsku',
+    alt: 'Najczęstsze błędy przypadków w rosyjskim u osób mówiących po angielsku',
     width: 1200,
     height: 630,
   },
@@ -45,8 +44,7 @@ export const top10RussianCaseMistakesPl: LearnArticle = {
   internalLinks: [
     {
       href: '/learn/lessons/russian-cases-complete-guide',
-      label:
-        'Kompletny przewodnik po rosyjskich przypadkach: 6 przypadków z przykładami',
+      label: 'Kompletny przewodnik po rosyjskich przypadkach: 6 przypadków z przykładami',
     },
     {
       href: '/learn/articles/russian-case-endings-cheatsheet',
@@ -159,8 +157,7 @@ export const top10RussianCaseMistakesPl: LearnArticle = {
     },
     {
       h2: 'Bonusowe błędy poza top 10',
-      content:
-        'Wzmianki honorowe — bardzo częste, ale nieco mniej uniwersalne niż top 10:',
+      content: 'Wzmianki honorowe — bardzo częste, ale nieco mniej uniwersalne niż top 10:',
       bullets: [
         '**Zapomnienie Н- w zaimkach po przyimku:** к ему ✗ → к нему ✓ | от ей ✗ → от неё ✓',
         '**Pomyłка из (z wnętrza) i от (od osoby):** из врача ✗ → от врача ✓',
@@ -222,13 +219,7 @@ export const top10RussianCaseMistakesPl: LearnArticle = {
             'много женщин',
             'Żeńskie -а → zerowa końcówka w dop. lm.',
           ],
-          [
-            '#8',
-            'Liczby: ten sam przypadek',
-            'пять стол',
-            'пять столов',
-            '5+ → dopełniacz lm.',
-          ],
+          ['#8', 'Liczby: ten sam przypadek', 'пять стол', 'пять столов', '5+ → dopełniacz lm.'],
           [
             '#9',
             '-ий/-ие/-ия → -е',
@@ -325,8 +316,7 @@ export const top10RussianCaseMistakesPl: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/top-10-russian-case-mistakes',
+      '@id': 'https://russiandeclensions.com/learn/articles/top-10-russian-case-mistakes',
     },
     keywords:
       'błędy przypadków rosyjskich, gramatyka rosyjska anglojęzyczni, trudność przypadków rosyjskich, powszechne błędy rosyjskie',

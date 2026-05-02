@@ -26,7 +26,8 @@ export default async function LearnIndexPage() {
   const lang = await getLandingLangFromRequest();
   const t = getLearnPageTranslations(lang);
 
-  const itemListElements: { '@type': 'ListItem'; position: number; name: string; url: string }[] = [];
+  const itemListElements: { '@type': 'ListItem'; position: number; name: string; url: string }[] =
+    [];
   let pos = 1;
   for (const slug of LESSON_SLUGS) {
     const title = t.lessonTitles[slug];

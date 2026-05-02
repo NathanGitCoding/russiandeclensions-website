@@ -48,8 +48,7 @@ export const russianDativeCasePl: LearnArticle = {
   internalLinks: [
     {
       href: '/learn/lessons/russian-cases-complete-guide',
-      label:
-        'Kompletny przewodnik po rosyjskich przypadkach: wszystkie 6 przypadków z przykładami',
+      label: 'Kompletny przewodnik po rosyjskich przypadkach: wszystkie 6 przypadków z przykładami',
     },
     {
       href: '/learn/articles/russian-case-endings-cheatsheet',
@@ -57,13 +56,11 @@ export const russianDativeCasePl: LearnArticle = {
     },
     {
       href: '/learn/articles/russian-genitive-case',
-      label:
-        'Rosyjski dopełniacz: zasady, końcówki i 32 prawdziwe przykłady',
+      label: 'Rosyjski dopełniacz: zasady, końcówki i 32 prawdziwe przykłady',
     },
     {
       href: '/learn/articles/russian-accusative-case',
-      label:
-        'Rosyjski biernik: dopełnienie bezpośrednie, ożywione vs nieożywione',
+      label: 'Rosyjski biernik: dopełnienie bezpośrednie, ożywione vs nieożywione',
     },
     {
       href: '/learn/lessons/dative-case-declension',
@@ -74,8 +71,7 @@ export const russianDativeCasePl: LearnArticle = {
   sections: [
     {
       h2: 'Krótka odpowiedź',
-      content:
-        'Rosyjski celownik odpowiada na pytania **Кому? (komu?)** i **Чему? (czemu?)**.',
+      content: 'Rosyjski celownik odpowiada na pytania **Кому? (komu?)** i **Чему? (czemu?)**.',
       bullets: [
         '**Dopełnienia pośrednie** — odbiorca czynności',
         '**Wyrażenia wieku** — Мне 25 лет (mam 25 lat)',
@@ -107,16 +103,9 @@ export const russianDativeCasePl: LearnArticle = {
       content:
         'Celownik jest jednym z najbardziej **regularnych** przypadków w rosyjskim.\n\nKońcówki podążają za jasnymi wzorcami według rodzaju i typu tematu:',
       table: {
-        caption:
-          'Końcówki rzeczowników w celowniku — wszystkie rodzaje, liczba pojedyncza i mnoga',
+        caption: 'Końcówki rzeczowników w celowniku — wszystkie rodzaje, liczba pojedyncza i mnoga',
         boldColumnIndices: [1, 3],
-        headers: [
-          'Typ rzeczownika',
-          'Końcówka',
-          'Tworzenie',
-          'Wynik',
-          'Przykład w kontekście',
-        ],
+        headers: ['Typ rzeczownika', 'Końcówka', 'Tworzenie', 'Wynik', 'Przykład w kontekście'],
         rows: [
           [
             'Męski twardy (spółgłoska)',
@@ -181,13 +170,7 @@ export const russianDativeCasePl: LearnArticle = {
             'морю',
             'Мы едем к морю. — Jedziemy w stronę morza.',
           ],
-          [
-            'Nijaki (-ие)',
-            '-ию',
-            'здание → здани+ю',
-            'зданию',
-            'Иди к зданию. — Idź do budynku.',
-          ],
+          ['Nijaki (-ие)', '-ию', 'здание → здани+ю', 'зданию', 'Иди к зданию. — Idź do budynku.'],
           [
             'Liczba mnoga męski/nijaki',
             '-ам/-ям',
@@ -230,13 +213,7 @@ export const russianDativeCasePl: LearnArticle = {
       table: {
         caption: '5 form przymiotnikowych z pełnymi zdaniami',
         boldColumnIndices: [1],
-        headers: [
-          'Rodzaj / liczba',
-          'Końcówka',
-          'Forma przykładowa',
-          'Znaczenie',
-          'Zdanie',
-        ],
+        headers: ['Rodzaj / liczba', 'Końcówka', 'Forma przykładowa', 'Znaczenie', 'Zdanie'],
         rows: [
           [
             'Męski/nijaki twardy',
@@ -259,13 +236,7 @@ export const russianDativeCasePl: LearnArticle = {
             'piękna (cel.)',
             'Я звоню красивой подруге.',
           ],
-          [
-            'Żeński miękki',
-            '-ей',
-            'летняя → летней',
-            'letnia (cel.)',
-            'В летней школе нравится.',
-          ],
+          ['Żeński miękki', '-ей', 'летняя → летней', 'letnia (cel.)', 'В летней школе нравится.'],
           [
             'Liczba mnoga wszystkie rodzaje',
             '-ым/-им',
@@ -283,15 +254,7 @@ export const russianDativeCasePl: LearnArticle = {
       table: {
         caption: '7 form z przykładami нравится',
         boldColumnIndices: [0, 1, 2, 3, 4, 5, 6],
-        headers: [
-          'ja',
-          'ty',
-          'on/ono',
-          'ona',
-          'my',
-          'wy',
-          'oni/one',
-        ],
+        headers: ['ja', 'ty', 'on/ono', 'ona', 'my', 'wy', 'oni/one'],
         rows: [
           ['мне', 'тебе', 'ему', 'ей', 'нам', 'вам', 'им'],
           [
@@ -327,35 +290,19 @@ export const russianDativeCasePl: LearnArticle = {
         boldColumnIndices: [1],
         headers: ['Polski', 'Rosyjski (нравиться)', 'Uwagi'],
         rows: [
-          [
-            'Lubię',
-            'Мне нравится музыка.',
-            'нравится zgadza się z музыка — liczba pojedyncza',
-          ],
-          [
-            'Lubisz',
-            'Тебе нравятся фильмы.',
-            'нравятся zgadza się z фильмы — liczba mnoga',
-          ],
+          ['Lubię', 'Мне нравится музыка.', 'нравится zgadza się z музыка — liczba pojedyncza'],
+          ['Lubisz', 'Тебе нравятся фильмы.', 'нравятся zgadza się z фильмы — liczba mnoga'],
           ['On lubi', 'Ему нравится эта книга.', 'On lubi tę książkę.'],
           ['Ona lubi', 'Ей нравится твой голос.', 'Ona lubi twój głos.'],
           ['Lubimy', 'Нам нравится здесь.', 'здесь = tutaj, bez rzeczownika-podmiotu'],
-          [
-            'Lubicie (lm.)',
-            'Вам нравятся эти места.',
-            'Podobają wam się te miejsca.',
-          ],
+          ['Lubicie (lm.)', 'Вам нравятся эти места.', 'Podobają wam się te miejsca.'],
           ['Oni lubią', 'Им нравится русский язык.', 'Lubią język rosyjski.'],
           [
             'Spodobało mi się',
             'Мне понравился фильм.',
             'czas przeszły perfektywny, zgodność męska',
           ],
-          [
-            'Spodoba mi się',
-            'Мне понравится этот город.',
-            'czas przyszły perfektywny',
-          ],
+          ['Spodoba mi się', 'Мне понравится этот город.', 'czas przyszły perfektywny'],
           ['Nie lubię', 'Мне не нравится шум.', 'przeczenie: не + нравится'],
         ],
       },
@@ -389,17 +336,9 @@ export const russianDativeCasePl: LearnArticle = {
           ['On ma 30 lat', 'Ему тридцать лет.', 'Ему (cel. od он)'],
           ['Ona ma 18 lat', 'Ей восемнадцать лет.', 'Ей (cel. od она)'],
           ['Mamy 40 lat', 'Нам сорок лет.', 'Нам (cel. od мы)'],
-          [
-            'Iwan ma 2 lata',
-            'Ивану два года.',
-            'Ивану + 2 + года (dopełniacz lp. po 2)',
-          ],
+          ['Iwan ma 2 lata', 'Ивану два года.', 'Ивану + 2 + года (dopełniacz lp. po 2)'],
           ['Anna ma 5 lat', 'Анне пять лет.', 'Анне + 5 + лет (dopełniacz lm.)'],
-          [
-            'Kot ma 3 lata',
-            'Коту три года.',
-            'Działa też dla zwierząt!',
-          ],
+          ['Kot ma 3 lata', 'Коту три года.', 'Działa też dla zwierząt!'],
           ['Ile masz lat?', 'Сколько тебе лет?', 'Сколько + zaimek w cel. + лет'],
         ],
       },
@@ -426,12 +365,7 @@ export const russianDativeCasePl: LearnArticle = {
             'Muszę pracować.',
             'Celownik = osoba, której dotyczy',
           ],
-          [
-            'можно',
-            'Тебе можно идти.',
-            'Możesz iść.',
-            'Celownik = osoba uprawniona',
-          ],
+          ['можно', 'Тебе можно идти.', 'Możesz iść.', 'Celownik = osoba uprawniona'],
           [
             'нельзя',
             'Ему нельзя есть сахар.',
@@ -444,54 +378,19 @@ export const russianDativeCasePl: LearnArticle = {
             'Potrzebuję pomocy.',
             'Zgodność z rzeczą potrzebną',
           ],
-          [
-            'интересно',
-            'Мне интересно.',
-            'Interesuje mnie to.',
-            'Celownik = osoba zainteresowana',
-          ],
-          [
-            'скучно',
-            'Ей скучно на уроке.',
-            'Nudzi się na lekcji.',
-            'Celownik = osoba znudzona',
-          ],
-          [
-            'весело',
-            'Нам было весело.',
-            'Dobrze się nam bawiło.',
-            'Przeszłość: было + celownik',
-          ],
-          [
-            'грустно',
-            'Ему грустно без тебя.',
-            'Jest mu smutno bez ciebie.',
-            'Stan emocjonalny',
-          ],
-          [
-            'холодно / жарко',
-            'Мне холодно.',
-            'Zimno mi.',
-            'Odczucie fizyczne',
-          ],
+          ['интересно', 'Мне интересно.', 'Interesuje mnie to.', 'Celownik = osoba zainteresowana'],
+          ['скучно', 'Ей скучно на уроке.', 'Nudzi się na lekcji.', 'Celownik = osoba znudzona'],
+          ['весело', 'Нам было весело.', 'Dobrze się nam bawiło.', 'Przeszłość: было + celownik'],
+          ['грустно', 'Ему грустно без тебя.', 'Jest mu smutno bez ciebie.', 'Stan emocjonalny'],
+          ['холодно / жарко', 'Мне холодно.', 'Zimno mi.', 'Odczucie fizyczne'],
           [
             'стыдно',
             'Мне стыдно за тебя.',
             'Wstyd mi za ciebie.',
             'Osoba przeżywająca w celowniku',
           ],
-          [
-            'трудно',
-            'Ей трудно учиться.',
-            'Trudno jej się uczyć.',
-            'Trudność',
-          ],
-          [
-            'лучше / хуже',
-            'Мне лучше сегодня.',
-            'Czuję się dziś lepiej.',
-            'Zdrowie / stan',
-          ],
+          ['трудно', 'Ей трудно учиться.', 'Trudno jej się uczyć.', 'Trudność'],
+          ['лучше / хуже', 'Мне лучше сегодня.', 'Czuję się dziś lepiej.', 'Zdrowie / stan'],
         ],
       },
     },
@@ -502,12 +401,7 @@ export const russianDativeCasePl: LearnArticle = {
       table: {
         caption: '8 przyimków ze znaczeniem i pełnymi przykładami',
         boldColumnIndices: [0],
-        headers: [
-          'Przyim.',
-          'Znaczenie',
-          'Z rzeczownikiem',
-          'Pełny przykład + tłumaczenie',
-        ],
+        headers: ['Przyim.', 'Znaczenie', 'Z rzeczownikiem', 'Pełny przykład + tłumaczenie'],
         rows: [
           [
             'к',
@@ -603,24 +497,14 @@ export const russianDativeCasePl: LearnArticle = {
             'Dałem mu książkę.',
             'Klasyczne dopełnienie pośrednie',
           ],
-          [
-            'говорить / сказать',
-            'Скажи мне правду.',
-            'Powiedz mi prawdę.',
-            'Mówić do kogoś',
-          ],
+          ['говорить / сказать', 'Скажи мне правду.', 'Powiedz mi prawdę.', 'Mówić do kogoś'],
           [
             'писать / написать',
             'Я написал тебе письмо.',
             'Napisałem do ciebie list.',
             'Pisać do kogoś',
           ],
-          [
-            'звонить / позвонить',
-            'Позвони маме.',
-            'Zadzwoń do mamy.',
-            'Dzwonić do kogoś',
-          ],
+          ['звонить / позвонить', 'Позвони маме.', 'Zadzwoń do mamy.', 'Dzwonić do kogoś'],
           ['помогать / помочь', 'Помоги мне!', 'Pomóż mi!', 'Pomagać komuś'],
           [
             'нравиться / понравиться',
@@ -628,67 +512,26 @@ export const russianDativeCasePl: LearnArticle = {
             'Lubię muzykę.',
             'Celownik = osoba, której się podoba',
           ],
-          [
-            'показывать / показать',
-            'Покажи мне карту.',
-            'Pokaż mi mapę.',
-            'Pokazywać komuś',
-          ],
-          [
-            'объяснять / объяснить',
-            'Объясни мне это.',
-            'Wyjaśnij mi to.',
-            'Wyjaśniać komuś',
-          ],
+          ['показывать / показать', 'Покажи мне карту.', 'Pokaż mi mapę.', 'Pokazywać komuś'],
+          ['объяснять / объяснить', 'Объясни мне это.', 'Wyjaśnij mi to.', 'Wyjaśniać komuś'],
           [
             'отвечать / ответить',
             'Ответь мне на вопрос.',
             'Odpowiedz mi na pytanie.',
             'Odpowiadać komuś',
           ],
-          [
-            'разрешать / разрешить',
-            'Разреши мне уйти.',
-            'Pozwól mi wyjść.',
-            'Udzielać zezwolenia',
-          ],
-          [
-            'мешать / помешать',
-            'Не мешай мне!',
-            'Nie przeszkadzaj mi!',
-            'Przeszkadzać komuś',
-          ],
-          [
-            'советовать',
-            'Советую тебе поехать.',
-            'Radzę ci pojechać.',
-            'Udzielać rady',
-          ],
-          [
-            'верить / поверить',
-            'Я верю тебе.',
-            'Wierzę ci.',
-            'Ufać komuś',
-          ],
-          [
-            'завидовать',
-            'Он завидует другу.',
-            'Zazdrości przyjacielowi.',
-            'Czuć zazdrość',
-          ],
-          [
-            'принадлежать',
-            'Это принадлежит мне.',
-            'To należy do mnie.',
-            'Należeć do kogoś',
-          ],
+          ['разрешать / разрешить', 'Разреши мне уйти.', 'Pozwól mi wyjść.', 'Udzielać zezwolenia'],
+          ['мешать / помешать', 'Не мешай мне!', 'Nie przeszkadzaj mi!', 'Przeszkadzać komuś'],
+          ['советовать', 'Советую тебе поехать.', 'Radzę ci pojechać.', 'Udzielać rady'],
+          ['верить / поверить', 'Я верю тебе.', 'Wierzę ci.', 'Ufać komuś'],
+          ['завидовать', 'Он завидует другу.', 'Zazdrości przyjacielowi.', 'Czuć zazdrość'],
+          ['принадлежать', 'Это принадлежит мне.', 'To należy do mnie.', 'Należeć do kogoś'],
         ],
       },
     },
     {
       h2: '30 autentycznych przykładów celownika rosyjskiego',
-      content:
-        'Oto **30 autentycznych zdań** ilustrujących główne funkcje celownika.',
+      content: 'Oto **30 autentycznych zdań** ilustrujących główne funkcje celownika.',
       bullets: [
         '**1–6:** dopełnienia pośrednie (dać, powiedzieć, pomóc itd.)',
         '**7–10:** konstrukcja нравиться',
@@ -702,30 +545,15 @@ export const russianDativeCasePl: LearnArticle = {
         boldColumnIndices: [1],
         headers: ['#', 'Rosyjski', 'Transliteracja', 'Tłumaczenie i uwagi'],
         rows: [
-          [
-            '1',
-            'Я дал маме цветы.',
-            'Ya dal mame tsvety.',
-            'Dałem mamie kwiaty. (мама → маме)',
-          ],
-          [
-            '2',
-            'Скажи мне правду.',
-            'Skazhi mne pravdu.',
-            'Powiedz mi prawdę. (мне = cel. od я)',
-          ],
+          ['1', 'Я дал маме цветы.', 'Ya dal mame tsvety.', 'Dałem mamie kwiaty. (мама → маме)'],
+          ['2', 'Скажи мне правду.', 'Skazhi mne pravdu.', 'Powiedz mi prawdę. (мне = cel. od я)'],
           [
             '3',
             'Он написал другу длинное письмо.',
             'On napisal drugu dlinnoye pismo.',
             'Napisał długi list do przyjaciela.',
           ],
-          [
-            '4',
-            'Помогите мне, пожалуйста!',
-            'Pomogite mne, pozhaluysta!',
-            'Proszę, pomóżcie mi!',
-          ],
+          ['4', 'Помогите мне, пожалуйста!', 'Pomogite mne, pozhaluysta!', 'Proszę, pomóżcie mi!'],
           [
             '5',
             'Я позвонила бабушке.',
@@ -769,12 +597,7 @@ export const russianDativeCasePl: LearnArticle = {
             'Bratu ispolnilos pyat let.',
             'Brat skończył pięć lat.',
           ],
-          [
-            '13',
-            'Сколько лет вашей маме?',
-            'Skolko let vashey mame?',
-            'Ile lat ma twoja mama?',
-          ],
+          ['13', 'Сколько лет вашей маме?', 'Skolko let vashey mame?', 'Ile lat ma twoja mama?'],
           [
             '14',
             'Иди к врачу немедленно!',
@@ -817,30 +640,15 @@ export const russianDativeCasePl: LearnArticle = {
             'Mne nuzhno pogovorit s toboy.',
             'Muszę z tobą porozmawiać.',
           ],
-          [
-            '21',
-            'Тебе можно идти домой.',
-            'Tebe mozhno idti domoy.',
-            'Możesz iść do domu.',
-          ],
-          [
-            '22',
-            'Ему нельзя пить кофе.',
-            'Emu nelzya pit kofe.',
-            'Nie wolno mu pić kawy.',
-          ],
+          ['21', 'Тебе можно идти домой.', 'Tebe mozhno idti domoy.', 'Możesz iść do domu.'],
+          ['22', 'Ему нельзя пить кофе.', 'Emu nelzya pit kofe.', 'Nie wolno mu pić kawy.'],
           [
             '23',
             'Мне холодно, закрой окно.',
             'Mne holodno, zakroy okno.',
             'Zimno mi, zamknij okno.',
           ],
-          [
-            '24',
-            'Ей скучно одной дома.',
-            'Ey skuchno odnoy doma.',
-            'Nudzi się sama w domu.',
-          ],
+          ['24', 'Ей скучно одной дома.', 'Ey skuchno odnoy doma.', 'Nudzi się sama w domu.'],
           [
             '25',
             'Нам было очень весело на вечеринке.',
@@ -914,16 +722,8 @@ export const russianDativeCasePl: LearnArticle = {
             'Мне нужна эта книга.',
             'CELOWNIK: мне (to ja potrzebuję).',
           ],
-          [
-            'Kierunek к → celownik',
-            'Иди к другу.',
-            'CELOWNIK po к: другу (w stronę przyjaciela).',
-          ],
-          [
-            'Miejsce у → dopełniacz',
-            'Я у друга.',
-            'DOPEŁNIACZ po у: друга (u przyjaciela).',
-          ],
+          ['Kierunek к → celownik', 'Иди к другу.', 'CELOWNIK po к: другу (w stronę przyjaciela).'],
+          ['Miejsce у → dopełniacz', 'Я у друга.', 'DOPEŁNIACZ po у: друга (u przyjaciela).'],
           [
             'Wyrażenie wieku → celownik',
             'Другу двадцать лет.',
@@ -947,8 +747,7 @@ export const russianDativeCasePl: LearnArticle = {
       ],
     },
   ],
-  conclusion:
-    'Rosyjski celownik jest znacznie bogatszy niż sugeruje etykieta „przypadek daru”.',
+  conclusion: 'Rosyjski celownik jest znacznie bogatszy niż sugeruje etykieta „przypadek daru”.',
   conclusionBullets: [
     '**Funkcje:** dopełnienie pośrednie, doświadczenie z нравиться, wiek, wyrażenia bezosobowe (мне нужно, мне холодно), po к i по',
     '**Końcówki rzeczowników:** męski/nijaki twardy→-У, miękki→-Ю | żeński -а/-я→-Е, -ия→-ИИ, -ь→-И | lm. twardy→-АМ, miękki→-ЯМ',

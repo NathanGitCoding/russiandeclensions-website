@@ -19,9 +19,24 @@ export async function GET() {
   }));
   const entries = [
     { url: baseUrl, lastModified: now, changeFrequency: 'weekly' as const, priority: 1 },
-    { url: `${baseUrl}/words`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
-    { url: `${baseUrl}/learn`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
-    { url: `${baseUrl}/practice`, lastModified: CONTENT_DATE, changeFrequency: 'weekly' as const, priority: 0.8 },
+    {
+      url: `${baseUrl}/words`,
+      lastModified: now,
+      changeFrequency: 'weekly' as const,
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/learn`,
+      lastModified: now,
+      changeFrequency: 'weekly' as const,
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/practice`,
+      lastModified: CONTENT_DATE,
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    },
     ...practiceCaseEntries,
   ];
   const xml = buildUrlSetXml(entries);

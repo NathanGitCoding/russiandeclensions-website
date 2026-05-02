@@ -3,10 +3,8 @@ import type { LearnArticle } from '../learnArticles';
 /** Tłumaczenie polskie artykułu `russian-accusative-case` (źródło EN: `learnArticles.ts`). Cyrylica zgodna z plikiem francuskim. */
 export const russianAccusativeCasePl: LearnArticle = {
   slug: 'russian-accusative-case',
-  title:
-    'Biernik rosyjski: dopełnienia bezpośrednie, ożywione a nieożywione oraz czasowniki ruchu',
-  metaTitle:
-    'Biernik rosyjski: zasady, końcówki i 30 przykładów | Russian Cases with Anna',
+  title: 'Biernik rosyjski: dopełnienia bezpośrednie, ożywione a nieożywione oraz czasowniki ruchu',
+  metaTitle: 'Biernik rosyjski: zasady, końcówki i 30 przykładów | Russian Cases with Anna',
   metaDescription:
     'Kompletny przewodnik po bierniku rosyjskim: tabela końcówek, rozróżnienie ożywione/nieożywione, czasowniki ruchu, в/на kierunek vs miejsce, 9 przyimków, 15 czasowników przechodnich, 30 autentycznych przykładów.',
   keywords: [
@@ -48,8 +46,7 @@ export const russianAccusativeCasePl: LearnArticle = {
   internalLinks: [
     {
       href: '/learn/lessons/russian-cases-complete-guide',
-      label:
-        'Kompletny przewodnik po przypadkach rosyjskich: wszystkie 6 przypadków z przykładami',
+      label: 'Kompletny przewodnik po przypadkach rosyjskich: wszystkie 6 przypadków z przykładami',
     },
     {
       href: '/learn/articles/russian-case-endings-cheatsheet',
@@ -57,13 +54,11 @@ export const russianAccusativeCasePl: LearnArticle = {
     },
     {
       href: '/learn/articles/russian-genitive-case',
-      label:
-        'Rosyjski dopełniacz: zasady, końcówki i 32 autentyczne przykłady',
+      label: 'Rosyjski dopełniacz: zasady, końcówki i 32 autentyczne przykłady',
     },
     {
       href: '/learn/lessons/dative-case-declension',
-      label:
-        'Rosyjski celownik: jak powiedzieć „do” i „dla” po rosyjsku',
+      label: 'Rosyjski celownik: jak powiedzieć „do” i „dla” po rosyjsku',
     },
   ],
   sections: [
@@ -97,13 +92,7 @@ export const russianAccusativeCasePl: LearnArticle = {
       table: {
         caption: 'Końcówki biernika według typu rzeczownika — liczba pojedyncza i mnoga',
         boldColumnIndices: [3],
-        headers: [
-          'Typ rzeczownika',
-          'Zasada',
-          'Mianownik',
-          'Biernik',
-          'Przykładowe zdanie',
-        ],
+        headers: ['Typ rzeczownika', 'Zasada', 'Mianownik', 'Biernik', 'Przykładowe zdanie'],
         rows: [
           [
             'Męski nieożywiony (twardy)',
@@ -133,20 +122,8 @@ export const russianAccusativeCasePl: LearnArticle = {
             'гения',
             'Я вижу гения. — Widzę geniusza.',
           ],
-          [
-            'Żeński twardy (-а)',
-            '-у',
-            'женщина',
-            'женщину',
-            'Я вижу женщину. — Widzę kobietę.',
-          ],
-          [
-            'Żeński miękki (-я)',
-            '-ю',
-            'земля',
-            'землю',
-            'Я вижу землю. — Widzę ziemię.',
-          ],
+          ['Żeński twardy (-а)', '-у', 'женщина', 'женщину', 'Я вижу женщину. — Widzę kobietę.'],
+          ['Żeński miękki (-я)', '-ю', 'земля', 'землю', 'Я вижу землю. — Widzę ziemię.'],
           [
             'Żeński (-ь) nieożywiony',
             '= mian. (-ь)',
@@ -154,27 +131,9 @@ export const russianAccusativeCasePl: LearnArticle = {
             'ночь',
             'Я люблю ночь. — Kocham noc.',
           ],
-          [
-            'Żeński (-ь) ożywiony',
-            '= mian. (-ь)',
-            'мышь',
-            'мышь',
-            'Я вижу мышь. — Widzę mysz.',
-          ],
-          [
-            'Nijaki (twardy -о)',
-            '= mian. (-о)',
-            'окно',
-            'окно',
-            'Я вижу окно. — Widzę okno.',
-          ],
-          [
-            'Nijaki (miękki -е)',
-            '= mian. (-е)',
-            'море',
-            'море',
-            'Я вижу море. — Widzę morze.',
-          ],
+          ['Żeński (-ь) ożywiony', '= mian. (-ь)', 'мышь', 'мышь', 'Я вижу мышь. — Widzę mysz.'],
+          ['Nijaki (twardy -о)', '= mian. (-о)', 'окно', 'окно', 'Я вижу окно. — Widzę okno.'],
+          ['Nijaki (miękki -е)', '= mian. (-е)', 'море', 'море', 'Я вижу море. — Widzę morze.'],
           [
             'Liczba mnoga nieożywiona',
             '= mian. lm.',
@@ -211,8 +170,7 @@ export const russianAccusativeCasePl: LearnArticle = {
         },
       ],
       table: {
-        caption:
-          '12 konkretnych przykładów, w tym nietypowe przypadki ożywione/nieożywione',
+        caption: '12 konkretnych przykładów, w tym nietypowe przypadki ożywione/nieożywione',
         boldColumnIndices: [2],
         headers: ['Rzeczownik', 'Ożywione / nieożywione', 'Forma w bierniku', 'Uwaga'],
         rows: [
@@ -228,12 +186,7 @@ export const russianAccusativeCasePl: LearnArticle = {
             'Я слушаю врача.',
             'Biernik = forma dopełniacza (врача)',
           ],
-          [
-            '🐱 кот (kot)',
-            'ożywione',
-            'Я глажу кота.',
-            'Zwierzęta są ożywione (кота)',
-          ],
+          ['🐱 кот (kot)', 'ożywione', 'Я глажу кота.', 'Zwierzęta są ożywione (кота)'],
           [
             '👶 ребёнок (dziecko)',
             'ożywione',
@@ -246,24 +199,9 @@ export const russianAccusativeCasePl: LearnArticle = {
             'Я уважаю президента.',
             'Ludzie zawsze są ożywieni',
           ],
-          [
-            '🪑 стол (stół)',
-            'nieożywione',
-            'Я вижу стол.',
-            'Biernik = mianownik (bez zmiany)',
-          ],
-          [
-            '🎬 фильм (film)',
-            'nieożywione',
-            'Я смотрю фильм.',
-            'Biernik = mianownik (bez zmiany)',
-          ],
-          [
-            '🏙️ город (miasto)',
-            'nieożywione',
-            'Я люблю этот город.',
-            'Miejsca są nieożywione',
-          ],
+          ['🪑 стол (stół)', 'nieożywione', 'Я вижу стол.', 'Biernik = mianownik (bez zmiany)'],
+          ['🎬 фильм (film)', 'nieożywione', 'Я смотрю фильм.', 'Biernik = mianownik (bez zmiany)'],
+          ['🏙️ город (miasto)', 'nieożywione', 'Я люблю этот город.', 'Miejsca są nieożywione'],
           [
             '💀 труп (zwłoki)',
             'nieożywione',
@@ -302,40 +240,14 @@ export const russianAccusativeCasePl: LearnArticle = {
       content:
         'Czasowniki ruchu używają **в lub на + biernik**, by wskazać kierunek. Rosyjski ma bogaty system czasowników ruchu.\n\nWszystkie przy kierunku mają в/на + biernik:',
       table: {
-        caption:
-          '10 głównych czasowników ruchu + jednokierunkowy vs wielokierunkowy',
+        caption: '10 głównych czasowników ruchu + jednokierunkowy vs wielokierunkowy',
         boldColumnIndices: [2],
-        headers: [
-          'Czasownik',
-          'Znaczenie',
-          'Przykład z В/НА + bier.',
-          'Tłumaczenie',
-        ],
+        headers: ['Czasownik', 'Znaczenie', 'Przykład z В/НА + bier.', 'Tłumaczenie'],
         rows: [
-          [
-            'идти / ходить',
-            '🚶 iść (pieszo)',
-            'Я иду в школу.',
-            'Idę do szkoły (w tej chwili)',
-          ],
-          [
-            'ехать / ездить',
-            '🚗 jechać (pojazdem)',
-            'Мы едем на работу.',
-            'Jedziemy do pracy',
-          ],
-          [
-            'бежать / бегать',
-            '🏃 biegać',
-            'Он бежит на стадион.',
-            'Biegnie na stadion',
-          ],
-          [
-            'лететь / летать',
-            '✈️ lecieć',
-            'Самолёт летит в Москву.',
-            'Samolot leci do Moskwy',
-          ],
+          ['идти / ходить', '🚶 iść (pieszo)', 'Я иду в школу.', 'Idę do szkoły (w tej chwili)'],
+          ['ехать / ездить', '🚗 jechać (pojazdem)', 'Мы едем на работу.', 'Jedziemy do pracy'],
+          ['бежать / бегать', '🏃 biegać', 'Он бежит на стадион.', 'Biegnie na stadion'],
+          ['лететь / летать', '✈️ lecieć', 'Самолёт летит в Москву.', 'Samolot leci do Moskwy'],
           [
             'плыть / плавать',
             '🏊 płynąć / pływać',
@@ -360,18 +272,8 @@ export const russianAccusativeCasePl: LearnArticle = {
             'Ребёнок ползёт на диван.',
             'Dziecko czołga się ku kanapie',
           ],
-          [
-            'прийти (dok.)',
-            '🎯 przyjść / przybyć',
-            'Приходи на вечеринку!',
-            'Chodź na imprezę!',
-          ],
-          [
-            'вернуться (dok.)',
-            '↩️ wrócić',
-            'Он вернулся в город.',
-            'Wrócił do miasta',
-          ],
+          ['прийти (dok.)', '🎯 przyjść / przybyć', 'Приходи на вечеринку!', 'Chodź na imprezę!'],
+          ['вернуться (dok.)', '↩️ wrócić', 'Он вернулся в город.', 'Wrócił do miasta'],
         ],
       },
       bullets: [
@@ -391,70 +293,29 @@ export const russianAccusativeCasePl: LearnArticle = {
         height: 630,
       },
       table: {
-        caption:
-          '10 par obok siebie: biernik (kierunek) vs miejscownik (miejsce)',
+        caption: '10 par obok siebie: biernik (kierunek) vs miejscownik (miejsce)',
         boldColumnIndices: [0, 1],
-        headers: [
-          'Konstrukcja',
-          'Przykład rosyjski',
-          'Znaczenie',
-          'Tłumaczenie',
-        ],
+        headers: ['Konstrukcja', 'Przykład rosyjski', 'Znaczenie', 'Tłumaczenie'],
         rows: [
-          [
-            'в + biernik',
-            'Я иду в магазин.',
-            'Kierunek: do / w',
-            'Idę do sklepu.',
-          ],
-          [
-            'в + miejscownik',
-            'Я нахожусь в магазине.',
-            'Miejsce: w / u',
-            'Jestem w sklepie.',
-          ],
-          [
-            'на + biernik',
-            'Она едет на работу.',
-            'Kierunek: na / do',
-            'Jedzie do pracy.',
-          ],
-          [
-            'на + miejscownik',
-            'Она работает на заводе.',
-            'Miejsce: na / w',
-            'Pracuje w fabryce.',
-          ],
-          [
-            'в + biernik',
-            'Дети пошли в школу.',
-            'Kierunek: do szkoły',
-            'Dzieci poszły do szkoły.',
-          ],
+          ['в + biernik', 'Я иду в магазин.', 'Kierunek: do / w', 'Idę do sklepu.'],
+          ['в + miejscownik', 'Я нахожусь в магазине.', 'Miejsce: w / u', 'Jestem w sklepie.'],
+          ['на + biernik', 'Она едет на работу.', 'Kierunek: na / do', 'Jedzie do pracy.'],
+          ['на + miejscownik', 'Она работает на заводе.', 'Miejsce: na / w', 'Pracuje w fabryce.'],
+          ['в + biernik', 'Дети пошли в школу.', 'Kierunek: do szkoły', 'Dzieci poszły do szkoły.'],
           [
             'в + miejscownik',
             'Дети учатся в школе.',
             'Miejsce: w szkole',
             'Dzieci uczą się w szkole.',
           ],
-          [
-            'на + biernik',
-            'Мы летим на Кубу.',
-            'Kierunek: na Kubę',
-            'Lecimy na Kubę.',
-          ],
+          ['на + biernik', 'Мы летим на Кубу.', 'Kierunek: na Kubę', 'Lecimy na Kubę.'],
           [
             'на + miejscownik',
             'Мы отдыхаем на Кубе.',
             'Miejsce: na Kubie',
             'Wypoczywamy na Kubie.',
           ],
-          [
-            'на + biernik',
-            'Поставь книгу на стол.',
-            'Kierunek: na stół',
-            'Połóż książkę na stół.',
-          ],
+          ['на + biernik', 'Поставь книгу на стол.', 'Kierunek: na stół', 'Połóż książkę na stół.'],
           [
             'на + miejscownik',
             'Книга лежит на столе.',
@@ -478,49 +339,24 @@ export const russianAccusativeCasePl: LearnArticle = {
       table: {
         caption: '9 przyimków z biernikiem: znaczenie i pełny przykład',
         boldColumnIndices: [0],
-        headers: [
-          'Przyim.',
-          'Znaczenie',
-          'Z rzeczownikiem',
-          'Pełne zdanie + tłumaczenie',
-        ],
+        headers: ['Przyim.', 'Znaczenie', 'Z rzeczownikiem', 'Pełne zdanie + tłumaczenie'],
         rows: [
-          [
-            'в',
-            'w / do (kierunek)',
-            'в Москву, в школу',
-            'Я лечу в Москву. — Lecę do Moskwy.',
-          ],
+          ['в', 'w / do (kierunek)', 'в Москву, в школу', 'Я лечу в Москву. — Lecę do Moskwy.'],
           [
             'на',
             'na / do (kierunek)',
             'на работу, на стол',
             'Она идёт на работу. — Idzie do pracy.',
           ],
-          [
-            'за',
-            'za / po (ruch)',
-            'за угол, за хлебом',
-            'Он зашёл за угол. — Skręcił za róg.',
-          ],
-          [
-            'под',
-            'pod (ruch)',
-            'под стол',
-            'Кот залез под стол. — Kot wczołgał się pod stół.',
-          ],
+          ['за', 'za / po (ruch)', 'за угол, за хлебом', 'Он зашёл за угол. — Skręcił za róg.'],
+          ['под', 'pod (ruch)', 'под стол', 'Кот залез под стол. — Kot wczołgał się pod stół.'],
           [
             'через',
             'przez / na drugą stronę / za (czas)',
             'через реку, через час',
             'Мы переехали через реку. — Przeprawiliśmy się przez rzekę.',
           ],
-          [
-            'про',
-            'o (potocznie)',
-            'про тебя',
-            'Он рассказал про тебя. — Opowiadał o tobie.',
-          ],
+          ['про', 'o (potocznie)', 'про тебя', 'Он рассказал про тебя. — Opowiadał o tobie.'],
           [
             'сквозь',
             'na wskroś (przenikanie)',
@@ -553,11 +389,7 @@ export const russianAccusativeCasePl: LearnArticle = {
       table: {
         caption: 'через, за, весь/всю, в + dzień, спустя',
         boldColumnIndices: [0],
-        headers: [
-          'Typ wyrażenia',
-          'Przykłady',
-          'Pełne zdanie + tłumaczenie',
-        ],
+        headers: ['Typ wyrażenia', 'Przykłady', 'Pełne zdanie + tłumaczenie'],
         rows: [
           [
             'Czas trwania (весь / целый)',
@@ -579,11 +411,7 @@ export const russianAccusativeCasePl: LearnArticle = {
             'за час, за неделю',
             'Я сделал это за час. — Zrobiłem to w ciągu godziny.',
           ],
-          [
-            'спустя (po / później)',
-            'спустя год',
-            'Спустя год он вернулся. — Po roku wrócił.',
-          ],
+          ['спустя (po / później)', 'спустя год', 'Спустя год он вернулся. — Po roku wrócił.'],
         ],
       },
       bullets: [
@@ -599,60 +427,20 @@ export const russianAccusativeCasePl: LearnArticle = {
         boldColumnIndices: [0],
         headers: ['Czasownik', 'Przykład', 'Tłumaczenie', 'Uwaga'],
         rows: [
-          [
-            'видеть (widzieć)',
-            'Я вижу тебя.',
-            'Widzę cię.',
-            'Bezpośrednia percepcja wzrokowa',
-          ],
-          [
-            'любить (kochać)',
-            'Я люблю музыку.',
-            'Kocham muzykę.',
-            'Przedmiot uczucia',
-          ],
+          ['видеть (widzieć)', 'Я вижу тебя.', 'Widzę cię.', 'Bezpośrednia percepcja wzrokowa'],
+          ['любить (kochać)', 'Я люблю музыку.', 'Kocham muzykę.', 'Przedmiot uczucia'],
           [
             'знать (wiedzieć / znać)',
             'Я знаю этот город.',
             'Znam to miasto.',
             'Znana rzecz lub osoba',
           ],
-          [
-            'читать (czytać)',
-            'Она читает книгу.',
-            'Czyta książkę.',
-            'To, co się czyta',
-          ],
-          [
-            'слушать (słuchać)',
-            'Мы слушаем музыку.',
-            'Słuchamy muzyki.',
-            'Przedmiot słuchania',
-          ],
-          [
-            'смотреть (oglądać)',
-            'Он смотрит фильм.',
-            'Ogląda film.',
-            'Przedmiot wzroku',
-          ],
-          [
-            'купить (kupić)',
-            'Я купил машину.',
-            'Kupiłem samochód.',
-            'To, co się kupuje',
-          ],
-          [
-            'взять (wziąć)',
-            'Возьми зонтик.',
-            'Weź parasol.',
-            'To, co się bierze',
-          ],
-          [
-            'понимать (rozumieć)',
-            'Я понимаю тебя.',
-            'Rozumiem cię.',
-            'Osoba lub rzecz rozumiana',
-          ],
+          ['читать (czytać)', 'Она читает книгу.', 'Czyta książkę.', 'To, co się czyta'],
+          ['слушать (słuchać)', 'Мы слушаем музыку.', 'Słuchamy muzyki.', 'Przedmiot słuchania'],
+          ['смотреть (oglądać)', 'Он смотрит фильм.', 'Ogląda film.', 'Przedmiot wzroku'],
+          ['купить (kupić)', 'Я купил машину.', 'Kupiłem samochód.', 'To, co się kupuje'],
+          ['взять (wziąć)', 'Возьми зонтик.', 'Weź parasol.', 'To, co się bierze'],
+          ['понимать (rozumieć)', 'Я понимаю тебя.', 'Rozumiem cię.', 'Osoba lub rzecz rozumiana'],
           [
             'помнить (pamiętać)',
             'Я помню этот день.',
@@ -671,12 +459,7 @@ export const russianAccusativeCasePl: LearnArticle = {
             'Czekam na autobus.',
             'Możliwy biernik i dopełniacz!',
           ],
-          [
-            'спрашивать (pytać)',
-            'Он спрашивает меня.',
-            'Pyta mnie.',
-            'Pytana osoba',
-          ],
+          ['спрашивать (pytać)', 'Он спрашивает меня.', 'Pyta mnie.', 'Pytana osoba'],
           [
             'благодарить (dziękować)',
             'Я благодарю вас.',
@@ -782,12 +565,7 @@ export const russianAccusativeCasePl: LearnArticle = {
             'Ya idu v supermarket.',
             'Idę do supermarketu. (в + bier.)',
           ],
-          [
-            '14',
-            'Дети едут на море.',
-            'Deti edut na more.',
-            'Dzieci jadą nad morze. (на + bier.)',
-          ],
+          ['14', 'Дети едут на море.', 'Deti edut na more.', 'Dzieci jadą nad morze. (на + bier.)'],
           [
             '15',
             'Он положил ключи на стол.',
@@ -848,12 +626,7 @@ export const russianAccusativeCasePl: LearnArticle = {
             'On rasskazal pro svoyu zhizn.',
             'Opowiedział o swoim życiu. (про + bier.)',
           ],
-          [
-            '25',
-            'Мы переплыли через реку.',
-            'My pereplyli cherez reku.',
-            'Przepłynęliśmy rzekę.',
-          ],
+          ['25', 'Мы переплыли через реку.', 'My pereplyli cherez reku.', 'Przepłynęliśmy rzekę.'],
           [
             '26',
             'Он споткнулся о порог.',
@@ -901,36 +674,12 @@ export const russianAccusativeCasePl: LearnArticle = {
             'Я вижу студента.',
             'BIERNIK ożywiony (= forma dopełniacza, ale tu biernik)',
           ],
-          [
-            'Brak (нет)',
-            'Нет студента.',
-            'DOPEŁNIACZ — нет zawsze wymaga dopełniacza',
-          ],
-          [
-            'Dopełnienie nieożywione',
-            'Я вижу стол.',
-            'BIERNIK nieożywiony (= mianownik)',
-          ],
-          [
-            'Brak nieożywionego',
-            'Нет стола.',
-            'DOPEŁNIACZ (стол → стола)',
-          ],
-          [
-            'Kierunek do miejsca',
-            'Я иду в парк.',
-            'BIERNIK (в + kierunek)',
-          ],
-          [
-            'Czas trwania',
-            'Я работал всю неделю.',
-            'BIERNIK — всю неделю',
-          ],
-          [
-            'Ilość / część czegoś',
-            'Я выпил стакан воды.',
-            'DOPEŁNIACZ — воды (szklanka wody)',
-          ],
+          ['Brak (нет)', 'Нет студента.', 'DOPEŁNIACZ — нет zawsze wymaga dopełniacza'],
+          ['Dopełnienie nieożywione', 'Я вижу стол.', 'BIERNIK nieożywiony (= mianownik)'],
+          ['Brak nieożywionego', 'Нет стола.', 'DOPEŁNIACZ (стол → стола)'],
+          ['Kierunek do miejsca', 'Я иду в парк.', 'BIERNIK (в + kierunek)'],
+          ['Czas trwania', 'Я работал всю неделю.', 'BIERNIK — всю неделю'],
+          ['Ilość / część czegoś', 'Я выпил стакан воды.', 'DOPEŁNIACZ — воды (szklanka wody)'],
         ],
       },
       bullets: [
@@ -961,14 +710,12 @@ export const russianAccusativeCasePl: LearnArticle = {
         'Rosyjski biernik oznacza **dopełnienie bezpośrednie** czasowników przechodnich (Я читаю книгу), **kierunek** z в i на (Я иду в школу), **wyrażenia czasowe** (через час, всю ночь) oraz występuje po przyimkach takich jak за, через, про, под, сквозь.',
     },
     {
-      question:
-        'Jak działa rozróżnienie ożywione / nieożywione po rosyjsku?',
+      question: 'Jak działa rozróżnienie ożywione / nieożywione po rosyjsku?',
       answer:
         '**Męskie rzeczowniki ożywione** (ludzie, zwierzęta) przyjmują w bierniku **formę dopełniacza** (студент → студента). **Męskie nieożywione** pozostają w mianowniku (стол → стол). Zaskakujące: труп = nieożywione; karty do gry i bierki szachowe = ożywione.',
     },
     {
-      question:
-        'Jaka jest różnica między в + biernik a в + miejscownik?',
+      question: 'Jaka jest różnica między в + biernik a в + miejscownik?',
       answer:
         '**в + biernik** = kierunek (Я иду в школу — Idę do szkoły). **в + miejscownik** = miejsce (Я в школе — Jestem w szkole). To samo dla на: на работу (jechać do pracy) vs. на работе (w pracy).',
     },
@@ -983,8 +730,7 @@ export const russianAccusativeCasePl: LearnArticle = {
         'Tak. Przymiotniki muszą **zgodnie odmieniać się** z rzeczownikiem. Biernik żeński: **-ую/-юю** (красивую женщину). Męski nieożywiony: jak mianownik. Męski ożywiony: forma dopełniacza (красивого студента).',
     },
     {
-      question:
-        'Które czasowniki rosyjskie łączą się z dopełniaczem zamiast z biernikiem?',
+      question: 'Które czasowniki rosyjskie łączą się z dopełniaczem zamiast z biernikiem?',
       answer:
         'Większość czasowników przechodnich przyjmuje biernik. Wyjątki z **dopełniaczem**: бояться, ждать (nieożywione), желать, избегать, достигать, лишать. Хотеть może oba: хочу воды (dopełn., partytywny) vs. хочу воду (bier.).',
     },
@@ -1002,8 +748,7 @@ export const russianAccusativeCasePl: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/russian-accusative-case',
+      '@id': 'https://russiandeclensions.com/learn/articles/russian-accusative-case',
     },
     keywords:
       'biernik rosyjski, końcówki biernika rosyjski, ożywione nieożywione biernik rosyjski, dopełnienie bezpośrednie rosyjski, czasowniki ruchu biernik rosyjski',

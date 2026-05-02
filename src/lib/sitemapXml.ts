@@ -21,7 +21,9 @@ export function buildUrlSetXml(
   let xml = '<?xml version="1.0" encoding="UTF-8"?>';
   xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">';
   for (const entry of entries) {
-    const loc = entry.url.startsWith('http') ? entry.url : `${baseUrl}${entry.url.startsWith('/') ? '' : '/'}${entry.url}`;
+    const loc = entry.url.startsWith('http')
+      ? entry.url
+      : `${baseUrl}${entry.url.startsWith('/') ? '' : '/'}${entry.url}`;
     xml += '<url>';
     xml += `<loc>${escapeXml(loc)}</loc>`;
     if (entry.lastModified) {
@@ -39,11 +41,15 @@ export function buildUrlSetXml(
   return xml;
 }
 
-export function buildSitemapIndexXml(sitemaps: Array<{ url: string; lastModified?: Date }>): string {
+export function buildSitemapIndexXml(
+  sitemaps: Array<{ url: string; lastModified?: Date }>
+): string {
   let xml = '<?xml version="1.0" encoding="UTF-8"?>';
   xml += '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">';
   for (const s of sitemaps) {
-    const loc = s.url.startsWith('http') ? s.url : `${baseUrl}${s.url.startsWith('/') ? '' : '/'}${s.url}`;
+    const loc = s.url.startsWith('http')
+      ? s.url
+      : `${baseUrl}${s.url.startsWith('/') ? '' : '/'}${s.url}`;
     xml += '<sitemap>';
     xml += `<loc>${escapeXml(loc)}</loc>`;
     if (s.lastModified) {

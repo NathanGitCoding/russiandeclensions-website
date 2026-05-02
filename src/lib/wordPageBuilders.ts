@@ -30,8 +30,12 @@ export function buildWordCaseArticleLinks(t: WordPageTranslations) {
   }));
 }
 
-export function getWordDeclensionOrdinal(word: WordWithDeclensions, wt: WordPageTranslations): string {
-  if (word.gender === 'feminine' && word.base_form?.endsWith('ь')) return wt.declensionOrdinals.third;
+export function getWordDeclensionOrdinal(
+  word: WordWithDeclensions,
+  wt: WordPageTranslations
+): string {
+  if (word.gender === 'feminine' && word.base_form?.endsWith('ь'))
+    return wt.declensionOrdinals.third;
   if (word.gender === 'feminine') return wt.declensionOrdinals.first;
   return wt.declensionOrdinals.second;
 }

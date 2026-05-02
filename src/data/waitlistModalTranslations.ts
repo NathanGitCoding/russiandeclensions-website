@@ -111,7 +111,7 @@ const translations: Record<Language, WaitlistModalTranslations> = {
   it_it: {
     titleIos: 'Prossimamente su App Store',
     titleAndroid: 'Prossimamente su Google Play',
-    subtitle: 'Lascia la tua email e ti avviseremo quando l\'app sarà disponibile.',
+    subtitle: "Lascia la tua email e ti avviseremo quando l'app sarà disponibile.",
     emailLabel: 'Indirizzo email',
     emailPlaceholder: 'tua@email.com',
     marketingCheckbox: 'Accetto di ricevere novità e offerte su Russian Cases with Anna.',
@@ -119,7 +119,7 @@ const translations: Record<Language, WaitlistModalTranslations> = {
     submitLoading: 'Registrazione...',
     cancelButton: 'Annulla',
     closeButton: 'OK',
-    successMessage: 'Sei in lista! Ti invieremo un\'email al lancio dell\'app.',
+    successMessage: "Sei in lista! Ti invieremo un'email al lancio dell'app.",
     errorGeneric: 'Qualcosa è andato storto. Riprova.',
   },
   pt_pt: {
@@ -142,7 +142,8 @@ const translations: Record<Language, WaitlistModalTranslations> = {
     subtitle: 'Laat je e-mail achter en we laten je weten wanneer de app beschikbaar is.',
     emailLabel: 'E-mailadres',
     emailPlaceholder: 'jouw@email.com',
-    marketingCheckbox: 'Ik ga akkoord met het ontvangen van nieuws en aanbiedingen over Russian Cases with Anna.',
+    marketingCheckbox:
+      'Ik ga akkoord met het ontvangen van nieuws en aanbiedingen over Russian Cases with Anna.',
     submitButton: 'Laat het me weten',
     submitLoading: 'Aanmelden...',
     cancelButton: 'Annuleren',

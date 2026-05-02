@@ -19,9 +19,7 @@ export function PracticeResults({ results, t, onTryAgain, onNewQuiz }: Props) {
 
   return (
     <div className="mx-auto max-w-lg rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
-      <h3 className="mb-1 text-center text-lg font-bold text-gray-800">
-        {t.results.score}
-      </h3>
+      <h3 className="mb-1 text-center text-lg font-bold text-gray-800">{t.results.score}</h3>
       <p
         className="mb-6 text-center text-4xl font-bold"
         style={{ color: score >= 60 ? '#10B981' : '#EF4444' }}
@@ -49,7 +47,7 @@ export function PracticeResults({ results, t, onTryAgain, onNewQuiz }: Props) {
                 {r.slug ? (
                   <Link
                     href={`/russian-declension/${r.slug}`}
-                    className="font-medium text-gray-800 underline decoration-gray-300 underline-offset-2 hover:decoration-blue-500 hover:text-blue-700"
+                    className="font-medium text-gray-800 underline decoration-gray-300 underline-offset-2 hover:text-blue-700 hover:decoration-blue-500"
                     lang="ru"
                   >
                     {r.base_form}

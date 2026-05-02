@@ -106,13 +106,7 @@ export const russianDativeCaseFr: LearnArticle = {
       table: {
         caption: 'Terminaisons des noms au datif — tous genres, singulier et pluriel',
         boldColumnIndices: [1, 3],
-        headers: [
-          'Type de nom',
-          'Terminaison',
-          'Formation',
-          'Résultat',
-          'Exemple en contexte',
-        ],
+        headers: ['Type de nom', 'Terminaison', 'Formation', 'Résultat', 'Exemple en contexte'],
         rows: [
           [
             'Masc. dur (consonne)',
@@ -142,13 +136,7 @@ export const russianDativeCaseFr: LearnArticle = {
             'сестре',
             'Я звоню сестре. — J’appelle ma sœur.',
           ],
-          [
-            'Fém. mou (-я)',
-            '-е',
-            'земля → земл+е',
-            'земле',
-            'Привет земле! — Salut à la Terre !',
-          ],
+          ['Fém. mou (-я)', '-е', 'земля → земл+е', 'земле', 'Привет земле! — Salut à la Terre !'],
           [
             'Fém. en -ия',
             '-ии',
@@ -242,20 +230,8 @@ export const russianDativeCaseFr: LearnArticle = {
             'mer bleue (dat.)',
             'Мы едем к синему морю.',
           ],
-          [
-            'Fém. dur',
-            '-ой',
-            'красивая → красивой',
-            'belle (dat.)',
-            'Я звоню красивой подруге.',
-          ],
-          [
-            'Fém. mou',
-            '-ей',
-            'летняя → летней',
-            'd’été (dat.)',
-            'В летней школе нравится.',
-          ],
+          ['Fém. dur', '-ой', 'красивая → красивой', 'belle (dat.)', 'Я звоню красивой подруге.'],
+          ['Fém. mou', '-ей', 'летняя → летней', 'd’été (dat.)', 'В летней школе нравится.'],
           [
             'Pluriel tous genres',
             '-ым/-им',
@@ -382,7 +358,12 @@ export const russianDativeCaseFr: LearnArticle = {
         boldColumnIndices: [0, 1],
         headers: ['Expression', 'Exemple russe', 'Traduction', 'Note grammaticale'],
         rows: [
-          ['нужно / надо', 'Мне нужно работать.', 'Il faut que je travaille / Je dois travailler.', 'Datif = personne concernée'],
+          [
+            'нужно / надо',
+            'Мне нужно работать.',
+            'Il faut que je travaille / Je dois travailler.',
+            'Datif = personne concernée',
+          ],
           ['можно', 'Тебе можно идти.', 'Tu peux y aller.', 'Datif = personne autorisée'],
           [
             'нельзя',
@@ -397,7 +378,12 @@ export const russianDativeCaseFr: LearnArticle = {
             'Accord avec la chose dont on a besoin',
           ],
           ['интересно', 'Мне интересно.', 'Ça m’intéresse.', 'Datif = personne intéressée'],
-          ['скучно', 'Ей скучно на уроке.', 'Elle s’ennuie en cours.', 'Datif = personne qui s’ennuie'],
+          [
+            'скучно',
+            'Ей скучно на уроке.',
+            'Elle s’ennuie en cours.',
+            'Datif = personne qui s’ennuie',
+          ],
           ['весело', 'Нам было весело.', 'Nous nous sommes bien amusés.', 'Passé : было + datif'],
           ['грустно', 'Ему грустно без тебя.', 'Il est triste sans toi.', 'État émotionnel'],
           ['холодно / жарко', 'Мне холодно.', 'J’ai froid.', 'Sensation physique'],
@@ -452,12 +438,7 @@ export const russianDativeCaseFr: LearnArticle = {
             'навстречу ветру',
             'Она шла навстречу ветру. — Elle marchait au-devant du vent.',
           ],
-          [
-            'наперекор',
-            'au mépris de',
-            'наперекор судьбе',
-            'Наперекор судьбе он добился успеха.',
-          ],
+          ['наперекор', 'au mépris de', 'наперекор судьбе', 'Наперекор судьбе он добился успеха.'],
           [
             'подобно',
             'semblable à / comme (littéraire)',
@@ -474,7 +455,8 @@ export const russianDativeCaseFr: LearnArticle = {
         },
         {
           h3: 'ПО — la préposition multi-usage',
-          content: '**По** est l’une des prépositions les plus polyvalentes du russe. Avec le datif :',
+          content:
+            '**По** est l’une des prépositions les plus polyvalentes du russe. Avec le datif :',
           bullets: [
             '**Mouvement le long de** — гулять по парку (se promener dans le parc)',
             '**Distribution** — по одному яблоку (une pomme chacun)',
@@ -503,7 +485,12 @@ export const russianDativeCaseFr: LearnArticle = {
         boldColumnIndices: [0],
         headers: ['Verbe', 'Exemple', 'Traduction', 'Remarque'],
         rows: [
-          ['давать / дать', 'Я дал ему книгу.', 'Je lui ai donné un livre.', 'Objet indirect classique'],
+          [
+            'давать / дать',
+            'Я дал ему книгу.',
+            'Je lui ai donné un livre.',
+            'Objet indirect classique',
+          ],
           ['говорить / сказать', 'Скажи мне правду.', 'Dis-moi la vérité.', 'Dire à quelqu’un'],
           [
             'писать / написать',
@@ -544,7 +531,12 @@ export const russianDativeCaseFr: LearnArticle = {
             'Donner la permission',
           ],
           ['мешать / помешать', 'Не мешай мне!', 'Ne me dérange pas !', 'Gêner quelqu’un'],
-          ['советовать', 'Советую тебе поехать.', 'Je te conseille d’y aller.', 'Donner un conseil'],
+          [
+            'советовать',
+            'Советую тебе поехать.',
+            'Je te conseille d’y aller.',
+            'Donner un conseil',
+          ],
           ['верить / поверить', 'Я верю тебе.', 'Je te crois.', 'Faire confiance à quelqu’un'],
           ['завидовать', 'Он завидует другу.', 'Il envie son ami.', 'Ressentir de l’envie'],
           ['принадлежать', 'Это принадлежит мне.', 'Cela m’appartient.', 'Appartenir à quelqu’un'],
@@ -553,8 +545,7 @@ export const russianDativeCaseFr: LearnArticle = {
     },
     {
       h2: '30 exemples réels du datif russe',
-      content:
-        'Voici **30 phrases authentiques** illustrant les principaux emplois du datif.',
+      content: 'Voici **30 phrases authentiques** illustrant les principaux emplois du datif.',
       bullets: [
         '**1–6 :** objets indirects (donner, dire, aider, etc.)',
         '**7–10 :** construction нравиться',
@@ -574,19 +565,19 @@ export const russianDativeCaseFr: LearnArticle = {
             'Ya dal mame tsvety.',
             'J’ai donné des fleurs à ma mère. (мама → маме)',
           ],
-          [
-            '2',
-            'Скажи мне правду.',
-            'Skazhi mne pravdu.',
-            'Dis-moi la vérité. (мне = datif de я)',
-          ],
+          ['2', 'Скажи мне правду.', 'Skazhi mne pravdu.', 'Dis-moi la vérité. (мне = datif de я)'],
           [
             '3',
             'Он написал другу длинное письмо.',
             'On napisal drugu dlinnoye pismo.',
             'Il a écrit une longue lettre à son ami.',
           ],
-          ['4', 'Помогите мне, пожалуйста!', 'Pomogite mne, pozhaluysta!', 'Aidez-moi, s’il vous plaît !'],
+          [
+            '4',
+            'Помогите мне, пожалуйста!',
+            'Pomogite mne, pozhaluysta!',
+            'Aidez-moi, s’il vous plaît !',
+          ],
           [
             '5',
             'Я позвонила бабушке.',
@@ -740,11 +731,7 @@ export const russianDativeCaseFr: LearnArticle = {
             'Я дал книгу другу.',
             'DATIF : другу (à un ami). Le livre est donné À l’ami.',
           ],
-          [
-            'Objet direct → accusatif',
-            'Я купил книгу.',
-            'ACCUSATIF : книгу (le livre lui-même).',
-          ],
+          ['Objet direct → accusatif', 'Я купил книгу.', 'ACCUSATIF : книгу (le livre lui-même).'],
           ['Possession → génitif', 'Это книга друга.', 'GÉNITIF : друга (le livre de l’ami).'],
           [
             'Aimer (нравиться) → datif',
@@ -757,11 +744,7 @@ export const russianDativeCaseFr: LearnArticle = {
             'DATIF : мне (c’est moi qui en ai besoin).',
           ],
           ['Direction к → datif', 'Иди к другу.', 'DATIF après к : другу (vers l’ami).'],
-          [
-            'Lieu у → génitif',
-            'Я у друга.',
-            'GÉNITIF après у : друга (chez l’ami).',
-          ],
+          ['Lieu у → génitif', 'Я у друга.', 'GÉNITIF après у : друга (chez l’ami).'],
           ['Expression d’âge → datif', 'Другу двадцать лет.', 'DATIF : другу (l’ami a 20 ans).'],
         ],
       },

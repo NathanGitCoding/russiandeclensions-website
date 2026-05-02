@@ -3,10 +3,8 @@ import type { LearnArticle } from '../learnArticles';
 /** Türkçe çeviri: `russian-accusative-case` (EN kaynak: `learnArticles.ts`). Kiril metinler Fransızca dosyayla aynı. */
 export const russianAccusativeCaseTr: LearnArticle = {
   slug: 'russian-accusative-case',
-  title:
-    'Rusça belirtme hali: doğrudan nesneler, canlı ve cansız, hareket fiilleri',
-  metaTitle:
-    'Rusça belirtme hali: kurallar, ekler ve 30 örnek | Russian Cases with Anna',
+  title: 'Rusça belirtme hali: doğrudan nesneler, canlı ve cansız, hareket fiilleri',
+  metaTitle: 'Rusça belirtme hali: kurallar, ekler ve 30 örnek | Russian Cases with Anna',
   metaDescription:
     'Rusça belirtme haline ilişkin eksiksiz rehber: ek tablosu, canlı/cansız kuralı, hareket fiilleri, в/на yön ve yer, 9 edat, 15 geçişli fiil, 30 gerçek örnek.',
   keywords: [
@@ -48,8 +46,7 @@ export const russianAccusativeCaseTr: LearnArticle = {
   internalLinks: [
     {
       href: '/learn/lessons/russian-cases-complete-guide',
-      label:
-        'Rus hallerine tam rehber: örneklerle açıklanan 6 hal',
+      label: 'Rus hallerine tam rehber: örneklerle açıklanan 6 hal',
     },
     {
       href: '/learn/articles/russian-case-endings-cheatsheet',
@@ -57,13 +54,11 @@ export const russianAccusativeCaseTr: LearnArticle = {
     },
     {
       href: '/learn/articles/russian-genitive-case',
-      label:
-        'Rusça genitif: kurallar, ekler ve 32 gerçek örnek',
+      label: 'Rusça genitif: kurallar, ekler ve 32 gerçek örnek',
     },
     {
       href: '/learn/lessons/dative-case-declension',
-      label:
-        'Rusça datif: «-e / için» nasıl söylenir',
+      label: 'Rusça datif: «-e / için» nasıl söylenir',
     },
   ],
   sections: [
@@ -95,16 +90,9 @@ export const russianAccusativeCaseTr: LearnArticle = {
       content:
         'Belirtme ekleri ismin **cinsine**, **kök türüne** (sert veya yumuşak) ve — eril için — sözcüğün **canlı** mı **cansız** mı olduğuna bağlıdır.\n\nİşte tam referans tablosu:',
       table: {
-        caption:
-          'İsim türüne göre belirtme ekleri — tekil ve çoğul',
+        caption: 'İsim türüne göre belirtme ekleri — tekil ve çoğul',
         boldColumnIndices: [3],
-        headers: [
-          'İsim türü',
-          'Kural',
-          'Yalın',
-          'Belirtme',
-          'Örnek cümle',
-        ],
+        headers: ['İsim türü', 'Kural', 'Yalın', 'Belirtme', 'Örnek cümle'],
         rows: [
           [
             'Er. cansız (sert)',
@@ -134,55 +122,13 @@ export const russianAccusativeCaseTr: LearnArticle = {
             'гения',
             'Я вижу гения. — Dahiyi görüyorum.',
           ],
-          [
-            'Diş. sert (-а)',
-            '-у',
-            'женщина',
-            'женщину',
-            'Я вижу женщину. — Kadını görüyorum.',
-          ],
-          [
-            'Diş. yumuşak (-я)',
-            '-ю',
-            'земля',
-            'землю',
-            'Я вижу землю. — Toprağı görüyorum.',
-          ],
-          [
-            'Diş. (-ь) cansız',
-            '= yalın (-ь)',
-            'ночь',
-            'ночь',
-            'Я люблю ночь. — Geceyi seviyorum.',
-          ],
-          [
-            'Diş. (-ь) canlı',
-            '= yalın (-ь)',
-            'мышь',
-            'мышь',
-            'Я вижу мышь. — Fareyi görüyorum.',
-          ],
-          [
-            'Nötr (sert -о)',
-            '= yalın (-о)',
-            'окно',
-            'окно',
-            'Я вижу окно. — Pencereyi görüyorum.',
-          ],
-          [
-            'Nötr (yumuşak -е)',
-            '= yalın (-е)',
-            'море',
-            'море',
-            'Я вижу море. — Denizi görüyorum.',
-          ],
-          [
-            'Çoğul cansız',
-            '= yalın çoğ.',
-            'столы',
-            'столы',
-            'Я вижу столы. — Masaları görüyorum.',
-          ],
+          ['Diş. sert (-а)', '-у', 'женщина', 'женщину', 'Я вижу женщину. — Kadını görüyorum.'],
+          ['Diş. yumuşak (-я)', '-ю', 'земля', 'землю', 'Я вижу землю. — Toprağı görüyorum.'],
+          ['Diş. (-ь) cansız', '= yalın (-ь)', 'ночь', 'ночь', 'Я люблю ночь. — Geceyi seviyorum.'],
+          ['Diş. (-ь) canlı', '= yalın (-ь)', 'мышь', 'мышь', 'Я вижу мышь. — Fareyi görüyorum.'],
+          ['Nötr (sert -о)', '= yalın (-о)', 'окно', 'окно', 'Я вижу окно. — Pencereyi görüyorum.'],
+          ['Nötr (yumuşak -е)', '= yalın (-е)', 'море', 'море', 'Я вижу море. — Denizi görüyorum.'],
+          ['Çoğul cansız', '= yalın çoğ.', 'столы', 'столы', 'Я вижу столы. — Masaları görüyorum.'],
           [
             'Çoğul canlı',
             '= gen. çoğ.',
@@ -212,59 +158,18 @@ export const russianAccusativeCaseTr: LearnArticle = {
         },
       ],
       table: {
-        caption:
-          '12 somut örnek; şaşırtıcı canlı/cansız vakaları dahil',
+        caption: '12 somut örnek; şaşırtıcı canlı/cansız vakaları dahil',
         boldColumnIndices: [2],
         headers: ['İsim', 'Canlı / cansız', 'Belirtme biçimi', 'Not'],
         rows: [
-          [
-            '🤝 друг (arkadaş)',
-            'canlı',
-            'Я вижу друга.',
-            'Belirtme = genitif biçimi (друга)',
-          ],
-          [
-            '👨‍⚕️ врач (doktor)',
-            'canlı',
-            'Я слушаю врача.',
-            'Belirtme = genitif biçimi (врача)',
-          ],
-          [
-            '🐱 кот (kedi)',
-            'canlı',
-            'Я глажу кота.',
-            'Hayvanlar canlıdır (кота)',
-          ],
-          [
-            '👶 ребёнок (çocuk)',
-            'canlı',
-            'Мама видит ребёнка.',
-            'Belirtme = genitif (ребёнка)',
-          ],
-          [
-            '🏛️ президент (başkan)',
-            'canlı',
-            'Я уважаю президента.',
-            'İnsanlar daima canlıdır',
-          ],
-          [
-            '🪑 стол (masa)',
-            'cansız',
-            'Я вижу стол.',
-            'Belirtme = yalın (değişmez)',
-          ],
-          [
-            '🎬 фильм (film)',
-            'cansız',
-            'Я смотрю фильм.',
-            'Belirtme = yalın (değişmez)',
-          ],
-          [
-            '🏙️ город (şehir)',
-            'cansız',
-            'Я люблю этот город.',
-            'Yerler cansızdır',
-          ],
+          ['🤝 друг (arkadaş)', 'canlı', 'Я вижу друга.', 'Belirtme = genitif biçimi (друга)'],
+          ['👨‍⚕️ врач (doktor)', 'canlı', 'Я слушаю врача.', 'Belirtme = genitif biçimi (врача)'],
+          ['🐱 кот (kedi)', 'canlı', 'Я глажу кота.', 'Hayvanlar canlıdır (кота)'],
+          ['👶 ребёнок (çocuk)', 'canlı', 'Мама видит ребёнка.', 'Belirtme = genitif (ребёнка)'],
+          ['🏛️ президент (başkan)', 'canlı', 'Я уважаю президента.', 'İnsanlar daima canlıdır'],
+          ['🪑 стол (masa)', 'cansız', 'Я вижу стол.', 'Belirtme = yalın (değişmez)'],
+          ['🎬 фильм (film)', 'cansız', 'Я смотрю фильм.', 'Belirtme = yalın (değişmez)'],
+          ['🏙️ город (şehir)', 'cansız', 'Я люблю этот город.', 'Yerler cansızdır'],
           [
             '💀 труп (ceset)',
             'cansız',
@@ -303,40 +208,14 @@ export const russianAccusativeCaseTr: LearnArticle = {
       content:
         'Hareket fiilleri yönü belirtmek için **в veya на + belirtme** kullanır. Rusçanın zengin bir hareket fiili sistemi vardır.\n\nHepsi yön için в/на + belirtme kullanır:',
       table: {
-        caption:
-          '10 temel hareket fiili + tek yönlü ve çok yönlü',
+        caption: '10 temel hareket fiili + tek yönlü ve çok yönlü',
         boldColumnIndices: [2],
-        headers: [
-          'Fiil',
-          'Anlam',
-          'В/НА + belirtme ile örnek',
-          'Çeviri',
-        ],
+        headers: ['Fiil', 'Anlam', 'В/НА + belirtme ile örnek', 'Çeviri'],
         rows: [
-          [
-            'идти / ходить',
-            '🚶 yürüyerek gitmek',
-            'Я иду в школу.',
-            'Okula gidiyorum (şu anda)',
-          ],
-          [
-            'ехать / ездить',
-            '🚗 araçla gitmek',
-            'Мы едем на работу.',
-            'İşe gidiyoruz',
-          ],
-          [
-            'бежать / бегать',
-            '🏃 koşmak',
-            'Он бежит на стадион.',
-            'Stadyuma doğru koşuyor',
-          ],
-          [
-            'лететь / летать',
-            '✈️ uçmak',
-            'Самолёт летит в Москву.',
-            'Uçak Moskova\'ya uçuyor',
-          ],
+          ['идти / ходить', '🚶 yürüyerek gitmek', 'Я иду в школу.', 'Okula gidiyorum (şu anda)'],
+          ['ехать / ездить', '🚗 araçla gitmek', 'Мы едем на работу.', 'İşe gidiyoruz'],
+          ['бежать / бегать', '🏃 koşmak', 'Он бежит на стадион.', 'Stadyuma doğru koşuyor'],
+          ['лететь / летать', '✈️ uçmak', 'Самолёт летит в Москву.', "Uçak Moskova'ya uçuyor"],
           [
             'плыть / плавать',
             '🏊 yüzmek / su üzerinde gitmek',
@@ -361,18 +240,8 @@ export const russianAccusativeCaseTr: LearnArticle = {
             'Ребёнок ползёт на диван.',
             'Çocuk kanepeye doğru sürünüyor',
           ],
-          [
-            'прийти (tam.)',
-            '🎯 varmak / gelmek',
-            'Приходи на вечеринку!',
-            'Partiye gel!',
-          ],
-          [
-            'вернуться (tam.)',
-            '↩️ geri dönmek',
-            'Он вернулся в город.',
-            'Şehre geri döndü',
-          ],
+          ['прийти (tam.)', '🎯 varmak / gelmek', 'Приходи на вечеринку!', 'Partiye gel!'],
+          ['вернуться (tam.)', '↩️ geri dönmek', 'Он вернулся в город.', 'Şehre geri döndü'],
         ],
       },
       bullets: [
@@ -392,64 +261,23 @@ export const russianAccusativeCaseTr: LearnArticle = {
         height: 630,
       },
       table: {
-        caption:
-          '10 yan yana çift: belirtme (yön) ve bulunma hali (yer)',
+        caption: '10 yan yana çift: belirtme (yön) ve bulunma hali (yer)',
         boldColumnIndices: [0, 1],
-        headers: [
-          'Yapı',
-          'Rusça örnek',
-          'Anlam',
-          'Çeviri',
-        ],
+        headers: ['Yapı', 'Rusça örnek', 'Anlam', 'Çeviri'],
         rows: [
-          [
-            'в + belirtme',
-            'Я иду в магазин.',
-            'Yön: içine / doğru',
-            'Markete gidiyorum.',
-          ],
-          [
-            'в + bulunma',
-            'Я нахожусь в магазине.',
-            'Yer: içinde / -de',
-            'Marketteyim.',
-          ],
-          [
-            'на + belirtme',
-            'Она едет на работу.',
-            'Yön: üzerine / doğru',
-            'İşe gidiyor.',
-          ],
+          ['в + belirtme', 'Я иду в магазин.', 'Yön: içine / doğru', 'Markete gidiyorum.'],
+          ['в + bulunma', 'Я нахожусь в магазине.', 'Yer: içinde / -de', 'Marketteyim.'],
+          ['на + belirtme', 'Она едет на работу.', 'Yön: üzerine / doğru', 'İşe gidiyor.'],
           [
             'на + bulunma',
             'Она работает на заводе.',
             'Yer: üzerinde / -de',
             'Fabrikada çalışıyor.',
           ],
-          [
-            'в + belirtme',
-            'Дети пошли в школу.',
-            'Yön: okula doğru',
-            'Çocuklar okula gitti.',
-          ],
-          [
-            'в + bulunma',
-            'Дети учатся в школе.',
-            'Yer: okulda',
-            'Çocuklar okulda okuyor.',
-          ],
-          [
-            'на + belirtme',
-            'Мы летим на Кубу.',
-            'Yön: Küba\'ya doğru',
-            'Küba\'ya uçuyoruz.',
-          ],
-          [
-            'на + bulunma',
-            'Мы отдыхаем на Кубе.',
-            'Yer: Küba\'da',
-            'Küba\'da tatildeyiz.',
-          ],
+          ['в + belirtme', 'Дети пошли в школу.', 'Yön: okula doğru', 'Çocuklar okula gitti.'],
+          ['в + bulunma', 'Дети учатся в школе.', 'Yer: okulda', 'Çocuklar okulda okuyor.'],
+          ['на + belirtme', 'Мы летим на Кубу.', "Yön: Küba'ya doğru", "Küba'ya uçuyoruz."],
+          ['на + bulunma', 'Мы отдыхаем на Кубе.', "Yer: Küba'da", "Küba'da tatildeyiz."],
           [
             'на + belirtme',
             'Поставь книгу на стол.',
@@ -479,18 +307,13 @@ export const russianAccusativeCaseTr: LearnArticle = {
       table: {
         caption: '9 edat + belirtme: anlam ve tam örnek',
         boldColumnIndices: [0],
-        headers: [
-          'Edat',
-          'Anlam',
-          'İsimle',
-          'Tam cümle + çeviri',
-        ],
+        headers: ['Edat', 'Anlam', 'İsimle', 'Tam cümle + çeviri'],
         rows: [
           [
             'в',
             'içine / doğru (yön)',
             'в Москву, в школу',
-            'Я лечу в Москву. — Moskova\'ya uçuyorum.',
+            "Я лечу в Москву. — Moskova'ya uçuyorum.",
           ],
           [
             'на',
@@ -554,11 +377,7 @@ export const russianAccusativeCaseTr: LearnArticle = {
       table: {
         caption: 'через, за, весь/всю, в + gün, спустя',
         boldColumnIndices: [0],
-        headers: [
-          'İfade türü',
-          'Örnekler',
-          'Tam cümle + çeviri',
-        ],
+        headers: ['İfade türü', 'Örnekler', 'Tam cümle + çeviri'],
         rows: [
           [
             'Süre (весь / целый)',
@@ -580,11 +399,7 @@ export const russianAccusativeCaseTr: LearnArticle = {
             'за час, за неделю',
             'Я сделал это за час. — Bunu bir saatte yaptım.',
           ],
-          [
-            'спустя (sonra)',
-            'спустя год',
-            'Спустя год он вернулся. — Bir yıl sonra geri döndü.',
-          ],
+          ['спустя (sonra)', 'спустя год', 'Спустя год он вернулся. — Bir yıl sonra geri döndü.'],
         ],
       },
       bullets: [
@@ -600,66 +415,21 @@ export const russianAccusativeCaseTr: LearnArticle = {
         boldColumnIndices: [0],
         headers: ['Fiil', 'Örnek', 'Çeviri', 'Not'],
         rows: [
-          [
-            'видеть (görmek)',
-            'Я вижу тебя.',
-            'Seni görüyorum.',
-            'Doğrudan görsel algı',
-          ],
-          [
-            'любить (sevmek)',
-            'Я люблю музыку.',
-            'Müziği seviyorum.',
-            'Sevgi nesnesi',
-          ],
+          ['видеть (görmek)', 'Я вижу тебя.', 'Seni görüyorum.', 'Doğrudan görsel algı'],
+          ['любить (sevmek)', 'Я люблю музыку.', 'Müziği seviyorum.', 'Sevgi nesnesi'],
           [
             'знать (bilmek / tanımak)',
             'Я знаю этот город.',
             'Bu şehri tanıyorum.',
             'Bilinen şey veya kişi',
           ],
-          [
-            'читать (okumak)',
-            'Она читает книгу.',
-            'Kitap okuyor.',
-            'Okunan nesne',
-          ],
-          [
-            'слушать (dinlemek)',
-            'Мы слушаем музыку.',
-            'Müzik dinliyoruz.',
-            'Dinlenen nesne',
-          ],
-          [
-            'смотреть (izlemek)',
-            'Он смотрит фильм.',
-            'Film izliyor.',
-            'Bakılan nesne',
-          ],
-          [
-            'купить (satın almak)',
-            'Я купил машину.',
-            'Araba aldım.',
-            'Alınan nesne',
-          ],
-          [
-            'взять (almak)',
-            'Возьми зонтик.',
-            'Şemsiyeyi al.',
-            'Alınan nesne',
-          ],
-          [
-            'понимать (anlamak)',
-            'Я понимаю тебя.',
-            'Seni anlıyorum.',
-            'Anlaşılan kişi veya şey',
-          ],
-          [
-            'помнить (hatırlamak)',
-            'Я помню этот день.',
-            'O günü hatırlıyorum.',
-            'Hatırlanan şey',
-          ],
+          ['читать (okumak)', 'Она читает книгу.', 'Kitap okuyor.', 'Okunan nesne'],
+          ['слушать (dinlemek)', 'Мы слушаем музыку.', 'Müzik dinliyoruz.', 'Dinlenen nesne'],
+          ['смотреть (izlemek)', 'Он смотрит фильм.', 'Film izliyor.', 'Bakılan nesne'],
+          ['купить (satın almak)', 'Я купил машину.', 'Araba aldım.', 'Alınan nesne'],
+          ['взять (almak)', 'Возьми зонтик.', 'Şemsiyeyi al.', 'Alınan nesne'],
+          ['понимать (anlamak)', 'Я понимаю тебя.', 'Seni anlıyorum.', 'Anlaşılan kişi veya şey'],
+          ['помнить (hatırlamak)', 'Я помню этот день.', 'O günü hatırlıyorum.', 'Hatırlanan şey'],
           [
             'встречать (buluşmak / karşılamak)',
             'Я встречаю друга.',
@@ -672,12 +442,7 @@ export const russianAccusativeCaseTr: LearnArticle = {
             'Otobüs bekliyorum.',
             'Belirtme ve genitif mümkün!',
           ],
-          [
-            'спрашивать (sormak)',
-            'Он спрашивает меня.',
-            'Bana soruyor.',
-            'Sorulan kişi',
-          ],
+          ['спрашивать (sormak)', 'Он спрашивает меня.', 'Bana soruyor.', 'Sorulan kişi'],
           [
             'благодарить (teşekkür etmek)',
             'Я благодарю вас.',
@@ -799,7 +564,7 @@ export const russianAccusativeCaseTr: LearnArticle = {
             '16',
             'Мы летим в Санкт-Петербург.',
             'My letim v Sankt-Peterburg.',
-            'Sankt-Peterburg\'a uçuyoruz.',
+            "Sankt-Peterburg'a uçuyoruz.",
           ],
           [
             '17',
@@ -849,12 +614,7 @@ export const russianAccusativeCaseTr: LearnArticle = {
             'On rasskazal pro svoyu zhizn.',
             'Hayatından bahsetti. (про + belirtme)',
           ],
-          [
-            '25',
-            'Мы переплыли через реку.',
-            'My pereplyli cherez reku.',
-            'Nehri yüzerek geçtik.',
-          ],
+          ['25', 'Мы переплыли через реку.', 'My pereplyli cherez reku.', 'Nehri yüzerek geçtik.'],
           [
             '26',
             'Он споткнулся о порог.',
@@ -902,36 +662,12 @@ export const russianAccusativeCaseTr: LearnArticle = {
             'Я вижу студента.',
             'BELİRTME canlı (= genitif biçimi, burada belirtme)',
           ],
-          [
-            'Yokluk (нет)',
-            'Нет студента.',
-            'GENİTİF — нет daima genitif ister',
-          ],
-          [
-            'Cansız doğrudan nesne',
-            'Я вижу стол.',
-            'BELİRTME cansız (= yalın)',
-          ],
-          [
-            'Cansız yokluk',
-            'Нет стола.',
-            'GENİTİF (стол → стола)',
-          ],
-          [
-            'Bir yere yön',
-            'Я иду в парк.',
-            'BELİRTME (в + yön)',
-          ],
-          [
-            'Süre',
-            'Я работал всю неделю.',
-            'BELİRTME — всю неделю',
-          ],
-          [
-            'Miktar / parçası',
-            'Я выпил стакан воды.',
-            'GENİTİF — воды (bir bardak su)',
-          ],
+          ['Yokluk (нет)', 'Нет студента.', 'GENİTİF — нет daima genitif ister'],
+          ['Cansız doğrudan nesne', 'Я вижу стол.', 'BELİRTME cansız (= yalın)'],
+          ['Cansız yokluk', 'Нет стола.', 'GENİTİF (стол → стола)'],
+          ['Bir yere yön', 'Я иду в парк.', 'BELİRTME (в + yön)'],
+          ['Süre', 'Я работал всю неделю.', 'BELİRTME — всю неделю'],
+          ['Miktar / parçası', 'Я выпил стакан воды.', 'GENİTİF — воды (bir bardak su)'],
         ],
       },
       bullets: [
@@ -962,14 +698,12 @@ export const russianAccusativeCaseTr: LearnArticle = {
         'Rusça belirtme hali geçişli fiillerin **doğrudan nesnesini** (Я читаю книгу), в ve на ile **yönü** (Я иду в школу), **zaman ifadelerini** (через час, всю ночь) işaret eder; за, через, про, под, сквозь gibi edatlardan sonra kullanılır.',
     },
     {
-      question:
-        'Rusçada canlı / cansız ayrımı nasıl işler?',
+      question: 'Rusçada canlı / cansız ayrımı nasıl işler?',
       answer:
         '**Canlı eril isimler** (insanlar, hayvanlar) belirtmede **genitif biçimini** alır (студент → студента). **Cansız eriller** yalında kalır (стол → стол). Şaşırtıcı: труп = cansız; iskambil ve satranç taşları = canlı.',
     },
     {
-      question:
-        'в + belirtme ile в + bulunma arasındaki fark nedir?',
+      question: 'в + belirtme ile в + bulunma arasındaki fark nedir?',
       answer:
         '**в + belirtme** = yön (Я иду в школу — Okula gidiyorum). **в + bulunma** = yer (Я в школе — Okuldayım). на için: на работу (işe gitmek) ve на работе (işte olmak).',
     },
@@ -984,8 +718,7 @@ export const russianAccusativeCaseTr: LearnArticle = {
         'Evet. Sıfatlar isimle **uyumlu** olmalıdır. Dişil belirtme: **-ую/-юю** (красивую женщину). Eril cansız: yalın gibi kalır. Eril canlı: genitif biçimi (красивого студента).',
     },
     {
-      question:
-        'Hangi Rus fiilleri belirtme yerine genitif alır?',
+      question: 'Hangi Rus fiilleri belirtme yerine genitif alır?',
       answer:
         'Çoğu geçişli fiil belirtme alır. **Genitif** ile istisnalar: бояться, ждать (cansız), желать, избегать, достигать, лишать. Хотеть ikisini de alabilir: хочу воды (gen., parça) ve хочу воду (bel.).',
     },
@@ -993,8 +726,7 @@ export const russianAccusativeCaseTr: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      'Rusça belirtme hali: doğrudan nesneler, canlı ve cansız, hareket fiilleri',
+    headline: 'Rusça belirtme hali: doğrudan nesneler, canlı ve cansız, hareket fiilleri',
     description:
       'Rusça belirtme haline ilişkin eksiksiz rehber: ekler, canlı ve cansız, hareket fiilleri, в/на, 9 edat, 30 örnek.',
     datePublished: '2026-03-12',
@@ -1003,8 +735,7 @@ export const russianAccusativeCaseTr: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/russian-accusative-case',
+      '@id': 'https://russiandeclensions.com/learn/articles/russian-accusative-case',
     },
     keywords:
       'rusça belirtme hali, rusça belirtme ekleri, rusça canlı cansız belirtme, rusça doğrudan nesne, rusça hareket fiilleri belirtme',

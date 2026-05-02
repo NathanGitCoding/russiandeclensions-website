@@ -20,8 +20,7 @@ export const russianInstrumentalCaseFr: LearnArticle = {
   h1: 'Cas instrumental russe : quand l’utiliser et pourquoi il est plus simple qu’on ne le croit',
   heroImage: {
     src: '/articles/free-russian-lesson-instrumental-case.webp',
-    alt:
-      'Leçon de russe gratuite sur le cas instrumental : professions, с + instrumental, et plus',
+    alt: 'Leçon de russe gratuite sur le cas instrumental : professions, с + instrumental, et plus',
     width: 1200,
     height: 630,
   },
@@ -39,8 +38,7 @@ export const russianInstrumentalCaseFr: LearnArticle = {
     '**30 phrases russes réelles** avec translittération',
   ],
   leadMagnetCta: {
-    title:
-      'Entraînez le cas instrumental russe avec des exercices sur votre téléphone',
+    title: 'Entraînez le cas instrumental russe avec des exercices sur votre téléphone',
     description:
       'Notre application mobile fait travailler les 6 cas du russe — avec un accent sur les professions, с + instrumental, les prépositions spatiales et les verbes réfléchis. Disponible sur Android et iOS.',
     ctaText: 'Téléchargez l’app et commencez à réviser dès aujourd’hui',
@@ -49,8 +47,7 @@ export const russianInstrumentalCaseFr: LearnArticle = {
   internalLinks: [
     {
       href: '/learn/lessons/russian-cases-complete-guide',
-      label:
-        'Guide complet des cas russes : les 6 cas expliqués avec des exemples',
+      label: 'Guide complet des cas russes : les 6 cas expliqués avec des exemples',
     },
     {
       href: '/learn/articles/russian-case-endings-cheatsheet',
@@ -58,13 +55,11 @@ export const russianInstrumentalCaseFr: LearnArticle = {
     },
     {
       href: '/learn/articles/russian-genitive-case',
-      label:
-        'Cas génitif russe : règles, terminaisons et 32 exemples réels',
+      label: 'Cas génitif russe : règles, terminaisons et 32 exemples réels',
     },
     {
       href: '/learn/articles/russian-accusative-case',
-      label:
-        'Cas accusatif russe : compléments directs, animé vs inanimé',
+      label: 'Cas accusatif russe : compléments directs, animé vs inanimé',
     },
     {
       href: '/learn/articles/russian-dative-case',
@@ -103,22 +98,14 @@ export const russianInstrumentalCaseFr: LearnArticle = {
         'Voici le tableau complet des terminaisons à l’instrumental pour les noms russes.\n\nLes modèles sont **cohérents**, et le pluriel est le même pour tous les genres (**-ами/-ями**).',
       image: {
         src: '/articles/instrumental-case-russian-noun-endings-declension-table.webp',
-        alt:
-          'Tableau de déclinaison à l’instrumental : terminaisons des noms russes par genre',
+        alt: 'Tableau de déclinaison à l’instrumental : terminaisons des noms russes par genre',
         width: 1200,
         height: 630,
       },
       table: {
-        caption:
-          'Terminaisons des noms à l’instrumental — tous genres, singulier et pluriel',
+        caption: 'Terminaisons des noms à l’instrumental — tous genres, singulier et pluriel',
         boldColumnIndices: [1, 3],
-        headers: [
-          'Type de nom',
-          'Terminaison',
-          'Formation',
-          'Résultat',
-          'Exemple en contexte',
-        ],
+        headers: ['Type de nom', 'Terminaison', 'Formation', 'Résultat', 'Exemple en contexte'],
         rows: [
           [
             'Masc. dur (consonne)',
@@ -127,13 +114,7 @@ export const russianInstrumentalCaseFr: LearnArticle = {
             'столом',
             'Он пишет карандашом. — Il écrit au crayon.',
           ],
-          [
-            'Masc. mou (-й)',
-            '-ем',
-            'музей → музе+ем',
-            'музеем',
-            'перед музеем — devant le musée',
-          ],
+          ['Masc. mou (-й)', '-ем', 'музей → музе+ем', 'музеем', 'перед музеем — devant le musée'],
           [
             'Masc. mou (-ь)',
             '-ем',
@@ -155,20 +136,8 @@ export const russianInstrumentalCaseFr: LearnArticle = {
             'женщиной',
             'с красивой женщиной — avec une belle femme',
           ],
-          [
-            'Fém. mou (-я)',
-            '-ей / -ею',
-            'земля → земл+ёй',
-            'землёй',
-            'под землёй — sous terre',
-          ],
-          [
-            'Fém. (-ь)',
-            '-ью',
-            'ночь → ноч+ью',
-            'ночью',
-            'ночью — la nuit / de nuit',
-          ],
+          ['Fém. mou (-я)', '-ей / -ею', 'земля → земл+ёй', 'землёй', 'под землёй — sous terre'],
+          ['Fém. (-ь)', '-ью', 'ночь → ноч+ью', 'ночью', 'ночью — la nuit / de nuit'],
           [
             'Neutre dur (-о)',
             '-ом',
@@ -190,13 +159,7 @@ export const russianInstrumentalCaseFr: LearnArticle = {
             'столами',
             'между столами — entre les tables',
           ],
-          [
-            'Pluriel (mou)',
-            '-ями',
-            'моря → мор+ями',
-            'морями',
-            'над морями — au-dessus des mers',
-          ],
+          ['Pluriel (mou)', '-ями', 'моря → мор+ями', 'морями', 'над морями — au-dessus des mers'],
         ],
       },
       bullets: [
@@ -216,28 +179,10 @@ export const russianInstrumentalCaseFr: LearnArticle = {
       table: {
         caption: 'Terminaisons des adjectifs à l’instrumental',
         boldColumnIndices: [1, 2],
-        headers: [
-          'Genre / nombre',
-          'Terminaison',
-          'Forme de l’adj.',
-          'Syntagme complet',
-          'Sens',
-        ],
+        headers: ['Genre / nombre', 'Terminaison', 'Forme de l’adj.', 'Syntagme complet', 'Sens'],
         rows: [
-          [
-            'Masc./Neutre dur',
-            '-ым',
-            'новый → новым',
-            'новым другом',
-            'avec un nouvel ami',
-          ],
-          [
-            'Masc./Neutre mou',
-            '-им',
-            'синий → синим',
-            'синим морем',
-            'avec la mer bleue',
-          ],
+          ['Masc./Neutre dur', '-ым', 'новый → новым', 'новым другом', 'avec un nouvel ami'],
+          ['Masc./Neutre mou', '-им', 'синий → синим', 'синим морем', 'avec la mer bleue'],
           [
             'Féminin dur',
             '-ой / -ою',
@@ -245,13 +190,7 @@ export const russianInstrumentalCaseFr: LearnArticle = {
             'с красивой девушкой',
             'avec une belle fille',
           ],
-          [
-            'Féminin mou',
-            '-ей',
-            'летняя → летней',
-            'летней ночью',
-            'par une nuit d’été',
-          ],
+          ['Féminin mou', '-ей', 'летняя → летней', 'летней ночью', 'par une nuit d’été'],
           [
             'Pluriel tous genres',
             '-ыми / -ими',
@@ -285,19 +224,9 @@ export const russianInstrumentalCaseFr: LearnArticle = {
       table: {
         caption: 'Professions avec l’instrumental',
         boldColumnIndices: [1],
-        headers: [
-          'Profession (nominatif)',
-          'Phrase russe',
-          'Traduction',
-          'Remarque grammaticale',
-        ],
+        headers: ['Profession (nominatif)', 'Phrase russe', 'Traduction', 'Remarque grammaticale'],
         rows: [
-          [
-            'врач (médecin)',
-            'Он работает врачом.',
-            'Il exerce la médecine.',
-            'Masc. → -ом',
-          ],
+          ['врач (médecin)', 'Он работает врачом.', 'Il exerce la médecine.', 'Masc. → -ом'],
           [
             'учитель (professeur)',
             'Она работает учительницей.',
@@ -362,12 +291,7 @@ export const russianInstrumentalCaseFr: LearnArticle = {
       table: {
         caption: '8 prépositions avec l’instrumental',
         boldColumnIndices: [0],
-        headers: [
-          'Prép.',
-          'Sens',
-          'Avec un nom',
-          'Exemple complet + traduction',
-        ],
+        headers: ['Prép.', 'Sens', 'Avec un nom', 'Exemple complet + traduction'],
         rows: [
           [
             'с',
@@ -405,12 +329,7 @@ export const russianInstrumentalCaseFr: LearnArticle = {
             'под столом, под землёй',
             'Кот под столом. — Le chat est sous la table.',
           ],
-          [
-            'между',
-            'entre',
-            'между домами, между нами',
-            'Это между нами. — Ça reste entre nous.',
-          ],
+          ['между', 'entre', 'между домами, между нами', 'Это между нами. — Ça reste entre nous.'],
           [
             'рядом с',
             'à côté de',
@@ -429,19 +348,10 @@ export const russianInstrumentalCaseFr: LearnArticle = {
         boldColumnIndices: [0],
         headers: ['Expressions russes', 'Phrase exemple + traduction'],
         rows: [
-          [
-            'утром, вечером, ночью',
-            'Утром я пью кофе. — Le matin je bois du café.',
-          ],
-          [
-            'весной, летом, осенью, зимой',
-            'Летом жарко. — En été il fait chaud.',
-          ],
+          ['утром, вечером, ночью', 'Утром я пью кофе. — Le matin je bois du café.'],
+          ['весной, летом, осенью, зимой', 'Летом жарко. — En été il fait chaud.'],
           ['днём, ночью', 'Он работает ночью. — Il travaille de nuit.'],
-          [
-            'годом раньше / позже',
-            'Годом раньше он уехал. — Un an plus tôt il était parti.',
-          ],
+          ['годом раньше / позже', 'Годом раньше он уехал. — Un an plus tôt il était parti.'],
         ],
       },
       bullets: [
@@ -469,12 +379,7 @@ export const russianInstrumentalCaseFr: LearnArticle = {
             'Elle s’intéresse à l’histoire.',
             'Objet d’intérêt',
           ],
-          [
-            'гордиться',
-            'Мы гордимся тобой.',
-            'Nous sommes fiers de toi.',
-            'Objet de fierté',
-          ],
+          ['гордиться', 'Мы гордимся тобой.', 'Nous sommes fiers de toi.', 'Objet de fierté'],
           [
             'восхищаться',
             'Он восхищается закатом.',
@@ -505,30 +410,15 @@ export const russianInstrumentalCaseFr: LearnArticle = {
             'Il conduit une voiture.',
             'Contrôle d’un véhicule',
           ],
-          [
-            'являться',
-            'Москва является столицей.',
-            'Moscou est la capitale.',
-            'Formel = être',
-          ],
-          [
-            'служить',
-            'Это служит примером.',
-            'Cela sert d’exemple.',
-            'Rôle / fonction',
-          ],
+          ['являться', 'Москва является столицей.', 'Moscou est la capitale.', 'Formel = être'],
+          ['служить', 'Это служит примером.', 'Cela sert d’exemple.', 'Rôle / fonction'],
           [
             'стать',
             'Она стала врачом.',
             'Elle est devenue médecin.',
             'Changement d’état → profession',
           ],
-          [
-            'быть',
-            'Он был студентом.',
-            'Il était étudiant.',
-            '« Être » au passé / futur',
-          ],
+          ['быть', 'Он был студентом.', 'Il était étudiant.', '« Être » au passé / futur'],
           [
             'называть',
             'Все называют его гением.',
@@ -559,37 +449,12 @@ export const russianInstrumentalCaseFr: LearnArticle = {
         boldColumnIndices: [1],
         headers: ['#', 'Phrase russe', 'Translittération', 'Traduction et notes'],
         rows: [
-          [
-            '1',
-            'Он пишет ручкой.',
-            'On pishet ruchkoy.',
-            'Il écrit au stylo. (ручка → ручкой)',
-          ],
-          [
-            '2',
-            'Я режу хлеб ножом.',
-            'Ya rezhu khleb nozhom.',
-            'Je coupe le pain au couteau.',
-          ],
+          ['1', 'Он пишет ручкой.', 'On pishet ruchkoy.', 'Il écrit au stylo. (ручка → ручкой)'],
+          ['2', 'Я режу хлеб ножом.', 'Ya rezhu khleb nozhom.', 'Je coupe le pain au couteau.'],
           ['3', 'Мы едем поездом.', 'My yedyom poyezdom.', 'Nous voyageons en train.'],
-          [
-            '4',
-            'Она рисует карандашом.',
-            'Ona risuyet karandashom.',
-            'Elle dessine au crayon.',
-          ],
-          [
-            '5',
-            'Открой дверь ключом.',
-            'Otkroy dver klyuchom.',
-            'Ouvre la porte avec la clé.',
-          ],
-          [
-            '6',
-            'Он работает врачом.',
-            'On rabotayet vrachom.',
-            'Il exerce la médecine.',
-          ],
+          ['4', 'Она рисует карандашом.', 'Ona risuyet karandashom.', 'Elle dessine au crayon.'],
+          ['5', 'Открой дверь ключом.', 'Otkroy dver klyuchom.', 'Ouvre la porte avec la clé.'],
+          ['6', 'Он работает врачом.', 'On rabotayet vrachom.', 'Il exerce la médecine.'],
           [
             '7',
             'Она стала учительницей.',
@@ -614,24 +479,9 @@ export const russianInstrumentalCaseFr: LearnArticle = {
             'Ya khochu stat kosmonavtom.',
             'Je veux devenir cosmonaute.',
           ],
-          [
-            '11',
-            'Я иду с другом.',
-            'Ya idu s drugom.',
-            'Je vais avec un ami.',
-          ],
-          [
-            '12',
-            'Он пришёл с женой.',
-            'On prishol s zhonoy.',
-            'Il est venu avec sa femme.',
-          ],
-          [
-            '13',
-            'Выпей кофе с молоком.',
-            'Vypey kofe s molokom.',
-            'Bois un café au lait.',
-          ],
+          ['11', 'Я иду с другом.', 'Ya idu s drugom.', 'Je vais avec un ami.'],
+          ['12', 'Он пришёл с женой.', 'On prishol s zhonoy.', 'Il est venu avec sa femme.'],
+          ['13', 'Выпей кофе с молоком.', 'Vypey kofe s molokom.', 'Bois un café au lait.'],
           [
             '14',
             'Мы живём с родителями.',
@@ -644,12 +494,7 @@ export const russianInstrumentalCaseFr: LearnArticle = {
             'Kniga lezhit pod lampoy.',
             'Le livre est sous la lampe. (под + instr.)',
           ],
-          [
-            '16',
-            'Они сидят за столом.',
-            'Oni sidyat za stolom.',
-            'Ils sont assis à table.',
-          ],
+          ['16', 'Они сидят за столом.', 'Oni sidyat za stolom.', 'Ils sont assis à table.'],
           [
             '17',
             'Самолёт летит над облаками.',
@@ -686,24 +531,9 @@ export const russianInstrumentalCaseFr: LearnArticle = {
             'Letom my yezdim na more.',
             'En été nous allons à la mer.',
           ],
-          [
-            '23',
-            'Ночью город красив.',
-            'Nochyu gorod krasiv.',
-            'La nuit la ville est belle.',
-          ],
-          [
-            '24',
-            'Я занимаюсь спортом.',
-            'Ya zanimayus sportom.',
-            'Je fais du sport.',
-          ],
-          [
-            '25',
-            'Она гордится сыном.',
-            'Ona gorditsya synom.',
-            'Elle est fière de son fils.',
-          ],
+          ['23', 'Ночью город красив.', 'Nochyu gorod krasiv.', 'La nuit la ville est belle.'],
+          ['24', 'Я занимаюсь спортом.', 'Ya zanimayus sportom.', 'Je fais du sport.'],
+          ['25', 'Она гордится сыном.', 'Ona gorditsya synom.', 'Elle est fière de son fils.'],
           [
             '26',
             'Мы восхищаемся закатом.',
@@ -716,12 +546,7 @@ export const russianInstrumentalCaseFr: LearnArticle = {
             'On uvlekayetsya muzykoy.',
             'Il est passionné de musique.',
           ],
-          [
-            '28',
-            'Пахнет свежей травой.',
-            'Pakhnet svezhey travoy.',
-            'Ça sent l’herbe fraîche.',
-          ],
+          ['28', 'Пахнет свежей травой.', 'Pakhnet svezhey travoy.', 'Ça sent l’herbe fraîche.'],
           [
             '29',
             'Она машет рукой на прощание.',
@@ -797,8 +622,7 @@ export const russianInstrumentalCaseFr: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/russian-instrumental-case',
+      '@id': 'https://russiandeclensions.com/learn/articles/russian-instrumental-case',
     },
     keywords:
       'cas instrumental russe, terminaisons instrumental russe, с + instrumental russe, prépositions instrumental russe',

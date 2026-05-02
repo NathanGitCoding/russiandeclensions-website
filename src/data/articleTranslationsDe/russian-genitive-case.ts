@@ -3,10 +3,8 @@ import type { LearnArticle } from '../learnArticles';
 /** Deutsche Übersetzung von `russian-genitive-case` (Quelle EN/FR-Struktur). Kyrillisch unverändert aus der französischen Datei. */
 export const russianGenitiveCaseDe: LearnArticle = {
   slug: 'russian-genitive-case',
-  title:
-    'Russischer Genitiv: Regeln, Endungen und 32 echte Beispiele',
-  metaTitle:
-    'Russischer Genitiv: Regeln, Endungen und Beispiele | Russian Cases with Anna',
+  title: 'Russischer Genitiv: Regeln, Endungen und 32 echte Beispiele',
+  metaTitle: 'Russischer Genitiv: Regeln, Endungen und Beispiele | Russian Cases with Anna',
   metaDescription:
     'Der vollständigste Leitfaden zum Genitiv im Russischen: 7 Verwendungen, Endungen Singular und Plural, unregelmäßige Formen, 16 Präpositionen, Zahlen, У + Genitiv. 32 echte Beispielsätze mit Transliteration.',
   keywords: [
@@ -46,8 +44,7 @@ export const russianGenitiveCaseDe: LearnArticle = {
   internalLinks: [
     {
       href: '/learn/lessons/russian-cases-complete-guide',
-      label:
-        'Der komplette Leitfaden zu den russischen Fällen: Alle 6 Fälle mit Beispielen',
+      label: 'Der komplette Leitfaden zu den russischen Fällen: Alle 6 Fälle mit Beispielen',
     },
     {
       href: '/learn/articles/russian-case-endings-cheatsheet',
@@ -55,8 +52,7 @@ export const russianGenitiveCaseDe: LearnArticle = {
     },
     {
       href: '/learn/lessons/dative-case-declension',
-      label:
-        'Russischer Dativ: Wie man „zu“ und „für“ auf Russisch sagt',
+      label: 'Russischer Dativ: Wie man „zu“ und „für“ auf Russisch sagt',
     },
   ],
   tableAccentVariant: 'genitive',
@@ -139,42 +135,12 @@ export const russianGenitiveCaseDe: LearnArticle = {
       table: {
         caption: 'Genitiv Singular nach Nomtyp',
         boldColumnIndices: [1, 3],
-        headers: [
-          'Nomtyp',
-          'Endung',
-          'Bildung',
-          'Ergebnis',
-          'Beispiel im Kontext',
-        ],
+        headers: ['Nomtyp', 'Endung', 'Bildung', 'Ergebnis', 'Beispiel im Kontext'],
         rows: [
-          [
-            'Mask. hart',
-            '-а',
-            'стол → стол+а',
-            'стола',
-            'нет стола — es gibt keinen Tisch',
-          ],
-          [
-            'Mask. weich',
-            '-я',
-            'гений → гени+я',
-            'гения',
-            'без гения — ohne ein Genie',
-          ],
-          [
-            'Mask. auf -ж/ш/щ/ч',
-            '-а',
-            'нож → нож+а',
-            'ножа',
-            'без ножа — ohne Messer',
-          ],
-          [
-            'Fem. -а (hart)',
-            '-ы',
-            'книга → книг+ы',
-            'книги',
-            'нет книги — es gibt kein Buch',
-          ],
+          ['Mask. hart', '-а', 'стол → стол+а', 'стола', 'нет стола — es gibt keinen Tisch'],
+          ['Mask. weich', '-я', 'гений → гени+я', 'гения', 'без гения — ohne ein Genie'],
+          ['Mask. auf -ж/ш/щ/ч', '-а', 'нож → нож+а', 'ножа', 'без ножа — ohne Messer'],
+          ['Fem. -а (hart)', '-ы', 'книга → книг+ы', 'книги', 'нет книги — es gibt kein Buch'],
           [
             'Fem. -а (nach г/к/х/ж/ш/щ/ч/ц)',
             '-и',
@@ -182,29 +148,11 @@ export const russianGenitiveCaseDe: LearnArticle = {
             'подруги',
             'без подруги — ohne Freundin',
           ],
-          [
-            'Fem. -я',
-            '-и',
-            'неделя → недел+и',
-            'недели',
-            'нет недели — es gibt keine Woche',
-          ],
-          [
-            'Fem. -ь',
-            '-и',
-            'ночь → ноч+и',
-            'ночи',
-            'до ночи — bis zur Nacht',
-          ],
+          ['Fem. -я', '-и', 'неделя → недел+и', 'недели', 'нет недели — es gibt keine Woche'],
+          ['Fem. -ь', '-и', 'ночь → ноч+и', 'ночи', 'до ночи — bis zur Nacht'],
           ['Neutr. -о', '-а', 'окно → окн+а', 'окна', 'нет окна — es gibt kein Fenster'],
           ['Neutr. -е', '-я', 'море → мор+я', 'моря', 'до моря — bis zum Meer'],
-          [
-            'Neutr. -мя',
-            '-ени',
-            'имя → имен+и',
-            'имени',
-            'без имени — ohne Namen',
-          ],
+          ['Neutr. -мя', '-ени', 'имя → имен+и', 'имени', 'без имени — ohne Namen'],
         ],
       },
     },
@@ -215,21 +163,9 @@ export const russianGenitiveCaseDe: LearnArticle = {
       table: {
         caption: 'Genitiv Plural nach Nomtyp',
         boldColumnIndices: [1, 3],
-        headers: [
-          'Nomtyp',
-          'Endung',
-          'Bildung',
-          'Ergebnis',
-          'Beispiel im Kontext',
-        ],
+        headers: ['Nomtyp', 'Endung', 'Bildung', 'Ergebnis', 'Beispiel im Kontext'],
         rows: [
-          [
-            'Mask. hart',
-            '-ов',
-            'стол → стол+ов',
-            'столов',
-            'пять столов — fünf Tische',
-          ],
+          ['Mask. hart', '-ов', 'стол → стол+ов', 'столов', 'пять столов — fünf Tische'],
           [
             'Mask. auf -ж/ш/щ/ч/ц (betont)',
             '-ей',
@@ -244,13 +180,7 @@ export const russianGenitiveCaseDe: LearnArticle = {
             'врачей',
             'много врачей — viele Ärzte',
           ],
-          [
-            'Mask. weich -й',
-            '-ев',
-            'музей → музе+ев',
-            'музеев',
-            'три музея — drei Museen',
-          ],
+          ['Mask. weich -й', '-ев', 'музей → музе+ев', 'музеев', 'три музея — drei Museen'],
           [
             'Mask. weich -ь',
             '-ей',
@@ -272,35 +202,11 @@ export const russianGenitiveCaseDe: LearnArticle = {
             'подруг',
             'нет подруг — keine Freundinnen',
           ],
-          [
-            'Fem. -я',
-            '-ей / -й',
-            'неделя → недель',
-            'недель',
-            'несколько недель — mehrere Wochen',
-          ],
-          [
-            'Fem. -ь',
-            '-ей',
-            'ночь → ноч+ей',
-            'ночей',
-            'пять ночей — fünf Nächte',
-          ],
-          [
-            'Neutr. -о (hart)',
-            '-Ø',
-            'окно → окон',
-            'окон',
-            'много окон — viele Fenster',
-          ],
+          ['Fem. -я', '-ей / -й', 'неделя → недель', 'недель', 'несколько недель — mehrere Wochen'],
+          ['Fem. -ь', '-ей', 'ночь → ноч+ей', 'ночей', 'пять ночей — fünf Nächte'],
+          ['Neutr. -о (hart)', '-Ø', 'окно → окон', 'окон', 'много окон — viele Fenster'],
           ['Neutr. -е', '-ей', 'море → мор+ей', 'морей', 'пять морей — fünf Meere'],
-          [
-            'Neutr. -ие/-ия',
-            '-ий',
-            'здание → здани+й',
-            'зданий',
-            'много зданий — viele Gebäude',
-          ],
+          ['Neutr. -ие/-ия', '-ий', 'здание → здани+й', 'зданий', 'много зданий — viele Gebäude'],
         ],
       },
     },
@@ -311,12 +217,7 @@ export const russianGenitiveCaseDe: LearnArticle = {
       table: {
         caption: '11 extrem häufige unregelmäßige Genitiv-Plurale',
         boldColumnIndices: [1, 2],
-        headers: [
-          'Nominativ Singular',
-          'Genitiv Plural',
-          'Beispiel',
-          'Anmerkung',
-        ],
+        headers: ['Nominativ Singular', 'Genitiv Plural', 'Beispiel', 'Anmerkung'],
         rows: [
           ['человек (Person)', 'людей', 'много людей', 'Suppletion (люди)'],
           ['ребёнок (Kind)', 'детей', 'много детей', 'Suppletion (дети)'],
@@ -339,43 +240,18 @@ export const russianGenitiveCaseDe: LearnArticle = {
       table: {
         caption: '16 Präpositionen mit Genitiv und Beispielen',
         boldColumnIndices: [0, 2],
-        headers: [
-          'Präp.',
-          'Bedeutung',
-          'Mit Nomen',
-          'Vollständiger Satz + Übersetzung',
-        ],
+        headers: ['Präp.', 'Bedeutung', 'Mit Nomen', 'Vollständiger Satz + Übersetzung'],
         rows: [
-          [
-            'без',
-            'ohne',
-            'без молока',
-            'Я пью чай без молока. — Ich trinke Tee ohne Milch.',
-          ],
+          ['без', 'ohne', 'без молока', 'Я пью чай без молока. — Ich trinke Tee ohne Milch.'],
           [
             'до',
             'bis / vor / bis zu (Grenze)',
             'до урока',
             'Позвони мне до урока. — Ruf mich vor der Stunde an.',
           ],
-          [
-            'из',
-            'aus (heraus)',
-            'из России',
-            'Он приехал из России. — Er kam aus Russland.',
-          ],
-          [
-            'с',
-            'von (einer Fläche)',
-            'с полки',
-            'Книга упала с полки. — Das Buch fiel vom Regal.',
-          ],
-          [
-            'у',
-            'bei / bei jdm.',
-            'у меня',
-            'У меня есть кошка. — Ich habe eine Katze.',
-          ],
+          ['из', 'aus (heraus)', 'из России', 'Он приехал из России. — Er kam aus Russland.'],
+          ['с', 'von (einer Fläche)', 'с полки', 'Книга упала с полки. — Das Buch fiel vom Regal.'],
+          ['у', 'bei / bei jdm.', 'у меня', 'У меня есть кошка. — Ich habe eine Katze.'],
           [
             'от',
             'von (Person / Quelle)',
@@ -436,12 +312,7 @@ export const russianGenitiveCaseDe: LearnArticle = {
             'из-под стола',
             'Кот вылез из-под стола. — Die Katze kam unter dem Tisch hervor.',
           ],
-          [
-            'ради',
-            'um … willen',
-            'ради тебя',
-            'Ради твоего счастья. — Um deines Glückes willen.',
-          ],
+          ['ради', 'um … willen', 'ради тебя', 'Ради твоего счастья. — Um deines Glückes willen.'],
         ],
       },
     },
@@ -452,20 +323,10 @@ export const russianGenitiveCaseDe: LearnArticle = {
       table: {
         caption: 'Zahl + Kasus mit Beispielen',
         boldColumnIndices: [1, 2],
-        headers: [
-          'Zahl / Quantor',
-          'Erforderlicher Kasus',
-          'Beispiel (стол)',
-          'Übersetzung',
-        ],
+        headers: ['Zahl / Quantor', 'Erforderlicher Kasus', 'Beispiel (стол)', 'Übersetzung'],
         rows: [
           ['1', 'Nominativ Singular', 'один стол', 'ein Tisch'],
-          [
-            '2, 3, 4',
-            'Genitiv Singular',
-            'два стола / три стола',
-            'zwei / drei Tische',
-          ],
+          ['2, 3, 4', 'Genitiv Singular', 'два стола / три стола', 'zwei / drei Tische'],
           ['5–20', 'Genitiv Plural', 'пять столов', 'fünf Tische'],
           [
             '21, 31, 41… (endet auf 1)',
@@ -492,12 +353,7 @@ export const russianGenitiveCaseDe: LearnArticle = {
             'много столов',
             'viele / einige / wenige Tische',
           ],
-          [
-            'сколько / столько',
-            'Genitiv Plural',
-            'сколько столов?',
-            'wie viele Tische?',
-          ],
+          ['сколько / столько', 'Genitiv Plural', 'сколько столов?', 'wie viele Tische?'],
         ],
       },
     },
@@ -761,8 +617,7 @@ export const russianGenitiveCaseDe: LearnArticle = {
     },
     {
       h2: 'Top 7 Genitiv-Fehler (und wie man sie vermeidet)',
-      content:
-        'Die **häufigsten Fehler** von Lernenden beim Genitiv:',
+      content: 'Die **häufigsten Fehler** von Lernenden beim Genitiv:',
       bullets: [
         '**Nominativ nach НЕТ** — Нет кот. ✗ → Нет кота. ✓ (нет verlangt immer Genitiv)',
         '**8-Buchstaben-Regel vergessen** — книгы ✗ → книги ✓ (nach г → и, nicht ы)',
@@ -819,8 +674,7 @@ export const russianGenitiveCaseDe: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/russian-genitive-case',
+      '@id': 'https://russiandeclensions.com/learn/articles/russian-genitive-case',
     },
     keywords:
       'russischer Genitiv, Genitivendungen Russisch, Genitiv Regeln, Genitiv Plural Russisch, Genitiv Beispiele, Besitz Grammatik Russisch',

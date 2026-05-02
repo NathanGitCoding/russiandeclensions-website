@@ -3,8 +3,7 @@ import type { LearnArticle } from '../learnArticles';
 /** Tłumaczenie polskie artykułu `russian-cases-explained-beginners-guide` (źródło EN: `learnArticles.ts`). Cyrylica skopiowana znak w znak. */
 export const russianCasesExplainedBeginnersGuidePl: LearnArticle = {
   slug: 'russian-cases-explained-beginners-guide',
-  title:
-    'Rosyjskie przypadki prosto: wizualny przewodnik dla początkujących',
+  title: 'Rosyjskie przypadki prosto: wizualny przewodnik dla początkujących',
   metaTitle:
     'Rosyjskie przypadki prosto: wizualny przewodnik dla początkujących | Russian Cases with Anna',
   metaDescription:
@@ -54,34 +53,13 @@ export const russianCasesExplainedBeginnersGuidePl: LearnArticle = {
         headers: ['Przypadek', 'Nazwa rosyjska', 'Pytanie', 'Przykład'],
         rows: [
           ['Mianownik', 'Именительный', 'Kto? Co?', 'Кошка спит — Kot śpi'],
-          [
-            'Biernik',
-            'Винительный',
-            'Kogo? Co? (dopełnienie)',
-            'Я вижу кошку — Widzę kota',
-          ],
-          [
-            'Dopełniacz',
-            'Родительный',
-            'Kogo? Czego?',
-            'Нет кошки — Nie ma kota',
-          ],
+          ['Biernik', 'Винительный', 'Kogo? Co? (dopełnienie)', 'Я вижу кошку — Widzę kota'],
+          ['Dopełniacz', 'Родительный', 'Kogo? Czego?', 'Нет кошки — Nie ma kota'],
           ['Celownik', 'Дательный', 'Komu? Dla kogo?', 'Дай кошке — Daj kotu'],
-          [
-            'Narzędnik',
-            'Творительный',
-            'Z kim? Czym?',
-            'С кошкой — Z kotem',
-          ],
-          [
-            'Miejscownik',
-            'Предложный',
-            'O kim? Gdzie?',
-            'О кошке — O kocie',
-          ],
+          ['Narzędnik', 'Творительный', 'Z kim? Czym?', 'С кошкой — Z kotem'],
+          ['Miejscownik', 'Предложный', 'O kim? Gdzie?', 'О кошке — O kocie'],
         ],
-        caption:
-          '6 przypadków rosyjskich z pytaniami i przykładami z кошка (kot)',
+        caption: '6 przypadków rosyjskich z pytaniami i przykładami z кошка (kot)',
         accentColumnIndices: [3],
       },
       bullets: [
@@ -219,18 +197,15 @@ export const russianCasesExplainedBeginnersGuidePl: LearnArticle = {
     '**Jeden przypadek na raz** — nie przytłaczaj się wszystkimi 6 naraz',
     '**Regularność wygrywa** — 10 minut dziennie lepsze niż 2 godziny raz w tygodniu',
   ],
-  conclusionOutro:
-    'Poznaj każdy przypadek dokładniej w naszych szczegółowych przewodnikach:',
+  conclusionOutro: 'Poznaj każdy przypadek dokładniej w naszych szczegółowych przewodnikach:',
   internalLinks: [
     {
       href: '/learn/lessons/russian-cases-complete-guide',
-      label:
-        'Pełny przewodnik po rosyjskich przypadkach — wszystkie 6 dogłębnie',
+      label: 'Pełny przewodnik po rosyjskich przypadkach — wszystkie 6 dogłębnie',
     },
     {
       href: '/learn/articles/russian-case-endings-cheatsheet',
-      label:
-        'Ściągawka końcówek przypadków rosyjskich — wszystkie końcówki w jednej tabeli',
+      label: 'Ściągawka końcówek przypadków rosyjskich — wszystkie końcówki w jednej tabeli',
     },
     {
       href: '/practice/accusative',
@@ -277,8 +252,7 @@ export const russianCasesExplainedBeginnersGuidePl: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      'Rosyjskie przypadki prosto: wizualny przewodnik dla początkujących',
+    headline: 'Rosyjskie przypadki prosto: wizualny przewodnik dla początkujących',
     description:
       '6 rosyjskich przypadków gramatycznych wyjaśnionych prostym językiem z jasnymi przykładami. Mianownik, biernik, dopełniacz, celownik, narzędnik i miejscownik w przystępnej formie.',
     datePublished: '2026-03-22',

@@ -3,8 +3,7 @@ import type { LearnArticle } from '../learnArticles';
 /** Deutsche Übersetzung des Artikels `russian-cases-explained-beginners-guide` (EN-Quelle: `learnArticles.ts`). Kyrillisch zeichengenau übernommen. */
 export const russianCasesExplainedBeginnersGuideDe: LearnArticle = {
   slug: 'russian-cases-explained-beginners-guide',
-  title:
-    'Russische Fälle einfach erklärt: Ein visueller Leitfaden für Anfänger',
+  title: 'Russische Fälle einfach erklärt: Ein visueller Leitfaden für Anfänger',
   metaTitle:
     'Russische Fälle einfach erklärt: Visueller Anfänger-Leitfaden | Russian Cases with Anna',
   metaDescription:
@@ -53,45 +52,14 @@ export const russianCasesExplainedBeginnersGuideDe: LearnArticle = {
       table: {
         headers: ['Fall', 'Russischer Name', 'Frage', 'Beispiel'],
         rows: [
-          [
-            'Nominativ',
-            'Именительный',
-            'Wer? Was?',
-            'Кошка спит — Die Katze schläft',
-          ],
-          [
-            'Akkusativ',
-            'Винительный',
-            'Wen? Was? (Objekt)',
-            'Я вижу кошку — Ich sehe die Katze',
-          ],
-          [
-            'Genitiv',
-            'Родительный',
-            'Wessen?',
-            'Нет кошки — Es gibt keine Katze',
-          ],
-          [
-            'Dativ',
-            'Дательный',
-            'Wem? Wozu?',
-            'Дай кошке — Gib der Katze',
-          ],
-          [
-            'Instrumental',
-            'Творительный',
-            'Womit? Mit wem?',
-            'С кошкой — Mit der Katze',
-          ],
-          [
-            'Präpositional',
-            'Предложный',
-            'Über wen? Wo?',
-            'О кошке — Über die Katze',
-          ],
+          ['Nominativ', 'Именительный', 'Wer? Was?', 'Кошка спит — Die Katze schläft'],
+          ['Akkusativ', 'Винительный', 'Wen? Was? (Objekt)', 'Я вижу кошку — Ich sehe die Katze'],
+          ['Genitiv', 'Родительный', 'Wessen?', 'Нет кошки — Es gibt keine Katze'],
+          ['Dativ', 'Дательный', 'Wem? Wozu?', 'Дай кошке — Gib der Katze'],
+          ['Instrumental', 'Творительный', 'Womit? Mit wem?', 'С кошкой — Mit der Katze'],
+          ['Präpositional', 'Предложный', 'Über wen? Wo?', 'О кошке — Über die Katze'],
         ],
-        caption:
-          'Die 6 russischen Fälle mit Fragen und Beispielen mit кошка (Katze)',
+        caption: 'Die 6 russischen Fälle mit Fragen und Beispielen mit кошка (Katze)',
         accentColumnIndices: [3],
       },
       bullets: [
@@ -229,18 +197,15 @@ export const russianCasesExplainedBeginnersGuideDe: LearnArticle = {
     '**Einen Fall nach dem anderen** — sich nicht mit allen 6 gleichzeitig überfordern',
     '**Konsequenz gewinnt** — 10 Minuten täglich schlagen 2 Stunden einmal pro Woche',
   ],
-  conclusionOutro:
-    'Vertiefen Sie jeden Fall mit unseren ausführlichen Leitfäden:',
+  conclusionOutro: 'Vertiefen Sie jeden Fall mit unseren ausführlichen Leitfäden:',
   internalLinks: [
     {
       href: '/learn/lessons/russian-cases-complete-guide',
-      label:
-        'Der vollständige Leitfaden zu den russischen Fällen — alle 6 Fälle im Detail',
+      label: 'Der vollständige Leitfaden zu den russischen Fällen — alle 6 Fälle im Detail',
     },
     {
       href: '/learn/articles/russian-case-endings-cheatsheet',
-      label:
-        'Spickzettel russische Kasusendungen — alle Endungen in einer Tabelle',
+      label: 'Spickzettel russische Kasusendungen — alle Endungen in einer Tabelle',
     },
     {
       href: '/practice/accusative',
@@ -252,8 +217,7 @@ export const russianCasesExplainedBeginnersGuideDe: LearnArticle = {
     },
     {
       href: '/words',
-      label:
-        'Über 400 russische Wörter durchsuchen — vollständige Deklinationstabellen',
+      label: 'Über 400 russische Wörter durchsuchen — vollständige Deklinationstabellen',
     },
   ],
   ctaText: 'Jetzt russische Fälle üben',
@@ -288,8 +252,7 @@ export const russianCasesExplainedBeginnersGuideDe: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      'Russische Fälle einfach erklärt: Ein visueller Leitfaden für Anfänger',
+    headline: 'Russische Fälle einfach erklärt: Ein visueller Leitfaden für Anfänger',
     description:
       'Die 6 russischen grammatischen Fälle einfach erklärt mit kurzen Beispielen. Nominativ, Akkusativ, Genitiv, Dativ, Instrumental und Präpositional leicht gemacht.',
     datePublished: '2026-03-22',

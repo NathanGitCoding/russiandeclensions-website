@@ -65,7 +65,7 @@ export function generatePracticeQuiz(
   caseLabels: Record<string, string>,
   singularLabel: string,
   pluralLabel: string,
-  userLang: LandingLanguage,
+  userLang: LandingLanguage
 ): DeclensionQuizQuestion[] {
   // 1. Filter by selected genders
   const genderFilter = new Set<string>();

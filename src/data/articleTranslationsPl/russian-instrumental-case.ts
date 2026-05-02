@@ -3,8 +3,7 @@ import type { LearnArticle } from '../learnArticles';
 /** Tłumaczenie polskie artykułu `russian-instrumental-case` (źródło EN: `learnArticles.ts`). Cyrylica zachowana znak po znaku. */
 export const russianInstrumentalCasePl: LearnArticle = {
   slug: 'russian-instrumental-case',
-  title:
-    'Rosyjski narzędnik: kiedy go używać i dlaczego jest prostszy, niż myślisz',
+  title: 'Rosyjski narzędnik: kiedy go używać i dlaczego jest prostszy, niż myślisz',
   metaTitle:
     'Rosyjski narzędnik: końcówki, zawody, с + narzędnik, 30 przykładów | Russian Cases with Anna',
   metaDescription:
@@ -20,8 +19,7 @@ export const russianInstrumentalCasePl: LearnArticle = {
   h1: 'Rosyjski narzędnik: kiedy go używać i dlaczego jest prostszy, niż myślisz',
   heroImage: {
     src: '/articles/free-russian-lesson-instrumental-case.webp',
-    alt:
-      'Darmowa lekcja rosyjskiego o narzędniku: zawody, с + narzędnik i więcej',
+    alt: 'Darmowa lekcja rosyjskiego o narzędniku: zawody, с + narzędnik i więcej',
     width: 1200,
     height: 630,
   },
@@ -39,8 +37,7 @@ export const russianInstrumentalCasePl: LearnArticle = {
     '**30 autentycznych zdań** z transliteracją',
   ],
   leadMagnetCta: {
-    title:
-      'Ćwicz rosyjski narzędnik w telefonie',
+    title: 'Ćwicz rosyjski narzędnik w telefonie',
     description:
       'Nasza aplikacja mobilna drilluje wszystkie 6 przypadków — ze szczególnym naciskiem na zawody, с + narzędnik, przyimki miejsca i czasowniki zwrotne. Android i iOS.',
     ctaText: 'Pobierz aplikację i zacznij ćwiczyć już dziś',
@@ -49,28 +46,23 @@ export const russianInstrumentalCasePl: LearnArticle = {
   internalLinks: [
     {
       href: '/learn/lessons/russian-cases-complete-guide',
-      label:
-        'Kompletny przewodnik po rosyjskich przypadkach: 6 przypadków z przykładami',
+      label: 'Kompletny przewodnik po rosyjskich przypadkach: 6 przypadków z przykładami',
     },
     {
       href: '/learn/articles/russian-case-endings-cheatsheet',
-      label:
-        'Końcówki przypadków rosyjskich: ściąga',
+      label: 'Końcówki przypadków rosyjskich: ściąga',
     },
     {
       href: '/learn/articles/russian-genitive-case',
-      label:
-        'Rosyjski dopełniacz: zasady, końcówki i 32 prawdziwe przykłady',
+      label: 'Rosyjski dopełniacz: zasady, końcówki i 32 prawdziwe przykłady',
     },
     {
       href: '/learn/articles/russian-accusative-case',
-      label:
-        'Rosyjski biernik: dopełnienie bezpośrednie, ożywione vs nieożywione',
+      label: 'Rosyjski biernik: dopełnienie bezpośrednie, ożywione vs nieożywione',
     },
     {
       href: '/learn/articles/russian-dative-case',
-      label:
-        'Rosyjski celownik: jak powiedzieć „do” i „dla” po rosyjsku',
+      label: 'Rosyjski celownik: jak powiedzieć „do” i „dla” po rosyjsku',
     },
   ],
   tableAccentVariant: 'instrumental',
@@ -105,8 +97,7 @@ export const russianInstrumentalCasePl: LearnArticle = {
         'Poniżej pełna tabela końcówek narzędnika dla rosyjskich rzeczowników.\n\nWzorce są **spójne**, a liczba mnoga jest taka sama dla wszystkich rodzajów (**-ами/-ями**).',
       image: {
         src: '/articles/instrumental-case-russian-noun-endings-declension-table.webp',
-        alt:
-          'Tabela deklinacji narzędnika: końcówki rzeczowników rosyjskich według rodzaju',
+        alt: 'Tabela deklinacji narzędnika: końcówki rzeczowników rosyjskich według rodzaju',
         width: 1200,
         height: 630,
       },
@@ -114,13 +105,7 @@ export const russianInstrumentalCasePl: LearnArticle = {
         caption:
           'Końcówki rzeczowników w narzędniku — wszystkie rodzaje, liczba pojedyncza i mnoga',
         boldColumnIndices: [1, 3],
-        headers: [
-          'Typ rzeczownika',
-          'Końcówka',
-          'Tworzenie',
-          'Wynik',
-          'Przykład w kontekście',
-        ],
+        headers: ['Typ rzeczownika', 'Końcówka', 'Tworzenie', 'Wynik', 'Przykład w kontekście'],
         rows: [
           [
             'Męski twardy (spółgłoska)',
@@ -129,13 +114,7 @@ export const russianInstrumentalCasePl: LearnArticle = {
             'столом',
             'Он пишет карандашом. — Pisze ołówkiem.',
           ],
-          [
-            'Męski miękki (-й)',
-            '-ем',
-            'музей → музе+ем',
-            'музеем',
-            'перед музеем — przed muzeum',
-          ],
+          ['Męski miękki (-й)', '-ем', 'музей → музе+ем', 'музеем', 'перед музеем — przed muzeum'],
           [
             'Męski miękki (-ь)',
             '-ем',
@@ -164,13 +143,7 @@ export const russianInstrumentalCasePl: LearnArticle = {
             'землёй',
             'под землёй — pod ziemią',
           ],
-          [
-            'Żeński (-ь)',
-            '-ью',
-            'ночь → ноч+ью',
-            'ночью',
-            'ночью — nocą / w nocy',
-          ],
+          ['Żeński (-ь)', '-ью', 'ночь → ноч+ью', 'ночью', 'ночью — nocą / w nocy'],
           [
             'Nijaki twardy (-о)',
             '-ом',
@@ -178,13 +151,7 @@ export const russianInstrumentalCasePl: LearnArticle = {
             'окном',
             'за окном — na zewnątrz / za oknem',
           ],
-          [
-            'Nijaki miękki (-е)',
-            '-ем',
-            'море → мор+ем',
-            'морем',
-            'за морем — za morzem',
-          ],
+          ['Nijaki miękki (-е)', '-ем', 'море → мор+ем', 'морем', 'за морем — za morzem'],
           [
             'Liczba mnoga (twarda)',
             '-ами',
@@ -192,13 +159,7 @@ export const russianInstrumentalCasePl: LearnArticle = {
             'столами',
             'между столами — między stołami',
           ],
-          [
-            'Liczba mnoga (miękka)',
-            '-ями',
-            'моря → мор+ями',
-            'морями',
-            'над морями — nad morzami',
-          ],
+          ['Liczba mnoga (miękka)', '-ями', 'моря → мор+ями', 'морями', 'над морями — nad morzami'],
         ],
       },
       bullets: [
@@ -218,28 +179,10 @@ export const russianInstrumentalCasePl: LearnArticle = {
       table: {
         caption: 'Końcówki przymiotników w narzędniku',
         boldColumnIndices: [1, 2],
-        headers: [
-          'Rodzaj / liczba',
-          'Końcówka',
-          'Forma przym.',
-          'Pełne wyrażenie',
-          'Znaczenie',
-        ],
+        headers: ['Rodzaj / liczba', 'Końcówka', 'Forma przym.', 'Pełne wyrażenie', 'Znaczenie'],
         rows: [
-          [
-            'Męski/nijaki twardy',
-            '-ым',
-            'новый → новым',
-            'новым другом',
-            'z nowym przyjacielem',
-          ],
-          [
-            'Męski/nijaki miękki',
-            '-им',
-            'синий → синим',
-            'синим морем',
-            'z niebieskim morzem',
-          ],
+          ['Męski/nijaki twardy', '-ым', 'новый → новым', 'новым другом', 'z nowym przyjacielem'],
+          ['Męski/nijaki miękki', '-им', 'синий → синим', 'синим морем', 'z niebieskim morzem'],
           [
             'Żeński twardy',
             '-ой / -ою',
@@ -247,13 +190,7 @@ export const russianInstrumentalCasePl: LearnArticle = {
             'с красивой девушкой',
             'z piękną dziewczyną',
           ],
-          [
-            'Żeński miękki',
-            '-ей',
-            'летняя → летней',
-            'летней ночью',
-            'letnią nocą',
-          ],
+          ['Żeński miękki', '-ей', 'летняя → летней', 'летней ночью', 'letnią nocą'],
           [
             'Liczba mnoga (wszystkie rodzaje)',
             '-ыми / -ими',
@@ -287,19 +224,9 @@ export const russianInstrumentalCasePl: LearnArticle = {
       table: {
         caption: 'Zawody z narzędnikiem',
         boldColumnIndices: [1],
-        headers: [
-          'Zawód (mianownik)',
-          'Zdanie rosyjskie',
-          'Tłumaczenie',
-          'Uwaga gramatyczna',
-        ],
+        headers: ['Zawód (mianownik)', 'Zdanie rosyjskie', 'Tłumaczenie', 'Uwaga gramatyczna'],
         rows: [
-          [
-            'врач (lekarz)',
-            'Он работает врачом.',
-            'Pracuje jako lekarz.',
-            'Męski → -ом',
-          ],
+          ['врач (lekarz)', 'Он работает врачом.', 'Pracuje jako lekarz.', 'Męski → -ом'],
           [
             'учитель (nauczyciel)',
             'Она работает учительницей.',
@@ -364,37 +291,17 @@ export const russianInstrumentalCasePl: LearnArticle = {
       table: {
         caption: '8 przyimków z narzędnikiem',
         boldColumnIndices: [0],
-        headers: [
-          'Przyim.',
-          'Znaczenie',
-          'Z rzeczownikiem',
-          'Pełny przykład + tłumaczenie',
-        ],
+        headers: ['Przyim.', 'Znaczenie', 'Z rzeczownikiem', 'Pełny przykład + tłumaczenie'],
         rows: [
-          [
-            'с',
-            'z / razem z',
-            'с другом, с молоком',
-            'Я иду с другом. — Idę z przyjacielem.',
-          ],
-          [
-            'со',
-            'z (przed grupą)',
-            'со мной, со временем',
-            'Иди со мной! — Chodź ze mną!',
-          ],
+          ['с', 'z / razem z', 'с другом, с молоком', 'Я иду с другом. — Idę z przyjacielem.'],
+          ['со', 'z (przed grupą)', 'со мной, со временем', 'Иди со мной! — Chodź ze mną!'],
           [
             'за',
             'za / przy (pozycja)',
             'за столом, за дверью',
             'Он сидит за столом. — Siedzi przy stole.',
           ],
-          [
-            'перед',
-            'przed',
-            'перед домом, перед сном',
-            'Стой перед домом. — Stań przed domem.',
-          ],
+          ['перед', 'przed', 'перед домом, перед сном', 'Стой перед домом. — Stań przed domem.'],
           [
             'над',
             'nad',
@@ -413,12 +320,7 @@ export const russianInstrumentalCasePl: LearnArticle = {
             'между домами, между нами',
             'Это между нами. — To zostaje między nami.',
           ],
-          [
-            'рядом с',
-            'obok',
-            'рядом с домом',
-            'Кафе рядом с метро. — Kawiarnia obok metra.',
-          ],
+          ['рядом с', 'obok', 'рядом с домом', 'Кафе рядом с метро. — Kawiarnia obok metra.'],
         ],
       },
     },
@@ -431,19 +333,10 @@ export const russianInstrumentalCasePl: LearnArticle = {
         boldColumnIndices: [0],
         headers: ['Wyrażenia rosyjskie', 'Przykładowe zdanie + tłumaczenie'],
         rows: [
-          [
-            'утром, вечером, ночью',
-            'Утром я пью кофе. — Rano piję kawę.',
-          ],
-          [
-            'весной, летом, осенью, зимой',
-            'Летом жарко. — Latem jest gorąco.',
-          ],
+          ['утром, вечером, ночью', 'Утром я пью кофе. — Rano piję kawę.'],
+          ['весной, летом, осенью, зимой', 'Летом жарко. — Latem jest gorąco.'],
           ['днём, ночью', 'Он работает ночью. — Pracuje w nocy.'],
-          [
-            'годом раньше / позже',
-            'Годом раньше он уехал. — Rok wcześniej wyjechał.',
-          ],
+          ['годом раньше / позже', 'Годом раньше он уехал. — Rok wcześniej wyjechał.'],
         ],
       },
       bullets: [
@@ -471,84 +364,24 @@ export const russianInstrumentalCasePl: LearnArticle = {
             'Interesuje się historią.',
             'Przedmiot zainteresowania',
           ],
-          [
-            'гордиться',
-            'Мы гордимся тобой.',
-            'Jesteśmy z ciebie dumni.',
-            'Przedmiot dumy',
-          ],
+          ['гордиться', 'Мы гордимся тобой.', 'Jesteśmy z ciebie dumni.', 'Przedmiot dumy'],
           [
             'восхищаться',
             'Он восхищается закатом.',
             'Podziwia zachód słońca.',
             'Przedmiot podziwu',
           ],
-          [
-            'увлекаться',
-            'Он увлекается музыкой.',
-            'Pasjonuje się muzyką.',
-            'Pasja / hobby',
-          ],
-          [
-            'пользоваться',
-            'Я пользуюсь словарём.',
-            'Korzystam ze słownika.',
-            'Używane narzędzie',
-          ],
-          [
-            'владеть',
-            'Она владеет тремя языками.',
-            'Zna trzy języki.',
-            'Opanowanie / posiadanie',
-          ],
-          [
-            'управлять',
-            'Он управляет машиной.',
-            'Prowadzi samochód.',
-            'Sterowanie pojazdem',
-          ],
-          [
-            'являться',
-            'Москва является столицей.',
-            'Moskwa jest stolicą.',
-            'Formalne = być',
-          ],
-          [
-            'служить',
-            'Это служит примером.',
-            'To służy za przykład.',
-            'Rola / funkcja',
-          ],
-          [
-            'стать',
-            'Она стала врачом.',
-            'Została lekarzem.',
-            'Zmiana stanu → zawód',
-          ],
-          [
-            'быть',
-            'Он был студентом.',
-            'Był studentem.',
-            '„Być” w przeszłości / przyszłości',
-          ],
-          [
-            'называть',
-            'Все называют его гением.',
-            'Wszyscy nazywają go geniuszem.',
-            'Nazywanie',
-          ],
-          [
-            'считать',
-            'Я считаю его другом.',
-            'Uważam go za przyjaciela.',
-            'Opinia / osąd',
-          ],
-          [
-            'махать',
-            'Она машет рукой.',
-            'Macha ręką.',
-            'Część ciała w czynności',
-          ],
+          ['увлекаться', 'Он увлекается музыкой.', 'Pasjonuje się muzyką.', 'Pasja / hobby'],
+          ['пользоваться', 'Я пользуюсь словарём.', 'Korzystam ze słownika.', 'Używane narzędzie'],
+          ['владеть', 'Она владеет тремя языками.', 'Zna trzy języki.', 'Opanowanie / posiadanie'],
+          ['управлять', 'Он управляет машиной.', 'Prowadzi samochód.', 'Sterowanie pojazdem'],
+          ['являться', 'Москва является столицей.', 'Moskwa jest stolicą.', 'Formalne = być'],
+          ['служить', 'Это служит примером.', 'To służy za przykład.', 'Rola / funkcja'],
+          ['стать', 'Она стала врачом.', 'Została lekarzem.', 'Zmiana stanu → zawód'],
+          ['быть', 'Он был студентом.', 'Był studentem.', '„Być” w przeszłości / przyszłości'],
+          ['называть', 'Все называют его гением.', 'Wszyscy nazywają go geniuszem.', 'Nazywanie'],
+          ['считать', 'Я считаю его другом.', 'Uważam go za przyjaciela.', 'Opinia / osąd'],
+          ['махать', 'Она машет рукой.', 'Macha ręką.', 'Część ciała w czynności'],
         ],
       },
     },
@@ -561,43 +394,13 @@ export const russianInstrumentalCasePl: LearnArticle = {
         boldColumnIndices: [1],
         headers: ['#', 'Zdanie rosyjskie', 'Transliteracja', 'Tłumaczenie i uwagi'],
         rows: [
-          [
-            '1',
-            'Он пишет ручкой.',
-            'On pishet ruchkoy.',
-            'Pisze długopisem. (ручка → ручкой)',
-          ],
-          [
-            '2',
-            'Я режу хлеб ножом.',
-            'Ya rezhu khleb nozhom.',
-            'Kroję chleb nożem.',
-          ],
+          ['1', 'Он пишет ручкой.', 'On pishet ruchkoy.', 'Pisze długopisem. (ручка → ручкой)'],
+          ['2', 'Я режу хлеб ножом.', 'Ya rezhu khleb nozhom.', 'Kroję chleb nożem.'],
           ['3', 'Мы едем поездом.', 'My yedyom poyezdom.', 'Jedziemy pociągiem.'],
-          [
-            '4',
-            'Она рисует карандашом.',
-            'Ona risuyet karandashom.',
-            'Rysuje ołówkiem.',
-          ],
-          [
-            '5',
-            'Открой дверь ключом.',
-            'Otkroy dver klyuchom.',
-            'Otwórz drzwi kluczem.',
-          ],
-          [
-            '6',
-            'Он работает врачом.',
-            'On rabotayet vrachom.',
-            'Pracuje jako lekarz.',
-          ],
-          [
-            '7',
-            'Она стала учительницей.',
-            'Ona stala uchitelnitsyey.',
-            'Została nauczycielką.',
-          ],
+          ['4', 'Она рисует карандашом.', 'Ona risuyet karandashom.', 'Rysuje ołówkiem.'],
+          ['5', 'Открой дверь ключом.', 'Otkroy dver klyuchom.', 'Otwórz drzwi kluczem.'],
+          ['6', 'Он работает врачом.', 'On rabotayet vrachom.', 'Pracuje jako lekarz.'],
+          ['7', 'Она стала учительницей.', 'Ona stala uchitelnitsyey.', 'Została nauczycielką.'],
           [
             '8',
             'Мой отец был инженером.',
@@ -616,114 +419,49 @@ export const russianInstrumentalCasePl: LearnArticle = {
             'Ya khochu stat kosmonavtom.',
             'Chcę zostać kosmonautą.',
           ],
-          [
-            '11',
-            'Я иду с другом.',
-            'Ya idu s drugom.',
-            'Idę z przyjacielem.',
-          ],
-          [
-            '12',
-            'Он пришёл с женой.',
-            'On prishol s zhonoy.',
-            'Przyszedł z żoną.',
-          ],
-          [
-            '13',
-            'Выпей кофе с молоком.',
-            'Vypey kofe s molokom.',
-            'Wypij kawę z mlekiem.',
-          ],
-          [
-            '14',
-            'Мы живём с родителями.',
-            'My zhivyom s roditelyami.',
-            'Mieszkamy z rodzicami.',
-          ],
+          ['11', 'Я иду с другом.', 'Ya idu s drugom.', 'Idę z przyjacielem.'],
+          ['12', 'Он пришёл с женой.', 'On prishol s zhonoy.', 'Przyszedł z żoną.'],
+          ['13', 'Выпей кофе с молоком.', 'Vypey kofe s molokom.', 'Wypij kawę z mlekiem.'],
+          ['14', 'Мы живём с родителями.', 'My zhivyom s roditelyami.', 'Mieszkamy z rodzicami.'],
           [
             '15',
             'Книга лежит под лампой.',
             'Kniga lezhit pod lampoy.',
             'Książka leży pod lampą. (под + narz.)',
           ],
-          [
-            '16',
-            'Они сидят за столом.',
-            'Oni sidyat za stolom.',
-            'Siedzą przy stole.',
-          ],
+          ['16', 'Они сидят за столом.', 'Oni sidyat za stolom.', 'Siedzą przy stole.'],
           [
             '17',
             'Самолёт летит над облаками.',
             'Samolyot letit nad oblakami.',
             'Samolot leci nad chmurami.',
           ],
-          [
-            '18',
-            'Дом стоит перед лесом.',
-            'Dom stoit pered lesom.',
-            'Dom stoi przed lasem.',
-          ],
+          ['18', 'Дом стоит перед лесом.', 'Dom stoit pered lesom.', 'Dom stoi przed lasem.'],
           [
             '19',
             'Мы договорились между собой.',
             'My dogovorilis mezhdu soboy.',
             'Umówiliśmy się między sobą.',
           ],
-          [
-            '20',
-            'Кафе рядом с банком.',
-            'Kafe ryadom s bankom.',
-            'Kawiarnia jest obok banku.',
-          ],
-          [
-            '21',
-            'Утром я бегаю в парке.',
-            'Utrom ya begayu v parke.',
-            'Rano biegam w parku.',
-          ],
+          ['20', 'Кафе рядом с банком.', 'Kafe ryadom s bankom.', 'Kawiarnia jest obok banku.'],
+          ['21', 'Утром я бегаю в парке.', 'Utrom ya begayu v parke.', 'Rano biegam w parku.'],
           [
             '22',
             'Летом мы ездим на море.',
             'Letom my yezdim na more.',
             'W lecie jeździmy nad morze.',
           ],
-          [
-            '23',
-            'Ночью город красив.',
-            'Nochyu gorod krasiv.',
-            'W nocy miasto jest piękne.',
-          ],
-          [
-            '24',
-            'Я занимаюсь спортом.',
-            'Ya zanimayus sportom.',
-            'Uprawiam sport.',
-          ],
-          [
-            '25',
-            'Она гордится сыном.',
-            'Ona gorditsya synom.',
-            'Jest dumna z syna.',
-          ],
+          ['23', 'Ночью город красив.', 'Nochyu gorod krasiv.', 'W nocy miasto jest piękne.'],
+          ['24', 'Я занимаюсь спортом.', 'Ya zanimayus sportom.', 'Uprawiam sport.'],
+          ['25', 'Она гордится сыном.', 'Ona gorditsya synom.', 'Jest dumna z syna.'],
           [
             '26',
             'Мы восхищаемся закатом.',
             'My voskhishchaemsa zakatom.',
             'Podziwiamy zachód słońca.',
           ],
-          [
-            '27',
-            'Он увлекается музыкой.',
-            'On uvlekayetsya muzykoy.',
-            'Pasjonuje się muzyką.',
-          ],
-          [
-            '28',
-            'Пахнет свежей травой.',
-            'Pakhnet svezhey travoy.',
-            'Pachnie świeżą trawą.',
-          ],
+          ['27', 'Он увлекается музыкой.', 'On uvlekayetsya muzykoy.', 'Pasjonuje się muzyką.'],
+          ['28', 'Пахнет свежей травой.', 'Pakhnet svezhey travoy.', 'Pachnie świeżą trawą.'],
           [
             '29',
             'Она машет рукой на прощание.',
@@ -780,8 +518,7 @@ export const russianInstrumentalCasePl: LearnArticle = {
         '**С + narzędnik** wyraża towarzystwo — wspólne działanie z kimś lub opis tego, co towarzyszy czemuś. Przykłady: Я иду с другом, Кофе с молоком, Мы живём с родителями. Przed grupami spółgłoskowych с zmienia się w со: со мной, со временем.',
     },
     {
-      question:
-        'Jaka jest różnica między narzędnikiem a biernikiem przy przyimkach miejsca?',
+      question: 'Jaka jest różnica między narzędnikiem a biernikiem przy przyimkach miejsca?',
       answer:
         'Przyimki jak за, под, перед, над mogą regować **narzędnik** lub **biernik**. **Narzędnik** = pozycja statyczna (gdzie coś **jest**): книга под столом. **Biernik** = ruch dokąd: положи книгу под стол. Narzędnik = już tam jestem. Biernik = idę tam.',
     },
@@ -789,8 +526,7 @@ export const russianInstrumentalCasePl: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      'Rosyjski narzędnik: kiedy go używać i dlaczego jest prostszy, niż myślisz',
+    headline: 'Rosyjski narzędnik: kiedy go używać i dlaczego jest prostszy, niż myślisz',
     description:
       'Kompletny przewodnik po rosyjskim narzędniku: końcówki rzeczowników, zawody, с + narzędnik, przyimki, wyrażenia czasowe, 15 czasowników, 30 przykładów.',
     datePublished: '2026-03-12',
@@ -799,8 +535,7 @@ export const russianInstrumentalCasePl: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/russian-instrumental-case',
+      '@id': 'https://russiandeclensions.com/learn/articles/russian-instrumental-case',
     },
     keywords:
       'rosyjski narzędnik, końcówki narzędnika rosyjski, с + narzędnik rosyjski, przyimki narzędnik rosyjski',

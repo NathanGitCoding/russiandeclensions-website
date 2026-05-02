@@ -7,7 +7,13 @@ import { getWordPageTranslations } from '@/data/website/wordPageTranslations';
 import { LearnLeadMagnet } from '@/components/learn/LearnLeadMagnet';
 import { DeclensionQuizInline } from '@/components/quiz/DeclensionQuizInline';
 import { PronunciationButton } from '@/components/learn/PronunciationButton';
-import { getWordBySlug, getAllSlugsWithBaseForm, getRelatedWords, isIndeclinable, type WordWithDeclensions } from '@/lib/words';
+import {
+  getWordBySlug,
+  getAllSlugsWithBaseForm,
+  getRelatedWords,
+  isIndeclinable,
+  type WordWithDeclensions,
+} from '@/lib/words';
 import { getWordDisplayTranslation } from '@/lib/wordPageLang';
 import {
   buildWordCaseArticleLinks,
@@ -152,7 +158,8 @@ export default async function WordPage({ params }: Props) {
   const genderLabel = wt.gender[word.gender] ?? word.gender;
   const typeLabel = wt.type[word.type] ?? word.type;
 
-  const badgeClass = genderBadgeClasses[word.gender] ?? 'bg-[hsl(var(--muted))] text-[hsl(var(--muted-foreground))]';
+  const badgeClass =
+    genderBadgeClasses[word.gender] ?? 'bg-[hsl(var(--muted))] text-[hsl(var(--muted-foreground))]';
   const wordIsIndeclinable = isIndeclinable(word);
   const caseConfig = buildWordCaseConfig(word, wt);
   const declensionStem = getDeclensionStem(word);
@@ -265,7 +272,8 @@ export default async function WordPage({ params }: Props) {
   const navItems = await getAllSlugsWithBaseForm();
   const currentIndex = navItems.findIndex((item) => item.slug === slug);
   const prevItem = currentIndex > 0 ? navItems[currentIndex - 1] : null;
-  const nextItem = currentIndex >= 0 && currentIndex < navItems.length - 1 ? navItems[currentIndex + 1] : null;
+  const nextItem =
+    currentIndex >= 0 && currentIndex < navItems.length - 1 ? navItems[currentIndex + 1] : null;
 
   const exampleSentences = await getExampleSentencesForWord(word.word_id, lang);
   const relatedWords = await getRelatedWords(slug, word.gender, 12);
@@ -326,13 +334,9 @@ export default async function WordPage({ params }: Props) {
             size="lg"
           />
         </div>
-        <p className="mt-2 font-mono text-sm text-[hsl(var(--muted-foreground))]">
-          /{word.slug}/
-        </p>
+        <p className="mt-2 font-mono text-sm text-[hsl(var(--muted-foreground))]">/{word.slug}/</p>
         <div className="mt-4 flex flex-wrap gap-2">
-          <span
-            className={`inline-flex rounded-full px-3 py-1 text-sm font-medium ${badgeClass}`}
-          >
+          <span className={`inline-flex rounded-full px-3 py-1 text-sm font-medium ${badgeClass}`}>
             {genderLabel}
           </span>
           <span className="inline-flex rounded-full bg-[hsl(var(--muted))] px-3 py-1 text-sm font-medium text-[hsl(var(--muted-foreground))]">
@@ -346,7 +350,7 @@ export default async function WordPage({ params }: Props) {
         className="mb-8 rounded-lg border border-[hsl(var(--border))] bg-[hsl(var(--muted)_/_0.3)] px-6 py-5"
         aria-label={wt.tocTitle}
       >
-        <h2 className="mb-4 text-sm font-semibold uppercase tracking-wider text-[hsl(var(--muted-foreground))]">
+        <h2 className="mb-4 text-sm font-semibold tracking-wider text-[hsl(var(--muted-foreground))] uppercase">
           {wt.tocTitle}
         </h2>
         <ol className="space-y-2 text-sm">
@@ -355,10 +359,13 @@ export default async function WordPage({ params }: Props) {
               {wt.h2FullTable(word.base_form)}
             </a>
             {!wordIsIndeclinable && (
-              <ul className="ml-4 mt-1.5 space-y-1 border-l-2 border-[hsl(var(--border))] pl-4">
+              <ul className="mt-1.5 ml-4 space-y-1 border-l-2 border-[hsl(var(--border))] pl-4">
                 {caseConfig.map((row) => (
                   <li key={row.key}>
-                    <a href={`#case-${row.key}`} className="text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--foreground))] hover:underline">
+                    <a
+                      href={`#case-${row.key}`}
+                      className="text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--foreground))] hover:underline"
+                    >
                       {wt.tocCaseDeclensionLink(word.base_form, row.label)}
                     </a>
                   </li>
@@ -394,19 +401,30 @@ export default async function WordPage({ params }: Props) {
       </nav>
 
       <section id="declension-table" className="learn-detail-section scroll-mt-24">
-        <h2 className="mb-6 text-lg font-semibold text-[hsl(var(--foreground))] block" style={{ marginBottom: '1.5rem' }}>
+        <h2
+          className="mb-6 block text-lg font-semibold text-[hsl(var(--foreground))]"
+          style={{ marginBottom: '1.5rem' }}
+        >
           {wt.h2FullTable(word.base_form)}
         </h2>
-        <div className="mb-4 space-y-3 text-[hsl(var(--muted-foreground))] leading-relaxed">
+        <div className="mb-4 space-y-3 leading-relaxed text-[hsl(var(--muted-foreground))]">
           {wordIsIndeclinable ? (
             <p>
-              <WithBold text={wt.introParagraph1(typeLabel, word.base_form, translation, genderLabel)} />
+              <WithBold
+                text={wt.introParagraph1(typeLabel, word.base_form, translation, genderLabel)}
+              />
               {` ${wt.indeclinableNotice(word.base_form)}`}
             </p>
           ) : (
             <>
               <p>
-                <WithBold text={wt.contextSnippetType(word.base_form, genderLabel, getWordDeclensionOrdinal(word, wt))} />
+                <WithBold
+                  text={wt.contextSnippetType(
+                    word.base_form,
+                    genderLabel,
+                    getWordDeclensionOrdinal(word, wt)
+                  )}
+                />
               </p>
               <p>
                 {wt.contextSnippetUsage(getWordLevelLabel(word.word_apparition_level ?? 1, wt))}
@@ -431,7 +449,9 @@ export default async function WordPage({ params }: Props) {
                   className={`scroll-mt-24 ${index % 2 === 0 ? 'bg-[hsl(var(--primary)_/_0.08)]' : 'bg-white'}`}
                 >
                   <td>
-                    <span className="font-semibold text-[hsl(var(--foreground))]">{wt.formatCaseDisplay(wt.caseLabel, row.label)}</span>
+                    <span className="font-semibold text-[hsl(var(--foreground))]">
+                      {wt.formatCaseDisplay(wt.caseLabel, row.label)}
+                    </span>
                     <p className="text-xs text-[hsl(var(--muted-foreground))]" title={row.hint}>
                       {row.hint}
                     </p>
@@ -439,7 +459,13 @@ export default async function WordPage({ params }: Props) {
                   <td className="font-semibold" lang="ru">
                     <div className="flex items-center gap-2">
                       <span>
-                        <HighlightedEnding text={row.sg} baseForm={word.base_form} nominativeSg={word.base_form} wordType={word.type} stem={declensionStem} />
+                        <HighlightedEnding
+                          text={row.sg}
+                          baseForm={word.base_form}
+                          nominativeSg={word.base_form}
+                          wordType={word.type}
+                          stem={declensionStem}
+                        />
                       </span>
                       <PronunciationButton
                         text={row.sg}
@@ -451,7 +477,13 @@ export default async function WordPage({ params }: Props) {
                   <td className="font-semibold" lang="ru">
                     <div className="flex items-center gap-2">
                       <span>
-                        <HighlightedEnding text={row.pl} baseForm={word.nominative_pl} nominativeSg={word.base_form} wordType={word.type} stem={declensionStem} />
+                        <HighlightedEnding
+                          text={row.pl}
+                          baseForm={word.nominative_pl}
+                          nominativeSg={word.base_form}
+                          wordType={word.type}
+                          stem={declensionStem}
+                        />
                       </span>
                       <PronunciationButton
                         text={row.pl}
@@ -491,10 +523,13 @@ export default async function WordPage({ params }: Props) {
 
       {!wordIsIndeclinable && (
         <section id="exercices-qcm" className="learn-detail-section scroll-mt-24">
-          <h2 className="mb-6 text-lg font-semibold text-[hsl(var(--foreground))] block" style={{ marginBottom: '1.5rem' }}>
+          <h2
+            className="mb-6 block text-lg font-semibold text-[hsl(var(--foreground))]"
+            style={{ marginBottom: '1.5rem' }}
+          >
             {wt.quizSectionTitle}
           </h2>
-          <p className="mb-4 text-[hsl(var(--muted-foreground))] leading-relaxed">
+          <p className="mb-4 leading-relaxed text-[hsl(var(--muted-foreground))]">
             {wt.quizSectionIntro(word.base_form)}
           </p>
           <DeclensionQuizInline
@@ -510,12 +545,18 @@ export default async function WordPage({ params }: Props) {
       )}
 
       <section id="usage-notes" className="learn-detail-section scroll-mt-24">
-        <h2 className="text-lg font-semibold text-[hsl(var(--foreground))] block" style={{ marginBottom: '1.5rem' }}>
+        <h2
+          className="block text-lg font-semibold text-[hsl(var(--foreground))]"
+          style={{ marginBottom: '1.5rem' }}
+        >
           {wt.usageNotes}
         </h2>
-        <p className="text-[hsl(var(--muted-foreground))] leading-relaxed">
+        <p className="leading-relaxed text-[hsl(var(--muted-foreground))]">
           {wt.usageNotesContent(translation, word.base_form, genderLabel)}
-          <Link href="/learn/articles/russian-case-endings-cheatsheet" className="text-[hsl(var(--primary))] hover:underline">
+          <Link
+            href="/learn/articles/russian-case-endings-cheatsheet"
+            className="text-[hsl(var(--primary))] hover:underline"
+          >
             {wt.usageNotesCaseEndings}
           </Link>
           {wt.usageNotesAnd}
@@ -537,7 +578,10 @@ export default async function WordPage({ params }: Props) {
             border: '1px solid hsl(var(--primary) / 0.2)',
           }}
         >
-          <h2 className="text-lg font-semibold text-[hsl(var(--foreground))] block" style={{ marginBottom: '1.5rem' }}>
+          <h2
+            className="block text-lg font-semibold text-[hsl(var(--foreground))]"
+            style={{ marginBottom: '1.5rem' }}
+          >
             {wt.h2HowToUse(word.base_form)}
           </h2>
           <div className="flex flex-col gap-3">
@@ -551,7 +595,7 @@ export default async function WordPage({ params }: Props) {
                     <p className="mt-2 font-medium" lang="ru">
                       {example.sentence_ru}
                     </p>
-                    <p className="mt-1 text-sm italic text-[hsl(var(--muted-foreground))]">
+                    <p className="mt-1 text-sm text-[hsl(var(--muted-foreground))] italic">
                       {example.translation}
                     </p>
                   </div>
@@ -581,7 +625,7 @@ export default async function WordPage({ params }: Props) {
 
       {relatedWords.length > 0 && (
         <section className="mt-8 rounded-lg border border-[hsl(var(--border))] bg-[hsl(var(--muted)_/_0.2)] px-6 py-5">
-          <h3 className="mb-3 text-sm font-semibold uppercase tracking-wider text-[hsl(var(--muted-foreground))]">
+          <h3 className="mb-3 text-sm font-semibold tracking-wider text-[hsl(var(--muted-foreground))] uppercase">
             {wt.peopleAlsoSearchedFor}
           </h3>
           <p className="flex flex-wrap gap-x-2 gap-y-1">
@@ -604,14 +648,22 @@ export default async function WordPage({ params }: Props) {
 
       <nav className="flex items-center justify-between border-t border-[hsl(var(--border))] pt-8">
         {prevItem ? (
-          <Link href={`${WORD_BASE_PATH}/${prevItem.slug}`} className="learn-detail-back" aria-label={wt.nav.previousWord}>
+          <Link
+            href={`${WORD_BASE_PATH}/${prevItem.slug}`}
+            className="learn-detail-back"
+            aria-label={wt.nav.previousWord}
+          >
             ← {prevItem.base_form}
           </Link>
         ) : (
           <span />
         )}
         {nextItem ? (
-          <Link href={`${WORD_BASE_PATH}/${nextItem.slug}`} className="learn-detail-back" aria-label={wt.nav.nextWord}>
+          <Link
+            href={`${WORD_BASE_PATH}/${nextItem.slug}`}
+            className="learn-detail-back"
+            aria-label={wt.nav.nextWord}
+          >
             {nextItem.base_form} →
           </Link>
         ) : (

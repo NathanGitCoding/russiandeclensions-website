@@ -12,7 +12,7 @@ export function PracticeFAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
-    <section className="container mx-auto px-4 pb-12 pt-8 sm:px-6 sm:pb-16">
+    <section className="container mx-auto px-4 pt-8 pb-12 sm:px-6 sm:pb-16">
       <div className="mx-auto max-w-2xl">
         <h2 className="mb-6 text-center text-xl font-bold text-gray-800 sm:text-2xl">
           {t.faq.title}
@@ -40,7 +40,7 @@ export function PracticeFAQ() {
                 />
               </button>
               {openIndex === i && (
-                <div className="border-t border-gray-100 px-5 pb-4 pt-3">
+                <div className="border-t border-gray-100 px-5 pt-3 pb-4">
                   <p className="text-sm leading-relaxed text-gray-600">{item.answer}</p>
                 </div>
               )}

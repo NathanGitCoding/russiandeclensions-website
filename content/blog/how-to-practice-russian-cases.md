@@ -1,10 +1,18 @@
 ---
-title: "How to Practice Russian Cases: 5 Proven Methods to Finally Make Them Stick"
-description: "Evidence-based techniques for memorizing Russian declensions — SRS, drills, active reading, writing & speaking. 12-week plan, comparison table, common mistakes to avoid."
-slug: "how-to-practice-russian-cases"
-date: "2025-03-13"
-keywords: ["how to practice russian cases","russian cases exercises","russian declension practice","best app to learn russian cases","russian cases drills","how to memorize russian cases"]
-image: "/articles/what-is-the-best-russian-grammar-app-to-learn-cases.webp"
+title: 'How to Practice Russian Cases: 5 Proven Methods to Finally Make Them Stick'
+description: 'Evidence-based techniques for memorizing Russian declensions — SRS, drills, active reading, writing & speaking. 12-week plan, comparison table, common mistakes to avoid.'
+slug: 'how-to-practice-russian-cases'
+date: '2025-03-13'
+keywords:
+  [
+    'how to practice russian cases',
+    'russian cases exercises',
+    'russian declension practice',
+    'best app to learn russian cases',
+    'russian cases drills',
+    'how to memorize russian cases',
+  ]
+image: '/articles/what-is-the-best-russian-grammar-app-to-learn-cases.webp'
 ---
 
 You've read the grammar explanations. You've studied the tables. You understand how Russian cases work — in theory. And then you open your mouth, or start writing, and everything falls apart. The endings vanish. The rules blur. You freeze.
@@ -132,15 +140,15 @@ Use structured activities: describe your apartment (prepositions + prepositional
 
 Each method targets a different aspect of case learning. The best learners combine multiple methods:
 
-*Methods comparison: effectiveness, time, level*
+_Methods comparison: effectiveness, time, level_
 
-| Method | Effectiveness | Time investment | Best level | What it's best for |
-| --- | --- | --- | --- | --- |
-| Spaced Repetition App | ⭐⭐⭐⭐⭐ | 10-20 min/day | All levels | Best for building automatic recall of endings |
-| Case-specific drills | ⭐⭐⭐⭐ | 15-30 min/session | Beginner–Intermediate | Targets specific case patterns systematically |
-| Active reading | ⭐⭐⭐⭐⭐ | 30+ min/day | Intermediate+ | Builds intuition through massive input |
-| Writing practice | ⭐⭐⭐⭐ | 20-30 min/day | Intermediate+ | Forces conscious application of rules |
-| Speaking practice | ⭐⭐⭐⭐⭐ | 30+ min/session | All levels | Real-time feedback closes the feedback loop |
+| Method                | Effectiveness | Time investment   | Best level            | What it's best for                            |
+| --------------------- | ------------- | ----------------- | --------------------- | --------------------------------------------- |
+| Spaced Repetition App | ⭐⭐⭐⭐⭐    | 10-20 min/day     | All levels            | Best for building automatic recall of endings |
+| Case-specific drills  | ⭐⭐⭐⭐      | 15-30 min/session | Beginner–Intermediate | Targets specific case patterns systematically |
+| Active reading        | ⭐⭐⭐⭐⭐    | 30+ min/day       | Intermediate+         | Builds intuition through massive input        |
+| Writing practice      | ⭐⭐⭐⭐      | 20-30 min/day     | Intermediate+         | Forces conscious application of rules         |
+| Speaking practice     | ⭐⭐⭐⭐⭐    | 30+ min/session   | All levels            | Real-time feedback closes the feedback loop   |
 
 - **Recommended combination for fastest results:** Daily SRS app (15 min) + weekly case-specific drill (20 min) + speaking session (2×/week). Add active reading once you reach intermediate level. This combination covers all five principles: retrieval, spacing, context, feedback, and volume.
 
@@ -148,16 +156,16 @@ Each method targets a different aspect of case learning. The best learners combi
 
 A structured plan to take you from basic case awareness to confident usage in 12 weeks. Each phase focuses on one or two cases with specific daily exercises:
 
-*Week-by-week practice plan*
+_Week-by-week practice plan_
 
-| Weeks | Case focus | Core activities | Daily practice exercise |
-| --- | --- | --- | --- |
-| 1–2 | Nominative + Accusative | Flashcards for accusative endings (all genders). Focus: fem. -а→-у, animate masc. rule. | Identify all accusative nouns in 5 Russian sentences per day. |
-| 3–4 | Genitive case | Drill нет + genitive. Memorize genitive singular endings. Start genitive plural patterns. | Write 5 sentences using нет + genitive. Read 1 paragraph, mark all genitives. |
-| 5–6 | Dative case | Нравиться construction. Age expressions. Indirect objects. | 10 нравиться sentences. 5 age sentences. Translate English sentences with give/tell/show. |
-| 7–8 | Instrumental case | Profession pattern. С + instrumental. Time adverbs (утром, летом). | 10 profession sentences. 10 "with" sentences. Use time adverbs in journal. |
-| 9–10 | Prepositional case | В/НА location. О + topic. -ИИ ending rule. | 5 location sentences (в). 5 location (на). 5 "о чём" sentences. Map 10 country names. |
-| 11–12 | Integration | Mixed case drills. Preposition-case mapping. Error correction review. | Write a 100-word paragraph using all 6 cases. Self-check every noun's case. |
+| Weeks | Case focus              | Core activities                                                                           | Daily practice exercise                                                                   |
+| ----- | ----------------------- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| 1–2   | Nominative + Accusative | Flashcards for accusative endings (all genders). Focus: fem. -а→-у, animate masc. rule.   | Identify all accusative nouns in 5 Russian sentences per day.                             |
+| 3–4   | Genitive case           | Drill нет + genitive. Memorize genitive singular endings. Start genitive plural patterns. | Write 5 sentences using нет + genitive. Read 1 paragraph, mark all genitives.             |
+| 5–6   | Dative case             | Нравиться construction. Age expressions. Indirect objects.                                | 10 нравиться sentences. 5 age sentences. Translate English sentences with give/tell/show. |
+| 7–8   | Instrumental case       | Profession pattern. С + instrumental. Time adverbs (утром, летом).                        | 10 profession sentences. 10 "with" sentences. Use time adverbs in journal.                |
+| 9–10  | Prepositional case      | В/НА location. О + topic. -ИИ ending rule.                                                | 5 location sentences (в). 5 location (на). 5 "о чём" sentences. Map 10 country names.     |
+| 11–12 | Integration             | Mixed case drills. Preposition-case mapping. Error correction review.                     | Write a 100-word paragraph using all 6 cases. Self-check every noun's case.               |
 
 ## Common Practice Mistakes That Waste Your Time
 
@@ -202,6 +210,7 @@ Download our Russian cases mobile app — the most focused tool for drilling all
 [Download the app →](/)
 
 ---
+
 Russian cases become automatic the same way any complex skill becomes automatic: through **deliberate, varied, consistent practice** with real feedback. The five methods in this guide — spaced repetition, case-specific drills, active reading, writing practice, and speaking with correction — cover every angle of the learning process.
 
 The 12-week plan gives you a structured path from beginner confusion to confident case usage. Follow it, track your errors, focus on your weak spots, and review regularly. In three months, you will be a different Russian speaker.
@@ -232,6 +241,5 @@ Start with the **nominative** (you already know it — it's the dictionary form)
 **Is there an app specifically for Russian cases?**
 
 Yes — there are apps specifically designed for drilling Russian case declensions. The best ones focus on all 6 cases, include adjective declension, use spaced repetition to target your weaknesses, and provide real Russian sentences as context. Our app is built for exactly this purpose and is available on both Android and iOS.
-
 
 [Practice Russian cases with our app](/)

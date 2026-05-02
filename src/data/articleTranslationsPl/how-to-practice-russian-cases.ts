@@ -3,8 +3,7 @@ import type { LearnArticle } from '../learnArticles';
 /** Tłumaczenie polskie artykułu `how-to-practice-russian-cases` (źródło EN: `learnArticles.ts`). Cyrylica zachowana znak po znaku. */
 export const howToPracticeRussianCasesPl: LearnArticle = {
   slug: 'how-to-practice-russian-cases',
-  title:
-    'Jak ćwiczyć rosyjskie przypadki: 5 sprawdzonych metod',
+  title: 'Jak ćwiczyć rosyjskie przypadki: 5 sprawdzonych metod',
   metaTitle:
     'Jak ćwiczyć rosyjskie przypadki: 5 metod, żeby w końcu zostały w pamięci | Russian Cases with Anna',
   metaDescription:
@@ -20,8 +19,7 @@ export const howToPracticeRussianCasesPl: LearnArticle = {
   h1: 'Jak ćwiczyć rosyjskie przypadki: 5 metod, żeby w końcu zostały w pamięci',
   heroImage: {
     src: '/articles/what-is-the-best-russian-grammar-app-to-learn-cases.webp',
-    alt:
-      'Najlepsze aplikacje do gramatyki rosyjskiej pod kątem przypadków — tabela porównawcza',
+    alt: 'Najlepsze aplikacje do gramatyki rosyjskiej pod kątem przypadków — tabela porównawcza',
     width: 1200,
     height: 630,
   },
@@ -38,8 +36,7 @@ export const howToPracticeRussianCasesPl: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      'Jak ćwiczyć rosyjskie przypadki: 5 metod, żeby w końcu zostały w pamięci',
+    headline: 'Jak ćwiczyć rosyjskie przypadki: 5 metod, żeby w końcu zostały w pamięci',
     description:
       'Techniki do zapamiętywania rosyjskich deklinacji: SRS, ćwiczenia, aktywne czytanie, pisanie, mówienie. Plan 12-tygodniowy i błędy do unikania.',
     datePublished: '2026-03-12',
@@ -48,8 +45,7 @@ export const howToPracticeRussianCasesPl: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/how-to-practice-russian-cases',
+      '@id': 'https://russiandeclensions.com/learn/articles/how-to-practice-russian-cases',
     },
   },
   sections: [
@@ -81,8 +77,7 @@ export const howToPracticeRussianCasesPl: LearnArticle = {
     },
     {
       h2: 'Metoda 2: Zdaniowe ćwiczenia pod jeden przypadek',
-      content:
-        'Ukierunkowana praktyka izolująca jeden wzorzec przypadku naraz.',
+      content: 'Ukierunkowana praktyka izolująca jeden wzorzec przypadku naraz.',
       subsections: [
         {
           h3: 'Dlaczego działa',
@@ -103,8 +98,7 @@ export const howToPracticeRussianCasesPl: LearnArticle = {
     },
     {
       h2: 'Metoda 3: Aktywne czytanie z identyfikacją przypadku',
-      content:
-        'Budowanie intuicji przez masowy kontekstowy input.',
+      content: 'Budowanie intuicji przez masowy kontekstowy input.',
       subsections: [
         {
           h3: 'Dlaczego działa',
@@ -125,8 +119,7 @@ export const howToPracticeRussianCasesPl: LearnArticle = {
     },
     {
       h2: 'Metoda 4: Pisanie z samokorektą',
-      content:
-        'Świadome stosowanie reguł wzmacnia aktywną gramatykę.',
+      content: 'Świadome stosowanie reguł wzmacnia aktywną gramatykę.',
       subsections: [
         {
           h3: 'Dlaczego działa',
@@ -168,17 +161,10 @@ export const howToPracticeRussianCasesPl: LearnArticle = {
     },
     {
       h2: 'Porównanie 5 metod',
-      content:
-        'Każda metoda celuje w inny aspekt nauki przypadków. Najlepiej łączyć kilka:',
+      content: 'Każda metoda celuje w inny aspekt nauki przypadków. Najlepiej łączyć kilka:',
       table: {
         caption: 'Porównanie metod: skuteczność, czas, poziom',
-        headers: [
-          'Metoda',
-          'Skuteczność',
-          'Czas',
-          'Najlepszy poziom',
-          'Najlepiej do czego',
-        ],
+        headers: ['Metoda', 'Skuteczność', 'Czas', 'Najlepszy poziom', 'Najlepiej do czego'],
         boldColumnIndices: [0, 4],
         rows: [
           [
@@ -202,13 +188,7 @@ export const howToPracticeRussianCasesPl: LearnArticle = {
             'Średni+',
             'Intuicja przez duży input',
           ],
-          [
-            'Pisanie',
-            '⭐⭐⭐⭐',
-            '20–30 min/dzień',
-            'Średni+',
-            'Świadome stosowanie reguł',
-          ],
+          ['Pisanie', '⭐⭐⭐⭐', '20–30 min/dzień', 'Średni+', 'Świadome stosowanie reguł'],
           [
             'Mówienie',
             '⭐⭐⭐⭐⭐',
@@ -228,12 +208,7 @@ export const howToPracticeRussianCasesPl: LearnArticle = {
         'Uporządkowany plan od pierwszej świadomości przypadków do pewnego użycia w 12 tygodni. Każda faza koncentruje się na jednym lub dwóch przypadkach z konkretnymi codziennymi ćwiczeniami:',
       table: {
         caption: 'Plan praktyki tydzień po tygodniu',
-        headers: [
-          'Tygodnie',
-          'Fokus przypadku',
-          'Główne aktywności',
-          'Ćwiczenie codzienne',
-        ],
+        headers: ['Tygodnie', 'Fokus przypadku', 'Główne aktywności', 'Ćwiczenie codzienne'],
         boldColumnIndices: [0, 3],
         rows: [
           [
@@ -334,8 +309,7 @@ export const howToPracticeRussianCasesPl: LearnArticle = {
     },
     {
       href: '/learn/articles/russian-accusative-case',
-      label:
-        'Rosyjski biernik: dopełnienie bezpośrednie i czasowniki ruchu',
+      label: 'Rosyjski biernik: dopełnienie bezpośrednie i czasowniki ruchu',
     },
     {
       href: '/learn/articles/russian-dative-case',

@@ -4,8 +4,7 @@ import type { LearnArticle } from '../learnArticles';
 export const top10AppsRussianTr: LearnArticle = {
   slug: 'top-10-apps-russian',
   title: "2026'da Rusça öğrenmek için en iyi 10 uygulama",
-  metaTitle:
-    "2026'da Rusça öğrenmek için en iyi 10 uygulama | Russian Cases with Anna",
+  metaTitle: "2026'da Rusça öğrenmek için en iyi 10 uygulama | Russian Cases with Anna",
   metaDescription:
     '2026 için Rusça öğrenmeye yönelik en iyi uygulamalar: dilbilgisi, kelime hazinesi, hâl sistemi ve konuşma. Kendi hızınızda ilerlemenize yardımcı olacak 10 seçkin uygulama.',
   keywords: [
@@ -27,8 +26,7 @@ export const top10AppsRussianTr: LearnArticle = {
   items: [
     {
       rank: 1,
-      title:
-        'Russian Cases with Anna: Dilbilgisi için uzmanların tercihi',
+      title: 'Russian Cases with Anna: Dilbilgisi için uzmanların tercihi',
       description:
         'Sağlam dilbilgisi temeli atmak isteyen ciddi öğrenciler için Russian Cases with Anna nihai araçtır. Diğer uygulamalar yüzeysel kalırken bu uygulama **Rusçanın özüne, yani hâl sistemi ve çekimlere** iner. Kısa dersler ile etkileşimli sınavları mükemmel dengeler.',
       image: {
@@ -84,10 +82,7 @@ export const top10AppsRussianTr: LearnArticle = {
         'Yüksek kaliteli ses',
         'Pratik kelime hazinesi',
       ],
-      cons: [
-        'Ücretli abonelik gerekir',
-        'İçerik bazıları için biraz tekrarlı gelebilir',
-      ],
+      cons: ['Ücretli abonelik gerekir', 'İçerik bazıları için biraz tekrarlı gelebilir'],
     },
     {
       rank: 4,
@@ -104,9 +99,7 @@ export const top10AppsRussianTr: LearnArticle = {
         'Farklı aksan ve hızlar duyarsınız; gerçek dinleme için çok önemli',
         '“Learn with Locals” özelliği oyunu değiştirir',
       ],
-      cons: [
-        'Karmaşık cümle yapıları veya derin dilbilgisi için zayıf',
-      ],
+      cons: ['Karmaşık cümle yapıları veya derin dilbilgisi için zayıf'],
     },
     {
       rank: 5,
@@ -124,9 +117,7 @@ export const top10AppsRussianTr: LearnArticle = {
         'Çevrimdışı mod',
         'Zorluk ilerlemesi çok mantıklı',
       ],
-      cons: [
-        'Ücretsiz sürüm oldukça sınırlı; ilerleme için Premium şart',
-      ],
+      cons: ['Ücretsiz sürüm oldukça sınırlı; ilerleme için Premium şart'],
     },
     {
       rank: 6,
@@ -139,10 +130,7 @@ export const top10AppsRussianTr: LearnArticle = {
         width: 256,
         height: 256,
       },
-      pros: [
-        'Otantik aksan ve konuşma için “kas hafızası” geliştirir',
-        'Ekran süresi gerekmez',
-      ],
+      pros: ['Otantik aksan ve konuşma için “kas hafızası” geliştirir', 'Ekran süresi gerekmez'],
       cons: [
         'Kiril alfabesi veya yazı öğretmez',
         'Genç öğrenciler için biraz “eski usul” gelebilir',
@@ -164,9 +152,7 @@ export const top10AppsRussianTr: LearnArticle = {
         'Çok uygun fiyat (saatlik 10 $ altı öğretmenler bulunur)',
         '“Konuşma korkusunu” aşmanın en hızlı yolu',
       ],
-      cons: [
-        'Tam bir “yolda” uygulaması değil; planlama ve stabil internet gerekir',
-      ],
+      cons: ['Tam bir “yolda” uygulaması değil; planlama ve stabil internet gerekir'],
     },
     {
       rank: 8,
@@ -183,9 +169,7 @@ export const top10AppsRussianTr: LearnArticle = {
         '“Argo”dan “iş Rusçası”na her şey',
         'İlerleme platosuna takılan orta düzey öğrenciler için mükemmel',
       ],
-      cons: [
-        'İçerik çok olduğu için arayüz bunaltıcı olabilir',
-      ],
+      cons: ['İçerik çok olduğu için arayüz bunaltıcı olabilir'],
     },
     {
       rank: 9,
@@ -202,9 +186,7 @@ export const top10AppsRussianTr: LearnArticle = {
         'B1 seviyesinden sonra kelime hazinesini hızla genişletmek için en iyi uygulama',
         'Retro 8 bit tasarım eğlenceli',
       ],
-      cons: [
-        'Yeni başlayanlar için uygun değil. Alfabeyi bilmiyorsanız şimdilik uzak durun.',
-      ],
+      cons: ['Yeni başlayanlar için uygun değil. Alfabeyi bilmiyorsanız şimdilik uzak durun.'],
     },
     {
       rank: 10,
@@ -217,13 +199,8 @@ export const top10AppsRussianTr: LearnArticle = {
         width: 256,
         height: 256,
       },
-      pros: [
-        'Çarpıcı tasarım',
-        'Kiril alfabesi ve temel isimler için stressiz öğrenme',
-      ],
-      cons: [
-        'Sıfır dilbilgisi. Tam kurs değil, tamamlayıcıdır.',
-      ],
+      pros: ['Çarpıcı tasarım', 'Kiril alfabesi ve temel isimler için stressiz öğrenme'],
+      cons: ['Sıfır dilbilgisi. Tam kurs değil, tamamlayıcıdır.'],
     },
   ],
   conclusionIntro: 'Rusçada ustalaşmak için **hibrit bir yaklaşım** öneriyoruz:',
@@ -238,8 +215,7 @@ export const top10AppsRussianTr: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      "2026'da Rusça öğrenmek için en iyi 10 uygulama: kapsamlı rehber",
+    headline: "2026'da Rusça öğrenmek için en iyi 10 uygulama: kapsamlı rehber",
     description:
       '2026 için Rusça dilbilgisi, kelime hazinesi ve konuşma için en iyi mobil uygulamalar.',
     datePublished: '2026-03-11',
@@ -248,10 +224,8 @@ export const top10AppsRussianTr: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/top-10-apps-russian',
+      '@id': 'https://russiandeclensions.com/learn/articles/top-10-apps-russian',
     },
-    keywords:
-      'Rusça öğrenme uygulaması, en iyi Rusça uygulamaları, Rusça dilbilgisi uygulaması',
+    keywords: 'Rusça öğrenme uygulaması, en iyi Rusça uygulamaları, Rusça dilbilgisi uygulaması',
   },
 };

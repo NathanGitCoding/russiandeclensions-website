@@ -1,7 +1,6 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
 import { useLandingLanguage } from '@/contexts/LandingLanguageContext';
 import { getLandingTranslations } from '@/data/website/landingTranslations';
 import { AnimateOnScroll } from '@/components/landing/AnimateOnScroll';
@@ -18,7 +17,11 @@ export default function LandingAbout() {
     >
       <div className="container mx-auto px-6 sm:px-6 md:px-16 lg:px-24">
         <div className="grid items-center gap-10 md:grid-cols-2 md:gap-16">
-          <AnimateOnScroll variant="fade-up" rootMargin="-50px" className="order-2 flex justify-center md:order-1">
+          <AnimateOnScroll
+            variant="fade-up"
+            rootMargin="-50px"
+            className="order-2 flex justify-center md:order-1"
+          >
             <div className="relative h-56 w-56 overflow-hidden rounded-full border-[3px] border-white shadow-xl sm:h-64 sm:w-64 md:h-72 md:w-72 lg:h-80 lg:w-80">
               <Image
                 src={`${ASSETS}/founder-photo.webp`}
@@ -31,7 +34,12 @@ export default function LandingAbout() {
             </div>
           </AnimateOnScroll>
 
-          <AnimateOnScroll variant="fade-in-right" rootMargin="-50px" delay={0.1} className="order-1 md:order-2">
+          <AnimateOnScroll
+            variant="fade-in-right"
+            rootMargin="-50px"
+            delay={0.1}
+            className="order-1 md:order-2"
+          >
             <p className="mb-4 text-sm font-semibold tracking-widest text-[hsl(210,100%,50%)]/60 uppercase">
               {t.about.ourStory}
             </p>
@@ -42,20 +50,6 @@ export default function LandingAbout() {
               {t.about.paragraphs.map((para, i) => (
                 <p key={i}>{para}</p>
               ))}
-              <p className="pt-2">
-                <span className="text-[hsl(220,10%,40%)]">{t.about.exploreLabel} </span>
-                <Link href="/learn" className="font-medium text-[hsl(210,100%,50%)] hover:underline">
-                  {t.about.learnLink}
-                </Link>
-                {' · '}
-                <Link href="/words" className="font-medium text-[hsl(210,100%,50%)] hover:underline">
-                  {t.about.wordsLink}
-                </Link>
-                {' · '}
-                <Link href="/practice" className="font-medium text-[hsl(210,100%,50%)] hover:underline">
-                  {t.about.practiceLink}
-                </Link>
-              </p>
             </div>
           </AnimateOnScroll>
         </div>

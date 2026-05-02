@@ -29,22 +29,20 @@ export default async function Image({ params }: { params: Promise<{ slug: string
 
   if (!article) {
     return new ImageResponse(
-      (
-        <div
-          style={{
-            width: '100%',
-            height: '100%',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            background: '#f9fafb',
-            fontSize: 32,
-            color: '#6b7280',
-          }}
-        >
-          Article not found
-        </div>
-      ),
+      <div
+        style={{
+          width: '100%',
+          height: '100%',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          background: '#f9fafb',
+          fontSize: 32,
+          color: '#6b7280',
+        }}
+      >
+        Article not found
+      </div>,
       { ...size }
     );
   }
@@ -56,123 +54,91 @@ export default async function Image({ params }: { params: Promise<{ slug: string
   const sectionCount = article.sections?.length ?? article.items?.length ?? 0;
 
   return new ImageResponse(
-    (
+    <div
+      style={{
+        width: '100%',
+        height: '100%',
+        display: 'flex',
+        flexDirection: 'column',
+        background: 'white',
+        fontFamily: 'ui-sans-serif, system-ui, sans-serif',
+      }}
+    >
+      {/* Header with gradient */}
       <div
         style={{
-          width: '100%',
-          height: '100%',
           display: 'flex',
-          flexDirection: 'column',
-          background: 'white',
-          fontFamily: 'ui-sans-serif, system-ui, sans-serif',
+          flexDirection: 'row',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          padding: '48px 56px 40px',
+          background: `linear-gradient(135deg, ${accentColor}CC 0%, ${accentColor} 100%)`,
         }}
       >
-        {/* Header with gradient */}
-        <div
-          style={{
-            display: 'flex',
-            flexDirection: 'row',
-            alignItems: 'center',
-            justifyContent: 'space-between',
-            padding: '48px 56px 40px',
-            background: `linear-gradient(135deg, ${accentColor}CC 0%, ${accentColor} 100%)`,
-          }}
-        >
-          <div style={{ display: 'flex', flexDirection: 'column', flex: 1, maxWidth: 900 }}>
-            {/* Badge */}
-            <div
-              style={{
-                display: 'flex',
-                fontSize: 18,
-                fontWeight: 600,
-                color: 'rgba(255,255,255,0.9)',
-                marginBottom: 16,
-                background: 'rgba(255,255,255,0.2)',
-                padding: '6px 16px',
-                borderRadius: 20,
-                width: 'auto',
-                alignSelf: 'flex-start',
-              }}
-            >
-              {badge}
-            </div>
-            {/* Title */}
-            <div
-              style={{
-                display: 'flex',
-                fontSize: article.h1.length > 60 ? 36 : 44,
-                fontWeight: 700,
-                color: 'white',
-                lineHeight: 1.2,
-              }}
-            >
-              {article.h1.length > 80 ? article.h1.slice(0, 77) + '...' : article.h1}
-            </div>
-          </div>
+        <div style={{ display: 'flex', flexDirection: 'column', flex: 1, maxWidth: 900 }}>
+          {/* Badge */}
           <div
             style={{
               display: 'flex',
-              flexShrink: 0,
-              width: 100,
-              height: 100,
-              borderRadius: 50,
-              overflow: 'hidden',
-              border: '3px solid rgba(255,255,255,0.4)',
-              marginLeft: 32,
+              fontSize: 18,
+              fontWeight: 600,
+              color: 'rgba(255,255,255,0.9)',
+              marginBottom: 16,
+              background: 'rgba(255,255,255,0.2)',
+              padding: '6px 16px',
+              borderRadius: 20,
+              width: 'auto',
+              alignSelf: 'flex-start',
             }}
           >
-            <img
-              src={iconUrl}
-              alt=""
-              width={100}
-              height={100}
-              style={{ display: 'block', objectFit: 'cover' }}
-            />
+            {badge}
+          </div>
+          {/* Title */}
+          <div
+            style={{
+              display: 'flex',
+              fontSize: article.h1.length > 60 ? 36 : 44,
+              fontWeight: 700,
+              color: 'white',
+              lineHeight: 1.2,
+            }}
+          >
+            {article.h1.length > 80 ? article.h1.slice(0, 77) + '...' : article.h1}
           </div>
         </div>
-
-        {/* Stats bar */}
         <div
           style={{
             display: 'flex',
-            flexDirection: 'row',
-            gap: 32,
-            padding: '24px 56px',
-            borderBottom: '1px solid #e5e7eb',
+            flexShrink: 0,
+            width: 100,
+            height: 100,
+            borderRadius: 50,
+            overflow: 'hidden',
+            border: '3px solid rgba(255,255,255,0.4)',
+            marginLeft: 32,
           }}
         >
-          {sectionCount > 0 && (
-            <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-              <div
-                style={{
-                  display: 'flex',
-                  fontSize: 28,
-                  fontWeight: 700,
-                  color: accentColor,
-                }}
-              >
-                {sectionCount}
-              </div>
-              <div style={{ display: 'flex', fontSize: 16, color: '#6b7280' }}>
-                {article.items ? 'apps reviewed' : 'sections'}
-              </div>
-            </div>
-          )}
-          {faqCount > 0 && (
-            <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-              <div
-                style={{
-                  display: 'flex',
-                  fontSize: 28,
-                  fontWeight: 700,
-                  color: accentColor,
-                }}
-              >
-                {faqCount}
-              </div>
-              <div style={{ display: 'flex', fontSize: 16, color: '#6b7280' }}>FAQ answered</div>
-            </div>
-          )}
+          <img
+            src={iconUrl}
+            alt=""
+            width={100}
+            height={100}
+            style={{ display: 'block', objectFit: 'cover' }}
+          />
+        </div>
+      </div>
+
+      {/* Stats bar */}
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'row',
+          gap: 32,
+          padding: '24px 56px',
+          borderBottom: '1px solid #e5e7eb',
+        }}
+      >
+        {sectionCount > 0 && (
           <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
             <div
               style={{
@@ -182,66 +148,96 @@ export default async function Image({ params }: { params: Promise<{ slug: string
                 color: accentColor,
               }}
             >
-              Free
+              {sectionCount}
             </div>
-            <div style={{ display: 'flex', fontSize: 16, color: '#6b7280' }}>to read</div>
+            <div style={{ display: 'flex', fontSize: 16, color: '#6b7280' }}>
+              {article.items ? 'apps reviewed' : 'sections'}
+            </div>
           </div>
-        </div>
-
-        {/* Keywords / meta description preview */}
-        <div
-          style={{
-            flex: 1,
-            display: 'flex',
-            alignItems: 'center',
-            padding: '0 56px',
-          }}
-        >
+        )}
+        {faqCount > 0 && (
+          <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+            <div
+              style={{
+                display: 'flex',
+                fontSize: 28,
+                fontWeight: 700,
+                color: accentColor,
+              }}
+            >
+              {faqCount}
+            </div>
+            <div style={{ display: 'flex', fontSize: 16, color: '#6b7280' }}>FAQ answered</div>
+          </div>
+        )}
+        <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
           <div
             style={{
               display: 'flex',
-              fontSize: 20,
-              color: '#4b5563',
-              lineHeight: 1.5,
+              fontSize: 28,
+              fontWeight: 700,
+              color: accentColor,
             }}
           >
-            {article.metaDescription.length > 160
-              ? article.metaDescription.slice(0, 157) + '...'
-              : article.metaDescription}
+            Free
           </div>
+          <div style={{ display: 'flex', fontSize: 16, color: '#6b7280' }}>to read</div>
         </div>
+      </div>
 
-        {/* Bottom bar */}
+      {/* Keywords / meta description preview */}
+      <div
+        style={{
+          flex: 1,
+          display: 'flex',
+          alignItems: 'center',
+          padding: '0 56px',
+        }}
+      >
         <div
           style={{
             display: 'flex',
-            flexDirection: 'row',
-            alignItems: 'center',
-            justifyContent: 'space-between',
-            padding: '20px 56px',
-            background: '#f9fafb',
-            borderTop: '1px solid #e5e7eb',
-            fontSize: 16,
-            color: '#9ca3af',
+            fontSize: 20,
+            color: '#4b5563',
+            lineHeight: 1.5,
           }}
         >
-          <div style={{ display: 'flex' }}>russiandeclensions.com/learn</div>
-          <div
-            style={{
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'flex-end',
-              gap: 2,
-            }}
-          >
-            <div style={{ display: 'flex', fontWeight: 600 }}>Russian Cases with Anna®</div>
-            <div style={{ display: 'flex', fontSize: 14, color: '#9ca3af' }}>
-              free grammar lessons & practice quizzes
-            </div>
+          {article.metaDescription.length > 160
+            ? article.metaDescription.slice(0, 157) + '...'
+            : article.metaDescription}
+        </div>
+      </div>
+
+      {/* Bottom bar */}
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'row',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          padding: '20px 56px',
+          background: '#f9fafb',
+          borderTop: '1px solid #e5e7eb',
+          fontSize: 16,
+          color: '#9ca3af',
+        }}
+      >
+        <div style={{ display: 'flex' }}>russiandeclensions.com/learn</div>
+        <div
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'flex-end',
+            gap: 2,
+          }}
+        >
+          <div style={{ display: 'flex', fontWeight: 600 }}>Russian Cases with Anna®</div>
+          <div style={{ display: 'flex', fontSize: 14, color: '#9ca3af' }}>
+            free grammar lessons & practice quizzes
           </div>
         </div>
       </div>
-    ),
+    </div>,
     { ...size }
   );
 }

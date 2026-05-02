@@ -18,7 +18,7 @@ Tout le contenu marketing et SEO (landing, learn, articles) provient de :
 
 ## Déploiement
 
-Vercel, domaine russiandeclensions.com. Variables : NEXT_PUBLIC_SUPABASE_*, NEXT_PUBLIC_SITE_URL.
+Vercel, domaine russiandeclensions.com. Variables : NEXT*PUBLIC_SUPABASE*\*, NEXT_PUBLIC_SITE_URL.
 
 ## Documentation complète
 

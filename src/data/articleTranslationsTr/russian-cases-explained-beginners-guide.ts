@@ -3,10 +3,8 @@ import type { LearnArticle } from '../learnArticles';
 /** `russian-cases-explained-beginners-guide` makalesinin Türkçe çevirisi (EN kaynak: `learnArticles.ts`). Kiril metinler kaynakla aynen. */
 export const russianCasesExplainedBeginnersGuideTr: LearnArticle = {
   slug: 'russian-cases-explained-beginners-guide',
-  title:
-    'Rus halleri basitçe: Yeni başlayanlar için görsel rehber',
-  metaTitle:
-    'Rus halleri basitçe: Yeni başlayanlar için görsel rehber | Russian Cases with Anna',
+  title: 'Rus halleri basitçe: Yeni başlayanlar için görsel rehber',
+  metaTitle: 'Rus halleri basitçe: Yeni başlayanlar için görsel rehber | Russian Cases with Anna',
   metaDescription:
     '6 Rus dilbilgisel hali sade Türkçe ile, net örneklerle açıklanır. Yalın, belirtme, ilgi, yönelme, araçlı ve edatlı halleri 10 dakikada anlayın.',
   keywords: [
@@ -54,34 +52,13 @@ export const russianCasesExplainedBeginnersGuideTr: LearnArticle = {
         headers: ['Hal', 'Rusça ad', 'Soru', 'Örnek'],
         rows: [
           ['Yalın', 'Именительный', 'Kim? Ne?', 'Кошка спит — Kedi uyuyor'],
-          [
-            'Belirtme',
-            'Винительный',
-            'Kimi? Ne? (nesne)',
-            'Я вижу кошку — Kediyi görüyorum',
-          ],
-          [
-            'İlgi',
-            'Родительный',
-            'Kimin? Neyin?',
-            'Нет кошки — Kedi yok',
-          ],
+          ['Belirtme', 'Винительный', 'Kimi? Ne? (nesne)', 'Я вижу кошку — Kediyi görüyorum'],
+          ['İlgi', 'Родительный', 'Kimin? Neyin?', 'Нет кошки — Kedi yok'],
           ['Yönelme', 'Дательный', 'Kime? Kimin için?', 'Дай кошке — Kediye ver'],
-          [
-            'Araçlı',
-            'Творительный',
-            'Kimle? Neyle?',
-            'С кошкой — Kediyle',
-          ],
-          [
-            'Edatlı',
-            'Предложный',
-            'Kimden bahsediliyor? Nerede?',
-            'О кошке — Kedi hakkında',
-          ],
+          ['Araçlı', 'Творительный', 'Kimle? Neyle?', 'С кошкой — Kediyle'],
+          ['Edatlı', 'Предложный', 'Kimden bahsediliyor? Nerede?', 'О кошке — Kedi hakkında'],
         ],
-        caption:
-          'кошка (kedi) ile sorular ve örnekler kullanılarak 6 Rus hali',
+        caption: 'кошка (kedi) ile sorular ve örnekler kullanılarak 6 Rus hali',
         accentColumnIndices: [3],
       },
       bullets: [
@@ -219,18 +196,15 @@ export const russianCasesExplainedBeginnersGuideTr: LearnArticle = {
     '**Bir hal bir seferde** — 6’sını birden üzerinize yüklemeyin',
     '**Düzenlilik kazanır** — günde 10 dakika, haftada bir 2 saatten iyidir',
   ],
-  conclusionOutro:
-    'Her hali ayrıntılı rehberlerimizle derinleştirin:',
+  conclusionOutro: 'Her hali ayrıntılı rehberlerimizle derinleştirin:',
   internalLinks: [
     {
       href: '/learn/lessons/russian-cases-complete-guide',
-      label:
-        'Rus hallerine tam rehber — 6 hal ayrıntılı',
+      label: 'Rus hallerine tam rehber — 6 hal ayrıntılı',
     },
     {
       href: '/learn/articles/russian-case-endings-cheatsheet',
-      label:
-        'Rus hal ekleri kopya kağıdı — tüm ekler tek tabloda',
+      label: 'Rus hal ekleri kopya kağıdı — tüm ekler tek tabloda',
     },
     {
       href: '/practice/accusative',
@@ -277,8 +251,7 @@ export const russianCasesExplainedBeginnersGuideTr: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      'Rus halleri basitçe: Yeni başlayanlar için görsel rehber',
+    headline: 'Rus halleri basitçe: Yeni başlayanlar için görsel rehber',
     description:
       '6 Rus dilbilgisel hali sade Türkçe ile net örneklerle açıklanır. Yalın, belirtme, ilgi, yönelme, araçlı ve edatlı haller kolaylaştırıldı.',
     datePublished: '2026-03-22',

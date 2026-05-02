@@ -2,8 +2,7 @@ import type { LearnArticle } from './learnArticles';
 
 export const torflTrkiLearnArticleDeDe: LearnArticle = {
   slug: 'torfl-trki-russian-language-exam-guide',
-  title:
-    'TORFL-Prüfung (ТРКИ): Vollständiger Leitfaden zum Russisch-Zertifikat',
+  title: 'TORFL-Prüfung (ТРКИ): Vollständiger Leitfaden zum Russisch-Zertifikat',
   metaTitle:
     'TORFL-Leitfaden (ТРКИ) — Stufen, Format, Vorbereitung & Anmeldung | Russian Cases with Anna',
   metaDescription:
@@ -42,12 +41,48 @@ export const torflTrkiLearnArticleDeDe: LearnArticle = {
       table: {
         headers: ['Stufe', 'Russischer Name', 'GER', 'Was es belegt', 'Wer braucht es'],
         rows: [
-          ['ТЭУ', 'Элементарный уровень', 'A1', 'Elementares Alltagsrussisch', 'Anfänger, die erste Fortschritte bestätigen'],
-          ['ТБУ', 'Базовый уровень', 'A2', 'Alltagssituationen', 'Voraussetzung für befristete Aufenthaltserlaubnis'],
-          ['ТРКИ-1', 'Первый уровень', 'B1', 'Gesprächsfähigkeit', 'Russische Staatsbürgerschaft & die meisten Unis'],
-          ['ТРКИ-2', 'Второй уровень', 'B2', 'Berufliches Arbeiteniveau', 'Master, Promotion & viele Berufe'],
-          ['ТРКИ-3', 'Третий уровень', 'C1', 'Fortgeschrittene akademische Kompetenz', 'Promotion, Dolmetscher, Lehrkräfte'],
-          ['ТРКИ-4', 'Четвёртый уровень', 'C2', 'Nahezu muttersprachliche Beherrschung', 'Beglaubigte Übersetzer & Philologen'],
+          [
+            'ТЭУ',
+            'Элементарный уровень',
+            'A1',
+            'Elementares Alltagsrussisch',
+            'Anfänger, die erste Fortschritte bestätigen',
+          ],
+          [
+            'ТБУ',
+            'Базовый уровень',
+            'A2',
+            'Alltagssituationen',
+            'Voraussetzung für befristete Aufenthaltserlaubnis',
+          ],
+          [
+            'ТРКИ-1',
+            'Первый уровень',
+            'B1',
+            'Gesprächsfähigkeit',
+            'Russische Staatsbürgerschaft & die meisten Unis',
+          ],
+          [
+            'ТРКИ-2',
+            'Второй уровень',
+            'B2',
+            'Berufliches Arbeiteniveau',
+            'Master, Promotion & viele Berufe',
+          ],
+          [
+            'ТРКИ-3',
+            'Третий уровень',
+            'C1',
+            'Fortgeschrittene akademische Kompetenz',
+            'Promotion, Dolmetscher, Lehrkräfte',
+          ],
+          [
+            'ТРКИ-4',
+            'Четвёртый уровень',
+            'C2',
+            'Nahezu muttersprachliche Beherrschung',
+            'Beglaubigte Übersetzer & Philologen',
+          ],
         ],
         caption: 'TORFL-Stufen mit GER-Äquivalenten und praktischer Bedeutung',
         boldColumnIndices: [0],
@@ -144,8 +179,7 @@ export const torflTrkiLearnArticleDeDe: LearnArticle = {
     },
     {
       h2: 'So bereiten Sie sich auf den TORFL vor',
-      content:
-        'Die Dauer hängt von der Stufe ab, die Strategie ist ähnlich:',
+      content: 'Die Dauer hängt von der Stufe ab, die Strategie ist ähnlich:',
       subsections: [
         {
           h3: 'Schritt 1: Aktuelles Niveau einschätzen',
@@ -181,8 +215,7 @@ export const torflTrkiLearnArticleDeDe: LearnArticle = {
     },
     {
       h2: 'Kosten, Anmeldung, Ablauf',
-      content:
-        'Die Gebühren variieren nach Land, Stufe und Zentrum. Grobe Spannen:',
+      content: 'Die Gebühren variieren nach Land, Stufe und Zentrum. Grobe Spannen:',
       table: {
         headers: ['Stufe', 'Ca. Gebühr (Russland)', 'Ca. Gebühr (international)', 'Dauer'],
         rows: [
@@ -206,14 +239,28 @@ export const torflTrkiLearnArticleDeDe: LearnArticle = {
     },
     {
       h2: 'TORFL und andere Russisch-Zertifikate',
-      content:
-        'TORFL ist nicht das einzige Zertifikat, aber mit Abstand das anerkannteste:',
+      content: 'TORFL ist nicht das einzige Zertifikat, aber mit Abstand das anerkannteste:',
       table: {
         headers: ['Zertifikat', 'Herausgeber', 'Anerkennung', 'Am besten für'],
         rows: [
-          ['TORFL (ТРКИ)', 'Russisches Bildungsministerium', 'Staat, Unis, Arbeitgeber weltweit', 'Staatsbürgerschaft, Studium, Beruf'],
-          ['ECL Russian', 'European Consortium for the Certificate of Attainment in Modern Languages', 'EU-Länder', 'Akademische Anerkennung in Europa'],
-          ['TELC Russian', 'telc GmbH (Deutschland)', 'Vor allem deutschsprachiger Raum', 'Einwanderung DE/AT mit Russischnachweis'],
+          [
+            'TORFL (ТРКИ)',
+            'Russisches Bildungsministerium',
+            'Staat, Unis, Arbeitgeber weltweit',
+            'Staatsbürgerschaft, Studium, Beruf',
+          ],
+          [
+            'ECL Russian',
+            'European Consortium for the Certificate of Attainment in Modern Languages',
+            'EU-Länder',
+            'Akademische Anerkennung in Europa',
+          ],
+          [
+            'TELC Russian',
+            'telc GmbH (Deutschland)',
+            'Vor allem deutschsprachiger Raum',
+            'Einwanderung DE/AT mit Russischnachweis',
+          ],
         ],
         caption: 'Vergleich Russisch-Sprachzertifikate',
         boldColumnIndices: [0],
@@ -278,15 +325,20 @@ export const torflTrkiLearnArticleDeDe: LearnArticle = {
     { href: '/practice/dative', label: 'Dativ üben' },
     { href: '/practice/instrumental', label: 'Instrumental üben' },
     { href: '/practice/prepositional', label: 'Präpositional üben' },
-    { href: '/learn/articles/how-long-learn-russian', label: 'Wie lange braucht man für Russisch?' },
-    { href: '/learn/articles/russian-cases-explained-beginners-guide', label: 'Russische Kasus erklärt: Einsteigerleitfaden' },
+    {
+      href: '/learn/articles/how-long-learn-russian',
+      label: 'Wie lange braucht man für Russisch?',
+    },
+    {
+      href: '/learn/articles/russian-cases-explained-beginners-guide',
+      label: 'Russische Kasus erklärt: Einsteigerleitfaden',
+    },
     { href: '/words', label: 'Alle 400+ Deklinations-Tabellen' },
   ],
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      'TORFL-Prüfung (ТРКИ): Vollständiger Leitfaden zum Russisch-Zertifikat',
+    headline: 'TORFL-Prüfung (ТРКИ): Vollständiger Leitfaden zum Russisch-Zertifikat',
     description:
       'Vollständiger Leitfaden TORFL (ТРКИ): 6 Stufen, 5-teiliges Format, Grammatikvorbereitung, Zentren, Kosten, Anmeldung.',
     datePublished: '2026-03-22',
@@ -295,8 +347,7 @@ export const torflTrkiLearnArticleDeDe: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/torfl-trki-russian-language-exam-guide',
+      '@id': 'https://russiandeclensions.com/learn/articles/torfl-trki-russian-language-exam-guide',
     },
     keywords:
       'TORFL Prüfung, ТРКИ, TORFL Vorbereitung, Russisch Zertifikat, TORFL Stufen, Test Russisch als Fremdsprache',

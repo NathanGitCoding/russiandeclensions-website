@@ -156,7 +156,7 @@ const translations: Record<LandingLanguage, LearnDetailTranslations> = {
     relatedGrammar: 'Grammatica correlata',
     relatedGuides: 'Guide correlate',
     exploreEachCase: 'Esplora ogni caso',
-    viewApp: 'Vedi l\'app →',
+    viewApp: "Vedi l'app →",
     practiceThisCase: 'Pratica questo caso',
     practiceNow: 'Inizia a praticare →',
     relatedLessons: 'Lezioni correlate',

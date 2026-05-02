@@ -164,7 +164,7 @@ export default async function PracticePage() {
       <section className="container mx-auto px-4 pt-8 sm:px-6 sm:pt-12">
         <div className="mx-auto max-w-2xl text-center">
           <nav aria-label={t.breadcrumbAria} className="mb-4 text-sm text-gray-400">
-            <Link href="/" className="hover:text-blue-600 transition-colors">
+            <Link href="/" className="transition-colors hover:text-blue-600">
               {t.breadcrumb.home}
             </Link>
             <span className="mx-1.5">/</span>
@@ -188,10 +188,7 @@ export default async function PracticePage() {
             <h3 className="mb-4 text-base font-semibold text-gray-700">{t.seo.howItWorksTitle}</h3>
             <div className="grid gap-3 sm:grid-cols-3">
               {t.seo.howItWorksSteps.map((step, index) => (
-                <div
-                  key={step.title}
-                  className="rounded-xl border border-gray-200 p-4 text-center"
-                >
+                <div key={step.title} className="rounded-xl border border-gray-200 p-4 text-center">
                   <span className="mb-2 inline-flex h-8 w-8 items-center justify-center rounded-full bg-blue-100 text-sm font-bold text-blue-700">
                     {String(index + 1)}
                   </span>
@@ -203,7 +200,9 @@ export default async function PracticePage() {
           </div>
 
           <div className="mt-6">
-            <h3 className="mb-3 text-base font-semibold text-gray-700">{t.seo.practiceByCaseTitle}</h3>
+            <h3 className="mb-3 text-base font-semibold text-gray-700">
+              {t.seo.practiceByCaseTitle}
+            </h3>
             <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
               {CASE_SLUGS.map((slug) => (
                 <Link

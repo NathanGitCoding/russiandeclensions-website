@@ -3,10 +3,8 @@ import type { LearnArticle } from '../learnArticles';
 /** Traduction française de l'article `russian-prepositions-cases-cheat-sheet` (source EN : `learnArticles.ts`). Cyrillique des exemples identique à l’EN. */
 export const russianPrepositionsCasesCheatSheetFr: LearnArticle = {
   slug: 'russian-prepositions-cases-cheat-sheet',
-  title:
-    'Anti-sèche prépositions et cas russe : quel cas après chaque préposition',
-  metaTitle:
-    'Anti-sèche prépositions russe et cas — Quel cas utiliser | Russian Cases with Anna',
+  title: 'Anti-sèche prépositions et cas russe : quel cas après chaque préposition',
+  metaTitle: 'Anti-sèche prépositions russe et cas — Quel cas utiliser | Russian Cases with Anna',
   metaDescription:
     'Anti-sèche gratuit : quel cas russe suit chaque préposition. в + accusatif vs prépositionnel, на, с, о, за, под, над, etc. Tableau clair avec exemples. Mettez cette page en favori.',
   keywords: [
@@ -21,7 +19,7 @@ export const russianPrepositionsCasesCheatSheetFr: LearnArticle = {
   ],
   h1: 'Anti-sèche prépositions et cas russe : quel cas après chaque préposition',
   intro:
-    "L’un des passages les plus déroutants de la grammaire russe est de savoir **quel cas employer après chaque préposition**. La même préposition peut exiger des cas différents selon le sens — « в школу » (accusatif, direction) vs « в школе » (prépositionnel, lieu) — et se tromper change entièrement la phrase.\n\nCet anti-sèche regroupe **toutes les principales prépositions russes** avec le(s) cas requis, des exemples clairs et des astuces de mémorisation. Mettez cette page en favori — vous y reviendrez souvent.",
+    'L’un des passages les plus déroutants de la grammaire russe est de savoir **quel cas employer après chaque préposition**. La même préposition peut exiger des cas différents selon le sens — « в школу » (accusatif, direction) vs « в школе » (prépositionnel, lieu) — et se tromper change entièrement la phrase.\n\nCet anti-sèche regroupe **toutes les principales prépositions russes** avec le(s) cas requis, des exemples clairs et des astuces de mémorisation. Mettez cette page en favori — vous y reviendrez souvent.',
   whatYouLearn: [
     'Quel cas exige chaque grande préposition russe',
     'Les prépositions dont le cas dépend du sens (в, на, за, под, с)',
@@ -66,16 +64,8 @@ export const russianPrepositionsCasesCheatSheetFr: LearnArticle = {
             'с, между, над, перед, за ★, под ★',
             'Avec, entre, au-dessus de, devant, derrière (lieu fixe), sous (lieu fixe)',
           ],
-          [
-            'Prépositionnel',
-            'о (об, обо), при',
-            'À propos de, en présence de / pendant',
-          ],
-          [
-            'Prépositionnel ★',
-            'в (lieu), на (lieu)',
-            'Dans (fixe), sur / à (fixe)',
-          ],
+          ['Prépositionnel', 'о (об, обо), при', 'À propos de, en présence de / pendant'],
+          ['Prépositionnel ★', 'в (lieu), на (lieu)', 'Dans (fixe), sur / à (fixe)'],
         ],
         caption: 'Tableau de référence complet prépositions russes — cas',
         boldColumnIndices: [0],
@@ -177,41 +167,11 @@ export const russianPrepositionsCasesCheatSheetFr: LearnArticle = {
             'Кофе **с молоком**. Пришёл **с работы**.',
             'Café avec du lait. Il est venu du travail.',
           ],
-          [
-            '4',
-            'к',
-            'Dat.',
-            'Иду **к врачу**.',
-            'Je vais chez le médecin.',
-          ],
-          [
-            '5',
-            'из',
-            'Gén.',
-            'Вышел **из дома**.',
-            'Il est sorti de la maison.',
-          ],
-          [
-            '6',
-            'о (об)',
-            'Prép.',
-            'Думаю **о тебе**.',
-            'Je pense à toi.',
-          ],
-          [
-            '7',
-            'для',
-            'Gén.',
-            'Подарок **для мамы**.',
-            'Un cadeau pour maman.',
-          ],
-          [
-            '8',
-            'от',
-            'Gén.',
-            'Письмо **от друга**.',
-            'Une lettre d’un ami.',
-          ],
+          ['4', 'к', 'Dat.', 'Иду **к врачу**.', 'Je vais chez le médecin.'],
+          ['5', 'из', 'Gén.', 'Вышел **из дома**.', 'Il est sorti de la maison.'],
+          ['6', 'о (об)', 'Prép.', 'Думаю **о тебе**.', 'Je pense à toi.'],
+          ['7', 'для', 'Gén.', 'Подарок **для мамы**.', 'Un cadeau pour maman.'],
+          ['8', 'от', 'Gén.', 'Письмо **от друга**.', 'Une lettre d’un ami.'],
           [
             '9',
             'за',
@@ -219,13 +179,7 @@ export const russianPrepositionsCasesCheatSheetFr: LearnArticle = {
             'Спасибо **за помощь**. Сижу **за столом**.',
             'Merci pour l’aide. Je suis assis à la table.',
           ],
-          [
-            '10',
-            'по',
-            'Dat.',
-            'Гуляю **по парку**.',
-            'Je me promène dans le parc.',
-          ],
+          ['10', 'по', 'Dat.', 'Гуляю **по парку**.', 'Je me promène dans le parc.'],
         ],
         caption: 'Les 10 prépositions russes les plus courantes : cas et exemples',
         boldColumnIndices: [1],
@@ -259,8 +213,7 @@ export const russianPrepositionsCasesCheatSheetFr: LearnArticle = {
     },
     {
       h2: 'Prépositions au datif',
-      content:
-        'Le datif a moins de prépositions mais elles sont très fréquentes :',
+      content: 'Le datif a moins de prépositions mais elles sont très fréquentes :',
       table: {
         headers: ['Préposition', 'Sens', 'Exemple', 'Traduction'],
         rows: [
@@ -314,8 +267,7 @@ export const russianPrepositionsCasesCheatSheetFr: LearnArticle = {
     },
     {
       h2: 'Astuces de mémoire : comment retenir le cas',
-      content:
-        'Voici des moyens mnémotechniques qui aident à retenir préposition + cas :',
+      content: 'Voici des moyens mnémotechniques qui aident à retenir préposition + cas :',
       bullets: [
         '**Direction = accusatif, lieu = prépositionnel / instrumental.** Si vous allez quelque part (в/на + mouvement), accusatif. Si vous y êtes déjà, prépositionnel (в/на) ou instrumental (за/под).',
         '**« Avec » = instrumental.** L’instrumental signifie littéralement « au moyen de » — donc « avec » (accompagnement ou outil) prend toujours l’instrumental : с другом, с ножом.',
@@ -477,8 +429,7 @@ export const russianPrepositionsCasesCheatSheetFr: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      'Anti-sèche prépositions et cas russe : quel cas après chaque préposition',
+    headline: 'Anti-sèche prépositions et cas russe : quel cas après chaque préposition',
     description:
       'Anti-sèche complet : quel cas russe suit chaque préposition. Tableaux, exemples, astuces et erreurs fréquentes.',
     datePublished: '2026-03-22',
@@ -487,8 +438,7 @@ export const russianPrepositionsCasesCheatSheetFr: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/russian-prepositions-cases-cheat-sheet',
+      '@id': 'https://russiandeclensions.com/learn/articles/russian-prepositions-cases-cheat-sheet',
     },
     keywords:
       'prépositions russe et cas, quel cas après в, anti-sèche prépositions russe, cas russe après prépositions',

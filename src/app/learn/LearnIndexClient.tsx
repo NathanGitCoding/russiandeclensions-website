@@ -156,7 +156,8 @@ export default function LearnIndexClient() {
       <section className="learn-section">
         <h2 className="learn-section-title">Popular Declensions</h2>
         <p className="learn-lead" style={{ marginBottom: '1rem' }}>
-          Practice with the most common Russian words. Each page shows the full declension table across all 6 cases.
+          Practice with the most common Russian words. Each page shows the full declension table
+          across all 6 cases.
         </p>
         <div className="learn-cards" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
           {POPULAR_DECLENSIONS.map(({ slug, label }) => (

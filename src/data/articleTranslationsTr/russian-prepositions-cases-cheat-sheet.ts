@@ -3,8 +3,7 @@ import type { LearnArticle } from '../learnArticles';
 /** Türkçe çeviri: `russian-prepositions-cases-cheat-sheet` (EN kaynak: `learnArticles.ts`). Örneklerdeki Kiril EN ile aynı. */
 export const russianPrepositionsCasesCheatSheetTr: LearnArticle = {
   slug: 'russian-prepositions-cases-cheat-sheet',
-  title:
-    'Rus edatları ve haller kopya kağıdı: her edattan sonra hangi hal',
+  title: 'Rus edatları ve haller kopya kağıdı: her edattan sonra hangi hal',
   metaTitle:
     'Rus edatları ve haller kopya kağıdı — Hangi hal kullanılır? | Russian Cases with Anna',
   metaDescription:
@@ -66,16 +65,8 @@ export const russianPrepositionsCasesCheatSheetTr: LearnArticle = {
             'с, между, над, перед, за ★, под ★',
             'Birlikte, arasında, üzerinde, önünde, arkasında (yer), altında (yer)',
           ],
-          [
-            'Bulunma',
-            'о (об, обо), при',
-            'Hakkında, sırasında / huzurunda',
-          ],
-          [
-            'Bulunma ★',
-            'в (yer), на (yer)',
-            'İçinde (sabit), üzerinde / -de (sabit)',
-          ],
+          ['Bulunma', 'о (об, обо), при', 'Hakkında, sırasında / huzurunda'],
+          ['Bulunma ★', 'в (yer), на (yer)', 'İçinde (sabit), üzerinde / -de (sabit)'],
         ],
         caption: 'Rus edat–hal tam referans tablosu',
         boldColumnIndices: [0],
@@ -177,41 +168,11 @@ export const russianPrepositionsCasesCheatSheetTr: LearnArticle = {
             'Кофе **с молоком**. Пришёл **с работы**.',
             'Sütlü kahve. İşten geldi.',
           ],
-          [
-            '4',
-            'к',
-            'Dat.',
-            'Иду **к врачу**.',
-            'Doktora gidiyorum.',
-          ],
-          [
-            '5',
-            'из',
-            'Gen.',
-            'Вышел **из дома**.',
-            'Evden çıktı.',
-          ],
-          [
-            '6',
-            'о (об)',
-            'Bul.',
-            'Думаю **о тебе**.',
-            'Seni düşünüyorum.',
-          ],
-          [
-            '7',
-            'для',
-            'Gen.',
-            'Подарок **для мамы**.',
-            'Anne için hediye.',
-          ],
-          [
-            '8',
-            'от',
-            'Gen.',
-            'Письмо **от друга**.',
-            'Arkadaştan mektup.',
-          ],
+          ['4', 'к', 'Dat.', 'Иду **к врачу**.', 'Doktora gidiyorum.'],
+          ['5', 'из', 'Gen.', 'Вышел **из дома**.', 'Evden çıktı.'],
+          ['6', 'о (об)', 'Bul.', 'Думаю **о тебе**.', 'Seni düşünüyorum.'],
+          ['7', 'для', 'Gen.', 'Подарок **для мамы**.', 'Anne için hediye.'],
+          ['8', 'от', 'Gen.', 'Письмо **от друга**.', 'Arkadaştan mektup.'],
           [
             '9',
             'за',
@@ -219,13 +180,7 @@ export const russianPrepositionsCasesCheatSheetTr: LearnArticle = {
             'Спасибо **за помощь**. Сижу **за столом**.',
             'Yardım için teşekkürler. Masada oturuyorum.',
           ],
-          [
-            '10',
-            'по',
-            'Dat.',
-            'Гуляю **по парку**.',
-            'Parkta geziyorum.',
-          ],
+          ['10', 'по', 'Dat.', 'Гуляю **по парку**.', 'Parkta geziyorum.'],
         ],
         caption: 'En yaygın 10 Rus edatı: haller ve örnekler',
         boldColumnIndices: [1],
@@ -259,8 +214,7 @@ export const russianPrepositionsCasesCheatSheetTr: LearnArticle = {
     },
     {
       h2: 'Datif edatları',
-      content:
-        'Datifte daha az edat var ama çok sık kullanılırlar:',
+      content: 'Datifte daha az edat var ama çok sık kullanılırlar:',
       table: {
         headers: ['Edat', 'Anlam', 'Örnek', 'Çeviri'],
         rows: [
@@ -314,8 +268,7 @@ export const russianPrepositionsCasesCheatSheetTr: LearnArticle = {
     },
     {
       h2: 'Hafıza ipuçları: hangi hal',
-      content:
-        'Edat–hal eşleşmelerini hatırlamaya yardımcı kanıtlanmış kısayollar:',
+      content: 'Edat–hal eşleşmelerini hatırlamaya yardımcı kanıtlanmış kısayollar:',
       bullets: [
         '**Yön = belirtme, yer = bulunma / enstrümantal.** Bir yere gidiyorsanız (в/на + hareket) belirtme. Zaten oradaysanız bulunma (в/на) veya enstrümantal (за/под).',
         '**« İle » = enstrümantal.** Enstrümantal kelimenin anlamı « vasıtasıyla » — eşlik veya araç « ile » her zaman enstrümantal: с другом, с ножом.',
@@ -327,8 +280,7 @@ export const russianPrepositionsCasesCheatSheetTr: LearnArticle = {
     },
     {
       h2: 'Kaçınılması gereken yaygın hatalar',
-      content:
-        'Öğrencilerde en sık gördüğümüz edat–hal hataları:',
+      content: 'Öğrencilerde en sık gördüğümüz edat–hal hataları:',
       mistakeCards: [
         {
           title: 'yer için в + yanlış hal',
@@ -373,8 +325,7 @@ export const russianPrepositionsCasesCheatSheetTr: LearnArticle = {
     },
     {
       h2: 'Hızlı referans: edat → hal bir bakışta',
-      content:
-        'Yazdırın veya telefona kaydedin — herhangi bir edata en hızlı bakış:',
+      content: 'Yazdırın veya telefona kaydedin — herhangi bir edata en hızlı bakış:',
       table: {
         headers: ['Edat', 'Hal', 'Kısa anlam'],
         rows: [
@@ -477,8 +428,7 @@ export const russianPrepositionsCasesCheatSheetTr: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      'Rus edatları ve haller kopya kağıdı: her edattan sonra hangi hal',
+    headline: 'Rus edatları ve haller kopya kağıdı: her edattan sonra hangi hal',
     description:
       'Tam kopya kağıdı: her Rus edatından sonra hangi hal. Tablolar, örnekler, ipuçları ve yaygın hatalar.',
     datePublished: '2026-03-22',
@@ -487,8 +437,7 @@ export const russianPrepositionsCasesCheatSheetTr: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/russian-prepositions-cases-cheat-sheet',
+      '@id': 'https://russiandeclensions.com/learn/articles/russian-prepositions-cases-cheat-sheet',
     },
     keywords:
       'Rus edatları ve haller, в sonrası hangi hal, Rus edatı kopya kağıdı, edatlardan sonra Rus halleri',

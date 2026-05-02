@@ -3,8 +3,7 @@ import type { LearnArticle } from '../learnArticles';
 /** Traduction FR de `how-long-learn-russian` (source EN : `learnArticles.ts`). Cyrillique copié à l’identique. */
 export const howLongLearnRussianFr: LearnArticle = {
   slug: 'how-long-learn-russian',
-  title:
-    'Combien de temps faut-il pour apprendre le russe ? (chronologie réaliste)',
+  title: 'Combien de temps faut-il pour apprendre le russe ? (chronologie réaliste)',
   metaTitle:
     'Combien de temps pour apprendre le russe ? Chronologie réaliste par niveau | Russian Cases with Anna',
   metaDescription:
@@ -32,20 +31,14 @@ export const howLongLearnRussianFr: LearnArticle = {
       content:
         'Le **Foreign Service Institute** classe les langues en 4 catégories de difficulté pour anglophones. Le russe est en **catégorie IV** (« super-difficile »), avec le grec, le polonais et le turc. Estimation : **1 100 heures de cours intensif** pour une « compétence professionnelle opérationnelle » (à peu près CECR B2/C1).\n\nCe que les données FSI ne disent pas : ces 1 100 h supposent une **immersion à temps quasi plein** (environ 25 h/semaine en classe + devoirs), des enseignants expérimentés et un programme diplomatique structuré. Beaucoup d’autodidactes étudient 30–60 minutes par jour. Les calculs changent du tout au tout.',
       table: {
-        headers: [
-          'Rythme',
-          'Heures/jour',
-          'Temps pour ~1 100 h',
-          'Niveau réaliste',
-        ],
+        headers: ['Rythme', 'Heures/jour', 'Temps pour ~1 100 h', 'Niveau réaliste'],
         rows: [
           ['FSI intensif', '5–6 h', '~44 sem. (10 mois)', 'B2/C1'],
           ['Autonomie sérieuse', '2 h', '~18 mois', 'B1/B2'],
           ['Apprenant occasionnel', '30 min', '~6 ans', 'A2/B1'],
           ['Week-end seulement', '3 h/sem.', '~7 ans', 'A2'],
         ],
-        caption:
-          'Délais estimés à partir du repère FSI de 1 100 heures',
+        caption: 'Délais estimés à partir du repère FSI de 1 100 heures',
       },
     },
     {
@@ -159,8 +152,7 @@ export const howLongLearnRussianFr: LearnArticle = {
     },
     {
       h2: 'Plan concret : 30 minutes/jour vers B1',
-      content:
-        'Routine quotidienne réaliste pour viser B1 en environ **12 mois** :',
+      content: 'Routine quotidienne réaliste pour viser B1 en environ **12 mois** :',
       table: {
         headers: ['Temps', 'Activité', 'Outil', 'But'],
         rows: [
@@ -202,8 +194,7 @@ export const howLongLearnRussianFr: LearnArticle = {
   ctaHref: '/practice',
   faq: [
     {
-      question:
-        'Combien de temps pour apprendre le russe pour un anglophone ?',
+      question: 'Combien de temps pour apprendre le russe pour un anglophone ?',
       answer:
         'Le FSI estime ~1 100 h d’étude intensive pour une compétence professionnelle (B2/C1). Avec 30 min/jour en autonomie, beaucoup atteignent B1 en 12–14 mois et B2 en 18–24 mois.',
     },
@@ -255,8 +246,7 @@ export const howLongLearnRussianFr: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      'Combien de temps faut-il pour apprendre le russe ? Une chronologie réaliste',
+    headline: 'Combien de temps faut-il pour apprendre le russe ? Une chronologie réaliste',
     description:
       'Chronologie réaliste A1–C2, estimations FSI, jalons CECR, facteurs de vitesse, plan quotidien.',
     datePublished: '2026-03-22',
@@ -265,10 +255,8 @@ export const howLongLearnRussianFr: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/how-long-learn-russian',
+      '@id': 'https://russiandeclensions.com/learn/articles/how-long-learn-russian',
     },
-    keywords:
-      'combien de temps apprendre le russe, chronologie russe, heures russe, FSI russe',
+    keywords: 'combien de temps apprendre le russe, chronologie russe, heures russe, FSI russe',
   },
 };

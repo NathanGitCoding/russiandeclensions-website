@@ -3,8 +3,7 @@ import type { LearnArticle } from '../learnArticles';
 /** Türkçe çeviri: `how-to-practice-russian-cases` (EN kaynak: `learnArticles.ts`). Kiril harfleri aynen korunmuştur. */
 export const howToPracticeRussianCasesTr: LearnArticle = {
   slug: 'how-to-practice-russian-cases',
-  title:
-    'Rusça halleri nasıl çalışılır: 5 kanıtlanmış yöntem',
+  title: 'Rusça halleri nasıl çalışılır: 5 kanıtlanmış yöntem',
   metaTitle:
     'Rusça halleri nasıl çalışılır: Sonunda oturması için 5 yöntem | Russian Cases with Anna',
   metaDescription:
@@ -20,8 +19,7 @@ export const howToPracticeRussianCasesTr: LearnArticle = {
   h1: 'Rusça halleri nasıl çalışılır: Sonunda oturması için 5 yöntem',
   heroImage: {
     src: '/articles/what-is-the-best-russian-grammar-app-to-learn-cases.webp',
-    alt:
-      'Halleri çalışmak için en iyi Rusça dilbilgisi uygulamaları — karşılaştırma tablosu',
+    alt: 'Halleri çalışmak için en iyi Rusça dilbilgisi uygulamaları — karşılaştırma tablosu',
     width: 1200,
     height: 630,
   },
@@ -38,8 +36,7 @@ export const howToPracticeRussianCasesTr: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      'Rusça halleri nasıl çalışılır: Sonunda oturması için 5 yöntem',
+    headline: 'Rusça halleri nasıl çalışılır: Sonunda oturması için 5 yöntem',
     description:
       'Rus çekimlerini ezberlemek için kanıta dayalı teknikler: SRS, alıştırmalar, aktif okuma, yazma, konuşma. 12 haftalık plan ve kaçınılması gereken hatalar.',
     datePublished: '2026-03-12',
@@ -48,8 +45,7 @@ export const howToPracticeRussianCasesTr: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/how-to-practice-russian-cases',
+      '@id': 'https://russiandeclensions.com/learn/articles/how-to-practice-russian-cases',
     },
   },
   sections: [
@@ -81,8 +77,7 @@ export const howToPracticeRussianCasesTr: LearnArticle = {
     },
     {
       h2: 'Yöntem 2: Hale özel cümle alıştırmaları',
-      content:
-        'Bir seferde bir hal örüntüsünü izole eden hedefli pratik.',
+      content: 'Bir seferde bir hal örüntüsünü izole eden hedefli pratik.',
       subsections: [
         {
           h3: 'Neden işe yarar',
@@ -103,8 +98,7 @@ export const howToPracticeRussianCasesTr: LearnArticle = {
     },
     {
       h2: 'Yöntem 3: Hal tespitiyle aktif okuma',
-      content:
-        'Yoğun bağlamsal girdiyle sezgi geliştirmek.',
+      content: 'Yoğun bağlamsal girdiyle sezgi geliştirmek.',
       subsections: [
         {
           h3: 'Neden işe yarar',
@@ -125,8 +119,7 @@ export const howToPracticeRussianCasesTr: LearnArticle = {
     },
     {
       h2: 'Yöntem 4: Öz-düzeltmeli yazma pratiği',
-      content:
-        'Bilinçli kural uygulaması aktif dilbilgisini güçlendirir.',
+      content: 'Bilinçli kural uygulaması aktif dilbilgisini güçlendirir.',
       subsections: [
         {
           h3: 'Neden işe yarar',
@@ -172,13 +165,7 @@ export const howToPracticeRussianCasesTr: LearnArticle = {
         'Her yöntem hal öğreniminin farklı bir yönünü hedefler. En iyi öğrenciler birden fazlasını birleştirir:',
       table: {
         caption: 'Yöntem karşılaştırması: etkinlik, süre, seviye',
-        headers: [
-          'Yöntem',
-          'Etkinlik',
-          'Zaman',
-          'En uygun seviye',
-          'En çok ne için',
-        ],
+        headers: ['Yöntem', 'Etkinlik', 'Zaman', 'En uygun seviye', 'En çok ne için'],
         boldColumnIndices: [0, 4],
         rows: [
           [
@@ -195,13 +182,7 @@ export const howToPracticeRussianCasesTr: LearnArticle = {
             'Başlangıç–orta',
             'Belirli hal örüntülerini sistematik çalışır',
           ],
-          [
-            'Aktif okuma',
-            '⭐⭐⭐⭐⭐',
-            '30+ dk/gün',
-            'Orta+',
-            'Yoğun girdiyle sezgi oluşturur',
-          ],
+          ['Aktif okuma', '⭐⭐⭐⭐⭐', '30+ dk/gün', 'Orta+', 'Yoğun girdiyle sezgi oluşturur'],
           [
             'Yazma pratiği',
             '⭐⭐⭐⭐',
@@ -228,12 +209,7 @@ export const howToPracticeRussianCasesTr: LearnArticle = {
         'Temel hal farkındalığından güvenli kullanıma 12 haftada götüren yapılandırılmış plan. Her aşama bir veya iki hale günlük belirli egzersizlerle odaklanır:',
       table: {
         caption: 'Hafta hafta pratik planı',
-        headers: [
-          'Haftalar',
-          'Hal odağı',
-          'Temel etkinlikler',
-          'Günlük egzersiz',
-        ],
+        headers: ['Haftalar', 'Hal odağı', 'Temel etkinlikler', 'Günlük egzersiz'],
         boldColumnIndices: [0, 3],
         rows: [
           [
@@ -334,8 +310,7 @@ export const howToPracticeRussianCasesTr: LearnArticle = {
     },
     {
       href: '/learn/articles/russian-accusative-case',
-      label:
-        'Rusça belirtme hali: doğrudan nesneler ve hareket fiilleri',
+      label: 'Rusça belirtme hali: doğrudan nesneler ve hareket fiilleri',
     },
     {
       href: '/learn/articles/russian-dative-case',

@@ -12,13 +12,13 @@ import { getWordTranslationForLandingLang } from './wordTranslationLanding';
 
 export interface DeclensionQuizQuestion {
   base_form: string;
-  slug?: string;            // word slug for internal linking
+  slug?: string; // word slug for internal linking
   gender: string;
-  caseKey: string;         // e.g. "accusative"
-  numberKey: 'sg' | 'pl';  // singular or plural
-  caseLabel: string;       // localized case name (e.g. "Accusative")
-  numberLabel: string;     // localized "Singular" or "Plural"
-  correctAnswer: string;   // the correct declined form
+  caseKey: string; // e.g. "accusative"
+  numberKey: 'sg' | 'pl'; // singular or plural
+  caseLabel: string; // localized case name (e.g. "Accusative")
+  numberLabel: string; // localized "Singular" or "Plural"
+  correctAnswer: string; // the correct declined form
   allAnswers: { form: string; isCorrect: boolean }[];
   /** Base-form gloss in UI language (shown under the Russian lemma). */
   translationHint?: string;
@@ -27,7 +27,7 @@ export interface DeclensionQuizQuestion {
 export interface DeclensionQuizResult {
   questionIndex: number;
   base_form: string;
-  slug?: string;            // word slug for internal linking
+  slug?: string; // word slug for internal linking
   caseLabel: string;
   numberLabel: string;
   userAnswer: string;
@@ -38,13 +38,20 @@ export interface DeclensionQuizResult {
 // === UTILITIES ===
 
 const ALL_COLUMNS = [
-  'nominative_sg', 'nominative_pl',
-  'accusative_sg', 'accusative_pl',
-  'genitive_sg', 'genitive_pl',
-  'dative_sg', 'dative_pl',
-  'instrumental_sg', 'instrumental_pl',
-  'prepositional_sg', 'prepositional_pl',
-  'locative_sg', 'locative_pl',
+  'nominative_sg',
+  'nominative_pl',
+  'accusative_sg',
+  'accusative_pl',
+  'genitive_sg',
+  'genitive_pl',
+  'dative_sg',
+  'dative_pl',
+  'instrumental_sg',
+  'instrumental_pl',
+  'prepositional_sg',
+  'prepositional_pl',
+  'locative_sg',
+  'locative_pl',
 ] as const;
 
 type DeclensionColumn = (typeof ALL_COLUMNS)[number];
@@ -79,11 +86,9 @@ export function generateDeclensionQuiz(
   cases: CaseConfigItem[],
   singularLabel: string,
   pluralLabel: string,
-  userLang?: LandingLanguage,
+  userLang?: LandingLanguage
 ): DeclensionQuizQuestion[] {
-  const translationHint = userLang
-    ? getWordTranslationForLandingLang(word, userLang)
-    : undefined;
+  const translationHint = userLang ? getWordTranslationForLandingLang(word, userLang) : undefined;
   // Build a case label map from translations
   const caseLabelMap: Record<string, string> = {};
   for (const c of cases) {
@@ -114,9 +119,7 @@ export function generateDeclensionQuiz(
 
     // Generate wrong answers from other columns of the same word
     const wrongAnswers: string[] = [];
-    const candidateColumns = shuffleArray(
-      ALL_COLUMNS.filter((col) => col !== correctColumn)
-    );
+    const candidateColumns = shuffleArray(ALL_COLUMNS.filter((col) => col !== correctColumn));
 
     for (const col of candidateColumns) {
       const value = getColumnValue(word, col);

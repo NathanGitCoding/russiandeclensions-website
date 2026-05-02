@@ -3,10 +3,8 @@ import type { LearnArticle } from '../learnArticles';
 /** Türkçe çeviri — `russian-genitive-case`. Kiril, Almanca kaynakla aynı. */
 export const russianGenitiveCaseTr: LearnArticle = {
   slug: 'russian-genitive-case',
-  title:
-    'Rus genitifi: kurallar, ekler ve 32 gerçek örnek',
-  metaTitle:
-    'Rus genitifi: kurallar, ekler ve örnekler | Russian Cases with Anna',
+  title: 'Rus genitifi: kurallar, ekler ve 32 gerçek örnek',
+  metaTitle: 'Rus genitifi: kurallar, ekler ve örnekler | Russian Cases with Anna',
   metaDescription:
     'Rus genitifi için en kapsamlı rehber: 7 kullanım, tekil ve çoğul ekler, düzensiz biçimler, 16 edat, sayılar, У + genitif. Transliterasyonlu 32 gerçek örnek cümle.',
   keywords: [
@@ -46,8 +44,7 @@ export const russianGenitiveCaseTr: LearnArticle = {
   internalLinks: [
     {
       href: '/learn/lessons/russian-cases-complete-guide',
-      label:
-        'Rus hallerine tam rehber: Örneklerle açıklanan 6 hal',
+      label: 'Rus hallerine tam rehber: Örneklerle açıklanan 6 hal',
     },
     {
       href: '/learn/articles/russian-case-endings-cheatsheet',
@@ -55,8 +52,7 @@ export const russianGenitiveCaseTr: LearnArticle = {
     },
     {
       href: '/learn/lessons/dative-case-declension',
-      label:
-        'Rus datifi: Rusçada «-e / için» nasıl söylenir',
+      label: 'Rus datifi: Rusçada «-e / için» nasıl söylenir',
     },
   ],
   tableAccentVariant: 'genitive',
@@ -139,42 +135,12 @@ export const russianGenitiveCaseTr: LearnArticle = {
       table: {
         caption: 'İsim türüne göre genitif tekil',
         boldColumnIndices: [1, 3],
-        headers: [
-          'İsim türü',
-          'Ek',
-          'Oluşum',
-          'Sonuç',
-          'Bağlamda örnek',
-        ],
+        headers: ['İsim türü', 'Ek', 'Oluşum', 'Sonuç', 'Bağlamda örnek'],
         rows: [
-          [
-            'E. sert',
-            '-а',
-            'стол → стол+а',
-            'стола',
-            'нет стола — masa yok',
-          ],
-          [
-            'E. yumuşak',
-            '-я',
-            'гений → гени+я',
-            'гения',
-            'без гения — dâhi olmadan',
-          ],
-          [
-            'E. -ж/ш/щ/ч',
-            '-а',
-            'нож → нож+а',
-            'ножа',
-            'без ножа — bıçaksız',
-          ],
-          [
-            'D. -а (sert)',
-            '-ы',
-            'книга → книг+ы',
-            'книги',
-            'нет книги — kitap yok',
-          ],
+          ['E. sert', '-а', 'стол → стол+а', 'стола', 'нет стола — masa yok'],
+          ['E. yumuşak', '-я', 'гений → гени+я', 'гения', 'без гения — dâhi olmadan'],
+          ['E. -ж/ш/щ/ч', '-а', 'нож → нож+а', 'ножа', 'без ножа — bıçaksız'],
+          ['D. -а (sert)', '-ы', 'книга → книг+ы', 'книги', 'нет книги — kitap yok'],
           [
             'D. -а (г/к/х/ж/ш/щ/ч/ц sonrası)',
             '-и',
@@ -182,29 +148,11 @@ export const russianGenitiveCaseTr: LearnArticle = {
             'подруги',
             'без подруги — arkadaşsız (kız)',
           ],
-          [
-            'D. -я',
-            '-и',
-            'неделя → недел+и',
-            'недели',
-            'нет недели — hafta yok',
-          ],
-          [
-            'D. -ь',
-            '-и',
-            'ночь → ноч+и',
-            'ночи',
-            'до ночи — geceye kadar',
-          ],
+          ['D. -я', '-и', 'неделя → недел+и', 'недели', 'нет недели — hafta yok'],
+          ['D. -ь', '-и', 'ночь → ноч+и', 'ночи', 'до ночи — geceye kadar'],
           ['N. -о', '-а', 'окно → окн+а', 'окна', 'нет окна — pencere yok'],
           ['N. -е', '-я', 'море → мор+я', 'моря', 'до моря — denize kadar'],
-          [
-            'N. -мя',
-            '-ени',
-            'имя → имен+и',
-            'имени',
-            'без имени — adsız',
-          ],
+          ['N. -мя', '-ени', 'имя → имен+и', 'имени', 'без имени — adsız'],
         ],
       },
     },
@@ -215,21 +163,9 @@ export const russianGenitiveCaseTr: LearnArticle = {
       table: {
         caption: 'İsim türüne göre genitif çoğul',
         boldColumnIndices: [1, 3],
-        headers: [
-          'İsim türü',
-          'Ek',
-          'Oluşum',
-          'Sonuç',
-          'Bağlamda örnek',
-        ],
+        headers: ['İsim türü', 'Ek', 'Oluşum', 'Sonuç', 'Bağlamda örnek'],
         rows: [
-          [
-            'E. sert',
-            '-ов',
-            'стол → стол+ов',
-            'столов',
-            'пять столов — beş masa',
-          ],
+          ['E. sert', '-ов', 'стол → стол+ов', 'столов', 'пять столов — beş masa'],
           [
             'E. -ж/ш/щ/ч/ц (vurgulu)',
             '-ей',
@@ -244,13 +180,7 @@ export const russianGenitiveCaseTr: LearnArticle = {
             'врачей',
             'много врачей — çok doktor',
           ],
-          [
-            'E. yumuşak -й',
-            '-ев',
-            'музей → музе+ев',
-            'музеев',
-            'три музея — üç müze',
-          ],
+          ['E. yumuşak -й', '-ев', 'музей → музе+ев', 'музеев', 'три музея — üç müze'],
           [
             'E. yumuşak -ь',
             '-ей',
@@ -258,13 +188,7 @@ export const russianGenitiveCaseTr: LearnArticle = {
             'словарей',
             'много словарей — çok sözlük',
           ],
-          [
-            'D. -а (sert)',
-            '-Ø (sıfır)',
-            'женщина → женщин',
-            'женщин',
-            'много женщин — çok kadın',
-          ],
+          ['D. -а (sert)', '-Ø (sıfır)', 'женщина → женщин', 'женщин', 'много женщин — çok kadın'],
           [
             'D. -а (к/г sonrası)',
             '-Ø',
@@ -272,35 +196,11 @@ export const russianGenitiveCaseTr: LearnArticle = {
             'подруг',
             'нет подруг — arkadaş yok (kız)',
           ],
-          [
-            'D. -я',
-            '-ей / -й',
-            'неделя → недель',
-            'недель',
-            'несколько недель — birkaç hafta',
-          ],
-          [
-            'D. -ь',
-            '-ей',
-            'ночь → ноч+ей',
-            'ночей',
-            'пять ночей — beş gece',
-          ],
-          [
-            'N. -о (sert)',
-            '-Ø',
-            'окно → окон',
-            'окон',
-            'много окон — çok pencere',
-          ],
+          ['D. -я', '-ей / -й', 'неделя → недель', 'недель', 'несколько недель — birkaç hafta'],
+          ['D. -ь', '-ей', 'ночь → ноч+ей', 'ночей', 'пять ночей — beş gece'],
+          ['N. -о (sert)', '-Ø', 'окно → окон', 'окон', 'много окон — çok pencere'],
           ['N. -е', '-ей', 'море → мор+ей', 'морей', 'пять морей — beş deniz'],
-          [
-            'N. -ие/-ия',
-            '-ий',
-            'здание → здани+й',
-            'зданий',
-            'много зданий — çok bina',
-          ],
+          ['N. -ие/-ия', '-ий', 'здание → здани+й', 'зданий', 'много зданий — çok bina'],
         ],
       },
     },
@@ -311,12 +211,7 @@ export const russianGenitiveCaseTr: LearnArticle = {
       table: {
         caption: '11 çok sık düzensiz genitif çoğul',
         boldColumnIndices: [1, 2],
-        headers: [
-          'Yalın tekil',
-          'Genitif çoğul',
-          'Örnek',
-          'Not',
-        ],
+        headers: ['Yalın tekil', 'Genitif çoğul', 'Örnek', 'Not'],
         rows: [
           ['человек (kişi)', 'людей', 'много людей', 'Suppletif (люди)'],
           ['ребёнок (çocuk)', 'детей', 'много детей', 'Suppletif (дети)'],
@@ -339,55 +234,20 @@ export const russianGenitiveCaseTr: LearnArticle = {
       table: {
         caption: 'Örnekli 16 genitif edatı',
         boldColumnIndices: [0, 2],
-        headers: [
-          'Edat',
-          'Anlam',
-          'İsimle',
-          'Tam cümle + çeviri',
-        ],
+        headers: ['Edat', 'Anlam', 'İsimle', 'Tam cümle + çeviri'],
         rows: [
-          [
-            'без',
-            '-sız / olmadan',
-            'без молока',
-            'Я пью чай без молока. — Sütsüz çay içiyorum.',
-          ],
+          ['без', '-sız / olmadan', 'без молока', 'Я пью чай без молока. — Sütsüz çay içiyorum.'],
           [
             'до',
             '-e kadar / önce / sınır',
             'до урока',
             'Позвони мне до урока. — Dersten önce beni ara.',
           ],
-          [
-            'из',
-            '-den (içinden)',
-            'из России',
-            'Он приехал из России. — Rusya’dan geldi.',
-          ],
-          [
-            'с',
-            '-den (yüzeyden)',
-            'с полки',
-            'Книга упала с полки. — Kitap raftan düştü.',
-          ],
-          [
-            'у',
-            '-de / yanında',
-            'у меня',
-            'У меня есть кошка. — Kedim var.',
-          ],
-          [
-            'от',
-            '-den (kişi / kaynak)',
-            'от друга',
-            'Письмо от друга. — Arkadaştan bir mektup.',
-          ],
-          [
-            'после',
-            'sonra',
-            'после работы',
-            'После работы я устал. — İşten sonra yorgundum.',
-          ],
+          ['из', '-den (içinden)', 'из России', 'Он приехал из России. — Rusya’dan geldi.'],
+          ['с', '-den (yüzeyden)', 'с полки', 'Книга упала с полки. — Kitap raftan düştü.'],
+          ['у', '-de / yanında', 'у меня', 'У меня есть кошка. — Kedim var.'],
+          ['от', '-den (kişi / kaynak)', 'от друга', 'Письмо от друга. — Arkadaştan bir mektup.'],
+          ['после', 'sonra', 'после работы', 'После работы я устал. — İşten sonra yorgundum.'],
           [
             'для',
             'için (yararına)',
@@ -412,12 +272,7 @@ export const russianGenitiveCaseTr: LearnArticle = {
             'мимо школы',
             'Он прошёл мимо школы. — Okulun yanından geçti.',
           ],
-          [
-            'вместо',
-            'yerine',
-            'вместо кофе',
-            'Выпей воды вместо кофе. — Kahve yerine su iç.',
-          ],
+          ['вместо', 'yerine', 'вместо кофе', 'Выпей воды вместо кофе. — Kahve yerine su iç.'],
           [
             'напротив',
             'karşısında',
@@ -436,12 +291,7 @@ export const russianGenitiveCaseTr: LearnArticle = {
             'из-под стола',
             'Кот вылез из-под стола. — Kedi masanın altından çıktı.',
           ],
-          [
-            'ради',
-            'uğruna',
-            'ради тебя',
-            'Ради твоего счастья. — Mutluluğun uğruna.',
-          ],
+          ['ради', 'uğruna', 'ради тебя', 'Ради твоего счастья. — Mutluluğun uğruna.'],
         ],
       },
     },
@@ -452,20 +302,10 @@ export const russianGenitiveCaseTr: LearnArticle = {
       table: {
         caption: 'Sayı + hal kuralları ve örnekler',
         boldColumnIndices: [1, 2],
-        headers: [
-          'Sayı / belirteç',
-          'Gerekli hal',
-          'Örnek (стол)',
-          'Çeviri',
-        ],
+        headers: ['Sayı / belirteç', 'Gerekli hal', 'Örnek (стол)', 'Çeviri'],
         rows: [
           ['1', 'Yalın tekil', 'один стол', 'bir masa'],
-          [
-            '2, 3, 4',
-            'Genitif tekil',
-            'два стола / три стола',
-            'iki / üç masa',
-          ],
+          ['2, 3, 4', 'Genitif tekil', 'два стола / три стола', 'iki / üç masa'],
           ['5–20', 'Genitif çoğul', 'пять столов', 'beş masa'],
           [
             '21, 31, 41… (1 ile biter)',
@@ -486,18 +326,8 @@ export const russianGenitiveCaseTr: LearnArticle = {
             'yirmi beş masa',
           ],
           ['100, 200, 1000…', 'Genitif çoğul', 'сто столов', 'yüz masa'],
-          [
-            'много / несколько / мало',
-            'Genitif çoğul',
-            'много столов',
-            'çok / birkaç / az masa',
-          ],
-          [
-            'сколько / столько',
-            'Genitif çoğul',
-            'сколько столов?',
-            'kaç masa?',
-          ],
+          ['много / несколько / мало', 'Genitif çoğul', 'много столов', 'çok / birkaç / az masa'],
+          ['сколько / столько', 'Genitif çoğul', 'сколько столов?', 'kaç masa?'],
         ],
       },
     },
@@ -515,11 +345,7 @@ export const russianGenitiveCaseTr: LearnArticle = {
             'Это книга студента.',
             'Bu öğrencinin kitabı. (genitif sahibi işaret eder)',
           ],
-          [
-            'Yokluk (нет)',
-            'Нет студента.',
-            'Öğrenci yok. (нет daima genitif ister)',
-          ],
+          ['Yokluk (нет)', 'Нет студента.', 'Öğrenci yok. (нет daima genitif ister)'],
           [
             'Doğrudan nesne (canlı)',
             'Я вижу студента.',
@@ -535,11 +361,7 @@ export const russianGenitiveCaseTr: LearnArticle = {
             'Я вижу двух студентов.',
             'İki öğrenci görüyorum. (canlı → sayı ile genitif çoğul)',
           ],
-          [
-            'Partitif genitif',
-            'Хочешь чаю?',
-            'Çay ister misin? (partitif — «biraz»)',
-          ],
+          ['Partitif genitif', 'Хочешь чаю?', 'Çay ister misin? (partitif — «biraz»)'],
         ],
       },
     },
@@ -588,12 +410,7 @@ export const russianGenitiveCaseTr: LearnArticle = {
             'U menya net vremeni.',
             'Vaktim yok. (время → времени, -мя nötr)',
           ],
-          [
-            '7',
-            'Здесь нет молока.',
-            "Zdes' net moloka.",
-            'Burada süt yok. (молоко → молока)',
-          ],
+          ['7', 'Здесь нет молока.', "Zdes' net moloka.", 'Burada süt yok. (молоко → молока)'],
           [
             '8',
             'Я не видел его несколько дней.',
@@ -660,12 +477,7 @@ export const russianGenitiveCaseTr: LearnArticle = {
             'Bez usiliy net rezultatov.',
             'Çaba olmadan sonuç olmaz. (без + gen. çoğ.)',
           ],
-          [
-            '19',
-            'У врача очередь.',
-            "U vracha ochered'.",
-            'Doktorda sıra var. (у + gen.)',
-          ],
+          ['19', 'У врача очередь.', "U vracha ochered'.", 'Doktorda sıra var. (у + gen.)'],
           [
             '20',
             'После дождя — солнце.',
@@ -738,12 +550,7 @@ export const russianGenitiveCaseTr: LearnArticle = {
             'U neyo golubye glaza.',
             'Onun mavi gözleri var. (у + zamir gen.)',
           ],
-          [
-            '32',
-            'Вкус победы.',
-            'Vkus pobedy.',
-            'Zaferin tadı. (победа → победы, gen. tekil)',
-          ],
+          ['32', 'Вкус победы.', 'Vkus pobedy.', 'Zaferin tadı. (победа → победы, gen. tekil)'],
         ],
       },
     },
@@ -761,8 +568,7 @@ export const russianGenitiveCaseTr: LearnArticle = {
     },
     {
       h2: 'Genitifte en sık 7 hata (ve düzeltme)',
-      content:
-        'Öğrencilerin genitifle **en sık yaptığı hatalar**:',
+      content: 'Öğrencilerin genitifle **en sık yaptığı hatalar**:',
       bullets: [
         '**НЕТ sonrası yalın** — Нет кот. ✗ → Нет кота. ✓ (нет daima genitif ister)',
         '**8 harf kuralını unutmak** — книгы ✗ → книги ✓ (г sonrası и, ы değil)',
@@ -819,8 +625,7 @@ export const russianGenitiveCaseTr: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/russian-genitive-case',
+      '@id': 'https://russiandeclensions.com/learn/articles/russian-genitive-case',
     },
     keywords:
       'rus genitif, rus genitif ekleri, rus genitif kuralları, rus genitif çoğul, rus genitif örnekleri, rus sahiplik dilbilgisi',

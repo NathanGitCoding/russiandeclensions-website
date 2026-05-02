@@ -8,12 +8,23 @@ const LANDING_LANG_KEY = 'russian-coach-landing-lang';
 const LANDING_LANG_COOKIE = 'russian-coach-landing-lang';
 const COOKIE_MAX_AGE = 365 * 24 * 60 * 60; // 1 year
 
-const VALID_LANGS: LandingLanguage[] = ['en_en', 'fr_fr', 'tr_tr', 'de_de', 'pl_pl', 'es_es', 'it_it', 'pt_pt', 'nl_nl', 'ru_ru'];
+const VALID_LANGS: LandingLanguage[] = [
+  'en_en',
+  'fr_fr',
+  'tr_tr',
+  'de_de',
+  'pl_pl',
+  'es_es',
+  'it_it',
+  'pt_pt',
+  'nl_nl',
+  'ru_ru',
+];
 
 function detectBrowserLanguage(): LandingLanguage {
   if (typeof navigator === 'undefined') return 'en_en';
   const nav = navigator as Navigator & { userLanguage?: string };
-  const browserLang = (navigator.language || nav.userLanguage) || 'en';
+  const browserLang = navigator.language || nav.userLanguage || 'en';
   if (browserLang.startsWith('fr')) return 'fr_fr';
   if (browserLang.startsWith('tr')) return 'tr_tr';
   if (browserLang.startsWith('de')) return 'de_de';

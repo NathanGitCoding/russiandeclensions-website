@@ -3,10 +3,8 @@ import type { LearnArticle } from '../learnArticles';
 /** Traduction française de l’article `russian-accusative-case` (source EN : `learnArticles.ts`). Cyrillique copié à l’identique. */
 export const russianAccusativeCaseFr: LearnArticle = {
   slug: 'russian-accusative-case',
-  title:
-    'Cas accusatif russe : compléments directs, animé vs inanimé et verbes de mouvement',
-  metaTitle:
-    'Cas accusatif russe : règles, terminaisons et 30 exemples | Russian Cases with Anna',
+  title: 'Cas accusatif russe : compléments directs, animé vs inanimé et verbes de mouvement',
+  metaTitle: 'Cas accusatif russe : règles, terminaisons et 30 exemples | Russian Cases with Anna',
   metaDescription:
     'Guide complet du cas accusatif en russe : tableau des terminaisons, règle animé/inanimé, verbes de mouvement, в/на direction vs lieu, 9 prépositions, 15 verbes transitifs, 30 exemples réels.',
   keywords: [
@@ -48,8 +46,7 @@ export const russianAccusativeCaseFr: LearnArticle = {
   internalLinks: [
     {
       href: '/learn/lessons/russian-cases-complete-guide',
-      label:
-        'Guide complet des cas russes : les 6 cas expliqués avec des exemples',
+      label: 'Guide complet des cas russes : les 6 cas expliqués avec des exemples',
     },
     {
       href: '/learn/articles/russian-case-endings-cheatsheet',
@@ -57,13 +54,11 @@ export const russianAccusativeCaseFr: LearnArticle = {
     },
     {
       href: '/learn/articles/russian-genitive-case',
-      label:
-        'Cas génitif russe : règles, terminaisons et 32 exemples réels',
+      label: 'Cas génitif russe : règles, terminaisons et 32 exemples réels',
     },
     {
       href: '/learn/lessons/dative-case-declension',
-      label:
-        'Cas datif russe : comment dire « à » et « pour » en russe',
+      label: 'Cas datif russe : comment dire « à » et « pour » en russe',
     },
   ],
   sections: [
@@ -97,13 +92,7 @@ export const russianAccusativeCaseFr: LearnArticle = {
       table: {
         caption: 'Terminaisons à l’accusatif selon le type de nom — singulier et pluriel',
         boldColumnIndices: [3],
-        headers: [
-          'Type de nom',
-          'Règle',
-          'Nominatif',
-          'Accusatif',
-          'Phrase d’exemple',
-        ],
+        headers: ['Type de nom', 'Règle', 'Nominatif', 'Accusatif', 'Phrase d’exemple'],
         rows: [
           [
             'Masc. inanimé (dur)',
@@ -133,48 +122,12 @@ export const russianAccusativeCaseFr: LearnArticle = {
             'гения',
             'Я вижу гения. — Je vois le génie.',
           ],
-          [
-            'Fém. dur (-а)',
-            '-у',
-            'женщина',
-            'женщину',
-            'Я вижу женщину. — Je vois la femme.',
-          ],
-          [
-            'Fém. mou (-я)',
-            '-ю',
-            'земля',
-            'землю',
-            'Я вижу землю. — Je vois la terre.',
-          ],
-          [
-            'Fém. (-ь) inanimé',
-            '= nom. (-ь)',
-            'ночь',
-            'ночь',
-            'Я люблю ночь. — J’aime la nuit.',
-          ],
-          [
-            'Fém. (-ь) animé',
-            '= nom. (-ь)',
-            'мышь',
-            'мышь',
-            'Я вижу мышь. — Je vois la souris.',
-          ],
-          [
-            'Neutre (dur -о)',
-            '= nom. (-о)',
-            'окно',
-            'окно',
-            'Я вижу окно. — Je vois la fenêtre.',
-          ],
-          [
-            'Neutre (mou -е)',
-            '= nom. (-е)',
-            'море',
-            'море',
-            'Я вижу море. — Je vois la mer.',
-          ],
+          ['Fém. dur (-а)', '-у', 'женщина', 'женщину', 'Я вижу женщину. — Je vois la femme.'],
+          ['Fém. mou (-я)', '-ю', 'земля', 'землю', 'Я вижу землю. — Je vois la terre.'],
+          ['Fém. (-ь) inanimé', '= nom. (-ь)', 'ночь', 'ночь', 'Я люблю ночь. — J’aime la nuit.'],
+          ['Fém. (-ь) animé', '= nom. (-ь)', 'мышь', 'мышь', 'Я вижу мышь. — Je vois la souris.'],
+          ['Neutre (dur -о)', '= nom. (-о)', 'окно', 'окно', 'Я вижу окно. — Je vois la fenêtre.'],
+          ['Neutre (mou -е)', '= nom. (-е)', 'море', 'море', 'Я вижу море. — Je vois la mer.'],
           [
             'Pluriel inanimé',
             '= nom. pl.',
@@ -211,59 +164,23 @@ export const russianAccusativeCaseFr: LearnArticle = {
         },
       ],
       table: {
-        caption:
-          '12 exemples concrets, y compris des cas animé/inanimé surprenants',
+        caption: '12 exemples concrets, y compris des cas animé/inanimé surprenants',
         boldColumnIndices: [2],
         headers: ['Nom', 'Animé / inanimé', 'Forme à l’accusatif', 'Remarque'],
         rows: [
-          [
-            '🤝 друг (ami)',
-            'animé',
-            'Я вижу друга.',
-            'Accusatif = forme du génitif (друга)',
-          ],
-          [
-            '👨‍⚕️ врач (médecin)',
-            'animé',
-            'Я слушаю врача.',
-            'Accusatif = forme du génitif (врача)',
-          ],
-          [
-            '🐱 кот (chat)',
-            'animé',
-            'Я глажу кота.',
-            'Les animaux sont animés (кота)',
-          ],
-          [
-            '👶 ребёнок (enfant)',
-            'animé',
-            'Мама видит ребёнка.',
-            'Accusatif = génitif (ребёнка)',
-          ],
+          ['🤝 друг (ami)', 'animé', 'Я вижу друга.', 'Accusatif = forme du génitif (друга)'],
+          ['👨‍⚕️ врач (médecin)', 'animé', 'Я слушаю врача.', 'Accusatif = forme du génitif (врача)'],
+          ['🐱 кот (chat)', 'animé', 'Я глажу кота.', 'Les animaux sont animés (кота)'],
+          ['👶 ребёнок (enfant)', 'animé', 'Мама видит ребёнка.', 'Accusatif = génitif (ребёнка)'],
           [
             '🏛️ президент (président)',
             'animé',
             'Я уважаю президента.',
             'Les personnes sont toujours animées',
           ],
-          [
-            '🪑 стол (table)',
-            'inanimé',
-            'Я вижу стол.',
-            'Accusatif = nominatif (inchangé)',
-          ],
-          [
-            '🎬 фильм (film)',
-            'inanimé',
-            'Я смотрю фильм.',
-            'Accusatif = nominatif (inchangé)',
-          ],
-          [
-            '🏙️ город (ville)',
-            'inanimé',
-            'Я люблю этот город.',
-            'Les lieux sont inanimés',
-          ],
+          ['🪑 стол (table)', 'inanimé', 'Я вижу стол.', 'Accusatif = nominatif (inchangé)'],
+          ['🎬 фильм (film)', 'inanimé', 'Я смотрю фильм.', 'Accusatif = nominatif (inchangé)'],
+          ['🏙️ город (ville)', 'inanimé', 'Я люблю этот город.', 'Les lieux sont inanimés'],
           [
             '💀 труп (cadavre)',
             'inanimé',
@@ -302,15 +219,9 @@ export const russianAccusativeCaseFr: LearnArticle = {
       content:
         'Les verbes de mouvement emploient **в ou на + accusatif** pour indiquer la direction. Le russe possède un système riche de verbes de mouvement.\n\nTous emploient в/на + accusatif pour la direction :',
       table: {
-        caption:
-          '10 verbes de mouvement principaux + unidirectionnel vs multidirectionnel',
+        caption: '10 verbes de mouvement principaux + unidirectionnel vs multidirectionnel',
         boldColumnIndices: [2],
-        headers: [
-          'Verbe',
-          'Sens',
-          'Exemple avec В/НА + acc.',
-          'Traduction',
-        ],
+        headers: ['Verbe', 'Sens', 'Exemple avec В/НА + acc.', 'Traduction'],
         rows: [
           [
             'идти / ходить',
@@ -324,18 +235,8 @@ export const russianAccusativeCaseFr: LearnArticle = {
             'Мы едем на работу.',
             'Nous allons au travail',
           ],
-          [
-            'бежать / бегать',
-            '🏃 courir',
-            'Он бежит на стадион.',
-            'Il court vers le stade',
-          ],
-          [
-            'лететь / летать',
-            '✈️ voler',
-            'Самолёт летит в Москву.',
-            'L’avion vole vers Moscou',
-          ],
+          ['бежать / бегать', '🏃 courir', 'Он бежит на стадион.', 'Il court vers le stade'],
+          ['лететь / летать', '✈️ voler', 'Самолёт летит в Москву.', 'L’avion vole vers Moscou'],
           [
             'плыть / плавать',
             '🏊 nager / naviguer',
@@ -360,18 +261,8 @@ export const russianAccusativeCaseFr: LearnArticle = {
             'Ребёнок ползёт на диван.',
             'L’enfant rampe vers le canapé',
           ],
-          [
-            'прийти (perf.)',
-            '🎯 arriver / venir',
-            'Приходи на вечеринку!',
-            'Viens à la fête !',
-          ],
-          [
-            'вернуться (perf.)',
-            '↩️ revenir',
-            'Он вернулся в город.',
-            'Il est revenu en ville',
-          ],
+          ['прийти (perf.)', '🎯 arriver / venir', 'Приходи на вечеринку!', 'Viens à la fête !'],
+          ['вернуться (perf.)', '↩️ revenir', 'Он вернулся в город.', 'Il est revenu en ville'],
         ],
       },
       bullets: [
@@ -391,22 +282,11 @@ export const russianAccusativeCaseFr: LearnArticle = {
         height: 630,
       },
       table: {
-        caption:
-          '10 paires côte à côte : accusatif (direction) vs prépositionnel (lieu)',
+        caption: '10 paires côte à côte : accusatif (direction) vs prépositionnel (lieu)',
         boldColumnIndices: [0, 1],
-        headers: [
-          'Construction',
-          'Exemple russe',
-          'Sens',
-          'Traduction',
-        ],
+        headers: ['Construction', 'Exemple russe', 'Sens', 'Traduction'],
         rows: [
-          [
-            'в + accusatif',
-            'Я иду в магазин.',
-            'Direction : dans / vers',
-            'Je vais au magasin.',
-          ],
+          ['в + accusatif', 'Я иду в магазин.', 'Direction : dans / vers', 'Je vais au magasin.'],
           [
             'в + prépositionnel',
             'Я нахожусь в магазине.',
@@ -478,12 +358,7 @@ export const russianAccusativeCaseFr: LearnArticle = {
       table: {
         caption: '9 prépositions à l’accusatif : sens et exemple complet',
         boldColumnIndices: [0],
-        headers: [
-          'Prép.',
-          'Sens',
-          'Avec un nom',
-          'Phrase complète + traduction',
-        ],
+        headers: ['Prép.', 'Sens', 'Avec un nom', 'Phrase complète + traduction'],
         rows: [
           [
             'в',
@@ -553,11 +428,7 @@ export const russianAccusativeCaseFr: LearnArticle = {
       table: {
         caption: 'через, за, весь/всю, в + jour, спустя',
         boldColumnIndices: [0],
-        headers: [
-          'Type d’expression',
-          'Exemples',
-          'Phrase complète + traduction',
-        ],
+        headers: ['Type d’expression', 'Exemples', 'Phrase complète + traduction'],
         rows: [
           [
             'Durée (весь / целый)',
@@ -599,54 +470,24 @@ export const russianAccusativeCaseFr: LearnArticle = {
         boldColumnIndices: [0],
         headers: ['Verbe', 'Exemple', 'Traduction', 'Remarque'],
         rows: [
-          [
-            'видеть (voir)',
-            'Я вижу тебя.',
-            'Je te vois.',
-            'Perception visuelle directe',
-          ],
-          [
-            'любить (aimer)',
-            'Я люблю музыку.',
-            "J'aime la musique.",
-            'Objet d’affection',
-          ],
+          ['видеть (voir)', 'Я вижу тебя.', 'Je te vois.', 'Perception visuelle directe'],
+          ['любить (aimer)', 'Я люблю музыку.', "J'aime la musique.", 'Objet d’affection'],
           [
             'знать (savoir / connaître)',
             'Я знаю этот город.',
             'Je connais cette ville.',
             'Chose ou personne connue',
           ],
-          [
-            'читать (lire)',
-            'Она читает книгу.',
-            'Elle lit un livre.',
-            'Objet lu',
-          ],
+          ['читать (lire)', 'Она читает книгу.', 'Elle lit un livre.', 'Objet lu'],
           [
             'слушать (écouter)',
             'Мы слушаем музыку.',
             'Nous écoutons de la musique.',
             'Objet d’écoute',
           ],
-          [
-            'смотреть (regarder)',
-            'Он смотрит фильм.',
-            'Il regarde un film.',
-            'Objet du regard',
-          ],
-          [
-            'купить (acheter)',
-            'Я купил машину.',
-            "J'ai acheté une voiture.",
-            'Objet acheté',
-          ],
-          [
-            'взять (prendre)',
-            'Возьми зонтик.',
-            'Prends un parapluie.',
-            'Objet pris',
-          ],
+          ['смотреть (regarder)', 'Он смотрит фильм.', 'Il regarde un film.', 'Objet du regard'],
+          ['купить (acheter)', 'Я купил машину.', "J'ai acheté une voiture.", 'Objet acheté'],
+          ['взять (prendre)', 'Возьми зонтик.', 'Prends un parapluie.', 'Objet pris'],
           [
             'понимать (comprendre)',
             'Я понимаю тебя.',
@@ -671,12 +512,7 @@ export const russianAccusativeCaseFr: LearnArticle = {
             "J'attends le bus.",
             'Accusatif et génitif possibles !',
           ],
-          [
-            'спрашивать (demander)',
-            'Он спрашивает меня.',
-            'Il me demande.',
-            'Personne interrogée',
-          ],
+          ['спрашивать (demander)', 'Он спрашивает меня.', 'Il me demande.', 'Personne interrogée'],
           [
             'благодарить (remercier)',
             'Я благодарю вас.',
@@ -901,36 +737,12 @@ export const russianAccusativeCaseFr: LearnArticle = {
             'Я вижу студента.',
             'ACCUSATIF animé (= forme du génitif, mais ici accusatif)',
           ],
-          [
-            'Absence (нет)',
-            'Нет студента.',
-            'GÉNITIF — нет exige toujours le génitif',
-          ],
-          [
-            'Objet direct inanimé',
-            'Я вижу стол.',
-            'ACCUSATIF inanimé (= nominatif)',
-          ],
-          [
-            'Absence inanimée',
-            'Нет стола.',
-            'GÉNITIF (стол → стола)',
-          ],
-          [
-            'Direction vers un lieu',
-            'Я иду в парк.',
-            'ACCUSATIF (в + direction)',
-          ],
-          [
-            'Durée',
-            'Я работал всю неделю.',
-            'ACCUSATIF — всю неделю',
-          ],
-          [
-            'Quantité / partie de',
-            'Я выпил стакан воды.',
-            'GÉNITIF — воды (un verre d’eau)',
-          ],
+          ['Absence (нет)', 'Нет студента.', 'GÉNITIF — нет exige toujours le génitif'],
+          ['Objet direct inanimé', 'Я вижу стол.', 'ACCUSATIF inanimé (= nominatif)'],
+          ['Absence inanimée', 'Нет стола.', 'GÉNITIF (стол → стола)'],
+          ['Direction vers un lieu', 'Я иду в парк.', 'ACCUSATIF (в + direction)'],
+          ['Durée', 'Я работал всю неделю.', 'ACCUSATIF — всю неделю'],
+          ['Quantité / partie de', 'Я выпил стакан воды.', 'GÉNITIF — воды (un verre d’eau)'],
         ],
       },
       bullets: [
@@ -961,14 +773,12 @@ export const russianAccusativeCaseFr: LearnArticle = {
         'Le cas accusatif russe marque le **complément d’objet direct** des verbes transitifs (Я читаю книгу), la **direction** avec в et на (Я иду в школу), les **expressions de temps** (через час, всю ночь), et s’emploie après des prépositions comme за, через, про, под, сквозь.',
     },
     {
-      question:
-        'Comment fonctionne la distinction animé / inanimé en russe ?',
+      question: 'Comment fonctionne la distinction animé / inanimé en russe ?',
       answer:
         'Les **noms masculins animés** (personnes, animaux) prennent la **forme du génitif** à l’accusatif (студент → студента). Les **masculins inanimés** restent au nominatif (стол → стол). Surprenant : труп = inanimé ; cartes à jouer et pièces d’échecs = animés.',
     },
     {
-      question:
-        'Quelle est la différence entre в + accusatif et в + prépositionnel ?',
+      question: 'Quelle est la différence entre в + accusatif et в + prépositionnel ?',
       answer:
         '**в + accusatif** = direction (Я иду в школу — Je vais à l’école). **в + prépositionnel** = lieu (Я в школе — Je suis à l’école). Idem pour на : на работу (y aller) vs. на работе (au travail).',
     },
@@ -983,8 +793,7 @@ export const russianAccusativeCaseFr: LearnArticle = {
         'Oui. Les adjectifs doivent **s’accorder** avec le nom. Féminin accusatif : **-ую/-юю** (красивую женщину). Masculin inanimé : reste nominatif. Masculin animé : forme du génitif (красивого студента).',
     },
     {
-      question:
-        'Quels verbes russes se construisent avec le génitif plutôt qu’avec l’accusatif ?',
+      question: 'Quels verbes russes se construisent avec le génitif plutôt qu’avec l’accusatif ?',
       answer:
         'La plupart des verbes transitifs prennent l’accusatif. Exceptions avec **génitif** : бояться, ждать (inanimé), желать, избегать, достигать, лишать. Хотеть peut prendre les deux : хочу воды (gén., partitif) vs. хочу воду (acc.).',
     },
@@ -992,8 +801,7 @@ export const russianAccusativeCaseFr: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      'Cas accusatif russe : compléments directs, animé vs inanimé et verbes de mouvement',
+    headline: 'Cas accusatif russe : compléments directs, animé vs inanimé et verbes de mouvement',
     description:
       'Guide complet du cas accusatif en russe : terminaisons, animé vs inanimé, verbes de mouvement, в/на, 9 prépositions, 30 exemples.',
     datePublished: '2026-03-12',
@@ -1002,8 +810,7 @@ export const russianAccusativeCaseFr: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/russian-accusative-case',
+      '@id': 'https://russiandeclensions.com/learn/articles/russian-accusative-case',
     },
     keywords:
       'cas accusatif russe, terminaisons accusatif russe, animé inanimé accusatif russe, complément d’objet direct russe, verbes de mouvement accusatif russe',

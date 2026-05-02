@@ -92,7 +92,8 @@ const en: PracticeTranslations = {
   breadcrumbAria: 'Breadcrumb',
   breadcrumb: { home: 'Home', practice: 'Practice' },
   h1: 'Practice Russian Declensions',
-  subtitle: 'Test your knowledge of Russian noun cases with a customizable quiz. Select which cases and genders to practice, then answer 10 questions.',
+  subtitle:
+    'Test your knowledge of Russian noun cases with a customizable quiz. Select which cases and genders to practice, then answer 10 questions.',
   config: {
     title: 'Configure your quiz',
     casesLabel: 'Cases',
@@ -132,27 +133,33 @@ const en: PracticeTranslations = {
     items: [
       {
         question: 'How does this Russian declension quiz work?',
-        answer: 'Select which grammatical cases (accusative, genitive, dative, instrumental, prepositional) and genders (masculine, feminine, neuter) you want to practice. The quiz generates 10 multiple-choice questions from our database of 400+ Russian nouns. For each question, you see a word in its base form and must select the correct declined form.',
+        answer:
+          'Select which grammatical cases (accusative, genitive, dative, instrumental, prepositional) and genders (masculine, feminine, neuter) you want to practice. The quiz generates 10 multiple-choice questions from our database of 400+ Russian nouns. For each question, you see a word in its base form and must select the correct declined form.',
       },
       {
         question: 'What are the 6 Russian grammatical cases?',
-        answer: 'Russian has 6 grammatical cases: Nominative (именительный) — the subject, Accusative (винительный) — the direct object, Genitive (родительный) — possession, Dative (дательный) — indirect object, Instrumental (творительный) — means or instrument, and Prepositional (предложный) — location or topic. This quiz covers all cases except Nominative, since it is the base (dictionary) form.',
+        answer:
+          'Russian has 6 grammatical cases: Nominative (именительный) — the subject, Accusative (винительный) — the direct object, Genitive (родительный) — possession, Dative (дательный) — indirect object, Instrumental (творительный) — means or instrument, and Prepositional (предложный) — location or topic. This quiz covers all cases except Nominative, since it is the base (dictionary) form.',
       },
       {
         question: 'How many words are available in the quiz?',
-        answer: 'The quiz draws from a database of over 400 Russian nouns, covering masculine, feminine, and neuter genders. Each word has been fully declined across all 6 cases in both singular and plural forms, giving you thousands of possible questions.',
+        answer:
+          'The quiz draws from a database of over 400 Russian nouns, covering masculine, feminine, and neuter genders. Each word has been fully declined across all 6 cases in both singular and plural forms, giving you thousands of possible questions.',
       },
       {
         question: 'Is this Russian declension quiz free?',
-        answer: 'Yes, this quiz is completely free with no account required. You can take as many quizzes as you want, with different case and gender combinations each time. For mobile practice on the go, you can also download the Russian Cases with Anna app.',
+        answer:
+          'Yes, this quiz is completely free with no account required. You can take as many quizzes as you want, with different case and gender combinations each time. For mobile practice on the go, you can also download the Russian Cases with Anna app.',
       },
       {
         question: 'How can I practice specific Russian cases?',
-        answer: 'Use the configuration panel above to select exactly which cases you want to focus on. For example, beginners can start with just Accusative and Genitive, while advanced learners can practice the more challenging Instrumental and Prepositional cases. You can also filter by gender to focus on specific declension patterns.',
+        answer:
+          'Use the configuration panel above to select exactly which cases you want to focus on. For example, beginners can start with just Accusative and Genitive, while advanced learners can practice the more challenging Instrumental and Prepositional cases. You can also filter by gender to focus on specific declension patterns.',
       },
       {
         question: 'What is the difference between singular and plural declensions?',
-        answer: 'Russian nouns change their endings differently in singular and plural forms. For example, "книга" (book) becomes "книгу" in accusative singular, but "книги" in accusative plural. You can toggle singular and plural independently for each case to focus on the forms you find most challenging.',
+        answer:
+          'Russian nouns change their endings differently in singular and plural forms. For example, "книга" (book) becomes "книгу" in accusative singular, but "книги" in accusative plural. You can toggle singular and plural independently for each case to focus on the forms you find most challenging.',
       },
     ],
   },
@@ -216,7 +223,8 @@ const fr: PracticeTranslations = {
   breadcrumbAria: 'Fil d’Ariane',
   breadcrumb: { home: 'Accueil', practice: 'Entraînement' },
   h1: 'Pratiquer les déclinaisons russes',
-  subtitle: 'Testez vos connaissances des cas russes avec un quiz personnalisable. Sélectionnez les cas et les genres à pratiquer, puis répondez à 10 questions.',
+  subtitle:
+    'Testez vos connaissances des cas russes avec un quiz personnalisable. Sélectionnez les cas et les genres à pratiquer, puis répondez à 10 questions.',
   config: {
     title: 'Configurez votre quiz',
     casesLabel: 'Cas',
@@ -256,27 +264,33 @@ const fr: PracticeTranslations = {
     items: [
       {
         question: 'Comment fonctionne ce quiz de déclinaisons russes ?',
-        answer: 'Sélectionnez les cas grammaticaux (accusatif, génitif, datif, instrumental, prépositionnel) et les genres (masculin, féminin, neutre) que vous souhaitez pratiquer. Le quiz génère 10 questions à choix multiples à partir de notre base de plus de 400 noms russes. Pour chaque question, vous voyez un mot dans sa forme de base et devez sélectionner la forme déclinée correcte.',
+        answer:
+          'Sélectionnez les cas grammaticaux (accusatif, génitif, datif, instrumental, prépositionnel) et les genres (masculin, féminin, neutre) que vous souhaitez pratiquer. Le quiz génère 10 questions à choix multiples à partir de notre base de plus de 400 noms russes. Pour chaque question, vous voyez un mot dans sa forme de base et devez sélectionner la forme déclinée correcte.',
       },
       {
         question: 'Quels sont les 6 cas grammaticaux russes ?',
-        answer: 'Le russe a 6 cas grammaticaux : Nominatif (именительный) — le sujet, Accusatif (винительный) — le complément d\'objet direct, Génitif (родительный) — la possession, Datif (дательный) — le complément d\'objet indirect, Instrumental (творительный) — le moyen ou l\'instrument, et Prépositionnel (предложный) — le lieu ou le sujet. Ce quiz couvre tous les cas sauf le Nominatif, car c\'est la forme de base (dictionnaire).',
+        answer:
+          "Le russe a 6 cas grammaticaux : Nominatif (именительный) — le sujet, Accusatif (винительный) — le complément d'objet direct, Génitif (родительный) — la possession, Datif (дательный) — le complément d'objet indirect, Instrumental (творительный) — le moyen ou l'instrument, et Prépositionnel (предложный) — le lieu ou le sujet. Ce quiz couvre tous les cas sauf le Nominatif, car c'est la forme de base (dictionnaire).",
       },
       {
         question: 'Combien de mots sont disponibles dans le quiz ?',
-        answer: 'Le quiz puise dans une base de données de plus de 400 noms russes, couvrant les genres masculin, féminin et neutre. Chaque mot a été entièrement décliné dans les 6 cas au singulier et au pluriel, offrant des milliers de questions possibles.',
+        answer:
+          'Le quiz puise dans une base de données de plus de 400 noms russes, couvrant les genres masculin, féminin et neutre. Chaque mot a été entièrement décliné dans les 6 cas au singulier et au pluriel, offrant des milliers de questions possibles.',
       },
       {
         question: 'Ce quiz de déclinaisons russes est-il gratuit ?',
-        answer: 'Oui, ce quiz est entièrement gratuit et sans inscription. Vous pouvez faire autant de quiz que vous voulez, avec différentes combinaisons de cas et de genres à chaque fois. Pour vous entraîner sur mobile, vous pouvez aussi télécharger l\'app Russian Cases with Anna.',
+        answer:
+          "Oui, ce quiz est entièrement gratuit et sans inscription. Vous pouvez faire autant de quiz que vous voulez, avec différentes combinaisons de cas et de genres à chaque fois. Pour vous entraîner sur mobile, vous pouvez aussi télécharger l'app Russian Cases with Anna.",
       },
       {
         question: 'Comment puis-je pratiquer des cas russes spécifiques ?',
-        answer: 'Utilisez le panneau de configuration ci-dessus pour sélectionner exactement les cas sur lesquels vous souhaitez vous concentrer. Par exemple, les débutants peuvent commencer avec l\'accusatif et le génitif uniquement, tandis que les apprenants avancés peuvent pratiquer l\'instrumental et le prépositionnel, plus difficiles.',
+        answer:
+          "Utilisez le panneau de configuration ci-dessus pour sélectionner exactement les cas sur lesquels vous souhaitez vous concentrer. Par exemple, les débutants peuvent commencer avec l'accusatif et le génitif uniquement, tandis que les apprenants avancés peuvent pratiquer l'instrumental et le prépositionnel, plus difficiles.",
       },
       {
         question: 'Quelle est la différence entre les déclinaisons au singulier et au pluriel ?',
-        answer: 'Les noms russes changent leurs terminaisons différemment au singulier et au pluriel. Par exemple, « книга » (livre) devient « книгу » à l\'accusatif singulier, mais « книги » à l\'accusatif pluriel. Vous pouvez activer le singulier et le pluriel indépendamment pour chaque cas afin de vous concentrer sur les formes qui vous posent le plus de difficultés.',
+        answer:
+          "Les noms russes changent leurs terminaisons différemment au singulier et au pluriel. Par exemple, « книга » (livre) devient « книгу » à l'accusatif singulier, mais « книги » à l'accusatif pluriel. Vous pouvez activer le singulier et le pluriel indépendamment pour chaque cas afin de vous concentrer sur les formes qui vous posent le plus de difficultés.",
       },
     ],
   },
@@ -340,7 +354,8 @@ const de: PracticeTranslations = {
   breadcrumbAria: 'Brotkrümelnavigation',
   breadcrumb: { home: 'Startseite', practice: 'Übung' },
   h1: 'Russische Deklinationen üben',
-  subtitle: 'Testen Sie Ihr Wissen über russische Fälle mit einem anpassbaren Quiz. Wählen Sie Fälle und Geschlechter, dann beantworten Sie 10 Fragen.',
+  subtitle:
+    'Testen Sie Ihr Wissen über russische Fälle mit einem anpassbaren Quiz. Wählen Sie Fälle und Geschlechter, dann beantworten Sie 10 Fragen.',
   config: {
     title: 'Quiz konfigurieren',
     casesLabel: 'Fälle',
@@ -380,27 +395,33 @@ const de: PracticeTranslations = {
     items: [
       {
         question: 'Wie funktioniert dieses Quiz zur russischen Deklination?',
-        answer: 'Wählen Sie die grammatischen Fälle (Akkusativ, Genitiv, Dativ, Instrumental, Präpositional) und Geschlechter (männlich, weiblich, sächlich) aus, die Sie üben möchten. Das Quiz generiert 10 Multiple-Choice-Fragen aus unserer Datenbank von über 400 russischen Substantiven.',
+        answer:
+          'Wählen Sie die grammatischen Fälle (Akkusativ, Genitiv, Dativ, Instrumental, Präpositional) und Geschlechter (männlich, weiblich, sächlich) aus, die Sie üben möchten. Das Quiz generiert 10 Multiple-Choice-Fragen aus unserer Datenbank von über 400 russischen Substantiven.',
       },
       {
         question: 'Welche 6 grammatischen Fälle gibt es im Russischen?',
-        answer: 'Russisch hat 6 grammatische Fälle: Nominativ (именительный), Akkusativ (винительный), Genitiv (родительный), Dativ (дательный), Instrumental (творительный) und Präpositional (предложный). Dieses Quiz deckt alle Fälle außer dem Nominativ ab.',
+        answer:
+          'Russisch hat 6 grammatische Fälle: Nominativ (именительный), Akkusativ (винительный), Genitiv (родительный), Dativ (дательный), Instrumental (творительный) und Präpositional (предложный). Dieses Quiz deckt alle Fälle außer dem Nominativ ab.',
       },
       {
         question: 'Wie viele Wörter sind im Quiz verfügbar?',
-        answer: 'Das Quiz greift auf eine Datenbank von über 400 russischen Substantiven zurück, die männliche, weibliche und sächliche Geschlechter abdecken. Jedes Wort wurde vollständig in allen 6 Fällen im Singular und Plural dekliniert.',
+        answer:
+          'Das Quiz greift auf eine Datenbank von über 400 russischen Substantiven zurück, die männliche, weibliche und sächliche Geschlechter abdecken. Jedes Wort wurde vollständig in allen 6 Fällen im Singular und Plural dekliniert.',
       },
       {
         question: 'Ist dieses Quiz kostenlos?',
-        answer: 'Ja, dieses Quiz ist völlig kostenlos und ohne Registrierung. Sie können so viele Quiz machen, wie Sie möchten. Für mobiles Üben können Sie auch die App Russian Cases with Anna herunterladen.',
+        answer:
+          'Ja, dieses Quiz ist völlig kostenlos und ohne Registrierung. Sie können so viele Quiz machen, wie Sie möchten. Für mobiles Üben können Sie auch die App Russian Cases with Anna herunterladen.',
       },
       {
         question: 'Wie kann ich bestimmte russische Fälle üben?',
-        answer: 'Verwenden Sie das Konfigurationspanel oben, um genau auszuwählen, welche Fälle Sie üben möchten. Anfänger können mit Akkusativ und Genitiv beginnen, fortgeschrittene Lernende können Instrumental und Präpositional üben.',
+        answer:
+          'Verwenden Sie das Konfigurationspanel oben, um genau auszuwählen, welche Fälle Sie üben möchten. Anfänger können mit Akkusativ und Genitiv beginnen, fortgeschrittene Lernende können Instrumental und Präpositional üben.',
       },
       {
         question: 'Was ist der Unterschied zwischen Singular- und Pluraldeklinationen?',
-        answer: 'Russische Substantive ändern ihre Endungen im Singular und Plural unterschiedlich. Zum Beispiel wird „книга" (Buch) im Akkusativ Singular zu „книгу", aber im Akkusativ Plural zu „книги".',
+        answer:
+          'Russische Substantive ändern ihre Endungen im Singular und Plural unterschiedlich. Zum Beispiel wird „книга" (Buch) im Akkusativ Singular zu „книгу", aber im Akkusativ Plural zu „книги".',
       },
     ],
   },
@@ -464,7 +485,8 @@ const pl: PracticeTranslations = {
   breadcrumbAria: 'Ścieżka nawigacyjna',
   breadcrumb: { home: 'Strona główna', practice: 'Ćwiczenia' },
   h1: 'Ćwicz rosyjskie deklinacje',
-  subtitle: 'Sprawdź swoją wiedzę o rosyjskich przypadkach z konfigurowalnym quizem. Wybierz przypadki i rodzaje, a następnie odpowiedz na 10 pytań.',
+  subtitle:
+    'Sprawdź swoją wiedzę o rosyjskich przypadkach z konfigurowalnym quizem. Wybierz przypadki i rodzaje, a następnie odpowiedz na 10 pytań.',
   config: {
     title: 'Skonfiguruj quiz',
     casesLabel: 'Przypadki',
@@ -504,27 +526,33 @@ const pl: PracticeTranslations = {
     items: [
       {
         question: 'Jak działa ten quiz z deklinacji rosyjskiej?',
-        answer: 'Wybierz przypadki gramatyczne (biernik, dopełniacz, celownik, narzędnik, miejscownik) i rodzaje (męski, żeński, nijaki), które chcesz ćwiczyć. Quiz generuje 10 pytań wielokrotnego wyboru z naszej bazy ponad 400 rosyjskich rzeczowników.',
+        answer:
+          'Wybierz przypadki gramatyczne (biernik, dopełniacz, celownik, narzędnik, miejscownik) i rodzaje (męski, żeński, nijaki), które chcesz ćwiczyć. Quiz generuje 10 pytań wielokrotnego wyboru z naszej bazy ponad 400 rosyjskich rzeczowników.',
       },
       {
         question: 'Jakie są 6 przypadków gramatycznych w języku rosyjskim?',
-        answer: 'Rosyjski ma 6 przypadków: Mianownik (именительный), Biernik (винительный), Dopełniacz (родительный), Celownik (дательный), Narzędnik (творительный) i Miejscownik (предложный). Ten quiz obejmuje wszystkie przypadki oprócz mianownika.',
+        answer:
+          'Rosyjski ma 6 przypadków: Mianownik (именительный), Biernik (винительный), Dopełniacz (родительный), Celownik (дательный), Narzędnik (творительный) i Miejscownik (предложный). Ten quiz obejmuje wszystkie przypadki oprócz mianownika.',
       },
       {
         question: 'Ile słów jest dostępnych w quizie?',
-        answer: 'Quiz korzysta z bazy danych ponad 400 rosyjskich rzeczowników, obejmujących rodzaj męski, żeński i nijaki. Każde słowo zostało w pełni odmienione we wszystkich 6 przypadkach w liczbie pojedynczej i mnogiej.',
+        answer:
+          'Quiz korzysta z bazy danych ponad 400 rosyjskich rzeczowników, obejmujących rodzaj męski, żeński i nijaki. Każde słowo zostało w pełni odmienione we wszystkich 6 przypadkach w liczbie pojedynczej i mnogiej.',
       },
       {
         question: 'Czy ten quiz jest darmowy?',
-        answer: 'Tak, ten quiz jest całkowicie darmowy i nie wymaga rejestracji. Możesz rozwiązywać tyle quizów, ile chcesz. Aby ćwiczyć na telefonie, możesz pobrać aplikację Russian Cases with Anna.',
+        answer:
+          'Tak, ten quiz jest całkowicie darmowy i nie wymaga rejestracji. Możesz rozwiązywać tyle quizów, ile chcesz. Aby ćwiczyć na telefonie, możesz pobrać aplikację Russian Cases with Anna.',
       },
       {
         question: 'Jak mogę ćwiczyć konkretne przypadki rosyjskie?',
-        answer: 'Użyj panelu konfiguracji powyżej, aby wybrać dokładnie, które przypadki chcesz ćwiczyć. Początkujący mogą zacząć od biernika i dopełniacza, zaawansowani mogą ćwiczyć narzędnik i miejscownik.',
+        answer:
+          'Użyj panelu konfiguracji powyżej, aby wybrać dokładnie, które przypadki chcesz ćwiczyć. Początkujący mogą zacząć od biernika i dopełniacza, zaawansowani mogą ćwiczyć narzędnik i miejscownik.',
       },
       {
         question: 'Jaka jest różnica między deklinacją w liczbie pojedynczej a mnogiej?',
-        answer: 'Rosyjskie rzeczowniki zmieniają końcówki inaczej w liczbie pojedynczej i mnogiej. Na przykład „книга" (książka) w bierniku liczby pojedynczej to „книгу", ale w bierniku liczby mnogiej to „книги".',
+        answer:
+          'Rosyjskie rzeczowniki zmieniają końcówki inaczej w liczbie pojedynczej i mnogiej. Na przykład „книга" (książka) w bierniku liczby pojedynczej to „книгу", ale w bierniku liczby mnogiej to „книги".',
       },
     ],
   },
@@ -582,13 +610,13 @@ const tr: PracticeTranslations = {
     title: 'Rusça çekimleri çevrimiçi pratik yapın — Ücretsiz quiz',
     description:
       'Rusça isim çekimlerini pratik yapmak için ücretsiz interaktif quiz. Durumları, cinsiyetleri seçin ve 10 soruyla bilginizi test edin.',
-    keywords:
-      'Rusça çekim, Rusça durum quiz, Rusça dilbilgisi, çekim alıştırmaları, isim quiz',
+    keywords: 'Rusça çekim, Rusça durum quiz, Rusça dilbilgisi, çekim alıştırmaları, isim quiz',
   },
   breadcrumbAria: 'Sayfa konumu',
   breadcrumb: { home: 'Ana Sayfa', practice: 'Alıştırma' },
   h1: 'Rusça çekimleri pratik yapın',
-  subtitle: 'Özelleştirilebilir bir quiz ile Rusça isim durumlarındaki bilginizi test edin. Durumları ve cinsiyetleri seçin, ardından 10 soruyu yanıtlayın.',
+  subtitle:
+    'Özelleştirilebilir bir quiz ile Rusça isim durumlarındaki bilginizi test edin. Durumları ve cinsiyetleri seçin, ardından 10 soruyu yanıtlayın.',
   config: {
     title: 'Quizi yapılandırın',
     casesLabel: 'Durumlar',
@@ -628,27 +656,33 @@ const tr: PracticeTranslations = {
     items: [
       {
         question: 'Bu Rusça çekim testi nasıl çalışıyor?',
-        answer: 'Pratik yapmak istediğiniz dilbilgisi durumlarını (yükleme, tamlayan, yönelme, araç, edat) ve cinsiyetleri (eril, dişil, nötr) seçin. Test, 400\'den fazla Rusça isim içeren veritabanımızdan 10 çoktan seçmeli soru oluşturur.',
+        answer:
+          "Pratik yapmak istediğiniz dilbilgisi durumlarını (yükleme, tamlayan, yönelme, araç, edat) ve cinsiyetleri (eril, dişil, nötr) seçin. Test, 400'den fazla Rusça isim içeren veritabanımızdan 10 çoktan seçmeli soru oluşturur.",
       },
       {
         question: 'Rusçada 6 dilbilgisi durumu nelerdir?',
-        answer: 'Rusçada 6 dilbilgisi durumu vardır: Yalın (именительный), Yükleme (винительный), Tamlayan (родительный), Yönelme (дательный), Araç (творительный) ve Edat (предложный). Bu test, Yalın dışındaki tüm durumları kapsar.',
+        answer:
+          'Rusçada 6 dilbilgisi durumu vardır: Yalın (именительный), Yükleme (винительный), Tamlayan (родительный), Yönelme (дательный), Araç (творительный) ve Edat (предложный). Bu test, Yalın dışındaki tüm durumları kapsar.',
       },
       {
         question: 'Testte kaç kelime mevcut?',
-        answer: 'Test, eril, dişil ve nötr cinsiyetleri kapsayan 400\'den fazla Rusça isim içeren bir veritabanından yararlanır. Her kelime, tekil ve çoğul olarak 6 durumda tam olarak çekimlenmiştir.',
+        answer:
+          "Test, eril, dişil ve nötr cinsiyetleri kapsayan 400'den fazla Rusça isim içeren bir veritabanından yararlanır. Her kelime, tekil ve çoğul olarak 6 durumda tam olarak çekimlenmiştir.",
       },
       {
         question: 'Bu test ücretsiz mi?',
-        answer: 'Evet, bu test tamamen ücretsiz ve kayıt gerektirmez. İstediğiniz kadar test yapabilirsiniz. Mobil pratik için Russian Cases with Anna uygulamasını da indirebilirsiniz.',
+        answer:
+          'Evet, bu test tamamen ücretsiz ve kayıt gerektirmez. İstediğiniz kadar test yapabilirsiniz. Mobil pratik için Russian Cases with Anna uygulamasını da indirebilirsiniz.',
       },
       {
         question: 'Belirli Rusça durumları nasıl çalışabilirim?',
-        answer: 'Yukarıdaki yapılandırma panelini kullanarak tam olarak hangi durumları çalışmak istediğinizi seçin. Yeni başlayanlar yükleme ve tamlayan ile başlayabilir, ileri düzey öğrenciler araç ve edat durumlarını çalışabilir.',
+        answer:
+          'Yukarıdaki yapılandırma panelini kullanarak tam olarak hangi durumları çalışmak istediğinizi seçin. Yeni başlayanlar yükleme ve tamlayan ile başlayabilir, ileri düzey öğrenciler araç ve edat durumlarını çalışabilir.',
       },
       {
         question: 'Tekil ve çoğul çekimler arasındaki fark nedir?',
-        answer: 'Rusça isimler tekil ve çoğulda farklı ekler alır. Örneğin, «книга» (kitap) yükleme tekilde «книгу» olurken, yükleme çoğulda «книги» olur.',
+        answer:
+          'Rusça isimler tekil ve çoğulda farklı ekler alır. Örneğin, «книга» (kitap) yükleme tekilde «книгу» olurken, yükleme çoğulda «книги» olur.',
       },
     ],
   },
@@ -900,7 +934,7 @@ const it: PracticeTranslations = {
       {
         question: 'Questo quiz sulle declinazioni russe è gratuito?',
         answer:
-          'Sì, questo quiz è completamente gratuito e non richiede registrazione. Puoi fare tutti i quiz che vuoi, con diverse combinazioni di casi e generi. Per esercitarti su smartphone, puoi anche scaricare l\'app Russian Cases with Anna.',
+          "Sì, questo quiz è completamente gratuito e non richiede registrazione. Puoi fare tutti i quiz che vuoi, con diverse combinazioni di casi e generi. Per esercitarti su smartphone, puoi anche scaricare l'app Russian Cases with Anna.",
       },
       {
         question: 'Come posso esercitarmi su casi russi specifici?',
@@ -910,7 +944,7 @@ const it: PracticeTranslations = {
       {
         question: 'Qual è la differenza tra declinazioni al singolare e al plurale?',
         answer:
-          'I sostantivi russi cambiano le loro terminazioni in modo diverso al singolare e al plurale. Ad esempio, «книга» (libro) diventa «книгу» all\'accusativo singolare, ma «книги» all\'accusativo plurale. Puoi attivare singolare e plurale indipendentemente per ogni caso.',
+          "I sostantivi russi cambiano le loro terminazioni in modo diverso al singolare e al plurale. Ad esempio, «книга» (libro) diventa «книгу» all'accusativo singolare, ma «книги» all'accusativo plurale. Puoi attivare singolare e plurale indipendentemente per ogni caso.",
       },
     ],
   },
@@ -1236,7 +1270,8 @@ const ru: PracticeTranslations = {
   breadcrumbAria: 'Навигационная цепочка',
   breadcrumb: { home: 'Главная', practice: 'Практика' },
   h1: 'Практика склонений',
-  subtitle: 'Проверьте свои знания падежей русских существительных с помощью настраиваемого теста. Выберите падежи и рода, затем ответьте на 10 вопросов.',
+  subtitle:
+    'Проверьте свои знания падежей русских существительных с помощью настраиваемого теста. Выберите падежи и рода, затем ответьте на 10 вопросов.',
   config: {
     title: 'Настройте тест',
     casesLabel: 'Падежи',
@@ -1276,27 +1311,33 @@ const ru: PracticeTranslations = {
     items: [
       {
         question: 'Как работает этот тест по склонению русских существительных?',
-        answer: 'Выберите падежи (винительный, родительный, дательный, творительный, предложный) и роды (мужской, женский, средний), которые хотите практиковать. Тест генерирует 10 вопросов с выбором ответа из базы более 400 русских существительных.',
+        answer:
+          'Выберите падежи (винительный, родительный, дательный, творительный, предложный) и роды (мужской, женский, средний), которые хотите практиковать. Тест генерирует 10 вопросов с выбором ответа из базы более 400 русских существительных.',
       },
       {
         question: 'Какие 6 падежей есть в русском языке?',
-        answer: 'В русском языке 6 падежей: Именительный, Винительный, Родительный, Дательный, Творительный и Предложный. Этот тест охватывает все падежи, кроме Именительного, так как это словарная форма.',
+        answer:
+          'В русском языке 6 падежей: Именительный, Винительный, Родительный, Дательный, Творительный и Предложный. Этот тест охватывает все падежи, кроме Именительного, так как это словарная форма.',
       },
       {
         question: 'Сколько слов доступно в тесте?',
-        answer: 'Тест использует базу данных из более чем 400 русских существительных мужского, женского и среднего рода. Каждое слово полностью просклонено во всех 6 падежах в единственном и множественном числе.',
+        answer:
+          'Тест использует базу данных из более чем 400 русских существительных мужского, женского и среднего рода. Каждое слово полностью просклонено во всех 6 падежах в единственном и множественном числе.',
       },
       {
         question: 'Этот тест бесплатный?',
-        answer: 'Да, этот тест полностью бесплатный и не требует регистрации. Вы можете проходить столько тестов, сколько хотите. Для мобильной практики скачайте приложение Russian Cases with Anna.',
+        answer:
+          'Да, этот тест полностью бесплатный и не требует регистрации. Вы можете проходить столько тестов, сколько хотите. Для мобильной практики скачайте приложение Russian Cases with Anna.',
       },
       {
         question: 'Как практиковать определённые падежи?',
-        answer: 'Используйте панель настройки выше, чтобы выбрать именно те падежи, которые хотите отработать. Начинающие могут начать с Винительного и Родительного, продвинутые — с Творительного и Предложного.',
+        answer:
+          'Используйте панель настройки выше, чтобы выбрать именно те падежи, которые хотите отработать. Начинающие могут начать с Винительного и Родительного, продвинутые — с Творительного и Предложного.',
       },
       {
         question: 'В чём разница между склонением в единственном и множественном числе?',
-        answer: 'Русские существительные меняют окончания по-разному в единственном и множественном числе. Например, «книга» в Винительном единственного числа — «книгу», а во множественном — «книги».',
+        answer:
+          'Русские существительные меняют окончания по-разному в единственном и множественном числе. Например, «книга» в Винительном единственного числа — «книгу», а во множественном — «книги».',
       },
     ],
   },

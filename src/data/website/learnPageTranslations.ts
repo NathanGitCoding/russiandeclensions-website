@@ -77,11 +77,14 @@ const en: LearnPageTranslations = {
       'Top 10 Mistakes English Speakers Make with Russian Cases (And How to Fix Them)',
     'how-to-practice-russian-cases': 'How to Practice Russian Cases: 5 Proven Methods',
     'best-free-resources-learn-russian': '15 Best Free Resources to Learn Russian in 2026',
-    'russian-cases-explained-beginners-guide': 'Russian Cases Explained Simply: A Beginner\'s Visual Guide',
+    'russian-cases-explained-beginners-guide':
+      "Russian Cases Explained Simply: A Beginner's Visual Guide",
     'best-apps-learn-russian-grammar': 'Best Apps to Learn Russian Grammar in 2026 (Honest Review)',
     'how-long-learn-russian': 'How Long Does It Take to Learn Russian? (Realistic Timeline)',
-    'torfl-trki-russian-language-exam-guide': 'TORFL Exam (ТРКИ): Complete Guide to the Russian Language Proficiency Test',
-    'russian-prepositions-cases-cheat-sheet': 'Russian Prepositions & Cases Cheat Sheet: Which Case After Every Preposition',
+    'torfl-trki-russian-language-exam-guide':
+      'TORFL Exam (ТРКИ): Complete Guide to the Russian Language Proficiency Test',
+    'russian-prepositions-cases-cheat-sheet':
+      'Russian Prepositions & Cases Cheat Sheet: Which Case After Every Preposition',
   },
   practiceQuiz: {
     title: 'Practice Quiz',
@@ -126,12 +129,17 @@ const fr: LearnPageTranslations = {
     'top-10-russian-case-mistakes':
       'Top 10 des erreurs des anglophones avec les cas russes (et comment les corriger)',
     'how-to-practice-russian-cases': 'Comment pratiquer les cas russes : 5 méthodes éprouvées',
-    'best-free-resources-learn-russian': '15 meilleures ressources gratuites pour apprendre le russe en 2026',
-    'russian-cases-explained-beginners-guide': 'Les cas russes expliqués simplement : guide visuel pour débutants',
-    'best-apps-learn-russian-grammar': 'Meilleures applis pour apprendre la grammaire russe en 2026 (Revue honnête)',
+    'best-free-resources-learn-russian':
+      '15 meilleures ressources gratuites pour apprendre le russe en 2026',
+    'russian-cases-explained-beginners-guide':
+      'Les cas russes expliqués simplement : guide visuel pour débutants',
+    'best-apps-learn-russian-grammar':
+      'Meilleures applis pour apprendre la grammaire russe en 2026 (Revue honnête)',
     'how-long-learn-russian': 'Combien de temps faut-il pour apprendre le russe ? (Délai réaliste)',
-    'torfl-trki-russian-language-exam-guide': 'Examen TORFL (ТРКИ) : guide complet du test de russe',
-    'russian-prepositions-cases-cheat-sheet': 'Aide-mémoire prépositions et cas russes : quel cas après chaque préposition',
+    'torfl-trki-russian-language-exam-guide':
+      'Examen TORFL (ТРКИ) : guide complet du test de russe',
+    'russian-prepositions-cases-cheat-sheet':
+      'Aide-mémoire prépositions et cas russes : quel cas après chaque préposition',
   },
   practiceQuiz: {
     title: 'Quiz de pratique',
@@ -174,12 +182,16 @@ const tr: LearnPageTranslations = {
     'top-10-russian-case-mistakes':
       'İngilizce konuşanların Rusça hallerle yaptığı 10 hata (ve nasıl düzeltilir)',
     'how-to-practice-russian-cases': 'Rusça halleri nasıl pratik edersiniz: 5 kanıtlanmış yöntem',
-    'best-free-resources-learn-russian': '2026\'da Rusça öğrenmek için en iyi 15 ücretsiz kaynak',
-    'russian-cases-explained-beginners-guide': 'Rusça haller basitçe açıklandı: Yeni başlayanlar için görsel rehber',
-    'best-apps-learn-russian-grammar': 'Rusça grameri öğrenmek için en iyi uygulamalar 2026 (Dürüst inceleme)',
+    'best-free-resources-learn-russian': "2026'da Rusça öğrenmek için en iyi 15 ücretsiz kaynak",
+    'russian-cases-explained-beginners-guide':
+      'Rusça haller basitçe açıklandı: Yeni başlayanlar için görsel rehber',
+    'best-apps-learn-russian-grammar':
+      'Rusça grameri öğrenmek için en iyi uygulamalar 2026 (Dürüst inceleme)',
     'how-long-learn-russian': 'Rusçayı Öğrenmek Ne Kadar Sürer? (Gerçekçi Zaman Çizelgesi)',
-    'torfl-trki-russian-language-exam-guide': 'TORFL Sınavı (ТРКИ): Rusça Yeterlilik Testi Tam Rehberi',
-    'russian-prepositions-cases-cheat-sheet': 'Rusça edatlar ve haller: Her edattan sonra hangi hal kullanılır',
+    'torfl-trki-russian-language-exam-guide':
+      'TORFL Sınavı (ТРКИ): Rusça Yeterlilik Testi Tam Rehberi',
+    'russian-prepositions-cases-cheat-sheet':
+      'Rusça edatlar ve haller: Her edattan sonra hangi hal kullanılır',
   },
   practiceQuiz: {
     title: 'Alıştırma Testi',
@@ -225,11 +237,15 @@ const de: LearnPageTranslations = {
       'Top 10 Fehler von Englischsprechern bei russischen Fällen (und wie man sie behebt)',
     'how-to-practice-russian-cases': 'Russische Fälle üben: 5 bewährte Methoden',
     'best-free-resources-learn-russian': '15 beste kostenlose Ressourcen zum Russischlernen 2026',
-    'russian-cases-explained-beginners-guide': 'Russische Fälle einfach erklärt: Ein visueller Leitfaden für Anfänger',
-    'best-apps-learn-russian-grammar': 'Beste Apps zum Russisch-Grammatiklernen 2026 (Ehrliche Bewertung)',
+    'russian-cases-explained-beginners-guide':
+      'Russische Fälle einfach erklärt: Ein visueller Leitfaden für Anfänger',
+    'best-apps-learn-russian-grammar':
+      'Beste Apps zum Russisch-Grammatiklernen 2026 (Ehrliche Bewertung)',
     'how-long-learn-russian': 'Wie lange dauert es, Russisch zu lernen? (Realistischer Zeitplan)',
-    'torfl-trki-russian-language-exam-guide': 'TORFL-Prüfung (ТРКИ): Kompletter Leitfaden zum Russisch-Zertifikat',
-    'russian-prepositions-cases-cheat-sheet': 'Russische Präpositionen und Fälle: Welcher Fall nach jeder Präposition',
+    'torfl-trki-russian-language-exam-guide':
+      'TORFL-Prüfung (ТРКИ): Kompletter Leitfaden zum Russisch-Zertifikat',
+    'russian-prepositions-cases-cheat-sheet':
+      'Russische Präpositionen und Fälle: Welcher Fall nach jeder Präposition',
   },
   practiceQuiz: {
     title: 'Übungsquiz',
@@ -275,12 +291,16 @@ const pl: LearnPageTranslations = {
     'top-10-russian-case-mistakes':
       'Top 10 błędów osób anglojęzycznych w rosyjskich przypadkach (i jak je naprawić)',
     'how-to-practice-russian-cases': 'Jak ćwiczyć rosyjskie przypadki: 5 sprawdzonych metod',
-    'best-free-resources-learn-russian': '15 najlepszych darmowych zasobów do nauki rosyjskiego w 2026',
-    'russian-cases-explained-beginners-guide': 'Rosyjskie przypadki wyjaśnione prosto: przewodnik wizualny dla początkujących',
-    'best-apps-learn-russian-grammar': 'Najlepsze aplikacje do nauki gramatyki rosyjskiej w 2026 (Szczera recenzja)',
+    'best-free-resources-learn-russian':
+      '15 najlepszych darmowych zasobów do nauki rosyjskiego w 2026',
+    'russian-cases-explained-beginners-guide':
+      'Rosyjskie przypadki wyjaśnione prosto: przewodnik wizualny dla początkujących',
+    'best-apps-learn-russian-grammar':
+      'Najlepsze aplikacje do nauki gramatyki rosyjskiej w 2026 (Szczera recenzja)',
     'how-long-learn-russian': 'Ile czasu zajmuje nauka rosyjskiego? (Realistyczny harmonogram)',
     'torfl-trki-russian-language-exam-guide': 'Egzamin TORFL (ТРКИ): Kompletny przewodnik',
-    'russian-prepositions-cases-cheat-sheet': 'Rosyjskie przyimki i przypadki: Który przypadek po każdym przyimku',
+    'russian-prepositions-cases-cheat-sheet':
+      'Rosyjskie przyimki i przypadki: Który przypadek po każdym przyimku',
   },
   practiceQuiz: {
     title: 'Quiz praktyczny',
@@ -324,12 +344,16 @@ const ru: LearnPageTranslations = {
     'top-10-russian-case-mistakes':
       '10 ошибок англоговорящих в русских падежах (и как их исправить)',
     'how-to-practice-russian-cases': 'Как практиковать русские падежи: 5 проверенных методов',
-    'best-free-resources-learn-russian': '15 лучших бесплатных ресурсов для изучения русского в 2026',
-    'russian-cases-explained-beginners-guide': 'Русские падежи объяснены просто: визуальный гид для начинающих',
-    'best-apps-learn-russian-grammar': 'Лучшие приложения для изучения русской грамматики в 2026 (Честный обзор)',
+    'best-free-resources-learn-russian':
+      '15 лучших бесплатных ресурсов для изучения русского в 2026',
+    'russian-cases-explained-beginners-guide':
+      'Русские падежи объяснены просто: визуальный гид для начинающих',
+    'best-apps-learn-russian-grammar':
+      'Лучшие приложения для изучения русской грамматики в 2026 (Честный обзор)',
     'how-long-learn-russian': 'Сколько времени нужно, чтобы выучить русский? (Реалистичные сроки)',
     'torfl-trki-russian-language-exam-guide': 'Экзамен TORFL (ТРКИ): полный гид',
-    'russian-prepositions-cases-cheat-sheet': 'Русские предлоги и падежи: какой падеж после каждого предлога',
+    'russian-prepositions-cases-cheat-sheet':
+      'Русские предлоги и падежи: какой падеж после каждого предлога',
   },
   practiceQuiz: {
     title: 'Тренировочный тест',
@@ -375,11 +399,14 @@ const es: LearnPageTranslations = {
       'Top 10 errores de angloparlantes con los casos rusos (y cómo corregirlos)',
     'how-to-practice-russian-cases': 'Cómo practicar los casos rusos: 5 métodos probados',
     'best-free-resources-learn-russian': '15 mejores recursos gratuitos para aprender ruso en 2026',
-    'russian-cases-explained-beginners-guide': 'Casos rusos explicados de forma simple: guía visual para principiantes',
-    'best-apps-learn-russian-grammar': 'Mejores apps para aprender gramática rusa en 2026 (Reseña honesta)',
+    'russian-cases-explained-beginners-guide':
+      'Casos rusos explicados de forma simple: guía visual para principiantes',
+    'best-apps-learn-russian-grammar':
+      'Mejores apps para aprender gramática rusa en 2026 (Reseña honesta)',
     'how-long-learn-russian': '¿Cuánto tiempo se tarda en aprender ruso? (Cronología realista)',
     'torfl-trki-russian-language-exam-guide': 'Examen TORFL (ТРКИ): guía completa del test de ruso',
-    'russian-prepositions-cases-cheat-sheet': 'Chuleta de preposiciones y casos rusos: qué caso después de cada preposición',
+    'russian-prepositions-cases-cheat-sheet':
+      'Chuleta de preposiciones y casos rusos: qué caso después de cada preposición',
   },
   practiceQuiz: {
     title: 'Cuestionario de práctica',
@@ -413,7 +440,7 @@ const it: LearnPageTranslations = {
       'Preposizioni russe e casi: quale preposizione richiede quale caso?',
     'russian-genitive-case': 'Caso genitivo russo: regole, terminazioni e 32 esempi',
     'russian-dative-case': 'Caso dativo russo: come dire «a» e «per» in russo',
-    'russian-prepositional-case': 'Caso preposizionale russo: l\'unico caso che non sta mai da solo',
+    'russian-prepositional-case': "Caso preposizionale russo: l'unico caso che non sta mai da solo",
     'russian-accusative-case':
       'Caso accusativo russo: complementi oggetto, animato vs inanimato e verbi di moto',
     'russian-instrumental-case':
@@ -424,12 +451,17 @@ const it: LearnPageTranslations = {
     'top-10-russian-case-mistakes':
       'Top 10 errori degli anglofoni con i casi russi (e come correggerli)',
     'how-to-practice-russian-cases': 'Come esercitarsi sui casi russi: 5 metodi collaudati',
-    'best-free-resources-learn-russian': '15 migliori risorse gratuite per imparare il russo nel 2026',
-    'russian-cases-explained-beginners-guide': 'Casi russi spiegati in modo semplice: guida visiva per principianti',
-    'best-apps-learn-russian-grammar': 'Migliori app per imparare la grammatica russa nel 2026 (Recensione onesta)',
-    'how-long-learn-russian': 'Quanto tempo ci vuole per imparare il russo? (Cronologia realistica)',
+    'best-free-resources-learn-russian':
+      '15 migliori risorse gratuite per imparare il russo nel 2026',
+    'russian-cases-explained-beginners-guide':
+      'Casi russi spiegati in modo semplice: guida visiva per principianti',
+    'best-apps-learn-russian-grammar':
+      'Migliori app per imparare la grammatica russa nel 2026 (Recensione onesta)',
+    'how-long-learn-russian':
+      'Quanto tempo ci vuole per imparare il russo? (Cronologia realistica)',
     'torfl-trki-russian-language-exam-guide': 'Esame TORFL (ТРКИ): guida completa al test di russo',
-    'russian-prepositions-cases-cheat-sheet': 'Prontuario preposizioni e casi russi: quale caso dopo ogni preposizione',
+    'russian-prepositions-cases-cheat-sheet':
+      'Prontuario preposizioni e casi russi: quale caso dopo ogni preposizione',
   },
   practiceQuiz: {
     title: 'Quiz di esercizio',
@@ -459,8 +491,7 @@ const pt: LearnPageTranslations = {
     'russian-cases-complete-guide': 'Guia completo dos casos russos',
     'dative-case-declension': 'Como declinar no dativo em russo',
     'russian-case-endings-cheatsheet': 'Terminações dos casos russos: o resumo definitivo',
-    'russian-prepositions-and-cases':
-      'Preposições russas e casos: que preposição rege que caso?',
+    'russian-prepositions-and-cases': 'Preposições russas e casos: que preposição rege que caso?',
     'russian-genitive-case': 'Caso genitivo russo: regras, terminações e 32 exemplos',
     'russian-dative-case': 'Caso dativo russo: como dizer «a» e «para» em russo',
     'russian-prepositional-case': 'Caso preposicional russo: o único caso que nunca fica sozinho',
@@ -474,12 +505,16 @@ const pt: LearnPageTranslations = {
     'top-10-russian-case-mistakes':
       'Top 10 erros de anglófonos com os casos russos (e como corrigir)',
     'how-to-practice-russian-cases': 'Como praticar os casos russos: 5 métodos comprovados',
-    'best-free-resources-learn-russian': '15 melhores recursos gratuitos para aprender russo em 2026',
-    'russian-cases-explained-beginners-guide': 'Casos russos explicados de forma simples: guia visual para iniciantes',
-    'best-apps-learn-russian-grammar': 'Melhores apps para aprender gramática russa em 2026 (Análise honesta)',
+    'best-free-resources-learn-russian':
+      '15 melhores recursos gratuitos para aprender russo em 2026',
+    'russian-cases-explained-beginners-guide':
+      'Casos russos explicados de forma simples: guia visual para iniciantes',
+    'best-apps-learn-russian-grammar':
+      'Melhores apps para aprender gramática russa em 2026 (Análise honesta)',
     'how-long-learn-russian': 'Quanto tempo demora a aprender russo? (Cronologia realista)',
     'torfl-trki-russian-language-exam-guide': 'Exame TORFL (ТРКИ): guia completo do teste de russo',
-    'russian-prepositions-cases-cheat-sheet': 'Resumo de preposições e casos russos: que caso após cada preposição',
+    'russian-prepositions-cases-cheat-sheet':
+      'Resumo de preposições e casos russos: que caso após cada preposição',
   },
   practiceQuiz: {
     title: 'Questionário de prática',
@@ -525,11 +560,15 @@ const nl: LearnPageTranslations = {
       'Top 10 fouten van Engelstaligen met Russische gevallen (en hoe ze te corrigeren)',
     'how-to-practice-russian-cases': 'Hoe Russische gevallen te oefenen: 5 bewezen methodes',
     'best-free-resources-learn-russian': '15 beste gratis bronnen om Russisch te leren in 2026',
-    'russian-cases-explained-beginners-guide': 'Russische gevallen eenvoudig uitgelegd: een visuele gids voor beginners',
-    'best-apps-learn-russian-grammar': 'Beste apps om Russische grammatica te leren in 2026 (Eerlijke recensie)',
+    'russian-cases-explained-beginners-guide':
+      'Russische gevallen eenvoudig uitgelegd: een visuele gids voor beginners',
+    'best-apps-learn-russian-grammar':
+      'Beste apps om Russische grammatica te leren in 2026 (Eerlijke recensie)',
     'how-long-learn-russian': 'Hoe lang duurt het om Russisch te leren? (Realistisch tijdschema)',
-    'torfl-trki-russian-language-exam-guide': 'TORFL-examen (ТРКИ): complete gids voor de Russische taalvaardigheidstest',
-    'russian-prepositions-cases-cheat-sheet': 'Russische voorzetsels en gevallen spiekbriefje: welk geval na elk voorzetsel',
+    'torfl-trki-russian-language-exam-guide':
+      'TORFL-examen (ТРКИ): complete gids voor de Russische taalvaardigheidstest',
+    'russian-prepositions-cases-cheat-sheet':
+      'Russische voorzetsels en gevallen spiekbriefje: welk geval na elk voorzetsel',
   },
   practiceQuiz: {
     title: 'Oefenquiz',

@@ -3,8 +3,7 @@ import type { LearnArticle } from '../learnArticles';
 /** Deutsche Übersetzung von `how-long-learn-russian` (EN-Quelle: `learnArticles.ts`). Kyrillisch unverändert. */
 export const howLongLearnRussianDe: LearnArticle = {
   slug: 'how-long-learn-russian',
-  title:
-    'Wie lange braucht man, um Russisch zu lernen? (realistischer Zeitplan)',
+  title: 'Wie lange braucht man, um Russisch zu lernen? (realistischer Zeitplan)',
   metaTitle:
     'Wie lange dauert Russisch lernen? Realistischer Zeitplan nach Niveau | Russian Cases with Anna',
   metaDescription:
@@ -32,12 +31,7 @@ export const howLongLearnRussianDe: LearnArticle = {
       content:
         'Das **Foreign Service Institute** teilt Sprachen für englischsprachige Lerner in 4 Schwierigkeitsstufen. Russisch ist **Kategorie IV** („super-schwer“), mit Griechisch, Polnisch und Türkisch. Schätzung: **1.100 Stunden intensiven Unterrichts** bis „Professional Working Proficiency“ (etwa CEFR B2/C1).\n\nWas die FSI-Zahlen verschweigen: Diese 1.100 h setzen **Vollzeit-Immersion** (~25 h/Woche Klasse + Hausaufgaben), erfahrene Lehrkräfte und strukturierte diplomatische Programme voraus. Viele Selbstlernende lernen 30–60 Minuten täglich — die Rechnung ändert sich stark.',
       table: {
-        headers: [
-          'Tempo',
-          'Std./Tag',
-          'Zeit bis ~1.100 h',
-          'Realistisches Niveau',
-        ],
+        headers: ['Tempo', 'Std./Tag', 'Zeit bis ~1.100 h', 'Realistisches Niveau'],
         rows: [
           ['FSI intensiv', '5–6 h', '~44 Wo. (10 Mon.)', 'B2/C1'],
           ['Fokussiertes Selbststudium', '2 h', '~18 Mon.', 'B1/B2'],
@@ -49,8 +43,7 @@ export const howLongLearnRussianDe: LearnArticle = {
     },
     {
       h2: 'Zeitplan nach CEFR-Niveau',
-      content:
-        'Besser die Reise in CEFR-Stufen teilen. Jedes Niveau hat klare Meilensteine.',
+      content: 'Besser die Reise in CEFR-Stufen teilen. Jedes Niveau hat klare Meilensteine.',
       subsections: [
         {
           h3: 'A1 — Überlebensrussisch (60–150 h)',
@@ -145,8 +138,7 @@ export const howLongLearnRussianDe: LearnArticle = {
         },
         {
           h3: '7. Motivation',
-          content:
-            'Persönliche Gründe (Partner, Job, Literatur) halten durch.',
+          content: 'Persönliche Gründe (Partner, Job, Literatur) halten durch.',
         },
       ],
     },
@@ -251,20 +243,16 @@ export const howLongLearnRussianDe: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      'Wie lange braucht man, um Russisch zu lernen? Ein realistischer Zeitplan',
-    description:
-      'Realistischer Zeitplan A1–C2, FSI, CEFR-Meilensteine, Faktoren, Tagesplan.',
+    headline: 'Wie lange braucht man, um Russisch zu lernen? Ein realistischer Zeitplan',
+    description: 'Realistischer Zeitplan A1–C2, FSI, CEFR-Meilensteine, Faktoren, Tagesplan.',
     datePublished: '2026-03-22',
     dateModified: '2026-03-22',
     author: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/how-long-learn-russian',
+      '@id': 'https://russiandeclensions.com/learn/articles/how-long-learn-russian',
     },
-    keywords:
-      'wie lange Russisch lernen, Russisch Zeitplan, Stunden Russisch, FSI Russisch',
+    keywords: 'wie lange Russisch lernen, Russisch Zeitplan, Stunden Russisch, FSI Russisch',
   },
 };

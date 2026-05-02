@@ -15,7 +15,10 @@ export default function LandingNavbar() {
   const isWords = pathname?.startsWith('/words') || pathname?.startsWith('/russian-declension');
 
   return (
-    <nav id="header" className="fixed left-0 right-0 top-0 z-[100] w-full border-b border-white/10 bg-[hsl(210,100%,50%)]/95 backdrop-blur-md">
+    <nav
+      id="header"
+      className="fixed top-0 right-0 left-0 z-[100] w-full border-b border-white/10 bg-[hsl(210,100%,50%)]/95 backdrop-blur-md"
+    >
       <div className="container mx-auto flex h-14 items-center justify-between gap-2 px-4 sm:h-16 sm:px-6">
         <Link
           href="/"
@@ -29,7 +32,7 @@ export default function LandingNavbar() {
           aria-label="Breadcrumb"
         >
           {isHome ? (
-            <span className="text-white font-semibold" aria-current="page">
+            <span className="font-semibold text-white" aria-current="page">
               {t.navbar.home}
             </span>
           ) : (
@@ -39,41 +42,32 @@ export default function LandingNavbar() {
           )}
           <span aria-hidden> / </span>
           {isLearn ? (
-            <span className="text-white font-semibold" aria-current="page">
+            <span className="font-semibold text-white" aria-current="page">
               {t.navbar.learn}
             </span>
           ) : (
-            <Link
-              href="/learn"
-              className="transition-colors hover:text-white"
-            >
+            <Link href="/learn" className="transition-colors hover:text-white">
               {t.navbar.learn}
-            </Link>
-          )}
-          <span aria-hidden> / </span>
-          {isPractice ? (
-            <span className="text-white font-semibold" aria-current="page">
-              {t.navbar.practice}
-            </span>
-          ) : (
-            <Link
-              href="/practice"
-              className="transition-colors hover:text-white"
-            >
-              {t.navbar.practice}
             </Link>
           )}
           <span aria-hidden> / </span>
           {isWords ? (
-            <span className="text-white font-semibold" aria-current="page">
+            <span className="font-semibold text-white" aria-current="page">
               {t.navbar.declinaisons}
             </span>
           ) : (
-            <Link
-              href="/words"
-              className="transition-colors hover:text-white"
-            >
+            <Link href="/words" className="transition-colors hover:text-white">
               {t.navbar.declinaisons}
+            </Link>
+          )}
+          <span aria-hidden> / </span>
+          {isPractice ? (
+            <span className="font-semibold text-white" aria-current="page">
+              {t.navbar.practice}
+            </span>
+          ) : (
+            <Link href="/practice" className="transition-colors hover:text-white">
+              {t.navbar.practice}
             </Link>
           )}
         </nav>

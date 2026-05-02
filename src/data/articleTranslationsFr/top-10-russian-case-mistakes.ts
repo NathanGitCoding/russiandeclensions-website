@@ -3,8 +3,7 @@ import type { LearnArticle } from '../learnArticles';
 /** Traduction française de l’article `top-10-russian-case-mistakes` (source EN : `learnArticles.ts`). Cyrillique des exemples copié à l’identique. */
 export const top10RussianCaseMistakesFr: LearnArticle = {
   slug: 'top-10-russian-case-mistakes',
-  title:
-    'Top 10 des erreurs des anglophones sur les cas russes (et comment les corriger)',
+  title: 'Top 10 des erreurs des anglophones sur les cas russes (et comment les corriger)',
   metaTitle:
     'Top 10 des erreurs de cas en russe (anglophones) | Corrigez votre grammaire | Russian Cases with Anna',
   metaDescription:
@@ -19,8 +18,7 @@ export const top10RussianCaseMistakesFr: LearnArticle = {
   h1: 'Top 10 des erreurs des anglophones sur les cas russes (et comment les corriger)',
   heroImage: {
     src: '/articles/top-russian-case-errors-and-mistakes-by-english-speakers.webp',
-    alt:
-      'Principales erreurs et fautes de cas en russe commises par les anglophones',
+    alt: 'Principales erreurs et fautes de cas en russe commises par les anglophones',
     width: 1200,
     height: 630,
   },
@@ -45,8 +43,7 @@ export const top10RussianCaseMistakesFr: LearnArticle = {
   internalLinks: [
     {
       href: '/learn/lessons/russian-cases-complete-guide',
-      label:
-        'Guide complet des cas russes : les 6 cas expliqués avec des exemples',
+      label: 'Guide complet des cas russes : les 6 cas expliqués avec des exemples',
     },
     {
       href: '/learn/articles/russian-case-endings-cheatsheet',
@@ -54,8 +51,7 @@ export const top10RussianCaseMistakesFr: LearnArticle = {
     },
     {
       href: '/learn/articles/how-to-practice-russian-cases',
-      label:
-        'Comment s’entraîner aux cas russes : 5 méthodes qui marchent',
+      label: 'Comment s’entraîner aux cas russes : 5 méthodes qui marchent',
     },
   ],
   sections: [
@@ -173,8 +169,7 @@ export const top10RussianCaseMistakesFr: LearnArticle = {
     },
     {
       h2: 'Référence rapide : les 10 erreurs en un coup d’œil',
-      content:
-        'Utilisez ce tableau comme checklist en relisant votre russe écrit ou oral :',
+      content: 'Utilisez ce tableau comme checklist en relisant votre russe écrit ou oral :',
       table: {
         caption: 'Synthèse des 10 erreurs de cas les plus courantes',
         headers: ['#', 'Schéma d’erreur', 'Faux', 'Correct', 'Règle clé'],
@@ -223,13 +218,7 @@ export const top10RussianCaseMistakesFr: LearnArticle = {
             'много женщин',
             'Féminins en -а → terminaison zéro au gén. pl.',
           ],
-          [
-            '#8',
-            'Nombres : même cas partout',
-            'пять стол',
-            'пять столов',
-            '5+ → génitif pluriel',
-          ],
+          ['#8', 'Nombres : même cas partout', 'пять стол', 'пять столов', '5+ → génitif pluriel'],
           [
             '#9',
             '-ий/-ие/-ия → -е',
@@ -280,8 +269,7 @@ export const top10RussianCaseMistakesFr: LearnArticle = {
     },
     {
       h2: 'Auto-test : combien d’erreurs faites-vous ?',
-      content:
-        'Parcourez honnêtement le top 10 et notez-vous :',
+      content: 'Parcourez honnêtement le top 10 et notez-vous :',
       bullets: [
         '**0–2 erreurs :** niveau avancé — concentrez-vous sur les erreurs bonus et le peaufinage',
         '**3–5 erreurs :** intermédiaire — prenez les 3 plus fréquentes et travaillez-les en premier',
@@ -317,8 +305,7 @@ export const top10RussianCaseMistakesFr: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      'Top 10 des erreurs des anglophones sur les cas russes (et comment les corriger)',
+    headline: 'Top 10 des erreurs des anglophones sur les cas russes (et comment les corriger)',
     description:
       'Les 10 erreurs de cas les plus fréquentes chez les anglophones — diagnostiquées et corrigées. Exemples, causes, corrections.',
     datePublished: '2026-03-12',
@@ -327,8 +314,7 @@ export const top10RussianCaseMistakesFr: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/top-10-russian-case-mistakes',
+      '@id': 'https://russiandeclensions.com/learn/articles/top-10-russian-case-mistakes',
     },
     keywords:
       'erreurs cas russes, grammaire russe anglophones, difficulté cas russes, fautes grammaire russe',

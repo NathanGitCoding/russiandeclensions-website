@@ -3,10 +3,8 @@ import type { LearnArticle } from '../learnArticles';
 /** Deutsche Übersetzung des Artikels `how-to-practice-russian-cases` (EN-Quelle: `learnArticles.ts`). Kyrillisch zeichengenau übernommen. */
 export const howToPracticeRussianCasesDe: LearnArticle = {
   slug: 'how-to-practice-russian-cases',
-  title:
-    'Russische Fälle üben: 5 bewährte Methoden',
-  metaTitle:
-    'Russische Fälle üben: 5 Methoden, damit sie endlich sitzen | Russian Cases with Anna',
+  title: 'Russische Fälle üben: 5 bewährte Methoden',
+  metaTitle: 'Russische Fälle üben: 5 Methoden, damit sie endlich sitzen | Russian Cases with Anna',
   metaDescription:
     'Evidenzbasierte Techniken zum Merken russischer Deklinationen: SRS, gezielte Übungen, aktives Lesen, Schreiben und Sprechen. 12-Wochen-Plan, Vergleichstabelle, typische Übungsfehler.',
   keywords: [
@@ -20,8 +18,7 @@ export const howToPracticeRussianCasesDe: LearnArticle = {
   h1: 'Russische Fälle üben: 5 Methoden, damit sie endlich sitzen',
   heroImage: {
     src: '/articles/what-is-the-best-russian-grammar-app-to-learn-cases.webp',
-    alt:
-      'Beste Apps für russische Grammatik zum Üben der Fälle – Vergleichstabelle',
+    alt: 'Beste Apps für russische Grammatik zum Üben der Fälle – Vergleichstabelle',
     width: 1200,
     height: 630,
   },
@@ -38,8 +35,7 @@ export const howToPracticeRussianCasesDe: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      'Russische Fälle üben: 5 Methoden, damit sie endlich sitzen',
+    headline: 'Russische Fälle üben: 5 Methoden, damit sie endlich sitzen',
     description:
       'Evidenzbasierte Techniken zum Merken russischer Deklinationen: SRS, Übungen, aktives Lesen, Schreiben, Sprechen. 12-Wochen-Plan und typische Fehler.',
     datePublished: '2026-03-12',
@@ -48,8 +44,7 @@ export const howToPracticeRussianCasesDe: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/how-to-practice-russian-cases',
+      '@id': 'https://russiandeclensions.com/learn/articles/how-to-practice-russian-cases',
     },
   },
   sections: [
@@ -81,8 +76,7 @@ export const howToPracticeRussianCasesDe: LearnArticle = {
     },
     {
       h2: 'Methode 2: satzbasierte Übungen zu einem Fall',
-      content:
-        'Gezieltes Training, das jeweils ein Kasusmuster isoliert.',
+      content: 'Gezieltes Training, das jeweils ein Kasusmuster isoliert.',
       subsections: [
         {
           h3: 'Warum es funktioniert',
@@ -103,8 +97,7 @@ export const howToPracticeRussianCasesDe: LearnArticle = {
     },
     {
       h2: 'Methode 3: Aktives Lesen mit Kasusidentifikation',
-      content:
-        'Intuition durch massiven kontextuellen Input aufbauen.',
+      content: 'Intuition durch massiven kontextuellen Input aufbauen.',
       subsections: [
         {
           h3: 'Warum es funktioniert',
@@ -125,8 +118,7 @@ export const howToPracticeRussianCasesDe: LearnArticle = {
     },
     {
       h2: 'Methode 4: Schreiben mit Selbstkorrektur',
-      content:
-        'Bewusstes Anwenden der Regeln stärkt aktive Grammatik.',
+      content: 'Bewusstes Anwenden der Regeln stärkt aktive Grammatik.',
       subsections: [
         {
           h3: 'Warum es funktioniert',
@@ -172,13 +164,7 @@ export const howToPracticeRussianCasesDe: LearnArticle = {
         'Jede Methode zielt auf einen anderen Aspekt. Die besten Lernenden kombinieren mehrere:',
       table: {
         caption: 'Methodenvergleich: Wirksamkeit, Zeit, Niveau',
-        headers: [
-          'Methode',
-          'Wirksamkeit',
-          'Zeitaufwand',
-          'Bestes Niveau',
-          'Besonders gut für',
-        ],
+        headers: ['Methode', 'Wirksamkeit', 'Zeitaufwand', 'Bestes Niveau', 'Besonders gut für'],
         boldColumnIndices: [0, 4],
         rows: [
           [
@@ -228,12 +214,7 @@ export const howToPracticeRussianCasesDe: LearnArticle = {
         'Ein strukturierter Plan von erstem Fallbewusstsein bis sicherem Gebrauch in 12 Wochen. Jede Phase fokussiert ein oder zwei Fälle mit konkreten täglichen Übungen:',
       table: {
         caption: 'Übungsplan Woche für Woche',
-        headers: [
-          'Wochen',
-          'Fall-Fokus',
-          'Kernaktivitäten',
-          'Tägliche Übung',
-        ],
+        headers: ['Wochen', 'Fall-Fokus', 'Kernaktivitäten', 'Tägliche Übung'],
         boldColumnIndices: [0, 3],
         rows: [
           [
@@ -334,8 +315,7 @@ export const howToPracticeRussianCasesDe: LearnArticle = {
     },
     {
       href: '/learn/articles/russian-accusative-case',
-      label:
-        'Russischer Akkusativ: direkte Objekte und Bewegungsverben',
+      label: 'Russischer Akkusativ: direkte Objekte und Bewegungsverben',
     },
     {
       href: '/learn/articles/russian-dative-case',

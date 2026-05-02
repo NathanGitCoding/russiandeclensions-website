@@ -19,12 +19,14 @@ import { isIndeclinableWord } from '../src/lib/indeclinableWords';
 function slugifyCyrillic(baseForm: string): string {
   if (!baseForm || !baseForm.trim()) return '';
   const transliterated = transliterate(baseForm.trim(), BGN_PCGN);
-  return transliterated
-    .toLowerCase()
-    .replace(/\s+/g, '-')
-    .replace(/[^a-z0-9-]/g, '')
-    .replace(/-+/g, '-')
-    .replace(/^-|-$/g, '') || '';
+  return (
+    transliterated
+      .toLowerCase()
+      .replace(/\s+/g, '-')
+      .replace(/[^a-z0-9-]/g, '')
+      .replace(/-+/g, '-')
+      .replace(/^-|-$/g, '') || ''
+  );
 }
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -36,7 +38,9 @@ const SENTENCES_OUTPUT_PATH = path.join(PROJECT_ROOT, 'data', 'sentences.json');
 function loadEnvLocal(): void {
   const envPath = path.join(PROJECT_ROOT, '.env.local');
   if (!fs.existsSync(envPath)) {
-    console.error('❌ Fichier .env.local introuvable. Créez-le avec NEXT_PUBLIC_SUPABASE_URL et NEXT_PUBLIC_SUPABASE_ANON_KEY.');
+    console.error(
+      '❌ Fichier .env.local introuvable. Créez-le avec NEXT_PUBLIC_SUPABASE_URL et NEXT_PUBLIC_SUPABASE_ANON_KEY.'
+    );
     process.exit(1);
   }
   const content = fs.readFileSync(envPath, 'utf-8');
@@ -47,7 +51,10 @@ function loadEnvLocal(): void {
       if (eq > 0) {
         const key = trimmed.slice(0, eq).trim();
         let value = trimmed.slice(eq + 1).trim();
-        if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
+        if (
+          (value.startsWith('"') && value.endsWith('"')) ||
+          (value.startsWith("'") && value.endsWith("'"))
+        ) {
           value = value.slice(1, -1);
         }
         process.env[key] = value;
@@ -62,7 +69,9 @@ const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 
 if (!supabaseUrl || !supabaseKey) {
-  console.error('❌ Variables NEXT_PUBLIC_SUPABASE_URL et NEXT_PUBLIC_SUPABASE_ANON_KEY requises dans .env.local');
+  console.error(
+    '❌ Variables NEXT_PUBLIC_SUPABASE_URL et NEXT_PUBLIC_SUPABASE_ANON_KEY requises dans .env.local'
+  );
   process.exit(1);
 }
 
@@ -270,7 +279,14 @@ function stripBrackets(s: string | null | undefined): string {
 }
 
 /** Format : { [wordId]: { [caseKey]: { sentence_ru, sentence_en, ... } } } — une phrase par cas (ID le plus faible). */
-type SentenceEntry = { sentence_ru: string; sentence_en: string; sentence_trad_fr?: string; sentence_trad_de?: string; sentence_trad_pl?: string; sentence_trad_tr?: string };
+type SentenceEntry = {
+  sentence_ru: string;
+  sentence_en: string;
+  sentence_trad_fr?: string;
+  sentence_trad_de?: string;
+  sentence_trad_pl?: string;
+  sentence_trad_tr?: string;
+};
 type SentencesExport = Record<string, Record<string, SentenceEntry>>;
 
 async function exportSentences(wordIds: number[]): Promise<SentencesExport> {
@@ -313,7 +329,9 @@ async function exportSentences(wordIds: number[]): Promise<SentencesExport> {
       const batchIds_ = sentenceIds.slice(tOffset, tOffset + BATCH_SIZE);
       const { data: trans } = await supabase
         .from('b02_sentence_translations')
-        .select('sentence_id, sentence_trad_fr, sentence_trad_de, sentence_trad_pl, sentence_trad_tr')
+        .select(
+          'sentence_id, sentence_trad_fr, sentence_trad_de, sentence_trad_pl, sentence_trad_tr'
+        )
         .in('sentence_id', batchIds_);
 
       for (const t of (trans ?? []) as DbSentenceTranslation[]) {
@@ -363,7 +381,10 @@ async function main(): Promise<void> {
   console.log('📥 Export Supabase → data/words.json + data/sentences.json...');
 
   const exportData = await exportWords();
-  const legacyCount = '_legacy' in exportData ? Object.keys(exportData['_legacy'] as Record<string, string>).length : 0;
+  const legacyCount =
+    '_legacy' in exportData
+      ? Object.keys(exportData['_legacy'] as Record<string, string>).length
+      : 0;
   const wordCount = Object.keys(exportData).length - (legacyCount > 0 ? 1 : 0);
 
   const dir = path.dirname(OUTPUT_PATH);

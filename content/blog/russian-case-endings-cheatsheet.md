@@ -1,10 +1,18 @@
 ---
-title: "Russian Case Endings Cheat Sheet | Complete Declension Chart | Russian Cases with Anna"
-description: "Free Russian case endings cheat sheet: noun declension table, adjective endings, pronouns (мой, этот), prepositions by case. All 6 cases, color-coded chart. Print or bookmark."
-slug: "russian-case-endings-cheatsheet"
-date: "2025-03-13"
-keywords: ["russian case endings","russian case endings chart","russian declension table","russian noun endings by case","russian cases cheat sheet","russian adjective declension"]
-image: "/articles/russian-cases-endings-master-chart.webp"
+title: 'Russian Case Endings Cheat Sheet | Complete Declension Chart | Russian Cases with Anna'
+description: 'Free Russian case endings cheat sheet: noun declension table, adjective endings, pronouns (мой, этот), prepositions by case. All 6 cases, color-coded chart. Print or bookmark.'
+slug: 'russian-case-endings-cheatsheet'
+date: '2025-03-13'
+keywords:
+  [
+    'russian case endings',
+    'russian case endings chart',
+    'russian declension table',
+    'russian noun endings by case',
+    'russian cases cheat sheet',
+    'russian adjective declension',
+  ]
+image: '/articles/russian-cases-endings-master-chart.webp'
 ---
 
 Mastering Russian case endings is the backbone of Russian grammar. Whether you are a complete beginner trying to understand what cases are, or an intermediate learner who keeps mixing up endings, this cheat sheet gives you every declension table you need in one place.
@@ -33,25 +41,25 @@ Hard stems (most common) and soft stems are shown separately.
 
 **N. (-о)** = Neuter hard (окно, слово). **N. (-е)** = Neuter soft (море, поле).
 
-*Noun endings by case, gender, and number*
+_Noun endings by case, gender, and number_
 
-| Case | M. Hard | M. Soft | F. Hard (-а) | F. Soft (-я) | F. (-ь) | N. (-о) | N. (-е) |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| SINGULAR |  |  |  |  |  |  |  |
-| Nominative | -Ø | -й / -ь | -а | -я | -ь | -о | -е |
-| Genitive | -а | -я | -ы / -и | -и | -и | -а | -я |
-| Dative | -у | -ю | -е / -и | -е / -и | -и | -у | -ю |
-| Accusative (inanim.) | = Nom. | = Nom. | -у | -ю | -ь | = Nom. | = Nom. |
-| Accusative (anim.) | = Gen. | = Gen. | -у | -ю | -ь | = Nom. | = Nom. |
-| Instrumental | -ом | -ем / -ём | -ой / -ей | -ей | -ью | -ом | -ем |
-| Prepositional | -е | -е / -и | -е / -и | -е / -и | -и | -е | -е |
-| PLURAL |  |  |  |  |  |  |  |
-| Nominative | -ы / -и | -и | -ы / -и | -и | -и | -а / -я | -я |
-| Genitive | -ов / -ев | -ев / -ей | -Ø / -ей | -ей | -ей | -Ø / -ей | -ей |
-| Dative | -ам | -ям | -ам | -ям | -ям | -ам | -ям |
-| Accusative | = Nom./Gen. | = Nom./Gen. | = Nom./Gen. | = Nom./Gen. | = Nom./Gen. | = Nom./Gen. | = Nom./Gen. |
-| Instrumental | -ами | -ями | -ами | -ями | -ями | -ами | -ями |
-| Prepositional | -ах | -ях | -ах | -ях | -ях | -ах | -ях |
+| Case                 | M. Hard     | M. Soft     | F. Hard (-а) | F. Soft (-я) | F. (-ь)     | N. (-о)     | N. (-е)     |
+| -------------------- | ----------- | ----------- | ------------ | ------------ | ----------- | ----------- | ----------- |
+| SINGULAR             |             |             |              |              |             |             |             |
+| Nominative           | -Ø          | -й / -ь     | -а           | -я           | -ь          | -о          | -е          |
+| Genitive             | -а          | -я          | -ы / -и      | -и           | -и          | -а          | -я          |
+| Dative               | -у          | -ю          | -е / -и      | -е / -и      | -и          | -у          | -ю          |
+| Accusative (inanim.) | = Nom.      | = Nom.      | -у           | -ю           | -ь          | = Nom.      | = Nom.      |
+| Accusative (anim.)   | = Gen.      | = Gen.      | -у           | -ю           | -ь          | = Nom.      | = Nom.      |
+| Instrumental         | -ом         | -ем / -ём   | -ой / -ей    | -ей          | -ью         | -ом         | -ем         |
+| Prepositional        | -е          | -е / -и     | -е / -и      | -е / -и      | -и          | -е          | -е          |
+| PLURAL               |             |             |              |              |             |             |             |
+| Nominative           | -ы / -и     | -и          | -ы / -и      | -и           | -и          | -а / -я     | -я          |
+| Genitive             | -ов / -ев   | -ев / -ей   | -Ø / -ей     | -ей          | -ей         | -Ø / -ей    | -ей         |
+| Dative               | -ам         | -ям         | -ам          | -ям          | -ям         | -ам         | -ям         |
+| Accusative           | = Nom./Gen. | = Nom./Gen. | = Nom./Gen.  | = Nom./Gen.  | = Nom./Gen. | = Nom./Gen. | = Nom./Gen. |
+| Instrumental         | -ами        | -ями        | -ами         | -ями         | -ями        | -ами        | -ями        |
+| Prepositional        | -ах         | -ях         | -ах          | -ях          | -ях         | -ах         | -ях         |
 
 - **Accusative animate (masc.):** animate masculine nouns take the **genitive form** in the accusative. Inanimate masculine nouns stay identical to the nominative.
 - **Accusative plural:** inanimate plurals = nominative plural; animate plurals = genitive plural.
@@ -72,17 +80,17 @@ Adjectives fall into two groups based on their stem:
 - **Hard stem** (красный, новый, старый) — Nominative M: -ый/-ой | Endings use Ы, О, У
 - **Soft stem** (синий, последний, летний) — Nominative M: -ий | Endings use И, Е, Ю
 
-*Adjective endings by case, gender, and stem type*
+_Adjective endings by case, gender, and stem type_
 
-| Case | M. Hard | M. Soft | Fem. Hard | Fem. Soft | Neuter | Plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | -ый/-ой | -ий | -ая | -яя | -ое | -ые/-ие |
-| Genitive | -ого | -его | -ой | -ей | -ого | -ых/-их |
-| Dative | -ому | -ему | -ой | -ей | -ому | -ым/-им |
-| Acc. (inan.) | = Nom. | = Nom. | -ую | -юю | = Nom. | = Nom. |
-| Acc. (anim.) | = Gen. | = Gen. | -ую | -юю | = Nom. | = Gen. |
-| Instrumental | -ым | -им | -ой/-ей | -ей | -ым | -ыми/-ими |
-| Prepositional | -ом | -ем | -ой/-ей | -ей | -ом | -ых/-их |
+| Case          | M. Hard | M. Soft | Fem. Hard | Fem. Soft | Neuter | Plural    |
+| ------------- | ------- | ------- | --------- | --------- | ------ | --------- |
+| Nominative    | -ый/-ой | -ий     | -ая       | -яя       | -ое    | -ые/-ие   |
+| Genitive      | -ого    | -его    | -ой       | -ей       | -ого   | -ых/-их   |
+| Dative        | -ому    | -ему    | -ой       | -ей       | -ому   | -ым/-им   |
+| Acc. (inan.)  | = Nom.  | = Nom.  | -ую       | -юю       | = Nom. | = Nom.    |
+| Acc. (anim.)  | = Gen.  | = Gen.  | -ую       | -юю       | = Nom. | = Gen.    |
+| Instrumental  | -ым     | -им     | -ой/-ей   | -ей       | -ым    | -ыми/-ими |
+| Prepositional | -ом     | -ем     | -ой/-ей   | -ей       | -ом    | -ых/-их   |
 
 - **Hard adjective example** — новый (new): новый / нового / новому / **новый(ого)** / новым / новом
 - **Soft adjective example** — синий (blue): синий / синего / синему / **синий(его)** / синим / синем
@@ -96,14 +104,14 @@ Personal pronouns **change dramatically** across Russian cases — far more than
 
 The table below gives the full declension for all Russian personal pronouns.
 
-| Case | я (I) | ты (you) | он/оно (he/it) | она (she) | мы (we) | вы (you pl.) | они (they) |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Nominative | я | ты | он/оно | она | мы | вы | они |
-| Genitive | меня | тебя | его | её | нас | вас | их |
-| Dative | мне | тебе | ему | ей | нам | вам | им |
-| Accusative | меня | тебя | его | её | нас | вас | их |
-| Instrumental | мной | тобой | им | ей | нами | вами | ими |
-| Prepositional | мне | тебе | нём | ней | нас | вас | них |
+| Case          | я (I) | ты (you) | он/оно (he/it) | она (she) | мы (we) | вы (you pl.) | они (they) |
+| ------------- | ----- | -------- | -------------- | --------- | ------- | ------------ | ---------- |
+| Nominative    | я     | ты       | он/оно         | она       | мы      | вы           | они        |
+| Genitive      | меня  | тебя     | его            | её        | нас     | вас          | их         |
+| Dative        | мне   | тебе     | ему            | ей        | нам     | вам          | им         |
+| Accusative    | меня  | тебя     | его            | её        | нас     | вас          | их         |
+| Instrumental  | мной  | тобой    | им             | ей        | нами    | вами         | ими        |
+| Prepositional | мне   | тебе     | нём            | ней       | нас     | вас          | них        |
 
 - **Н- prefix rule:** when a third-person pronoun (он, она, оно, они) follows a preposition, an **Н-** is added: у него (not у его), к ней (not к ей), с ними (not с ими).
 - **Genitive = Accusative** for personal pronouns: меня, тебя, его, её, нас, вас, их are **identical** for both cases.
@@ -115,26 +123,26 @@ Possessive pronouns in Russian also decline for case, gender, and number. The ta
 
 The others follow similar patterns: **твой** (your, informal) — declines exactly like мой. **ваш** (your, formal/plural) — declines exactly like наш. **его / её / их** (his / her / their) — these do **NOT** decline! They remain unchanged in all cases.
 
-*мой (my) and наш (our) full declension*
+_мой (my) and наш (our) full declension_
 
-| Case | Masc. | Neuter | Fem. | Plural |
-| --- | --- | --- | --- | --- |
-| МОЙ — my |  |  |  |  |
-| Nominative | мой | моё | моя | мои |
-| Genitive | моего | моего | моей | моих |
-| Dative | моему | моему | моей | моим |
-| Acc. (inan.) | мой | моё | мою | мои |
-| Acc. (anim.) | моего | моё | мою | моих |
-| Instrumental | моим | моим | моей | моими |
-| Prepositional | моём | моём | моей | моих |
-| НАШ — our |  |  |  |  |
-| Nominative | наш | наше | наша | наши |
-| Genitive | нашего | нашего | нашей | наших |
-| Dative | нашему | нашему | нашей | нашим |
-| Acc. (inan.) | наш | наше | нашу | наши |
-| Acc. (anim.) | нашего | наше | нашу | наших |
-| Instrumental | нашим | нашим | нашей | нашими |
-| Prepositional | нашем | нашем | нашей | наших |
+| Case          | Masc.  | Neuter | Fem.  | Plural |
+| ------------- | ------ | ------ | ----- | ------ |
+| МОЙ — my      |        |        |       |        |
+| Nominative    | мой    | моё    | моя   | мои    |
+| Genitive      | моего  | моего  | моей  | моих   |
+| Dative        | моему  | моему  | моей  | моим   |
+| Acc. (inan.)  | мой    | моё    | мою   | мои    |
+| Acc. (anim.)  | моего  | моё    | мою   | моих   |
+| Instrumental  | моим   | моим   | моей  | моими  |
+| Prepositional | моём   | моём   | моей  | моих   |
+| НАШ — our     |        |        |       |        |
+| Nominative    | наш    | наше   | наша  | наши   |
+| Genitive      | нашего | нашего | нашей | наших  |
+| Dative        | нашему | нашему | нашей | нашим  |
+| Acc. (inan.)  | наш    | наше   | нашу  | наши   |
+| Acc. (anim.)  | нашего | наше   | нашу  | наших  |
+| Instrumental  | нашим  | нашим  | нашей | нашими |
+| Prepositional | нашем  | нашем  | нашей | наших  |
 
 ## Part 5: Demonstrative Pronoun Declension (этот / тот)
 
@@ -142,15 +150,15 @@ The others follow similar patterns: **твой** (your, informal) — declines e
 
 They decline for **case, gender, and number** and are extremely common in spoken Russian.
 
-| Case | этот (M) | это (N) | эта (F) | эти (Pl) | тот (M) / та (F) | те (Pl) |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | этот | это | эта | эти | тот / та | те |
-| Genitive | этого | этого | этой | этих | того / той | тех |
-| Dative | этому | этому | этой | этим | тому / той | тем |
-| Acc. (inan.) | этот | это | эту | эти | тот / ту | те |
-| Acc. (anim.) | этого | это | эту | этих | того / ту | тех |
-| Instrumental | этим | этим | этой | этими | тем / той | теми |
-| Prepositional | этом | этом | этой | этих | том / той | тех |
+| Case          | этот (M) | это (N) | эта (F) | эти (Pl) | тот (M) / та (F) | те (Pl) |
+| ------------- | -------- | ------- | ------- | -------- | ---------------- | ------- |
+| Nominative    | этот     | это     | эта     | эти      | тот / та         | те      |
+| Genitive      | этого    | этого   | этой    | этих     | того / той       | тех     |
+| Dative        | этому    | этому   | этой    | этим     | тому / той       | тем     |
+| Acc. (inan.)  | этот     | это     | эту     | эти      | тот / ту         | те      |
+| Acc. (anim.)  | этого    | это     | эту     | этих     | того / ту        | тех     |
+| Instrumental  | этим     | этим    | этой    | этими    | тем / той        | теми    |
+| Prepositional | этом     | этом    | этой    | этих     | том / той        | тех     |
 
 ## Part 6: Russian Prepositions → Case Quick-Reference
 
@@ -164,13 +172,13 @@ Learning prepositions **together with their case** is essential — it eliminate
 
 Example: Я иду в школу. (going → accusative) vs. Я в школе. (being there → prepositional).
 
-| Case | Prepositions | Examples |
-| --- | --- | --- |
-| Genitive | без, до, из, у, от, после, для, кроме, вокруг, вместо, мимо | из России, без воды, после урока |
-| Dative | к, по, благодаря, вопреки, согласно, навстречу | к другу, по улице, благодаря тебе |
-| Accusative | в, на (direction), за, через, под (motion), про, о (hit/bump) | в школу, на работу, через час |
-| Instrumental | с, за (position), над, под (position), перед, между, рядом с | с другом, над столом, перед домом |
-| Prepositional | в, на (location), о/об, при, по (after certain verbs) | в Москве, о работе, при советах |
+| Case          | Prepositions                                                  | Examples                          |
+| ------------- | ------------------------------------------------------------- | --------------------------------- |
+| Genitive      | без, до, из, у, от, после, для, кроме, вокруг, вместо, мимо   | из России, без воды, после урока  |
+| Dative        | к, по, благодаря, вопреки, согласно, навстречу                | к другу, по улице, благодаря тебе |
+| Accusative    | в, на (direction), за, через, под (motion), про, о (hit/bump) | в школу, на работу, через час     |
+| Instrumental  | с, за (position), над, под (position), перед, между, рядом с  | с другом, над столом, перед домом |
+| Prepositional | в, на (location), о/об, при, по (after certain verbs)         | в Москве, о работе, при советах   |
 
 ## Part 7: The 7 Spelling Rules That Affect Case Endings
 
@@ -249,6 +257,7 @@ Our mobile app is built specifically for drilling Russian cases and declensions.
 [Download the app and start drilling today](/)
 
 ---
+
 This Russian case endings cheat sheet covers **everything** you need: **all 6 cases** for nouns (all genders, singular and plural), adjectives (hard and soft stems), personal pronouns, possessive pronouns, demonstrative pronouns, and preposition-case pairings.
 
 **Keep this reference close** as you study. The more you use it alongside real Russian practice, the sooner these endings will move from conscious memory to automatic recognition.
@@ -281,6 +290,5 @@ Yes. A small set of **borrowed foreign words** (несклоняемые сущ�
 **What is the difference between the genitive and accusative for animate nouns?**
 
 For **animate masculine** nouns, the accusative form is **identical** to the genitive. This is the famous **animate accusative = genitive** rule. Example: студент → студента (gen.) = студента (acc.). The only way to tell which case it is is by the sentence structure.
-
 
 [Practice Russian cases with our app](/)

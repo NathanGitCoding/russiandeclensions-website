@@ -3,10 +3,8 @@ import type { LearnArticle } from '../learnArticles';
 /** Traduction française (fr_fr) de l’article « russian-cases-explained-beginners-guide » — source EN : `learnArticles.ts`. Cyrillic preserved from EN source. */
 export const russianCasesExplainedBeginnersGuideFr: LearnArticle = {
   slug: 'russian-cases-explained-beginners-guide',
-  title:
-    'Les cas russes expliqués simplement : guide visuel pour débutants',
-  metaTitle:
-    'Les cas russes expliqués simplement : guide pour débutants | Russian Cases with Anna',
+  title: 'Les cas russes expliqués simplement : guide visuel pour débutants',
+  metaTitle: 'Les cas russes expliqués simplement : guide pour débutants | Russian Cases with Anna',
   metaDescription:
     'Les 6 cas grammaticaux du russe expliqués en français simple avec des exemples clairs. Nominatif, accusatif, génitif, datif, instrumental et prépositionnel en une dizaine de minutes.',
   keywords: [
@@ -25,7 +23,7 @@ export const russianCasesExplainedBeginnersGuideFr: LearnArticle = {
     height: 630,
   },
   intro:
-    "Le russe compte **6 cas grammaticaux**, et c’est le plus gros obstacle pour les anglophones. Bonne nouvelle : ce n’est pas si effrayant. Chaque cas répond à une question simple, et une fois que vous comprenez **à quoi sert chaque cas**, les terminaisons deviennent beaucoup plus abordables.\n\nCe guide présente les **6 cas en français clair**, avec un exemple net pour chacun. Pas de jargon linguistique, pas de tableaux écrasants — juste l’essentiel pour démarrer.",
+    'Le russe compte **6 cas grammaticaux**, et c’est le plus gros obstacle pour les anglophones. Bonne nouvelle : ce n’est pas si effrayant. Chaque cas répond à une question simple, et une fois que vous comprenez **à quoi sert chaque cas**, les terminaisons deviennent beaucoup plus abordables.\n\nCe guide présente les **6 cas en français clair**, avec un exemple net pour chacun. Pas de jargon linguistique, pas de tableaux écrasants — juste l’essentiel pour démarrer.',
   whatYouLearn: [
     '**Ce qu’est un cas grammatical** et pourquoi le russe en a',
     '**Les 6 cas expliqués** avec un exemple simple chacun',
@@ -44,7 +42,7 @@ export const russianCasesExplainedBeginnersGuideFr: LearnArticle = {
     {
       h2: 'Qu’est-ce qu’un cas grammatical ?',
       content:
-        "En français, c’est souvent **l’ordre des mots** qui indique qui fait quoi. « Le chien mord l’homme » et « L’homme mord le chien » ne veulent pas dire la même chose — le sujet est en tête.\n\nLe russe fonctionne autrement. Plutôt que l’ordre des mots, le russe modifie la **fin du mot** pour montrer son rôle dans la phrase. Ces différentes formes s’appellent des **cas**.\n\nEn français aussi les pronoms changent : on dit « **Je** **le** vois », pas « *moi vois il* » — la forme dépend du rôle. Le russe fait pareil — mais pour **chaque nom, adjectif et pronom**.\n\nIl y a **6 cas** en russe. Chacun répond à une question précise et marque un rôle grammatical.",
+        'En français, c’est souvent **l’ordre des mots** qui indique qui fait quoi. « Le chien mord l’homme » et « L’homme mord le chien » ne veulent pas dire la même chose — le sujet est en tête.\n\nLe russe fonctionne autrement. Plutôt que l’ordre des mots, le russe modifie la **fin du mot** pour montrer son rôle dans la phrase. Ces différentes formes s’appellent des **cas**.\n\nEn français aussi les pronoms changent : on dit « **Je** **le** vois », pas « *moi vois il* » — la forme dépend du rôle. Le russe fait pareil — mais pour **chaque nom, adjectif et pronom**.\n\nIl y a **6 cas** en russe. Chacun répond à une question précise et marque un rôle grammatical.',
     },
     {
       h2: 'Les 6 cas du russe en un coup d’œil',
@@ -60,8 +58,7 @@ export const russianCasesExplainedBeginnersGuideFr: LearnArticle = {
           ['Instrumental', 'Творительный', 'Par qui ? Avec quoi ?', 'С кошкой — Avec le chat'],
           ['Prépositionnel', 'Предложный', 'À propos de qui ? Où ?', 'О кошке — À propos du chat'],
         ],
-        caption:
-          'Les 6 cas du russe avec questions et exemples avec кошка (chat)',
+        caption: 'Les 6 cas du russe avec questions et exemples avec кошка (chat)',
         accentColumnIndices: [3],
       },
       bullets: [
@@ -72,7 +69,7 @@ export const russianCasesExplainedBeginnersGuideFr: LearnArticle = {
     {
       h2: 'Cas 1 : nominatif (Именительный) — le sujet',
       content:
-        "Le nominatif est la **forme de dictionnaire** — celle que vous trouvez dans le lexique. Il répond aux questions **Кто? (qui ?)** et **Что? (quoi ?)**.\n\nOn l’emploie pour le **sujet** de la phrase — celui qui fait l’action.",
+        'Le nominatif est la **forme de dictionnaire** — celle que vous trouvez dans le lexique. Il répond aux questions **Кто? (qui ?)** et **Что? (quoi ?)**.\n\nOn l’emploie pour le **sujet** de la phrase — celui qui fait l’action.',
       subsections: [
         {
           h3: 'Exemples',
@@ -89,7 +86,7 @@ export const russianCasesExplainedBeginnersGuideFr: LearnArticle = {
     {
       h2: 'Cas 2 : accusatif (Винительный) — complément d’objet direct',
       content:
-        "L’accusatif répond à **Кого? (qui ?)** et **Что? (quoi ?)** — mais cette fois comme **objet** de l’action, pas comme sujet. Il marque ce sur quoi porte l’action.\n\nOn l’utilise aussi avec les **verbes de mouvement** pour la direction (aller **vers** un lieu).",
+        'L’accusatif répond à **Кого? (qui ?)** et **Что? (quoi ?)** — mais cette fois comme **objet** de l’action, pas comme sujet. Il marque ce sur quoi porte l’action.\n\nOn l’utilise aussi avec les **verbes de mouvement** pour la direction (aller **vers** un lieu).',
       subsections: [
         {
           h3: 'Exemples',
@@ -106,7 +103,7 @@ export const russianCasesExplainedBeginnersGuideFr: LearnArticle = {
     {
       h2: 'Cas 3 : génitif (Родительный) — possession et absence',
       content:
-        "Le génitif répond à **Кого? (de qui ?)** et **Чего? (de quoi ?)**. C’est le cas de la **possession** (comme « de » ou le génitif saxon en anglais), de l’**absence** (il n’y a pas de…), et des **quantités**.\n\nC’est l’un des cas les plus fréquents — vous le croiserez partout.",
+        'Le génitif répond à **Кого? (de qui ?)** et **Чего? (de quoi ?)**. C’est le cas de la **possession** (comme « de » ou le génitif saxon en anglais), de l’**absence** (il n’y a pas de…), et des **quantités**.\n\nC’est l’un des cas les plus fréquents — vous le croiserez partout.',
       subsections: [
         {
           h3: 'Exemples',
@@ -123,7 +120,7 @@ export const russianCasesExplainedBeginnersGuideFr: LearnArticle = {
     {
       h2: 'Cas 4 : datif (Дательный) — complément d’objet indirect',
       content:
-        "Le datif répond à **Кому? (à qui ?)** et **Чему? (à quoi ?)**. Il marque le **destinataire** — à qui l’on donne, à qui l’on parle, pour qui l’on agit.\n\nIl entre aussi dans des tournures courantes d’**âge** et de **sentiments**.",
+        'Le datif répond à **Кому? (à qui ?)** et **Чему? (à quoi ?)**. Il marque le **destinataire** — à qui l’on donne, à qui l’on parle, pour qui l’on agit.\n\nIl entre aussi dans des tournures courantes d’**âge** et de **sentiments**.',
       subsections: [
         {
           h3: 'Exemples',
@@ -140,7 +137,7 @@ export const russianCasesExplainedBeginnersGuideFr: LearnArticle = {
     {
       h2: 'Cas 5 : instrumental (Творительный) — moyen et accompagnement',
       content:
-        "L’instrumental répond à **Кем? (par qui ? / avec qui ?)** et **Чем? (avec quoi ?)**. Il décrit le **moyen** ou l’**instrument**, ainsi que l’**accompagnement** (avec quelqu’un).\n\nOn l’emploie aussi après **быть** pour les professions.",
+        'L’instrumental répond à **Кем? (par qui ? / avec qui ?)** et **Чем? (avec quoi ?)**. Il décrit le **moyen** ou l’**instrument**, ainsi que l’**accompagnement** (avec quelqu’un).\n\nOn l’emploie aussi après **быть** pour les professions.',
       subsections: [
         {
           h3: 'Exemples',
@@ -157,7 +154,7 @@ export const russianCasesExplainedBeginnersGuideFr: LearnArticle = {
     {
       h2: 'Cas 6 : prépositionnel (Предложный) — lieu et sujet de pensée',
       content:
-        "Le prépositionnel répond à **О ком? (à propos de qui ?)** et **О чём? (à propos de quoi ?)**. Comme son nom l’indique, il est **toujours lié à une préposition** — surtout **в** (dans), **на** (sur / à) et **о** (à propos de).\n\nC’est le seul cas russe qui ne peut jamais apparaître sans préposition.",
+        'Le prépositionnel répond à **О ком? (à propos de qui ?)** et **О чём? (à propos de quoi ?)**. Comme son nom l’indique, il est **toujours lié à une préposition** — surtout **в** (dans), **на** (sur / à) et **о** (à propos de).\n\nC’est le seul cas russe qui ne peut jamais apparaître sans préposition.',
       subsections: [
         {
           h3: 'Exemples',
@@ -174,7 +171,7 @@ export const russianCasesExplainedBeginnersGuideFr: LearnArticle = {
     {
       h2: 'Quels cas apprendre en premier ?',
       content:
-        "Inutile de maîtriser les 6 cas d’un coup. Voici l’**ordre d’apprentissage** recommandé selon fréquence et difficulté :",
+        'Inutile de maîtriser les 6 cas d’un coup. Voici l’**ordre d’apprentissage** recommandé selon fréquence et difficulté :',
       bullets: [
         '**1. Nominatif** — vous le connaissez déjà (forme du dictionnaire)',
         '**2. Accusatif** — indispensable pour les phrases simples (« je mange du pain », « je vois un chien »)',
@@ -187,11 +184,11 @@ export const russianCasesExplainedBeginnersGuideFr: LearnArticle = {
     {
       h2: 'Commencer à pratiquer tout de suite',
       content:
-        "Comprendre les cas est la première étape. La suivante, c’est la **pratique active** — revoir et choisir les bonnes formes jusqu’à l’automatisation.\n\nPour démarrer :\n\n• Faites notre **quiz de déclinaison en ligne gratuit** sur russiandeclensions.com/practice — choisissez les cas à travailler et répondez à 10 questions à choix multiples parmi plus de 400 noms réels.\n\n• Parcourez nos **tableaux de déclinaison complets** sur russiandeclensions.com/words — voyez comment chaque mot change dans les 6 cas.\n\n• Téléchargez l’appli **Russian Cases with Anna** pour un parcours structuré avec quiz interactifs, répétition espacée et mode hors ligne.",
+        'Comprendre les cas est la première étape. La suivante, c’est la **pratique active** — revoir et choisir les bonnes formes jusqu’à l’automatisation.\n\nPour démarrer :\n\n• Faites notre **quiz de déclinaison en ligne gratuit** sur russiandeclensions.com/practice — choisissez les cas à travailler et répondez à 10 questions à choix multiples parmi plus de 400 noms réels.\n\n• Parcourez nos **tableaux de déclinaison complets** sur russiandeclensions.com/words — voyez comment chaque mot change dans les 6 cas.\n\n• Téléchargez l’appli **Russian Cases with Anna** pour un parcours structuré avec quiz interactifs, répétition espacée et mode hors ligne.',
     },
   ],
   conclusion:
-    "Les cas russes sont simplement des **étiquettes pour les rôles des mots** dans la phrase. Le nominatif, c’est l’acteur ; l’accusatif, ce qui subit l’action ; le génitif, la possession ; le datif, le destinataire ; l’instrumental, le moyen ; le prépositionnel, le lieu ou le sujet de la pensée.\n\nUne fois que vous comprenez **ce que signifie chaque cas**, apprendre les terminaisons devient une question de reconnaissance de motifs et de pratique. N’essayez pas de tout mémoriser d’un coup — un cas à la fois, jusqu’à ce que ce soit naturel, puis le suivant.",
+    'Les cas russes sont simplement des **étiquettes pour les rôles des mots** dans la phrase. Le nominatif, c’est l’acteur ; l’accusatif, ce qui subit l’action ; le génitif, la possession ; le datif, le destinataire ; l’instrumental, le moyen ; le prépositionnel, le lieu ou le sujet de la pensée.\n\nUne fois que vous comprenez **ce que signifie chaque cas**, apprendre les terminaisons devient une question de reconnaissance de motifs et de pratique. N’essayez pas de tout mémoriser d’un coup — un cas à la fois, jusqu’à ce que ce soit naturel, puis le suivant.',
   conclusionBullets: [
     '**6 cas, 6 rôles** — chaque cas répond à une question précise',
     '**Commencez par l’accusatif et le génitif** — les deux plus fréquents après le nominatif',
@@ -199,8 +196,7 @@ export const russianCasesExplainedBeginnersGuideFr: LearnArticle = {
     '**Un cas à la fois** — ne vous surchargez pas avec les 6 d’un coup',
     '**La régularité gagne** — 10 minutes par jour valent mieux que 2 heures une fois par semaine',
   ],
-  conclusionOutro:
-    'Approfondissez chaque cas avec nos guides détaillés :',
+  conclusionOutro: 'Approfondissez chaque cas avec nos guides détaillés :',
   internalLinks: [
     {
       href: '/learn/lessons/russian-cases-complete-guide',
@@ -255,8 +251,7 @@ export const russianCasesExplainedBeginnersGuideFr: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      'Les cas russes expliqués simplement : guide visuel pour débutants',
+    headline: 'Les cas russes expliqués simplement : guide visuel pour débutants',
     description:
       'Les 6 cas grammaticaux du russe expliqués en français avec des exemples simples. Nominatif, accusatif, génitif, datif, instrumental et prépositionnel.',
     datePublished: '2026-03-22',

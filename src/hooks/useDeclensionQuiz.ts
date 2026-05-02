@@ -38,7 +38,7 @@ function buildResult(
   question: DeclensionQuizQuestion,
   questionIndex: number,
   selectedAnswer: string,
-  isCorrect: boolean,
+  isCorrect: boolean
 ): DeclensionQuizResult {
   return {
     questionIndex,

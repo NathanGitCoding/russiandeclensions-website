@@ -18,7 +18,13 @@ export interface WordsIndexPageTranslations {
   level1: string;
   level2: string;
   level3: string;
-  tableHeaders: { russian: string; translation: string; gender: string; level: string; viewDeclension: string };
+  tableHeaders: {
+    russian: string;
+    translation: string;
+    gender: string;
+    level: string;
+    viewDeclension: string;
+  };
   levelBadgeTitle: (level: number) => string;
   emptyState: string;
   pagination: {
@@ -67,7 +73,13 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
     level1: 'Level 1 — Most common',
     level2: 'Level 2',
     level3: 'Level 3+',
-    tableHeaders: { russian: 'Russian', translation: 'Translation', gender: 'Gender', level: 'Level', viewDeclension: 'See declension' },
+    tableHeaders: {
+      russian: 'Russian',
+      translation: 'Translation',
+      gender: 'Gender',
+      level: 'Level',
+      viewDeclension: 'See declension',
+    },
     levelBadgeTitle: (level) => `Level ${level}`,
     emptyState: 'No words found. Try changing the filters.',
     pagination: {
@@ -91,7 +103,11 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
     },
   },
   fr_fr: {
-    breadcrumb: { home: 'App', learn: 'Leçons de grammaire gratuites', words: 'Tables de déclinaisons' },
+    breadcrumb: {
+      home: 'App',
+      learn: 'Leçons de grammaire gratuites',
+      words: 'Tables de déclinaisons',
+    },
     title: 'Déclinaisons des mots russes — Liste complète',
     titleWithCount: (total) =>
       `${total} mots russes les plus utiles avec tableaux de déclinaison complets (6 cas)`,
@@ -116,7 +132,13 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
     level1: 'Niveau 1 — Les plus courants',
     level2: 'Niveau 2',
     level3: 'Niveau 3+',
-    tableHeaders: { russian: 'Russe', translation: 'Traduction', gender: 'Genre', level: 'Niveau', viewDeclension: 'Voir la déclinaison' },
+    tableHeaders: {
+      russian: 'Russe',
+      translation: 'Traduction',
+      gender: 'Genre',
+      level: 'Niveau',
+      viewDeclension: 'Voir la déclinaison',
+    },
     levelBadgeTitle: (level) => `Niveau ${level}`,
     emptyState: 'Aucun mot trouvé. Essayez de modifier les filtres.',
     pagination: {
@@ -141,7 +163,11 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
     },
   },
   de_de: {
-    breadcrumb: { home: 'App', learn: 'Kostenlose Grammatik-Lektionen', words: 'Deklinationstabellen' },
+    breadcrumb: {
+      home: 'App',
+      learn: 'Kostenlose Grammatik-Lektionen',
+      words: 'Deklinationstabellen',
+    },
     title: 'Russische Wortdeklinationen — Vollständige Liste',
     titleWithCount: (total) =>
       `${total} nützlichste russische Wörter mit vollständigen Deklinationstabellen (6 Fälle)`,
@@ -166,7 +192,13 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
     level1: 'Stufe 1 — Am häufigsten',
     level2: 'Stufe 2',
     level3: 'Stufe 3+',
-    tableHeaders: { russian: 'Russisch', translation: 'Übersetzung', gender: 'Genus', level: 'Stufe', viewDeclension: 'Deklination anzeigen' },
+    tableHeaders: {
+      russian: 'Russisch',
+      translation: 'Übersetzung',
+      gender: 'Genus',
+      level: 'Stufe',
+      viewDeclension: 'Deklination anzeigen',
+    },
     levelBadgeTitle: (level) => `Stufe ${level}`,
     emptyState: 'Keine Wörter gefunden. Versuchen Sie, die Filter zu ändern.',
     pagination: {
@@ -216,7 +248,13 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
     level1: 'Seviye 1 — En yaygın',
     level2: 'Seviye 2',
     level3: 'Seviye 3+',
-    tableHeaders: { russian: 'Rusça', translation: 'Çeviri', gender: 'Cinsiyet', level: 'Seviye', viewDeclension: 'Çekimi görüntüle' },
+    tableHeaders: {
+      russian: 'Rusça',
+      translation: 'Çeviri',
+      gender: 'Cinsiyet',
+      level: 'Seviye',
+      viewDeclension: 'Çekimi görüntüle',
+    },
     levelBadgeTitle: (level) => `Seviye ${level}`,
     emptyState: 'Kelime bulunamadı. Filtreleri değiştirmeyi deneyin.',
     pagination: {
@@ -257,7 +295,8 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
       ],
     },
     heroH2: {
-      title: (t) => `Dlaczego te ${t.toLocaleString('pl-PL')} słów zmienią Twoją znajomość rosyjskiego`,
+      title: (t) =>
+        `Dlaczego te ${t.toLocaleString('pl-PL')} słów zmienią Twoją znajomość rosyjskiego`,
       body: (t) =>
         `Te ${t.toLocaleString('pl-PL')} słów zostały starannie wybrane, aby pokryć większość codziennego rosyjskiego. Ucząc się ich odmian, zrozumiesz, jak rosyjskie przypadki działają w praktyce — bez abstrakcyjnych zasad. Każde słowo prowadzi do pełnej tabeli ze wszystkimi 6 przypadkami w liczbie pojedynczej i mnogiej.`,
     },
@@ -266,7 +305,13 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
     level1: 'Poziom 1 — Najpopularniejsze',
     level2: 'Poziom 2',
     level3: 'Poziom 3+',
-    tableHeaders: { russian: 'Rosyjski', translation: 'Tłumaczenie', gender: 'Rodzaj', level: 'Poziom', viewDeclension: 'Zobacz odmianę' },
+    tableHeaders: {
+      russian: 'Rosyjski',
+      translation: 'Tłumaczenie',
+      gender: 'Rodzaj',
+      level: 'Poziom',
+      viewDeclension: 'Zobacz odmianę',
+    },
     levelBadgeTitle: (level) => `Poziom ${level}`,
     emptyState: 'Nie znaleziono słów. Spróbuj zmienić filtry.',
     pagination: {
@@ -291,7 +336,11 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
     },
   },
   es_es: {
-    breadcrumb: { home: 'App', learn: 'Lecciones de gramática gratis', words: 'Tablas de declinación' },
+    breadcrumb: {
+      home: 'App',
+      learn: 'Lecciones de gramática gratis',
+      words: 'Tablas de declinación',
+    },
     title: 'Declinaciones de palabras rusas — Lista completa',
     titleWithCount: (total) =>
       `${total} palabras rusas más útiles con tablas de declinación completas (6 casos)`,
@@ -316,7 +365,13 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
     level1: 'Nivel 1 — Más comunes',
     level2: 'Nivel 2',
     level3: 'Nivel 3+',
-    tableHeaders: { russian: 'Ruso', translation: 'Traducción', gender: 'Género', level: 'Nivel', viewDeclension: 'Ver declinación' },
+    tableHeaders: {
+      russian: 'Ruso',
+      translation: 'Traducción',
+      gender: 'Género',
+      level: 'Nivel',
+      viewDeclension: 'Ver declinación',
+    },
     levelBadgeTitle: (level) => `Nivel ${level}`,
     emptyState: 'No se encontraron palabras. Prueba a cambiar los filtros.',
     pagination: {
@@ -341,7 +396,11 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
     },
   },
   it_it: {
-    breadcrumb: { home: 'App', learn: 'Lezioni di grammatica gratuite', words: 'Tabelle di declinazione' },
+    breadcrumb: {
+      home: 'App',
+      learn: 'Lezioni di grammatica gratuite',
+      words: 'Tabelle di declinazione',
+    },
     title: 'Declinazioni delle parole russe — Lista completa',
     titleWithCount: (total) =>
       `${total} parole russe più utili con tabelle di declinazione complete (6 casi)`,
@@ -366,7 +425,13 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
     level1: 'Livello 1 — Più comuni',
     level2: 'Livello 2',
     level3: 'Livello 3+',
-    tableHeaders: { russian: 'Russo', translation: 'Traduzione', gender: 'Genere', level: 'Livello', viewDeclension: 'Vedi declinazione' },
+    tableHeaders: {
+      russian: 'Russo',
+      translation: 'Traduzione',
+      gender: 'Genere',
+      level: 'Livello',
+      viewDeclension: 'Vedi declinazione',
+    },
     levelBadgeTitle: (level) => `Livello ${level}`,
     emptyState: 'Nessuna parola trovata. Prova a modificare i filtri.',
     pagination: {
@@ -391,7 +456,11 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
     },
   },
   pt_pt: {
-    breadcrumb: { home: 'App', learn: 'Lições de gramática grátis', words: 'Tabelas de declinação' },
+    breadcrumb: {
+      home: 'App',
+      learn: 'Lições de gramática grátis',
+      words: 'Tabelas de declinação',
+    },
     title: 'Declinações de palavras russas — Lista completa',
     titleWithCount: (total) =>
       `${total} palavras russas mais úteis com tabelas de declinação completas (6 casos)`,
@@ -407,7 +476,8 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
       ],
     },
     heroH2: {
-      title: (t) => `Por que estas ${t.toLocaleString('pt-PT')} palavras vão transformar o teu russo`,
+      title: (t) =>
+        `Por que estas ${t.toLocaleString('pt-PT')} palavras vão transformar o teu russo`,
       body: (t) =>
         `Estas ${t.toLocaleString('pt-PT')} palavras foram selecionadas para cobrir a vasta maioria do russo quotidiano. Aprendendo as suas declinações entenderás como funcionam os casos russos na prática — sem regras abstratas. Cada palavra leva a uma tabela completa com os 6 casos no singular e plural.`,
     },
@@ -416,7 +486,13 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
     level1: 'Nível 1 — Mais comuns',
     level2: 'Nível 2',
     level3: 'Nível 3+',
-    tableHeaders: { russian: 'Russo', translation: 'Tradução', gender: 'Género', level: 'Nível', viewDeclension: 'Ver declinação' },
+    tableHeaders: {
+      russian: 'Russo',
+      translation: 'Tradução',
+      gender: 'Género',
+      level: 'Nível',
+      viewDeclension: 'Ver declinação',
+    },
     levelBadgeTitle: (level) => `Nível ${level}`,
     emptyState: 'Nenhuma palavra encontrada. Tenta alterar os filtros.',
     pagination: {
@@ -466,7 +542,13 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
     level1: 'Niveau 1 — Meest voorkomend',
     level2: 'Niveau 2',
     level3: 'Niveau 3+',
-    tableHeaders: { russian: 'Russisch', translation: 'Vertaling', gender: 'Geslacht', level: 'Niveau', viewDeclension: 'Bekijk verbuiging' },
+    tableHeaders: {
+      russian: 'Russisch',
+      translation: 'Vertaling',
+      gender: 'Geslacht',
+      level: 'Niveau',
+      viewDeclension: 'Bekijk verbuiging',
+    },
     levelBadgeTitle: (level) => `Niveau ${level}`,
     emptyState: 'Geen woorden gevonden. Probeer de filters te wijzigen.',
     pagination: {
@@ -516,7 +598,13 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
     level1: 'Уровень 1 — Самые частые',
     level2: 'Уровень 2',
     level3: 'Уровень 3+',
-    tableHeaders: { russian: 'Русский', translation: 'Перевод', gender: 'Род', level: 'Уровень', viewDeclension: 'Склонение' },
+    tableHeaders: {
+      russian: 'Русский',
+      translation: 'Перевод',
+      gender: 'Род',
+      level: 'Уровень',
+      viewDeclension: 'Склонение',
+    },
     levelBadgeTitle: (level) => `Уровень ${level}`,
     emptyState: 'Слова не найдены. Попробуйте изменить фильтры.',
     pagination: {

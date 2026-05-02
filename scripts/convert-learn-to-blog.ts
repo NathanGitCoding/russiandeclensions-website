@@ -122,7 +122,7 @@ function articleToMarkdown(article: LearnArticle): string {
   md += article.intro + '\n\n';
 
   if (article.whatYouLearn?.length) {
-    md += '**What you\'ll learn:**\n\n';
+    md += "**What you'll learn:**\n\n";
     md += article.whatYouLearn.map((w) => `- ${w}`).join('\n') + '\n\n';
   }
 

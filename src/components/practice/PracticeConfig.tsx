@@ -77,9 +77,7 @@ export function PracticeConfig({ config, onChange, onStart, t, words }: Props) {
 
   return (
     <div className="mx-auto max-w-lg rounded-2xl border border-gray-200 bg-white p-5 shadow-sm sm:p-6">
-      <h2 className="mb-4 text-center text-lg font-bold text-gray-800">
-        {t.config.title}
-      </h2>
+      <h2 className="mb-4 text-center text-lg font-bold text-gray-800">{t.config.title}</h2>
 
       {/* Grille cas × singulier / pluriel */}
       <div className="mb-5 overflow-hidden rounded-xl border border-gray-200">

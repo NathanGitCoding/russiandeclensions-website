@@ -532,8 +532,7 @@ export const learnLessonTranslations: Partial<
             publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
             mainEntityOfPage: {
               '@type': 'WebPage',
-              '@id':
-                'https://russiandeclensions.com/learn/lessons/russian-cases-complete-guide',
+              '@id': 'https://russiandeclensions.com/learn/lessons/russian-cases-complete-guide',
             },
             keywords:
               'cas russes, grammaire russe cas, 6 cas russes, cas russes expliqués, apprendre cas russes',
@@ -1047,8 +1046,7 @@ export const learnLessonTranslations: Partial<
             publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
             mainEntityOfPage: {
               '@type': 'WebPage',
-              '@id':
-                'https://russiandeclensions.com/learn/lessons/russian-cases-complete-guide',
+              '@id': 'https://russiandeclensions.com/learn/lessons/russian-cases-complete-guide',
             },
             keywords:
               'russische Fälle, russische Grammatik Fälle, 6 russische Fälle, russische Fälle erklärt, russische Fälle lernen',
@@ -1544,8 +1542,7 @@ export const learnLessonTranslations: Partial<
             publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
             mainEntityOfPage: {
               '@type': 'WebPage',
-              '@id':
-                'https://russiandeclensions.com/learn/lessons/russian-cases-complete-guide',
+              '@id': 'https://russiandeclensions.com/learn/lessons/russian-cases-complete-guide',
             },
             keywords:
               'Rusça haller, Rusça gramer halleri, 6 Rusça hal, Rusça haller açıklaması, Rusça haller öğren',
@@ -2054,8 +2051,7 @@ export const learnLessonTranslations: Partial<
             publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
             mainEntityOfPage: {
               '@type': 'WebPage',
-              '@id':
-                'https://russiandeclensions.com/learn/lessons/russian-cases-complete-guide',
+              '@id': 'https://russiandeclensions.com/learn/lessons/russian-cases-complete-guide',
             },
             keywords:
               'rosyjskie przypadki, gramatyka rosyjska przypadki, 6 rosyjskich przypadków, rosyjskie przypadki wyjaśnione, nauka rosyjskich przypadków',

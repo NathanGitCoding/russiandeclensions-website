@@ -1,10 +1,18 @@
 ---
-title: "Russian Prepositions and Cases | Complete Reference Guide | Russian Cases with Anna"
-description: "The complete reference: every Russian preposition mapped to its required case. Master table of 44 prepositions, dual-case rules (в/на/за/под), deep-dive per case, memory strategies."
-slug: "russian-prepositions-and-cases"
-date: "2025-03-13"
-keywords: ["russian prepositions cases","russian prepositions with genitive","russian prepositions list with cases","в на с по russian case","russian prepositions accusative vs prepositional","russian grammar prepositions chart"]
-image: "/articles/russian-prepositions-case-grammar-reference.webp"
+title: 'Russian Prepositions and Cases | Complete Reference Guide | Russian Cases with Anna'
+description: 'The complete reference: every Russian preposition mapped to its required case. Master table of 44 prepositions, dual-case rules (в/на/за/под), deep-dive per case, memory strategies.'
+slug: 'russian-prepositions-and-cases'
+date: '2025-03-13'
+keywords:
+  [
+    'russian prepositions cases',
+    'russian prepositions with genitive',
+    'russian prepositions list with cases',
+    'в на с по russian case',
+    'russian prepositions accusative vs prepositional',
+    'russian grammar prepositions chart',
+  ]
+image: '/articles/russian-prepositions-case-grammar-reference.webp'
 ---
 
 One of the **most practical skills** in Russian is knowing **which case each preposition requires**. Once you know that **без** always takes genitive, that **к** always takes dative, and that **с** can take either genitive OR instrumental depending on meaning — your accuracy jumps dramatically.
@@ -29,68 +37,68 @@ The table below lists **all major Russian prepositions**, organized by the case 
 
 **Color key:** Genitive (navy) · Dative (violet) · Accusative (red) · Instrumental (teal) · Prepositional (orange).
 
-*44 Russian prepositions by required case*
+_44 Russian prepositions by required case_
 
-| Case | Prep. | Meaning | With noun | Full example + translation |
-| --- | --- | --- | --- | --- |
-| Genitive | без | without | без молока | Я пью кофе без молока. — I drink coffee without milk. |
-| Genitive | до | until / before / up to | до урока | Позвони мне до урока. — Call me before the lesson. |
-| Genitive | из | from (inside of) | из России | Она приехала из России. — She came from Russia. |
-| Genitive | с | from (off a surface) | с полки | Книга упала с полки. — The book fell off the shelf. |
-| Genitive | у | at / near / by | у меня | У меня есть кошка. — I have a cat. |
-| Genitive | от | from (a person/source) | от друга | Письмо от друга. — A letter from a friend. |
-| Genitive | после | after | после работы | После работы я устал. — After work I was tired. |
-| Genitive | для | for (benefit of) | для тебя | Это подарок для тебя. — This is a gift for you. |
-| Genitive | кроме | except / besides | кроме меня | Все кроме меня пришли. — Everyone except me came. |
-| Genitive | вокруг | around | вокруг города | Мы ехали вокруг города. — We drove around the city. |
-| Genitive | мимо | past / by | мимо школы | Он прошёл мимо школы. — He walked past the school. |
-| Genitive | вместо | instead of | вместо кофе | Выпей воды вместо кофе. — Drink water instead of coffee. |
-| Genitive | напротив | opposite / across from | напротив банка | Кафе напротив банка. — The café is across from the bank. |
-| Genitive | из-за | because of / from behind | из-за дождя | Из-за дождя мы остались дома. — Because of the rain we stayed home. |
-| Genitive | из-под | from under | из-под стола | Кот вылез из-под стола. — The cat crawled out from under the table. |
-| Genitive | ради | for the sake of | ради тебя | Ради тебя я на всё готов. — For your sake I'm ready for anything. |
-| Genitive | около | near / around | около школы | Встретимся около школы. — Let's meet near the school. |
-| Genitive | вдоль | along | вдоль реки | Мы шли вдоль реки. — We walked along the river. |
-| Dative | к | toward / to (person or goal) | к врачу, к морю | Иди к врачу! — Go to the doctor! |
-| Dative | по | along / around / according to | по улице, по закону | Мы гуляли по парку. — We walked around the park. |
-| Dative | благодаря | thanks to | благодаря тебе | Благодаря тебе всё получилось! — Thanks to you, everything worked out! |
-| Dative | вопреки | contrary to / despite | вопреки прогнозу | Вопреки прогнозу, погода была хорошей. — Despite the forecast, weather was good. |
-| Dative | согласно | according to (formal) | согласно закону | Согласно закону, это запрещено. — According to the law, this is forbidden. |
-| Dative | навстречу | toward / to meet | навстречу ветру | Она шла навстречу ветру. — She walked into the wind. |
-| Accusative | в | into / to (direction) | в школу | Я иду в школу. — I am going to school. |
-| Accusative | на | onto / to (direction) | на работу | Она едет на работу. — She is going to work. |
-| Accusative | за | behind (motion) / for | за угол | Он зашёл за угол. — He went around the corner. |
-| Accusative | под | under (motion) | под стол | Кот залез под стол. — The cat crawled under the table. |
-| Accusative | через | across / through / in (time) | через час | Приходи через час. — Come in an hour. |
-| Accusative | про | about (informal) | про тебя | Он рассказал про тебя. — He talked about you. |
-| Accusative | спустя | after / later (time) | спустя год | Спустя год он вернулся. — A year later he returned. |
-| Accusative | о/об | against (bump into) | о камень | Он споткнулся о камень. — He stumbled over a stone. |
-| Instrumental | с | with / together with | с другом | Я иду с другом. — I am going with a friend. |
-| Instrumental | за | behind / at (position) | за столом | Он сидит за столом. — He is sitting at the table. |
-| Instrumental | перед | in front of / before | перед домом | Стой перед домом. — Stand in front of the house. |
-| Instrumental | над | above / over | над городом | Самолёт летит над городом. — The plane flies above the city. |
-| Instrumental | под | under (position) | под столом | Книга под столом. — The book is under the table. |
-| Instrumental | между | between | между нами | Это между нами. — This is between us. |
-| Instrumental | рядом с | next to / beside | рядом с банком | Кафе рядом с банком. — The café is next to the bank. |
-| Prepositional | в | in / inside (location) | в Москве | Я живу в Москве. — I live in Moscow. |
-| Prepositional | на | on / at (location) | на столе | Книга на столе. — The book is on the table. |
-| Prepositional | о/об | about / concerning | о работе | Мы говорим о работе. — We are talking about work. |
-| Prepositional | при | in the presence of / under | при Сталине | При Сталине жизнь была трудной. — Life under Stalin was hard. |
-| Prepositional | по | upon / after (formal) | по приезде | По приезде он позвонил. — Upon arriving he called. |
+| Case          | Prep.     | Meaning                       | With noun           | Full example + translation                                                       |
+| ------------- | --------- | ----------------------------- | ------------------- | -------------------------------------------------------------------------------- |
+| Genitive      | без       | without                       | без молока          | Я пью кофе без молока. — I drink coffee without milk.                            |
+| Genitive      | до        | until / before / up to        | до урока            | Позвони мне до урока. — Call me before the lesson.                               |
+| Genitive      | из        | from (inside of)              | из России           | Она приехала из России. — She came from Russia.                                  |
+| Genitive      | с         | from (off a surface)          | с полки             | Книга упала с полки. — The book fell off the shelf.                              |
+| Genitive      | у         | at / near / by                | у меня              | У меня есть кошка. — I have a cat.                                               |
+| Genitive      | от        | from (a person/source)        | от друга            | Письмо от друга. — A letter from a friend.                                       |
+| Genitive      | после     | after                         | после работы        | После работы я устал. — After work I was tired.                                  |
+| Genitive      | для       | for (benefit of)              | для тебя            | Это подарок для тебя. — This is a gift for you.                                  |
+| Genitive      | кроме     | except / besides              | кроме меня          | Все кроме меня пришли. — Everyone except me came.                                |
+| Genitive      | вокруг    | around                        | вокруг города       | Мы ехали вокруг города. — We drove around the city.                              |
+| Genitive      | мимо      | past / by                     | мимо школы          | Он прошёл мимо школы. — He walked past the school.                               |
+| Genitive      | вместо    | instead of                    | вместо кофе         | Выпей воды вместо кофе. — Drink water instead of coffee.                         |
+| Genitive      | напротив  | opposite / across from        | напротив банка      | Кафе напротив банка. — The café is across from the bank.                         |
+| Genitive      | из-за     | because of / from behind      | из-за дождя         | Из-за дождя мы остались дома. — Because of the rain we stayed home.              |
+| Genitive      | из-под    | from under                    | из-под стола        | Кот вылез из-под стола. — The cat crawled out from under the table.              |
+| Genitive      | ради      | for the sake of               | ради тебя           | Ради тебя я на всё готов. — For your sake I'm ready for anything.                |
+| Genitive      | около     | near / around                 | около школы         | Встретимся около школы. — Let's meet near the school.                            |
+| Genitive      | вдоль     | along                         | вдоль реки          | Мы шли вдоль реки. — We walked along the river.                                  |
+| Dative        | к         | toward / to (person or goal)  | к врачу, к морю     | Иди к врачу! — Go to the doctor!                                                 |
+| Dative        | по        | along / around / according to | по улице, по закону | Мы гуляли по парку. — We walked around the park.                                 |
+| Dative        | благодаря | thanks to                     | благодаря тебе      | Благодаря тебе всё получилось! — Thanks to you, everything worked out!           |
+| Dative        | вопреки   | contrary to / despite         | вопреки прогнозу    | Вопреки прогнозу, погода была хорошей. — Despite the forecast, weather was good. |
+| Dative        | согласно  | according to (formal)         | согласно закону     | Согласно закону, это запрещено. — According to the law, this is forbidden.       |
+| Dative        | навстречу | toward / to meet              | навстречу ветру     | Она шла навстречу ветру. — She walked into the wind.                             |
+| Accusative    | в         | into / to (direction)         | в школу             | Я иду в школу. — I am going to school.                                           |
+| Accusative    | на        | onto / to (direction)         | на работу           | Она едет на работу. — She is going to work.                                      |
+| Accusative    | за        | behind (motion) / for         | за угол             | Он зашёл за угол. — He went around the corner.                                   |
+| Accusative    | под       | under (motion)                | под стол            | Кот залез под стол. — The cat crawled under the table.                           |
+| Accusative    | через     | across / through / in (time)  | через час           | Приходи через час. — Come in an hour.                                            |
+| Accusative    | про       | about (informal)              | про тебя            | Он рассказал про тебя. — He talked about you.                                    |
+| Accusative    | спустя    | after / later (time)          | спустя год          | Спустя год он вернулся. — A year later he returned.                              |
+| Accusative    | о/об      | against (bump into)           | о камень            | Он споткнулся о камень. — He stumbled over a stone.                              |
+| Instrumental  | с         | with / together with          | с другом            | Я иду с другом. — I am going with a friend.                                      |
+| Instrumental  | за        | behind / at (position)        | за столом           | Он сидит за столом. — He is sitting at the table.                                |
+| Instrumental  | перед     | in front of / before          | перед домом         | Стой перед домом. — Stand in front of the house.                                 |
+| Instrumental  | над       | above / over                  | над городом         | Самолёт летит над городом. — The plane flies above the city.                     |
+| Instrumental  | под       | under (position)              | под столом          | Книга под столом. — The book is under the table.                                 |
+| Instrumental  | между     | between                       | между нами          | Это между нами. — This is between us.                                            |
+| Instrumental  | рядом с   | next to / beside              | рядом с банком      | Кафе рядом с банком. — The café is next to the bank.                             |
+| Prepositional | в         | in / inside (location)        | в Москве            | Я живу в Москве. — I live in Moscow.                                             |
+| Prepositional | на        | on / at (location)            | на столе            | Книга на столе. — The book is on the table.                                      |
+| Prepositional | о/об      | about / concerning            | о работе            | Мы говорим о работе. — We are talking about work.                                |
+| Prepositional | при       | in the presence of / under    | при Сталине         | При Сталине жизнь была трудной. — Life under Stalin was hard.                    |
+| Prepositional | по        | upon / after (formal)         | по приезде          | По приезде он позвонил. — Upon arriving he called.                               |
 
 ## Dual-Case Prepositions: Prepositions That Take Two Different Cases
 
 Some Russian prepositions can take **two different cases**, with the meaning changing depending on which case is used. These are the **most important prepositions to master** because a single wrong case changes the meaning of your sentence.
 
-*Prepositions that take two cases (в, на, за, под, о/об)*
+_Prepositions that take two cases (в, на, за, под, о/об)_
 
-| Prep. | Case 1 | Example 1 | Case 2 | Example 2 |
-| --- | --- | --- | --- | --- |
-| в | Accusative | в школу (to school) | Prepositional | в школе (at school) |
-| на | Accusative | на работу (to work) | Prepositional | на работе (at work) |
-| за | Accusative | сесть за стол (sit down at table) | Instrumental | за столом (sitting at table) |
-| под | Accusative | положить под стол (put under table) | Instrumental | под столом (under the table) |
-| о/об | Accusative | споткнуться о порог (trip over threshold) | Prepositional | говорить о работе (talk about work) |
+| Prep. | Case 1     | Example 1                                 | Case 2        | Example 2                           |
+| ----- | ---------- | ----------------------------------------- | ------------- | ----------------------------------- |
+| в     | Accusative | в школу (to school)                       | Prepositional | в школе (at school)                 |
+| на    | Accusative | на работу (to work)                       | Prepositional | на работе (at work)                 |
+| за    | Accusative | сесть за стол (sit down at table)         | Instrumental  | за столом (sitting at table)        |
+| под   | Accusative | положить под стол (put under table)       | Instrumental  | под столом (under the table)        |
+| о/об  | Accusative | споткнуться о порог (trip over threshold) | Prepositional | говорить о работе (talk about work) |
 
 - **The В/НА direction vs. location rule** — the most tested dual-case pattern:
 - **В/НА + Accusative = DIRECTION** (motion toward): Я иду в школу. (I am going TO school.) Положи книгу на стол. (Put the book ON/ONTO the table.)
@@ -183,6 +191,7 @@ Targeted exercises for every preposition-case pairing — Android and iOS.
 [Download the app](/)
 
 ---
+
 - **Genitive** has the most prepositions (18) — learn the cluster без, до, из, у, от, после, для, кроме.
 - **В/НА + Accusative** = direction (where to?). **В/НА + Prepositional** = location (where?).
 - **Dual-case prepositions** (в, на, за, под) — motion vs. position changes the case.
@@ -207,6 +216,5 @@ The main genitive prepositions are: **без**, **до**, **из**, **с**, **у
 **How do I know when с takes genitive vs. instrumental?**
 
 **с + genitive** = "from" (off a surface): книга упала с полки (the book fell off the shelf). **с + instrumental** = "with" (accompaniment): я иду с другом (I am going with a friend). The meaning is completely different.
-
 
 [Practice prepositions in the app](/)

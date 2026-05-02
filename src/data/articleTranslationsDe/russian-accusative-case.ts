@@ -3,10 +3,8 @@ import type { LearnArticle } from '../learnArticles';
 /** Deutsche Übersetzung des Artikels `russian-accusative-case` (EN-Quelle: `learnArticles.ts`). Kyrillisch zeichengenau wie in der französischen Datei. */
 export const russianAccusativeCaseDe: LearnArticle = {
   slug: 'russian-accusative-case',
-  title:
-    'Russischer Akkusativ: direkte Objekte, belebt vs. unbelebt und Bewegungsverben',
-  metaTitle:
-    'Russischer Akkusativ: Regeln, Endungen und 30 Beispiele | Russian Cases with Anna',
+  title: 'Russischer Akkusativ: direkte Objekte, belebt vs. unbelebt und Bewegungsverben',
+  metaTitle: 'Russischer Akkusativ: Regeln, Endungen und 30 Beispiele | Russian Cases with Anna',
   metaDescription:
     'Kompletter Leitfaden zum russischen Akkusativ: Endungstabelle, belebt/unbelebt, Bewegungsverben, в/на Richtung vs. Ort, 9 Präpositionen, 15 transitive Verben, 30 echte Beispiele.',
   keywords: [
@@ -48,8 +46,7 @@ export const russianAccusativeCaseDe: LearnArticle = {
   internalLinks: [
     {
       href: '/learn/lessons/russian-cases-complete-guide',
-      label:
-        'Vollständiger Leitfaden zu den russischen Fällen: alle 6 Fälle mit Beispielen',
+      label: 'Vollständiger Leitfaden zu den russischen Fällen: alle 6 Fälle mit Beispielen',
     },
     {
       href: '/learn/articles/russian-case-endings-cheatsheet',
@@ -57,13 +54,11 @@ export const russianAccusativeCaseDe: LearnArticle = {
     },
     {
       href: '/learn/articles/russian-genitive-case',
-      label:
-        'Russischer Genitiv: Regeln, Endungen und 32 echte Beispiele',
+      label: 'Russischer Genitiv: Regeln, Endungen und 32 echte Beispiele',
     },
     {
       href: '/learn/lessons/dative-case-declension',
-      label:
-        'Russischer Dativ: wie man „zu“ und „für“ auf Russisch sagt',
+      label: 'Russischer Dativ: wie man „zu“ und „für“ auf Russisch sagt',
     },
   ],
   sections: [
@@ -95,16 +90,9 @@ export const russianAccusativeCaseDe: LearnArticle = {
       content:
         'Die Akkusativ-Endungen hängen vom **Genus** des Substantivs, von der **Stammart** (hart oder weich) und — bei Maskulinum — davon ab, ob das Wort **belebt** oder **unbelebt** ist.\n\nHier ist die vollständige Referenztabelle:',
       table: {
-        caption:
-          'Akkusativ-Endungen nach Substantivtyp — Singular und Plural',
+        caption: 'Akkusativ-Endungen nach Substantivtyp — Singular und Plural',
         boldColumnIndices: [3],
-        headers: [
-          'Substantivtyp',
-          'Regel',
-          'Nominativ',
-          'Akkusativ',
-          'Beispielsatz',
-        ],
+        headers: ['Substantivtyp', 'Regel', 'Nominativ', 'Akkusativ', 'Beispielsatz'],
         rows: [
           [
             'Mask. unbelebt (hart)',
@@ -134,20 +122,8 @@ export const russianAccusativeCaseDe: LearnArticle = {
             'гения',
             'Я вижу гения. — Ich sehe das Genie.',
           ],
-          [
-            'Fem. hart (-а)',
-            '-у',
-            'женщина',
-            'женщину',
-            'Я вижу женщину. — Ich sehe die Frau.',
-          ],
-          [
-            'Fem. weich (-я)',
-            '-ю',
-            'земля',
-            'землю',
-            'Я вижу землю. — Ich sehe die Erde.',
-          ],
+          ['Fem. hart (-а)', '-у', 'женщина', 'женщину', 'Я вижу женщину. — Ich sehe die Frau.'],
+          ['Fem. weich (-я)', '-ю', 'земля', 'землю', 'Я вижу землю. — Ich sehe die Erde.'],
           [
             'Fem. (-ь) unbelebt',
             '= Nom. (-ь)',
@@ -155,13 +131,7 @@ export const russianAccusativeCaseDe: LearnArticle = {
             'ночь',
             'Я люблю ночь. — Ich liebe die Nacht.',
           ],
-          [
-            'Fem. (-ь) belebt',
-            '= Nom. (-ь)',
-            'мышь',
-            'мышь',
-            'Я вижу мышь. — Ich sehe die Maus.',
-          ],
+          ['Fem. (-ь) belebt', '= Nom. (-ь)', 'мышь', 'мышь', 'Я вижу мышь. — Ich sehe die Maus.'],
           [
             'Neutrum (hart -о)',
             '= Nom. (-о)',
@@ -212,64 +182,23 @@ export const russianAccusativeCaseDe: LearnArticle = {
         },
       ],
       table: {
-        caption:
-          '12 konkrete Beispiele, darunter überraschende Fälle belebt/unbelebt',
+        caption: '12 konkrete Beispiele, darunter überraschende Fälle belebt/unbelebt',
         boldColumnIndices: [2],
-        headers: [
-          'Substantiv',
-          'Belebt / unbelebt',
-          'Form im Akkusativ',
-          'Hinweis',
-        ],
+        headers: ['Substantiv', 'Belebt / unbelebt', 'Form im Akkusativ', 'Hinweis'],
         rows: [
-          [
-            '🤝 друг (Freund)',
-            'belebt',
-            'Я вижу друга.',
-            'Akkusativ = Genitivform (друга)',
-          ],
-          [
-            '👨‍⚕️ врач (Arzt)',
-            'belebt',
-            'Я слушаю врача.',
-            'Akkusativ = Genitivform (врача)',
-          ],
-          [
-            '🐱 кот (Katze)',
-            'belebt',
-            'Я глажу кота.',
-            'Tiere gelten als belebt (кота)',
-          ],
-          [
-            '👶 ребёнок (Kind)',
-            'belebt',
-            'Мама видит ребёнка.',
-            'Akkusativ = Genitiv (ребёнка)',
-          ],
+          ['🤝 друг (Freund)', 'belebt', 'Я вижу друга.', 'Akkusativ = Genitivform (друга)'],
+          ['👨‍⚕️ врач (Arzt)', 'belebt', 'Я слушаю врача.', 'Akkusativ = Genitivform (врача)'],
+          ['🐱 кот (Katze)', 'belebt', 'Я глажу кота.', 'Tiere gelten als belebt (кота)'],
+          ['👶 ребёнок (Kind)', 'belebt', 'Мама видит ребёнка.', 'Akkusativ = Genitiv (ребёнка)'],
           [
             '🏛️ президент (Präsident)',
             'belebt',
             'Я уважаю президента.',
             'Personen sind immer belebt',
           ],
-          [
-            '🪑 стол (Tisch)',
-            'unbelebt',
-            'Я вижу стол.',
-            'Akkusativ = Nominativ (unverändert)',
-          ],
-          [
-            '🎬 фильм (Film)',
-            'unbelebt',
-            'Я смотрю фильм.',
-            'Akkusativ = Nominativ (unverändert)',
-          ],
-          [
-            '🏙️ город (Stadt)',
-            'unbelebt',
-            'Я люблю этот город.',
-            'Orte sind unbelebt',
-          ],
+          ['🪑 стол (Tisch)', 'unbelebt', 'Я вижу стол.', 'Akkusativ = Nominativ (unverändert)'],
+          ['🎬 фильм (Film)', 'unbelebt', 'Я смотрю фильм.', 'Akkusativ = Nominativ (unverändert)'],
+          ['🏙️ город (Stadt)', 'unbelebt', 'Я люблю этот город.', 'Orte sind unbelebt'],
           [
             '💀 труп (Leiche)',
             'unbelebt',
@@ -308,15 +237,9 @@ export const russianAccusativeCaseDe: LearnArticle = {
       content:
         'Bewegungsverben verwenden **в oder на + Akkusativ**, um die Richtung anzugeben. Das Russische hat ein reiches System von Bewegungsverben.\n\nAlle verwenden в/на + Akkusativ für die Richtung:',
       table: {
-        caption:
-          '10 zentrale Bewegungsverben + ungerichtet vs. gerichtet',
+        caption: '10 zentrale Bewegungsverben + ungerichtet vs. gerichtet',
         boldColumnIndices: [2],
-        headers: [
-          'Verb',
-          'Bedeutung',
-          'Beispiel mit В/НА + Akk.',
-          'Übersetzung',
-        ],
+        headers: ['Verb', 'Bedeutung', 'Beispiel mit В/НА + Akk.', 'Übersetzung'],
         rows: [
           [
             'идти / ходить',
@@ -330,12 +253,7 @@ export const russianAccusativeCaseDe: LearnArticle = {
             'Мы едем на работу.',
             'Wir fahren zur Arbeit',
           ],
-          [
-            'бежать / бегать',
-            '🏃 laufen',
-            'Он бежит на стадион.',
-            'Er läuft zum Stadion',
-          ],
+          ['бежать / бегать', '🏃 laufen', 'Он бежит на стадион.', 'Er läuft zum Stadion'],
           [
             'лететь / летать',
             '✈️ fliegen',
@@ -366,12 +284,7 @@ export const russianAccusativeCaseDe: LearnArticle = {
             'Ребёнок ползёт на диван.',
             'Das Kind krabbelt zur Couch',
           ],
-          [
-            'прийти (perf.)',
-            '🎯 ankommen / kommen',
-            'Приходи на вечеринку!',
-            'Komm zur Party!',
-          ],
+          ['прийти (perf.)', '🎯 ankommen / kommen', 'Приходи на вечеринку!', 'Komm zur Party!'],
           [
             'вернуться (perf.)',
             '↩️ zurückkehren',
@@ -397,28 +310,12 @@ export const russianAccusativeCaseDe: LearnArticle = {
         height: 630,
       },
       table: {
-        caption:
-          '10 Paare nebeneinander: Akkusativ (Richtung) vs. Präpositional (Ort)',
+        caption: '10 Paare nebeneinander: Akkusativ (Richtung) vs. Präpositional (Ort)',
         boldColumnIndices: [0, 1],
-        headers: [
-          'Konstruktion',
-          'Russisches Beispiel',
-          'Bedeutung',
-          'Übersetzung',
-        ],
+        headers: ['Konstruktion', 'Russisches Beispiel', 'Bedeutung', 'Übersetzung'],
         rows: [
-          [
-            'в + Akkusativ',
-            'Я иду в магазин.',
-            'Richtung: in / nach',
-            'Ich gehe in den Laden.',
-          ],
-          [
-            'в + Präpositional',
-            'Я нахожусь в магазине.',
-            'Ort: in / bei',
-            'Ich bin im Laden.',
-          ],
+          ['в + Akkusativ', 'Я иду в магазин.', 'Richtung: in / nach', 'Ich gehe in den Laden.'],
+          ['в + Präpositional', 'Я нахожусь в магазине.', 'Ort: in / bei', 'Ich bin im Laden.'],
           [
             'на + Akkusativ',
             'Она едет на работу.',
@@ -443,12 +340,7 @@ export const russianAccusativeCaseDe: LearnArticle = {
             'Ort: in der Schule',
             'Die Kinder lernen in der Schule.',
           ],
-          [
-            'на + Akkusativ',
-            'Мы летим на Кубу.',
-            'Richtung: nach Kuba',
-            'Wir fliegen nach Kuba.',
-          ],
+          ['на + Akkusativ', 'Мы летим на Кубу.', 'Richtung: nach Kuba', 'Wir fliegen nach Kuba.'],
           [
             'на + Präpositional',
             'Мы отдыхаем на Кубе.',
@@ -484,12 +376,7 @@ export const russianAccusativeCaseDe: LearnArticle = {
       table: {
         caption: '9 Präpositionen mit Akkusativ: Bedeutung und vollständiges Beispiel',
         boldColumnIndices: [0],
-        headers: [
-          'Präp.',
-          'Bedeutung',
-          'Mit Substantiv',
-          'Vollsatz + Übersetzung',
-        ],
+        headers: ['Präp.', 'Bedeutung', 'Mit Substantiv', 'Vollsatz + Übersetzung'],
         rows: [
           [
             'в',
@@ -559,11 +446,7 @@ export const russianAccusativeCaseDe: LearnArticle = {
       table: {
         caption: 'через, за, весь/всю, в + Wochentag, спустя',
         boldColumnIndices: [0],
-        headers: [
-          'Ausdruckstyp',
-          'Beispiele',
-          'Vollsatz + Übersetzung',
-        ],
+        headers: ['Ausdruckstyp', 'Beispiele', 'Vollsatz + Übersetzung'],
         rows: [
           [
             'Dauer (весь / целый)',
@@ -605,54 +488,19 @@ export const russianAccusativeCaseDe: LearnArticle = {
         boldColumnIndices: [0],
         headers: ['Verb', 'Beispiel', 'Übersetzung', 'Hinweis'],
         rows: [
-          [
-            'видеть (sehen)',
-            'Я вижу тебя.',
-            'Ich sehe dich.',
-            'Direkte visuelle Wahrnehmung',
-          ],
-          [
-            'любить (lieben)',
-            'Я люблю музыку.',
-            'Ich liebe die Musik.',
-            'Objekt der Zuneigung',
-          ],
+          ['видеть (sehen)', 'Я вижу тебя.', 'Ich sehe dich.', 'Direkte visuelle Wahrnehmung'],
+          ['любить (lieben)', 'Я люблю музыку.', 'Ich liebe die Musik.', 'Objekt der Zuneigung'],
           [
             'знать (wissen / kennen)',
             'Я знаю этот город.',
             'Ich kenne diese Stadt.',
             'Bekannte Sache oder Person',
           ],
-          [
-            'читать (lesen)',
-            'Она читает книгу.',
-            'Sie liest ein Buch.',
-            'gelesenes Objekt',
-          ],
-          [
-            'слушать (hören)',
-            'Мы слушаем музыку.',
-            'Wir hören Musik.',
-            'Objekt des Hörens',
-          ],
-          [
-            'смотреть (ansehen)',
-            'Он смотрит фильм.',
-            'Er sieht einen Film.',
-            'Objekt des Blicks',
-          ],
-          [
-            'купить (kaufen)',
-            'Я купил машину.',
-            'Ich habe ein Auto gekauft.',
-            'gekauftes Objekt',
-          ],
-          [
-            'взять (nehmen)',
-            'Возьми зонтик.',
-            'Nimm einen Regenschirm.',
-            'genommenes Objekt',
-          ],
+          ['читать (lesen)', 'Она читает книгу.', 'Sie liest ein Buch.', 'gelesenes Objekt'],
+          ['слушать (hören)', 'Мы слушаем музыку.', 'Wir hören Musik.', 'Objekt des Hörens'],
+          ['смотреть (ansehen)', 'Он смотрит фильм.', 'Er sieht einen Film.', 'Objekt des Blicks'],
+          ['купить (kaufen)', 'Я купил машину.', 'Ich habe ein Auto gekauft.', 'gekauftes Objekt'],
+          ['взять (nehmen)', 'Возьми зонтик.', 'Nimm einen Regenschirm.', 'genommenes Objekt'],
           [
             'понимать (verstehen)',
             'Я понимаю тебя.',
@@ -677,18 +525,8 @@ export const russianAccusativeCaseDe: LearnArticle = {
             'Ich warte auf den Bus.',
             'Akkusativ und Genitiv möglich!',
           ],
-          [
-            'спрашивать (fragen)',
-            'Он спрашивает меня.',
-            'Er fragt mich.',
-            'befragte Person',
-          ],
-          [
-            'благодарить (danken)',
-            'Я благодарю вас.',
-            'Ich danke Ihnen.',
-            'bedankte Person',
-          ],
+          ['спрашивать (fragen)', 'Он спрашивает меня.', 'Er fragt mich.', 'befragte Person'],
+          ['благодарить (danken)', 'Я благодарю вас.', 'Ich danke Ihnen.', 'bedankte Person'],
           [
             'изучать (studieren)',
             'Она изучает русский язык.',
@@ -907,36 +745,12 @@ export const russianAccusativeCaseDe: LearnArticle = {
             'Я вижу студента.',
             'AKKUSATIV belebt (= Genitivform, hier aber Akkusativ)',
           ],
-          [
-            'Abwesenheit (нет)',
-            'Нет студента.',
-            'GENITIV — нет verlangt immer den Genitiv',
-          ],
-          [
-            'Direktes Objekt unbelebt',
-            'Я вижу стол.',
-            'AKKUSATIV unbelebt (= Nominativ)',
-          ],
-          [
-            'Abwesenheit unbelebt',
-            'Нет стола.',
-            'GENITIV (стол → стола)',
-          ],
-          [
-            'Richtung zu einem Ort',
-            'Я иду в парк.',
-            'AKKUSATIV (в + Richtung)',
-          ],
-          [
-            'Dauer',
-            'Я работал всю неделю.',
-            'AKKUSATIV — всю неделю',
-          ],
-          [
-            'Menge / Teil von',
-            'Я выпил стакан воды.',
-            'GENITIV — воды (ein Glas Wasser)',
-          ],
+          ['Abwesenheit (нет)', 'Нет студента.', 'GENITIV — нет verlangt immer den Genitiv'],
+          ['Direktes Objekt unbelebt', 'Я вижу стол.', 'AKKUSATIV unbelebt (= Nominativ)'],
+          ['Abwesenheit unbelebt', 'Нет стола.', 'GENITIV (стол → стола)'],
+          ['Richtung zu einem Ort', 'Я иду в парк.', 'AKKUSATIV (в + Richtung)'],
+          ['Dauer', 'Я работал всю неделю.', 'AKKUSATIV — всю неделю'],
+          ['Menge / Teil von', 'Я выпил стакан воды.', 'GENITIV — воды (ein Glas Wasser)'],
         ],
       },
       bullets: [
@@ -967,14 +781,12 @@ export const russianAccusativeCaseDe: LearnArticle = {
         'Der russische Akkusativ kennzeichnet das **direkte Objekt** transitiver Verben (Я читаю книгу), die **Richtung** mit в und на (Я иду в школу), **Zeitausdrücke** (через час, всю ночь) und steht nach Präpositionen wie за, через, про, под, сквозь.',
     },
     {
-      question:
-        'Wie funktioniert die Unterscheidung belebt / unbelebt im Russischen?',
+      question: 'Wie funktioniert die Unterscheidung belebt / unbelebt im Russischen?',
       answer:
         '**Belebte maskuline Substantive** (Personen, Tiere) nehmen im Akkusativ die **Genitivform** (студент → студента). **Unbelebte Maskulina** bleiben im Nominativ (стол → стол). Überraschend: труп = unbelebt; Spielkarten und Schachfiguren = belebt.',
     },
     {
-      question:
-        'Was ist der Unterschied zwischen в + Akkusativ und в + Präpositional?',
+      question: 'Was ist der Unterschied zwischen в + Akkusativ und в + Präpositional?',
       answer:
         '**в + Akkusativ** = Richtung (Я иду в школу — Ich gehe zur Schule). **в + Präpositional** = Ort (Я в школе — Ich bin in der Schule). Entsprechend на: на работу (hingehen) vs. на работе (auf der Arbeit).',
     },
@@ -989,8 +801,7 @@ export const russianAccusativeCaseDe: LearnArticle = {
         'Ja. Adjektive müssen mit dem Substantiv **kongruieren**. Femininum Akkusativ: **-ую/-юю** (красивую женщину). Maskulinum unbelebt: bleibt wie Nominativ. Maskulinum belebt: Genitivform (красивого студента).',
     },
     {
-      question:
-        'Welche russischen Verben regieren den Genitiv statt des Akkusativs?',
+      question: 'Welche russischen Verben regieren den Genitiv statt des Akkusativs?',
       answer:
         'Die meisten transitiven Verben nehmen den Akkusativ. Ausnahmen mit **Genitiv**: бояться, ждать (unbelebt), желать, избегать, достигать, лишать. Хотеть kann beides: хочу воды (Gen., partitiv) vs. хочу воду (Akk.).',
     },
@@ -998,8 +809,7 @@ export const russianAccusativeCaseDe: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      'Russischer Akkusativ: direkte Objekte, belebt vs. unbelebt und Bewegungsverben',
+    headline: 'Russischer Akkusativ: direkte Objekte, belebt vs. unbelebt und Bewegungsverben',
     description:
       'Kompletter Leitfaden zum russischen Akkusativ: Endungen, belebt vs. unbelebt, Bewegungsverben, в/на, 9 Präpositionen, 30 Beispiele.',
     datePublished: '2026-03-12',
@@ -1008,8 +818,7 @@ export const russianAccusativeCaseDe: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/russian-accusative-case',
+      '@id': 'https://russiandeclensions.com/learn/articles/russian-accusative-case',
     },
     keywords:
       'russischer Akkusativ, Akkusativ Endungen Russisch, belebt unbelebt Akkusativ Russisch, direktes Objekt Russisch, Bewegungsverben Akkusativ Russisch',

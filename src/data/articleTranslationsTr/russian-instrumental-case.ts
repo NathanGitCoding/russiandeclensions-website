@@ -20,8 +20,7 @@ export const russianInstrumentalCaseTr: LearnArticle = {
   h1: 'Rusça enstrümental (araç) hali: ne zaman kullanılır ve düşündüğünüzden neden daha kolaydır',
   heroImage: {
     src: '/articles/free-russian-lesson-instrumental-case.webp',
-    alt:
-      'Enstrümental hal ücretsiz Rusça dersi: meslekler, с + enstrümental ve daha fazlası',
+    alt: 'Enstrümental hal ücretsiz Rusça dersi: meslekler, с + enstrümental ve daha fazlası',
     width: 1200,
     height: 630,
   },
@@ -39,8 +38,7 @@ export const russianInstrumentalCaseTr: LearnArticle = {
     '**30 gerçek Rusça cümle** ve transkripsiyon',
   ],
   leadMagnetCta: {
-    title:
-      'Enstrümental hali telefonda alıştırmalarla çalışın',
+    title: 'Enstrümental hali telefonda alıştırmalarla çalışın',
     description:
       'Mobil uygulamamız 6 Rusça halinin tamamını çalıştırır — meslekler, с + enstrümental, yer edatları ve dönüşlü fiillere özel vurgu. Android ve iOS.',
     ctaText: 'Uygulamayı indirin, bugün pratiğe başlayın',
@@ -49,28 +47,23 @@ export const russianInstrumentalCaseTr: LearnArticle = {
   internalLinks: [
     {
       href: '/learn/lessons/russian-cases-complete-guide',
-      label:
-        'Rusça haller rehberi: örneklerle 6 hal',
+      label: 'Rusça haller rehberi: örneklerle 6 hal',
     },
     {
       href: '/learn/articles/russian-case-endings-cheatsheet',
-      label:
-        'Rusça hal ekleri: nihai özet tablosu',
+      label: 'Rusça hal ekleri: nihai özet tablosu',
     },
     {
       href: '/learn/articles/russian-genitive-case',
-      label:
-        'Rusça ilgi (genitif) hali: kurallar, ekler ve 32 gerçek örnek',
+      label: 'Rusça ilgi (genitif) hali: kurallar, ekler ve 32 gerçek örnek',
     },
     {
       href: '/learn/articles/russian-accusative-case',
-      label:
-        'Rusça belirtme (accusatif) hali: doğrudan nesne, canlı / cansız',
+      label: 'Rusça belirtme (accusatif) hali: doğrudan nesne, canlı / cansız',
     },
     {
       href: '/learn/articles/russian-dative-case',
-      label:
-        'Rusça yönelme (datif) hali: «-e / -a» ve «için» nasıl söylenir',
+      label: 'Rusça yönelme (datif) hali: «-e / -a» ve «için» nasıl söylenir',
     },
   ],
   tableAccentVariant: 'instrumental',
@@ -105,22 +98,14 @@ export const russianInstrumentalCaseTr: LearnArticle = {
         'Rusça isimler için enstrümental eklerin tam tablosu aşağıdadır.\n\nKalıplar **tutarlıdır** ve çoğulda tüm cinsler için aynıdır (**-ами/-ями**).',
       image: {
         src: '/articles/instrumental-case-russian-noun-endings-declension-table.webp',
-        alt:
-          'Enstrümental çekim tablosu: cinslere göre Rusça isim ekleri',
+        alt: 'Enstrümental çekim tablosu: cinslere göre Rusça isim ekleri',
         width: 1200,
         height: 630,
       },
       table: {
-        caption:
-          'İsimlerde enstrümental ekler — tüm cinsler, tekil ve çoğul',
+        caption: 'İsimlerde enstrümental ekler — tüm cinsler, tekil ve çoğul',
         boldColumnIndices: [1, 3],
-        headers: [
-          'İsim türü',
-          'Ek',
-          'Oluşum',
-          'Sonuç',
-          'Bağlamda örnek',
-        ],
+        headers: ['İsim türü', 'Ek', 'Oluşum', 'Sonuç', 'Bağlamda örnek'],
         rows: [
           [
             'Eril sert (ünsüz)',
@@ -164,13 +149,7 @@ export const russianInstrumentalCaseTr: LearnArticle = {
             'землёй',
             'под землёй — yerin altında',
           ],
-          [
-            'Dişil (-ь)',
-            '-ью',
-            'ночь → ноч+ью',
-            'ночью',
-            'ночью — geceleyin / geceleri',
-          ],
+          ['Dişil (-ь)', '-ью', 'ночь → ноч+ью', 'ночью', 'ночью — geceleyin / geceleri'],
           [
             'Nötr sert (-о)',
             '-ом',
@@ -178,13 +157,7 @@ export const russianInstrumentalCaseTr: LearnArticle = {
             'окном',
             'за окном — dışarıda / pencerenin arkasında',
           ],
-          [
-            'Nötr yumuşak (-е)',
-            '-ем',
-            'море → мор+ем',
-            'морем',
-            'за морем — denizin ötesinde',
-          ],
+          ['Nötr yumuşak (-е)', '-ем', 'море → мор+ем', 'морем', 'за морем — denizin ötesinde'],
           [
             'Çoğul (sert)',
             '-ами',
@@ -218,28 +191,10 @@ export const russianInstrumentalCaseTr: LearnArticle = {
       table: {
         caption: 'Sıfatlarda enstrümental ekler',
         boldColumnIndices: [1, 2],
-        headers: [
-          'Cins / sayı',
-          'Ek',
-          'Sıfat biçimi',
-          'Tam öbek',
-          'Anlam',
-        ],
+        headers: ['Cins / sayı', 'Ek', 'Sıfat biçimi', 'Tam öbek', 'Anlam'],
         rows: [
-          [
-            'Eril/nötr sert',
-            '-ым',
-            'новый → новым',
-            'новым другом',
-            'yeni bir arkadaşla',
-          ],
-          [
-            'Eril/nötr yumuşak',
-            '-им',
-            'синий → синим',
-            'синим морем',
-            'mavi denizle',
-          ],
+          ['Eril/nötr sert', '-ым', 'новый → новым', 'новым другом', 'yeni bir arkadaşla'],
+          ['Eril/nötr yumuşak', '-им', 'синий → синим', 'синим морем', 'mavi denizle'],
           [
             'Dişil sert',
             '-ой / -ою',
@@ -247,13 +202,7 @@ export const russianInstrumentalCaseTr: LearnArticle = {
             'с красивой девушкой',
             'güzel bir kızla',
           ],
-          [
-            'Dişil yumuşak',
-            '-ей',
-            'летняя → летней',
-            'летней ночью',
-            'yaz gecesinde',
-          ],
+          ['Dişil yumuşak', '-ей', 'летняя → летней', 'летней ночью', 'yaz gecesinde'],
           [
             'Çoğul (tüm cinsler)',
             '-ыми / -ими',
@@ -287,19 +236,9 @@ export const russianInstrumentalCaseTr: LearnArticle = {
       table: {
         caption: 'Enstrümental ile meslekler',
         boldColumnIndices: [1],
-        headers: [
-          'Meslek (yalın)',
-          'Rusça cümle',
-          'Çeviri',
-          'Dilbilgisi notu',
-        ],
+        headers: ['Meslek (yalın)', 'Rusça cümle', 'Çeviri', 'Dilbilgisi notu'],
         rows: [
-          [
-            'врач (doktor)',
-            'Он работает врачом.',
-            'Doktor olarak çalışıyor.',
-            'Eril → -ом',
-          ],
+          ['врач (doktor)', 'Он работает врачом.', 'Doktor olarak çalışıyor.', 'Eril → -ом'],
           [
             'учитель (öğretmen)',
             'Она работает учительницей.',
@@ -318,12 +257,7 @@ export const russianInstrumentalCaseTr: LearnArticle = {
             'Çevirmen oldu.',
             'Стать + enstrümental',
           ],
-          [
-            'президент',
-            'Он был президентом.',
-            'Başkandı.',
-            'Быть geçmiş + enstrümental',
-          ],
+          ['президент', 'Он был президентом.', 'Başkandı.', 'Быть geçmiş + enstrümental'],
           [
             'директор',
             'Её назначили директором.',
@@ -364,12 +298,7 @@ export const russianInstrumentalCaseTr: LearnArticle = {
       table: {
         caption: 'Enstrümental ile 8 edat',
         boldColumnIndices: [0],
-        headers: [
-          'Edat',
-          'Anlam',
-          'İsimle',
-          'Tam örnek + çeviri',
-        ],
+        headers: ['Edat', 'Anlam', 'İsimle', 'Tam örnek + çeviri'],
         rows: [
           [
             'с',
@@ -377,12 +306,7 @@ export const russianInstrumentalCaseTr: LearnArticle = {
             'с другом, с молоком',
             'Я иду с другом. — Arkadaşımla gidiyorum.',
           ],
-          [
-            'со',
-            'ile (küme öncesi)',
-            'со мной, со временем',
-            'Иди со мной! — Benimle gel!',
-          ],
+          ['со', 'ile (küme öncesi)', 'со мной, со временем', 'Иди со мной! — Benimle gel!'],
           [
             'за',
             'arkasında / (konum) -de',
@@ -407,18 +331,8 @@ export const russianInstrumentalCaseTr: LearnArticle = {
             'под столом, под землёй',
             'Кот под столом. — Kedi masanın altında.',
           ],
-          [
-            'между',
-            'arasında',
-            'между домами, между нами',
-            'Это между нами. — Bu aramızda kalır.',
-          ],
-          [
-            'рядом с',
-            'yanında',
-            'рядом с домом',
-            'Кафе рядом с метро. — Kafe metronun yanında.',
-          ],
+          ['между', 'arasında', 'между домами, между нами', 'Это между нами. — Bu aramızda kalır.'],
+          ['рядом с', 'yanında', 'рядом с домом', 'Кафе рядом с метро. — Kafe metronun yanında.'],
         ],
       },
     },
@@ -431,19 +345,10 @@ export const russianInstrumentalCaseTr: LearnArticle = {
         boldColumnIndices: [0],
         headers: ['Rusça ifadeler', 'Örnek cümle + çeviri'],
         rows: [
-          [
-            'утром, вечером, ночью',
-            'Утром я пью кофе. — Sabahları kahve içerim.',
-          ],
-          [
-            'весной, летом, осенью, зимой',
-            'Летом жарко. — Yazın hava sıcaktır.',
-          ],
+          ['утром, вечером, ночью', 'Утром я пью кофе. — Sabahları kahve içerim.'],
+          ['весной, летом, осенью, зимой', 'Летом жарко. — Yazın hava sıcaktır.'],
           ['днём, ночью', 'Он работает ночью. — Geceleri çalışır.'],
-          [
-            'годом раньше / позже',
-            'Годом раньше он уехал. — Bir yıl önce gitmişti.',
-          ],
+          ['годом раньше / позже', 'Годом раньше он уехал. — Bir yıl önce gitmişti.'],
         ],
       },
       bullets: [
@@ -459,96 +364,26 @@ export const russianInstrumentalCaseTr: LearnArticle = {
         boldColumnIndices: [0],
         headers: ['Fiil', 'Örnek', 'Çeviri', 'Not'],
         rows: [
-          [
-            'заниматься',
-            'Я занимаюсь русским языком.',
-            'Rusça çalışıyorum.',
-            'Dönüşlü ilgi fiili',
-          ],
-          [
-            'интересоваться',
-            'Она интересуется историей.',
-            'Tarihe ilgi duyuyor.',
-            'İlgi nesnesi',
-          ],
-          [
-            'гордиться',
-            'Мы гордимся тобой.',
-            'Seninle gurur duyuyoruz.',
-            'Gurur nesnesi',
-          ],
+          ['заниматься', 'Я занимаюсь русским языком.', 'Rusça çalışıyorum.', 'Dönüşlü ilgi fiili'],
+          ['интересоваться', 'Она интересуется историей.', 'Tarihe ilgi duyuyor.', 'İlgi nesnesi'],
+          ['гордиться', 'Мы гордимся тобой.', 'Seninle gurur duyuyoruz.', 'Gurur nesnesi'],
           [
             'восхищаться',
             'Он восхищается закатом.',
             'Gün batımına hayran kalıyor.',
             'Hayranlık nesnesi',
           ],
-          [
-            'увлекаться',
-            'Он увлекается музыкой.',
-            'Müziğe tutkundur.',
-            'Hobi / tutku',
-          ],
-          [
-            'пользоваться',
-            'Я пользуюсь словарём.',
-            'Sözlük kullanıyorum.',
-            'Kullanılan araç',
-          ],
-          [
-            'владеть',
-            'Она владеет тремя языками.',
-            'Üç dil biliyor.',
-            'Ustalık / elde bulundurma',
-          ],
-          [
-            'управлять',
-            'Он управляет машиной.',
-            'Araba kullanıyor.',
-            'Araç sürmek',
-          ],
-          [
-            'являться',
-            'Москва является столицей.',
-            'Moskova başkenttir.',
-            'Resmî = olmak',
-          ],
-          [
-            'служить',
-            'Это служит примером.',
-            'Bu örnek teşkil eder.',
-            'Rol / işlev',
-          ],
-          [
-            'стать',
-            'Она стала врачом.',
-            'Doktor oldu.',
-            'Durum değişimi → meslek',
-          ],
-          [
-            'быть',
-            'Он был студентом.',
-            'Öğrenciydi.',
-            'Geçmiş/gelecekte «olmak»',
-          ],
-          [
-            'называть',
-            'Все называют его гением.',
-            'Herkes ona dahi der.',
-            'Adlandırma',
-          ],
-          [
-            'считать',
-            'Я считаю его другом.',
-            'Onu arkadaş sayarım.',
-            'Görüş / yargı',
-          ],
-          [
-            'махать',
-            'Она машет рукой.',
-            'Eliyle sallıyor.',
-            'Eylemde vücut parçası',
-          ],
+          ['увлекаться', 'Он увлекается музыкой.', 'Müziğe tutkundur.', 'Hobi / tutku'],
+          ['пользоваться', 'Я пользуюсь словарём.', 'Sözlük kullanıyorum.', 'Kullanılan araç'],
+          ['владеть', 'Она владеет тремя языками.', 'Üç dil biliyor.', 'Ustalık / elde bulundurma'],
+          ['управлять', 'Он управляет машиной.', 'Araba kullanıyor.', 'Araç sürmek'],
+          ['являться', 'Москва является столицей.', 'Moskova başkenttir.', 'Resmî = olmak'],
+          ['служить', 'Это служит примером.', 'Bu örnek teşkil eder.', 'Rol / işlev'],
+          ['стать', 'Она стала врачом.', 'Doktor oldu.', 'Durum değişimi → meslek'],
+          ['быть', 'Он был студентом.', 'Öğrenciydi.', 'Geçmiş/gelecekte «olmak»'],
+          ['называть', 'Все называют его гением.', 'Herkes ona dahi der.', 'Adlandırma'],
+          ['считать', 'Я считаю его другом.', 'Onu arkadaş sayarım.', 'Görüş / yargı'],
+          ['махать', 'Она машет рукой.', 'Eliyle sallıyor.', 'Eylemde vücut parçası'],
         ],
       },
     },
@@ -561,49 +396,14 @@ export const russianInstrumentalCaseTr: LearnArticle = {
         boldColumnIndices: [1],
         headers: ['#', 'Rusça cümle', 'Transkripsiyon', 'Çeviri ve notlar'],
         rows: [
-          [
-            '1',
-            'Он пишет ручкой.',
-            'On pishet ruchkoy.',
-            'Kalemle yazar. (ручка → ручкой)',
-          ],
-          [
-            '2',
-            'Я режу хлеб ножом.',
-            'Ya rezhu khleb nozhom.',
-            'Ekmek bıçakla kesiyorum.',
-          ],
+          ['1', 'Он пишет ручкой.', 'On pishet ruchkoy.', 'Kalemle yazar. (ручка → ручкой)'],
+          ['2', 'Я режу хлеб ножом.', 'Ya rezhu khleb nozhom.', 'Ekmek bıçakla kesiyorum.'],
           ['3', 'Мы едем поездом.', 'My yedyom poyezdom.', 'Trenle gidiyoruz.'],
-          [
-            '4',
-            'Она рисует карандашом.',
-            'Ona risuyet karandashom.',
-            'Kurşun kalemle çiziyor.',
-          ],
-          [
-            '5',
-            'Открой дверь ключом.',
-            'Otkroy dver klyuchom.',
-            'Kapıyı anahtarla aç.',
-          ],
-          [
-            '6',
-            'Он работает врачом.',
-            'On rabotayet vrachom.',
-            'Doktor olarak çalışıyor.',
-          ],
-          [
-            '7',
-            'Она стала учительницей.',
-            'Ona stala uchitelnitsyey.',
-            'Öğretmen oldu.',
-          ],
-          [
-            '8',
-            'Мой отец был инженером.',
-            'Moy otets byl inzhenyerom.',
-            'Babam mühendisti.',
-          ],
+          ['4', 'Она рисует карандашом.', 'Ona risuyet karandashom.', 'Kurşun kalemle çiziyor.'],
+          ['5', 'Открой дверь ключом.', 'Otkroy dver klyuchom.', 'Kapıyı anahtarla aç.'],
+          ['6', 'Он работает врачом.', 'On rabotayet vrachom.', 'Doktor olarak çalışıyor.'],
+          ['7', 'Она стала учительницей.', 'Ona stala uchitelnitsyey.', 'Öğretmen oldu.'],
+          ['8', 'Мой отец был инженером.', 'Moy otets byl inzhenyerom.', 'Babam mühendisti.'],
           [
             '9',
             'Его назначили директором.',
@@ -616,114 +416,44 @@ export const russianInstrumentalCaseTr: LearnArticle = {
             'Ya khochu stat kosmonavtom.',
             'Kozmonot olmak istiyorum.',
           ],
-          [
-            '11',
-            'Я иду с другом.',
-            'Ya idu s drugom.',
-            'Arkadaşımla gidiyorum.',
-          ],
-          [
-            '12',
-            'Он пришёл с женой.',
-            'On prishol s zhonoy.',
-            'Karısıyla geldi.',
-          ],
-          [
-            '13',
-            'Выпей кофе с молоком.',
-            'Vypey kofe s molokom.',
-            'Sütlü kahve iç.',
-          ],
-          [
-            '14',
-            'Мы живём с родителями.',
-            'My zhivyom s roditelyami.',
-            'Ailemizle yaşıyoruz.',
-          ],
+          ['11', 'Я иду с другом.', 'Ya idu s drugom.', 'Arkadaşımla gidiyorum.'],
+          ['12', 'Он пришёл с женой.', 'On prishol s zhonoy.', 'Karısıyla geldi.'],
+          ['13', 'Выпей кофе с молоком.', 'Vypey kofe s molokom.', 'Sütlü kahve iç.'],
+          ['14', 'Мы живём с родителями.', 'My zhivyom s roditelyami.', 'Ailemizle yaşıyoruz.'],
           [
             '15',
             'Книга лежит под лампой.',
             'Kniga lezhit pod lampoy.',
             'Kitap lambanın altında. (под + enstr.)',
           ],
-          [
-            '16',
-            'Они сидят за столом.',
-            'Oni sidyat za stolom.',
-            'Masa başında oturuyorlar.',
-          ],
+          ['16', 'Они сидят за столом.', 'Oni sidyat za stolom.', 'Masa başında oturuyorlar.'],
           [
             '17',
             'Самолёт летит над облаками.',
             'Samolyot letit nad oblakami.',
             'Uçak bulutların üstünde uçuyor.',
           ],
-          [
-            '18',
-            'Дом стоит перед лесом.',
-            'Dom stoit pered lesom.',
-            'Ev ormanın önünde duruyor.',
-          ],
+          ['18', 'Дом стоит перед лесом.', 'Dom stoit pered lesom.', 'Ev ormanın önünde duruyor.'],
           [
             '19',
             'Мы договорились между собой.',
             'My dogovorilis mezhdu soboy.',
             'Aramızda anlaştık.',
           ],
-          [
-            '20',
-            'Кафе рядом с банком.',
-            'Kafe ryadom s bankom.',
-            'Kafe bankın yanında.',
-          ],
-          [
-            '21',
-            'Утром я бегаю в парке.',
-            'Utrom ya begayu v parke.',
-            'Sabahları parkta koşarım.',
-          ],
-          [
-            '22',
-            'Летом мы ездим на море.',
-            'Letom my yezdim na more.',
-            'Yazın denize gideriz.',
-          ],
-          [
-            '23',
-            'Ночью город красив.',
-            'Nochyu gorod krasiv.',
-            'Geceleyin şehir güzeldir.',
-          ],
-          [
-            '24',
-            'Я занимаюсь спортом.',
-            'Ya zanimayus sportom.',
-            'Spor yapıyorum.',
-          ],
-          [
-            '25',
-            'Она гордится сыном.',
-            'Ona gorditsya synom.',
-            'Oğluyla gurur duyuyor.',
-          ],
+          ['20', 'Кафе рядом с банком.', 'Kafe ryadom s bankom.', 'Kafe bankın yanında.'],
+          ['21', 'Утром я бегаю в парке.', 'Utrom ya begayu v parke.', 'Sabahları parkta koşarım.'],
+          ['22', 'Летом мы ездим на море.', 'Letom my yezdim na more.', 'Yazın denize gideriz.'],
+          ['23', 'Ночью город красив.', 'Nochyu gorod krasiv.', 'Geceleyin şehir güzeldir.'],
+          ['24', 'Я занимаюсь спортом.', 'Ya zanimayus sportom.', 'Spor yapıyorum.'],
+          ['25', 'Она гордится сыном.', 'Ona gorditsya synom.', 'Oğluyla gurur duyuyor.'],
           [
             '26',
             'Мы восхищаемся закатом.',
             'My voskhishchaemsa zakatom.',
             'Gün batımına hayran kalıyoruz.',
           ],
-          [
-            '27',
-            'Он увлекается музыкой.',
-            'On uvlekayetsya muzykoy.',
-            'Müziğe tutkundur.',
-          ],
-          [
-            '28',
-            'Пахнет свежей травой.',
-            'Pakhnet svezhey travoy.',
-            'Taze çimen kokuyor.',
-          ],
+          ['27', 'Он увлекается музыкой.', 'On uvlekayetsya muzykoy.', 'Müziğe tutkundur.'],
+          ['28', 'Пахнет свежей травой.', 'Pakhnet svezhey travoy.', 'Taze çimen kokuyor.'],
           [
             '29',
             'Она машет рукой на прощание.',
@@ -780,8 +510,7 @@ export const russianInstrumentalCaseTr: LearnArticle = {
         '**С + enstrümental** birliktelik ifade eder — birisiyle bir şey yapmak veya bir şeye eşlik edeni anlatmak. Örnekler: Я иду с другом, Кофе с молоком, Мы живём с родителями. Ünsüz kümesinden önce с → со olur: со мной, со временем.',
     },
     {
-      question:
-        'Yer edatlarında enstrümental ile belirtme arasındaki fark nedir?',
+      question: 'Yer edatlarında enstrümental ile belirtme arasındaki fark nedir?',
       answer:
         'за, под, перед, над gibi edatlar **enstrümental** veya **belirtme** alabilir. **Enstrümental** = sabit konum (nerede **olduğu**): книга под столом. **Belirtme** = yönelme: положи книгу под стол. Enstrümental = zaten oradayım. Belirtme = oraya gidiyorum.',
     },
@@ -799,8 +528,7 @@ export const russianInstrumentalCaseTr: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/russian-instrumental-case',
+      '@id': 'https://russiandeclensions.com/learn/articles/russian-instrumental-case',
     },
     keywords:
       'Rusça enstrümental hal, Rusça enstrümental ekleri, с + enstrümental Rusça, enstrümental edatlar Rusça',

@@ -3,8 +3,7 @@ import type { LearnArticle } from '../learnArticles';
 /** `how-long-learn-russian` makalesinin Türkçe çevirisi (EN kaynak: `learnArticles.ts`). Kiril aynen. */
 export const howLongLearnRussianTr: LearnArticle = {
   slug: 'how-long-learn-russian',
-  title:
-    'Rusça öğrenmek ne kadar sürer? (gerçekçi zaman çizelgesi)',
+  title: 'Rusça öğrenmek ne kadar sürer? (gerçekçi zaman çizelgesi)',
   metaTitle:
     'Rusça öğrenmek ne kadar sürer? Seviyeye göre gerçekçi zaman çizelgesi | Russian Cases with Anna',
   metaDescription:
@@ -32,12 +31,7 @@ export const howLongLearnRussianTr: LearnArticle = {
       content:
         '**Foreign Service Institute** dilleri İngilizce konuşanlar için 4 zorluk kategorisine ayırır. Rusça **IV. kategori**dedir (Yunanca, Lehçe, Türkçe ile birlikte). Tahmin: mesleki çalışma yeterliliği (yaklaşık CEFR B2/C1) için **1.100 saat yoğun sınıf eğitimi**.\n\nFSI verisinin söylemediği: bu 1.100 saat **tam zamanlı yoğun çalışmayı** (haftada ~25 saat sınıf + ödev), deneyimli öğretmenleri ve yapılandırılmış programı varsayar. Birçok bağımsız öğrenci günde 30–60 dakika çalışır — matematik tamamen değişir.',
       table: {
-        headers: [
-          'Tempo',
-          'Saat/gün',
-          '~1.100 saate kadar',
-          'Gerçekçi seviye',
-        ],
+        headers: ['Tempo', 'Saat/gün', '~1.100 saate kadar', 'Gerçekçi seviye'],
         rows: [
           ['FSI yoğun', '5–6 s', '~44 hf. (10 ay)', 'B2/C1'],
           ['Kararlı öz-çalışma', '2 s', '~18 ay', 'B1/B2'],
@@ -111,8 +105,7 @@ export const howLongLearnRussianTr: LearnArticle = {
     },
     {
       h2: 'Öğrenme hızınızı etkileyen 7 faktör',
-      content:
-        'Aynı gün başlayan iki öğrenci B1’e aylarca farkla varabilir:',
+      content: 'Aynı gün başlayan iki öğrenci B1’e aylarca farkla varabilir:',
       subsections: [
         {
           h3: '1. Ana diliniz',
@@ -146,8 +139,7 @@ export const howLongLearnRussianTr: LearnArticle = {
         },
         {
           h3: '7. Motivasyon',
-          content:
-            'Kişisel neden (partner, iş, edebiyat) sürdürülebilirliği artırır.',
+          content: 'Kişisel neden (partner, iş, edebiyat) sürdürülebilirliği artırır.',
         },
       ],
     },
@@ -163,7 +155,12 @@ export const howLongLearnRussianTr: LearnArticle = {
         headers: ['Süre', 'Etkinlik', 'Araç', 'Amaç'],
         rows: [
           ['5 dk', 'Kartları gözden geçir', 'Anki / Memrise', 'Kelime tutma'],
-          ['10 dk', 'Dilbilgisi dersi', 'Russian Cases with Anna / Babbel', 'Hâl ve fiil kuralları'],
+          [
+            '10 dk',
+            'Dilbilgisi dersi',
+            'Russian Cases with Anna / Babbel',
+            'Hâl ve fiil kuralları',
+          ],
           ['10 dk', 'Aktif test', 'russiandeclensions.com/practice', 'Çekim pratiği'],
           ['5 dk', 'Oku / dinle', 'News in Slow Russian / kısa metinler', 'Pasif girdi'],
         ],
@@ -261,10 +258,8 @@ export const howLongLearnRussianTr: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/how-long-learn-russian',
+      '@id': 'https://russiandeclensions.com/learn/articles/how-long-learn-russian',
     },
-    keywords:
-      'rusça ne kadar sürer, rusça öğrenme zaman çizelgesi, rusça saat, FSI rusça',
+    keywords: 'rusça ne kadar sürer, rusça öğrenme zaman çizelgesi, rusça saat, FSI rusça',
   },
 };

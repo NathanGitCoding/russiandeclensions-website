@@ -3,8 +3,7 @@ import type { LearnArticle } from '../learnArticles';
 /** Deutsche Übersetzung des Artikels `top-10-russian-case-mistakes` (EN-Quelle: `learnArticles.ts`). Kyrillische Beispiele zeichengenau. */
 export const top10RussianCaseMistakesDe: LearnArticle = {
   slug: 'top-10-russian-case-mistakes',
-  title:
-    'Top 10 Fehler englischsprachiger Lerner bei russischen Fällen (und wie man sie behebt)',
+  title: 'Top 10 Fehler englischsprachiger Lerner bei russischen Fällen (und wie man sie behebt)',
   metaTitle:
     'Top 10 russische Kasusfehler (englischsprachige Lerner) | Grammatik verbessern | Russian Cases with Anna',
   metaDescription:
@@ -19,8 +18,7 @@ export const top10RussianCaseMistakesDe: LearnArticle = {
   h1: 'Top 10 Fehler englischsprachiger Lerner bei russischen Fällen (und wie man sie behebt)',
   heroImage: {
     src: '/articles/top-russian-case-errors-and-mistakes-by-english-speakers.webp',
-    alt:
-      'Häufigste Kasusfehler im Russischen bei englischsprachigen Lernern',
+    alt: 'Häufigste Kasusfehler im Russischen bei englischsprachigen Lernern',
     width: 1200,
     height: 630,
   },
@@ -45,8 +43,7 @@ export const top10RussianCaseMistakesDe: LearnArticle = {
   internalLinks: [
     {
       href: '/learn/lessons/russian-cases-complete-guide',
-      label:
-        'Vollständiger Leitfaden zu den russischen Fällen: alle 6 Fälle mit Beispielen',
+      label: 'Vollständiger Leitfaden zu den russischen Fällen: alle 6 Fälle mit Beispielen',
     },
     {
       href: '/learn/articles/russian-case-endings-cheatsheet',
@@ -159,8 +156,7 @@ export const top10RussianCaseMistakesDe: LearnArticle = {
     },
     {
       h2: 'Bonus-Fehler außerhalb der Top 10',
-      content:
-        'Ehrenvolle Erwähnungen — sehr häufig, etwas weniger universal als die Top 10:',
+      content: 'Ehrenvolle Erwähnungen — sehr häufig, etwas weniger universal als die Top 10:',
       bullets: [
         '**Н- bei Pronomen nach Präposition vergessen:** к ему ✗ → к нему ✓ | от ей ✗ → от неё ✓',
         '**из (von innen) und от (von Person) verwechseln:** из врача ✗ → от врача ✓',
@@ -172,8 +168,7 @@ export const top10RussianCaseMistakesDe: LearnArticle = {
     },
     {
       h2: 'Schnellübersicht: alle 10 Fehler auf einen Blick',
-      content:
-        'Nutzen Sie die Tabelle als Checkliste beim Korrekturlesen:',
+      content: 'Nutzen Sie die Tabelle als Checkliste beim Korrekturlesen:',
       table: {
         caption: 'Übersicht der 10 häufigsten Kasusfehler',
         headers: ['#', 'Fehlermuster', 'Falsch', 'Richtig', 'Kernregel'],
@@ -325,8 +320,7 @@ export const top10RussianCaseMistakesDe: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/top-10-russian-case-mistakes',
+      '@id': 'https://russiandeclensions.com/learn/articles/top-10-russian-case-mistakes',
     },
     keywords:
       'russische kasusfehler, russische grammatik englisch, russische fälle schwer, häufige grammatikfehler russisch',

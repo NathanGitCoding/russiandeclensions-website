@@ -174,10 +174,7 @@ const SLUG_TO_PRACTICE_CASE: Record<string, string> = {
 };
 
 /** Get related lessons for an article (max 3) */
-function getRelatedLessons(
-  currentSlug: string,
-  lang?: string
-): { slug: string; title: string }[] {
+function getRelatedLessons(currentSlug: string, lang?: string): { slug: string; title: string }[] {
   const lessonSlugs = getAllLearnLessonSlugs();
   const related: { slug: string; title: string }[] = [];
 
@@ -269,9 +266,7 @@ export default async function LearnArticlePage({ params }: Props) {
   const relatedLessons = getRelatedLessons(slug, 'en_en');
   const practiceCase = SLUG_TO_PRACTICE_CASE[slug];
   const hasToc = (article.sections?.length ?? 0) >= 4;
-  const tocItems = hasToc
-    ? article.sections!.map((s) => ({ id: slugify(s.h2), label: s.h2 }))
-    : [];
+  const tocItems = hasToc ? article.sections!.map((s) => ({ id: slugify(s.h2), label: s.h2 })) : [];
 
   // Enrich the Article JSON-LD with timeRequired
   const enrichedJsonLd = {
@@ -816,10 +811,7 @@ export default async function LearnArticlePage({ params }: Props) {
             <h2 id="practice-heading" className="learn-detail-related-title">
               {t.practiceThisCase}
             </h2>
-            <Link
-              href={`/practice/${practiceCase}`}
-              className="learn-detail-related-card"
-            >
+            <Link href={`/practice/${practiceCase}`} className="learn-detail-related-card">
               <span className="learn-detail-related-card-title">{t.practiceNow}</span>
               <span className="learn-detail-related-card-arrow">→</span>
             </Link>

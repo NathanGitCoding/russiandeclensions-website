@@ -51,12 +51,7 @@ export function QuizLeadMagnet({ cta }: { cta: LearnArticleLeadMagnet }) {
               className="transition-transform hover:scale-105"
               aria-label="Download on the App Store"
             >
-              <Image
-                src="/landing-cases/app-store-badge.svg"
-                alt=""
-                width={100}
-                height={33}
-              />
+              <Image src="/landing-cases/app-store-badge.svg" alt="" width={100} height={33} />
             </button>
             <button
               type="button"
@@ -64,12 +59,7 @@ export function QuizLeadMagnet({ cta }: { cta: LearnArticleLeadMagnet }) {
               className="transition-transform hover:scale-105"
               aria-label="Get it on Google Play"
             >
-              <Image
-                src="/landing-cases/google-play-badge.svg"
-                alt=""
-                width={112}
-                height={33}
-              />
+              <Image src="/landing-cases/google-play-badge.svg" alt="" width={112} height={33} />
             </button>
           </div>
         </div>

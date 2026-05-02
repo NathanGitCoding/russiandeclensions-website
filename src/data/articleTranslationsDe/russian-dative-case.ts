@@ -48,8 +48,7 @@ export const russianDativeCaseDe: LearnArticle = {
   internalLinks: [
     {
       href: '/learn/lessons/russian-cases-complete-guide',
-      label:
-        'Vollständiger Leitfaden zu den russischen Fällen: alle 6 Fälle mit Beispielen',
+      label: 'Vollständiger Leitfaden zu den russischen Fällen: alle 6 Fälle mit Beispielen',
     },
     {
       href: '/learn/articles/russian-case-endings-cheatsheet',
@@ -57,18 +56,15 @@ export const russianDativeCaseDe: LearnArticle = {
     },
     {
       href: '/learn/articles/russian-genitive-case',
-      label:
-        'Russischer Genitiv: Regeln, Endungen und 32 echte Beispiele',
+      label: 'Russischer Genitiv: Regeln, Endungen und 32 echte Beispiele',
     },
     {
       href: '/learn/articles/russian-accusative-case',
-      label:
-        'Russischer Akkusativ: direkte Objekte, belebt vs. unbelebt und Bewegungsverben',
+      label: 'Russischer Akkusativ: direkte Objekte, belebt vs. unbelebt und Bewegungsverben',
     },
     {
       href: '/learn/lessons/dative-case-declension',
-      label:
-        'Russischer Dativ: wie man „zu“ und „für“ auf Russisch sagt',
+      label: 'Russischer Dativ: wie man „zu“ und „für“ auf Russisch sagt',
     },
   ],
   tableAccentVariant: 'dative',
@@ -110,13 +106,7 @@ export const russianDativeCaseDe: LearnArticle = {
       table: {
         caption: 'Nomenendungen im Dativ — alle Genera, Singular und Plural',
         boldColumnIndices: [1, 3],
-        headers: [
-          'Nomentyp',
-          'Endung',
-          'Bildung',
-          'Ergebnis',
-          'Beispiel im Kontext',
-        ],
+        headers: ['Nomentyp', 'Endung', 'Bildung', 'Ergebnis', 'Beispiel im Kontext'],
         rows: [
           [
             'Mask. hart (Konsonant)',
@@ -146,13 +136,7 @@ export const russianDativeCaseDe: LearnArticle = {
             'сестре',
             'Я звоню сестре. — Ich rufe der Schwester an.',
           ],
-          [
-            'Fem. weich (-я)',
-            '-е',
-            'земля → земл+е',
-            'земле',
-            'Привет земле! — Hallo, Erde!',
-          ],
+          ['Fem. weich (-я)', '-е', 'земля → земл+е', 'земле', 'Привет земле! — Hallo, Erde!'],
           [
             'Fem. auf -ия',
             '-ии',
@@ -181,13 +165,7 @@ export const russianDativeCaseDe: LearnArticle = {
             'морю',
             'Мы едем к морю. — Wir fahren zum Meer.',
           ],
-          [
-            'Neutr. (-ие)',
-            '-ию',
-            'здание → здани+ю',
-            'зданию',
-            'Иди к зданию. — Geh zum Gebäude.',
-          ],
+          ['Neutr. (-ие)', '-ию', 'здание → здани+ю', 'зданию', 'Иди к зданию. — Geh zum Gebäude.'],
           [
             'Plural mask./neutr.',
             '-ам/-ям',
@@ -230,13 +208,7 @@ export const russianDativeCaseDe: LearnArticle = {
       table: {
         caption: '5 Adjektivformen mit vollständigen Sätzen',
         boldColumnIndices: [1],
-        headers: [
-          'Genus / Numerus',
-          'Endung',
-          'Beispielform',
-          'Bedeutung',
-          'Satz',
-        ],
+        headers: ['Genus / Numerus', 'Endung', 'Beispielform', 'Bedeutung', 'Satz'],
         rows: [
           [
             'Mask./Neutr. hart',
@@ -252,20 +224,8 @@ export const russianDativeCaseDe: LearnArticle = {
             'blaues Meer (Dat.)',
             'Мы едем к синему морю.',
           ],
-          [
-            'Fem. hart',
-            '-ой',
-            'красивая → красивой',
-            'schön (Dat.)',
-            'Я звоню красивой подруге.',
-          ],
-          [
-            'Fem. weich',
-            '-ей',
-            'летняя → летней',
-            'sommerlich (Dat.)',
-            'В летней школе нравится.',
-          ],
+          ['Fem. hart', '-ой', 'красивая → красивой', 'schön (Dat.)', 'Я звоню красивой подруге.'],
+          ['Fem. weich', '-ей', 'летняя → летней', 'sommerlich (Dat.)', 'В летней школе нравится.'],
           [
             'Plural alle Genera',
             '-ым/-им',
@@ -327,56 +287,20 @@ export const russianDativeCaseDe: LearnArticle = {
         boldColumnIndices: [1],
         headers: ['Deutsch', 'Russisch (нравиться)', 'Anmerkungen'],
         rows: [
-          [
-            'Ich mag',
-            'Мне нравится музыка.',
-            'нравится kongruiert mit музыка — Singular',
-          ],
-          [
-            'Du magst',
-            'Тебе нравятся фильмы.',
-            'нравятся kongruiert mit фильмы — Plural',
-          ],
-          [
-            'Er mag',
-            'Ему нравится эта книга.',
-            'Er mag dieses Buch.',
-          ],
-          [
-            'Sie mag',
-            'Ей нравится твой голос.',
-            'Sie mag deine Stimme.',
-          ],
-          [
-            'Wir mögen',
-            'Нам нравится здесь.',
-            'здесь = hier, kein Nominalsubjekt',
-          ],
-          [
-            'Sie mögen (Pl.)',
-            'Вам нравятся эти места.',
-            'Ihnen gefallen diese Orte.',
-          ],
-          [
-            'Sie mögen',
-            'Им нравится русский язык.',
-            'Sie mögen die russische Sprache.',
-          ],
+          ['Ich mag', 'Мне нравится музыка.', 'нравится kongruiert mit музыка — Singular'],
+          ['Du magst', 'Тебе нравятся фильмы.', 'нравятся kongruiert mit фильмы — Plural'],
+          ['Er mag', 'Ему нравится эта книга.', 'Er mag dieses Buch.'],
+          ['Sie mag', 'Ей нравится твой голос.', 'Sie mag deine Stimme.'],
+          ['Wir mögen', 'Нам нравится здесь.', 'здесь = hier, kein Nominalsubjekt'],
+          ['Sie mögen (Pl.)', 'Вам нравятся эти места.', 'Ihnen gefallen diese Orte.'],
+          ['Sie mögen', 'Им нравится русский язык.', 'Sie mögen die russische Sprache.'],
           [
             'Es hat mir gefallen',
             'Мне понравился фильм.',
             'perfektives Vergangenheit, mask. Kongruenz',
           ],
-          [
-            'Es wird mir gefallen',
-            'Мне понравится этот город.',
-            'perfektives Futur',
-          ],
-          [
-            'Ich mag nicht',
-            'Мне не нравится шум.',
-            'Verneinung: не + нравится',
-          ],
+          ['Es wird mir gefallen', 'Мне понравится этот город.', 'perfektives Futur'],
+          ['Ich mag nicht', 'Мне не нравится шум.', 'Verneinung: не + нравится'],
         ],
       },
       bullets: [
@@ -430,12 +354,7 @@ export const russianDativeCaseDe: LearnArticle = {
       table: {
         caption: '12 Konstruktionen: нужно, можно, нельзя usw.',
         boldColumnIndices: [0, 1],
-        headers: [
-          'Ausdruck',
-          'Russisches Beispiel',
-          'Übersetzung',
-          'Grammatische Anmerkung',
-        ],
+        headers: ['Ausdruck', 'Russisches Beispiel', 'Übersetzung', 'Grammatische Anmerkung'],
         rows: [
           [
             'нужно / надо',
@@ -443,12 +362,7 @@ export const russianDativeCaseDe: LearnArticle = {
             'Ich muss arbeiten.',
             'Dativ = betroffene Person',
           ],
-          [
-            'можно',
-            'Тебе можно идти.',
-            'Du darfst gehen.',
-            'Dativ = berechtigte Person',
-          ],
+          ['можно', 'Тебе можно идти.', 'Du darfst gehen.', 'Dativ = berechtigte Person'],
           [
             'нельзя',
             'Ему нельзя есть сахар.',
@@ -461,12 +375,7 @@ export const russianDativeCaseDe: LearnArticle = {
             'Ich brauche Hilfe.',
             'Kongruenz mit der benötigten Sache',
           ],
-          [
-            'интересно',
-            'Мне интересно.',
-            'Es interessiert mich.',
-            'Dativ = interessierte Person',
-          ],
+          ['интересно', 'Мне интересно.', 'Es interessiert mich.', 'Dativ = interessierte Person'],
           [
             'скучно',
             'Ей скучно на уроке.',
@@ -479,30 +388,15 @@ export const russianDativeCaseDe: LearnArticle = {
             'Uns war es lustig / Wir hatten Spaß.',
             'Vergangenheit: было + Dativ',
           ],
-          [
-            'грустно',
-            'Ему грустно без тебя.',
-            'Ihm ist ohne dich traurig.',
-            'Emotionaler Zustand',
-          ],
-          [
-            'холодно / жарко',
-            'Мне холодно.',
-            'Mir ist kalt.',
-            'Körperliche Empfindung',
-          ],
+          ['грустно', 'Ему грустно без тебя.', 'Ihm ist ohne dich traurig.', 'Emotionaler Zustand'],
+          ['холодно / жарко', 'Мне холодно.', 'Mir ist kalt.', 'Körperliche Empfindung'],
           [
             'стыдно',
             'Мне стыдно за тебя.',
             'Mir ist wegen dir peinlich / schämen.',
             '„Erlebende“ Person im Dativ',
           ],
-          [
-            'трудно',
-            'Ей трудно учиться.',
-            'Es fällt ihr schwer zu lernen.',
-            'Schwierigkeit',
-          ],
+          ['трудно', 'Ей трудно учиться.', 'Es fällt ihr schwer zu lernen.', 'Schwierigkeit'],
           [
             'лучше / хуже',
             'Мне лучше сегодня.',
@@ -519,12 +413,7 @@ export const russianDativeCaseDe: LearnArticle = {
       table: {
         caption: '8 Präpositionen mit Bedeutung und vollständigen Beispielen',
         boldColumnIndices: [0],
-        headers: [
-          'Präp.',
-          'Bedeutung',
-          'Mit einem Nomen',
-          'Vollständiges Beispiel + Übersetzung',
-        ],
+        headers: ['Präp.', 'Bedeutung', 'Mit einem Nomen', 'Vollständiges Beispiel + Übersetzung'],
         rows: [
           [
             'к',
@@ -550,24 +439,14 @@ export const russianDativeCaseDe: LearnArticle = {
             'вопреки правилам',
             'Вопреки прогнозу, погода была хорошей.',
           ],
-          [
-            'согласно',
-            'gemäß (gehoben)',
-            'согласно закону',
-            'Согласно закону, это запрещено.',
-          ],
+          ['согласно', 'gemäß (gehoben)', 'согласно закону', 'Согласно закону, это запрещено.'],
           [
             'навстречу',
             'entgegen / zu … hin',
             'навстречу ветру',
             'Она шла навстречу ветру. — Sie ging dem Wind entgegen.',
           ],
-          [
-            'наперекор',
-            'zum Trotz',
-            'наперекор судьбе',
-            'Наперекор судьбе он добился успеха.',
-          ],
+          ['наперекор', 'zum Trotz', 'наперекор судьбе', 'Наперекор судьбе он добился успеха.'],
           [
             'подобно',
             'ähnlich wie / wie (literarisch)',
@@ -584,8 +463,7 @@ export const russianDativeCaseDe: LearnArticle = {
         },
         {
           h3: 'ПО — die vielseitige Präposition',
-          content:
-            '**По** ist eine der vielseitigsten Präpositionen im Russischen. Mit dem Dativ:',
+          content: '**По** ist eine der vielseitigsten Präpositionen im Russischen. Mit dem Dativ:',
           bullets: [
             '**Bewegung entlang** — гулять по парку (im Park spazieren gehen)',
             '**Verteilung** — по одному яблоку (je ein Apfel)',
@@ -632,36 +510,16 @@ export const russianDativeCaseDe: LearnArticle = {
             'Ich habe dir einen Brief geschrieben.',
             'Jemandem schreiben',
           ],
-          [
-            'звонить / позвонить',
-            'Позвони маме.',
-            'Ruf Mama an.',
-            'Jemanden anrufen',
-          ],
-          [
-            'помогать / помочь',
-            'Помоги мне!',
-            'Hilf mir!',
-            'Jemandem helfen',
-          ],
+          ['звонить / позвонить', 'Позвони маме.', 'Ruf Mama an.', 'Jemanden anrufen'],
+          ['помогать / помочь', 'Помоги мне!', 'Hilf mir!', 'Jemandem helfen'],
           [
             'нравиться / понравиться',
             'Мне нравится музыка.',
             'Ich mag die Musik.',
             'Dativ = „Erlebender“',
           ],
-          [
-            'показывать / показать',
-            'Покажи мне карту.',
-            'Zeig mir die Karte.',
-            'Jemandem zeigen',
-          ],
-          [
-            'объяснять / объяснить',
-            'Объясни мне это.',
-            'Erklär mir das.',
-            'Jemandem erklären',
-          ],
+          ['показывать / показать', 'Покажи мне карту.', 'Zeig mir die Karte.', 'Jemandem zeigen'],
+          ['объяснять / объяснить', 'Объясни мне это.', 'Erklär mir das.', 'Jemandem erklären'],
           [
             'отвечать / ответить',
             'Ответь мне на вопрос.',
@@ -674,43 +532,17 @@ export const russianDativeCaseDe: LearnArticle = {
             'Erlaub mir zu gehen.',
             'Erlaubnis erteilen',
           ],
-          [
-            'мешать / помешать',
-            'Не мешай мне!',
-            'Stör mich nicht!',
-            'Jemanden stören',
-          ],
-          [
-            'советовать',
-            'Советую тебе поехать.',
-            'Ich rate dir hinzufahren.',
-            'Einen Rat geben',
-          ],
-          [
-            'верить / поверить',
-            'Я верю тебе.',
-            'Ich glaube dir.',
-            'Jemandem vertrauen',
-          ],
-          [
-            'завидовать',
-            'Он завидует другу.',
-            'Er beneidet den Freund.',
-            'Neid empfinden',
-          ],
-          [
-            'принадлежать',
-            'Это принадлежит мне.',
-            'Das gehört mir.',
-            'Jemandem gehören',
-          ],
+          ['мешать / помешать', 'Не мешай мне!', 'Stör mich nicht!', 'Jemanden stören'],
+          ['советовать', 'Советую тебе поехать.', 'Ich rate dir hinzufahren.', 'Einen Rat geben'],
+          ['верить / поверить', 'Я верю тебе.', 'Ich glaube dir.', 'Jemandem vertrauen'],
+          ['завидовать', 'Он завидует другу.', 'Er beneidet den Freund.', 'Neid empfinden'],
+          ['принадлежать', 'Это принадлежит мне.', 'Das gehört mir.', 'Jemandem gehören'],
         ],
       },
     },
     {
       h2: '30 echte Beispiele zum russischen Dativ',
-      content:
-        'Hier sind **30 authentische Sätze**, die die wichtigsten Dativverwendungen zeigen.',
+      content: 'Hier sind **30 authentische Sätze**, die die wichtigsten Dativverwendungen zeigen.',
       bullets: [
         '**1–6:** indirekte Objekte (geben, sagen, helfen usw.)',
         '**7–10:** Konstruktion нравиться',
@@ -742,12 +574,7 @@ export const russianDativeCaseDe: LearnArticle = {
             'On napisal drugu dlinnoye pismo.',
             'Er hat seinem Freund einen langen Brief geschrieben.',
           ],
-          [
-            '4',
-            'Помогите мне, пожалуйста!',
-            'Pomogite mne, pozhaluysta!',
-            'Helfen Sie mir bitte!',
-          ],
+          ['4', 'Помогите мне, пожалуйста!', 'Pomogite mne, pozhaluysta!', 'Helfen Sie mir bitte!'],
           [
             '5',
             'Я позвонила бабушке.',
@@ -791,12 +618,7 @@ export const russianDativeCaseDe: LearnArticle = {
             'Bratu ispolnilos pyat let.',
             'Dem Bruder wurden fünf Jahre.',
           ],
-          [
-            '13',
-            'Сколько лет вашей маме?',
-            'Skolko let vashey mame?',
-            'Wie alt ist Ihre Mutter?',
-          ],
+          ['13', 'Сколько лет вашей маме?', 'Skolko let vashey mame?', 'Wie alt ist Ihre Mutter?'],
           [
             '14',
             'Иди к врачу немедленно!',
@@ -845,12 +667,7 @@ export const russianDativeCaseDe: LearnArticle = {
             'Tebe mozhno idti domoy.',
             'Du darfst nach Hause gehen.',
           ],
-          [
-            '22',
-            'Ему нельзя пить кофе.',
-            'Emu nelzya pit kofe.',
-            'Er darf keinen Kaffee trinken.',
-          ],
+          ['22', 'Ему нельзя пить кофе.', 'Emu nelzya pit kofe.', 'Er darf keinen Kaffee trinken.'],
           [
             '23',
             'Мне холодно, закрой окно.',
@@ -916,16 +733,8 @@ export const russianDativeCaseDe: LearnArticle = {
             'Я дал книгу другу.',
             'DATIV: другу (einem Freund). Das Buch wird DEM Freund gegeben.',
           ],
-          [
-            'Direktes Objekt → Akkusativ',
-            'Я купил книгу.',
-            'AKKUSATIV: книгу (das Buch selbst).',
-          ],
-          [
-            'Besitz → Genitiv',
-            'Это книга друга.',
-            'GENITIV: друга (das Buch des Freundes).',
-          ],
+          ['Direktes Objekt → Akkusativ', 'Я купил книгу.', 'AKKUSATIV: книгу (das Buch selbst).'],
+          ['Besitz → Genitiv', 'Это книга друга.', 'GENITIV: друга (das Buch des Freundes).'],
           [
             'Mögen (нравиться) → Dativ',
             'Мне нравится книга.',
@@ -936,21 +745,9 @@ export const russianDativeCaseDe: LearnArticle = {
             'Мне нужна эта книга.',
             'DATIV: мне (ich bin es, der sie braucht).',
           ],
-          [
-            'Richtung к → Dativ',
-            'Иди к другу.',
-            'DATIV nach к: другу (zum Freund hin).',
-          ],
-          [
-            'Ort у → Genitiv',
-            'Я у друга.',
-            'GENITIV nach у: друга (beim Freund).',
-          ],
-          [
-            'Altersausdruck → Dativ',
-            'Другу двадцать лет.',
-            'DATIV: другу (der Freund ist 20).',
-          ],
+          ['Richtung к → Dativ', 'Иди к другу.', 'DATIV nach к: другу (zum Freund hin).'],
+          ['Ort у → Genitiv', 'Я у друга.', 'GENITIV nach у: друга (beim Freund).'],
+          ['Altersausdruck → Dativ', 'Другу двадцать лет.', 'DATIV: другу (der Freund ist 20).'],
         ],
       },
       bullets: [
@@ -1017,8 +814,7 @@ export const russianDativeCaseDe: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      'Russischer Dativ: wie man auf Russisch „an“ und „für“ sagt',
+    headline: 'Russischer Dativ: wie man auf Russisch „an“ und „für“ sagt',
     description:
       'Kompletter Leitfaden zum russischen Dativ: Nomenendungen, нравиться, Altersausdrücke, unpersönliche Konstruktionen, 8 Präpositionen, 15 Verben, 30 Beispiele.',
     datePublished: '2026-03-12',

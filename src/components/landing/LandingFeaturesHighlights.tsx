@@ -47,7 +47,11 @@ export default function LandingFeaturesHighlights() {
           <div className="mx-auto mt-6 h-0.5 w-20 rounded-full bg-[hsl(210,100%,50%)]/60" />
         </AnimateOnScroll>
 
-        <AnimateOnScroll variant="fade-up" rootMargin="-30px" className="grid gap-8 sm:grid-cols-2 md:gap-10 lg:grid-cols-3">
+        <AnimateOnScroll
+          variant="fade-up"
+          rootMargin="-30px"
+          className="grid gap-8 sm:grid-cols-2 md:gap-10 lg:grid-cols-3"
+        >
           {highlights.map((item, index) => {
             const Icon = item.Icon ?? BookOpenIcon;
             const href = HIGHLIGHT_LINKS[index];

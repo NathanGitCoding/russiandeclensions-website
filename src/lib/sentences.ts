@@ -48,7 +48,9 @@ function loadSentences(): SentencesData {
     if (!cases || typeof cases !== 'object') continue;
     result[wordId] = {};
     for (const [caseKey, value] of Object.entries(cases)) {
-      result[wordId][caseKey] = Array.isArray(value) ? (value[0] as SentenceByCase) : (value as SentenceByCase);
+      result[wordId][caseKey] = Array.isArray(value)
+        ? (value[0] as SentenceByCase)
+        : (value as SentenceByCase);
     }
   }
   cachedSentences = result;

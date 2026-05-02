@@ -2,8 +2,7 @@ import type { LearnArticle } from './learnArticles';
 
 export const torflTrkiLearnArticleTrTr: LearnArticle = {
   slug: 'torfl-trki-russian-language-exam-guide',
-  title:
-    'TORFL Sınavı (ТРКИ): Rusça Yeterlilik Testi İçin Eksiksiz Rehber',
+  title: 'TORFL Sınavı (ТРКИ): Rusça Yeterlilik Testi İçin Eksiksiz Rehber',
   metaTitle:
     'TORFL Rehberi (ТРКИ) — Seviyeler, Format, Hazırlık ve Kayıt | Russian Cases with Anna',
   metaDescription:
@@ -42,12 +41,42 @@ export const torflTrkiLearnArticleTrTr: LearnArticle = {
       table: {
         headers: ['Seviye', 'Rusça adı', 'CEFR', 'Ne kanıtlar', 'Kimler için'],
         rows: [
-          ['ТЭУ', 'Элементарный уровень', 'A1', 'Temel günlük Rusça', 'İlk ilerlemeyi doğrulayan başlangıç seviyesi'],
+          [
+            'ТЭУ',
+            'Элементарный уровень',
+            'A1',
+            'Temel günlük Rusça',
+            'İlk ilerlemeyi doğrulayan başlangıç seviyesi',
+          ],
           ['ТБУ', 'Базовый уровень', 'A2', 'Günlük durumlar', 'Geçici ikamet izni için gerekli'],
-          ['ТРКИ-1', 'Первый уровень', 'B1', 'Konuşma yeterliliği', 'Rus vatandaşlığı ve çoğu üniversite'],
-          ['ТРКИ-2', 'Второй уровень', 'B2', 'Profesyonel çalışma düzeyi', 'Lisansüstü ve birçok meslek'],
-          ['ТРКИ-3', 'Третий уровень', 'C1', 'İleri akademik yeterlilik', 'Doktora, tercümanlar, öğretmenler'],
-          ['ТРКИ-4', 'Четвёртый уровень', 'C2', 'Anadile yakın ustalık', 'Yeminli çevirmenler ve filologlar'],
+          [
+            'ТРКИ-1',
+            'Первый уровень',
+            'B1',
+            'Konuşma yeterliliği',
+            'Rus vatandaşlığı ve çoğu üniversite',
+          ],
+          [
+            'ТРКИ-2',
+            'Второй уровень',
+            'B2',
+            'Profesyonel çalışma düzeyi',
+            'Lisansüstü ve birçok meslek',
+          ],
+          [
+            'ТРКИ-3',
+            'Третий уровень',
+            'C1',
+            'İleri akademik yeterlilik',
+            'Doktora, tercümanlar, öğretmenler',
+          ],
+          [
+            'ТРКИ-4',
+            'Четвёртый уровень',
+            'C2',
+            'Anadile yakın ustalık',
+            'Yeminli çevirmenler ve filologlar',
+          ],
         ],
         caption: 'TORFL seviyeleri, CEFR eşdeğerleri ve pratik kullanım',
         boldColumnIndices: [0],
@@ -144,8 +173,7 @@ export const torflTrkiLearnArticleTrTr: LearnArticle = {
     },
     {
       h2: 'TORFL sınavına nasıl hazırlanılır',
-      content:
-        'Süre seviyeye göre değişir; strateji benzerdir:',
+      content: 'Süre seviyeye göre değişir; strateji benzerdir:',
       subsections: [
         {
           h3: 'Adım 1: Mevcut düzeyinizi ölçün',
@@ -181,8 +209,7 @@ export const torflTrkiLearnArticleTrTr: LearnArticle = {
     },
     {
       h2: 'Ücret, kayıt ve lojistik',
-      content:
-        'Ücretler ülkeye, seviyeye ve merkeze göre değişir. Yaklaşık aralıklar:',
+      content: 'Ücretler ülkeye, seviyeye ve merkeze göre değişir. Yaklaşık aralıklar:',
       table: {
         headers: ['Seviye', 'Yaklaşık ücret (Rusya)', 'Yaklaşık ücret (yurtdışı)', 'Süre'],
         rows: [
@@ -206,14 +233,28 @@ export const torflTrkiLearnArticleTrTr: LearnArticle = {
     },
     {
       h2: 'TORFL ve diğer Rusça sertifikaları',
-      content:
-        'TORFL tek Rusça sertifikası değildir ama açık ara en çok tanınanıdır:',
+      content: 'TORFL tek Rusça sertifikası değildir ama açık ara en çok tanınanıdır:',
       table: {
         headers: ['Sertifika', 'Veren kurum', 'Tanıma', 'En uygun olduğu durum'],
         rows: [
-          ['TORFL (ТРКИ)', 'Rus Eğitim Bakanlığı', 'Devlet, üniversiteler, dünya çapında işverenler', 'Vatandaşlık, üniversite, profesyonel kullanım'],
-          ['ECL Russian', 'European Consortium for the Certificate of Attainment in Modern Languages', 'AB ülkeleri', 'Avrupa’da akademik tanınma'],
-          ['TELC Russian', 'telc GmbH (Almanya)', 'Özellikle Almanca konuşulan ülkeler', 'Almanya/Avusturya göçü için Rusça kanıtı'],
+          [
+            'TORFL (ТРКИ)',
+            'Rus Eğitim Bakanlığı',
+            'Devlet, üniversiteler, dünya çapında işverenler',
+            'Vatandaşlık, üniversite, profesyonel kullanım',
+          ],
+          [
+            'ECL Russian',
+            'European Consortium for the Certificate of Attainment in Modern Languages',
+            'AB ülkeleri',
+            'Avrupa’da akademik tanınma',
+          ],
+          [
+            'TELC Russian',
+            'telc GmbH (Almanya)',
+            'Özellikle Almanca konuşulan ülkeler',
+            'Almanya/Avusturya göçü için Rusça kanıtı',
+          ],
         ],
         caption: 'Rusça yeterlilik sertifikalarının karşılaştırması',
         boldColumnIndices: [0],
@@ -240,8 +281,7 @@ export const torflTrkiLearnArticleTrTr: LearnArticle = {
     },
     {
       question: 'Rus vatandaşlığı için hangi TORFL seviyesi?',
-      answer:
-        'En az ТРКИ-1 (B1). Geçici ikamet (РВП) için asgari ТБУ (A2).',
+      answer: 'En az ТРКИ-1 (B1). Geçici ikamet (РВП) için asgari ТБУ (A2).',
     },
     {
       question: 'TORFL zor mu?',
@@ -279,14 +319,16 @@ export const torflTrkiLearnArticleTrTr: LearnArticle = {
     { href: '/practice/instrumental', label: 'Birliktelik hâli çalış' },
     { href: '/practice/prepositional', label: 'Yer-yönelme hâli çalış' },
     { href: '/learn/articles/how-long-learn-russian', label: 'Rusça öğrenmek ne kadar sürer?' },
-    { href: '/learn/articles/russian-cases-explained-beginners-guide', label: 'Rus hâlleri açıklaması: başlangıç rehberi' },
+    {
+      href: '/learn/articles/russian-cases-explained-beginners-guide',
+      label: 'Rus hâlleri açıklaması: başlangıç rehberi',
+    },
     { href: '/words', label: '400+ çekim tablosuna göz at' },
   ],
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      'TORFL Sınavı (ТРКИ): Rusça Yeterlilik Testi İçin Eksiksiz Rehber',
+    headline: 'TORFL Sınavı (ТРКИ): Rusça Yeterlilik Testi İçin Eksiksiz Rehber',
     description:
       'TORFL (ТРКИ) eksiksiz rehber: 6 seviye, 5 bölümlük format, dilbilgisi hazırlığı, merkezler, ücret, kayıt.',
     datePublished: '2026-03-22',
@@ -295,8 +337,7 @@ export const torflTrkiLearnArticleTrTr: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/torfl-trki-russian-language-exam-guide',
+      '@id': 'https://russiandeclensions.com/learn/articles/torfl-trki-russian-language-exam-guide',
     },
     keywords:
       'TORFL sınavı, ТРКИ, TORFL hazırlık, Rusça testi, TORFL seviyeleri, yabancı dil olarak Rusça',

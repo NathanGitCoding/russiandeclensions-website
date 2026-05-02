@@ -3,8 +3,7 @@ import type { LearnArticle } from '../learnArticles';
 /** Tłumaczenie PL `how-long-learn-russian` (źródło EN: `learnArticles.ts`). Cyrylica bez zmian. */
 export const howLongLearnRussianPl: LearnArticle = {
   slug: 'how-long-learn-russian',
-  title:
-    'Ile trwa nauka rosyjskiego? (realistyczny harmonogram)',
+  title: 'Ile trwa nauka rosyjskiego? (realistyczny harmonogram)',
   metaTitle:
     'Ile trwa nauka rosyjskiego? Realistyczny harmonogram wg poziomu | Russian Cases with Anna',
   metaDescription:
@@ -32,12 +31,7 @@ export const howLongLearnRussianPl: LearnArticle = {
       content:
         '**Foreign Service Institute** dzieli języki na 4 kategorie trudności dla anglojęzycznych. Rosyjski jest w **kategorii IV** („super-trudne”), obok greki, polskiego i tureckiego. Szacunek: **1100 godzin intensywnych zajęć** do „proficiency” zawodowej (mniej więcej CEFR B2/C1).\n\nCzego dane FSI nie mówią: te 1100 h zakłada **pełnoetatową naukę** (~25 h/tydzień w klasie + praca domowa), doświadczonych nauczycieli i strukturalny program dyplomatyczny. Wielu samouków uczy się 30–60 min dziennie — rachunki zmieniają się radykalnie.',
       table: {
-        headers: [
-          'Tempo',
-          'Godz./dzień',
-          'Czas do ~1100 h',
-          'Realistyczny poziom',
-        ],
+        headers: ['Tempo', 'Godz./dzień', 'Czas do ~1100 h', 'Realistyczny poziom'],
         rows: [
           ['FSI intensywnie', '5–6 h', '~44 tyg. (10 mies.)', 'B2/C1'],
           ['Samodzielnie konsekwentnie', '2 h', '~18 mies.', 'B1/B2'],
@@ -49,8 +43,7 @@ export const howLongLearnRussianPl: LearnArticle = {
     },
     {
       h2: 'Harmonogram wg poziomu CEFR',
-      content:
-        'Lepiej podzielić drogę na poziomy CEFR. Każdy ma jasne kamienie milowe.',
+      content: 'Lepiej podzielić drogę na poziomy CEFR. Każdy ma jasne kamienie milowe.',
       subsections: [
         {
           h3: 'A1 — rosyjski przetrwania (60–150 h)',
@@ -111,8 +104,7 @@ export const howLongLearnRussianPl: LearnArticle = {
     },
     {
       h2: '7 czynników wpływających na tempo',
-      content:
-        'Dwójka uczniów startujących tego samego dnia może osiągnąć B1 z różnicą miesięcy:',
+      content: 'Dwójka uczniów startujących tego samego dnia może osiągnąć B1 z różnicą miesięcy:',
       subsections: [
         {
           h3: '1. Język ojczysty',
@@ -146,8 +138,7 @@ export const howLongLearnRussianPl: LearnArticle = {
         },
         {
           h3: '7. Motywacja',
-          content:
-            'Osobisty powód (partner, praca, literatura) utrzymuje długoterminowo.',
+          content: 'Osobisty powód (partner, praca, literatura) utrzymuje długoterminowo.',
         },
       ],
     },
@@ -163,7 +154,12 @@ export const howLongLearnRussianPl: LearnArticle = {
         headers: ['Czas', 'Czynność', 'Narzędzie', 'Cel'],
         rows: [
           ['5 min', 'Powtórka fiszek', 'Anki / Memrise', 'Słownictwo'],
-          ['10 min', 'Lekcja gramatyki', 'Russian Cases with Anna / Babbel', 'Przypadki i czasowniki'],
+          [
+            '10 min',
+            'Lekcja gramatyki',
+            'Russian Cases with Anna / Babbel',
+            'Przypadki i czasowniki',
+          ],
           ['10 min', 'Aktywny quiz', 'russiandeclensions.com/practice', 'Deklinacja'],
           ['5 min', 'Czytaj/słuchaj', 'News in Slow Russian / krótkie teksty', 'Input'],
         ],
@@ -253,18 +249,15 @@ export const howLongLearnRussianPl: LearnArticle = {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: 'Ile trwa nauka rosyjskiego? Realistyczny harmonogram',
-    description:
-      'Realistyczny harmonogram A1–C2, FSI, kamienie milowe CEFR, czynniki, plan dnia.',
+    description: 'Realistyczny harmonogram A1–C2, FSI, kamienie milowe CEFR, czynniki, plan dnia.',
     datePublished: '2026-03-22',
     dateModified: '2026-03-22',
     author: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/how-long-learn-russian',
+      '@id': 'https://russiandeclensions.com/learn/articles/how-long-learn-russian',
     },
-    keywords:
-      'ile trwa nauka rosyjskiego, harmonogram rosyjski, godziny rosyjski, FSI rosyjski',
+    keywords: 'ile trwa nauka rosyjskiego, harmonogram rosyjski, godziny rosyjski, FSI rosyjski',
   },
 };

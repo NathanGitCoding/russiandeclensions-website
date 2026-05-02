@@ -3,8 +3,7 @@ import type { LearnArticle } from '../learnArticles';
 /** Traduction française de l’article `how-to-practice-russian-cases` (source EN : `learnArticles.ts`). Cyrillique copié à l’identique. */
 export const howToPracticeRussianCasesFr: LearnArticle = {
   slug: 'how-to-practice-russian-cases',
-  title:
-    'Comment s’entraîner aux cas russes : 5 méthodes qui marchent',
+  title: 'Comment s’entraîner aux cas russes : 5 méthodes qui marchent',
   metaTitle:
     'Comment s’entraîner aux cas russes : 5 méthodes pour enfin les ancrer | Russian Cases with Anna',
   metaDescription:
@@ -20,8 +19,7 @@ export const howToPracticeRussianCasesFr: LearnArticle = {
   h1: 'Comment s’entraîner aux cas russes : 5 méthodes pour enfin les ancrer',
   heroImage: {
     src: '/articles/what-is-the-best-russian-grammar-app-to-learn-cases.webp',
-    alt:
-      'Meilleures applis de grammaire russe pour travailler les cas — tableau comparatif',
+    alt: 'Meilleures applis de grammaire russe pour travailler les cas — tableau comparatif',
     width: 1200,
     height: 630,
   },
@@ -38,8 +36,7 @@ export const howToPracticeRussianCasesFr: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      'Comment s’entraîner aux cas russes : 5 méthodes pour enfin les ancrer',
+    headline: 'Comment s’entraîner aux cas russes : 5 méthodes pour enfin les ancrer',
     description:
       'Techniques fondées sur la recherche pour mémoriser les déclinaisons russes : SRS, exercices, lecture active, écriture, oral. Plan sur 12 semaines et erreurs à éviter.',
     datePublished: '2026-03-12',
@@ -48,8 +45,7 @@ export const howToPracticeRussianCasesFr: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/how-to-practice-russian-cases',
+      '@id': 'https://russiandeclensions.com/learn/articles/how-to-practice-russian-cases',
     },
   },
   sections: [
@@ -81,8 +77,7 @@ export const howToPracticeRussianCasesFr: LearnArticle = {
     },
     {
       h2: 'Méthode n°2 : phrases ciblées par cas',
-      content:
-        'Une pratique ciblée qui isole un schéma de cas à la fois.',
+      content: 'Une pratique ciblée qui isole un schéma de cas à la fois.',
       subsections: [
         {
           h3: 'Pourquoi ça marche',
@@ -103,8 +98,7 @@ export const howToPracticeRussianCasesFr: LearnArticle = {
     },
     {
       h2: 'Méthode n°3 : lecture active et identification des cas',
-      content:
-        'Développer l’intuition grâce à une masse d’input contextualisé.',
+      content: 'Développer l’intuition grâce à une masse d’input contextualisé.',
       subsections: [
         {
           h3: 'Pourquoi ça marche',
@@ -125,8 +119,7 @@ export const howToPracticeRussianCasesFr: LearnArticle = {
     },
     {
       h2: 'Méthode n°4 : écriture et auto-correction',
-      content:
-        'Forcer l’application consciente des règles renforce la grammaire active.',
+      content: 'Forcer l’application consciente des règles renforce la grammaire active.',
       subsections: [
         {
           h3: 'Pourquoi ça marche',
@@ -172,13 +165,7 @@ export const howToPracticeRussianCasesFr: LearnArticle = {
         'Chaque méthode vise un aspect différent de l’apprentissage des cas. Les meilleurs apprenants en combinent plusieurs :',
       table: {
         caption: 'Comparaison des méthodes : efficacité, temps, niveau',
-        headers: [
-          'Méthode',
-          'Efficacité',
-          'Temps',
-          'Niveau idéal',
-          'Intérêt principal',
-        ],
+        headers: ['Méthode', 'Efficacité', 'Temps', 'Niveau idéal', 'Intérêt principal'],
         boldColumnIndices: [0, 4],
         rows: [
           [
@@ -228,12 +215,7 @@ export const howToPracticeRussianCasesFr: LearnArticle = {
         'Un plan structuré pour passer d’une première prise de conscience des cas à un usage assuré en 12 semaines. Chaque phase met l’accent sur un ou deux cas avec des exercices quotidiens précis :',
       table: {
         caption: 'Plan de pratique semaine par semaine',
-        headers: [
-          'Semaines',
-          'Cas ciblés',
-          'Activités principales',
-          'Exercice quotidien',
-        ],
+        headers: ['Semaines', 'Cas ciblés', 'Activités principales', 'Exercice quotidien'],
         boldColumnIndices: [0, 3],
         rows: [
           [
@@ -334,8 +316,7 @@ export const howToPracticeRussianCasesFr: LearnArticle = {
     },
     {
       href: '/learn/articles/russian-accusative-case',
-      label:
-        'Cas accusatif russe : compléments d’objet direct et verbes de mouvement',
+      label: 'Cas accusatif russe : compléments d’objet direct et verbes de mouvement',
     },
     {
       href: '/learn/articles/russian-dative-case',
@@ -358,8 +339,7 @@ export const howToPracticeRussianCasesFr: LearnArticle = {
         'Avec une pratique quotidienne régulière (20 à 30 minutes par jour), la plupart des apprenants maîtrisent solidement les schémas les plus courants en **3 à 6 mois**. Une maîtrise complète des 6 cas, y compris pluriel génitif irrégulier, formes « locatives » et toutes les paires préposition + cas, demande en général **12 à 24 mois**. La qualité de la pratique compte : production active et répétition espacée battent largement l’étude passive.',
     },
     {
-      question:
-        'Quelle est la meilleure façon de mémoriser les terminaisons des cas ?',
+      question: 'Quelle est la meilleure façon de mémoriser les terminaisons des cas ?',
       answer:
         'La méthode la plus efficace est la **répétition espacée combinée à la phrase**. N’essayez pas de mémoriser les terminaisons isolées — mémorisez-les dans le contexte de phrases réelles. Quand vous apprenez que **стол** → **столе** au prépositionnel, retenez **книга на столе** (le livre est sur la table) comme un bloc. La mémoire contextuelle est bien plus solide que la mémorisation abstraite des tableaux.',
     },

@@ -3,8 +3,7 @@ import type { LearnArticle } from '../learnArticles';
 /** Deutsche Übersetzung des Artikels `russian-prepositions-cases-cheat-sheet` (EN-Quelle: `learnArticles.ts`). Kyrillisch in Beispielen wie EN. */
 export const russianPrepositionsCasesCheatSheetDe: LearnArticle = {
   slug: 'russian-prepositions-cases-cheat-sheet',
-  title:
-    'Spickzettel: Russische Präpositionen & Fälle — welcher Fall nach welcher Präposition',
+  title: 'Spickzettel: Russische Präpositionen & Fälle — welcher Fall nach welcher Präposition',
   metaTitle:
     'Spickzettel Russische Präpositionen & Fälle — Welcher Fall? | Russian Cases with Anna',
   metaDescription:
@@ -51,11 +50,7 @@ export const russianPrepositionsCasesCheatSheetDe: LearnArticle = {
             'к, по, благодаря, вопреки, навстречу, согласно',
             'Zu/hin zu, entlang/laut, dank, trotz, entgegen, gemäß',
           ],
-          [
-            'Akkusativ',
-            'через, про, сквозь',
-            'Durch/hinüber, über (über etw. reden), hindurch',
-          ],
+          ['Akkusativ', 'через, про, сквозь', 'Durch/hinüber, über (über etw. reden), hindurch'],
           [
             'Akkusativ ★',
             'в (Richtung), на (Richtung), за (Richtung), под (Richtung)',
@@ -66,16 +61,8 @@ export const russianPrepositionsCasesCheatSheetDe: LearnArticle = {
             'с, между, над, перед, за ★, под ★',
             'Mit, zwischen, über, vor, hinter (Ort), unter (Ort)',
           ],
-          [
-            'Präpositional',
-            'о (об, обо), при',
-            'Über, bei / in Gegenwart von',
-          ],
-          [
-            'Präpositional ★',
-            'в (Ort), на (Ort)',
-            'In (ruhend), auf/an (ruhend)',
-          ],
+          ['Präpositional', 'о (об, обо), при', 'Über, bei / in Gegenwart von'],
+          ['Präpositional ★', 'в (Ort), на (Ort)', 'In (ruhend), auf/an (ruhend)'],
         ],
         caption: 'Vollständige Übersicht russische Präpositionen und Fälle',
         boldColumnIndices: [0],
@@ -177,41 +164,11 @@ export const russianPrepositionsCasesCheatSheetDe: LearnArticle = {
             'Кофе **с молоком**. Пришёл **с работы**.',
             'Kaffee mit Milch. Er kam von der Arbeit.',
           ],
-          [
-            '4',
-            'к',
-            'Dat.',
-            'Иду **к врачу**.',
-            'Ich gehe zum Arzt.',
-          ],
-          [
-            '5',
-            'из',
-            'Gen.',
-            'Вышел **из дома**.',
-            'Er ging aus dem Haus.',
-          ],
-          [
-            '6',
-            'о (об)',
-            'Präp.',
-            'Думаю **о тебе**.',
-            'Ich denke an dich.',
-          ],
-          [
-            '7',
-            'для',
-            'Gen.',
-            'Подарок **для мамы**.',
-            'Ein Geschenk für Mama.',
-          ],
-          [
-            '8',
-            'от',
-            'Gen.',
-            'Письмо **от друга**.',
-            'Ein Brief von einem Freund.',
-          ],
+          ['4', 'к', 'Dat.', 'Иду **к врачу**.', 'Ich gehe zum Arzt.'],
+          ['5', 'из', 'Gen.', 'Вышел **из дома**.', 'Er ging aus dem Haus.'],
+          ['6', 'о (об)', 'Präp.', 'Думаю **о тебе**.', 'Ich denke an dich.'],
+          ['7', 'для', 'Gen.', 'Подарок **для мамы**.', 'Ein Geschenk für Mama.'],
+          ['8', 'от', 'Gen.', 'Письмо **от друга**.', 'Ein Brief von einem Freund.'],
           [
             '9',
             'за',
@@ -219,13 +176,7 @@ export const russianPrepositionsCasesCheatSheetDe: LearnArticle = {
             'Спасибо **за помощь**. Сижу **за столом**.',
             'Danke für die Hilfe. Ich sitze am Tisch.',
           ],
-          [
-            '10',
-            'по',
-            'Dat.',
-            'Гуляю **по парку**.',
-            'Ich spaziere im Park.',
-          ],
+          ['10', 'по', 'Dat.', 'Гуляю **по парку**.', 'Ich spaziere im Park.'],
         ],
         caption: 'Die 10 häufigsten russischen Präpositionen mit Fällen und Beispielen',
         boldColumnIndices: [1],
@@ -259,8 +210,7 @@ export const russianPrepositionsCasesCheatSheetDe: LearnArticle = {
     },
     {
       h2: 'Präpositionen mit Dativ',
-      content:
-        'Der Dativ hat weniger Präpositionen, aber sie werden sehr oft gebraucht:',
+      content: 'Der Dativ hat weniger Präpositionen, aber sie werden sehr oft gebraucht:',
       table: {
         headers: ['Präposition', 'Bedeutung', 'Beispiel', 'Übersetzung'],
         rows: [
@@ -314,8 +264,7 @@ export const russianPrepositionsCasesCheatSheetDe: LearnArticle = {
     },
     {
       h2: 'Merkhilfen: sich Fälle merken',
-      content:
-        'Bewährte Eselsbrücken für Präposition und Fall:',
+      content: 'Bewährte Eselsbrücken für Präposition und Fall:',
       bullets: [
         '**Richtung = Akkusativ, Ort = Präpositional/Instrumental.** Wenn Sie irgendwohin gehen (в/на + Bewegung), Akkusativ. Wenn Sie schon da sind, Präpositional (в/на) oder Instrumental (за/под).',
         '**„Mit“ = Instrumental.** Instrumental heißt wörtlich „mittels“ — also „mit“ (Begleitung oder Werkzeug) immer Instrumental: с другом, с ножом.',
@@ -327,8 +276,7 @@ export const russianPrepositionsCasesCheatSheetDe: LearnArticle = {
     },
     {
       h2: 'Typische Fehler vermeiden',
-      content:
-        'Die häufigsten Präpositions-Fall-Fehler bei Lernenden:',
+      content: 'Die häufigsten Präpositions-Fall-Fehler bei Lernenden:',
       mistakeCards: [
         {
           title: 'в + falscher Fall für den Ort',
@@ -373,8 +321,7 @@ export const russianPrepositionsCasesCheatSheetDe: LearnArticle = {
     },
     {
       h2: 'Kurzreferenz: Präposition → Fall auf einen Blick',
-      content:
-        'Ausdrucken oder aufs Handy speichern — am schnellsten nachzuschlagen:',
+      content: 'Ausdrucken oder aufs Handy speichern — am schnellsten nachzuschlagen:',
       table: {
         headers: ['Präposition', 'Fall', 'Kurzbedeutung'],
         rows: [
@@ -477,8 +424,7 @@ export const russianPrepositionsCasesCheatSheetDe: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      'Spickzettel: Russische Präpositionen & Fälle — welcher Fall nach jeder Präposition',
+    headline: 'Spickzettel: Russische Präpositionen & Fälle — welcher Fall nach jeder Präposition',
     description:
       'Vollständiger Spickzettel: welcher russische Fall folgt auf welche Präposition. Tabellen, Beispiele, Merkhilfen und typische Fehler.',
     datePublished: '2026-03-22',
@@ -487,8 +433,7 @@ export const russianPrepositionsCasesCheatSheetDe: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/russian-prepositions-cases-cheat-sheet',
+      '@id': 'https://russiandeclensions.com/learn/articles/russian-prepositions-cases-cheat-sheet',
     },
     keywords:
       'russische präpositionen und fälle, welcher fall nach в, spickzettel russische präpositionen, russische fälle nach präpositionen',

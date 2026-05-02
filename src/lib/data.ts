@@ -9,11 +9,9 @@ import { isIndeclinableWord } from './indeclinableWords';
 
 /** word_id exclus : aucune page /russian-declension/[slug] n'est générée pour ces mots */
 const EXCLUDED_WORD_IDS = new Set([
-  19, 20, 21, 22, 23, 24, 25, 26,
-  2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009,
-  2011, 2012, 2013,
-  3000, 3001, 3002, 3003, 3004, 3005, 3006, 3007, 3008, 3009,
-  3010, 3011, 3012, 3013, 3014, 3015, 3016, 3017,
+  19, 20, 21, 22, 23, 24, 25, 26, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2011,
+  2012, 2013, 3000, 3001, 3002, 3003, 3004, 3005, 3006, 3007, 3008, 3009, 3010, 3011, 3012, 3013,
+  3014, 3015, 3016, 3017,
 ]);
 
 export interface WordWithDeclensions {
@@ -119,10 +117,20 @@ export function getLegacyRedirect(slug: string): string | null {
 
 /** Clés des formes de déclinaison (sg/pl par cas) */
 const DECLENSION_KEYS = [
-  'nominative_sg', 'nominative_pl', 'accusative_sg', 'accusative_pl',
-  'genitive_sg', 'genitive_pl', 'dative_sg', 'dative_pl',
-  'instrumental_sg', 'instrumental_pl', 'prepositional_sg', 'prepositional_pl',
-  'locative_sg', 'locative_pl',
+  'nominative_sg',
+  'nominative_pl',
+  'accusative_sg',
+  'accusative_pl',
+  'genitive_sg',
+  'genitive_pl',
+  'dative_sg',
+  'dative_pl',
+  'instrumental_sg',
+  'instrumental_pl',
+  'prepositional_sg',
+  'prepositional_pl',
+  'locative_sg',
+  'locative_pl',
 ] as const;
 
 /** Vérifie si un mot est indéclinable (base_form dans la liste du site) */
@@ -253,10 +261,7 @@ export async function getRelatedWords(
   const candidates = Object.entries(data)
     .filter(
       ([slug, w]) =>
-        slug &&
-        slug !== currentSlug &&
-        !EXCLUDED_WORD_IDS.has(w.word_id) &&
-        w.gender === gender
+        slug && slug !== currentSlug && !EXCLUDED_WORD_IDS.has(w.word_id) && w.gender === gender
     )
     .map(([slug, w]) => ({ slug, base_form: w.base_form ?? slug }));
 
@@ -304,10 +309,7 @@ export async function getPracticeWords(): Promise<PracticeWord[]> {
   const data = loadWords();
   return Object.values(data)
     .filter(
-      (w) =>
-        !EXCLUDED_WORD_IDS.has(w.word_id) &&
-        !isIndeclinable(w) &&
-        w.plural_only !== 'TRUE'
+      (w) => !EXCLUDED_WORD_IDS.has(w.word_id) && !isIndeclinable(w) && w.plural_only !== 'TRUE'
     )
     .map((w) => ({
       base_form: w.base_form ?? '',

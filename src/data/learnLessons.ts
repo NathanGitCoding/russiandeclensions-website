@@ -582,8 +582,7 @@ export const learnLessons: Record<string, LearnLesson> = {
           publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
           mainEntityOfPage: {
             '@type': 'WebPage',
-            '@id':
-              'https://russiandeclensions.com/learn/lessons/russian-cases-complete-guide',
+            '@id': 'https://russiandeclensions.com/learn/lessons/russian-cases-complete-guide',
           },
           keywords:
             'russian cases, russian grammar cases, 6 russian cases, russian cases explained, learn russian cases',

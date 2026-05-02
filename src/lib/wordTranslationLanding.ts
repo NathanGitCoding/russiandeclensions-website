@@ -15,7 +15,7 @@ export type WordTranslationsForUi = {
 /** Word gloss in the UI language (falls back to English if empty). */
 export function getWordTranslationForLandingLang(
   w: WordTranslationsForUi,
-  lang: LandingLanguage,
+  lang: LandingLanguage
 ): string {
   const en = (w.translation_en ?? '').trim();
   switch (lang) {

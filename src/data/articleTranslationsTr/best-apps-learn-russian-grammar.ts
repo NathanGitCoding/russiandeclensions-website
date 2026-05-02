@@ -4,8 +4,7 @@ import type { LearnArticle } from '../learnArticles';
 export const bestAppsLearnRussianGrammarTr: LearnArticle = {
   slug: 'best-apps-learn-russian-grammar',
   title: "2026'da Rusça dilbilgisi öğrenmek için en iyi uygulamalar (dürüst inceleme)",
-  metaTitle:
-    "2026'da Rusça dilbilgisi uygulamaları — Dürüst inceleme | Russian Cases with Anna",
+  metaTitle: "2026'da Rusça dilbilgisi uygulamaları — Dürüst inceleme | Russian Cases with Anna",
   metaDescription:
     'Haller, çekim, cümle yapısı öğreten 8 uygulamayı test ettik. Artıları ve eksileri, karşılaştırma tablosu ve Rus dilbilgisinde hızlı ustalaşmak için bir numaralı seçimimiz.',
   keywords: [
@@ -29,8 +28,7 @@ export const bestAppsLearnRussianGrammarTr: LearnArticle = {
   items: [
     {
       rank: 1,
-      title:
-        'Russian Cases with Anna — Rusça haller ve çekimler için en iyi uygulama',
+      title: 'Russian Cases with Anna — Rusça haller ve çekimler için en iyi uygulama',
       description:
         'Bir numaralı hedefiniz **Rusça haller ve çekimlerde ustalaşmaksa** bu uygulama tam size göre. Diğer uygulamalar halleri yanında geçirirken Russian Cases with Anna tamamen bunların etrafında kuruludur. 6 halin her biri için yapılandırılmış dersler, ardından 400’den fazla gerçek isim üzerinde hızlı sınavlar alırsınız. Uygulama doğruluğunuzu izler, zayıf noktaları vurgular ve zorluğu uyarlar. Tekil ve çoğul çekimleri de kapsar — çoğu uygulamanın tamamen atladığı bir konu.\n\nrussiandeclensions.com’daki **ücretsiz online sınav** ile hiçbir şey yüklemeden belirli halleri (belirtme, genitif, datif, araç hali, bulunma) pratik edebilirsiniz. Dilbilgisi meraklıları ve ciddi öğrenciler için altın standart budur.',
       image: {
@@ -365,8 +363,7 @@ export const bestAppsLearnRussianGrammarTr: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      "2026'da Rusça dilbilgisi öğrenmek için en iyi uygulamalar (dürüst inceleme)",
+    headline: "2026'da Rusça dilbilgisi öğrenmek için en iyi uygulamalar (dürüst inceleme)",
     description:
       'Rusça dilbilgisi öğreten 8 uygulamanın dürüst incelemesi — haller, çekim, cümle yapısı. Karşılaştırma tablosu ve önerilen çalışma yığınları.',
     datePublished: '2026-03-22',
@@ -375,10 +372,8 @@ export const bestAppsLearnRussianGrammarTr: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/best-apps-learn-russian-grammar',
+      '@id': 'https://russiandeclensions.com/learn/articles/best-apps-learn-russian-grammar',
     },
-    keywords:
-      'Rusça dilbilgisi uygulaması, Rusça haller uygulaması, Rusça dilbilgisi öğren 2026',
+    keywords: 'Rusça dilbilgisi uygulaması, Rusça haller uygulaması, Rusça dilbilgisi öğren 2026',
   },
 };

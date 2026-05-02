@@ -63,10 +63,6 @@ export interface LandingTranslations {
     ourStory: string;
     title: string;
     paragraphs: string[];
-    exploreLabel: string;
-    learnLink: string;
-    wordsLink: string;
-    practiceLink: string;
   };
   cta: {
     title: string;
@@ -622,7 +618,8 @@ const esHighlights: LandingHighlight[] = [
   },
   {
     title: 'Audio de hablantes nativos',
-    description: 'Escucha la pronunciación correcta del ruso y mejora tu comprensión y expresión oral.',
+    description:
+      'Escucha la pronunciación correcta del ruso y mejora tu comprensión y expresión oral.',
   },
   {
     title: 'Modo sin conexión',
@@ -699,7 +696,8 @@ const itHighlights: LandingHighlight[] = [
   },
   {
     title: 'Quiz interattivi',
-    description: 'Esercitati su ogni caso russo con esercizi che sviluppano la comprensione intuitiva.',
+    description:
+      'Esercitati su ogni caso russo con esercizi che sviluppano la comprensione intuitiva.',
   },
   {
     title: 'Lessico essenziale',
@@ -707,7 +705,8 @@ const itHighlights: LandingHighlight[] = [
   },
   {
     title: 'Audio di madrelingua',
-    description: 'Ascolta la pronuncia corretta del russo e migliora comprensione e espressione orale.',
+    description:
+      'Ascolta la pronuncia corretta del russo e migliora comprensione e espressione orale.',
   },
   {
     title: 'Modalità offline',
@@ -723,12 +722,12 @@ const itTestimonials: LandingTestimonial[] = [
   {
     name: 'William Oxman',
     role: 'Project Manager',
-    text: 'Ho fatto rapidi progressi dal primo giorno. L\'app è piacevole da usare e mi mantiene motivato.',
+    text: "Ho fatto rapidi progressi dal primo giorno. L'app è piacevole da usare e mi mantiene motivato.",
   },
   {
     name: 'Emma Bernard',
     role: 'Studentessa',
-    text: 'Perfetta per organizzare le mie sessioni di studio. Il monitoraggio dei progressi mi aiuta a restare produttiva e motivata. In più Anna, l\'insegnante, è adorabile!',
+    text: "Perfetta per organizzare le mie sessioni di studio. Il monitoraggio dei progressi mi aiuta a restare produttiva e motivata. In più Anna, l'insegnante, è adorabile!",
   },
   {
     name: 'Svetlana Volkova',
@@ -744,7 +743,7 @@ const itAboutParagraphs = [
   'Volevo leggere Dostoevskij, ma non riuscivo neanche a ordinare un caffè senza violare una regola grammaticale.',
   'Ero pronto a arrendermi.',
   'Non ho trovato nessuno strumento che rendesse il processo naturale — così ho deciso di crearne uno io. Rapidamente ho fatto così tanti progressi che ho capito che valeva la pena condividerlo.',
-  'Se hai mai voluto andare oltre le frasi di base ed entrare veramente nella lingua — quest\'app è per te.',
+  "Se hai mai voluto andare oltre le frasi di base ed entrare veramente nella lingua — quest'app è per te.",
 ];
 
 const ptFeatures: LandingFeature[] = [
@@ -877,7 +876,8 @@ const nlHighlights: LandingHighlight[] = [
   },
   {
     title: 'Audio van moedertaalsprekers',
-    description: 'Luister naar de juiste Russische uitspraak en verbeter je luister- en spreekvaardigheid.',
+    description:
+      'Luister naar de juiste Russische uitspraak en verbeter je luister- en spreekvaardigheid.',
   },
   {
     title: 'Offline-toegang',
@@ -960,10 +960,6 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       ourStory: 'Our story',
       title: 'A love story that became an app',
       paragraphs: enAboutParagraphs,
-      exploreLabel: 'Explore our free resources:',
-      learnLink: 'Grammar lessons',
-      wordsLink: 'Word declensions',
-      practiceLink: 'Practice quiz',
     },
     cta: {
       title: 'Ready to Stop Struggling with Russian Cases?',
@@ -989,9 +985,9 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     metadata: {
       title: 'Russian Cases with Anna® - Apprendre la grammaire russe',
       description:
-        'Téléchargez Russian Cases with Anna® – l\'app mobile n°1 pour les déclinaisons russes. Tableaux interactifs, quiz, mode hors ligne. Téléchargement gratuit sur App Store et Google Play.',
+        "Téléchargez Russian Cases with Anna® – l'app mobile n°1 pour les déclinaisons russes. Tableaux interactifs, quiz, mode hors ligne. Téléchargement gratuit sur App Store et Google Play.",
       ogDescription:
-        'Maîtrisez la grammaire russe en 5 minutes par jour. L\'app qui apporte la clarté aux cas et déclinaisons.',
+        "Maîtrisez la grammaire russe en 5 minutes par jour. L'app qui apporte la clarté aux cas et déclinaisons.",
     },
     navbar: {
       brand: 'Russian Cases with Anna®',
@@ -1027,10 +1023,6 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       ourStory: 'Notre histoire',
       title: "Une histoire d'amour devenue une app",
       paragraphs: frAboutParagraphs,
-      exploreLabel: 'Découvrez nos ressources gratuites :',
-      learnLink: 'Leçons de grammaire',
-      wordsLink: 'Déclinaisons des mots',
-      practiceLink: 'Quiz de pratique',
     },
     cta: {
       title: 'Prêt à en finir avec les cas russes ?',
@@ -1068,7 +1060,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       about: 'Hakkında',
       learn: 'Ücretsiz Gramer Dersleri',
       practice: 'Alıştırma',
-      getApp: "Uygulamayı ücretsiz indirin",
+      getApp: 'Uygulamayı ücretsiz indirin',
     },
     hero: {
       tagline: 'Russian Cases with Anna®',
@@ -1094,10 +1086,6 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       ourStory: 'Hikayemiz',
       title: 'Bir aşk hikayesi uygulamaya dönüştü',
       paragraphs: trAboutParagraphs,
-      exploreLabel: 'Ücretsiz kaynaklarımızı keşfedin:',
-      learnLink: 'Gramer dersleri',
-      wordsLink: 'Kelime çekimleri',
-      practiceLink: 'Alıştırma testi',
     },
     cta: {
       title: 'Rusça hallerle mücadeleye son vermeye hazır mısınız?',
@@ -1161,10 +1149,6 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       ourStory: 'Unsere Geschichte',
       title: 'Eine Liebesgeschichte, die zur App wurde',
       paragraphs: deAboutParagraphs,
-      exploreLabel: 'Entdecken Sie unsere kostenlosen Ressourcen:',
-      learnLink: 'Grammatik-Lektionen',
-      wordsLink: 'Wortdeklinationen',
-      practiceLink: 'Übungsquiz',
     },
     cta: {
       title: 'Bereit, den Kampf mit russischen Fällen zu beenden?',
@@ -1228,10 +1212,6 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       ourStory: 'Nasza historia',
       title: 'Historia miłosna, która stała się aplikacją',
       paragraphs: plAboutParagraphs,
-      exploreLabel: 'Odkryj nasze darmowe zasoby:',
-      learnLink: 'Lekcje gramatyki',
-      wordsLink: 'Odmiany słów',
-      practiceLink: 'Quiz praktyczny',
     },
     cta: {
       title: 'Gotowy, by skończyć z problemami przypadków?',
@@ -1295,10 +1275,6 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       ourStory: 'Nuestra historia',
       title: 'Una historia de amor que se convirtió en una app',
       paragraphs: esAboutParagraphs,
-      exploreLabel: 'Explora nuestros recursos gratuitos:',
-      learnLink: 'Lecciones de gramática',
-      wordsLink: 'Declinaciones de palabras',
-      practiceLink: 'Cuestionario de práctica',
     },
     cta: {
       title: '¿Listo para dejar de sufrir con los casos rusos?',
@@ -1324,9 +1300,9 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     metadata: {
       title: 'Russian Cases with Anna® - Impara la grammatica russa',
       description:
-        'Scarica Russian Cases with Anna® – l\'app mobile n°1 per le declinazioni russe. Tabelle interattive, quiz, offline. Download gratuito su App Store e Google Play.',
+        "Scarica Russian Cases with Anna® – l'app mobile n°1 per le declinazioni russe. Tabelle interattive, quiz, offline. Download gratuito su App Store e Google Play.",
       ogDescription:
-        'Padroneggia la grammatica russa in 5 minuti al giorno. L\'app che porta chiarezza ai casi e alle declinazioni.',
+        "Padroneggia la grammatica russa in 5 minuti al giorno. L'app che porta chiarezza ai casi e alle declinazioni.",
     },
     navbar: {
       brand: 'Russian Cases with Anna®',
@@ -1336,21 +1312,21 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       about: 'Chi siamo',
       learn: 'Lezioni di grammatica gratuite',
       practice: 'Esercizi',
-      getApp: 'Scarica l\'app gratuitamente',
+      getApp: "Scarica l'app gratuitamente",
     },
     hero: {
       tagline: 'Russian Cases with Anna®',
-      title: 'L\'app per padroneggiare finalmente le declinazioni russe',
+      title: "L'app per padroneggiare finalmente le declinazioni russe",
       subtitle:
-        'L\'app di grammatica russa che porta chiarezza ai casi e alle declinazioni. Basta con le tabelle di declinazione.',
-      appStoreAria: 'Scarica Russian Cases with Anna sull\'App Store',
+        "L'app di grammatica russa che porta chiarezza ai casi e alle declinazioni. Basta con le tabelle di declinazione.",
+      appStoreAria: "Scarica Russian Cases with Anna sull'App Store",
       playStoreAria: 'Ottieni Russian Cases with Anna su Google Play',
     },
     features: itFeatures,
     featuresSection: {
       title: 'Padroneggia i 6 casi della grammatica russa con Anna!',
       subtitle:
-        'L\'app essenziale per imparare i casi russi — Nominativo, Genitivo, Dativo, Accusativo, Strumentale e Preposizionale.',
+        "L'app essenziale per imparare i casi russi — Nominativo, Genitivo, Dativo, Accusativo, Strumentale e Preposizionale.",
     },
     highlights: itHighlights,
     testimonials: {
@@ -1360,18 +1336,14 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     },
     about: {
       ourStory: 'La nostra storia',
-      title: 'Una storia d\'amore diventata un\'app',
+      title: "Una storia d'amore diventata un'app",
       paragraphs: itAboutParagraphs,
-      exploreLabel: 'Esplora le nostre risorse gratuite:',
-      learnLink: 'Lezioni di grammatica',
-      wordsLink: 'Declinazioni delle parole',
-      practiceLink: 'Quiz di esercizio',
     },
     cta: {
       title: 'Pronto a smettere di lottare con i casi russi?',
       description:
         'Scarica ora e inizia il tuo percorso verso la padronanza della grammatica russa! Provala gratuitamente.',
-      appStoreAria: 'Scarica Russian Cases with Anna sull\'App Store',
+      appStoreAria: "Scarica Russian Cases with Anna sull'App Store",
       playStoreAria: 'Ottieni Russian Cases with Anna su Google Play',
     },
     footer: {
@@ -1429,15 +1401,10 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       ourStory: 'A nossa história',
       title: 'Uma história de amor que se tornou numa app',
       paragraphs: ptAboutParagraphs,
-      exploreLabel: 'Explora os nossos recursos gratuitos:',
-      learnLink: 'Lições de gramática',
-      wordsLink: 'Declinações de palavras',
-      practiceLink: 'Questionário de prática',
     },
     cta: {
       title: 'Pronto para deixar de lutar com os casos russos?',
-      description:
-        'Descarrega agora e começa a dominar a gramática russa! Experimenta grátis.',
+      description: 'Descarrega agora e começa a dominar a gramática russa! Experimenta grátis.',
       appStoreAria: 'Descarregar Russian Cases with Anna na App Store',
       playStoreAria: 'Obter Russian Cases with Anna no Google Play',
     },
@@ -1496,10 +1463,6 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       ourStory: 'Ons verhaal',
       title: 'Een liefdesverhaal dat een app werd',
       paragraphs: nlAboutParagraphs,
-      exploreLabel: 'Ontdek onze gratis bronnen:',
-      learnLink: 'Grammatica-lessen',
-      wordsLink: 'Woordverbuigingen',
-      practiceLink: 'Oefenquiz',
     },
     cta: {
       title: 'Klaar om te stoppen met worstelen met Russische gevallen?',
@@ -1563,10 +1526,6 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       ourStory: 'Наша история',
       title: 'История любви, ставшая приложением',
       paragraphs: ruAboutParagraphs,
-      exploreLabel: 'Наши бесплатные материалы:',
-      learnLink: 'Уроки грамматики',
-      wordsLink: 'Склонения слов',
-      practiceLink: 'Тренировочный тест',
     },
     cta: {
       title: 'Готовы перестать мучиться с падежами?',

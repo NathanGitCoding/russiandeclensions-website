@@ -68,19 +68,32 @@ const genderBadgeClasses: Record<string, string> = {
   neuter: 'bg-purple-100 text-purple-700',
 };
 
-function buildWordsUrl(params: { letter?: string; level?: number; page?: number; q?: string }): string {
+function buildWordsUrl(params: {
+  letter?: string;
+  level?: number;
+  page?: number;
+  q?: string;
+}): string {
   const search = new URLSearchParams();
   if (params.letter) search.set('letter', params.letter);
-  if (params.level !== undefined && params.level !== null) search.set('level', String(params.level));
+  if (params.level !== undefined && params.level !== null)
+    search.set('level', String(params.level));
   if (params.page && params.page > 1) search.set('page', String(params.page));
   if (params.q?.trim()) search.set('q', params.q.trim());
   const qs = search.toString();
   return qs ? `/words?${qs}` : '/words';
 }
 
-type Props = { searchParams: Promise<{ letter?: string; level?: string; page?: string; q?: string }> };
+type Props = {
+  searchParams: Promise<{ letter?: string; level?: string; page?: string; q?: string }>;
+};
 
-function buildCanonicalPath(params: { letter?: string; level?: number; page?: number; q?: string }): string {
+function buildCanonicalPath(params: {
+  letter?: string;
+  level?: number;
+  page?: number;
+  q?: string;
+}): string {
   return buildWordsUrl(params);
 }
 
@@ -109,12 +122,9 @@ export async function generateMetadata({ searchParams }: Props): Promise<Metadat
   const totalPages = Math.ceil(total / WORDS_PER_PAGE);
 
   const canonicalPath = buildCanonicalPath({ letter, level, page, q });
-  const prevPath =
-    page > 1 ? buildCanonicalPath({ letter, level, page: page - 1, q }) : undefined;
+  const prevPath = page > 1 ? buildCanonicalPath({ letter, level, page: page - 1, q }) : undefined;
   const nextPath =
-    page < totalPages
-      ? buildCanonicalPath({ letter, level, page: page + 1, q })
-      : undefined;
+    page < totalPages ? buildCanonicalPath({ letter, level, page: page + 1, q }) : undefined;
   return {
     title: t.metadata.title(total),
     description: t.metadata.description(total),
@@ -227,9 +237,7 @@ export default async function WordsIndexPage({ searchParams }: Props) {
 
       {/* HERO */}
       <section className="learn-detail-header !mb-0">
-        <h1 className="learn-detail-title text-4xl sm:text-5xl">
-          {t.titleWithCount(total)}
-        </h1>
+        <h1 className="learn-detail-title text-4xl sm:text-5xl">{t.titleWithCount(total)}</h1>
         <div className="mt-4 space-y-3 text-lg text-[hsl(var(--muted-foreground))]">
           {t.intro.paragraphs(total).map((para, i) => (
             <p key={i}>
@@ -237,16 +245,14 @@ export default async function WordsIndexPage({ searchParams }: Props) {
             </p>
           ))}
         </div>
-        <div className="mt-8 pt-6 border-t border-[hsl(var(--border))]">
-          <h2 className="text-xl font-semibold text-[hsl(var(--foreground))] mb-3">
+        <div className="mt-8 border-t border-[hsl(var(--border))] pt-6">
+          <h2 className="mb-3 text-xl font-semibold text-[hsl(var(--foreground))]">
             {t.heroH2.title(total)}
           </h2>
-          <p className="text-[hsl(var(--muted-foreground))] mb-4">
-            {t.heroH2.body(total)}
-          </p>
+          <p className="mb-4 text-[hsl(var(--muted-foreground))]">{t.heroH2.body(total)}</p>
           <Link
             href="/learn/lessons/russian-cases-complete-guide"
-            className="inline-flex items-center text-[hsl(var(--primary))] font-medium hover:underline"
+            className="inline-flex items-center font-medium text-[hsl(var(--primary))] hover:underline"
           >
             {learnT.lessonTitles['russian-cases-complete-guide']} →
           </Link>
@@ -254,8 +260,8 @@ export default async function WordsIndexPage({ searchParams }: Props) {
       </section>
 
       {/* WORDS TABLE + ALPHABET SIDEBAR */}
-      <section className="learn-detail-section flex flex-col sm:flex-row gap-6 items-start">
-        <div className="learn-detail-table-wrap flex-1 min-w-0">
+      <section className="learn-detail-section flex flex-col items-start gap-6 sm:flex-row">
+        <div className="learn-detail-table-wrap min-w-0 flex-1">
           <table className="learn-detail-table">
             <thead>
               <tr>
@@ -269,7 +275,7 @@ export default async function WordsIndexPage({ searchParams }: Props) {
               {words.map((w) => (
                 <tr
                   key={w.word_id}
-                  className="group hover:bg-[hsl(var(--primary)_/_0.06)] transition-colors"
+                  className="group transition-colors hover:bg-[hsl(var(--primary)_/_0.06)]"
                 >
                   <td className="font-semibold" lang="ru">
                     <Link
@@ -296,7 +302,7 @@ export default async function WordsIndexPage({ searchParams }: Props) {
                   <td className="text-right">
                     <Link
                       href={`/russian-declension/${w.slug}`}
-                      className="inline-flex items-center gap-1.5 rounded-lg border border-[hsl(var(--primary))] bg-transparent px-3 py-1.5 text-sm font-medium text-[hsl(var(--primary))] hover:bg-[hsl(var(--primary)_/_0.1)] transition-colors"
+                      className="inline-flex items-center gap-1.5 rounded-lg border border-[hsl(var(--primary))] bg-transparent px-3 py-1.5 text-sm font-medium text-[hsl(var(--primary))] transition-colors hover:bg-[hsl(var(--primary)_/_0.1)]"
                     >
                       {t.tableHeaders.viewDeclension}
                     </Link>
@@ -309,12 +315,12 @@ export default async function WordsIndexPage({ searchParams }: Props) {
 
         {/* ALPHABET FILTER BAR - vertical on the right */}
         <aside
-          className="shrink-0 flex flex-col gap-1.5 sticky top-24"
+          className="sticky top-24 flex shrink-0 flex-col gap-1.5"
           aria-label={t.filterByLetter}
         >
           <Link
             href={buildWordsUrl({ level, page: 1, q })}
-            className={`w-10 h-10 flex items-center justify-center rounded-lg text-sm font-medium transition-colors ${
+            className={`flex h-10 w-10 items-center justify-center rounded-lg text-sm font-medium transition-colors ${
               !letter
                 ? 'bg-[hsl(var(--primary))] text-white'
                 : 'bg-[hsl(var(--muted))] text-[hsl(var(--muted-foreground))] hover:bg-[hsl(var(--muted))]/80'
@@ -326,7 +332,7 @@ export default async function WordsIndexPage({ searchParams }: Props) {
             <Link
               key={l}
               href={buildWordsUrl({ letter: l, level, page: 1, q })}
-              className={`w-10 h-10 flex items-center justify-center rounded-lg text-sm font-medium transition-colors ${
+              className={`flex h-10 w-10 items-center justify-center rounded-lg text-sm font-medium transition-colors ${
                 letter?.toUpperCase() === l
                   ? 'bg-[hsl(var(--primary))] text-white'
                   : 'bg-[hsl(var(--muted))] text-[hsl(var(--muted-foreground))] hover:bg-[hsl(var(--muted))]/80'
@@ -340,25 +346,20 @@ export default async function WordsIndexPage({ searchParams }: Props) {
       </section>
 
       {words.length === 0 && (
-        <p className="py-8 text-center text-[hsl(var(--muted-foreground))] -mt-4">
-          {t.emptyState}
-        </p>
+        <p className="-mt-4 py-8 text-center text-[hsl(var(--muted-foreground))]">{t.emptyState}</p>
       )}
 
       {/* PAGINATION */}
       {total > 0 && (
-        <nav
-          className="mt-8 pt-8 border-t border-[hsl(var(--border))]"
-          aria-label="Pagination"
-        >
-          <p className="text-sm text-[hsl(var(--muted-foreground))] mb-4">
+        <nav className="mt-8 border-t border-[hsl(var(--border))] pt-8" aria-label="Pagination">
+          <p className="mb-4 text-sm text-[hsl(var(--muted-foreground))]">
             {t.pagination.showing(from, to, total)}
           </p>
           <div className="flex flex-wrap items-center gap-2">
             {page > 1 && (
               <Link
                 href={buildWordsUrl({ letter, level, page: page - 1, q })}
-                className="inline-flex items-center gap-1 rounded-lg border border-[hsl(var(--border))] px-4 py-2 text-sm font-medium text-[hsl(var(--foreground))] hover:bg-[hsl(var(--muted))] transition-colors"
+                className="inline-flex items-center gap-1 rounded-lg border border-[hsl(var(--border))] px-4 py-2 text-sm font-medium text-[hsl(var(--foreground))] transition-colors hover:bg-[hsl(var(--muted))]"
               >
                 {t.pagination.previous}
               </Link>
@@ -379,7 +380,7 @@ export default async function WordsIndexPage({ searchParams }: Props) {
                   <Link
                     key={p}
                     href={buildWordsUrl({ letter, level, page: p, q })}
-                    className={`min-w-[2.25rem] py-2 px-3 rounded-lg text-center text-sm font-medium transition-colors ${
+                    className={`min-w-[2.25rem] rounded-lg px-3 py-2 text-center text-sm font-medium transition-colors ${
                       p === page
                         ? 'bg-[hsl(var(--primary))] text-white'
                         : 'bg-[hsl(var(--muted))] text-[hsl(var(--muted-foreground))] hover:bg-[hsl(var(--muted))]/80'
@@ -393,7 +394,7 @@ export default async function WordsIndexPage({ searchParams }: Props) {
             {page < totalPages && (
               <Link
                 href={buildWordsUrl({ letter, level, page: page + 1, q })}
-                className="inline-flex items-center gap-1 rounded-lg border border-[hsl(var(--border))] px-4 py-2 text-sm font-medium text-[hsl(var(--foreground))] hover:bg-[hsl(var(--muted))] transition-colors"
+                className="inline-flex items-center gap-1 rounded-lg border border-[hsl(var(--border))] px-4 py-2 text-sm font-medium text-[hsl(var(--foreground))] transition-colors hover:bg-[hsl(var(--muted))]"
               >
                 {t.pagination.next}
               </Link>
@@ -404,38 +405,35 @@ export default async function WordsIndexPage({ searchParams }: Props) {
 
       {/* Internal links for SEO */}
       <section
-        className="mt-12 pt-8 border-t border-[hsl(var(--border))]"
+        className="mt-12 border-t border-[hsl(var(--border))] pt-8"
         aria-labelledby="related-links-heading"
       >
-        <h2 id="related-links-heading" className="text-lg font-semibold mb-4 text-[hsl(var(--foreground))]">
+        <h2
+          id="related-links-heading"
+          className="mb-4 text-lg font-semibold text-[hsl(var(--foreground))]"
+        >
           {t.relatedLinks.title}
         </h2>
-        <div className="grid sm:grid-cols-2 gap-6">
+        <div className="grid gap-6 sm:grid-cols-2">
           <div>
-            <p className="text-sm font-medium text-[hsl(var(--muted-foreground))] mb-2">
+            <p className="mb-2 text-sm font-medium text-[hsl(var(--muted-foreground))]">
               {t.relatedLinks.learnLabel}
             </p>
             <ul className="space-y-1">
               <li>
-                <Link
-                  href="/learn"
-                  className="text-[hsl(var(--primary))] hover:underline text-sm"
-                >
+                <Link href="/learn" className="text-sm text-[hsl(var(--primary))] hover:underline">
                   {learnT.header.title}
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/learn"
-                  className="text-[hsl(var(--primary))] hover:underline text-sm"
-                >
+                <Link href="/learn" className="text-sm text-[hsl(var(--primary))] hover:underline">
                   {t.relatedLinks.blogLabel}
                 </Link>
               </li>
             </ul>
           </div>
           <div>
-            <p className="text-sm font-medium text-[hsl(var(--muted-foreground))] mb-2">
+            <p className="mb-2 text-sm font-medium text-[hsl(var(--muted-foreground))]">
               {t.relatedLinks.caseArticlesTitle}
             </p>
             <ul className="space-y-1">
@@ -443,7 +441,7 @@ export default async function WordsIndexPage({ searchParams }: Props) {
                 <li key={slug}>
                   <Link
                     href={`/learn/articles/${slug}`}
-                    className="text-[hsl(var(--primary))] hover:underline text-sm"
+                    className="text-sm text-[hsl(var(--primary))] hover:underline"
                   >
                     {learnT.lessonTitles[slug] ?? slug}
                   </Link>
@@ -453,7 +451,7 @@ export default async function WordsIndexPage({ searchParams }: Props) {
           </div>
         </div>
         <div className="mt-6">
-          <p className="text-sm font-medium text-[hsl(var(--muted-foreground))] mb-2">
+          <p className="mb-2 text-sm font-medium text-[hsl(var(--muted-foreground))]">
             {t.relatedLinks.popularWordsTitle}
           </p>
           <ul className="flex flex-wrap gap-2">
@@ -461,7 +459,7 @@ export default async function WordsIndexPage({ searchParams }: Props) {
               <li key={slug}>
                 <Link
                   href={`/russian-declension/${slug}`}
-                  className="inline-flex rounded-lg border border-[hsl(var(--border))] px-3 py-1.5 text-sm text-[hsl(var(--foreground))] hover:bg-[hsl(var(--muted))] transition-colors"
+                  className="inline-flex rounded-lg border border-[hsl(var(--border))] px-3 py-1.5 text-sm text-[hsl(var(--foreground))] transition-colors hover:bg-[hsl(var(--muted))]"
                   style={{ fontFamily: 'var(--font-cyrillic)' }}
                   lang="ru"
                 >

@@ -3,8 +3,7 @@ import type { LearnArticle } from '../learnArticles';
 /** Deutsche Übersetzung des Artikels `russian-prepositional-case` (EN-Quelle: `learnArticles.ts`). Kyrillisch zeichengenau übernommen. */
 export const russianPrepositionalCaseDe: LearnArticle = {
   slug: 'russian-prepositional-case',
-  title:
-    'Russischer Präpositional: der einzige Fall, der nie ohne Präposition vorkommt',
+  title: 'Russischer Präpositional: der einzige Fall, der nie ohne Präposition vorkommt',
   metaTitle:
     'Russischer Präpositional: Endungen, в vs. на, о чём und 30 Beispiele | Russian Cases with Anna',
   metaDescription:
@@ -19,8 +18,7 @@ export const russianPrepositionalCaseDe: LearnArticle = {
   h1: 'Russischer Präpositional: der einzige Fall, der nie ohne Präposition vorkommt',
   heroImage: {
     src: '/articles/free-russian-lesson-prepositional-case.webp',
-    alt:
-      'Kostenlose Russischlektion zum Präpositional: Ort, Thema und в/на/о',
+    alt: 'Kostenlose Russischlektion zum Präpositional: Ort, Thema und в/на/о',
     width: 1200,
     height: 630,
   },
@@ -39,8 +37,7 @@ export const russianPrepositionalCaseDe: LearnArticle = {
     '**30 echte russische Sätze** mit Transliteration',
   ],
   leadMagnetCta: {
-    title:
-      'Üben Sie russische Ortsgrammatik und den Präpositional auf dem Handy',
+    title: 'Üben Sie russische Ortsgrammatik und den Präpositional auf dem Handy',
     description:
       'Unsere Mobile-App trainiert alle 6 russischen Fälle — inklusive в/на für den Ort und о + Thema — mit echten Sätzen und sofortigem Feedback. Für Android und iOS.',
     ctaText: 'App herunterladen und heute noch üben',
@@ -49,18 +46,15 @@ export const russianPrepositionalCaseDe: LearnArticle = {
   internalLinks: [
     {
       href: '/learn/lessons/russian-cases-complete-guide',
-      label:
-        'Vollständiger Leitfaden zu den russischen Fällen: alle 6 Fälle mit Beispielen',
+      label: 'Vollständiger Leitfaden zu den russischen Fällen: alle 6 Fälle mit Beispielen',
     },
     {
       href: '/learn/articles/russian-case-endings-cheatsheet',
-      label:
-        'Russische Kasusendungen: der ultimative Spickzettel',
+      label: 'Russische Kasusendungen: der ultimative Spickzettel',
     },
     {
       href: '/learn/lessons/russian-prepositions-cases',
-      label:
-        'Russische Präpositionen und Fälle: welcher Fall folgt welcher Präposition?',
+      label: 'Russische Präpositionen und Fälle: welcher Fall folgt welcher Präposition?',
     },
   ],
   tableAccentVariant: 'prepositional',
@@ -99,21 +93,14 @@ export const russianPrepositionalCaseDe: LearnArticle = {
         'Der Präpositional hat einige der **regelmäßigsten Endungen** im Russischen. Die meisten Substantive nehmen im Singular einfach **-Е**.\n\nDie wichtigsten Ausnahmen sind Substantive auf **-ий**, **-ие**, **-ия** (mit **-ИИ**) und eine kleine Gruppe mit unregelmäßigen Lokativformen auf **-У**.',
       image: {
         src: '/articles/russian-prepositional-case-endings-table-complete.webp',
-        alt:
-          'Vollständige Tabelle der Endungen des russischen Präpositional (Deklination)',
+        alt: 'Vollständige Tabelle der Endungen des russischen Präpositional (Deklination)',
         width: 1200,
         height: 630,
       },
       table: {
         caption: 'Präpositional-Endungen nach Substantivtyp',
         boldColumnIndices: [1, 3],
-        headers: [
-          'Substantivtyp',
-          'Endung',
-          'Bildung',
-          'Ergebnis',
-          'Beispiel im Kontext',
-        ],
+        headers: ['Substantivtyp', 'Endung', 'Bildung', 'Ergebnis', 'Beispiel im Kontext'],
         rows: [
           [
             'Mask. hart (Konsonant)',
@@ -122,20 +109,8 @@ export const russianPrepositionalCaseDe: LearnArticle = {
             'столе',
             'книга на столе — Buch auf dem Tisch',
           ],
-          [
-            'Mask. weich (-й)',
-            '-е',
-            'музей → музе+е',
-            'музее',
-            'в музее — im Museum',
-          ],
-          [
-            'Mask. weich (-ь)',
-            '-е',
-            'словарь → словар+е',
-            'словаре',
-            'в словаре — im Wörterbuch',
-          ],
+          ['Mask. weich (-й)', '-е', 'музей → музе+е', 'музее', 'в музее — im Museum'],
+          ['Mask. weich (-ь)', '-е', 'словарь → словар+е', 'словаре', 'в словаре — im Wörterbuch'],
           [
             'Mask./Neutr. auf -ий/-ие',
             '-ии',
@@ -143,49 +118,13 @@ export const russianPrepositionalCaseDe: LearnArticle = {
             'гении / здании',
             'в здании — im Gebäude',
           ],
-          [
-            'Fem. hart (-а)',
-            '-е',
-            'страна → стран+е',
-            'стране',
-            'в стране — im Land',
-          ],
-          [
-            'Fem. weich (-я)',
-            '-е',
-            'земля → земл+е',
-            'земле',
-            'на земле — auf dem Boden',
-          ],
-          [
-            'Fem. auf -ия',
-            '-ии',
-            'станция → станци+и',
-            'станции',
-            'на станции — am Bahnhof',
-          ],
+          ['Fem. hart (-а)', '-е', 'страна → стран+е', 'стране', 'в стране — im Land'],
+          ['Fem. weich (-я)', '-е', 'земля → земл+е', 'земле', 'на земле — auf dem Boden'],
+          ['Fem. auf -ия', '-ии', 'станция → станци+и', 'станции', 'на станции — am Bahnhof'],
           ['Fem. (-ь)', '-и', 'ночь → ноч+и', 'ночи', 'в ночи — in der Nacht'],
-          [
-            'Neutrum (-о)',
-            '-е',
-            'окно → окн+е',
-            'окне',
-            'в окне — im Fenster',
-          ],
-          [
-            'Neutrum (-е)',
-            '-е',
-            'море → мор+е',
-            'море',
-            'в море — im Meer',
-          ],
-          [
-            'Neutrum auf -ие',
-            '-ии',
-            'здание → здани+и',
-            'здании',
-            'в здании — im Gebäude',
-          ],
+          ['Neutrum (-о)', '-е', 'окно → окн+е', 'окне', 'в окне — im Fenster'],
+          ['Neutrum (-е)', '-е', 'море → мор+е', 'море', 'в море — im Meer'],
+          ['Neutrum auf -ие', '-ии', 'здание → здани+и', 'здании', 'в здании — im Gebäude'],
           [
             'Plural (alle Genera)',
             '-ах/-ях',
@@ -221,8 +160,7 @@ export const russianPrepositionalCaseDe: LearnArticle = {
         },
         {
           h3: 'Merksatz',
-          content:
-            '-ий/-ие/-ия enden alle auf И — dieses И bleibt im Präpositional.',
+          content: '-ий/-ие/-ия enden alle auf И — dieses И bleibt im Präpositional.',
         },
       ],
     },
@@ -233,12 +171,7 @@ export const russianPrepositionalCaseDe: LearnArticle = {
       table: {
         caption: 'Lokativ -У vs. regulärer Präpositional -Е',
         boldColumnIndices: [1, 2],
-        headers: [
-          'Substantiv',
-          'Lokativ (в/на + Ort)',
-          'Reg. Präp. (о + Thema)',
-          'Beispielsatz',
-        ],
+        headers: ['Substantiv', 'Lokativ (в/на + Ort)', 'Reg. Präp. (о + Thema)', 'Beispielsatz'],
         rows: [
           [
             'лес (Wald)',
@@ -252,12 +185,7 @@ export const russianPrepositionalCaseDe: LearnArticle = {
             'о саде',
             'Дети играют в саду. — Die Kinder spielen im Garten.',
           ],
-          [
-            'год (Jahr)',
-            'в году',
-            'о годе',
-            'Сколько дней в году? — Wie viele Tage hat ein Jahr?',
-          ],
+          ['год (Jahr)', 'в году', 'о годе', 'Сколько дней в году? — Wie viele Tage hat ein Jahr?'],
           [
             'пол (Boden)',
             'на полу',
@@ -270,24 +198,14 @@ export const russianPrepositionalCaseDe: LearnArticle = {
             'о береге',
             'Мы отдыхали на берегу. — Wir haben am Ufer geruht.',
           ],
-          [
-            'угол (Ecke)',
-            'в углу',
-            'об угле',
-            'Стол стоит в углу. — Der Tisch steht in der Ecke.',
-          ],
+          ['угол (Ecke)', 'в углу', 'об угле', 'Стол стоит в углу. — Der Tisch steht in der Ecke.'],
           [
             'нос (Nase / Bug)',
             'на носу',
             'о носе',
             'Очки на носу. — Die Brille sitzt auf der Nase.',
           ],
-          [
-            'порт (Hafen)',
-            'в порту',
-            'о порте',
-            'Корабль в порту. — Das Schiff liegt im Hafen.',
-          ],
+          ['порт (Hafen)', 'в порту', 'о порте', 'Корабль в порту. — Das Schiff liegt im Hafen.'],
           [
             'мост (Brücke)',
             'на мосту',
@@ -479,12 +397,7 @@ export const russianPrepositionalCaseDe: LearnArticle = {
       table: {
         caption: '30 Präpositional-Beispiele',
         boldColumnIndices: [1],
-        headers: [
-          '#',
-          'Russischer Satz',
-          'Transliteration',
-          'Übersetzung und Grammatikhinweise',
-        ],
+        headers: ['#', 'Russischer Satz', 'Transliteration', 'Übersetzung und Grammatikhinweise'],
         rows: [
           [
             '1',
@@ -723,8 +636,7 @@ export const russianPrepositionalCaseDe: LearnArticle = {
         'Der russische Präpositional heißt so, weil er der **einzige Fall** ist, der immer eine Präposition braucht. Kein anderer russischer Fall hat diese Eigenschaft — Nominativ, Genitiv, Dativ, Akkusativ und Instrumental können alle ohne Präposition vorkommen. Der Präpositional definitionsgemäß nicht.',
     },
     {
-      question:
-        'Was ist der Unterschied zwischen в und на für den Ort auf Russisch?',
+      question: 'Was ist der Unterschied zwischen в und на für den Ort auf Russisch?',
       answer:
         '**В** (in) steht für geschlossene oder innere Räume: Länder, Städte, Gebäude und Zimmer. **НА** (auf / an) steht für Flächen, offene Räume, Inseln und eine Reihe von Institutionen nach Konvention (на работе, на почте, на вокзале). Beide nehmen den Präpositional für den Ort und den Akkusativ für die Richtung.',
     },
@@ -742,8 +654,7 @@ export const russianPrepositionalCaseDe: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      'Russischer Präpositional: der einzige Fall, der nie ohne Präposition vorkommt',
+    headline: 'Russischer Präpositional: der einzige Fall, der nie ohne Präposition vorkommt',
     description:
       'Vollständiger Leitfaden zum russischen Präpositional: Ort, Thema (о чём), Endungen, -ИИ-Regel, Lokativ-У, в vs. на, о/об, 10 Verben + о, 30 Beispiele.',
     datePublished: '2026-03-12',
@@ -752,8 +663,7 @@ export const russianPrepositionalCaseDe: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/russian-prepositional-case',
+      '@id': 'https://russiandeclensions.com/learn/articles/russian-prepositional-case',
     },
     keywords:
       'russischer Präpositional, Präpositional Endungen Russisch, в на о Präpositional Russisch, Russisch Ortsgrammatik, о чём Russisch',

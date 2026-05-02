@@ -48,8 +48,7 @@ export const russianCaseEndingsCheatsheetDe: LearnArticle = {
     },
     {
       href: '/learn/lessons/dative-case-declension',
-      label:
-        'Russischer Dativ: Wie man „zu“ und „für“ auf Russisch sagt',
+      label: 'Russischer Dativ: Wie man „zu“ und „für“ auf Russisch sagt',
     },
   ],
   sections: [
@@ -131,15 +130,7 @@ export const russianCaseEndingsCheatsheetDe: LearnArticle = {
         caption: 'Adjektivendungen nach Kasus, Genus und Stammtyp',
         boldColumnIndices: [0, 1, 2, 3, 4, 5],
         accentColumnIndices: [0],
-        headers: [
-          'Kasus',
-          'M. hart',
-          'M. weich',
-          'F. hart',
-          'F. weich',
-          'Neutrum',
-          'Plural',
-        ],
+        headers: ['Kasus', 'M. hart', 'M. weich', 'F. hart', 'F. weich', 'Neutrum', 'Plural'],
         rows: [
           ['Nominativ', '-ый/-ой', '-ий', '-ая', '-яя', '-ое', '-ые/-ие'],
           ['Genitiv', '-ого', '-его', '-ой', '-ей', '-ого', '-ых/-их'],
@@ -398,8 +389,7 @@ export const russianCaseEndingsCheatsheetDe: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/russian-case-endings-cheatsheet',
+      '@id': 'https://russiandeclensions.com/learn/articles/russian-case-endings-cheatsheet',
     },
     keywords:
       'russische Kasusendungen, Kasus-Tabelle Russisch, Spickzettel Kasus, russische Pronomen, Präpositionen Kasus',

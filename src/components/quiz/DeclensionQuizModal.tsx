@@ -30,7 +30,14 @@ const genderColors: Record<string, string> = {
   neuter: 'bg-purple-50 text-purple-700 border-purple-200',
 };
 
-export function DeclensionQuizModal({ word, isOpen, onClose, translations: t, cases, leadMagnetCta }: DeclensionQuizModalProps) {
+export function DeclensionQuizModal({
+  word,
+  isOpen,
+  onClose,
+  translations: t,
+  cases,
+  leadMagnetCta,
+}: DeclensionQuizModalProps) {
   const { landingLanguage } = useLandingLanguage();
   const {
     currentQuestion,
@@ -64,19 +71,24 @@ export function DeclensionQuizModal({ word, isOpen, onClose, translations: t, ca
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = 'hidden';
-      return () => { document.body.style.overflow = ''; };
+      return () => {
+        document.body.style.overflow = '';
+      };
     }
   }, [isOpen]);
 
-  const handleSelectAnswer = useCallback((answer: string) => {
-    if (showResult) return;
-    selectAnswer(answer);
-    // Check if wrong to trigger shake
-    if (answer !== currentQuestion?.correctAnswer) {
-      setShakeAnswer(answer);
-      setTimeout(() => setShakeAnswer(null), 300);
-    }
-  }, [showResult, selectAnswer, currentQuestion]);
+  const handleSelectAnswer = useCallback(
+    (answer: string) => {
+      if (showResult) return;
+      selectAnswer(answer);
+      // Check if wrong to trigger shake
+      if (answer !== currentQuestion?.correctAnswer) {
+        setShakeAnswer(answer);
+        setTimeout(() => setShakeAnswer(null), 300);
+      }
+    },
+    [showResult, selectAnswer, currentQuestion]
+  );
 
   const handleClose = useCallback(() => {
     onClose();
@@ -84,9 +96,10 @@ export function DeclensionQuizModal({ word, isOpen, onClose, translations: t, ca
 
   if (!isOpen) return null;
 
-  const score = results.length > 0
-    ? Math.round((results.filter((r) => r.isCorrect).length / results.length) * 100)
-    : 0;
+  const score =
+    results.length > 0
+      ? Math.round((results.filter((r) => r.isCorrect).length / results.length) * 100)
+      : 0;
 
   const modalContent = (
     <div
@@ -95,7 +108,7 @@ export function DeclensionQuizModal({ word, isOpen, onClose, translations: t, ca
       role="presentation"
     >
       <div
-        className="relative w-full max-w-md max-h-[90vh] overflow-y-auto rounded-2xl bg-white shadow-2xl"
+        className="relative max-h-[90vh] w-full max-w-md overflow-y-auto rounded-2xl bg-white shadow-2xl"
         role="dialog"
         aria-modal="true"
         aria-labelledby="quiz-modal-title"
@@ -104,7 +117,7 @@ export function DeclensionQuizModal({ word, isOpen, onClose, translations: t, ca
         {/* Close button */}
         <button
           onClick={handleClose}
-          className="absolute right-3 top-3 z-10 flex h-8 w-8 items-center justify-center rounded-full text-gray-400 transition-colors hover:bg-gray-100 hover:text-gray-600"
+          className="absolute top-3 right-3 z-10 flex h-8 w-8 items-center justify-center rounded-full text-gray-400 transition-colors hover:bg-gray-100 hover:text-gray-600"
           aria-label={t.close}
         >
           <X size={18} />
@@ -112,11 +125,14 @@ export function DeclensionQuizModal({ word, isOpen, onClose, translations: t, ca
 
         {showResults ? (
           /* ── Results Screen ── */
-          <div className="px-6 pb-6 pt-6">
+          <div className="px-6 pt-6 pb-6">
             <h2 id="quiz-modal-title" className="mb-1 text-center text-lg font-bold text-gray-800">
               {t.score}
             </h2>
-            <p className="mb-6 text-center text-4xl font-bold" style={{ color: score >= 60 ? '#10B981' : '#EF4444' }}>
+            <p
+              className="mb-6 text-center text-4xl font-bold"
+              style={{ color: score >= 60 ? '#10B981' : '#EF4444' }}
+            >
               {score}%
             </p>
 
@@ -125,7 +141,10 @@ export function DeclensionQuizModal({ word, isOpen, onClose, translations: t, ca
                 <div
                   key={i}
                   className="flex items-center gap-3 rounded-lg border px-3 py-2"
-                  style={{ borderLeftWidth: '3px', borderLeftColor: r.isCorrect ? '#10B981' : '#EF4444' }}
+                  style={{
+                    borderLeftWidth: '3px',
+                    borderLeftColor: r.isCorrect ? '#10B981' : '#EF4444',
+                  }}
                 >
                   {r.isCorrect ? (
                     <CheckCircle2 size={18} className="flex-shrink-0 text-emerald-500" />
@@ -134,7 +153,9 @@ export function DeclensionQuizModal({ word, isOpen, onClose, translations: t, ca
                   )}
                   <div className="min-w-0 flex-1">
                     <div className="flex items-center gap-2">
-                      <span className="font-medium text-gray-800" lang="ru">{r.base_form}</span>
+                      <span className="font-medium text-gray-800" lang="ru">
+                        {r.base_form}
+                      </span>
                       <span className="text-gray-400">→</span>
                       <span
                         className={`font-medium ${r.isCorrect ? 'text-emerald-600' : 'text-red-600'}`}
@@ -143,10 +164,14 @@ export function DeclensionQuizModal({ word, isOpen, onClose, translations: t, ca
                         {r.isCorrect ? r.correctAnswer : r.userAnswer}
                       </span>
                       {!r.isCorrect && (
-                        <span className="text-sm text-gray-400" lang="ru">({r.correctAnswer})</span>
+                        <span className="text-sm text-gray-400" lang="ru">
+                          ({r.correctAnswer})
+                        </span>
                       )}
                     </div>
-                    <span className="text-xs text-gray-500">{r.caseLabel} · {r.numberLabel}</span>
+                    <span className="text-xs text-gray-500">
+                      {r.caseLabel} · {r.numberLabel}
+                    </span>
                   </div>
                 </div>
               ))}
@@ -175,7 +200,7 @@ export function DeclensionQuizModal({ word, isOpen, onClose, translations: t, ca
           </div>
         ) : currentQuestion ? (
           /* ── Question Screen ── */
-          <div className="px-6 pb-6 pt-6">
+          <div className="px-6 pt-6 pb-6">
             {/* Progress */}
             <p className="mb-2 text-center text-xs font-medium text-gray-500">
               {t.questionLabel} {progress.current} / {progress.total}
@@ -189,11 +214,15 @@ export function DeclensionQuizModal({ word, isOpen, onClose, translations: t, ca
 
             {/* Word card */}
             <div
-              className={`mb-3 flex min-h-[5.25rem] flex-col items-center justify-center gap-2 rounded-xl border-2 px-4 py-[1.125rem] text-center ${genderColors[word.gender] ?? 'bg-gray-50 text-gray-800 border-gray-200'}`}
+              className={`mb-3 flex min-h-[5.25rem] flex-col items-center justify-center gap-2 rounded-xl border-2 px-4 py-[1.125rem] text-center ${genderColors[word.gender] ?? 'border-gray-200 bg-gray-50 text-gray-800'}`}
             >
-              <span className="text-[1.625rem] font-bold leading-tight" lang="ru">{currentQuestion.base_form}</span>
+              <span className="text-[1.625rem] leading-tight font-bold" lang="ru">
+                {currentQuestion.base_form}
+              </span>
               {currentQuestion.translationHint ? (
-                <span className="text-[0.875rem] italic text-gray-500">{currentQuestion.translationHint}</span>
+                <span className="text-[0.875rem] text-gray-500 italic">
+                  {currentQuestion.translationHint}
+                </span>
               ) : null}
             </div>
 
@@ -205,9 +234,11 @@ export function DeclensionQuizModal({ word, isOpen, onClose, translations: t, ca
             {/* Answer buttons */}
             <div className="grid grid-cols-2 gap-2.5" aria-live="polite">
               {currentQuestion.allAnswers.map((answer) => {
-                let btnClass = 'rounded-lg border-2 px-3 py-[0.9375rem] text-center text-[1.125rem] font-medium leading-snug transition-all duration-150 ';
+                let btnClass =
+                  'rounded-lg border-2 px-3 py-[0.9375rem] text-center text-[1.125rem] font-medium leading-snug transition-all duration-150 ';
                 if (!showResult) {
-                  btnClass += 'border-gray-200 bg-white text-gray-800 hover:border-blue-500 cursor-pointer';
+                  btnClass +=
+                    'border-gray-200 bg-white text-gray-800 hover:border-blue-500 cursor-pointer';
                 } else if (answer.isCorrect) {
                   btnClass += 'border-emerald-400 bg-emerald-50 text-emerald-700';
                 } else if (answer.form === selectedAnswer) {
@@ -232,8 +263,12 @@ export function DeclensionQuizModal({ word, isOpen, onClose, translations: t, ca
             </div>
 
             {/* Feedback above Next — always rendered to reserve height, hidden when not active */}
-            <div className={`mt-3 flex flex-col items-center justify-center gap-2 ${showResult ? 'visible' : 'invisible'}`}>
-              <p className={`min-h-[1.25rem] text-center text-sm font-semibold ${isCorrectAnswer ? 'text-emerald-600' : 'text-red-500'}`}>
+            <div
+              className={`mt-3 flex flex-col items-center justify-center gap-2 ${showResult ? 'visible' : 'invisible'}`}
+            >
+              <p
+                className={`min-h-[1.25rem] text-center text-sm font-semibold ${isCorrectAnswer ? 'text-emerald-600' : 'text-red-500'}`}
+              >
                 {showResult ? (isCorrectAnswer ? t.correct : t.incorrect) : '\u00A0'}
               </p>
               <button

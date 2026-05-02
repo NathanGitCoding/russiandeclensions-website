@@ -4,8 +4,7 @@ import type { LearnArticle } from '../learnArticles';
 export const top10AppsRussianDe: LearnArticle = {
   slug: 'top-10-apps-russian',
   title: 'Die 10 besten Apps, um 2026 Russisch zu lernen',
-  metaTitle:
-    'Die 10 besten Apps, um 2026 Russisch zu lernen | Russian Cases with Anna',
+  metaTitle: 'Die 10 besten Apps, um 2026 Russisch zu lernen | Russian Cases with Anna',
   metaDescription:
     'Die besten Apps zum Russischlernen 2026: Grammatik, Wortschatz, Kasus und Konversation. Unsere Top‑10‑Empfehlungen helfen Ihnen, Russisch in Ihrem Tempo zu meistern.',
   keywords: [
@@ -20,16 +19,14 @@ export const top10AppsRussianDe: LearnArticle = {
     'Russisch zu lernen kann sich wie ein Bergaufstieg anfühlen. Zwischen kyrillischem Alphabet, sechs grammatischen Fällen und Bewegungsverben verliert man schnell den Überblick. Mit den richtigen Tools in der Tasche wird aus dem Berg jedoch eine Folge machbarer Schritte.\n\nIm Jahr 2026 hat Lerntechnologie neue Höhen erreicht. Ob absoluter Anfänger oder Fortgeschrittener, der seine Flüssigkeit verfeinern will — wir haben die zehn besten Apps zum Russischlernen getestet und bewertet. Hier ist unsere ausführliche Übersicht, damit Sie die passende App finden.',
   heroImage: {
     src: '/articles/top-10-apps-to-learn-russian-2026.webp',
-    alt:
-      'Infografik: die 10 besten Apps zum Russischlernen 2026 mit Logos und Ranking',
+    alt: 'Infografik: die 10 besten Apps zum Russischlernen 2026 mit Logos und Ranking',
     width: 1200,
     height: 630,
   },
   items: [
     {
       rank: 1,
-      title:
-        'Russian Cases with Anna: Die Spezialistenwahl für Grammatik und Kasus',
+      title: 'Russian Cases with Anna: Die Spezialistenwahl für Grammatik und Kasus',
       description:
         'Wer ernsthaft solide grammatische Grundlagen aufbauen will, findet in Russian Cases with Anna das richtige Werkzeug. Wo andere Apps oberflächlich bleiben, **taucht diese App tief in das Herz der russischen Sprache ein**: Kasussystem und Deklination. Kurze Lernmodule und ansprechende, interaktive Quizfragen sind ausgewogen kombiniert.',
       image: {
@@ -105,9 +102,7 @@ export const top10AppsRussianDe: LearnArticle = {
         'Verschiedene Akzente und Sprechgeschwindigkeiten — wichtig fürs reale Hören',
         'Die Funktion „Learn with Locals“ ist ein echter Pluspunkt',
       ],
-      cons: [
-        'Weniger geeignet für komplexe Satzstrukturen oder tiefe Grammatik',
-      ],
+      cons: ['Weniger geeignet für komplexe Satzstrukturen oder tiefe Grammatik'],
     },
     {
       rank: 5,
@@ -140,10 +135,7 @@ export const top10AppsRussianDe: LearnArticle = {
         width: 256,
         height: 256,
       },
-      pros: [
-        'Echter Akzent und „Muskelgedächtnis“ fürs Sprechen',
-        'Keine Bildschirmzeit nötig',
-      ],
+      pros: ['Echter Akzent und „Muskelgedächtnis“ fürs Sprechen', 'Keine Bildschirmzeit nötig'],
       cons: [
         'Kyrillisches Alphabet und Schreiben werden nicht gelehrt',
         'Kann jüngeren Lernenden etwas „old school“ vorkommen',
@@ -165,9 +157,7 @@ export const top10AppsRussianDe: LearnArticle = {
         'Oft sehr günstig (Lehrkräfte unter 10 $/Stunde sind möglich)',
         'Schnellster Weg, die „Sprechangst“ abzubauen',
       ],
-      cons: [
-        'Keine reine „unterwegs“-App; Terminplanung und stabiles Internet nötig',
-      ],
+      cons: ['Keine reine „unterwegs“-App; Terminplanung und stabiles Internet nötig'],
     },
     {
       rank: 8,
@@ -184,9 +174,7 @@ export const top10AppsRussianDe: LearnArticle = {
         'Reicht von „Slang“ bis „Business Russian“',
         'Sehr gut für Mittelstufe, die auf einem Plateau steckt',
       ],
-      cons: [
-        'Die Oberfläche kann überfordern, weil extrem viel Inhalt vorhanden ist',
-      ],
+      cons: ['Die Oberfläche kann überfordern, weil extrem viel Inhalt vorhanden ist'],
     },
     {
       rank: 9,
@@ -203,9 +191,7 @@ export const top10AppsRussianDe: LearnArticle = {
         'Starke App, um den Wortschatz ab B1 schnell zu erweitern',
         'Retro-8-Bit-Design macht Spaß',
       ],
-      cons: [
-        'Nicht für absolute Anfänger. Ohne Alphabetkenntnis vorerst meiden.',
-      ],
+      cons: ['Nicht für absolute Anfänger. Ohne Alphabetkenntnis vorerst meiden.'],
     },
     {
       rank: 10,
@@ -222,13 +208,10 @@ export const top10AppsRussianDe: LearnArticle = {
         'Herausragendes Design',
         'Gut geeignet, das kyrillische Alphabet und Grundwortschatz stressfrei zu lernen',
       ],
-      cons: [
-        'Keine Grammatik. Ergänzung, kein Vollkurs.',
-      ],
+      cons: ['Keine Grammatik. Ergänzung, kein Vollkurs.'],
     },
   ],
-  conclusionIntro:
-    'Um Russisch wirklich zu meistern, empfehlen wir einen **hybriden Ansatz**:',
+  conclusionIntro: 'Um Russisch wirklich zu meistern, empfehlen wir einen **hybriden Ansatz**:',
   conclusionBullets: [
     '**Kern-App:** Nutzen Sie **Russian Cases with Anna** oder **Busuu**, um Ihre grammatische Basis aufzubauen.',
     '**Sprech-Tool:** Gehen Sie mit **italki** einmal pro Woche durch, was Sie gelernt haben — mit einem Menschen.',
@@ -240,8 +223,7 @@ export const top10AppsRussianDe: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      'Die 10 besten Apps, um 2026 Russisch zu lernen: Der ultimative Leitfaden',
+    headline: 'Die 10 besten Apps, um 2026 Russisch zu lernen: Der ultimative Leitfaden',
     description:
       'Die besten mobilen Apps zum Russischlernen: Grammatik, Wortschatz und Konversation im Jahr 2026.',
     datePublished: '2026-03-11',
@@ -250,10 +232,8 @@ export const top10AppsRussianDe: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/top-10-apps-russian',
+      '@id': 'https://russiandeclensions.com/learn/articles/top-10-apps-russian',
     },
-    keywords:
-      'Russisch lernen App, beste Apps Russisch, Russisch Grammatik App',
+    keywords: 'Russisch lernen App, beste Apps Russisch, Russisch Grammatik App',
   },
 };

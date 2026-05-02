@@ -2,10 +2,8 @@ import type { LearnArticle } from '../learnArticles';
 
 export const russianCaseEndingsCheatsheetTr: LearnArticle = {
   slug: 'russian-case-endings-cheatsheet',
-  title:
-    'Rus çekim ekleri: Nihai özet sayfası ve tablo',
-  metaTitle:
-    'Rus çekim ekleri özet sayfası | Tam çekim tablosu | Russian Cases with Anna',
+  title: 'Rus çekim ekleri: Nihai özet sayfası ve tablo',
+  metaTitle: 'Rus çekim ekleri özet sayfası | Tam çekim tablosu | Russian Cases with Anna',
   metaDescription:
     'Ücretsiz Rus çekim ekleri özeti: isim çekim tablosu, sıfat ekleri, zamirler (мой, этот), edatlara göre haller. 6 hal, renkli tablo. Yazdırın veya yer imlerine ekleyin.',
   keywords: [
@@ -44,13 +42,11 @@ export const russianCaseEndingsCheatsheetTr: LearnArticle = {
   internalLinks: [
     {
       href: '/learn/lessons/russian-cases-complete-guide',
-      label:
-        'Rus hallerine tam rehber: Örneklerle açıklanan 6 hal',
+      label: 'Rus hallerine tam rehber: Örneklerle açıklanan 6 hal',
     },
     {
       href: '/learn/lessons/dative-case-declension',
-      label:
-        'Rus datifi: Rusçada «-e / için» nasıl söylenir',
+      label: 'Rus datifi: Rusçada «-e / için» nasıl söylenir',
     },
   ],
   sections: [
@@ -132,15 +128,7 @@ export const russianCaseEndingsCheatsheetTr: LearnArticle = {
         caption: 'Hale, cinsiyete ve gövde tipine göre sıfat ekleri',
         boldColumnIndices: [0, 1, 2, 3, 4, 5],
         accentColumnIndices: [0],
-        headers: [
-          'Hal',
-          'E. sert',
-          'E. yumuş',
-          'D. sert',
-          'D. yumuş',
-          'Nötr',
-          'Çoğul',
-        ],
+        headers: ['Hal', 'E. sert', 'E. yumuş', 'D. sert', 'D. yumuş', 'Nötr', 'Çoğul'],
         rows: [
           ['Yalın', '-ый/-ой', '-ий', '-ая', '-яя', '-ое', '-ые/-ие'],
           ['Genitif', '-ого', '-его', '-ой', '-ей', '-ого', '-ых/-их'],
@@ -399,8 +387,7 @@ export const russianCaseEndingsCheatsheetTr: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/russian-case-endings-cheatsheet',
+      '@id': 'https://russiandeclensions.com/learn/articles/russian-case-endings-cheatsheet',
     },
     keywords:
       'rus çekim ekleri, rus çekim tablosu, rus haller özeti, rus zamirleri, edatlar ve haller',

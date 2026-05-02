@@ -3,8 +3,7 @@ import type { LearnArticle } from '../learnArticles';
 /** Tłumaczenie PL artykułu `russian-prepositions-cases-cheat-sheet` (źródło EN: `learnArticles.ts`). Cyrylica w przykładach jak w EN. */
 export const russianPrepositionsCasesCheatSheetPl: LearnArticle = {
   slug: 'russian-prepositions-cases-cheat-sheet',
-  title:
-    'Ściąga: rosyjskie przyimki i przypadki — który przypadek po którym przyimku',
+  title: 'Ściąga: rosyjskie przyimki i przypadki — który przypadek po którym przyimku',
   metaTitle:
     'Ściąga rosyjskich przyimków i przypadków — który przypadek? | Russian Cases with Anna',
   metaDescription:
@@ -51,11 +50,7 @@ export const russianPrepositionsCasesCheatSheetPl: LearnArticle = {
             'к, по, благодаря, вопреки, навстречу, согласно',
             'Ku, wzdłuż / według, dzięki, wbrew, naprzeciwko (spotkanie), zgodnie z',
           ],
-          [
-            'Biernik',
-            'через, про, сквозь',
-            'Przez / na wskroś, o (mówić), na wskroś',
-          ],
+          ['Biernik', 'через, про, сквозь', 'Przez / na wskroś, o (mówić), na wskroś'],
           [
             'Biernik ★',
             'в (kierunek), на (kierunek), за (kierunek), под (kierunek)',
@@ -66,11 +61,7 @@ export const russianPrepositionsCasesCheatSheetPl: LearnArticle = {
             'с, между, над, перед, за ★, под ★',
             'Z (towarzystwo), między, nad, przed, za (miejsce), pod (miejsce)',
           ],
-          [
-            'Miejscownik',
-            'о (об, обо), при',
-            'O, przy / w obecności',
-          ],
+          ['Miejscownik', 'о (об, обо), при', 'O, przy / w obecności'],
           [
             'Miejscownik ★',
             'в (miejsce), на (miejsce)',
@@ -177,41 +168,11 @@ export const russianPrepositionsCasesCheatSheetPl: LearnArticle = {
             'Кофе **с молоком**. Пришёл **с работы**.',
             'Kawa z mlekiem. Przyszedł z pracy.',
           ],
-          [
-            '4',
-            'к',
-            'Cel.',
-            'Иду **к врачу**.',
-            'Idę do lekarza.',
-          ],
-          [
-            '5',
-            'из',
-            'Dop.',
-            'Вышел **из дома**.',
-            'Wyszedł z domu.',
-          ],
-          [
-            '6',
-            'о (об)',
-            'Miej.',
-            'Думаю **о тебе**.',
-            'Myślę o tobie.',
-          ],
-          [
-            '7',
-            'для',
-            'Dop.',
-            'Подарок **для мамы**.',
-            'Prezent dla mamy.',
-          ],
-          [
-            '8',
-            'от',
-            'Dop.',
-            'Письмо **от друга**.',
-            'List od przyjaciela.',
-          ],
+          ['4', 'к', 'Cel.', 'Иду **к врачу**.', 'Idę do lekarza.'],
+          ['5', 'из', 'Dop.', 'Вышел **из дома**.', 'Wyszedł z domu.'],
+          ['6', 'о (об)', 'Miej.', 'Думаю **о тебе**.', 'Myślę o tobie.'],
+          ['7', 'для', 'Dop.', 'Подарок **для мамы**.', 'Prezent dla mamy.'],
+          ['8', 'от', 'Dop.', 'Письмо **от друга**.', 'List od przyjaciela.'],
           [
             '9',
             'за',
@@ -219,13 +180,7 @@ export const russianPrepositionsCasesCheatSheetPl: LearnArticle = {
             'Спасибо **за помощь**. Сижу **за столом**.',
             'Dzięki za pomoc. Siedzę przy stole.',
           ],
-          [
-            '10',
-            'по',
-            'Cel.',
-            'Гуляю **по парку**.',
-            'Spaceruję po parku.',
-          ],
+          ['10', 'по', 'Cel.', 'Гуляю **по парку**.', 'Spaceruję po parku.'],
         ],
         caption: '10 najczęstszych rosyjskich przyimków: przypadki i przykłady',
         boldColumnIndices: [1],
@@ -259,8 +214,7 @@ export const russianPrepositionsCasesCheatSheetPl: LearnArticle = {
     },
     {
       h2: 'Przyimki z celownikiem',
-      content:
-        'Celownik ma mniej przyimków, ale są bardzo częste:',
+      content: 'Celownik ma mniej przyimków, ale są bardzo częste:',
       table: {
         headers: ['Przyimek', 'Znaczenie', 'Przykład', 'Tłumaczenie'],
         rows: [
@@ -278,8 +232,7 @@ export const russianPrepositionsCasesCheatSheetPl: LearnArticle = {
     },
     {
       h2: 'Przyimki z narzędnikiem',
-      content:
-        'Narzędnik oznacza towarzystwo, położenie za / pod / nad oraz środek działania:',
+      content: 'Narzędnik oznacza towarzystwo, położenie za / pod / nad oraz środek działania:',
       table: {
         headers: ['Przyimek', 'Znaczenie', 'Przykład', 'Tłumaczenie'],
         rows: [
@@ -314,8 +267,7 @@ export const russianPrepositionsCasesCheatSheetPl: LearnArticle = {
     },
     {
       h2: 'Sztuczki pamięciowe: jak zapamiętać przypadek',
-      content:
-        'Sprawdzone skróty myślowe do par przyimek–przypadek:',
+      content: 'Sprawdzone skróty myślowe do par przyimek–przypadek:',
       bullets: [
         '**Kierunek = biernik, miejsce = miejscownik / narzędnik.** Gdy idziesz gdzieś (в/на + ruch) — biernik. Gdy już tam jesteś — miejscownik (в/на) lub narzędnik (за/под).',
         '**„Z (towarzystwo)” = narzędnik.** Narzędnik to dosłownie „za pomocą” — więc „z” (towarzystwo lub narzędzie) zawsze narzędnik: с другом, с ножом.',
@@ -327,8 +279,7 @@ export const russianPrepositionsCasesCheatSheetPl: LearnArticle = {
     },
     {
       h2: 'Częste błędy do unikania',
-      content:
-        'Najczęstsze błędy przyimek–przypadek u uczących się:',
+      content: 'Najczęstsze błędy przyimek–przypadek u uczących się:',
       mistakeCards: [
         {
           title: 'в + zły przypadek dla miejsca',
@@ -373,8 +324,7 @@ export const russianPrepositionsCasesCheatSheetPl: LearnArticle = {
     },
     {
       h2: 'Szybki przegląd: przyimek → przypadek',
-      content:
-        'Wydrukuj lub zapisz w telefonie — najszybsze sprawdzenie dowolnego przyimku:',
+      content: 'Wydrukuj lub zapisz w telefonie — najszybsze sprawdzenie dowolnego przyimku:',
       table: {
         headers: ['Przyimek', 'Przypadek', 'Krótkie znaczenie'],
         rows: [
@@ -477,8 +427,7 @@ export const russianPrepositionsCasesCheatSheetPl: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      'Ściąga: rosyjskie przyimki i przypadki — który przypadek po każdym przyimku',
+    headline: 'Ściąga: rosyjskie przyimki i przypadki — który przypadek po każdym przyimku',
     description:
       'Pełna ściąga: który rosyjski przypadek po którym przyimku. Tabele, przykłady, sztuczki i częste błędy.',
     datePublished: '2026-03-22',
@@ -487,8 +436,7 @@ export const russianPrepositionsCasesCheatSheetPl: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/russian-prepositions-cases-cheat-sheet',
+      '@id': 'https://russiandeclensions.com/learn/articles/russian-prepositions-cases-cheat-sheet',
     },
     keywords:
       'rosyjskie przyimki i przypadki, jaki przypadek po в, ściąga rosyjskich przyimków, rosyjskie przypadki po przyimkach',

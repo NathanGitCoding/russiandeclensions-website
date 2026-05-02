@@ -3,8 +3,7 @@ import type { LearnArticle } from '../learnArticles';
 /** Türkçe çeviri: `top-10-russian-case-mistakes` (EN kaynak: `learnArticles.ts`). Örneklerdeki Kiril aynen. */
 export const top10RussianCaseMistakesTr: LearnArticle = {
   slug: 'top-10-russian-case-mistakes',
-  title:
-    'İngilizce konuşanların Rusça hallerde yaptığı top 10 hata (ve nasıl düzeltilir)',
+  title: 'İngilizce konuşanların Rusça hallerde yaptığı top 10 hata (ve nasıl düzeltilir)',
   metaTitle:
     'Rusça hal hataları top 10 (İngilizce konuşanlar) | Dilbilginizi düzeltin | Russian Cases with Anna',
   metaDescription:
@@ -19,8 +18,7 @@ export const top10RussianCaseMistakesTr: LearnArticle = {
   h1: 'İngilizce konuşanların Rusça hallerde yaptığı top 10 hata (ve nasıl düzeltilir)',
   heroImage: {
     src: '/articles/top-russian-case-errors-and-mistakes-by-english-speakers.webp',
-    alt:
-      'İngilizce konuşanların Rusçada yaptığı başlıca hal hataları',
+    alt: 'İngilizce konuşanların Rusçada yaptığı başlıca hal hataları',
     width: 1200,
     height: 630,
   },
@@ -45,8 +43,7 @@ export const top10RussianCaseMistakesTr: LearnArticle = {
   internalLinks: [
     {
       href: '/learn/lessons/russian-cases-complete-guide',
-      label:
-        'Rusça haller rehberi: örneklerle 6 hal',
+      label: 'Rusça haller rehberi: örneklerle 6 hal',
     },
     {
       href: '/learn/articles/russian-case-endings-cheatsheet',
@@ -72,8 +69,7 @@ export const top10RussianCaseMistakesTr: LearnArticle = {
     },
     {
       h2: 'En yaygın 10 hal hatası',
-      content:
-        'Bu kök nedenleri anlamak yardımcı olur. Şimdi ürettikleri 10 somut hataya bakalım.',
+      content: 'Bu kök nedenleri anlamak yardımcı olur. Şimdi ürettikleri 10 somut hataya bakalım.',
       mistakeCards: [
         {
           title: 'HATA #1: НЕТ sonrası yalın hal',
@@ -159,8 +155,7 @@ export const top10RussianCaseMistakesTr: LearnArticle = {
     },
     {
       h2: 'Top 10 dışı bonus hatalar',
-      content:
-        'Onur listesi — çok yaygın ama top 10’dan biraz daha az evrensel:',
+      content: 'Onur listesi — çok yaygın ama top 10’dan biraz daha az evrensel:',
       bullets: [
         '**Edat sonrası zamirlerde Н- unutmak:** к ему ✗ → к нему ✓ | от ей ✗ → от неё ✓',
         '**из (içeriden) ile от (kişiden) karıştırmak:** из врача ✗ → от врача ✓',
@@ -172,8 +167,7 @@ export const top10RussianCaseMistakesTr: LearnArticle = {
     },
     {
       h2: 'Hızlı referans: 10 hata bir bakışta',
-      content:
-        'Rusça yazınızı veya konuşmanızı gözden geçirirken kontrol listesi olarak kullanın:',
+      content: 'Rusça yazınızı veya konuşmanızı gözden geçirirken kontrol listesi olarak kullanın:',
       table: {
         caption: 'En yaygın 10 hal hatasının özeti',
         headers: ['#', 'Hata kalıbı', 'Yanlış', 'Doğru', 'Temel kural'],
@@ -201,13 +195,7 @@ export const top10RussianCaseMistakesTr: LearnArticle = {
             'Мне нравится музыка',
             'Seven kişi → datif',
           ],
-          [
-            '#5',
-            'Yön = bulunma',
-            'Я в школу сейчас',
-            'Я в школе сейчас',
-            'Durgun yer → bulunma',
-          ],
+          ['#5', 'Yön = bulunma', 'Я в школу сейчас', 'Я в школе сейчас', 'Durgun yer → bulunma'],
           [
             '#6',
             'был/стала sonrası meslekler',
@@ -222,13 +210,7 @@ export const top10RussianCaseMistakesTr: LearnArticle = {
             'много женщин',
             '-а dişiler → gen. çoğ.’da sıfır ek',
           ],
-          [
-            '#8',
-            'Sayılar: hep aynı hal',
-            'пять стол',
-            'пять столов',
-            '5+ → genitif çoğul',
-          ],
+          ['#8', 'Sayılar: hep aynı hal', 'пять стол', 'пять столов', '5+ → genitif çoğul'],
           [
             '#9',
             '-ий/-ие/-ия → -е',
@@ -315,8 +297,7 @@ export const top10RussianCaseMistakesTr: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      'İngilizce konuşanların Rusça hallerde yaptığı top 10 hata (ve nasıl düzeltilir)',
+    headline: 'İngilizce konuşanların Rusça hallerde yaptığı top 10 hata (ve nasıl düzeltilir)',
     description:
       'İngilizce konuşanların en yaygın 10 hal hatası — teşhis ve çözüm. Örnekler, nedenler, düzeltmeler.',
     datePublished: '2026-03-12',
@@ -325,8 +306,7 @@ export const top10RussianCaseMistakesTr: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/top-10-russian-case-mistakes',
+      '@id': 'https://russiandeclensions.com/learn/articles/top-10-russian-case-mistakes',
     },
     keywords:
       'Rusça hal hataları, Rusça dilbilgisi İngilizce, Rusça haller zor, yaygın Rusça hataları',

@@ -51,10 +51,7 @@ const SLUG_TO_PRACTICE_CASE: Record<string, string> = {
 };
 
 /** Get related articles for a lesson (max 3) */
-function getRelatedArticles(
-  currentSlug: string,
-  lang?: string
-): { slug: string; title: string }[] {
+function getRelatedArticles(currentSlug: string, lang?: string): { slug: string; title: string }[] {
   const articleSlugs = getAllLearnArticleSlugs();
   const related: { slug: string; title: string }[] = [];
 
@@ -75,10 +72,7 @@ function getRelatedArticles(
 }
 
 /** Get other lessons (max 3) */
-function getRelatedLessons(
-  currentSlug: string,
-  lang?: string
-): { slug: string; title: string }[] {
+function getRelatedLessons(currentSlug: string, lang?: string): { slug: string; title: string }[] {
   const lessonSlugs = getAllLearnLessonSlugs().filter((s) => s !== currentSlug);
   const related: { slug: string; title: string }[] = [];
 
@@ -446,10 +440,7 @@ export default async function LearnLessonPage({ params }: Props) {
             <h2 id="practice-heading" className="learn-detail-related-title">
               {t.practiceThisCase}
             </h2>
-            <Link
-              href={`/practice/${practiceCase}`}
-              className="learn-detail-related-card"
-            >
+            <Link href={`/practice/${practiceCase}`} className="learn-detail-related-card">
               <span className="learn-detail-related-card-title">{t.practiceNow}</span>
               <span className="learn-detail-related-card-arrow">→</span>
             </Link>

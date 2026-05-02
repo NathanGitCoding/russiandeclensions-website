@@ -4,8 +4,7 @@ import type { LearnArticle } from '../learnArticles';
 export const top10AppsRussianPl: LearnArticle = {
   slug: 'top-10-apps-russian',
   title: 'Top 10 aplikacji do nauki rosyjskiego w 2026',
-  metaTitle:
-    'Top 10 aplikacji do nauki rosyjskiego w 2026 | Russian Cases with Anna',
+  metaTitle: 'Top 10 aplikacji do nauki rosyjskiego w 2026 | Russian Cases with Anna',
   metaDescription:
     'Najlepsze aplikacje do nauki rosyjskiego w 2026: gramatyka, słownictwo, przypadki i rozmowa. Nasze 10 typów pomoże opanować rosyjski we własnym tempie.',
   keywords: [
@@ -27,8 +26,7 @@ export const top10AppsRussianPl: LearnArticle = {
   items: [
     {
       rank: 1,
-      title:
-        'Russian Cases with Anna: wybór specjalistów od gramatyki',
+      title: 'Russian Cases with Anna: wybór specjalistów od gramatyki',
       description:
         'Dla poważnych uczniów, którzy chcą zbudować solidne podstawy gramatyczne, Russian Cases with Anna to narzędzie numer jeden. Podczas gdy inne aplikacje ledwo dotykają tematu, ta **zagłębia się w serce języka rosyjskiego**: system przypadków i deklinacje. Świetnie łączy krótkie lekcje z angażującymi quizami interaktywnymi.',
       image: {
@@ -84,10 +82,7 @@ export const top10AppsRussianPl: LearnArticle = {
         'Wysokiej jakości audio',
         'Praktyczne słownictwo',
       ],
-      cons: [
-        'Wymaga płatnej subskrypcji',
-        'Treść może niektórym wydawać się powtarzalna',
-      ],
+      cons: ['Wymaga płatnej subskrypcji', 'Treść może niektórym wydawać się powtarzalna'],
     },
     {
       rank: 4,
@@ -104,9 +99,7 @@ export const top10AppsRussianPl: LearnArticle = {
         'Słyszysz różne akcenty i tempo — kluczowe dla słuchu w realnym świecie',
         'Funkcja „Learn with Locals” zmienia zasady gry',
       ],
-      cons: [
-        'Słabe do złożonych struktur zdań i głębokiej gramatyki',
-      ],
+      cons: ['Słabe do złożonych struktur zdań i głębokiej gramatyki'],
     },
     {
       rank: 5,
@@ -124,9 +117,7 @@ export const top10AppsRussianPl: LearnArticle = {
         'Tryb offline',
         'Bardzo logiczny przyrost trudności',
       ],
-      cons: [
-        'Wersja darmowa mocno ograniczona; na postępy zwykle potrzebujesz Premium',
-      ],
+      cons: ['Wersja darmowa mocno ograniczona; na postępy zwykle potrzebujesz Premium'],
     },
     {
       rank: 6,
@@ -139,14 +130,8 @@ export const top10AppsRussianPl: LearnArticle = {
         width: 256,
         height: 256,
       },
-      pros: [
-        'Buduje autentyczny akcent i „pamięć mięśniową” mówienia',
-        'Bez czasu przed ekranem',
-      ],
-      cons: [
-        'Nie uczy cyrylicy ani pisania',
-        'Młodszym uczniom może wydawać się „staromodny”',
-      ],
+      pros: ['Buduje autentyczny akcent i „pamięć mięśniową” mówienia', 'Bez czasu przed ekranem'],
+      cons: ['Nie uczy cyrylicy ani pisania', 'Młodszym uczniom może wydawać się „staromodny”'],
     },
     {
       rank: 7,
@@ -164,9 +149,7 @@ export const top10AppsRussianPl: LearnArticle = {
         'Bardzo przystępna cena (korepetytorzy poniżej 10 USD/godz.)',
         'Najszybsza droga, by przełamać „strach przed mówieniem”',
       ],
-      cons: [
-        'Nie jest to aplikacja „w biegu”; trzeba planować i mieć stabilny internet',
-      ],
+      cons: ['Nie jest to aplikacja „w biegu”; trzeba planować i mieć stabilny internet'],
     },
     {
       rank: 8,
@@ -179,13 +162,8 @@ export const top10AppsRussianPl: LearnArticle = {
         width: 256,
         height: 256,
       },
-      pros: [
-        'Od „slangu” po „rosyjski biznesowy”',
-        'Świetne dla poziomu średniego na plateau',
-      ],
-      cons: [
-        'Interfejs może przytłaczać — po prostu za dużo treści',
-      ],
+      pros: ['Od „slangu” po „rosyjski biznesowy”', 'Świetne dla poziomu średniego na plateau'],
+      cons: ['Interfejs może przytłaczać — po prostu za dużo treści'],
     },
     {
       rank: 9,
@@ -202,9 +180,7 @@ export const top10AppsRussianPl: LearnArticle = {
         'Najlepsza aplikacja do szybkiego poszerzania słownictwa od poziomu B1',
         'Retro design 8-bit sprawia frajdę',
       ],
-      cons: [
-        'Nie dla początkujących. Jeśli nie znasz alfabetu, na razie omijaj.',
-      ],
+      cons: ['Nie dla początkujących. Jeśli nie znasz alfabetu, na razie omijaj.'],
     },
     {
       rank: 10,
@@ -217,13 +193,8 @@ export const top10AppsRussianPl: LearnArticle = {
         width: 256,
         height: 256,
       },
-      pros: [
-        'Olśniewający design',
-        'Świetnie do cyrylicy i podstawowych rzeczowników bez stresu',
-      ],
-      cons: [
-        'Zero gramatyki. To dodatek, nie pełny kurs.',
-      ],
+      pros: ['Olśniewający design', 'Świetnie do cyrylicy i podstawowych rzeczowników bez stresu'],
+      cons: ['Zero gramatyki. To dodatek, nie pełny kurs.'],
     },
   ],
   conclusionIntro: 'By opanować rosyjski, polecamy **podejście hybrydowe**:',
@@ -247,10 +218,8 @@ export const top10AppsRussianPl: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/top-10-apps-russian',
+      '@id': 'https://russiandeclensions.com/learn/articles/top-10-apps-russian',
     },
-    keywords:
-      'aplikacja nauka rosyjskiego, najlepsze aplikacje rosyjski, gramatyka rosyjska',
+    keywords: 'aplikacja nauka rosyjskiego, najlepsze aplikacje rosyjski, gramatyka rosyjska',
   },
 };

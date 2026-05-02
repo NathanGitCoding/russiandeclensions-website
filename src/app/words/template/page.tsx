@@ -107,14 +107,20 @@ function HighlightedEnding({
   const type = (wordType || '').toLowerCase().replace(/\s/g, '_');
   const mutedClass = 'text-[hsl(var(--muted-foreground))]';
   const endingClass = 'font-bold text-[hsl(var(--section-blue))]';
-  if (!text || (type !== 'noun' && type !== 'proper_noun')) return <span className={mutedClass}>{text}</span>;
+  if (!text || (type !== 'noun' && type !== 'proper_noun'))
+    return <span className={mutedClass}>{text}</span>;
   if (!baseForm || baseForm.length === 0) return <span className={mutedClass}>{text}</span>;
 
   const stemBase = stemOverride ?? nominativeSg ?? baseForm;
   const prefixLen = text.startsWith(stemBase) ? stemBase.length : 0;
   const hasEnding = prefixLen > 0 && prefixLen < text.length;
   if (hasEnding) {
-    return <><span className={mutedClass}>{text.slice(0, prefixLen)}</span><strong className={endingClass}>{text.slice(prefixLen)}</strong></>;
+    return (
+      <>
+        <span className={mutedClass}>{text.slice(0, prefixLen)}</span>
+        <strong className={endingClass}>{text.slice(prefixLen)}</strong>
+      </>
+    );
   }
   return <span className={mutedClass}>{text}</span>;
 }
@@ -165,7 +171,9 @@ export default async function WordTemplatePage() {
   const translation = getWordDisplayTranslation(w, lang);
   const genderLabel = wt.gender[mockWord.gender] ?? mockWord.gender;
   const typeLabel = wt.type[mockWord.type] ?? mockWord.type;
-  const badgeClass = genderBadgeClasses[mockWord.gender] ?? 'bg-[hsl(var(--muted))] text-[hsl(var(--muted-foreground))]';
+  const badgeClass =
+    genderBadgeClasses[mockWord.gender] ??
+    'bg-[hsl(var(--muted))] text-[hsl(var(--muted-foreground))]';
 
   const caseConfig = buildWordCaseConfig(w, wt);
   const faqItems = buildWordFaqItems(w, wt, translation, genderLabel, false);
@@ -356,9 +364,7 @@ export default async function WordTemplatePage() {
           /{mockWord.slug}/
         </p>
         <div className="mt-4 flex flex-wrap gap-2">
-          <span
-            className={`inline-flex rounded-full px-3 py-1 text-sm font-medium ${badgeClass}`}
-          >
+          <span className={`inline-flex rounded-full px-3 py-1 text-sm font-medium ${badgeClass}`}>
             {genderLabel}
           </span>
           <span className="inline-flex rounded-full bg-[hsl(var(--muted))] px-3 py-1 text-sm font-medium text-[hsl(var(--muted-foreground))]">
@@ -372,7 +378,7 @@ export default async function WordTemplatePage() {
         className="mb-8 rounded-lg border border-[hsl(var(--border))] bg-[hsl(var(--muted)_/_0.3)] px-6 py-5"
         aria-label={wt.tocTitle}
       >
-        <h2 className="mb-4 text-sm font-semibold uppercase tracking-wider text-[hsl(var(--muted-foreground))]">
+        <h2 className="mb-4 text-sm font-semibold tracking-wider text-[hsl(var(--muted-foreground))] uppercase">
           {wt.tocTitle}
         </h2>
         <ol className="space-y-2 text-sm">
@@ -380,10 +386,13 @@ export default async function WordTemplatePage() {
             <a href="#declension-table" className="text-[hsl(var(--primary))] hover:underline">
               {wt.h2FullTable(mockWord.base_form)}
             </a>
-            <ul className="ml-4 mt-1.5 space-y-1 border-l-2 border-[hsl(var(--border))] pl-4">
+            <ul className="mt-1.5 ml-4 space-y-1 border-l-2 border-[hsl(var(--border))] pl-4">
               {caseConfig.map((row) => (
                 <li key={row.key}>
-                  <a href={`#case-${row.key}`} className="text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--foreground))] hover:underline">
+                  <a
+                    href={`#case-${row.key}`}
+                    className="text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--foreground))] hover:underline"
+                  >
                     {wt.tocCaseDeclensionLink(mockWord.base_form, row.label)}
                   </a>
                 </li>
@@ -410,16 +419,19 @@ export default async function WordTemplatePage() {
 
       {/* [2. DECLENSION TABLE] */}
       <section id="declension-table" className="learn-detail-section scroll-mt-6">
-        <h2 className="mb-6 text-lg font-semibold text-[hsl(var(--foreground))] block" style={{ marginBottom: '1.5rem' }}>
+        <h2
+          className="mb-6 block text-lg font-semibold text-[hsl(var(--foreground))]"
+          style={{ marginBottom: '1.5rem' }}
+        >
           {wt.h2FullTable(mockWord.base_form)}
         </h2>
-        <div className="mb-4 space-y-3 text-[hsl(var(--muted-foreground))] leading-relaxed">
+        <div className="mb-4 space-y-3 leading-relaxed text-[hsl(var(--muted-foreground))]">
           <p>
-            <WithBold text={wt.contextSnippetType(mockWord.base_form, genderLabel, declensionOrdinal)} />
+            <WithBold
+              text={wt.contextSnippetType(mockWord.base_form, genderLabel, declensionOrdinal)}
+            />
           </p>
-          <p>
-            {wt.contextSnippetUsage(levelLabel)}
-          </p>
+          <p>{wt.contextSnippetUsage(levelLabel)}</p>
         </div>
         <div className="learn-detail-table-wrap">
           <table className="learn-detail-table">
@@ -448,7 +460,13 @@ export default async function WordTemplatePage() {
                   <td className="font-semibold" lang="ru">
                     <div className="flex items-center gap-2">
                       <span>
-                        <HighlightedEnding text={row.sg} baseForm={mockWord.base_form} nominativeSg={mockWord.base_form} wordType={mockWord.type} stem={getDeclensionStem(mockWord)} />
+                        <HighlightedEnding
+                          text={row.sg}
+                          baseForm={mockWord.base_form}
+                          nominativeSg={mockWord.base_form}
+                          wordType={mockWord.type}
+                          stem={getDeclensionStem(mockWord)}
+                        />
                       </span>
                       <PronunciationButton
                         text={row.sg}
@@ -460,7 +478,13 @@ export default async function WordTemplatePage() {
                   <td className="font-semibold" lang="ru">
                     <div className="flex items-center gap-2">
                       <span>
-                        <HighlightedEnding text={row.pl} baseForm={mockWord.nominative_pl} nominativeSg={mockWord.base_form} wordType={mockWord.type} stem={getDeclensionStem(mockWord)} />
+                        <HighlightedEnding
+                          text={row.pl}
+                          baseForm={mockWord.nominative_pl}
+                          nominativeSg={mockWord.base_form}
+                          wordType={mockWord.type}
+                          stem={getDeclensionStem(mockWord)}
+                        />
                       </span>
                       <PronunciationButton
                         text={row.pl}
@@ -500,12 +524,18 @@ export default async function WordTemplatePage() {
 
       {/* [3. USAGE NOTES] */}
       <section id="usage-notes" className="learn-detail-section scroll-mt-24">
-        <h2 className="text-lg font-semibold text-[hsl(var(--foreground))] block" style={{ marginBottom: '1.5rem' }}>
+        <h2
+          className="block text-lg font-semibold text-[hsl(var(--foreground))]"
+          style={{ marginBottom: '1.5rem' }}
+        >
           {wt.usageNotes}
         </h2>
-        <p className="text-[hsl(var(--muted-foreground))] leading-relaxed">
+        <p className="leading-relaxed text-[hsl(var(--muted-foreground))]">
           {wt.usageNotesContent(translation, mockWord.base_form, genderLabel)}
-          <Link href="/learn/articles/russian-case-endings-cheatsheet" className="text-[hsl(var(--primary))] hover:underline">
+          <Link
+            href="/learn/articles/russian-case-endings-cheatsheet"
+            className="text-[hsl(var(--primary))] hover:underline"
+          >
             {wt.usageNotesCaseEndings}
           </Link>
           {wt.usageNotesAnd}
@@ -527,7 +557,10 @@ export default async function WordTemplatePage() {
           border: '1px solid hsl(var(--primary) / 0.2)',
         }}
       >
-        <h2 className="text-lg font-semibold text-[hsl(var(--foreground))] block" style={{ marginBottom: '1.5rem' }}>
+        <h2
+          className="block text-lg font-semibold text-[hsl(var(--foreground))]"
+          style={{ marginBottom: '1.5rem' }}
+        >
           {wt.h2HowToUse(mockWord.base_form)}
         </h2>
         <div className="flex flex-col gap-3">
@@ -536,15 +569,18 @@ export default async function WordTemplatePage() {
               <span className="learn-card-badge">{item.label}</span>
               {item.hasContent ? (
                 <div className="mt-2 space-y-1">
-                  <p className="text-[hsl(var(--foreground))] whitespace-nowrap overflow-x-auto" lang="ru">
+                  <p
+                    className="overflow-x-auto whitespace-nowrap text-[hsl(var(--foreground))]"
+                    lang="ru"
+                  >
                     {item.ru}
                   </p>
-                  <p className="text-sm text-[hsl(var(--muted-foreground))] whitespace-nowrap overflow-x-auto">
+                  <p className="overflow-x-auto text-sm whitespace-nowrap text-[hsl(var(--muted-foreground))]">
                     {item.gloss}
                   </p>
                 </div>
               ) : (
-                <p className="mt-2 italic text-[hsl(var(--muted-foreground))]">{wt.comingSoon}</p>
+                <p className="mt-2 text-[hsl(var(--muted-foreground))] italic">{wt.comingSoon}</p>
               )}
             </div>
           ))}
@@ -572,7 +608,7 @@ export default async function WordTemplatePage() {
 
       {relatedWords.length > 0 && (
         <section className="mt-8 rounded-lg border border-[hsl(var(--border))] bg-[hsl(var(--muted)_/_0.2)] px-6 py-5">
-          <h3 className="mb-3 text-sm font-semibold uppercase tracking-wider text-[hsl(var(--muted-foreground))]">
+          <h3 className="mb-3 text-sm font-semibold tracking-wider text-[hsl(var(--muted-foreground))] uppercase">
             {wt.peopleAlsoSearchedFor}
           </h3>
           <p className="flex flex-wrap gap-x-2 gap-y-1">
@@ -595,10 +631,18 @@ export default async function WordTemplatePage() {
 
       {/* [6. PREV / NEXT NAVIGATION] */}
       <nav className="flex items-center justify-between border-t border-[hsl(var(--border))] pt-8">
-        <Link href="/russian-declension/dom" className="learn-detail-back" aria-label={wt.nav.previousWord}>
+        <Link
+          href="/russian-declension/dom"
+          className="learn-detail-back"
+          aria-label={wt.nav.previousWord}
+        >
           ← дом
         </Link>
-        <Link href="/russian-declension/voda" className="learn-detail-back" aria-label={wt.nav.nextWord}>
+        <Link
+          href="/russian-declension/voda"
+          className="learn-detail-back"
+          aria-label={wt.nav.nextWord}
+        >
           вода →
         </Link>
       </nav>

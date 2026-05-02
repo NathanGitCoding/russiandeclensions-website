@@ -1,10 +1,18 @@
 ---
-title: "Russian Accusative Case: Rules, Endings & 30 Examples | Russian Cases with Anna"
-description: "Complete guide to the Russian accusative case: endings table, animate vs. inanimate rule, motion verbs, в/на direction vs. location, 9 prepositions, 15 transitive verbs, 30 real examples."
-slug: "russian-accusative-case"
-date: "2025-03-13"
-keywords: ["russian accusative case","russian accusative case endings","animate inanimate russian accusative","russian direct object case","russian motion verbs accusative","в на accusative russian"]
-image: "/articles/free-russian-lesson-accusative-case.webp"
+title: 'Russian Accusative Case: Rules, Endings & 30 Examples | Russian Cases with Anna'
+description: 'Complete guide to the Russian accusative case: endings table, animate vs. inanimate rule, motion verbs, в/на direction vs. location, 9 prepositions, 15 transitive verbs, 30 real examples.'
+slug: 'russian-accusative-case'
+date: '2025-03-13'
+keywords:
+  [
+    'russian accusative case',
+    'russian accusative case endings',
+    'animate inanimate russian accusative',
+    'russian direct object case',
+    'russian motion verbs accusative',
+    'в на accusative russian',
+  ]
+image: '/articles/free-russian-lesson-accusative-case.webp'
 ---
 
 The Russian accusative case is the **second most important case** to master after the genitive — and in many ways, it is the most intuitive. It marks the **direct object** of a sentence: the person or thing that is directly affected by the verb's action.
@@ -50,22 +58,22 @@ The accusative endings depend on the noun's **gender**, its **stem** (hard or so
 
 Here is the full reference table:
 
-*Accusative endings by noun type — singular & plural*
+_Accusative endings by noun type — singular & plural_
 
-| Noun type | Rule | Nominative | Accusative | Example sentence |
-| --- | --- | --- | --- | --- |
-| Masc. inanimate (hard) | = Nom. (no change) | стол | стол | Я вижу стол. — I see the table. |
-| Masc. inanimate (soft) | = Nom. (no change) | музей | музей | Я вижу музей. — I see the museum. |
-| Masc. animate (hard) | = Gen. (-а) | студент | студента | Я вижу студента. — I see the student. |
-| Masc. animate (soft) | = Gen. (-я) | гений | гения | Я вижу гения. — I see the genius. |
-| Fem. hard (-а) | -у | женщина | женщину | Я вижу женщину. — I see the woman. |
-| Fem. soft (-я) | -ю | земля | землю | Я вижу землю. — I see the earth. |
-| Fem. (-ь) inanimate | = Nom. (-ь) | ночь | ночь | Я люблю ночь. — I love the night. |
-| Fem. (-ь) animate | = Nom. (-ь) | мышь | мышь | Я вижу мышь. — I see the mouse. |
-| Neuter (hard -о) | = Nom. (-о) | окно | окно | Я вижу окно. — I see the window. |
-| Neuter (soft -е) | = Nom. (-е) | море | море | Я вижу море. — I see the sea. |
-| Plural inanimate | = Nom. pl. | столы | столы | Я вижу столы. — I see the tables. |
-| Plural animate | = Gen. pl. | студенты | студентов | Я вижу студентов. — I see the students. |
+| Noun type              | Rule               | Nominative | Accusative | Example sentence                        |
+| ---------------------- | ------------------ | ---------- | ---------- | --------------------------------------- |
+| Masc. inanimate (hard) | = Nom. (no change) | стол       | стол       | Я вижу стол. — I see the table.         |
+| Masc. inanimate (soft) | = Nom. (no change) | музей      | музей      | Я вижу музей. — I see the museum.       |
+| Masc. animate (hard)   | = Gen. (-а)        | студент    | студента   | Я вижу студента. — I see the student.   |
+| Masc. animate (soft)   | = Gen. (-я)        | гений      | гения      | Я вижу гения. — I see the genius.       |
+| Fem. hard (-а)         | -у                 | женщина    | женщину    | Я вижу женщину. — I see the woman.      |
+| Fem. soft (-я)         | -ю                 | земля      | землю      | Я вижу землю. — I see the earth.        |
+| Fem. (-ь) inanimate    | = Nom. (-ь)        | ночь       | ночь       | Я люблю ночь. — I love the night.       |
+| Fem. (-ь) animate      | = Nom. (-ь)        | мышь       | мышь       | Я вижу мышь. — I see the mouse.         |
+| Neuter (hard -о)       | = Nom. (-о)        | окно       | окно       | Я вижу окно. — I see the window.        |
+| Neuter (soft -е)       | = Nom. (-е)        | море       | море       | Я вижу море. — I see the sea.           |
+| Plural inanimate       | = Nom. pl.         | столы      | столы      | Я вижу столы. — I see the tables.       |
+| Plural animate         | = Gen. pl.         | студенты   | студентов  | Я вижу студентов. — I see the students. |
 
 - **Feminine -а** — -а → -у: книга → книгу
 - **Feminine -я** — -я → -ю: неделя → неделю
@@ -85,22 +93,22 @@ In Russian grammar, **animate** means people and animals — living beings.
 
 However, there are some **surprising exceptions**:
 
-*12 concrete examples including surprising animate/inanimate cases*
+_12 concrete examples including surprising animate/inanimate cases_
 
-| Noun | Animate / Inanimate | Accusative form | Note |
-| --- | --- | --- | --- |
-| 🤝 друг (friend) | animate | Я вижу друга. | Accusative = genitive form (друга) |
-| 👨‍⚕️ врач (doctor) | animate | Я слушаю врача. | Accusative = genitive form (врача) |
-| 🐱 кот (cat) | animate | Я глажу кота. | Animals are animate (кота) |
-| 👶 ребёнок (child) | animate | Мама видит ребёнка. | Accusative = genitive (ребёнка) |
-| 🏛️ президент (president) | animate | Я уважаю президента. | People are always animate |
-| 🪑 стол (table) | inanimate | Я вижу стол. | Accusative = nominative (no change) |
-| 🎬 фильм (film) | inanimate | Я смотрю фильм. | Accusative = nominative (no change) |
-| 🏙️ город (city) | inanimate | Я люблю этот город. | Places are inanimate |
-| 💀 труп (corpse) | inanimate | Детектив нашёл труп. | Corpses are grammatically inanimate! |
-| 🪆 кукла (doll) | inanimate | Девочка любит куклу. | Toys are inanimate (куклу — fem.) |
-| 🃏 туз (ace in cards) | animate* | Он поставил туза. | Card game pieces = animate by convention! |
-| ♕ ферзь (queen in chess) | animate* | Он взял ферзя. | Chess pieces = animate by convention! |
+| Noun                     | Animate / Inanimate | Accusative form      | Note                                      |
+| ------------------------ | ------------------- | -------------------- | ----------------------------------------- |
+| 🤝 друг (friend)         | animate             | Я вижу друга.        | Accusative = genitive form (друга)        |
+| 👨‍⚕️ врач (doctor)         | animate             | Я слушаю врача.      | Accusative = genitive form (врача)        |
+| 🐱 кот (cat)             | animate             | Я глажу кота.        | Animals are animate (кота)                |
+| 👶 ребёнок (child)       | animate             | Мама видит ребёнка.  | Accusative = genitive (ребёнка)           |
+| 🏛️ президент (president) | animate             | Я уважаю президента. | People are always animate                 |
+| 🪑 стол (table)          | inanimate           | Я вижу стол.         | Accusative = nominative (no change)       |
+| 🎬 фильм (film)          | inanimate           | Я смотрю фильм.      | Accusative = nominative (no change)       |
+| 🏙️ город (city)          | inanimate           | Я люблю этот город.  | Places are inanimate                      |
+| 💀 труп (corpse)         | inanimate           | Детектив нашёл труп. | Corpses are grammatically inanimate!      |
+| 🪆 кукла (doll)          | inanimate           | Девочка любит куклу. | Toys are inanimate (куклу — fem.)         |
+| 🃏 туз (ace in cards)    | animate\*           | Он поставил туза.    | Card game pieces = animate by convention! |
+| ♕ ферзь (queen in chess) | animate\*           | Он взял ферзя.       | Chess pieces = animate by convention!     |
 
 - **Animate (unexpected):** playing cards (туз, король, дама), chess pieces (ферзь, конь)
 - **Inanimate (unexpected):** труп (corpse), кукла (doll), снеговик (snowman)
@@ -113,20 +121,20 @@ Verbs of motion use **в or на + accusative** to indicate where someone or som
 
 All use в/на + accusative for direction:
 
-*10 main motion verbs + unidirectional vs. multidirectional explanation*
+_10 main motion verbs + unidirectional vs. multidirectional explanation_
 
-| Verb | Meaning | Example with В/НА + acc. | Translation |
-| --- | --- | --- | --- |
-| идти / ходить | 🚶 to go (on foot) | Я иду в школу. | I am going to school (right now) |
-| ехать / ездить | 🚗 to go (by vehicle) | Мы едем на работу. | We are going to work |
-| бежать / бегать | 🏃 to run | Он бежит на стадион. | He is running to the stadium |
-| лететь / летать | ✈️ to fly | Самолёт летит в Москву. | The plane is flying to Moscow |
-| плыть / плавать | 🏊 to swim / sail | Корабль плывёт в порт. | The ship is sailing into port |
-| везти / возить | 🚐 to carry (vehicle) | Он везёт детей в школу. | He is driving the children to school |
-| нести / носить | 📦 to carry (on foot) | Она несёт цветы на стол. | She is carrying flowers to the table |
-| ползти / ползать | 🐛 to crawl | Ребёнок ползёт на диван. | The child is crawling onto the sofa |
-| прийти (perf.) | 🎯 to arrive / come | Приходи на вечеринку! | Come to the party! |
-| вернуться (perf.) | ↩️ to return | Он вернулся в город. | He returned to the city |
+| Verb              | Meaning               | Example with В/НА + acc. | Translation                          |
+| ----------------- | --------------------- | ------------------------ | ------------------------------------ |
+| идти / ходить     | 🚶 to go (on foot)    | Я иду в школу.           | I am going to school (right now)     |
+| ехать / ездить    | 🚗 to go (by vehicle) | Мы едем на работу.       | We are going to work                 |
+| бежать / бегать   | 🏃 to run             | Он бежит на стадион.     | He is running to the stadium         |
+| лететь / летать   | ✈️ to fly             | Самолёт летит в Москву.  | The plane is flying to Moscow        |
+| плыть / плавать   | 🏊 to swim / sail     | Корабль плывёт в порт.   | The ship is sailing into port        |
+| везти / возить    | 🚐 to carry (vehicle) | Он везёт детей в школу.  | He is driving the children to school |
+| нести / носить    | 📦 to carry (on foot) | Она несёт цветы на стол. | She is carrying flowers to the table |
+| ползти / ползать  | 🐛 to crawl           | Ребёнок ползёт на диван. | The child is crawling onto the sofa  |
+| прийти (perf.)    | 🎯 to arrive / come   | Приходи на вечеринку!    | Come to the party!                   |
+| вернуться (perf.) | ↩️ to return          | Он вернулся в город.     | He returned to the city              |
 
 - **Unidirectional** (one trip, right now): идти, ехать, лететь — Я иду в школу.
 - **Multidirectional** (habitual, back-and-forth): ходить, ездить, летать — Я хожу в школу каждый день.
@@ -146,20 +154,20 @@ Study these pairs carefully:
 
 Some nouns simply require на by convention — memorize these.
 
-*10 side-by-side pairs: accusative (direction) vs. prepositional (location)*
+_10 side-by-side pairs: accusative (direction) vs. prepositional (location)_
 
-| Construction | Russian example | Meaning | Translation |
-| --- | --- | --- | --- |
-| в + Accusative | Я иду в магазин. | Direction: into / to | I am going to the store. |
-| в + Prepositional | Я нахожусь в магазине. | Location: inside / at | I am at the store. |
-| на + Accusative | Она едет на работу. | Direction: onto / to | She is going to work. |
-| на + Prepositional | Она работает на заводе. | Location: on / at | She works at the factory. |
-| в + Accusative | Дети пошли в школу. | Direction: to school | The children went to school. |
-| в + Prepositional | Дети учатся в школе. | Location: at school | The children study at school. |
-| на + Accusative | Мы летим на Кубу. | Direction: to Cuba | We are flying to Cuba. |
-| на + Prepositional | Мы отдыхаем на Кубе. | Location: in Cuba | We are vacationing in Cuba. |
-| на + Accusative | Поставь книгу на стол. | Direction: onto table | Put the book on the table. |
-| на + Prepositional | Книга лежит на столе. | Location: on table | The book is on the table. |
+| Construction       | Russian example         | Meaning               | Translation                   |
+| ------------------ | ----------------------- | --------------------- | ----------------------------- |
+| в + Accusative     | Я иду в магазин.        | Direction: into / to  | I am going to the store.      |
+| в + Prepositional  | Я нахожусь в магазине.  | Location: inside / at | I am at the store.            |
+| на + Accusative    | Она едет на работу.     | Direction: onto / to  | She is going to work.         |
+| на + Prepositional | Она работает на заводе. | Location: on / at     | She works at the factory.     |
+| в + Accusative     | Дети пошли в школу.     | Direction: to school  | The children went to school.  |
+| в + Prepositional  | Дети учатся в школе.    | Location: at school   | The children study at school. |
+| на + Accusative    | Мы летим на Кубу.       | Direction: to Cuba    | We are flying to Cuba.        |
+| на + Prepositional | Мы отдыхаем на Кубе.    | Location: in Cuba     | We are vacationing in Cuba.   |
+| на + Accusative    | Поставь книгу на стол.  | Direction: onto table | Put the book on the table.    |
+| на + Prepositional | Книга лежит на столе.   | Location: on table    | The book is on the table.     |
 
 ## All Prepositions That Require the Accusative Case
 
@@ -167,19 +175,19 @@ Beyond в and на, several other prepositions require the accusative.
 
 Here is the **complete list** with nominalized example and full sentence:
 
-*9 accusative prepositions with meaning and full example*
+_9 accusative prepositions with meaning and full example_
 
-| Prep. | Meaning | With a noun | Full example + translation |
-| --- | --- | --- | --- |
-| в | into / to (direction) | в Москву, в школу | Я лечу в Москву. — I am flying to Moscow. |
-| на | onto / to (direction) | на работу, на стол | Она идёт на работу. — She is going to work. |
-| за | behind / for (motion) | за угол, за хлебом | Он зашёл за угол. — He went around the corner. |
-| под | under (motion) | под стол | Кот залез под стол. — The cat crawled under the table. |
-| через | across / through / in (time) | через реку, через час | Мы переехали через реку. — We crossed the river. |
-| про | about (informal) | про тебя | Он рассказал про тебя. — He talked about you. |
-| сквозь | through (penetrating) | сквозь стекло | Свет проходил сквозь стекло. — Light passed through the glass. |
-| спустя | after / later (time) | спустя год | Спустя год он вернулся. — A year later he returned. |
-| о/об | against (physical contact) | споткнуться о камень | Он споткнулся о камень. — He stumbled over a stone. |
+| Prep.  | Meaning                      | With a noun           | Full example + translation                                     |
+| ------ | ---------------------------- | --------------------- | -------------------------------------------------------------- |
+| в      | into / to (direction)        | в Москву, в школу     | Я лечу в Москву. — I am flying to Moscow.                      |
+| на     | onto / to (direction)        | на работу, на стол    | Она идёт на работу. — She is going to work.                    |
+| за     | behind / for (motion)        | за угол, за хлебом    | Он зашёл за угол. — He went around the corner.                 |
+| под    | under (motion)               | под стол              | Кот залез под стол. — The cat crawled under the table.         |
+| через  | across / through / in (time) | через реку, через час | Мы переехали через реку. — We crossed the river.               |
+| про    | about (informal)             | про тебя              | Он рассказал про тебя. — He talked about you.                  |
+| сквозь | through (penetrating)        | сквозь стекло         | Свет проходил сквозь стекло. — Light passed through the glass. |
+| спустя | after / later (time)         | спустя год            | Спустя год он вернулся. — A year later he returned.            |
+| о/об   | against (physical contact)   | споткнуться о камень  | Он споткнулся о камень. — He stumbled over a stone.            |
 
 - **Dual-case prepositions:** В, НА, ЗА, ПОД — accusative = motion/direction; instrumental/prepositional = static position.
 - за стол (acc. → sit down AT the table) vs. за столом (instr. → sitting AT the table)
@@ -190,15 +198,15 @@ The accusative appears in several important **Russian time expressions**.
 
 These are fixed patterns to memorize:
 
-*через, за, весь/всю, в + day, спустя*
+_через, за, весь/всю, в + day, спустя_
 
-| Expression type | Examples | Full sentence + translation |
-| --- | --- | --- |
-| Duration (весь / целый) | всю неделю, целый день | Я работал всю неделю. — I worked all week. |
+| Expression type         | Examples                 | Full sentence + translation                          |
+| ----------------------- | ------------------------ | ---------------------------------------------------- |
+| Duration (весь / целый) | всю неделю, целый день   | Я работал всю неделю. — I worked all week.           |
 | Days of week (в + acc.) | в понедельник, в пятницу | Я иду туда в среду. — I am going there on Wednesday. |
-| через (in / after) | через час, через неделю | Приходи через час. — Come in an hour. |
-| за (within / in) | за час, за неделю | Я сделал это за час. — I did it in (within) an hour. |
-| спустя (after / later) | спустя год | Спустя год он вернулся. — A year later he returned. |
+| через (in / after)      | через час, через неделю  | Приходи через час. — Come in an hour.                |
+| за (within / in)        | за час, за неделю        | Я сделал это за час. — I did it in (within) an hour. |
+| спустя (after / later)  | спустя год               | Спустя год он вернулся. — A year later he returned.  |
 
 - **Days of the week:** В понедельник, в среду, в пятницу — all with **в** take the accusative.
 
@@ -208,25 +216,25 @@ Any transitive verb in Russian can take an accusative direct object.
 
 Here are the **15 most common** with the important exception of **ждать** (accusative or genitive):
 
-*15 transitive verbs with examples*
+_15 transitive verbs with examples_
 
-| Verb | Example | Translation | Note |
-| --- | --- | --- | --- |
-| видеть (to see) | Я вижу тебя. | I see you. | Direct visual perception |
-| любить (to love/like) | Я люблю музыку. | I love music. | Object of affection |
-| знать (to know) | Я знаю этот город. | I know this city. | Known thing/person |
-| читать (to read) | Она читает книгу. | She is reading a book. | Object being read |
-| слушать (to listen to) | Мы слушаем музыку. | We are listening to music. | Object of listening |
-| смотреть (to watch) | Он смотрит фильм. | He is watching a film. | Object of watching |
-| купить (to buy) | Я купил машину. | I bought a car. | Object purchased |
-| взять (to take) | Возьми зонтик. | Take an umbrella. | Object taken |
-| понимать (to understand) | Я понимаю тебя. | I understand you. | Person/thing understood |
-| помнить (to remember) | Я помню этот день. | I remember that day. | Thing remembered |
-| встречать (to meet) | Я встречаю друга. | I am meeting a friend. | Person met (animate) |
-| ждать (to wait for) | Я жду автобус / автобуса. | I am waiting for the bus. | Both acc. and gen. possible! |
-| спрашивать (to ask) | Он спрашивает меня. | He is asking me. | Person asked |
-| благодарить (to thank) | Я благодарю вас. | I thank you. | Person thanked |
-| изучать (to study) | Она изучает русский язык. | She is studying Russian. | Subject studied |
+| Verb                     | Example                   | Translation                | Note                         |
+| ------------------------ | ------------------------- | -------------------------- | ---------------------------- |
+| видеть (to see)          | Я вижу тебя.              | I see you.                 | Direct visual perception     |
+| любить (to love/like)    | Я люблю музыку.           | I love music.              | Object of affection          |
+| знать (to know)          | Я знаю этот город.        | I know this city.          | Known thing/person           |
+| читать (to read)         | Она читает книгу.         | She is reading a book.     | Object being read            |
+| слушать (to listen to)   | Мы слушаем музыку.        | We are listening to music. | Object of listening          |
+| смотреть (to watch)      | Он смотрит фильм.         | He is watching a film.     | Object of watching           |
+| купить (to buy)          | Я купил машину.           | I bought a car.            | Object purchased             |
+| взять (to take)          | Возьми зонтик.            | Take an umbrella.          | Object taken                 |
+| понимать (to understand) | Я понимаю тебя.           | I understand you.          | Person/thing understood      |
+| помнить (to remember)    | Я помню этот день.        | I remember that day.       | Thing remembered             |
+| встречать (to meet)      | Я встречаю друга.         | I am meeting a friend.     | Person met (animate)         |
+| ждать (to wait for)      | Я жду автобус / автобуса. | I am waiting for the bus.  | Both acc. and gen. possible! |
+| спрашивать (to ask)      | Он спрашивает меня.       | He is asking me.           | Person asked                 |
+| благодарить (to thank)   | Я благодарю вас.          | I thank you.               | Person thanked               |
+| изучать (to study)       | Она изучает русский язык. | She is studying Russian.   | Subject studied              |
 
 - **ЖДАТЬ exception:** Я жду автобус (acc.) = I am waiting for the specific bus. Я жду автобуса (gen.) = I am waiting for a bus. Both correct. For animate: Я жду друга (acc. preferred).
 
@@ -234,40 +242,40 @@ Here are the **15 most common** with the important exception of **ждать** (
 
 Below are **30 authentic sentences** demonstrating every major use of the accusative. **1–6:** Inanimate objects | **7–12:** Animate objects | **13–18:** Direction | **19–23:** Time | **24–30:** Other prepositions.
 
-*30 example sentences with transliteration*
+_30 example sentences with transliteration_
 
-| # | Russian | Transliteration | Translation & notes |
-| --- | --- | --- | --- |
-| 1 | Он читает интересную книгу. | On chitayet interesnuyu knigu. | He is reading an interesting book. (книга → книгу) |
-| 2 | Я купила новое платье. | Ya kupila novoye plate. | I bought a new dress. (платье neuter → no change) |
-| 3 | Мы смотрим старый фильм. | My smotrim staryy film. | We are watching an old film. (inanimate masc.) |
-| 4 | Она пьёт горячий кофе. | Ona pyot goryachiy kofe. | She is drinking hot coffee. (кофе indeclinable) |
-| 5 | Я слышу странный звук. | Ya slyshu strannyy zvuk. | I hear a strange sound. (inanimate masc.) |
-| 6 | Дети любят мороженое. | Deti lyubyat morozhenoye. | Children love ice cream. (neuter) |
-| 7 | Я вижу своего брата. | Ya vizhu svoyego brata. | I see my brother. (брат animate → брата) |
-| 8 | Она любит своего кота. | Ona lyubit svoyego kota. | She loves her cat. (кот animate) |
-| 9 | Врач осматривает пациента. | Vrach osmotrivayet patsienta. | The doctor is examining the patient. |
-| 10 | Мы приглашаем всех друзей. | My priglashaem vsekh druzey. | We are inviting all our friends. (animate pl.) |
-| 11 | Я встретил старого учителя. | Ya vstretil starogo uchitelya. | I met my old teacher. |
-| 12 | Полиция ищет преступника. | Politsiya ishchet prestupnika. | The police are looking for the criminal. |
-| 13 | Я иду в супермаркет. | Ya idu v supermarket. | I am going to the supermarket. (в + acc.) |
-| 14 | Дети едут на море. | Deti edut na more. | The children are going to the seaside. (на + acc.) |
-| 15 | Он положил ключи на стол. | On polozhil klyuchi na stol. | He put the keys on the table. |
-| 16 | Мы летим в Санкт-Петербург. | My letim v Sankt-Peterburg. | We are flying to Saint Petersburg. |
-| 17 | Она поехала на конференцию. | Ona poyekhala na konferentsiyu. | She went to the conference. |
-| 18 | Кот прыгнул под кровать. | Kot prygnul pod krovat. | The cat jumped under the bed. (под + acc.) |
-| 19 | Я работал всю ночь. | Ya rabotal vsyu noch. | I worked all night. (всю = acc.) |
-| 20 | Встреча в четверг в три часа. | Vstrecha v chetverg v tri chasa. | Meeting on Thursday at three o'clock. |
-| 21 | Он вернётся через месяц. | On vernyotsya cherez mesyats. | He will return in a month. (через + acc.) |
-| 22 | Я сделал домашнее задание за час. | Ya sdelal domashneye zadaniye za chas. | I did my homework in an hour. |
-| 23 | Они не виделись целый год. | Oni ne videlis tselyy god. | They hadn't seen each other for a whole year. |
-| 24 | Он рассказал про свою жизнь. | On rasskazal pro svoyu zhizn. | He talked about his life. (про + acc.) |
-| 25 | Мы переплыли через реку. | My pereplyli cherez reku. | We swam across the river. |
-| 26 | Он споткнулся о порог. | On spotknulsya o porog. | He tripped over the threshold. (о + acc.) |
-| 27 | Спустя два часа он позвонил. | Spustya dva chasa on pozvonil. | Two hours later, he called. |
-| 28 | Перенеси встречу на пятницу. | Perenesi vstrechu na pyatnitsu. | Reschedule the meeting to Friday. |
-| 29 | Я учу русский язык каждый день. | Ya uchu russkiy yazyk kazhdyy den. | I study Russian every day. |
-| 30 | Она смотрит на меня. | Ona smotrit na menya. | She is looking at me. (смотреть на + acc.) |
+| #   | Russian                           | Transliteration                        | Translation & notes                                |
+| --- | --------------------------------- | -------------------------------------- | -------------------------------------------------- |
+| 1   | Он читает интересную книгу.       | On chitayet interesnuyu knigu.         | He is reading an interesting book. (книга → книгу) |
+| 2   | Я купила новое платье.            | Ya kupila novoye plate.                | I bought a new dress. (платье neuter → no change)  |
+| 3   | Мы смотрим старый фильм.          | My smotrim staryy film.                | We are watching an old film. (inanimate masc.)     |
+| 4   | Она пьёт горячий кофе.            | Ona pyot goryachiy kofe.               | She is drinking hot coffee. (кофе indeclinable)    |
+| 5   | Я слышу странный звук.            | Ya slyshu strannyy zvuk.               | I hear a strange sound. (inanimate masc.)          |
+| 6   | Дети любят мороженое.             | Deti lyubyat morozhenoye.              | Children love ice cream. (neuter)                  |
+| 7   | Я вижу своего брата.              | Ya vizhu svoyego brata.                | I see my brother. (брат animate → брата)           |
+| 8   | Она любит своего кота.            | Ona lyubit svoyego kota.               | She loves her cat. (кот animate)                   |
+| 9   | Врач осматривает пациента.        | Vrach osmotrivayet patsienta.          | The doctor is examining the patient.               |
+| 10  | Мы приглашаем всех друзей.        | My priglashaem vsekh druzey.           | We are inviting all our friends. (animate pl.)     |
+| 11  | Я встретил старого учителя.       | Ya vstretil starogo uchitelya.         | I met my old teacher.                              |
+| 12  | Полиция ищет преступника.         | Politsiya ishchet prestupnika.         | The police are looking for the criminal.           |
+| 13  | Я иду в супермаркет.              | Ya idu v supermarket.                  | I am going to the supermarket. (в + acc.)          |
+| 14  | Дети едут на море.                | Deti edut na more.                     | The children are going to the seaside. (на + acc.) |
+| 15  | Он положил ключи на стол.         | On polozhil klyuchi na stol.           | He put the keys on the table.                      |
+| 16  | Мы летим в Санкт-Петербург.       | My letim v Sankt-Peterburg.            | We are flying to Saint Petersburg.                 |
+| 17  | Она поехала на конференцию.       | Ona poyekhala na konferentsiyu.        | She went to the conference.                        |
+| 18  | Кот прыгнул под кровать.          | Kot prygnul pod krovat.                | The cat jumped under the bed. (под + acc.)         |
+| 19  | Я работал всю ночь.               | Ya rabotal vsyu noch.                  | I worked all night. (всю = acc.)                   |
+| 20  | Встреча в четверг в три часа.     | Vstrecha v chetverg v tri chasa.       | Meeting on Thursday at three o'clock.              |
+| 21  | Он вернётся через месяц.          | On vernyotsya cherez mesyats.          | He will return in a month. (через + acc.)          |
+| 22  | Я сделал домашнее задание за час. | Ya sdelal domashneye zadaniye za chas. | I did my homework in an hour.                      |
+| 23  | Они не виделись целый год.        | Oni ne videlis tselyy god.             | They hadn't seen each other for a whole year.      |
+| 24  | Он рассказал про свою жизнь.      | On rasskazal pro svoyu zhizn.          | He talked about his life. (про + acc.)             |
+| 25  | Мы переплыли через реку.          | My pereplyli cherez reku.              | We swam across the river.                          |
+| 26  | Он споткнулся о порог.            | On spotknulsya o porog.                | He tripped over the threshold. (о + acc.)          |
+| 27  | Спустя два часа он позвонил.      | Spustya dva chasa on pozvonil.         | Two hours later, he called.                        |
+| 28  | Перенеси встречу на пятницу.      | Perenesi vstrechu na pyatnitsu.        | Reschedule the meeting to Friday.                  |
+| 29  | Я учу русский язык каждый день.   | Ya uchu russkiy yazyk kazhdyy den.     | I study Russian every day.                         |
+| 30  | Она смотрит на меня.              | Ona smotrit na menya.                  | She is looking at me. (смотреть на + acc.)         |
 
 ## Accusative vs. Genitive: How to Tell Them Apart
 
@@ -275,17 +283,17 @@ Since the accusative animate form equals the genitive for masculine nouns, learn
 
 Here is a direct comparison:
 
-*Accusative vs. genitive comparison*
+_Accusative vs. genitive comparison_
 
-| Context | Russian example | Case explanation |
-| --- | --- | --- |
-| Direct object (transitive) | Я вижу студента. | ACCUSATIVE animate (= genitive form, but accusative here) |
-| Absence (нет) | Нет студента. | GENITIVE — нет always requires genitive |
-| Inanimate direct object | Я вижу стол. | ACCUSATIVE inanimate (= nominative) |
-| Absence inanimate | Нет стола. | GENITIVE (стол → стола) |
-| Direction toward place | Я иду в парк. | ACCUSATIVE (в + direction) |
-| Duration | Я работал всю неделю. | ACCUSATIVE — всю неделю |
-| Quantity / part of | Я выпил стакан воды. | GENITIVE — воды (a glass of water) |
+| Context                    | Russian example       | Case explanation                                          |
+| -------------------------- | --------------------- | --------------------------------------------------------- |
+| Direct object (transitive) | Я вижу студента.      | ACCUSATIVE animate (= genitive form, but accusative here) |
+| Absence (нет)              | Нет студента.         | GENITIVE — нет always requires genitive                   |
+| Inanimate direct object    | Я вижу стол.          | ACCUSATIVE inanimate (= nominative)                       |
+| Absence inanimate          | Нет стола.            | GENITIVE (стол → стола)                                   |
+| Direction toward place     | Я иду в парк.         | ACCUSATIVE (в + direction)                                |
+| Duration                   | Я работал всю неделю. | ACCUSATIVE — всю неделю                                   |
+| Quantity / part of         | Я выпил стакан воды.  | GENITIVE — воды (a glass of water)                        |
 
 - **Key question:** Is the verb transitive (acting on something) → accusative. Or absence, possession, quantity, genitive preposition → genitive.
 
@@ -307,6 +315,7 @@ Our mobile app covers all 6 Russian cases — with special focus on animate/inan
 [Download the app and start drilling today](/)
 
 ---
+
 The Russian accusative case is essential for everyday communication. Every time you talk about doing something to something — reading a book, seeing a person, going somewhere — you're using the accusative.
 
 **Feminine -А/-Я** always change (-а → -у, -я → -ю). **Masculine inanimate** = no change. **Masculine animate** = genitive form. **В/НА + accusative** = direction | **В/НА + prepositional** = location. **Animate plural** → genitive plural (студентов).
@@ -345,6 +354,5 @@ Yes. Adjectives must **agree** with the noun. Feminine accusative: **-ую/-юю
 **Which Russian verbs take the genitive instead of the accusative?**
 
 Most transitive verbs take accusative. Exceptions taking **genitive**: бояться, ждать (inanimate), желать, избегать, достигать, лишать. Хотеть can take both: хочу воды (gen., partitive) vs. хочу воду (acc.).
-
 
 [Practice Russian cases with our app](/)

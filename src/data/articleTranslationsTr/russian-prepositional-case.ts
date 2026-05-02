@@ -3,10 +3,8 @@ import type { LearnArticle } from '../learnArticles';
 /** Türkçe çeviri: `russian-prepositional-case` (EN kaynak: `learnArticles.ts`). Kiril harfleri Fransızca dosyayla aynı. */
 export const russianPrepositionalCaseTr: LearnArticle = {
   slug: 'russian-prepositional-case',
-  title:
-    'Rusça edat hali: hiçbir zaman edatsız kullanılmayan tek hal',
-  metaTitle:
-    'Rusça edat hali: ekler, в ve на, о чём ve 30 örnek | Russian Cases with Anna',
+  title: 'Rusça edat hali: hiçbir zaman edatsız kullanılmayan tek hal',
+  metaTitle: 'Rusça edat hali: ekler, в ve на, о чём ve 30 örnek | Russian Cases with Anna',
   metaDescription:
     'Rusça edat (bulunma) hali rehberi: yer, konu (о чём), ek tablosu, -ИИ kuralı, -У yerel kalıntı formları, в vs на, о/об, о ile 10 fiil, transliterasyonlu 30 gerçek örnek.',
   keywords: [
@@ -19,8 +17,7 @@ export const russianPrepositionalCaseTr: LearnArticle = {
   h1: 'Rusça edat hali: hiçbir zaman edatsız kullanılmayan tek hal',
   heroImage: {
     src: '/articles/free-russian-lesson-prepositional-case.webp',
-    alt:
-      'Yer, konu ve в/на/о üzerine ücretsiz Rusça dersi: edat hali',
+    alt: 'Yer, konu ve в/на/о üzerine ücretsiz Rusça dersi: edat hali',
     width: 1200,
     height: 630,
   },
@@ -39,8 +36,7 @@ export const russianPrepositionalCaseTr: LearnArticle = {
     '**30 gerçek Rusça cümle** ve transkripsiyon',
   ],
   leadMagnetCta: {
-    title:
-      'Rusçada yeri ve edat halini telefonda çalışın',
+    title: 'Rusçada yeri ve edat halini telefonda çalışın',
     description:
       'Mobil uygulamamız 6 Rusça halinin tamamını çalıştırır — yer için в/на ve konu için о dahil — gerçek cümleler ve anında geri bildirimle. Android ve iOS.',
     ctaText: 'Uygulamayı indirin, bugün tekrar etmeye başlayın',
@@ -49,8 +45,7 @@ export const russianPrepositionalCaseTr: LearnArticle = {
   internalLinks: [
     {
       href: '/learn/lessons/russian-cases-complete-guide',
-      label:
-        'Rus hallerine tam rehber: örneklerle 6 hal',
+      label: 'Rus hallerine tam rehber: örneklerle 6 hal',
     },
     {
       href: '/learn/articles/russian-case-endings-cheatsheet',
@@ -58,8 +53,7 @@ export const russianPrepositionalCaseTr: LearnArticle = {
     },
     {
       href: '/learn/lessons/russian-prepositions-cases',
-      label:
-        'Rusçada edatlar ve haller: hangi edat hangi hali gerektirir?',
+      label: 'Rusçada edatlar ve haller: hangi edat hangi hali gerektirir?',
     },
   ],
   tableAccentVariant: 'prepositional',
@@ -87,8 +81,7 @@ export const russianPrepositionalCaseTr: LearnArticle = {
         },
         {
           h3: 'Temel kural',
-          content:
-            'Edat hali bu edatlardan biri **olmadan ASLA** görünmez — bu kesin!',
+          content: 'Edat hali bu edatlardan biri **olmadan ASLA** görünmez — bu kesin!',
         },
       ],
     },
@@ -98,21 +91,14 @@ export const russianPrepositionalCaseTr: LearnArticle = {
         'Edat halinin Rusçada **en düzenli eklerden** bazıları vardır. Çoğu isim tekil edat halinde yalnızca **-Е** alır.\n\nBaşlıca istisnalar **-ий**, **-ие**, **-ия** ile biten isimler (**-ИИ** alırlar) ve **-У** ile düzensiz yerel formları olan küçük bir gruptur.',
       image: {
         src: '/articles/russian-prepositional-case-endings-table-complete.webp',
-        alt:
-          'Rusça edat hali ekleri tam tablosu (çekim)',
+        alt: 'Rusça edat hali ekleri tam tablosu (çekim)',
         width: 1200,
         height: 630,
       },
       table: {
         caption: 'İsim türüne göre edat hali ekleri',
         boldColumnIndices: [1, 3],
-        headers: [
-          'İsim türü',
-          'Ek',
-          'Oluşum',
-          'Sonuç',
-          'Bağlamda örnek',
-        ],
+        headers: ['İsim türü', 'Ek', 'Oluşum', 'Sonuç', 'Bağlamda örnek'],
         rows: [
           [
             'Eril sert (ünsüz)',
@@ -121,20 +107,8 @@ export const russianPrepositionalCaseTr: LearnArticle = {
             'столе',
             'книга на столе — kitap masanın üstünde',
           ],
-          [
-            'Eril yumuşak (-й)',
-            '-е',
-            'музей → музе+е',
-            'музее',
-            'в музее — müzede',
-          ],
-          [
-            'Eril yumuşak (-ь)',
-            '-е',
-            'словарь → словар+е',
-            'словаре',
-            'в словаре — sözlükte',
-          ],
+          ['Eril yumuşak (-й)', '-е', 'музей → музе+е', 'музее', 'в музее — müzede'],
+          ['Eril yumuşak (-ь)', '-е', 'словарь → словар+е', 'словаре', 'в словаре — sözlükte'],
           [
             'Eril/nötr -ий/-ие',
             '-ии',
@@ -142,13 +116,7 @@ export const russianPrepositionalCaseTr: LearnArticle = {
             'гении / здании',
             'в здании — binada',
           ],
-          [
-            'Dişil sert (-а)',
-            '-е',
-            'страна → стран+е',
-            'стране',
-            'в стране — ülkede',
-          ],
+          ['Dişil sert (-а)', '-е', 'страна → стран+е', 'стране', 'в стране — ülkede'],
           [
             'Dişil yumuşak (-я)',
             '-е',
@@ -156,35 +124,11 @@ export const russianPrepositionalCaseTr: LearnArticle = {
             'земле',
             'на земле — yerde / toprak üstünde',
           ],
-          [
-            'Dişil -ия',
-            '-ии',
-            'станция → станци+и',
-            'станции',
-            'на станции — istasyonda',
-          ],
+          ['Dişil -ия', '-ии', 'станция → станци+и', 'станции', 'на станции — istasyonda'],
           ['Dişil (-ь)', '-и', 'ночь → ноч+и', 'ночи', 'в ночи — gecede'],
-          [
-            'Nötr (-о)',
-            '-е',
-            'окно → окн+е',
-            'окне',
-            'в окне — pencerede',
-          ],
-          [
-            'Nötr (-е)',
-            '-е',
-            'море → мор+е',
-            'море',
-            'в море — denizde',
-          ],
-          [
-            'Nötr -ие',
-            '-ии',
-            'здание → здани+и',
-            'здании',
-            'в здании — binada',
-          ],
+          ['Nötr (-о)', '-е', 'окно → окн+е', 'окне', 'в окне — pencerede'],
+          ['Nötr (-е)', '-е', 'море → мор+е', 'море', 'в море — denizde'],
+          ['Nötr -ие', '-ии', 'здание → здани+и', 'здании', 'в здании — binada'],
           [
             'Çoğul (tüm cinsler)',
             '-ах/-ях',
@@ -220,8 +164,7 @@ export const russianPrepositionalCaseTr: LearnArticle = {
         },
         {
           h3: 'Ezber ipucu',
-          content:
-            '-ий/-ие/-ия hepsi И ile biter — edat halinde de bu И korunur.',
+          content: '-ий/-ие/-ия hepsi И ile biter — edat halinde de bu И korunur.',
         },
       ],
     },
@@ -232,73 +175,18 @@ export const russianPrepositionalCaseTr: LearnArticle = {
       table: {
         caption: '-У lokativi vs düzenli -Е edat hali',
         boldColumnIndices: [1, 2],
-        headers: [
-          'İsim',
-          'Lokativ (в/на + yer)',
-          'Düzenli edat (о + konu)',
-          'Örnek cümle',
-        ],
+        headers: ['İsim', 'Lokativ (в/на + yer)', 'Düzenli edat (о + konu)', 'Örnek cümle'],
         rows: [
-          [
-            'лес (orman)',
-            'в лесу',
-            'о лесе',
-            'Мы заблудились в лесу. — Ormanda kaybolduk.',
-          ],
-          [
-            'сад (bahçe)',
-            'в саду',
-            'о саде',
-            'Дети играют в саду. — Çocuklar bahçede oynuyor.',
-          ],
-          [
-            'год (yıl)',
-            'в году',
-            'о годе',
-            'Сколько дней в году? — Yılda kaç gün var?',
-          ],
-          [
-            'пол (zemin)',
-            'на полу',
-            'о поле',
-            'Кот лежит на полу. — Kedi yerde yatıyor.',
-          ],
-          [
-            'берег (kıyı)',
-            'на берегу',
-            'о береге',
-            'Мы отдыхали на берегу. — Kıyıda dinlendik.',
-          ],
-          [
-            'угол (köşe)',
-            'в углу',
-            'об угле',
-            'Стол стоит в углу. — Masa köşede duruyor.',
-          ],
-          [
-            'нос (burun / pruva)',
-            'на носу',
-            'о носе',
-            'Очки на носу. — Gözlük burnun üstünde.',
-          ],
-          [
-            'порт (liman)',
-            'в порту',
-            'о порте',
-            'Корабль в порту. — Gemi limanda.',
-          ],
-          [
-            'мост (köprü)',
-            'на мосту',
-            'о мосте',
-            'Встретимся на мосту. — Köprüde buluşalım.',
-          ],
-          [
-            'снег (kar)',
-            'в снегу',
-            'о снеге',
-            'Дети играли в снегу. — Çocuklar karda oynuyordu.',
-          ],
+          ['лес (orman)', 'в лесу', 'о лесе', 'Мы заблудились в лесу. — Ormanda kaybolduk.'],
+          ['сад (bahçe)', 'в саду', 'о саде', 'Дети играют в саду. — Çocuklar bahçede oynuyor.'],
+          ['год (yıl)', 'в году', 'о годе', 'Сколько дней в году? — Yılda kaç gün var?'],
+          ['пол (zemin)', 'на полу', 'о поле', 'Кот лежит на полу. — Kedi yerde yatıyor.'],
+          ['берег (kıyı)', 'на берегу', 'о береге', 'Мы отдыхали на берегу. — Kıyıda dinlendik.'],
+          ['угол (köşe)', 'в углу', 'об угле', 'Стол стоит в углу. — Masa köşede duruyor.'],
+          ['нос (burun / pruva)', 'на носу', 'о носе', 'Очки на носу. — Gözlük burnun üstünde.'],
+          ['порт (liman)', 'в порту', 'о порте', 'Корабль в порту. — Gemi limanda.'],
+          ['мост (köprü)', 'на мосту', 'о мосте', 'Встретимся на мосту. — Köprüde buluşalım.'],
+          ['снег (kar)', 'в снегу', 'о снеге', 'Дети играли в снегу. — Çocuklar karda oynuyordu.'],
         ],
       },
       bullets: [
@@ -314,12 +202,7 @@ export const russianPrepositionalCaseTr: LearnArticle = {
       table: {
         caption: 'Yer ve yön için В ve НА',
         boldColumnIndices: [1, 2],
-        headers: [
-          'Yer türü',
-          'В/НА + edat hali (yer)',
-          'В/НА + belirtme (yön)',
-          'Örnek',
-        ],
+        headers: ['Yer türü', 'В/НА + edat hali (yer)', 'В/НА + belirtme (yön)', 'Örnek'],
         rows: [
           [
             'Ülke',
@@ -443,11 +326,7 @@ export const russianPrepositionalCaseTr: LearnArticle = {
             'Мама беспокоится о нас.',
             'Anne bizim için endişeleniyor. (мы → о нас)',
           ],
-          [
-            'спрашивать о (-i sormak)',
-            'Она спросила о тебе.',
-            'Senden sordu. (ты → о тебе)',
-          ],
+          ['спрашивать о (-i sormak)', 'Она спросила о тебе.', 'Senden sordu. (ты → о тебе)'],
           [
             'знать о (-i bilmek)',
             'Ты знаешь об этом?',
@@ -735,8 +614,7 @@ export const russianPrepositionalCaseTr: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      'Rusça edat hali: hiçbir zaman edatsız kullanılmayan tek hal',
+    headline: 'Rusça edat hali: hiçbir zaman edatsız kullanılmayan tek hal',
     description:
       'Rusça edat hali rehberi: yer, konu (о чём), ekler, -ИИ kuralı, lokativ -У, в ve на, о/об, о ile 10 fiil, 30 örnek.',
     datePublished: '2026-03-12',
@@ -745,8 +623,7 @@ export const russianPrepositionalCaseTr: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/russian-prepositional-case',
+      '@id': 'https://russiandeclensions.com/learn/articles/russian-prepositional-case',
     },
     keywords:
       'Rusça edat hali, Rusça bulunma hali ekleri, в на о edat hali Rusça, Rusça yer grameri, о чём Rusça',

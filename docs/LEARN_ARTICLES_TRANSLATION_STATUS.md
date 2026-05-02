@@ -6,47 +6,47 @@ Document de travail : **mettre à jour ce tableau** après chaque langue / artic
 
 On ne traduit le **contenu long** des articles que vers **quatre langues** :
 
-| Code | Langue |
-|------|--------|
+| Code    | Langue   |
+| ------- | -------- |
 | `fr_fr` | Français |
 | `de_de` | Allemand |
-| `tr_tr` | Turc |
+| `tr_tr` | Turc     |
 | `pl_pl` | Polonais |
 
 Les autres codes `LandingLanguage` (`es_es`, `it_it`, `pt_pt`, `nl_nl`, `ru_ru`, etc.) : **pas de traduction article prévue** — repli automatique sur l’anglais (`learnArticles.ts`) pour le corps de page.
 
-*(« TK » dans la spec interne = Turc = `tr_tr`.)*
+_(« TK » dans la spec interne = Turc = `tr_tr`.)_
 
 ## Légende
 
-| Symbole | Signification |
-|---------|----------------|
-| ✅ | Traduction **complète** et validée (titres, meta, intro, sections, tableaux, alt images, CTA, FAQ, JSON-LD si vous le traduisez) — **UTF-8 vérifié** (cyrillique, accents). |
-| 🔲 | **À faire** dans le périmètre FR / DE / TR / PL — repli EN jusqu’à livraison. |
-| EN | Colonne **EN** : source dans `learnArticles.ts`, toujours ✅. |
+| Symbole | Signification                                                                                                                                                               |
+| ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ✅      | Traduction **complète** et validée (titres, meta, intro, sections, tableaux, alt images, CTA, FAQ, JSON-LD si vous le traduisez) — **UTF-8 vérifié** (cyrillique, accents). |
+| 🔲      | **À faire** dans le périmètre FR / DE / TR / PL — repli EN jusqu’à livraison.                                                                                               |
+| EN      | Colonne **EN** : source dans `learnArticles.ts`, toujours ✅.                                                                                                               |
 
 ## Tableau de suivi
 
 **Dernière mise à jour :** 2026-03-28 — **EN** = source ✅. **FR / DE / TR / PL** : tableau ci-dessous à jour (articles 12–15 branchés dans `learnArticleTranslations.ts`).
 
-| # | Slug | Sujet (court) | EN | FR | DE | TR | PL | Notes |
-|---|------|---------------|----|----|----|----|-----|-------|
-| 1 | `russian-case-endings-cheatsheet` | Aide-mémoire terminaisons des cas | ✅ | ✅ | ✅ | ✅ | ✅ | |
-| 2 | `russian-genitive-case` | Cas génitif | ✅ | ✅ | ✅ | ✅ | ✅ | |
-| 3 | `russian-accusative-case` | Cas accusatif | ✅ | ✅ | ✅ | ✅ | ✅ | |
-| 4 | `russian-dative-case` | Cas datif | ✅ | ✅ | ✅ | ✅ | ✅ | |
-| 5 | `russian-instrumental-case` | Cas instrumental | ✅ | ✅ | ✅ | ✅ | ✅ | |
-| 6 | `russian-prepositional-case` | Cas prépositionnel | ✅ | ✅ | ✅ | ✅ | ✅ | |
-| 7 | `how-to-practice-russian-cases` | Comment pratiquer les cas | ✅ | ✅ | ✅ | ✅ | ✅ | |
-| 8 | `top-10-russian-case-mistakes` | Top erreurs sur les cas | ✅ | ✅ | ✅ | ✅ | ✅ | |
-| 9 | `russian-prepositions-and-cases` | Prépositions et cas | ✅ | ✅ | ✅ | ✅ | ✅ | |
-| 10 | `russian-prepositions-cases-cheat-sheet` | Anti-sèche prépositions / cas | ✅ | ✅ | ✅ | ✅ | ✅ | |
-| 11 | `top-10-apps-russian` | Top apps pour apprendre le russe | ✅ | ✅ | ✅ | ✅ | ✅ | |
-| 12 | `best-apps-learn-russian-grammar` | Meilleures apps grammaire russe | ✅ | ✅ | ✅ | ✅ | ✅ | |
-| 13 | `best-free-resources-learn-russian` | Ressources gratuites | ✅ | ✅ | ✅ | ✅ | ✅ | |
-| 14 | `how-long-learn-russian` | Durée pour apprendre le russe | ✅ | ✅ | ✅ | ✅ | ✅ | |
-| 15 | `russian-cases-explained-beginners-guide` | Cas expliqués (débutants) | ✅ | ✅ | ✅ | ✅ | ✅ | |
-| 16 | `torfl-trki-russian-language-exam-guide` | Examen TORFL / ТРКИ | ✅ | ✅ | ✅ | ✅ | ✅ | |
+| #   | Slug                                      | Sujet (court)                     | EN  | FR  | DE  | TR  | PL  | Notes |
+| --- | ----------------------------------------- | --------------------------------- | --- | --- | --- | --- | --- | ----- |
+| 1   | `russian-case-endings-cheatsheet`         | Aide-mémoire terminaisons des cas | ✅  | ✅  | ✅  | ✅  | ✅  |       |
+| 2   | `russian-genitive-case`                   | Cas génitif                       | ✅  | ✅  | ✅  | ✅  | ✅  |       |
+| 3   | `russian-accusative-case`                 | Cas accusatif                     | ✅  | ✅  | ✅  | ✅  | ✅  |       |
+| 4   | `russian-dative-case`                     | Cas datif                         | ✅  | ✅  | ✅  | ✅  | ✅  |       |
+| 5   | `russian-instrumental-case`               | Cas instrumental                  | ✅  | ✅  | ✅  | ✅  | ✅  |       |
+| 6   | `russian-prepositional-case`              | Cas prépositionnel                | ✅  | ✅  | ✅  | ✅  | ✅  |       |
+| 7   | `how-to-practice-russian-cases`           | Comment pratiquer les cas         | ✅  | ✅  | ✅  | ✅  | ✅  |       |
+| 8   | `top-10-russian-case-mistakes`            | Top erreurs sur les cas           | ✅  | ✅  | ✅  | ✅  | ✅  |       |
+| 9   | `russian-prepositions-and-cases`          | Prépositions et cas               | ✅  | ✅  | ✅  | ✅  | ✅  |       |
+| 10  | `russian-prepositions-cases-cheat-sheet`  | Anti-sèche prépositions / cas     | ✅  | ✅  | ✅  | ✅  | ✅  |       |
+| 11  | `top-10-apps-russian`                     | Top apps pour apprendre le russe  | ✅  | ✅  | ✅  | ✅  | ✅  |       |
+| 12  | `best-apps-learn-russian-grammar`         | Meilleures apps grammaire russe   | ✅  | ✅  | ✅  | ✅  | ✅  |       |
+| 13  | `best-free-resources-learn-russian`       | Ressources gratuites              | ✅  | ✅  | ✅  | ✅  | ✅  |       |
+| 14  | `how-long-learn-russian`                  | Durée pour apprendre le russe     | ✅  | ✅  | ✅  | ✅  | ✅  |       |
+| 15  | `russian-cases-explained-beginners-guide` | Cas expliqués (débutants)         | ✅  | ✅  | ✅  | ✅  | ✅  |       |
+| 16  | `torfl-trki-russian-language-exam-guide`  | Examen TORFL / ТРКИ               | ✅  | ✅  | ✅  | ✅  | ✅  |       |
 
 ## Leçons Learn (`/learn/lessons/[slug]`)
 

@@ -4,8 +4,7 @@ import type { LearnArticle } from '../learnArticles';
 export const russianDativeCaseTr: LearnArticle = {
   slug: 'russian-dative-case',
   title: 'Rus yönelme hali: Rusçada «-e/-a» ve «için» nasıl söylenir',
-  metaTitle:
-    'Rus yönelme hali: kurallar, ekler, нравиться ve 30 örnek | Russian Cases with Anna',
+  metaTitle: 'Rus yönelme hali: kurallar, ekler, нравиться ve 30 örnek | Russian Cases with Anna',
   metaDescription:
     'Rus yönelme hali için eksiksiz rehber: isim ve sıfat ekleri, нравиться yapısı, yaş ifadeleri, öznesiz yapılar, 8 edat, 15 fiil, somut 30 örnek.',
   keywords: [
@@ -71,8 +70,7 @@ export const russianDativeCaseTr: LearnArticle = {
   sections: [
     {
       h2: 'Kısa cevap',
-      content:
-        'Rus yönelme hali **Кому? (Kime?)** ve **Чему? (Neye?)** sorularına yanıt verir.',
+      content: 'Rus yönelme hali **Кому? (Kime?)** ve **Чему? (Neye?)** sorularına yanıt verir.',
       bullets: [
         '**Dolaylı nesneler** — bir eylemin alıcısı',
         '**Yaş ifadeleri** — Мне 25 лет (25 yaşındayım)',
@@ -106,13 +104,7 @@ export const russianDativeCaseTr: LearnArticle = {
       table: {
         caption: 'İsimlerin yönelme hali ekleri — tüm cinsiyetler, tekil ve çoğul',
         boldColumnIndices: [1, 3],
-        headers: [
-          'İsim tipi',
-          'Ek',
-          'Oluşum',
-          'Sonuç',
-          'Bağlamda örnek',
-        ],
+        headers: ['İsim tipi', 'Ek', 'Oluşum', 'Sonuç', 'Bağlamda örnek'],
         rows: [
           [
             'Masc. sert (ünsüz)',
@@ -142,13 +134,7 @@ export const russianDativeCaseTr: LearnArticle = {
             'сестре',
             'Я звоню сестре. — Kız kardeşimi arıyorum.',
           ],
-          [
-            'Fém. yumuşak (-я)',
-            '-е',
-            'земля → земл+е',
-            'земле',
-            'Привет земле! — Merhaba Dünya!',
-          ],
+          ['Fém. yumuşak (-я)', '-е', 'земля → земл+е', 'земле', 'Привет земле! — Merhaba Dünya!'],
           [
             'Fém. -ия',
             '-ии',
@@ -156,20 +142,8 @@ export const russianDativeCaseTr: LearnArticle = {
             'станции',
             'Иди к станции метро. — Metro istasyonuna git.',
           ],
-          [
-            'Fém. (-ь)',
-            '-и',
-            'ночь → ноч+и',
-            'ночи',
-            'К ночи похолодало. — Geceye doğru soğudu.',
-          ],
-          [
-            'Nötr (-о) sert',
-            '-у',
-            'окно → окн+у',
-            'окну',
-            'Подойди к окну. — Pencereye yaklaş.',
-          ],
+          ['Fém. (-ь)', '-и', 'ночь → ноч+и', 'ночи', 'К ночи похолодало. — Geceye doğru soğudu.'],
+          ['Nötr (-о) sert', '-у', 'окно → окн+у', 'окну', 'Подойди к окну. — Pencereye yaklaş.'],
           [
             'Nötr (-е) yumuşak',
             '-ю',
@@ -177,13 +151,7 @@ export const russianDativeCaseTr: LearnArticle = {
             'морю',
             'Мы едем к морю. — Denize gidiyoruz.',
           ],
-          [
-            'Nötr (-ие)',
-            '-ию',
-            'здание → здани+ю',
-            'зданию',
-            'Иди к зданию. — Binaya git.',
-          ],
+          ['Nötr (-ие)', '-ию', 'здание → здани+ю', 'зданию', 'Иди к зданию. — Binaya git.'],
           [
             'Çoğul masc./nötr',
             '-ам/-ям',
@@ -213,8 +181,7 @@ export const russianDativeCaseTr: LearnArticle = {
     },
     {
       h2: 'Rus yönelme hali ekleri — Sıfatlar',
-      content:
-        'Sıfatlar, isimle **uyumlu** olmalıdır: cinsiyet, sayı ve hal.\n\nYönelmede:',
+      content: 'Sıfatlar, isimle **uyumlu** olmalıdır: cinsiyet, sayı ve hal.\n\nYönelmede:',
       bullets: [
         '**Masc./nötr sert** → -ому (новый → новому брату)',
         '**Masc./nötr yumuşak** → -ему (синий → синему морю)',
@@ -242,20 +209,8 @@ export const russianDativeCaseTr: LearnArticle = {
             'mavi deniz (yön.)',
             'Мы едем к синему морю.',
           ],
-          [
-            'Fém. sert',
-            '-ой',
-            'красивая → красивой',
-            'güzel (yön.)',
-            'Я звоню красивой подруге.',
-          ],
-          [
-            'Fém. yumuşak',
-            '-ей',
-            'летняя → летней',
-            'yaz (yön.)',
-            'В летней школе нравится.',
-          ],
+          ['Fém. sert', '-ой', 'красивая → красивой', 'güzel (yön.)', 'Я звоню красивой подруге.'],
+          ['Fém. yumuşak', '-ей', 'летняя → летней', 'yaz (yön.)', 'В летней школе нравится.'],
           [
             'Çoğul tüm cinsiyetler',
             '-ым/-им',
@@ -319,11 +274,23 @@ export const russianDativeCaseTr: LearnArticle = {
         rows: [
           ['Hoşuma gidiyor', 'Мне нравится музыка.', 'нравится müzik ile uyumlu — tekil'],
           ['Hoşuna gidiyor', 'Тебе нравятся фильмы.', 'нравятся фильм ile uyumlu — çoğul'],
-          ['Onun hoşuna gidiyor (o)', 'Ему нравится эта книга.', 'Bu kitabı seviyor / hoşuna gidiyor.'],
-          ['Onun hoşuna gidiyor (dişil)', 'Ей нравится твой голос.', 'Sesini beğeniyor / hoşuna gidiyor.'],
+          [
+            'Onun hoşuna gidiyor (o)',
+            'Ему нравится эта книга.',
+            'Bu kitabı seviyor / hoşuna gidiyor.',
+          ],
+          [
+            'Onun hoşuna gidiyor (dişil)',
+            'Ей нравится твой голос.',
+            'Sesini beğeniyor / hoşuna gidiyor.',
+          ],
           ['Hoşumuza gidiyor', 'Нам нравится здесь.', 'здесь = burada, özne isim değil'],
           ['Hoşunuza gidiyor (çoğ. siz)', 'Вам нравятся эти места.', 'Bu yerleri beğeniyorsunuz.'],
-          ['Onların hoşuna gidiyor', 'Им нравится русский язык.', 'Rusçayı seviyorlar / hoşlarına gidiyor.'],
+          [
+            'Onların hoşuna gidiyor',
+            'Им нравится русский язык.',
+            'Rusçayı seviyorlar / hoşlarına gidiyor.',
+          ],
           ['Beğendim', 'Мне понравился фильм.', 'geçmiş tamamlayıcı, masc. uyum'],
           ['Beğenecek', 'Мне понравится этот город.', 'gelecek tamamlayıcı'],
           ['Hoşuma gitmiyor', 'Мне не нравится шум.', 'olumsuzluk: не + нравится'],
@@ -382,14 +349,14 @@ export const russianDativeCaseTr: LearnArticle = {
         boldColumnIndices: [0, 1],
         headers: ['İfade', 'Rusça örnek', 'Çeviri', 'Dilbilgisi notu'],
         rows: [
-          ['нужно / надо', 'Мне нужно работать.', 'Çalışmam lazım / çalışmalıyım.', 'Yönelme = ilgili kişi'],
-          ['можно', 'Тебе можно идти.', 'Gidebilirsin.', 'Yönelme = izin verilen kişi'],
           [
-            'нельзя',
-            'Ему нельзя есть сахар.',
-            'Şeker yememeli.',
-            'Yönelme = yasaklanan kişi',
+            'нужно / надо',
+            'Мне нужно работать.',
+            'Çalışmam lazım / çalışmalıyım.',
+            'Yönelme = ilgili kişi',
           ],
+          ['можно', 'Тебе можно идти.', 'Gidebilirsin.', 'Yönelme = izin verilen kişi'],
+          ['нельзя', 'Ему нельзя есть сахар.', 'Şeker yememeli.', 'Yönelme = yasaklanan kişi'],
           [
             'нужен/нужна/нужно',
             'Мне нужна помощь.',
@@ -434,36 +401,16 @@ export const russianDativeCaseTr: LearnArticle = {
             'благодаря тебе',
             'Благодаря тебе всё получилось! — Sayende her şey yolunda gitti!',
           ],
-          [
-            'вопреки',
-            'rağmen',
-            'вопреки правилам',
-            'Вопреки ожиданиям, всё получилось.',
-          ],
-          [
-            'согласно',
-            'göre (resmi)',
-            'согласно закону',
-            'Согласно закону, это запрещено.',
-          ],
+          ['вопреки', 'rağmen', 'вопреки правилам', 'Вопреки ожиданиям, всё получилось.'],
+          ['согласно', 'göre (resmi)', 'согласно закону', 'Согласно закону, это запрещено.'],
           [
             'навстречу',
             'karşılamak üzere / doğru',
             'навстречу ветру',
             'Она шла навстречу ветру. — Rüzgârın karşısına doğru yürüyordu.',
           ],
-          [
-            'наперекор',
-            'aksine',
-            'наперекор судьбе',
-            'Наперекор судьбе он добился успеха.',
-          ],
-          [
-            'подобно',
-            'benzer / gibi (edebi)',
-            'подобно птице',
-            'Подобно птице, он был свободен.',
-          ],
+          ['наперекор', 'aksine', 'наперекор судьбе', 'Наперекор судьбе он добился успеха.'],
+          ['подобно', 'benzer / gibi (edebi)', 'подобно птице', 'Подобно птице, он был свободен.'],
         ],
       },
       subsections: [
@@ -525,24 +472,9 @@ export const russianDativeCaseTr: LearnArticle = {
             'Haritayı bana göster.',
             'Birine göstermek',
           ],
-          [
-            'объяснять / объяснить',
-            'Объясни мне это.',
-            'Bunu bana açıkla.',
-            'Birine açıklamak',
-          ],
-          [
-            'отвечать / ответить',
-            'Ответь мне на вопрос.',
-            'Sorumu yanıtla.',
-            'Birine yanıtlamak',
-          ],
-          [
-            'разрешать / разрешить',
-            'Разреши мне уйти.',
-            'Gitmeme izin ver.',
-            'İzin vermek',
-          ],
+          ['объяснять / объяснить', 'Объясни мне это.', 'Bunu bana açıkla.', 'Birine açıklamak'],
+          ['отвечать / ответить', 'Ответь мне на вопрос.', 'Sorumu yanıtla.', 'Birine yanıtlamak'],
+          ['разрешать / разрешить', 'Разреши мне уйти.', 'Gitmeme izin ver.', 'İzin vermek'],
           ['мешать / помешать', 'Не мешай мне!', 'Bana engel olma!', 'Birini rahatsız etmek'],
           ['советовать', 'Советую тебе поехать.', 'Gitmeni tavsiye ederim.', 'Tavsiye vermek'],
           ['верить / поверить', 'Я верю тебе.', 'Sana inanıyorum.', 'Birine güvenmek'],
@@ -553,8 +485,7 @@ export const russianDativeCaseTr: LearnArticle = {
     },
     {
       h2: 'Rus yönelmesinden 30 gerçek örnek',
-      content:
-        'İşte yönelmenin başlıca kullanımlarını gösteren **30 özgün cümle**.',
+      content: 'İşte yönelmenin başlıca kullanımlarını gösteren **30 özgün cümle**.',
       bullets: [
         '**1–6:** dolaylı nesneler (vermek, söylemek, yardım etmek vb.)',
         '**7–10:** нравиться yapısı',
@@ -568,12 +499,7 @@ export const russianDativeCaseTr: LearnArticle = {
         boldColumnIndices: [1],
         headers: ['#', 'Rusça', 'Transliterasyon', 'Çeviri ve notlar'],
         rows: [
-          [
-            '1',
-            'Я дал маме цветы.',
-            'Ya dal mame tsvety.',
-            'Anneme çiçek verdim. (мама → маме)',
-          ],
+          ['1', 'Я дал маме цветы.', 'Ya dal mame tsvety.', 'Anneme çiçek verdim. (мама → маме)'],
           [
             '2',
             'Скажи мне правду.',
@@ -624,12 +550,7 @@ export const russianDativeCaseTr: LearnArticle = {
             'Moskova hoşumuza gitti. (понравилась Москва ile uyumlu)',
           ],
           ['11', 'Мне двадцать три года.', 'Mne dvadtsat tri goda.', '23 yaşındayım.'],
-          [
-            '12',
-            'Брату исполнилось пять лет.',
-            'Bratu ispolnilos pyat let.',
-            'Kardeş beş oldu.',
-          ],
+          ['12', 'Брату исполнилось пять лет.', 'Bratu ispolnilos pyat let.', 'Kardeş beş oldu.'],
           ['13', 'Сколько лет вашей маме?', 'Skolko let vashey mame?', 'Anneniz kaç yaşında?'],
           [
             '14',
@@ -681,12 +602,7 @@ export const russianDativeCaseTr: LearnArticle = {
             'Mne holodno, zakroy okno.',
             'Üşüyorum, pencereyi kapat.',
           ],
-          [
-            '24',
-            'Ей скучно одной дома.',
-            'Ey skuchno odnoy doma.',
-            'Evde yalnızken sıkılıyor.',
-          ],
+          ['24', 'Ей скучно одной дома.', 'Ey skuchno odnoy doma.', 'Evde yalnızken sıkılıyor.'],
           [
             '25',
             'Нам было очень весело на вечеринке.',
@@ -740,11 +656,7 @@ export const russianDativeCaseTr: LearnArticle = {
             'Я дал книгу другу.',
             'YÖNELME: другу (bir arkadaşa). Kitap arkadaşa VERİLİR.',
           ],
-          [
-            'Doğrudan nesne → belirtme',
-            'Я купил книгу.',
-            'BELİRTME: книгу (kitabın kendisi).',
-          ],
+          ['Doğrudan nesne → belirtme', 'Я купил книгу.', 'BELİRTME: книгу (kitabın kendisi).'],
           ['Sahiplik → genitif', 'Это книга друга.', 'GENİTİF: друга (arkadaşın kitabı).'],
           [
             'Beğenmek (нравиться) → yönelme',
@@ -757,11 +669,7 @@ export const russianDativeCaseTr: LearnArticle = {
             'YÖNELME: мне (ihtiyacı olan benim).',
           ],
           ['Yön к → yönelme', 'Иди к другу.', 'к sonrası yönelme: другу (arkadaşa doğru).'],
-          [
-            'Yer у → genitif',
-            'Я у друга.',
-            'у sonrası genitif: друга (arkadaşın yanında).',
-          ],
+          ['Yer у → genitif', 'Я у друга.', 'у sonrası genitif: друга (arkadaşın yanında).'],
           ['Yaş ifadesi → yönelme', 'Другу двадцать лет.', 'YÖNELME: другу (arkadaş 20 yaşında).'],
         ],
       },
@@ -781,8 +689,7 @@ export const russianDativeCaseTr: LearnArticle = {
       ],
     },
   ],
-  conclusion:
-    'Rus yönelme hali, «armağan hali» etiketinin ötesinde çok daha zengindir.',
+  conclusion: 'Rus yönelme hali, «armağan hali» etiketinin ötesinde çok daha zengindir.',
   conclusionBullets: [
     '**Kullanımlar:** dolaylı nesne, нравиться deneyimi, yaş, öznesiz ifadeler (мне нужно, мне холодно), к ve по sonrası',
     '**İsim ekleri:** masc./nötr sert→-У, yumuşak→-Ю | dişil -а/-я→-Е, -ия→-ИИ, -ь→-И | çoğul sert→-АМ, yumuşak→-ЯМ',
@@ -840,7 +747,6 @@ export const russianDativeCaseTr: LearnArticle = {
       '@type': 'WebPage',
       '@id': 'https://russiandeclensions.com/learn/articles/russian-dative-case',
     },
-    keywords:
-      'rus yönelme hali, rus yönelme ekleri, мне нравится dilbilgisi, rus dolaylı nesne',
+    keywords: 'rus yönelme hali, rus yönelme ekleri, мне нравится dilbilgisi, rus dolaylı nesne',
   },
 };

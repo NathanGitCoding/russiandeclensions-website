@@ -18,7 +18,9 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default function RussianDeclensionLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+export default function RussianDeclensionLayout({
+  children,
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <div className="landing-cases min-h-screen bg-white">
       <LandingNavbar />

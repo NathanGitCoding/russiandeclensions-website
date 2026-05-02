@@ -3,8 +3,7 @@ import type { LearnArticle } from '../learnArticles';
 /** Deutsche Übersetzung des Artikels `best-apps-learn-russian-grammar` (EN-Quelle: `learnArticles.ts`). Kyrillisch zeichengenau übernommen. */
 export const bestAppsLearnRussianGrammarDe: LearnArticle = {
   slug: 'best-apps-learn-russian-grammar',
-  title:
-    'Die besten Apps zum Russisch-Grammatiklernen 2026 (ehrlicher Test)',
+  title: 'Die besten Apps zum Russisch-Grammatiklernen 2026 (ehrlicher Test)',
   metaTitle:
     'Die besten Apps zum Russisch-Grammatiklernen 2026 — ehrlicher Test | Russian Cases with Anna',
   metaDescription:
@@ -30,8 +29,7 @@ export const bestAppsLearnRussianGrammarDe: LearnArticle = {
   items: [
     {
       rank: 1,
-      title:
-        'Russian Cases with Anna — die beste App für russische Kasus & Deklination',
+      title: 'Russian Cases with Anna — die beste App für russische Kasus & Deklination',
       description:
         'Wenn Ihr Hauptziel ist, **russische Kasus und Deklination zu meistern**, ist das diese App. Wo andere Fälle nur am Rande erwähnen, ist Russian Cases with Anna komplett darauf ausgelegt. Strukturierte Lektionen für jeden der 6 Fälle, dann zügige Quiz zu über 400 echten Nomen. Die App trackt Ihre Trefferquote, hebt Schwächen hervor und passt die Schwierigkeit an. Singular und Plural sind dabei — das lassen die meisten Apps weg.\n\nDas **kostenlose Online-Quiz** auf russiandeclensions.com lässt Sie bestimmte Fälle (Akkusativ, Genitiv, Dativ, Instrumental, Präpositional) üben, ohne Installation. Für Grammatik-Nerds und ambitionierte Lernende ist das der Goldstandard.',
       image: {
@@ -369,8 +367,7 @@ export const bestAppsLearnRussianGrammarDe: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      'Die besten Apps zum Russisch-Grammatiklernen 2026 (ehrlicher Test)',
+    headline: 'Die besten Apps zum Russisch-Grammatiklernen 2026 (ehrlicher Test)',
     description:
       'Ehrlicher Test von 8 Apps zum Russisch-Grammatiklernen — Kasus, Konjugation, Satzbau. Vergleichstabelle und empfohlene Lern-Stacks.',
     datePublished: '2026-03-22',
@@ -379,8 +376,7 @@ export const bestAppsLearnRussianGrammarDe: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/best-apps-learn-russian-grammar',
+      '@id': 'https://russiandeclensions.com/learn/articles/best-apps-learn-russian-grammar',
     },
     keywords:
       'beste apps russisch grammatik, russisch grammatik app, russische fälle app, russisch grammatik lernen 2026',

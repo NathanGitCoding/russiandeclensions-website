@@ -3,8 +3,7 @@ import type { LearnArticle } from '../learnArticles';
 /** Tłumaczenie polskie artykułu `russian-prepositional-case` (źródło EN: `learnArticles.ts`). Cyrylica zachowana znak po znaku. */
 export const russianPrepositionalCasePl: LearnArticle = {
   slug: 'russian-prepositional-case',
-  title:
-    'Rosyjski miejscownik: jedyny przypadek, który nigdy nie występuje bez przyimka',
+  title: 'Rosyjski miejscownik: jedyny przypadek, który nigdy nie występuje bez przyimka',
   metaTitle:
     'Rosyjski miejscownik: końcówki, в vs. на, о чём i 30 przykładów | Russian Cases with Anna',
   metaDescription:
@@ -19,8 +18,7 @@ export const russianPrepositionalCasePl: LearnArticle = {
   h1: 'Rosyjski miejscownik: jedyny przypadek, który nigdy nie występuje bez przyimka',
   heroImage: {
     src: '/articles/free-russian-lesson-prepositional-case.webp',
-    alt:
-      'Darmowa lekcja rosyjskiego o miejscowniku: miejsce, temat oraz в/на/о',
+    alt: 'Darmowa lekcja rosyjskiego o miejscowniku: miejsce, temat oraz в/на/о',
     width: 1200,
     height: 630,
   },
@@ -39,8 +37,7 @@ export const russianPrepositionalCasePl: LearnArticle = {
     '**30 autentycznych zdań** z transliteracją',
   ],
   leadMagnetCta: {
-    title:
-      'Ćwicz rosyjską gramatykę miejsca i miejscownik w telefonie',
+    title: 'Ćwicz rosyjską gramatykę miejsca i miejscownik w telefonie',
     description:
       'Nasza aplikacja mobilna drilluje wszystkie 6 przypadków — w tym в/на dla miejsca i о + temat — z autentycznymi zdaniami i natychmiastową informacją zwrotną. Android i iOS.',
     ctaText: 'Pobierz aplikację i zacznij ćwiczyć już dziś',
@@ -49,18 +46,15 @@ export const russianPrepositionalCasePl: LearnArticle = {
   internalLinks: [
     {
       href: '/learn/lessons/russian-cases-complete-guide',
-      label:
-        'Kompletny przewodnik po rosyjskich przypadkach: 6 przypadków z przykładami',
+      label: 'Kompletny przewodnik po rosyjskich przypadkach: 6 przypadków z przykładami',
     },
     {
       href: '/learn/articles/russian-case-endings-cheatsheet',
-      label:
-        'Końcówki przypadków rosyjskich: ściąga',
+      label: 'Końcówki przypadków rosyjskich: ściąga',
     },
     {
       href: '/learn/lessons/russian-prepositions-cases',
-      label:
-        'Rosyjskie przyimki i przypadki: który przypadek po którym przyimku?',
+      label: 'Rosyjskie przyimki i przypadki: który przypadek po którym przyimku?',
     },
   ],
   tableAccentVariant: 'prepositional',
@@ -88,8 +82,7 @@ export const russianPrepositionalCasePl: LearnArticle = {
         },
         {
           h3: 'Zasada kluczowa',
-          content:
-            'Miejscownik **NIGDY** nie występuje bez jednego z tych przyimków — to pewne!',
+          content: 'Miejscownik **NIGDY** nie występuje bez jednego z tych przyimków — to pewne!',
         },
       ],
     },
@@ -99,21 +92,14 @@ export const russianPrepositionalCasePl: LearnArticle = {
         'Miejscownik ma niektóre z **najbardziej regularnych końcówek** w rosyjskim. Większość rzeczowników w liczbie pojedynczej przyjmuje po prostu **-Е**.\n\nGłówne wyjątki to rzeczowniki na **-ий**, **-ие**, **-ия** (z **-ИИ**) oraz mała grupa z nieregularnymi formami miejscownika na **-У**.',
       image: {
         src: '/articles/russian-prepositional-case-endings-table-complete.webp',
-        alt:
-          'Pełna tabela końcówek rosyjskiego miejscownika (deklinacja)',
+        alt: 'Pełna tabela końcówek rosyjskiego miejscownika (deklinacja)',
         width: 1200,
         height: 630,
       },
       table: {
         caption: 'Końcówki miejscownika według typu rzeczownika',
         boldColumnIndices: [1, 3],
-        headers: [
-          'Typ rzeczownika',
-          'Końcówka',
-          'Tworzenie',
-          'Wynik',
-          'Przykład w kontekście',
-        ],
+        headers: ['Typ rzeczownika', 'Końcówka', 'Tworzenie', 'Wynik', 'Przykład w kontekście'],
         rows: [
           [
             'Męski twardy (spółgłoska)',
@@ -122,20 +108,8 @@ export const russianPrepositionalCasePl: LearnArticle = {
             'столе',
             'книга на столе — książka na stole',
           ],
-          [
-            'Męski miękki (-й)',
-            '-е',
-            'музей → музе+е',
-            'музее',
-            'в музее — w muzeum',
-          ],
-          [
-            'Męski miękki (-ь)',
-            '-е',
-            'словарь → словар+е',
-            'словаре',
-            'в словаре — w słowniku',
-          ],
+          ['Męski miękki (-й)', '-е', 'музей → музе+е', 'музее', 'в музее — w muzeum'],
+          ['Męski miękki (-ь)', '-е', 'словарь → словар+е', 'словаре', 'в словаре — w słowniku'],
           [
             'Męski/nijaki -ий/-ие',
             '-ии',
@@ -143,49 +117,13 @@ export const russianPrepositionalCasePl: LearnArticle = {
             'гении / здании',
             'в здании — w budynku',
           ],
-          [
-            'Żeński twardy (-а)',
-            '-е',
-            'страна → стран+е',
-            'стране',
-            'в стране — w kraju',
-          ],
-          [
-            'Żeński miękki (-я)',
-            '-е',
-            'земля → земл+е',
-            'земле',
-            'на земле — na ziemi',
-          ],
-          [
-            'Żeński -ия',
-            '-ии',
-            'станция → станци+и',
-            'станции',
-            'на станции — na stacji',
-          ],
+          ['Żeński twardy (-а)', '-е', 'страна → стран+е', 'стране', 'в стране — w kraju'],
+          ['Żeński miękki (-я)', '-е', 'земля → земл+е', 'земле', 'на земле — na ziemi'],
+          ['Żeński -ия', '-ии', 'станция → станци+и', 'станции', 'на станции — na stacji'],
           ['Żeński (-ь)', '-и', 'ночь → ноч+и', 'ночи', 'в ночи — w nocy'],
-          [
-            'Nijaki (-о)',
-            '-е',
-            'окно → окн+е',
-            'окне',
-            'в окне — w oknie',
-          ],
-          [
-            'Nijaki (-е)',
-            '-е',
-            'море → мор+е',
-            'море',
-            'в море — w morzu',
-          ],
-          [
-            'Nijaki -ие',
-            '-ии',
-            'здание → здани+и',
-            'здании',
-            'в здании — w budynku',
-          ],
+          ['Nijaki (-о)', '-е', 'окно → окн+е', 'окне', 'в окне — w oknie'],
+          ['Nijaki (-е)', '-е', 'море → мор+е', 'море', 'в море — w morzu'],
+          ['Nijaki -ие', '-ии', 'здание → здани+и', 'здании', 'в здании — w budynku'],
           [
             'L.mn. (wszystkie rodzaje)',
             '-ах/-ях',
@@ -221,8 +159,7 @@ export const russianPrepositionalCasePl: LearnArticle = {
         },
         {
           h3: 'Sztuczka mnemotechniczna',
-          content:
-            '-ий/-ие/-ия kończą się na И — to И zostaje w miejscowniku.',
+          content: '-ий/-ие/-ия kończą się na И — to И zostaje w miejscowniku.',
         },
       ],
     },
@@ -240,60 +177,20 @@ export const russianPrepositionalCasePl: LearnArticle = {
           'Przykładowe zdanie',
         ],
         rows: [
-          [
-            'лес (las)',
-            'в лесу',
-            'о лесе',
-            'Мы заблудились в лесу. — Zgubiliśmy się w lesie.',
-          ],
-          [
-            'сад (ogród)',
-            'в саду',
-            'о саде',
-            'Дети играют в саду. — Dzieci bawią się w ogrodzie.',
-          ],
-          [
-            'год (rok)',
-            'в году',
-            'о годе',
-            'Сколько дней в году? — Ile dni ma rok?',
-          ],
-          [
-            'пол (podłoga)',
-            'на полу',
-            'о поле',
-            'Кот лежит на полу. — Kot leży na podłodze.',
-          ],
+          ['лес (las)', 'в лесу', 'о лесе', 'Мы заблудились в лесу. — Zgubiliśmy się w lesie.'],
+          ['сад (ogród)', 'в саду', 'о саде', 'Дети играют в саду. — Dzieci bawią się w ogrodzie.'],
+          ['год (rok)', 'в году', 'о годе', 'Сколько дней в году? — Ile dni ma rok?'],
+          ['пол (podłoga)', 'на полу', 'о поле', 'Кот лежит на полу. — Kot leży na podłodze.'],
           [
             'берег (brzeg)',
             'на берегу',
             'о береге',
             'Мы отдыхали на берегу. — Odpoczywaliśmy na brzegu.',
           ],
-          [
-            'угол (kąt)',
-            'в углу',
-            'об угле',
-            'Стол стоит в углу. — Stół stoi w kącie.',
-          ],
-          [
-            'нос (nos)',
-            'на носу',
-            'о носе',
-            'Очки на носу. — Okulary na nosie.',
-          ],
-          [
-            'порт (port)',
-            'в порту',
-            'о порте',
-            'Корабль в порту. — Statek jest w porcie.',
-          ],
-          [
-            'мост (most)',
-            'на мосту',
-            'о мосте',
-            'Встретимся на мосту. — Spotkajmy się na moście.',
-          ],
+          ['угол (kąt)', 'в углу', 'об угле', 'Стол стоит в углу. — Stół stoi w kącie.'],
+          ['нос (nos)', 'на носу', 'о носе', 'Очки на носу. — Okulary na nosie.'],
+          ['порт (port)', 'в порту', 'о порте', 'Корабль в порту. — Statek jest w porcie.'],
+          ['мост (most)', 'на мосту', 'о мосте', 'Встретимся на мосту. — Spotkajmy się na moście.'],
           [
             'снег (śnieg)',
             'в снегу',
@@ -434,31 +331,19 @@ export const russianPrepositionalCasePl: LearnArticle = {
             'Я мечтаю о путешествии.',
             'Marzę o podróży. (путешествие → о путешествии)',
           ],
-          [
-            'заботиться о (dbać o)',
-            'Он заботится о детях.',
-            'Dba o dzieci. (дети → о детях)',
-          ],
+          ['заботиться о (dbać o)', 'Он заботится о детях.', 'Dba o dzieci. (дети → о детях)'],
           [
             'беспокоиться о (martwić się o)',
             'Мама беспокоится о нас.',
             'Mama martwi się o nas. (мы → о нас)',
           ],
-          [
-            'спрашивать о (pytać o)',
-            'Она спросила о тебе.',
-            'Pytała o ciebie. (ты → о тебе)',
-          ],
+          ['спрашивать о (pytać o)', 'Она спросила о тебе.', 'Pytała o ciebie. (ты → о тебе)'],
           [
             'знать о (wiedzieć o)',
             'Ты знаешь об этом?',
             'Wiesz o tym? (это → об этом — об przed samogłoską)',
           ],
-          [
-            'писать о (pisać o)',
-            'Он пишет о войне.',
-            'Pisze o wojnie. (война → о войне)',
-          ],
+          ['писать о (pisać o)', 'Он пишет о войне.', 'Pisze o wojnie. (война → о войне)'],
           [
             'читать о (czytać o)',
             'Я читал о Гагарине.',
@@ -479,12 +364,7 @@ export const russianPrepositionalCasePl: LearnArticle = {
       table: {
         caption: '30 przykładów miejscownika',
         boldColumnIndices: [1],
-        headers: [
-          '#',
-          'Zdanie rosyjskie',
-          'Transliteracja',
-          'Tłumaczenie i uwagi gramatyczne',
-        ],
+        headers: ['#', 'Zdanie rosyjskie', 'Transliteracja', 'Tłumaczenie i uwagi gramatyczne'],
         rows: [
           [
             '1',
@@ -528,12 +408,7 @@ export const russianPrepositionalCasePl: LearnArticle = {
             'Mashina stoit na ulitse.',
             'Samochód stoi na ulicy. (улица → на улице)',
           ],
-          [
-            '8',
-            'Я работаю в офисе.',
-            'Ya rabotayu v ofise.',
-            'Pracuję w biurze. (офис → в офисе)',
-          ],
+          ['8', 'Я работаю в офисе.', 'Ya rabotayu v ofise.', 'Pracuję w biurze. (офис → в офисе)'],
           [
             '9',
             'Мы говорим о погоде.',
@@ -564,12 +439,7 @@ export const russianPrepositionalCasePl: LearnArticle = {
             'On napisal knigu o voyne.',
             'Napisał książkę o wojnie. (война → о войне)',
           ],
-          [
-            '14',
-            'Ты знаешь об этом?',
-            'Ty znayesh ob etom?',
-            'Wiesz o tym? (это → об этом)',
-          ],
+          ['14', 'Ты знаешь об этом?', 'Ty znayesh ob etom?', 'Wiesz o tym? (это → об этом)'],
           [
             '15',
             'Мы говорили о ваших планах.',
@@ -684,8 +554,7 @@ export const russianPrepositionalCasePl: LearnArticle = {
         },
         {
           h3: 'Kluczowe pytanie',
-          content:
-            'Czy coś **tam się przemieszcza** (biernik), czy **tam jest** (miejscownik)?',
+          content: 'Czy coś **tam się przemieszcza** (biernik), czy **tam jest** (miejscownik)?',
         },
       ],
     },
@@ -723,8 +592,7 @@ export const russianPrepositionalCasePl: LearnArticle = {
         'Rosyjski miejscownik tak się nazywa, bo jest **jedynym przypadkiem**, który zawsze wymaga przyimka. Żaden inny rosyjski przypadek nie ma tej cechy — mianownik, dopełniacz, celownik, biernik i narzędnik mogą występować bez przyimka. Miejscownik z definicji nie może.',
     },
     {
-      question:
-        'Jaka jest różnica między в a на dla miejsca po rosyjsku?',
+      question: 'Jaka jest różnica między в a на dla miejsca po rosyjsku?',
       answer:
         '**В** (w) służy do zamkniętych lub wewnętrznych przestrzeni: kraje, miasta, budynki, pokoje. **НА** (na) do powierzchni, przestrzeni otwartych, wysp i zestawu instytucji według konwencji (на работе, на почте, на вокзале). Oba biorą miejscownik dla miejsca i biernik dla kierunku.',
     },
@@ -742,8 +610,7 @@ export const russianPrepositionalCasePl: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      'Rosyjski miejscownik: jedyny przypadek, który nigdy nie występuje bez przyimka',
+    headline: 'Rosyjski miejscownik: jedyny przypadek, który nigdy nie występuje bez przyimka',
     description:
       'Kompletny przewodnik po rosyjskim miejscowniku: miejsce, temat (о чём), końcówki, reguła -ИИ, miejscownik właściwy -У, в vs. на, о/об, 10 czasowników + о, 30 przykładów.',
     datePublished: '2026-03-12',
@@ -752,8 +619,7 @@ export const russianPrepositionalCasePl: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/russian-prepositional-case',
+      '@id': 'https://russiandeclensions.com/learn/articles/russian-prepositional-case',
     },
     keywords:
       'rosyjski miejscownik, końcówki miejscownika, в на о rosyjski, gramatyka miejsca rosyjski, о чём',

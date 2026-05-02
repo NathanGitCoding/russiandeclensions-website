@@ -78,13 +78,15 @@ export function PracticeQuiz({ questions, t, onFinish, onNewQuiz }: Props) {
 
       {/* Word card */}
       <div
-        className={`mb-3 flex min-h-[5.25rem] flex-col items-center justify-center gap-2 rounded-xl border-2 px-4 py-[1.125rem] text-center ${genderColors[currentQuestion.gender] ?? 'bg-gray-50 text-gray-800 border-gray-200'}`}
+        className={`mb-3 flex min-h-[5.25rem] flex-col items-center justify-center gap-2 rounded-xl border-2 px-4 py-[1.125rem] text-center ${genderColors[currentQuestion.gender] ?? 'border-gray-200 bg-gray-50 text-gray-800'}`}
       >
-        <span className="text-[1.625rem] font-bold leading-tight" lang="ru">
+        <span className="text-[1.625rem] leading-tight font-bold" lang="ru">
           {currentQuestion.base_form}
         </span>
         {currentQuestion.translationHint ? (
-          <span className="text-[0.875rem] italic text-gray-500">{currentQuestion.translationHint}</span>
+          <span className="text-[0.875rem] text-gray-500 italic">
+            {currentQuestion.translationHint}
+          </span>
         ) : null}
       </div>
 

@@ -3,10 +3,8 @@ import type { LearnArticle } from '../learnArticles';
 /** Tłumaczenie PL — `russian-genitive-case`. Cyrylica jak w wersji DE. */
 export const russianGenitiveCasePl: LearnArticle = {
   slug: 'russian-genitive-case',
-  title:
-    'Rosyjski dopełniacz: zasady, końcówki i 32 prawdziwe przykłady',
-  metaTitle:
-    'Rosyjski dopełniacz: zasady, końcówki i przykłady | Russian Cases with Anna',
+  title: 'Rosyjski dopełniacz: zasady, końcówki i 32 prawdziwe przykłady',
+  metaTitle: 'Rosyjski dopełniacz: zasady, końcówki i przykłady | Russian Cases with Anna',
   metaDescription:
     'Najpełniejszy przewodnik po dopełniaczu w języku rosyjskim: 7 zastosowań, końcówki w liczbie pojedynczej i mnogiej, formy nieregularne, 16 przyimków, liczby, У + dopełniacz. 32 autentyczne zdania z transliteracją.',
   keywords: [
@@ -46,8 +44,7 @@ export const russianGenitiveCasePl: LearnArticle = {
   internalLinks: [
     {
       href: '/learn/lessons/russian-cases-complete-guide',
-      label:
-        'Kompletny przewodnik po rosyjskich przypadkach: wszystkie 6 przypadków z przykładami',
+      label: 'Kompletny przewodnik po rosyjskich przypadkach: wszystkie 6 przypadków z przykładami',
     },
     {
       href: '/learn/articles/russian-case-endings-cheatsheet',
@@ -55,8 +52,7 @@ export const russianGenitiveCasePl: LearnArticle = {
     },
     {
       href: '/learn/lessons/dative-case-declension',
-      label:
-        'Rosyjski celownik: jak powiedzieć „do” i „dla” po rosyjsku',
+      label: 'Rosyjski celownik: jak powiedzieć „do” i „dla” po rosyjsku',
     },
   ],
   tableAccentVariant: 'genitive',
@@ -139,42 +135,12 @@ export const russianGenitiveCasePl: LearnArticle = {
       table: {
         caption: 'Dopełniacz liczby pojedynczej według typu rzeczownika',
         boldColumnIndices: [1, 3],
-        headers: [
-          'Typ rzeczownika',
-          'Końcówka',
-          'Tworzenie',
-          'Wynik',
-          'Przykład w kontekście',
-        ],
+        headers: ['Typ rzeczownika', 'Końcówka', 'Tworzenie', 'Wynik', 'Przykład w kontekście'],
         rows: [
-          [
-            'Męski twardy',
-            '-а',
-            'стол → стол+а',
-            'стола',
-            'нет стола — nie ma stołu',
-          ],
-          [
-            'Męski miękki',
-            '-я',
-            'гений → гени+я',
-            'гения',
-            'без гения — bez geniusza',
-          ],
-          [
-            'Męski na -ж/ш/щ/ч',
-            '-а',
-            'нож → нож+а',
-            'ножа',
-            'без ножа — bez noża',
-          ],
-          [
-            'Żeński -а (twardy)',
-            '-ы',
-            'книга → книг+ы',
-            'книги',
-            'нет книги — nie ma książki',
-          ],
+          ['Męski twardy', '-а', 'стол → стол+а', 'стола', 'нет стола — nie ma stołu'],
+          ['Męski miękki', '-я', 'гений → гени+я', 'гения', 'без гения — bez geniusza'],
+          ['Męski na -ж/ш/щ/ч', '-а', 'нож → нож+а', 'ножа', 'без ножа — bez noża'],
+          ['Żeński -а (twardy)', '-ы', 'книга → книг+ы', 'книги', 'нет книги — nie ma książki'],
           [
             'Żeński -а (po г/к/х/ж/ш/щ/ч/ц)',
             '-и',
@@ -182,29 +148,11 @@ export const russianGenitiveCasePl: LearnArticle = {
             'подруги',
             'без подруги — bez przyjaciółki',
           ],
-          [
-            'Żeński -я',
-            '-и',
-            'неделя → недел+и',
-            'недели',
-            'нет недели — nie ma tygodnia',
-          ],
-          [
-            'Żeński -ь',
-            '-и',
-            'ночь → ноч+и',
-            'ночи',
-            'до ночи — do nocy',
-          ],
+          ['Żeński -я', '-и', 'неделя → недел+и', 'недели', 'нет недели — nie ma tygodnia'],
+          ['Żeński -ь', '-и', 'ночь → ноч+и', 'ночи', 'до ночи — do nocy'],
           ['Nijaki -о', '-а', 'окно → окн+а', 'окна', 'нет окна — nie ma okna'],
           ['Nijaki -е', '-я', 'море → мор+я', 'моря', 'до моря — do morza'],
-          [
-            'Nijaki -мя',
-            '-ени',
-            'имя → имен+и',
-            'имени',
-            'без имени — bez imienia',
-          ],
+          ['Nijaki -мя', '-ени', 'имя → имен+и', 'имени', 'без имени — bez imienia'],
         ],
       },
     },
@@ -215,21 +163,9 @@ export const russianGenitiveCasePl: LearnArticle = {
       table: {
         caption: 'Dopełniacz mnogi według typu rzeczownika',
         boldColumnIndices: [1, 3],
-        headers: [
-          'Typ rzeczownika',
-          'Końcówka',
-          'Tworzenie',
-          'Wynik',
-          'Przykład w kontekście',
-        ],
+        headers: ['Typ rzeczownika', 'Końcówka', 'Tworzenie', 'Wynik', 'Przykład w kontekście'],
         rows: [
-          [
-            'Męski twardy',
-            '-ов',
-            'стол → стол+ов',
-            'столов',
-            'пять столов — pięć stołów',
-          ],
+          ['Męski twardy', '-ов', 'стол → стол+ов', 'столов', 'пять столов — pięć stołów'],
           [
             'Męski na -ж/ш/щ/ч/ц (akcentowane)',
             '-ей',
@@ -244,13 +180,7 @@ export const russianGenitiveCasePl: LearnArticle = {
             'врачей',
             'много врачей — wielu lekarzy',
           ],
-          [
-            'Męski miękki -й',
-            '-ев',
-            'музей → музе+ев',
-            'музеев',
-            'три музея — trzy muzea',
-          ],
+          ['Męski miękki -й', '-ев', 'музей → музе+ев', 'музеев', 'три музея — trzy muzea'],
           [
             'Męski miękki -ь',
             '-ей',
@@ -279,28 +209,10 @@ export const russianGenitiveCasePl: LearnArticle = {
             'недель',
             'несколько недель — kilka tygodni',
           ],
-          [
-            'Żeński -ь',
-            '-ей',
-            'ночь → ноч+ей',
-            'ночей',
-            'пять ночей — pięć nocy',
-          ],
-          [
-            'Nijaki -о (twardy)',
-            '-Ø',
-            'окно → окон',
-            'окон',
-            'много окон — wiele okien',
-          ],
+          ['Żeński -ь', '-ей', 'ночь → ноч+ей', 'ночей', 'пять ночей — pięć nocy'],
+          ['Nijaki -о (twardy)', '-Ø', 'окно → окон', 'окон', 'много окон — wiele okien'],
           ['Nijaki -е', '-ей', 'море → мор+ей', 'морей', 'пять морей — pięć mórz'],
-          [
-            'Nijaki -ие/-ия',
-            '-ий',
-            'здание → здани+й',
-            'зданий',
-            'много зданий — wiele budynków',
-          ],
+          ['Nijaki -ие/-ия', '-ий', 'здание → здани+й', 'зданий', 'много зданий — wiele budynków'],
         ],
       },
     },
@@ -311,12 +223,7 @@ export const russianGenitiveCasePl: LearnArticle = {
       table: {
         caption: '11 bardzo częstych nieregularnych dopełniaczy mnogich',
         boldColumnIndices: [1, 2],
-        headers: [
-          'Mianownik lp.',
-          'Dopełniacz lm.',
-          'Przykład',
-          'Uwaga',
-        ],
+        headers: ['Mianownik lp.', 'Dopełniacz lm.', 'Przykład', 'Uwaga'],
         rows: [
           ['человек (osoba)', 'людей', 'много людей', 'Supletiwizm (люди)'],
           ['ребёнок (dziecko)', 'детей', 'много детей', 'Supletiwizm (дети)'],
@@ -339,73 +246,28 @@ export const russianGenitiveCasePl: LearnArticle = {
       table: {
         caption: '16 przyimków z dopełniaczem i przykładami',
         boldColumnIndices: [0, 2],
-        headers: [
-          'Przyim.',
-          'Znaczenie',
-          'Z rzeczownikiem',
-          'Pełne zdanie + tłumaczenie',
-        ],
+        headers: ['Przyim.', 'Znaczenie', 'Z rzeczownikiem', 'Pełne zdanie + tłumaczenie'],
         rows: [
-          [
-            'без',
-            'bez',
-            'без молока',
-            'Я пью чай без молока. — Piję herbatę bez mleka.',
-          ],
+          ['без', 'bez', 'без молока', 'Я пью чай без молока. — Piję herbatę bez mleka.'],
           [
             'до',
             'do / przed / aż do (granica)',
             'до урока',
             'Позвони мне до урока. — Zadzwoń do mnie przed lekcją.',
           ],
-          [
-            'из',
-            'z (wnętrza)',
-            'из России',
-            'Он приехал из России. — Przyjechał z Rosji.',
-          ],
-          [
-            'с',
-            'z (powierzchni)',
-            'с полки',
-            'Книга упала с полки. — Książka spadła z półki.',
-          ],
-          [
-            'у',
-            'u / przy',
-            'у меня',
-            'У меня есть кошка. — Mam kota.',
-          ],
-          [
-            'от',
-            'od (osoby / źródła)',
-            'от друга',
-            'Письмо от друга. — List od przyjaciela.',
-          ],
-          [
-            'после',
-            'po',
-            'после работы',
-            'После работы я устал. — Po pracy byłem zmęczony.',
-          ],
-          [
-            'для',
-            'dla (na korzyść)',
-            'для тебя',
-            'Это подарок для тебя. — To prezent dla ciebie.',
-          ],
+          ['из', 'z (wnętrza)', 'из России', 'Он приехал из России. — Przyjechał z Rosji.'],
+          ['с', 'z (powierzchni)', 'с полки', 'Книга упала с полки. — Książka spadła z półki.'],
+          ['у', 'u / przy', 'у меня', 'У меня есть кошка. — Mam kota.'],
+          ['от', 'od (osoby / źródła)', 'от друга', 'Письмо от друга. — List od przyjaciela.'],
+          ['после', 'po', 'после работы', 'После работы я устал. — Po pracy byłem zmęczony.'],
+          ['для', 'dla (na korzyść)', 'для тебя', 'Это подарок для тебя. — To prezent dla ciebie.'],
           [
             'кроме',
             'oprócz / poza',
             'кроме меня',
             'Все кроме меня пришли. — Wszyscy oprócz mnie przyszli.',
           ],
-          [
-            'вокруг',
-            'wokół',
-            'вокруг города',
-            'Мы ехали вокруг города. — Objechaliśmy miasto.',
-          ],
+          ['вокруг', 'wokół', 'вокруг города', 'Мы ехали вокруг города. — Objechaliśmy miasto.'],
           [
             'мимо',
             'mimo / obok (mijając)',
@@ -430,12 +292,7 @@ export const russianGenitiveCasePl: LearnArticle = {
             'из-за дождя',
             'Из-за дождя мы остались дома. — Z powodu deszczu zostaliśmy w domu.',
           ],
-          [
-            'из-под',
-            'spod',
-            'из-под стола',
-            'Кот вылез из-под стола. — Kot wyszedł spod stołu.',
-          ],
+          ['из-под', 'spod', 'из-под стола', 'Кот вылез из-под стола. — Kot wyszedł spod stołu.'],
           [
             'ради',
             'dla (czegoś / kogoś)',
@@ -452,20 +309,10 @@ export const russianGenitiveCasePl: LearnArticle = {
       table: {
         caption: 'Liczba + przypadek z przykładami',
         boldColumnIndices: [1, 2],
-        headers: [
-          'Liczba / kwantyfikator',
-          'Wymagany przypadek',
-          'Przykład (стол)',
-          'Tłumaczenie',
-        ],
+        headers: ['Liczba / kwantyfikator', 'Wymagany przypadek', 'Przykład (стол)', 'Tłumaczenie'],
         rows: [
           ['1', 'Mianownik lp.', 'один стол', 'jeden stół'],
-          [
-            '2, 3, 4',
-            'Dopełniacz lp.',
-            'два стола / три стола',
-            'dwa / trzy stoły',
-          ],
+          ['2, 3, 4', 'Dopełniacz lp.', 'два стола / три стола', 'dwa / trzy stoły'],
           ['5–20', 'Dopełniacz lm.', 'пять столов', 'pięć stołów'],
           [
             '21, 31, 41… (kończy się na 1)',
@@ -492,12 +339,7 @@ export const russianGenitiveCasePl: LearnArticle = {
             'много столов',
             'wiele / kilka / mało stołów',
           ],
-          [
-            'сколько / столько',
-            'Dopełniacz lm.',
-            'сколько столов?',
-            'ile stołów?',
-          ],
+          ['сколько / столько', 'Dopełniacz lm.', 'сколько столов?', 'ile stołów?'],
         ],
       },
     },
@@ -588,12 +430,7 @@ export const russianGenitiveCasePl: LearnArticle = {
             'U menya net vremeni.',
             'Nie mam czasu. (время → времени, nijaki na -мя)',
           ],
-          [
-            '7',
-            'Здесь нет молока.',
-            "Zdes' net moloka.",
-            'Tu nie ma mleka. (молоко → молока)',
-          ],
+          ['7', 'Здесь нет молока.', "Zdes' net moloka.", 'Tu nie ma mleka. (молоко → молока)'],
           [
             '8',
             'Я не видел его несколько дней.',
@@ -660,12 +497,7 @@ export const russianGenitiveCasePl: LearnArticle = {
             'Bez usiliy net rezultatov.',
             'Bez wysiłku nie ma rezultatów. (без + dopełn. lm.)',
           ],
-          [
-            '19',
-            'У врача очередь.',
-            "U vracha ochered'.",
-            'U lekarza jest kolejka. (у + dopełn.)',
-          ],
+          ['19', 'У врача очередь.', "U vracha ochered'.", 'U lekarza jest kolejka. (у + dopełn.)'],
           [
             '20',
             'После дождя — солнце.',
@@ -738,12 +570,7 @@ export const russianGenitiveCasePl: LearnArticle = {
             'U neyo golubye glaza.',
             'Ona ma niebieskie oczy. (у + zaimek w dopełniaczu)',
           ],
-          [
-            '32',
-            'Вкус победы.',
-            'Vkus pobedy.',
-            'Smak zwycięstwa. (победа → победы, dopełn. lp.)',
-          ],
+          ['32', 'Вкус победы.', 'Vkus pobedy.', 'Smak zwycięstwa. (победа → победы, dopełn. lp.)'],
         ],
       },
     },
@@ -761,8 +588,7 @@ export const russianGenitiveCasePl: LearnArticle = {
     },
     {
       h2: 'Top 7 błędów w dopełniaczu (i jak je poprawić)',
-      content:
-        '**Najczęstsze błędy** uczących się przy dopełniaczu:',
+      content: '**Najczęstsze błędy** uczących się przy dopełniaczu:',
       bullets: [
         '**Mianownik po НЕТ** — Нет кот. ✗ → Нет кота. ✓ (нет zawsze wymaga dopełniacza)',
         '**Zapomnienie reguły 8 liter** — книгы ✗ → книги ✓ (po г → и, nie ы)',
@@ -819,8 +645,7 @@ export const russianGenitiveCasePl: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/russian-genitive-case',
+      '@id': 'https://russiandeclensions.com/learn/articles/russian-genitive-case',
     },
     keywords:
       'rosyjski dopełniacz, końcówki dopełniacza, zasady dopełniacza, dopełniacz mnogi rosyjski, przykłady dopełniacza, gramatyka posiadania rosyjski',

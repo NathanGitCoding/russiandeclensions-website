@@ -237,28 +237,23 @@ export const bestFreeResourcesLearnRussianDe: LearnArticle = {
     '**Im Kontext lesen:** Reverso Context und Clozemaster mit echten Sätzen',
     '**Konsequent bleiben:** 15 Minuten täglich schlagen 2 Stunden einmal pro Woche',
   ],
-  conclusionOutro:
-    'Für vertiefende Grammatik-Ressourcen unsere Guides entdecken:',
+  conclusionOutro: 'Für vertiefende Grammatik-Ressourcen unsere Guides entdecken:',
   internalLinks: [
     {
       href: '/learn/lessons/russian-cases-complete-guide',
-      label:
-        'Der komplette Leitfaden zu den russischen Fällen — alle 6 Fälle erklärt',
+      label: 'Der komplette Leitfaden zu den russischen Fällen — alle 6 Fälle erklärt',
     },
     {
       href: '/learn/articles/russian-case-endings-cheatsheet',
-      label:
-        'Spickzettel russische Kasusendungen — die ultimative Referenztabelle',
+      label: 'Spickzettel russische Kasusendungen — die ultimative Referenztabelle',
     },
     {
       href: '/practice',
-      label:
-        'Kostenloses Deklinations-Übungs-Quiz — testen Sie sich mit über 400 Wörtern',
+      label: 'Kostenloses Deklinations-Übungs-Quiz — testen Sie sich mit über 400 Wörtern',
     },
     {
       href: '/words',
-      label:
-        'Über 400 russische Wörter durchsuchen — vollständige Deklinations­tabellen',
+      label: 'Über 400 russische Wörter durchsuchen — vollständige Deklinations­tabellen',
     },
   ],
   ctaText: 'Jetzt russische Deklinationen üben',
@@ -270,14 +265,12 @@ export const bestFreeResourcesLearnRussianDe: LearnArticle = {
         'Ja. Alle 15 Ressourcen in diesem Artikel haben eine **kostenlose Stufe** oder sind völlig kostenlos. Sie können solide Grundlagen in Grammatik, Wortschatz und Hörverständnis aufbauen, ohne etwas auszugeben. Manche Apps bieten Premium — für die meisten Lernenden reichen die Gratisversionen.',
     },
     {
-      question:
-        'Was ist die beste kostenlose Ressource für russische Grammatik?',
+      question: 'Was ist die beste kostenlose Ressource für russische Grammatik?',
       answer:
         'Für **Grammatik** empfehlen wir **Russian Cases with Anna** — die einzige App, die sich zu 100 % auf Deklinationen und Fälle konzentriert, mit 128 Lektionen und 136 Quiz. Sie können auch das **kostenlose Online-Quiz** unter russiandeclensions.com/practice nutzen, ohne etwas herunterzuladen.',
     },
     {
-      question:
-        'Wie lange dauert es, Russisch mit kostenlosen Ressourcen zu lernen?',
+      question: 'Wie lange dauert es, Russisch mit kostenlosen Ressourcen zu lernen?',
       answer:
         'Laut FSI (Foreign Service Institute) brauchen englische Muttersprachler etwa **1.100 Stunden** für berufsnahe Kompetenz in Russisch. Mit **konsequenter täglicher Praxis** von 30–60 Minuten mit den Ressourcen in diesem Guide ist ein Konversationsniveau (B1) in etwa **12–18 Monaten** erreichbar.',
     },
@@ -287,8 +280,7 @@ export const bestFreeResourcesLearnRussianDe: LearnArticle = {
         'Ja, das **kyrillische Alphabet** ist unverzichtbar und sollte Ihr erster Schritt sein. Die gute Nachricht: meist reichen **1–2 Wochen** Übung. Apps wie Duolingo und Russian Cases with Anna lehren das Alphabet in den Anfängerlektionen.',
     },
     {
-      question:
-        'Welche kostenlose Ressource ist am besten für Hörverständnis?',
+      question: 'Welche kostenlose Ressource ist am besten für Hörverständnis?',
       answer:
         'Fürs Zuhören empfehlen wir den **Slow Russian Podcast** (Anfänger — langsame, klare Sprache mit Transkripten) und **Russian with Max** auf YouTube (Mittelstufe — natürliche Sprache mit doppelten Untertiteln). Langsam anfangen und steigern.',
     },
@@ -296,8 +288,7 @@ export const bestFreeResourcesLearnRussianDe: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      'Die 15 besten kostenlosen Ressourcen zum Russischlernen im Jahr 2026',
+    headline: 'Die 15 besten kostenlosen Ressourcen zum Russischlernen im Jahr 2026',
     description:
       'Die ultimative Liste kostenloser Tools, Apps, Websites, YouTube-Kanäle und Podcasts zum Russischlernen 2026 — 15 Ressourcen nach Kategorie sortiert.',
     datePublished: '2026-03-22',
@@ -306,8 +297,7 @@ export const bestFreeResourcesLearnRussianDe: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/best-free-resources-learn-russian',
+      '@id': 'https://russiandeclensions.com/learn/articles/best-free-resources-learn-russian',
     },
     keywords:
       'kostenlose Ressourcen Russisch, Russisch gratis lernen, beste Websites Russisch, kostenlose Russisch Apps, Russisch Tools 2026',

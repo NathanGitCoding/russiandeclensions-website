@@ -26,7 +26,12 @@ const genderColors: Record<string, string> = {
   neuter: 'bg-purple-50 text-purple-700 border-purple-200',
 };
 
-export function DeclensionQuizInline({ word, translations: t, cases, leadMagnetCta }: DeclensionQuizInlineProps) {
+export function DeclensionQuizInline({
+  word,
+  translations: t,
+  cases,
+  leadMagnetCta,
+}: DeclensionQuizInlineProps) {
   const { landingLanguage } = useLandingLanguage();
   const {
     currentQuestion,
@@ -54,26 +59,31 @@ export function DeclensionQuizInline({ word, translations: t, cases, leadMagnetC
     startQuiz();
   }, [startQuiz]);
 
-  const handleSelectAnswer = useCallback((answer: string) => {
-    if (showResult) return;
-    selectAnswer(answer);
-    if (answer !== currentQuestion?.correctAnswer) {
-      setShakeAnswer(answer);
-      setTimeout(() => setShakeAnswer(null), 300);
-    }
-  }, [showResult, selectAnswer, currentQuestion]);
+  const handleSelectAnswer = useCallback(
+    (answer: string) => {
+      if (showResult) return;
+      selectAnswer(answer);
+      if (answer !== currentQuestion?.correctAnswer) {
+        setShakeAnswer(answer);
+        setTimeout(() => setShakeAnswer(null), 300);
+      }
+    },
+    [showResult, selectAnswer, currentQuestion]
+  );
 
-  const score = results.length > 0
-    ? Math.round((results.filter((r) => r.isCorrect).length / results.length) * 100)
-    : 0;
+  const score =
+    results.length > 0
+      ? Math.round((results.filter((r) => r.isCorrect).length / results.length) * 100)
+      : 0;
 
   if (showResults) {
     return (
       <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
-        <h3 className="mb-1 text-center text-lg font-bold text-gray-800">
-          {t.score}
-        </h3>
-        <p className="mb-6 text-center text-4xl font-bold" style={{ color: score >= 60 ? '#10B981' : '#EF4444' }}>
+        <h3 className="mb-1 text-center text-lg font-bold text-gray-800">{t.score}</h3>
+        <p
+          className="mb-6 text-center text-4xl font-bold"
+          style={{ color: score >= 60 ? '#10B981' : '#EF4444' }}
+        >
           {score}%
         </p>
 
@@ -82,7 +92,10 @@ export function DeclensionQuizInline({ word, translations: t, cases, leadMagnetC
             <div
               key={i}
               className="flex items-center gap-3 rounded-lg border px-3 py-2"
-              style={{ borderLeftWidth: '3px', borderLeftColor: r.isCorrect ? '#10B981' : '#EF4444' }}
+              style={{
+                borderLeftWidth: '3px',
+                borderLeftColor: r.isCorrect ? '#10B981' : '#EF4444',
+              }}
             >
               {r.isCorrect ? (
                 <CheckCircle2 size={18} className="flex-shrink-0 text-emerald-500" />
@@ -91,7 +104,9 @@ export function DeclensionQuizInline({ word, translations: t, cases, leadMagnetC
               )}
               <div className="min-w-0 flex-1">
                 <div className="flex items-center gap-2">
-                  <span className="font-medium text-gray-800" lang="ru">{r.base_form}</span>
+                  <span className="font-medium text-gray-800" lang="ru">
+                    {r.base_form}
+                  </span>
                   <span className="text-gray-400">→</span>
                   <span
                     className={`font-medium ${r.isCorrect ? 'text-emerald-600' : 'text-red-600'}`}
@@ -100,10 +115,14 @@ export function DeclensionQuizInline({ word, translations: t, cases, leadMagnetC
                     {r.isCorrect ? r.correctAnswer : r.userAnswer}
                   </span>
                   {!r.isCorrect && (
-                    <span className="text-sm text-gray-400" lang="ru">({r.correctAnswer})</span>
+                    <span className="text-sm text-gray-400" lang="ru">
+                      ({r.correctAnswer})
+                    </span>
                   )}
                 </div>
-                <span className="text-xs text-gray-500">{r.caseLabel} · {r.numberLabel}</span>
+                <span className="text-xs text-gray-500">
+                  {r.caseLabel} · {r.numberLabel}
+                </span>
               </div>
             </div>
           ))}
@@ -141,11 +160,15 @@ export function DeclensionQuizInline({ word, translations: t, cases, leadMagnetC
 
       {/* Word card */}
       <div
-        className={`mb-3 flex min-h-[5.25rem] flex-col items-center justify-center gap-2 rounded-xl border-2 px-4 py-[1.125rem] text-center ${genderColors[word.gender] ?? 'bg-gray-50 text-gray-800 border-gray-200'}`}
+        className={`mb-3 flex min-h-[5.25rem] flex-col items-center justify-center gap-2 rounded-xl border-2 px-4 py-[1.125rem] text-center ${genderColors[word.gender] ?? 'border-gray-200 bg-gray-50 text-gray-800'}`}
       >
-        <span className="text-[1.625rem] font-bold leading-tight" lang="ru">{currentQuestion.base_form}</span>
+        <span className="text-[1.625rem] leading-tight font-bold" lang="ru">
+          {currentQuestion.base_form}
+        </span>
         {currentQuestion.translationHint ? (
-          <span className="text-[0.875rem] italic text-gray-500">{currentQuestion.translationHint}</span>
+          <span className="text-[0.875rem] text-gray-500 italic">
+            {currentQuestion.translationHint}
+          </span>
         ) : null}
       </div>
 
@@ -157,9 +180,11 @@ export function DeclensionQuizInline({ word, translations: t, cases, leadMagnetC
       {/* Answer buttons */}
       <div className="grid grid-cols-2 gap-2.5" aria-live="polite">
         {currentQuestion.allAnswers.map((answer) => {
-          let btnClass = 'rounded-lg border-2 px-3 py-[0.9375rem] text-center text-[1.125rem] font-medium leading-snug transition-all duration-150 ';
+          let btnClass =
+            'rounded-lg border-2 px-3 py-[0.9375rem] text-center text-[1.125rem] font-medium leading-snug transition-all duration-150 ';
           if (!showResult) {
-            btnClass += 'border-gray-200 bg-white text-gray-800 hover:border-blue-500 cursor-pointer';
+            btnClass +=
+              'border-gray-200 bg-white text-gray-800 hover:border-blue-500 cursor-pointer';
           } else if (answer.isCorrect) {
             btnClass += 'border-emerald-400 bg-emerald-50 text-emerald-700';
           } else if (answer.form === selectedAnswer) {
@@ -184,8 +209,12 @@ export function DeclensionQuizInline({ word, translations: t, cases, leadMagnetC
       </div>
 
       {/* Feedback above Next */}
-      <div className={`mt-3 flex flex-col items-center justify-center gap-2 ${showResult ? 'visible' : 'invisible'}`}>
-        <p className={`min-h-[1.25rem] text-center text-sm font-semibold ${isCorrectAnswer ? 'text-emerald-600' : 'text-red-500'}`}>
+      <div
+        className={`mt-3 flex flex-col items-center justify-center gap-2 ${showResult ? 'visible' : 'invisible'}`}
+      >
+        <p
+          className={`min-h-[1.25rem] text-center text-sm font-semibold ${isCorrectAnswer ? 'text-emerald-600' : 'text-red-500'}`}
+        >
           {showResult ? (isCorrectAnswer ? t.correct : t.incorrect) : '\u00A0'}
         </p>
         <button

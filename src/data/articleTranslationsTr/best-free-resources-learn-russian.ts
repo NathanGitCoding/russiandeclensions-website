@@ -4,8 +4,7 @@ import type { LearnArticle } from '../learnArticles';
 export const bestFreeResourcesLearnRussianTr: LearnArticle = {
   slug: 'best-free-resources-learn-russian',
   title: "2026'da Rusça öğrenmek için en iyi 15 ücretsiz kaynak",
-  metaTitle:
-    "2026'da Rusça öğrenmek için en iyi 15 ücretsiz kaynak | Russian Cases with Anna",
+  metaTitle: "2026'da Rusça öğrenmek için en iyi 15 ücretsiz kaynak | Russian Cases with Anna",
   metaDescription:
     '2026 için Rusça öğrenmeye yönelik ücretsiz araçlar, uygulamalar, siteler, YouTube kanalları ve podcast’lerin tam listesi. Dilbilgisinden konuşmaya — hepsi %100 ücretsiz.',
   keywords: [
@@ -19,7 +18,7 @@ export const bestFreeResourcesLearnRussianTr: LearnArticle = {
   h1: "2026'da Rusça öğrenmek için en iyi 15 ücretsiz kaynak",
   heroImage: {
     src: '/articles/top-10-apps-to-learn-russian-2026.webp',
-    alt: "2026 için Rusça öğrenmeye yönelik en iyi 15 ücretsiz kaynak",
+    alt: '2026 için Rusça öğrenmeye yönelik en iyi 15 ücretsiz kaynak',
     width: 1200,
     height: 630,
   },
@@ -149,10 +148,7 @@ export const bestFreeResourcesLearnRussianTr: LearnArticle = {
           h3: '10. Russian with Max — sürükleyici anlatı',
           content:
             '**Russian with Max** YouTube’da Rusça öğrenmek için en popüler kanallardan biridir. Max doğal tempoda baştan sona Rusça konuşur; **hem Rusça hem İngilizce altyazı** kullanır. Konular günlük yaşamdan kültür ve seyahate uzanır.\n\n**Dalma tarzı öğrenme** için mükemmel — ilginç içerik dinlerken dilbilgisi ve kelime doğal olarak işlenir.',
-          bullets: [
-            '**Kimler için:** dalmaya hazır orta seviye öğrenciler',
-            '**Aboneler:** 600K+',
-          ],
+          bullets: ['**Kimler için:** dalmaya hazır orta seviye öğrenciler', '**Aboneler:** 600K+'],
         },
         {
           h3: '11. Be Fluent in Russian (Fedor) — dilbilgisi açıklamaları',
@@ -237,28 +233,23 @@ export const bestFreeResourcesLearnRussianTr: LearnArticle = {
     '**Bağlamda okuyun:** Reverso Context ve Clozemaster gerçek cümleler sunar',
     '**Tutarlı olun:** günde 15 dakika, haftada bir 2 saatten iyidir',
   ],
-  conclusionOutro:
-    'Dilbilgisini derinleştirmek için rehberlerimize göz atın:',
+  conclusionOutro: 'Dilbilgisini derinleştirmek için rehberlerimize göz atın:',
   internalLinks: [
     {
       href: '/learn/lessons/russian-cases-complete-guide',
-      label:
-        'Rus hâllerine tam rehber — 6 hâl açıklamalı',
+      label: 'Rus hâllerine tam rehber — 6 hâl açıklamalı',
     },
     {
       href: '/learn/articles/russian-case-endings-cheatsheet',
-      label:
-        'Rusça hâl ekleri özet tablosu — başvuru şeması',
+      label: 'Rusça hâl ekleri özet tablosu — başvuru şeması',
     },
     {
       href: '/practice',
-      label:
-        'Ücretsiz çekim pratik sınavı — 400+ kelimeyle kendinizi test edin',
+      label: 'Ücretsiz çekim pratik sınavı — 400+ kelimeyle kendinizi test edin',
     },
     {
       href: '/words',
-      label:
-        '400+ Rusça kelimeye göz atın — tam çekim tabloları',
+      label: '400+ Rusça kelimeye göz atın — tam çekim tabloları',
     },
   ],
   ctaText: 'Rus çekimlerini şimdi pratik etmeye başlayın',
@@ -302,8 +293,7 @@ export const bestFreeResourcesLearnRussianTr: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/best-free-resources-learn-russian',
+      '@id': 'https://russiandeclensions.com/learn/articles/best-free-resources-learn-russian',
     },
     keywords:
       'ücretsiz Rusça kaynak, bedava Rusça öğren, Rusça siteler, ücretsiz Rusça uygulamalar, Rusça araçlar 2026',

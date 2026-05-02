@@ -237,28 +237,23 @@ export const bestFreeResourcesLearnRussianPl: LearnArticle = {
     '**Czytaj w kontekście:** Reverso Context i Clozemaster pokazują prawdziwe zdania',
     '**Bądź konsekwentny:** 15 minut dziennie pokonuje 2 godziny raz w tygodniu',
   ],
-  conclusionOutro:
-    'Po więcej materiałów gramatycznych zajrzyj do naszych przewodników:',
+  conclusionOutro: 'Po więcej materiałów gramatycznych zajrzyj do naszych przewodników:',
   internalLinks: [
     {
       href: '/learn/lessons/russian-cases-complete-guide',
-      label:
-        'Kompletny przewodnik po rosyjskich przypadkach — wszystkie 6 wyjaśnione',
+      label: 'Kompletny przewodnik po rosyjskich przypadkach — wszystkie 6 wyjaśnione',
     },
     {
       href: '/learn/articles/russian-case-endings-cheatsheet',
-      label:
-        'Ściąga z końcówek przypadków — tabela referencyjna',
+      label: 'Ściąga z końcówek przypadków — tabela referencyjna',
     },
     {
       href: '/practice',
-      label:
-        'Darmowy quiz ćwiczeniowy deklinacji — sprawdź się na 400+ słowach',
+      label: 'Darmowy quiz ćwiczeniowy deklinacji — sprawdź się na 400+ słowach',
     },
     {
       href: '/words',
-      label:
-        'Przeglądaj 400+ słów rosyjskich — pełne tabele deklinacji',
+      label: 'Przeglądaj 400+ słów rosyjskich — pełne tabele deklinacji',
     },
   ],
   ctaText: 'Zacznij ćwiczyć rosyjską deklinację teraz',
@@ -270,14 +265,12 @@ export const bestFreeResourcesLearnRussianPl: LearnArticle = {
         'Tak. Wszystkie 15 zasobów w tym artykule ma **darmowy poziom** lub jest w całości darmowych. Możesz zbudować solidne podstawy gramatyki, słownictwa i słuchu bez wydawania pieniędzy. Niektóre aplikacje mają funkcje premium, ale wersje darmowe wystarczają większości uczących się.',
     },
     {
-      question:
-        'Jaki jest jeden najlepszy darmowy zasób do gramatyki rosyjskiej?',
+      question: 'Jaki jest jeden najlepszy darmowy zasób do gramatyki rosyjskiej?',
       answer:
         'Do **gramatyki** polecamy **Russian Cases with Anna** — jedyną aplikację w 100% skupioną na deklinacji i przypadkach, z 128 lekcjami i 136 quizami. Możesz też użyć **darmowego quizu online** na russiandeclensions.com/practice bez pobierania czegokolwiek.',
     },
     {
-      question:
-        'Ile czasu zajmuje nauka rosyjskiego z darmowych zasobów?',
+      question: 'Ile czasu zajmuje nauka rosyjskiego z darmowych zasobów?',
       answer:
         'Według FSI (Foreign Service Institute) osoby mówiące po angielsku potrzebują około **1100 godzin**, żeby osiągnąć biegłość zawodową w rosyjskim. Przy **regularnej codziennej praktyce** 30–60 minut z zasobami z tego przewodnika poziom konwersacyjny (B1) jest realny w około **12–18 miesięcy**.',
     },
@@ -287,8 +280,7 @@ export const bestFreeResourcesLearnRussianPl: LearnArticle = {
         'Tak, **alfabet cyrylicki** jest niezbędny i powinien być pierwszym krokiem. Dobra wiadomość: zwykle wystarczy **1–2 tygodnie** praktyki. Aplikacje takie jak Duolingo i Russian Cases with Anna uczą alfabetu w lekcjach dla początkujących.',
     },
     {
-      question:
-        'Który darmowy zasób jest najlepszy do słuchania?',
+      question: 'Który darmowy zasób jest najlepszy do słuchania?',
       answer:
         'Do słuchania polecamy **Slow Russian Podcast** (dla początkujących — wolna, wyraźna mowa z transkryptami) oraz **Russian with Max** na YouTube (dla średnio zaawansowanych — naturalna mowa z podwójnymi napisami). Zacznij wolno i zwiększaj tempo.',
     },
@@ -296,8 +288,7 @@ export const bestFreeResourcesLearnRussianPl: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      '15 najlepszych darmowych zasobów do nauki rosyjskiego w 2026 roku',
+    headline: '15 najlepszych darmowych zasobów do nauki rosyjskiego w 2026 roku',
     description:
       'Kompletna lista darmowych narzędzi, aplikacji, stron, kanałów YouTube i podcastów do nauki rosyjskiego w 2026 — 15 zasobów pogrupowanych według kategorii.',
     datePublished: '2026-03-22',
@@ -306,8 +297,7 @@ export const bestFreeResourcesLearnRussianPl: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/best-free-resources-learn-russian',
+      '@id': 'https://russiandeclensions.com/learn/articles/best-free-resources-learn-russian',
     },
     keywords:
       'darmowe zasoby rosyjski, rosyjski za darmo, strony rosyjski, darmowe aplikacje rosyjski, narzędzia rosyjski 2026',

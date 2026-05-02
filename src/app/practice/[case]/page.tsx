@@ -86,7 +86,7 @@ const CASE_PAGES: Record<string, CasePageData> = {
     },
     examples: [
       { word: 'вода', form: 'воды', sentence: 'Стакан воды (A glass of water)' },
-      { word: 'книга', form: 'книги', sentence: 'У меня нет книги (I don\'t have a book)' },
+      { word: 'книга', form: 'книги', sentence: "У меня нет книги (I don't have a book)" },
       { word: 'город', form: 'города', sentence: 'Центр города (City center)' },
     ],
   },
@@ -149,7 +149,7 @@ const CASE_PAGES: Record<string, CasePageData> = {
     },
     examples: [
       { word: 'Москва', form: 'Москве', sentence: 'Я живу в Москве (I live in Moscow)' },
-      { word: 'работа', form: 'работе', sentence: 'Я думаю о работе (I\'m thinking about work)' },
+      { word: 'работа', form: 'работе', sentence: "Я думаю о работе (I'm thinking about work)" },
       { word: 'стол', form: 'столе', sentence: 'Книга на столе (The book is on the table)' },
     ],
   },
@@ -165,7 +165,7 @@ const CASE_PAGE_KEYS = Object.keys(CASE_PAGES);
     throw new Error(
       `practice CASE_PAGES keys must match PRACTICE_CASE_SLUGS (see src/lib/practiceCaseSlugs.ts).\n` +
         `CASE_PAGES: ${CASE_PAGE_KEYS.sort().join(', ')}\n` +
-        `PRACTICE_CASE_SLUGS: ${[...PRACTICE_CASE_SLUGS].sort().join(', ')}`,
+        `PRACTICE_CASE_SLUGS: ${[...PRACTICE_CASE_SLUGS].sort().join(', ')}`
     );
   }
 }
@@ -206,14 +206,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     alternates: {
       canonical: `/practice/${data.slug}`,
       languages: {
-        'en': `/practice/${data.slug}`,
-        'fr': `/practice/${data.slug}`,
-        'de': `/practice/${data.slug}`,
-        'pl': `/practice/${data.slug}`,
-        'es': `/practice/${data.slug}`,
-        'it': `/practice/${data.slug}`,
-        'pt': `/practice/${data.slug}`,
-        'nl': `/practice/${data.slug}`,
+        en: `/practice/${data.slug}`,
+        fr: `/practice/${data.slug}`,
+        de: `/practice/${data.slug}`,
+        pl: `/practice/${data.slug}`,
+        es: `/practice/${data.slug}`,
+        it: `/practice/${data.slug}`,
+        pt: `/practice/${data.slug}`,
+        nl: `/practice/${data.slug}`,
         'x-default': `/practice/${data.slug}`,
       },
     },
@@ -346,9 +346,7 @@ export default async function CasePracticePage({ params }: PageProps) {
         /* Nominative is the base form — no quiz, but educational content + CTA */
         <section className="container mx-auto px-4 py-8 sm:px-6 sm:py-12">
           <div className="mx-auto max-w-lg rounded-2xl border border-blue-100 bg-blue-50 p-6 text-center">
-            <h2 className="mb-2 text-lg font-bold text-gray-800">
-              Ready to Practice?
-            </h2>
+            <h2 className="mb-2 text-lg font-bold text-gray-800">Ready to Practice?</h2>
             <p className="mb-4 text-sm text-gray-600">
               The nominative is the base form of Russian nouns. Our quiz tests your ability to
               transform nominative forms into the other 5 cases. Start practicing now!
@@ -386,7 +384,7 @@ export default async function CasePracticePage({ params }: PageProps) {
           <div className="mb-6 overflow-hidden rounded-xl border border-gray-200">
             <table className="w-full text-sm">
               <thead>
-                <tr className="bg-gray-50 text-left text-xs font-semibold uppercase tracking-wider text-gray-500">
+                <tr className="bg-gray-50 text-left text-xs font-semibold tracking-wider text-gray-500 uppercase">
                   <th className="px-4 py-3">Gender</th>
                   <th className="px-4 py-3">Singular</th>
                   <th className="px-4 py-3">Plural</th>
@@ -409,9 +407,7 @@ export default async function CasePracticePage({ params }: PageProps) {
           </div>
 
           {/* Examples */}
-          <h3 className="mb-3 text-base font-semibold text-gray-700">
-            Examples
-          </h3>
+          <h3 className="mb-3 text-base font-semibold text-gray-700">Examples</h3>
           <div className="space-y-2">
             {data.examples.map(({ word, form, sentence }, i) => (
               <div
@@ -420,11 +416,17 @@ export default async function CasePracticePage({ params }: PageProps) {
               >
                 <div className="min-w-0 flex-1">
                   <p className="text-sm text-gray-800">
-                    <span className="font-medium" lang="ru">{word}</span>
+                    <span className="font-medium" lang="ru">
+                      {word}
+                    </span>
                     <span className="mx-2 text-gray-400">&rarr;</span>
-                    <span className="font-semibold text-blue-700" lang="ru">{form}</span>
+                    <span className="font-semibold text-blue-700" lang="ru">
+                      {form}
+                    </span>
                   </p>
-                  <p className="mt-0.5 text-xs text-gray-500" lang="ru">{sentence}</p>
+                  <p className="mt-0.5 text-xs text-gray-500" lang="ru">
+                    {sentence}
+                  </p>
                 </div>
               </div>
             ))}

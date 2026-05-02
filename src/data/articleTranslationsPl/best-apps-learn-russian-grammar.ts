@@ -3,8 +3,7 @@ import type { LearnArticle } from '../learnArticles';
 /** Tłumaczenie PL artykułu `best-apps-learn-russian-grammar` (źródło EN: `learnArticles.ts`). Fragmenty rosyjskie jak w źródle. */
 export const bestAppsLearnRussianGrammarPl: LearnArticle = {
   slug: 'best-apps-learn-russian-grammar',
-  title:
-    'Najlepsze aplikacje do nauki gramatyki rosyjskiej w 2026 r. (szczera recenzja)',
+  title: 'Najlepsze aplikacje do nauki gramatyki rosyjskiej w 2026 r. (szczera recenzja)',
   metaTitle:
     'Najlepsze aplikacje do gramatyki rosyjskiej 2026 — szczera recenzja | Russian Cases with Anna',
   metaDescription:
@@ -30,8 +29,7 @@ export const bestAppsLearnRussianGrammarPl: LearnArticle = {
   items: [
     {
       rank: 1,
-      title:
-        'Russian Cases with Anna — najlepsza aplikacja do rosyjskich przypadków i deklinacji',
+      title: 'Russian Cases with Anna — najlepsza aplikacja do rosyjskich przypadków i deklinacji',
       description:
         'Jeśli celem nr 1 jest **opanowanie rosyjskich przypadków i deklinacji**, to jest ta aplikacja. Tam, gdzie inne tylko wspominają o przypadkach, Russian Cases with Anna jest wokół nich zbudowana w całości. Masz uporządkowane lekcje dla każdego z 6 przypadków, potem szybkie quizy z ponad 400 rzeczywistymi rzeczownikami. Aplikacja śledzi trafność, podświetla słabe miejsca i dostosowuje trudność. Obejmuje też liczbę pojedynczą i mnogą — czego większość aplikacji w ogóle nie ma.\n\n**Darmowy quiz online** na russiandeclensions.com pozwala ćwiczyć wybrane przypadki (biernik, dopełniacz, celownik, narzędnik, miejscownik) bez instalowania czegokolwiek. Dla pasjonatów gramatyki i poważnych uczących się to złoty standard.',
       image: {
@@ -369,8 +367,7 @@ export const bestAppsLearnRussianGrammarPl: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      'Najlepsze aplikacje do nauki gramatyki rosyjskiej w 2026 r. (szczera recenzja)',
+    headline: 'Najlepsze aplikacje do nauki gramatyki rosyjskiej w 2026 r. (szczera recenzja)',
     description:
       'Szczera recenzja 8 aplikacji uczących gramatyki rosyjskiej — przypadki, koniugacja, składnia. Tabela porównawcza i polecane zestawy nauki.',
     datePublished: '2026-03-22',
@@ -379,8 +376,7 @@ export const bestAppsLearnRussianGrammarPl: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/best-apps-learn-russian-grammar',
+      '@id': 'https://russiandeclensions.com/learn/articles/best-apps-learn-russian-grammar',
     },
     keywords:
       'najlepsze aplikacje gramatyka rosyjska, aplikacja gramatyka rosyjska, aplikacja przypadki rosyjskie, nauka gramatyki rosyjskiej 2026',

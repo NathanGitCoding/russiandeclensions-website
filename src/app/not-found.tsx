@@ -43,7 +43,7 @@ export default function NotFound() {
       </div>
 
       <div className="mt-12 w-full max-w-lg">
-        <h2 className="mb-4 text-center text-sm font-semibold uppercase tracking-wider text-gray-400">
+        <h2 className="mb-4 text-center text-sm font-semibold tracking-wider text-gray-400 uppercase">
           Popular Declensions
         </h2>
         <div className="flex flex-wrap justify-center gap-3">

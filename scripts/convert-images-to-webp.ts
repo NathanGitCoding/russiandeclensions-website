@@ -29,9 +29,7 @@ async function convertToWebp(inputPath: string): Promise<void> {
   const relativePath = inputPath.replace(process.cwd(), '');
 
   try {
-    await sharp(inputPath)
-      .webp({ quality: 85 })
-      .toFile(webpPath);
+    await sharp(inputPath).webp({ quality: 85 }).toFile(webpPath);
 
     const inputSize = (statSync(inputPath).size / 1024).toFixed(1);
     const outputSize = (statSync(webpPath).size / 1024).toFixed(1);

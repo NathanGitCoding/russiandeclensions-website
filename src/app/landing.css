@@ -355,7 +355,9 @@
   border: 1px solid hsl(210 60% 90%);
   border-radius: 0.75rem;
   text-decoration: none;
-  transition: border-color 0.15s, box-shadow 0.15s;
+  transition:
+    border-color 0.15s,
+    box-shadow 0.15s;
 }
 .learn-detail-related-card:hover {
   border-color: hsl(210 100% 70%);
@@ -961,11 +963,22 @@ p + .learn-detail-bullets {
 /* ─── Declension Quiz ─── */
 
 @keyframes quiz-shake {
-  0%, 100% { transform: translateX(0); }
-  20% { transform: translateX(-4px); }
-  40% { transform: translateX(4px); }
-  60% { transform: translateX(-3px); }
-  80% { transform: translateX(3px); }
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-4px);
+  }
+  40% {
+    transform: translateX(4px);
+  }
+  60% {
+    transform: translateX(-3px);
+  }
+  80% {
+    transform: translateX(3px);
+  }
 }
 .quiz-answer-shake {
   animation: quiz-shake 0.3s ease-in-out;
@@ -1018,7 +1031,9 @@ p + .learn-detail-bullets {
   border: none;
   border-radius: 0.5rem;
   cursor: pointer;
-  transition: transform 0.15s, box-shadow 0.15s;
+  transition:
+    transform 0.15s,
+    box-shadow 0.15s;
 }
 .quiz-trigger-cta:hover {
   transform: translateY(-1px);

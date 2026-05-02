@@ -2,8 +2,7 @@ import type { LearnArticle } from './learnArticles';
 
 export const torflTrkiLearnArticlePlPl: LearnArticle = {
   slug: 'torfl-trki-russian-language-exam-guide',
-  title:
-    'Egzamin TORFL (ТРКИ): Kompletny przewodnik po teście znajomości języka rosyjskiego',
+  title: 'Egzamin TORFL (ТРКИ): Kompletny przewodnik po teście znajomości języka rosyjskiego',
   metaTitle:
     'Przewodnik TORFL (ТРКИ) — poziomy, format, przygotowanie i rejestracja | Russian Cases with Anna',
   metaDescription:
@@ -37,17 +36,52 @@ export const torflTrkiLearnArticlePlPl: LearnArticle = {
     },
     {
       h2: '6 poziomów TORFL wyjaśnione',
-      content:
-        'TORFL ma 6 poziomów zgodnych z CEFR. Każdy poziom ma oficjalny skrót rosyjski:',
+      content: 'TORFL ma 6 poziomów zgodnych z CEFR. Każdy poziom ma oficjalny skrót rosyjski:',
       table: {
         headers: ['Poziom', 'Nazwa rosyjska', 'CEFR', 'Co potwierdza', 'Dla kogo'],
         rows: [
-          ['ТЭУ', 'Элементарный уровень', 'A1', 'Podstawowy rosyjski w codzienności', 'Początkujący potwierdzający pierwsze postępy'],
-          ['ТБУ', 'Базовый уровень', 'A2', 'Sytuacje codzienne', 'Wymagany do zezwolenia na pobyt czasowy'],
-          ['ТРКИ-1', 'Первый уровень', 'B1', 'Sprawność konwersacyjna', 'Obywatelstwo rosyjskie i większość uczelni'],
-          ['ТРКИ-2', 'Второй уровень', 'B2', 'Poziom zawodowy', 'Studia podyplomowe i wiele zawodów'],
-          ['ТРКИ-3', 'Третий уровень', 'C1', 'Zaawansowana sprawność akademicka', 'Doktorat, tłumacze, nauczyciele'],
-          ['ТРКИ-4', 'Четвёртый уровень', 'C2', 'Biegłość bliska native speakerowi', 'Tłumacze przysięgli i filologowie'],
+          [
+            'ТЭУ',
+            'Элементарный уровень',
+            'A1',
+            'Podstawowy rosyjski w codzienności',
+            'Początkujący potwierdzający pierwsze postępy',
+          ],
+          [
+            'ТБУ',
+            'Базовый уровень',
+            'A2',
+            'Sytuacje codzienne',
+            'Wymagany do zezwolenia na pobyt czasowy',
+          ],
+          [
+            'ТРКИ-1',
+            'Первый уровень',
+            'B1',
+            'Sprawność konwersacyjna',
+            'Obywatelstwo rosyjskie i większość uczelni',
+          ],
+          [
+            'ТРКИ-2',
+            'Второй уровень',
+            'B2',
+            'Poziom zawodowy',
+            'Studia podyplomowe i wiele zawodów',
+          ],
+          [
+            'ТРКИ-3',
+            'Третий уровень',
+            'C1',
+            'Zaawansowana sprawność akademicka',
+            'Doktorat, tłumacze, nauczyciele',
+          ],
+          [
+            'ТРКИ-4',
+            'Четвёртый уровень',
+            'C2',
+            'Biegłość bliska native speakerowi',
+            'Tłumacze przysięgli i filologowie',
+          ],
         ],
         caption: 'Poziomy TORFL, odpowiedniki CEFR i zastosowania',
         boldColumnIndices: [0],
@@ -144,8 +178,7 @@ export const torflTrkiLearnArticlePlPl: LearnArticle = {
     },
     {
       h2: 'Jak przygotować się do egzaminu TORFL',
-      content:
-        'Czas zależy od poziomu, strategia jest podobna:',
+      content: 'Czas zależy od poziomu, strategia jest podobna:',
       subsections: [
         {
           h3: 'Krok 1: Oceń swój poziom',
@@ -181,10 +214,14 @@ export const torflTrkiLearnArticlePlPl: LearnArticle = {
     },
     {
       h2: 'Koszty, rejestracja, logistyka',
-      content:
-        'Opłaty zależą od kraju, poziomu i ośrodka. Przybliżone widełki:',
+      content: 'Opłaty zależą od kraju, poziomu i ośrodka. Przybliżone widełki:',
       table: {
-        headers: ['Poziom', 'Orientacyjna opłata (Rosja)', 'Orientacyjna opłata (zagranica)', 'Czas trwania'],
+        headers: [
+          'Poziom',
+          'Orientacyjna opłata (Rosja)',
+          'Orientacyjna opłata (zagranica)',
+          'Czas trwania',
+        ],
         rows: [
           ['ТЭУ (A1)', '3 500–5 000 ₽ (~40–55 $)', '80–150 $', '~2,5 godz.'],
           ['ТБУ (A2)', '4 000–6 000 ₽ (~45–65 $)', '100–180 $', '~3 godz.'],
@@ -206,14 +243,28 @@ export const torflTrkiLearnArticlePlPl: LearnArticle = {
     },
     {
       h2: 'TORFL a inne certyfikaty z rosyjskiego',
-      content:
-        'TORFL nie jest jedynym certyfikatem, ale zdecydowanie najbardziej rozpoznawalnym:',
+      content: 'TORFL nie jest jedynym certyfikatem, ale zdecydowanie najbardziej rozpoznawalnym:',
       table: {
         headers: ['Certyfikat', 'Wydawca', 'Uznanie', 'Najlepiej dla'],
         rows: [
-          ['TORFL (ТРКИ)', 'Rosyjskie Ministerstwo Edukacji', 'Państwo, uczelnie, pracodawcy na świecie', 'Obywatelstwo, studia, zawód'],
-          ['ECL Russian', 'European Consortium for the Certificate of Attainment in Modern Languages', 'Kraje UE', 'Uznanie akademickie w Europie'],
-          ['TELC Russian', 'telc GmbH (Niemcy)', 'Głównie kraje niemieckojęzyczne', 'Migracja do DE/AT z rosyjskim'],
+          [
+            'TORFL (ТРКИ)',
+            'Rosyjskie Ministerstwo Edukacji',
+            'Państwo, uczelnie, pracodawcy na świecie',
+            'Obywatelstwo, studia, zawód',
+          ],
+          [
+            'ECL Russian',
+            'European Consortium for the Certificate of Attainment in Modern Languages',
+            'Kraje UE',
+            'Uznanie akademickie w Europie',
+          ],
+          [
+            'TELC Russian',
+            'telc GmbH (Niemcy)',
+            'Głównie kraje niemieckojęzyczne',
+            'Migracja do DE/AT z rosyjskim',
+          ],
         ],
         caption: 'Porównanie certyfikatów znajomości języka rosyjskiego',
         boldColumnIndices: [0],
@@ -240,8 +291,7 @@ export const torflTrkiLearnArticlePlPl: LearnArticle = {
     },
     {
       question: 'Jaki poziom TORFL do obywatelstwa rosyjskiego?',
-      answer:
-        'Minimum ТРКИ-1 (B1). Do zezwolenia na pobyt czasowy (РВП) wystarcza ТБУ (A2).',
+      answer: 'Minimum ТРКИ-1 (B1). Do zezwolenia na pobyt czasowy (РВП) wystarcza ТБУ (A2).',
     },
     {
       question: 'Czy TORFL jest trudny?',
@@ -279,14 +329,16 @@ export const torflTrkiLearnArticlePlPl: LearnArticle = {
     { href: '/practice/instrumental', label: 'Ćwicz narzędnik' },
     { href: '/practice/prepositional', label: 'Ćwicz miejscownik' },
     { href: '/learn/articles/how-long-learn-russian', label: 'Ile trwa nauka rosyjskiego?' },
-    { href: '/learn/articles/russian-cases-explained-beginners-guide', label: 'Rosyjskie przypadki wyjaśnione: przewodnik dla początkujących' },
+    {
+      href: '/learn/articles/russian-cases-explained-beginners-guide',
+      label: 'Rosyjskie przypadki wyjaśnione: przewodnik dla początkujących',
+    },
     { href: '/words', label: 'Przeglądaj ponad 400 tabel deklinacji' },
   ],
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline:
-      'Egzamin TORFL (ТРКИ): Kompletny przewodnik po teście znajomości języka rosyjskiego',
+    headline: 'Egzamin TORFL (ТРКИ): Kompletny przewodnik po teście znajomości języka rosyjskiego',
     description:
       'Kompletny przewodnik TORFL (ТРКИ): 6 poziomów, format w 5 częściach, przygotowanie gramatyczne, ośrodki, koszty, rejestracja.',
     datePublished: '2026-03-22',
@@ -295,8 +347,7 @@ export const torflTrkiLearnArticlePlPl: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/torfl-trki-russian-language-exam-guide',
+      '@id': 'https://russiandeclensions.com/learn/articles/torfl-trki-russian-language-exam-guide',
     },
     keywords:
       'egzamin TORFL, ТРКИ, przygotowanie TORFL, test rosyjskiego, poziomy TORFL, rosyjski jako obcy',

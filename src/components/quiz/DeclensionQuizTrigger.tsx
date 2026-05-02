@@ -33,7 +33,13 @@ interface DeclensionQuizTriggerProps {
   suppressHeading?: boolean;
 }
 
-export function DeclensionQuizTrigger({ word, translations: t, cases, leadMagnetCta, suppressHeading }: DeclensionQuizTriggerProps) {
+export function DeclensionQuizTrigger({
+  word,
+  translations: t,
+  cases,
+  leadMagnetCta,
+  suppressHeading,
+}: DeclensionQuizTriggerProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   const open = useCallback(() => setIsOpen(true), []);
@@ -41,15 +47,23 @@ export function DeclensionQuizTrigger({ word, translations: t, cases, leadMagnet
 
   return (
     <>
-      <aside className="quiz-trigger" aria-labelledby={suppressHeading ? undefined : 'quiz-trigger-heading'}>
+      <aside
+        className="quiz-trigger"
+        aria-labelledby={suppressHeading ? undefined : 'quiz-trigger-heading'}
+      >
         <div className="quiz-trigger-icon">
           <GraduationCap size={28} />
         </div>
         <div>
           {suppressHeading ? (
-            <p className="text-base font-semibold text-[hsl(var(--foreground))]">{t.triggerTitle}</p>
+            <p className="text-base font-semibold text-[hsl(var(--foreground))]">
+              {t.triggerTitle}
+            </p>
           ) : (
-            <h2 id="quiz-trigger-heading" className="text-base font-semibold text-[hsl(var(--foreground))]">
+            <h2
+              id="quiz-trigger-heading"
+              className="text-base font-semibold text-[hsl(var(--foreground))]"
+            >
               {t.triggerTitle}
             </h2>
           )}

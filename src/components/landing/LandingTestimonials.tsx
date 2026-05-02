@@ -1,9 +1,16 @@
 'use client';
 
+import Image from 'next/image';
 import { Star } from 'lucide-react';
 import { useLandingLanguage } from '@/contexts/LandingLanguageContext';
 import { getLandingTranslations } from '@/data/website/landingTranslations';
 import { AnimateOnScroll } from '@/components/landing/AnimateOnScroll';
+
+const TESTIMONIAL_AVATARS = [
+  '/landing-cases/testimonials/3.svg',
+  '/landing-cases/testimonials/1.svg',
+  '/landing-cases/testimonials/2.svg',
+] as const;
 
 export default function LandingTestimonials() {
   const { landingLanguage } = useLandingLanguage();
@@ -19,13 +26,17 @@ export default function LandingTestimonials() {
           <p className="text-base text-white/80 sm:text-lg">{t.testimonials.subtitle}</p>
         </AnimateOnScroll>
 
-        <AnimateOnScroll variant="fade-up" rootMargin="-30px" className="grid grid-cols-1 gap-6 md:grid-cols-3 md:gap-8">
-          {testimonials.map((testimonial) => (
+        <AnimateOnScroll
+          variant="fade-up"
+          rootMargin="-30px"
+          className="grid grid-cols-1 gap-6 md:grid-cols-3 md:gap-8"
+        >
+          {testimonials.map((testimonial, index) => (
             <div
               key={testimonial.name}
-              className="rounded-2xl border border-[hsl(210,20%,90%)] bg-white p-8 shadow-sm"
+              className="flex h-full flex-col gap-6 rounded-2xl border border-[hsl(210,20%,90%)] bg-white p-8 shadow-sm"
             >
-              <div className="mb-4 flex gap-1">
+              <div className="flex gap-1">
                 {[...Array(5)].map((_, j) => (
                   <Star
                     key={j}
@@ -33,10 +44,25 @@ export default function LandingTestimonials() {
                   />
                 ))}
               </div>
-              <p className="mb-6 leading-relaxed text-[hsl(220,20%,10%)]">&quot;{testimonial.text}&quot;</p>
-              <div>
-                <div className="font-semibold text-[hsl(220,20%,10%)]">{testimonial.name}</div>
-                <div className="text-sm text-[hsl(220,10%,40%)]">{testimonial.role}</div>
+              <p className="flex-1 leading-relaxed text-[hsl(220,20%,10%)]">
+                &quot;{testimonial.text}&quot;
+              </p>
+              <div className="flex shrink-0 items-center gap-4">
+                {TESTIMONIAL_AVATARS[index] != null ? (
+                  <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-full border border-[hsl(210,20%,88%)] bg-[hsl(210,20%,96%)] shadow-sm">
+                    <Image
+                      src={TESTIMONIAL_AVATARS[index]}
+                      alt={testimonial.name}
+                      fill
+                      sizes="56px"
+                      className="object-cover"
+                    />
+                  </div>
+                ) : null}
+                <div className="min-w-0">
+                  <div className="font-semibold text-[hsl(220,20%,10%)]">{testimonial.name}</div>
+                  <div className="text-sm text-[hsl(220,10%,40%)]">{testimonial.role}</div>
+                </div>
               </div>
             </div>
           ))}

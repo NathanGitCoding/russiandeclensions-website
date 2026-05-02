@@ -2,8 +2,7 @@ import type { LearnArticle } from '../learnArticles';
 
 export const russianCaseEndingsCheatsheetPl: LearnArticle = {
   slug: 'russian-case-endings-cheatsheet',
-  title:
-    'Rosyjskie końcówki przypadków: kompletna ściąga i tabela',
+  title: 'Rosyjskie końcówki przypadków: kompletna ściąga i tabela',
   metaTitle:
     'Ściąga końcówek przypadków rosyjskich | Pełna tabela deklinacji | Russian Cases with Anna',
   metaDescription:
@@ -44,13 +43,11 @@ export const russianCaseEndingsCheatsheetPl: LearnArticle = {
   internalLinks: [
     {
       href: '/learn/lessons/russian-cases-complete-guide',
-      label:
-        'Kompletny przewodnik po rosyjskich przypadkach: wszystkie 6 przypadków z przykładami',
+      label: 'Kompletny przewodnik po rosyjskich przypadkach: wszystkie 6 przypadków z przykładami',
     },
     {
       href: '/learn/lessons/dative-case-declension',
-      label:
-        'Rosyjski celownik: jak powiedzieć „do” i „dla” po rosyjsku',
+      label: 'Rosyjski celownik: jak powiedzieć „do” i „dla” po rosyjsku',
     },
   ],
   sections: [
@@ -399,8 +396,7 @@ export const russianCaseEndingsCheatsheetPl: LearnArticle = {
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id':
-        'https://russiandeclensions.com/learn/articles/russian-case-endings-cheatsheet',
+      '@id': 'https://russiandeclensions.com/learn/articles/russian-case-endings-cheatsheet',
     },
     keywords:
       'rosyjskie końcówki przypadków, tabela deklinacji rosyjskiej, ściąga przypadków, rosyjskie zaimki, przyimki i przypadki',

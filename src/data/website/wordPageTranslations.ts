@@ -133,7 +133,11 @@ export interface WordPageTranslations {
     howToStepName: (caseLabel: string) => string;
     howToStepText: (sg: string, pl: string, hint: string) => string;
     learningResourceName: (baseForm: string, translation: string) => string;
-    learningResourceDescription: (baseForm: string, genderLabel: string, typeLabel: string) => string;
+    learningResourceDescription: (
+      baseForm: string,
+      genderLabel: string,
+      typeLabel: string
+    ) => string;
     learningResourceType: string;
     educationalLevel: string;
   };
@@ -395,7 +399,8 @@ const wordPageMetaRu: WordPageMetaBundle = {
     tableName: (baseForm) => `Таблица склонений для ${baseForm}`,
     tableAbstract: (baseForm, typeLabel) =>
       `Полное склонение русского ${typeLabel} ${baseForm} по всем падежам (именительный, винительный, родительный, дательный, творительный, предложный, местный) в единственном и множественном числе.`,
-    howToName: (baseForm, translation) => `Как склонять ${baseForm} (${translation}) в русском языке`,
+    howToName: (baseForm, translation) =>
+      `Как склонять ${baseForm} (${translation}) в русском языке`,
     howToDescription: (baseForm, typeLabel) =>
       `Пошаговое руководство по склонению русского ${typeLabel} ${baseForm} во всех падежах.`,
     howToStepName: (caseLabel) => `${caseLabel} падеж`,
@@ -462,13 +467,11 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     },
     faq: {
       howToTranslate: (t) => `How to translate ${t} in Russian?`,
-      translateAnswer: (t, base, slug) =>
-        `The Russian word for "${t}" is **${base}** (${slug}).`,
+      translateAnswer: (t, base, slug) => `The Russian word for "${t}" is **${base}** (${slug}).`,
       whatIsMeaning: (base) => `What is the meaning of ${base}?`,
       meaningAnswer: (base, t, gender) =>
         `**${base}** means "${t}" in English. It is a ${gender} noun in Russian.`,
-      whatIsCaseOf: (caseLabel, base) =>
-        `What is the ${caseLabel.toLowerCase()} of ${base}?`,
+      whatIsCaseOf: (caseLabel, base) => `What is the ${caseLabel.toLowerCase()} of ${base}?`,
       caseAnswer: (caseLabel, base, sg, pl) =>
         `The ${caseLabel.toLowerCase()} singular of ${base} is **${sg}**. The ${caseLabel.toLowerCase()} plural is **${pl}**.`,
       isMasculineOrFeminine: (base) => `Is ${base} masculine or feminine?`,
@@ -491,7 +494,8 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     metadata: {
       title: (t, base) => `Declension of ${base} (${t}) in Russian - All 6 Cases Table`,
       description: (base, t, gender) => {
-        const g = gender === 'masculine' ? 'masculine' : gender === 'feminine' ? 'feminine' : 'neuter';
+        const g =
+          gender === 'masculine' ? 'masculine' : gender === 'feminine' ? 'feminine' : 'neuter';
         return `Full declension table of the Russian ${g} noun ${base} (${t}). All 6 cases — nominative, genitive, dative, accusative, instrumental, prepositional — singular and plural forms with example sentences.`;
       },
       wordNotFound: 'Word not found',
@@ -521,7 +525,11 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
   },
   fr_fr: {
     ...wordPageMetaFr,
-    breadcrumb: { home: 'App', learn: 'Leçons de grammaire gratuites', words: 'Tables de déclinaisons' },
+    breadcrumb: {
+      home: 'App',
+      learn: 'Leçons de grammaire gratuites',
+      words: 'Tables de déclinaisons',
+    },
     h1Title: (base, trans) => `Déclinaison russe : ${base} (${trans})`,
     h2FullTable: (base) => `Tableau complet de déclinaison de ${base}`,
     h2HowToUse: (base) => `Comment utiliser « ${base} » en russe (exemples)`,
@@ -545,12 +553,13 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     tableHeaders: { case: 'Cas', singular: 'Singulier', plural: 'Pluriel' },
     caseLabel: 'Cas',
     formatCaseDisplay: (generic, name) => `${generic} ${name}`,
-    tocCaseDeclensionLink: (baseForm, caseLabel) => `Déclinaison de ${baseForm} au ${caseLabel.toLowerCase()}`,
+    tocCaseDeclensionLink: (baseForm, caseLabel) =>
+      `Déclinaison de ${baseForm} au ${caseLabel.toLowerCase()}`,
     tocTitle: 'Sommaire',
     cases: caseConfigFr,
     learnMoreAboutCase: 'En savoir plus sur chaque cas :',
     russianCaseEndingsCheatsheet: 'Antisèche des terminaisons des cas russes',
-    usageNotes: 'Notes d\'utilisation',
+    usageNotes: "Notes d'utilisation",
     usageNotesContent: (translation, baseForm, gender) =>
       `Le mot russe pour ${translation}, ${baseForm}, suit le modèle de déclinaison standard des noms ${gender}. Utilisez le nominatif pour le sujet, l'accusatif pour le complément d'objet direct, le génitif pour la possession ou l'absence, le datif pour les compléments d'objet indirect (à/pour), l'instrumental avec/au moyen de, et le prépositionnel après в, на, о. Consultez nos guides sur les `,
     usageNotesCaseEndings: 'terminaisons des cas russes',
@@ -563,12 +572,11 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
       title: 'Pratiquez les déclinaisons russes sur votre téléphone',
       description: (baseForm) =>
         `Arrêtez de mémoriser des tableaux, commencez à pratiquer la déclinaison de ${baseForm} et de milliers d'autres mots russes dans des quiz interactifs.`,
-      ctaText: 'Téléchargez l\'app et commencez à vous entraîner aujourd\'hui',
+      ctaText: "Téléchargez l'app et commencez à vous entraîner aujourd'hui",
     },
     faq: {
       howToTranslate: (t) => `Comment traduire ${t} en russe ?`,
-      translateAnswer: (t, base, slug) =>
-        `Le mot russe pour « ${t} » est **${base}** (${slug}).`,
+      translateAnswer: (t, base, slug) => `Le mot russe pour « ${t} » est **${base}** (${slug}).`,
       whatIsMeaning: (base) => `Quel est le sens de ${base} ?`,
       meaningAnswer: (base, t, gender) =>
         `**${base}** signifie « ${t} » en français. C'est un nom ${gender} en russe.`,
@@ -597,7 +605,8 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
       title: (_t, base) => `Comment décliner ${base} en russe dans les 6 cas`,
       description: (base, t, gender) => {
         const decl = gender === 'feminine' ? 'première' : 'deuxième';
-        const g = gender === 'masculine' ? 'masculin' : gender === 'feminine' ? 'féminin' : 'neutre';
+        const g =
+          gender === 'masculine' ? 'masculin' : gender === 'feminine' ? 'féminin' : 'neutre';
         return `Tableau de déclinaison complet de ${base} (${t}) en russe. Les 6 cas, singulier et pluriel, avec exemples de phrases. Nom ${g}, ${decl} déclinaison.`;
       },
       wordNotFound: 'Mot non trouvé',
@@ -611,7 +620,8 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
       `Exercice gratuit : testez votre maîtrise de la déclinaison de ${baseForm} avec ce quiz interactif à choix multiples. Un entraînement pratique et sans inscription pour réviser les 6 cas du russe.`,
     quiz: {
       triggerTitle: 'Testez vos connaissances',
-      triggerDescription: (baseForm) => `Entraînez-vous à décliner ${baseForm} dans différents cas.`,
+      triggerDescription: (baseForm) =>
+        `Entraînez-vous à décliner ${baseForm} dans différents cas.`,
       triggerCta: 'Lancer le quiz',
       singular: 'Singulier',
       plural: 'Pluriel',
@@ -658,7 +668,7 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     russianCaseEndingsCheatsheet: 'Rusça durum son ekleri kopya kağıdı',
     usageNotes: 'Kullanım notları',
     usageNotesContent: (translation, baseForm, gender) =>
-        `Rusça „${translation}" kelimesi ${baseForm}, ${gender} isimler için standart çekim modelini takip eder. Özne için nominatif, belirtme nesnesi için akuzatif, aidiyet veya yokluk için genitif, dolaylı tümleç için datif (-e/-a), araç için enstrümantal (ile) ve в, на, о sonrası prepozisyonel kullanın. Rehberlerimize bakın: `,
+      `Rusça „${translation}" kelimesi ${baseForm}, ${gender} isimler için standart çekim modelini takip eder. Özne için nominatif, belirtme nesnesi için akuzatif, aidiyet veya yokluk için genitif, dolaylı tümleç için datif (-e/-a), araç için enstrümantal (ile) ve в, на, о sonrası prepozisyonel kullanın. Rehberlerimize bakın: `,
     usageNotesCaseEndings: 'Rusça durum son ekleri',
     usageNotesAnd: ' ve ',
     usageNotesGrammar: 'Rusça grameri',
@@ -673,8 +683,7 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     },
     faq: {
       howToTranslate: (t) => `Rusçada ${t} nasıl çevrilir?`,
-      translateAnswer: (t, base, slug) =>
-        `"${t}" için Rusça kelime **${base}** (${slug}).`,
+      translateAnswer: (t, base, slug) => `"${t}" için Rusça kelime **${base}** (${slug}).`,
       whatIsMeaning: (base) => `${base} ne anlama geliyor?`,
       meaningAnswer: (base, t, gender) =>
         `**${base}** Türkçede „${t}" anlamına gelir. Rusçada ${gender} bir isimdir.`,
@@ -707,7 +716,8 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
       `Ücretsiz alıştırma: ${baseForm} kelimesinin çekiminde ustalığınızı bu interaktif çoktan seçmeli test ile deneyin. Tüm 6 Rusça durumu gözden geçirmek için pratik ve kayıt gerektirmeyen bir egzersiz.`,
     quiz: {
       triggerTitle: 'Bilginizi test edin',
-      triggerDescription: (baseForm) => `${baseForm} kelimesini farklı durumlarda çekim pratiği yapın.`,
+      triggerDescription: (baseForm) =>
+        `${baseForm} kelimesini farklı durumlarda çekim pratiği yapın.`,
       triggerCta: 'Teste başla',
       singular: 'Tekil',
       plural: 'Çoğul',
@@ -723,7 +733,11 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
   },
   de_de: {
     ...wordPageMetaEn,
-    breadcrumb: { home: 'App', learn: 'Kostenlose Grammatik-Lektionen', words: 'Deklinationstabellen' },
+    breadcrumb: {
+      home: 'App',
+      learn: 'Kostenlose Grammatik-Lektionen',
+      words: 'Deklinationstabellen',
+    },
     h1Title: (base, trans) => `Russische Deklination: ${base} (${trans})`,
     h2FullTable: (base) => `Vollständige Deklinationstabelle von ${base}`,
     h2HowToUse: (base) => `Wie man „${base}" auf Russisch verwendet (Beispiele)`,
@@ -774,8 +788,7 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
       whatIsMeaning: (base) => `Was bedeutet ${base}?`,
       meaningAnswer: (base, t, gender) =>
         `**${base}** bedeutet „${t}" auf Deutsch. Es ist ein ${gender} Substantiv im Russischen.`,
-      whatIsCaseOf: (caseLabel, base) =>
-        `Was ist der ${caseLabel} von ${base}?`,
+      whatIsCaseOf: (caseLabel, base) => `Was ist der ${caseLabel} von ${base}?`,
       caseAnswer: (caseLabel, base, sg, pl) =>
         `**${base}** im ${caseLabel} Singular ist **${sg}**. Im Plural ist es **${pl}**.`,
       isMasculineOrFeminine: (base) => `Ist ${base} maskulin oder feminin?`,
@@ -792,7 +805,8 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
       title: (_t, base) => `Wie man ${base} auf Russisch in allen 6 Fällen dekliniert`,
       description: (base, t, gender) => {
         const decl = gender === 'feminine' ? 'erste' : 'zweite';
-        const g = gender === 'masculine' ? 'Maskulinum' : gender === 'feminine' ? 'Femininum' : 'Neutrum';
+        const g =
+          gender === 'masculine' ? 'Maskulinum' : gender === 'feminine' ? 'Femininum' : 'Neutrum';
         return `Vollständige Deklinationstabelle für ${base} (${t}) auf Russisch. Alle 6 Fälle, Singular und Plural, mit Beispielsätzen. ${g} Substantiv, ${decl} Deklination.`;
       },
       wordNotFound: 'Wort nicht gefunden',
@@ -803,7 +817,8 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
       `Kostenlose Übung: Testen Sie Ihre Beherrschung der Deklination von ${baseForm} mit diesem interaktiven Multiple-Choice-Quiz. Eine praktische Übung ohne Anmeldung, um alle 6 russischen Fälle zu wiederholen.`,
     quiz: {
       triggerTitle: 'Testen Sie Ihr Wissen',
-      triggerDescription: (baseForm) => `Üben Sie die Deklination von ${baseForm} in verschiedenen Fällen.`,
+      triggerDescription: (baseForm) =>
+        `Üben Sie die Deklination von ${baseForm} in verschiedenen Fällen.`,
       triggerCta: 'Quiz starten',
       singular: 'Singular',
       plural: 'Plural',
@@ -829,7 +844,11 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     contextSnippetUsage: (level) =>
       `To jedno z najczęściej używanych słów w języku rosyjskim, niezbędne dla uczących się na poziomie ${level}.`,
     peopleAlsoSearchedFor: 'Użytkownicy szukali także',
-    levelLabels: { beginners: 'początkujących', intermediate: 'średniozaawansowanych', advanced: 'zaawansowanych' },
+    levelLabels: {
+      beginners: 'początkujących',
+      intermediate: 'średniozaawansowanych',
+      advanced: 'zaawansowanych',
+    },
     declensionOrdinals: { first: '1.', second: '2.', third: '3.' },
     fullDeclensionTable: 'Pełna tabela odmian',
     indeclinableNotice: (baseForm) =>
@@ -870,8 +889,7 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
       whatIsMeaning: (base) => `Co oznacza ${base}?`,
       meaningAnswer: (base, t, gender) =>
         `**${base}** oznacza „${t}" po polsku. To rzeczownik ${gender} w języku rosyjskim.`,
-      whatIsCaseOf: (caseLabel, base) =>
-        `Jaka jest forma ${base} w ${caseLabel.toLowerCase()}?`,
+      whatIsCaseOf: (caseLabel, base) => `Jaka jest forma ${base} w ${caseLabel.toLowerCase()}?`,
       caseAnswer: (caseLabel, base, sg, pl) =>
         `**${base}** w ${caseLabel.toLowerCase()} w liczbie pojedynczej to **${sg}**. W liczbie mnogiej to **${pl}**.`,
       isMasculineOrFeminine: (base) => `Czy ${base} jest rodzaju męskiego czy żeńskiego?`,
@@ -915,7 +933,11 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
   },
   es_es: {
     ...wordPageMetaEn,
-    breadcrumb: { home: 'App', learn: 'Lecciones de gramática gratis', words: 'Tablas de declinación' },
+    breadcrumb: {
+      home: 'App',
+      learn: 'Lecciones de gramática gratis',
+      words: 'Tablas de declinación',
+    },
     h1Title: (base, trans) => `Declinación rusa: ${base} (${trans})`,
     h2FullTable: (base) => `Tabla completa de declinación de ${base}`,
     h2HowToUse: (base) => `Cómo usar «${base}» en ruso (ejemplos)`,
@@ -939,7 +961,8 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     tableHeaders: { case: 'Caso', singular: 'Singular', plural: 'Plural' },
     caseLabel: 'Caso',
     formatCaseDisplay: (generic, name) => `${name} ${generic}`,
-    tocCaseDeclensionLink: (baseForm, caseLabel) => `Declinación de ${baseForm} en ${caseLabel.toLowerCase()}`,
+    tocCaseDeclensionLink: (baseForm, caseLabel) =>
+      `Declinación de ${baseForm} en ${caseLabel.toLowerCase()}`,
     tocTitle: 'Tabla de contenidos',
     cases: caseConfigEs,
     learnMoreAboutCase: 'Más sobre cada caso:',
@@ -961,13 +984,11 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     },
     faq: {
       howToTranslate: (t) => `¿Cómo se traduce ${t} al ruso?`,
-      translateAnswer: (t, base, slug) =>
-        `La palabra rusa para «${t}» es **${base}** (${slug}).`,
+      translateAnswer: (t, base, slug) => `La palabra rusa para «${t}» es **${base}** (${slug}).`,
       whatIsMeaning: (base) => `¿Qué significa ${base}?`,
       meaningAnswer: (base, t, gender) =>
         `**${base}** significa «${t}» en español. Es un sustantivo ${gender} en ruso.`,
-      whatIsCaseOf: (caseLabel, base) =>
-        `¿Cuál es el ${caseLabel.toLowerCase()} de ${base}?`,
+      whatIsCaseOf: (caseLabel, base) => `¿Cuál es el ${caseLabel.toLowerCase()} de ${base}?`,
       caseAnswer: (caseLabel, base, sg, pl) =>
         `El ${caseLabel.toLowerCase()} singular de ${base} es **${sg}**. El plural es **${pl}**.`,
       isMasculineOrFeminine: (base) => `¿${base} es masculino o femenino?`,
@@ -983,7 +1004,8 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     metadata: {
       title: (t, base) => `Declinación de ${base} (${t}) en ruso - Tabla de los 6 casos`,
       description: (base, t, gender) => {
-        const g = gender === 'masculine' ? 'masculino' : gender === 'feminine' ? 'femenino' : 'neutro';
+        const g =
+          gender === 'masculine' ? 'masculino' : gender === 'feminine' ? 'femenino' : 'neutro';
         return `Tabla completa de declinación del sustantivo ${g} ruso ${base} (${t}). Los 6 casos — nominativo, genitivo, dativo, acusativo, instrumental, preposicional — singular y plural con ejemplos de oraciones.`;
       },
       wordNotFound: 'Palabra no encontrada',
@@ -1010,7 +1032,11 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
   },
   it_it: {
     ...wordPageMetaEn,
-    breadcrumb: { home: 'App', learn: 'Lezioni di grammatica gratuite', words: 'Tabelle di declinazione' },
+    breadcrumb: {
+      home: 'App',
+      learn: 'Lezioni di grammatica gratuite',
+      words: 'Tabelle di declinazione',
+    },
     h1Title: (base, trans) => `Declinazione russa: ${base} (${trans})`,
     h2FullTable: (base) => `Tabella completa di declinazione di ${base}`,
     h2HowToUse: (base) => `Come usare «${base}» in russo (esempi)`,
@@ -1034,12 +1060,13 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     tableHeaders: { case: 'Caso', singular: 'Singolare', plural: 'Plurale' },
     caseLabel: 'Caso',
     formatCaseDisplay: (generic, name) => `${name} ${generic}`,
-    tocCaseDeclensionLink: (baseForm, caseLabel) => `Declinazione di ${baseForm} al ${caseLabel.toLowerCase()}`,
+    tocCaseDeclensionLink: (baseForm, caseLabel) =>
+      `Declinazione di ${baseForm} al ${caseLabel.toLowerCase()}`,
     tocTitle: 'Indice',
     cases: caseConfigIt,
     learnMoreAboutCase: 'Scopri di più su ogni caso:',
     russianCaseEndingsCheatsheet: 'Prontuario delle terminazioni dei casi russi',
-    usageNotes: 'Note d\'uso',
+    usageNotes: "Note d'uso",
     usageNotesContent: (translation, baseForm, gender) =>
       `La parola russa per ${translation}, ${baseForm}, segue il modello standard di declinazione per sostantivi ${gender}. Usa il nominativo per il soggetto, l\'accusativo per il complemento oggetto, il genitivo per possesso o assenza, il dativo per complementi di termine (a/per), lo strumentale con/per mezzo di, e il preposizionale dopo в, на, о. Consulta le nostre guide su `,
     usageNotesCaseEndings: 'terminazioni dei casi russi',
@@ -1052,17 +1079,15 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
       title: 'Esercitati con le declinazioni russe sul tuo telefono',
       description: (baseForm) =>
         `Smetti di memorizzare tabelle e inizia a esercitarti su come declinare ${baseForm} e migliaia di altre parole russe in quiz interattivi.`,
-      ctaText: 'Scarica l\'app e inizia a esercitarti oggi',
+      ctaText: "Scarica l'app e inizia a esercitarti oggi",
     },
     faq: {
       howToTranslate: (t) => `Come si traduce ${t} in russo?`,
-      translateAnswer: (t, base, slug) =>
-        `La parola russa per «${t}» è **${base}** (${slug}).`,
+      translateAnswer: (t, base, slug) => `La parola russa per «${t}» è **${base}** (${slug}).`,
       whatIsMeaning: (base) => `Cosa significa ${base}?`,
       meaningAnswer: (base, t, gender) =>
         `**${base}** significa «${t}» in italiano. È un sostantivo ${gender} in russo.`,
-      whatIsCaseOf: (caseLabel, base) =>
-        `Qual è il ${caseLabel.toLowerCase()} di ${base}?`,
+      whatIsCaseOf: (caseLabel, base) => `Qual è il ${caseLabel.toLowerCase()} di ${base}?`,
       caseAnswer: (caseLabel, base, sg, pl) =>
         `Il ${caseLabel.toLowerCase()} singolare di ${base} è **${sg}**. Il plurale è **${pl}**.`,
       isMasculineOrFeminine: (base) => `È ${base} maschile o femminile?`,
@@ -1078,7 +1103,8 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     metadata: {
       title: (t, base) => `Declinazione di ${base} (${t}) in russo - Tabella dei 6 casi`,
       description: (base, t, gender) => {
-        const g = gender === 'masculine' ? 'maschile' : gender === 'feminine' ? 'femminile' : 'neutro';
+        const g =
+          gender === 'masculine' ? 'maschile' : gender === 'feminine' ? 'femminile' : 'neutro';
         return `Tabella completa di declinazione del sostantivo ${g} russo ${base} (${t}). I 6 casi — nominativo, genitivo, dativo, accusativo, strumentale, preposizionale — singolare e plurale con esempi di frasi.`;
       },
       wordNotFound: 'Parola non trovata',
@@ -1105,7 +1131,11 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
   },
   pt_pt: {
     ...wordPageMetaEn,
-    breadcrumb: { home: 'App', learn: 'Lições de gramática grátis', words: 'Tabelas de declinação' },
+    breadcrumb: {
+      home: 'App',
+      learn: 'Lições de gramática grátis',
+      words: 'Tabelas de declinação',
+    },
     h1Title: (base, trans) => `Declinação russa: ${base} (${trans})`,
     h2FullTable: (base) => `Tabela completa de declinação de ${base}`,
     h2HowToUse: (base) => `Como usar «${base}» em russo (exemplos)`,
@@ -1129,7 +1159,8 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     tableHeaders: { case: 'Caso', singular: 'Singular', plural: 'Plural' },
     caseLabel: 'Caso',
     formatCaseDisplay: (generic, name) => `${name} ${generic}`,
-    tocCaseDeclensionLink: (baseForm, caseLabel) => `Declinação de ${baseForm} no ${caseLabel.toLowerCase()}`,
+    tocCaseDeclensionLink: (baseForm, caseLabel) =>
+      `Declinação de ${baseForm} no ${caseLabel.toLowerCase()}`,
     tocTitle: 'Índice',
     cases: caseConfigPt,
     learnMoreAboutCase: 'Saber mais sobre cada caso:',
@@ -1151,13 +1182,11 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     },
     faq: {
       howToTranslate: (t) => `Como se traduz ${t} para russo?`,
-      translateAnswer: (t, base, slug) =>
-        `A palavra russa para «${t}» é **${base}** (${slug}).`,
+      translateAnswer: (t, base, slug) => `A palavra russa para «${t}» é **${base}** (${slug}).`,
       whatIsMeaning: (base) => `O que significa ${base}?`,
       meaningAnswer: (base, t, gender) =>
         `**${base}** significa «${t}» em português. É um substantivo ${gender} em russo.`,
-      whatIsCaseOf: (caseLabel, base) =>
-        `Qual é o ${caseLabel.toLowerCase()} de ${base}?`,
+      whatIsCaseOf: (caseLabel, base) => `Qual é o ${caseLabel.toLowerCase()} de ${base}?`,
       caseAnswer: (caseLabel, base, sg, pl) =>
         `O ${caseLabel.toLowerCase()} singular de ${base} é **${sg}**. O plural é **${pl}**.`,
       isMasculineOrFeminine: (base) => `É ${base} masculino ou feminino?`,
@@ -1173,7 +1202,8 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     metadata: {
       title: (t, base) => `Declinação de ${base} (${t}) em russo - Tabela dos 6 casos`,
       description: (base, t, gender) => {
-        const g = gender === 'masculine' ? 'masculino' : gender === 'feminine' ? 'feminino' : 'neutro';
+        const g =
+          gender === 'masculine' ? 'masculino' : gender === 'feminine' ? 'feminino' : 'neutro';
         return `Tabela completa de declinação do substantivo ${g} russo ${base} (${t}). Os 6 casos — nominativo, genitivo, dativo, acusativo, instrumental, preposicional — singular e plural com exemplos de frases.`;
       },
       wordNotFound: 'Palavra não encontrada',
@@ -1224,7 +1254,8 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     tableHeaders: { case: 'Geval', singular: 'Enkelvoud', plural: 'Meervoud' },
     caseLabel: 'Geval',
     formatCaseDisplay: (generic, name) => `${name} ${generic}`,
-    tocCaseDeclensionLink: (baseForm, caseLabel) => `Verbuiging van ${baseForm} in de ${caseLabel.toLowerCase()}`,
+    tocCaseDeclensionLink: (baseForm, caseLabel) =>
+      `Verbuiging van ${baseForm} in de ${caseLabel.toLowerCase()}`,
     tocTitle: 'Inhoudsopgave',
     cases: caseConfigNl,
     learnMoreAboutCase: 'Meer leren over elk geval:',
@@ -1251,12 +1282,12 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
       whatIsMeaning: (base) => `Wat betekent ${base}?`,
       meaningAnswer: (base, t, gender) =>
         `**${base}** betekent «${t}» in het Nederlands. Het is een ${gender} zelfstandig naamwoord in het Russisch.`,
-      whatIsCaseOf: (caseLabel, base) =>
-        `Wat is de ${caseLabel.toLowerCase()} van ${base}?`,
+      whatIsCaseOf: (caseLabel, base) => `Wat is de ${caseLabel.toLowerCase()} van ${base}?`,
       caseAnswer: (caseLabel, base, sg, pl) =>
         `De ${caseLabel.toLowerCase()} enkelvoud van ${base} is **${sg}**. De meervoud is **${pl}**.`,
       isMasculineOrFeminine: (base) => `Is ${base} mannelijk of vrouwelijk?`,
-      genderAnswer: (base, gender) => `**${base}** is een ${gender} zelfstandig naamwoord in het Russisch.`,
+      genderAnswer: (base, gender) =>
+        `**${base}** is een ${gender} zelfstandig naamwoord in het Russisch.`,
       isRegularOrIrregular: (base) => `Is ${base} regelmatig of onregelmatig?`,
       regularAnswer: (base, gender) =>
         `**${base}** is een **regelmatig** zelfstandig naamwoord. Het volgt het standaard verbuigingspatroon voor ${gender} zelfstandige naamwoorden.`,
@@ -1266,9 +1297,11 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     gender: { masculine: 'mannelijk', feminine: 'vrouwelijk', neuter: 'onzijdig' },
     type: { noun: 'zelfstandig naamwoord', proper_noun: 'eigennaam' },
     metadata: {
-      title: (t, base) => `Verbuiging van ${base} (${t}) in het Russisch - Tabel van alle 6 gevallen`,
+      title: (t, base) =>
+        `Verbuiging van ${base} (${t}) in het Russisch - Tabel van alle 6 gevallen`,
       description: (base, t, gender) => {
-        const g = gender === 'masculine' ? 'mannelijk' : gender === 'feminine' ? 'vrouwelijk' : 'onzijdig';
+        const g =
+          gender === 'masculine' ? 'mannelijk' : gender === 'feminine' ? 'vrouwelijk' : 'onzijdig';
         return `Volledige verbuigingstabel van het Russische ${g} zelfstandig naamwoord ${base} (${t}). Alle 6 gevallen — nominatief, genitief, datief, accusatief, instrumentaal, prepositioneel — enkelvoud en meervoud met voorbeeldzinnen.`;
       },
       wordNotFound: 'Woord niet gevonden',
@@ -1279,7 +1312,8 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
       `Gratis oefening: test je beheersing van de verbuiging van ${baseForm} met deze interactieve meerkeuzequiz. Een praktische oefening zonder account om alle 6 Russische gevallen te herhalen.`,
     quiz: {
       triggerTitle: 'Test je kennis',
-      triggerDescription: (baseForm) => `Oefen het verbuigen van ${baseForm} in verschillende gevallen.`,
+      triggerDescription: (baseForm) =>
+        `Oefen het verbuigen van ${baseForm} in verschillende gevallen.`,
       triggerCta: 'Start quiz',
       singular: 'Enkelvoud',
       plural: 'Meervoud',
@@ -1305,7 +1339,11 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     contextSnippetUsage: (level) =>
       `Одно из самых употребительных слов в русском языке, необходимо для изучающих на уровне ${level}.`,
     peopleAlsoSearchedFor: 'Пользователи также искали',
-    levelLabels: { beginners: 'начинающих', intermediate: 'среднего уровня', advanced: 'продвинутых' },
+    levelLabels: {
+      beginners: 'начинающих',
+      intermediate: 'среднего уровня',
+      advanced: 'продвинутых',
+    },
     declensionOrdinals: { first: '1-го', second: '2-го', third: '3-го' },
     fullDeclensionTable: 'Полная таблица склонений',
     indeclinableNotice: (baseForm) =>
@@ -1341,13 +1379,11 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     },
     faq: {
       howToTranslate: (t) => `Как перевести ${t} на русский?`,
-      translateAnswer: (t, base, slug) =>
-        `Русское слово для «${t}» — **${base}** (${slug}).`,
+      translateAnswer: (t, base, slug) => `Русское слово для «${t}» — **${base}** (${slug}).`,
       whatIsMeaning: (base) => `Что означает ${base}?`,
       meaningAnswer: (base, t, gender) =>
         `**${base}** означает «${t}». Это существительное ${gender} в русском языке.`,
-      whatIsCaseOf: (caseLabel, base) =>
-        `Какая форма ${base} в ${caseLabel.toLowerCase()} падеже?`,
+      whatIsCaseOf: (caseLabel, base) => `Какая форма ${base} в ${caseLabel.toLowerCase()} падеже?`,
       caseAnswer: (caseLabel, base, sg, pl) =>
         `Форма **${base}** (${caseLabel}): ед. ч. — **${sg}**, мн. ч. — **${pl}**.`,
       isMasculineOrFeminine: (base) => `${base} — мужского или женского рода?`,
@@ -1364,7 +1400,8 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
       title: (_t, base) => `Как склонять ${base} в русском языке во всех 6 падежах`,
       description: (base, t, gender) => {
         const decl = gender === 'feminine' ? 'первое' : 'второе';
-        const g = gender === 'masculine' ? 'мужского' : gender === 'feminine' ? 'женского' : 'среднего';
+        const g =
+          gender === 'masculine' ? 'мужского' : gender === 'feminine' ? 'женского' : 'среднего';
         return `Полная таблица склонений ${base} (${t}) в русском языке. Все 6 падежей, единственное и множественное число, с примерами предложений. Существительное ${g} рода, ${decl} склонение.`;
       },
       wordNotFound: 'Слово не найдено',

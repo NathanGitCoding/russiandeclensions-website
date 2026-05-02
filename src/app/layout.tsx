@@ -9,7 +9,14 @@ const notoSansDisplay = Noto_Sans_Display({
   variable: '--font-noto-sans-display',
   weight: ['400', '500', '600', '700'],
   display: 'swap',
-  fallback: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+  fallback: [
+    'system-ui',
+    '-apple-system',
+    'BlinkMacSystemFont',
+    'Segoe UI',
+    'Roboto',
+    'sans-serif',
+  ],
 });
 
 const rubik = Rubik({

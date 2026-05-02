@@ -2,7 +2,16 @@
  * Constantes et utilitaires pour les langues supportées
  */
 
-export type Language = 'fr_fr' | 'en_en' | 'tr_tr' | 'de_de' | 'pl_pl' | 'es_es' | 'it_it' | 'pt_pt' | 'nl_nl';
+export type Language =
+  | 'fr_fr'
+  | 'en_en'
+  | 'tr_tr'
+  | 'de_de'
+  | 'pl_pl'
+  | 'es_es'
+  | 'it_it'
+  | 'pt_pt'
+  | 'nl_nl';
 
 export interface LanguageInfo {
   code: Language;
