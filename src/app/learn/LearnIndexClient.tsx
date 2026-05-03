@@ -86,8 +86,19 @@ export default function LearnIndexClient() {
         </div>
       </section>
 
-      <section className="learn-section">
+      <section id="learn-articles-section" className="learn-section">
         <h2 className="learn-section-title">{t.sections.articles}</h2>
+        <div
+          className="learn-featured-guide"
+          role="region"
+          aria-label={t.featuredTopAppsGuide.title}
+        >
+          <p className="learn-featured-guide-title">{t.featuredTopAppsGuide.title}</p>
+          <p className="learn-featured-guide-lead">{t.featuredTopAppsGuide.lead}</p>
+          <Link href="/learn/articles/top-10-apps-russian" className="learn-featured-guide-cta">
+            {t.featuredTopAppsGuide.cta}
+          </Link>
+        </div>
         <div className="learn-cards">
           {ARTICLE_SLUGS.map((slug) => {
             const title = t.articleTitles[slug];

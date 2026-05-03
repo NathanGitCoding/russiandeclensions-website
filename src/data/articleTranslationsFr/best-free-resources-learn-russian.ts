@@ -46,17 +46,7 @@ export const bestFreeResourcesLearnRussianFr: LearnArticle = {
         'Les applis sont le moyen le plus pratique de pratiquer le russe chaque jour. Voici les 5 meilleures options gratuites en 2026, chacune avec un point fort différent.',
       subsections: [
         {
-          h3: '1. Russian Cases with Anna — le meilleur pour la grammaire et les déclinaisons',
-          content:
-            'Si votre objectif est de **maîtriser la grammaire russe**, en particulier les déclinaisons des noms et les **6 cas grammaticaux**, **Russian Cases with Anna** est la meilleure appli gratuite disponible. C’est la seule appli 100 % centrée sur les cas russes.\n\n**Inclus gratuitement :** 128 micro-leçons de grammaire, 136 quiz interactifs, cartes de vocabulaire avec répétition espacée, et un tableau de déclinaison complet pour plus de 400 noms russes. L’appli couvre les 6 cas (nominatif, accusatif, génitif, datif, instrumental, prépositionnel) avec des explications claires et des exemples réels.\n\nVous pouvez aussi essayer le **quiz en ligne gratuit** sur russiandeclensions.com/practice — sans téléchargement.',
-          bullets: [
-            '**Idéal pour :** apprenants qui veulent comprendre et pratiquer les cas russes de façon systématique',
-            '**Prix :** gratuit (premium optionnel pour les fonctions avancées)',
-            '**Plateformes :** iOS et Android',
-          ],
-        },
-        {
-          h3: '2. Duolingo — le meilleur pour les débutants absolus',
+          h3: '1. Duolingo — le meilleur pour les débutants absolus',
           content:
             '**Duolingo** est une référence. Ses leçons ludiques permettent de commencer le russe à partir de zéro. L’appli enseigne le vocabulaire et les bases de grammaire via de courts exercices addictifs.\n\n**Limites côté grammaire :** Duolingo n’explique pas explicitement les cas russes. Vous apprenez des schémas par la répétition, sans toujours comprendre *pourquoi* les terminaisons changent. Pour cela, il vous faudra une ressource axée grammaire comme Russian Cases with Anna.',
           bullets: [
@@ -66,13 +56,23 @@ export const bestFreeResourcesLearnRussianFr: LearnArticle = {
           ],
         },
         {
-          h3: '3. Anki — le meilleur pour le vocabulaire en répétition espacée',
+          h3: '2. Anki — le meilleur pour le vocabulaire en répétition espacée',
           content:
             '**Anki** est la référence des cartes mémoire. Elle utilise un **algorithme de répétition espacée** pour vous montrer chaque carte au moment où vous alliez l’oublier. Des milliers de paquets russes prêts à l’emploi sont disponibles gratuitement.\n\nAnki n’est pas une « appli » au sens classique — c’est un système de flashcards. Mais pour mémoriser du vocabulaire, rien ne la bat. Associez-la à une appli de grammaire et vous progresserez vite.',
           bullets: [
             '**Idéal pour :** niveau intermédiaire et constitution du vocabulaire',
             '**Prix :** gratuit sur ordinateur et Android (l’appli iOS est payante)',
             '**Plateformes :** ordinateur, Android, iOS',
+          ],
+        },
+        {
+          h3: '3. Russian Cases with Anna — le meilleur pour la grammaire et les déclinaisons',
+          content:
+            'Si votre objectif est de **maîtriser la grammaire russe**, en particulier les déclinaisons des noms et les **6 cas grammaticaux**, **Russian Cases with Anna** est la meilleure appli gratuite disponible. C’est la seule appli 100 % centrée sur les cas russes.\n\n**Inclus gratuitement :** 128 micro-leçons de grammaire, 136 quiz interactifs, cartes de vocabulaire avec répétition espacée, et un tableau de déclinaison complet pour plus de 400 noms russes. L’appli couvre les 6 cas (nominatif, accusatif, génitif, datif, instrumental, prépositionnel) avec des explications claires et des exemples réels.\n\nVous pouvez aussi essayer le **quiz en ligne gratuit** sur russiandeclensions.com/practice — sans téléchargement.',
+          bullets: [
+            '**Idéal pour :** apprenants qui veulent comprendre et pratiquer les cas russes de façon systématique',
+            '**Prix :** gratuit (premium optionnel pour les fonctions avancées)',
+            '**Plateformes :** iOS et Android',
           ],
         },
         {

@@ -5,7 +5,7 @@
 import type { LandingLanguage } from './landingTranslations';
 
 export interface LearnDetailTranslations {
-  breadcrumb: { home: string; learn: string };
+  breadcrumb: { home: string; learn: string; articles: string };
   backToLearn: string;
   whatsInThisCheatsheet: string;
   whatYouLearnInThisGuide: string;
@@ -17,6 +17,12 @@ export interface LearnDetailTranslations {
   relatedGuides: string;
   exploreEachCase: string;
   viewApp: string;
+  /** Libellé avant la note /10 sur les fiches apps (ex. cas russes). */
+  reviewRatingLabel: string;
+  /** Texte sr-only pour la colonne étoiles du classement ; remplacer `{{n}}` par la valeur (ex. 4.5). */
+  editorialStarRatingAria: string;
+  reviewPros: string;
+  reviewCons: string;
   practiceThisCase: string;
   practiceNow: string;
   relatedLessons: string;
@@ -25,7 +31,7 @@ export interface LearnDetailTranslations {
 
 const translations: Record<LandingLanguage, LearnDetailTranslations> = {
   en_en: {
-    breadcrumb: { home: 'App', learn: 'Free Grammar Lessons' },
+    breadcrumb: { home: 'App', learn: 'Free Grammar Lessons', articles: 'Articles' },
     backToLearn: '← Back to Learn',
     whatsInThisCheatsheet: "What's in this cheat sheet:",
     whatYouLearnInThisGuide: "What you'll learn in this guide:",
@@ -42,13 +48,17 @@ const translations: Record<LandingLanguage, LearnDetailTranslations> = {
     relatedGuides: 'Related guides',
     exploreEachCase: 'Explore each case',
     viewApp: 'View app →',
+    reviewRatingLabel: 'Russian cases:',
+    editorialStarRatingAria: 'Editorial ranking: {{n}} out of 5 stars',
+    reviewPros: 'Pros',
+    reviewCons: 'Cons',
     practiceThisCase: 'Practice this case',
     practiceNow: 'Start practicing →',
     relatedLessons: 'Related lessons',
     relatedArticles: 'Related articles',
   },
   fr_fr: {
-    breadcrumb: { home: 'App', learn: 'Leçons de grammaire gratuites' },
+    breadcrumb: { home: 'App', learn: 'Leçons de grammaire gratuites', articles: 'Articles' },
     backToLearn: '← Retour à Apprendre',
     whatsInThisCheatsheet: 'Contenu de cette antisèche :',
     whatYouLearnInThisGuide: 'Ce que vous allez apprendre dans ce guide :',
@@ -65,13 +75,17 @@ const translations: Record<LandingLanguage, LearnDetailTranslations> = {
     relatedGuides: 'Guides connexes',
     exploreEachCase: 'Explorer chaque cas',
     viewApp: "Voir l'app →",
+    reviewRatingLabel: 'Cas du russe :',
+    editorialStarRatingAria: 'Note du classement : {{n}} sur 5 étoiles',
+    reviewPros: 'Pour',
+    reviewCons: 'Contre',
     practiceThisCase: 'Pratiquer ce cas',
     practiceNow: 'Commencer à pratiquer →',
     relatedLessons: 'Leçons associées',
     relatedArticles: 'Articles associés',
   },
   tr_tr: {
-    breadcrumb: { home: 'App', learn: 'Ücretsiz Gramer Dersleri' },
+    breadcrumb: { home: 'App', learn: 'Ücretsiz Gramer Dersleri', articles: 'Makaleler' },
     backToLearn: "← Öğren'e geri dön",
     whatsInThisCheatsheet: 'Bu kopya kağıdında neler var:',
     whatYouLearnInThisGuide: 'Bu rehberde ne öğreneceksiniz:',
@@ -88,13 +102,17 @@ const translations: Record<LandingLanguage, LearnDetailTranslations> = {
     relatedGuides: 'İlgili rehberler',
     exploreEachCase: 'Her durumu keşfedin',
     viewApp: 'Uygulamayı görün →',
+    reviewRatingLabel: 'Rusçada hâller:',
+    editorialStarRatingAria: 'Sıralama notu: 5 üzerinden {{n}} yıldız',
+    reviewPros: 'Artıları',
+    reviewCons: 'Eksileri',
     practiceThisCase: 'Bu durumu pratik yapın',
     practiceNow: 'Pratik yapmaya başlayın →',
     relatedLessons: 'İlgili dersler',
     relatedArticles: 'İlgili makaleler',
   },
   de_de: {
-    breadcrumb: { home: 'App', learn: 'Kostenlose Grammatik-Lektionen' },
+    breadcrumb: { home: 'App', learn: 'Kostenlose Grammatik-Lektionen', articles: 'Artikel' },
     backToLearn: '← Zurück zu Lernen',
     whatsInThisCheatsheet: 'Inhalt dieser Spickzettel:',
     whatYouLearnInThisGuide: 'Was Sie in diesem Leitfaden lernen:',
@@ -111,13 +129,17 @@ const translations: Record<LandingLanguage, LearnDetailTranslations> = {
     relatedGuides: 'Verwandte Leitfäden',
     exploreEachCase: 'Jeden Fall erkunden',
     viewApp: 'App ansehen →',
+    reviewRatingLabel: 'Russische Fälle:',
+    editorialStarRatingAria: 'Redaktions-Ranking: {{n}} von 5 Sternen',
+    reviewPros: 'Vorteile',
+    reviewCons: 'Nachteile',
     practiceThisCase: 'Diesen Fall üben',
     practiceNow: 'Jetzt üben →',
     relatedLessons: 'Verwandte Lektionen',
     relatedArticles: 'Verwandte Artikel',
   },
   es_es: {
-    breadcrumb: { home: 'App', learn: 'Lecciones de gramática gratis' },
+    breadcrumb: { home: 'App', learn: 'Lecciones de gramática gratis', articles: 'Artículos' },
     backToLearn: '← Volver a Aprender',
     whatsInThisCheatsheet: 'Contenido de esta chuleta:',
     whatYouLearnInThisGuide: 'Qué aprenderás en esta guía:',
@@ -134,13 +156,17 @@ const translations: Record<LandingLanguage, LearnDetailTranslations> = {
     relatedGuides: 'Guías relacionadas',
     exploreEachCase: 'Explorar cada caso',
     viewApp: 'Ver la app →',
+    reviewRatingLabel: 'Casos del ruso:',
+    editorialStarRatingAria: 'Puntuación del ranking: {{n}} de 5 estrellas',
+    reviewPros: 'Ventajas',
+    reviewCons: 'Inconvenientes',
     practiceThisCase: 'Practicar este caso',
     practiceNow: 'Empezar a practicar →',
     relatedLessons: 'Lecciones relacionadas',
     relatedArticles: 'Artículos relacionados',
   },
   it_it: {
-    breadcrumb: { home: 'App', learn: 'Lezioni di grammatica gratuite' },
+    breadcrumb: { home: 'App', learn: 'Lezioni di grammatica gratuite', articles: 'Articoli' },
     backToLearn: '← Torna a Impara',
     whatsInThisCheatsheet: 'Contenuto di questo prontuario:',
     whatYouLearnInThisGuide: 'Cosa imparerai in questa guida:',
@@ -157,13 +183,17 @@ const translations: Record<LandingLanguage, LearnDetailTranslations> = {
     relatedGuides: 'Guide correlate',
     exploreEachCase: 'Esplora ogni caso',
     viewApp: "Vedi l'app →",
+    reviewRatingLabel: 'Casi del russo:',
+    editorialStarRatingAria: 'Voto in classifica: {{n}} su 5 stelle',
+    reviewPros: 'Pro',
+    reviewCons: 'Contro',
     practiceThisCase: 'Pratica questo caso',
     practiceNow: 'Inizia a praticare →',
     relatedLessons: 'Lezioni correlate',
     relatedArticles: 'Articoli correlati',
   },
   pt_pt: {
-    breadcrumb: { home: 'App', learn: 'Lições de gramática grátis' },
+    breadcrumb: { home: 'App', learn: 'Lições de gramática grátis', articles: 'Artigos' },
     backToLearn: '← Voltar a Aprender',
     whatsInThisCheatsheet: 'Conteúdo deste resumo:',
     whatYouLearnInThisGuide: 'O que vais aprender neste guia:',
@@ -180,13 +210,17 @@ const translations: Record<LandingLanguage, LearnDetailTranslations> = {
     relatedGuides: 'Guias relacionados',
     exploreEachCase: 'Explorar cada caso',
     viewApp: 'Ver a app →',
+    reviewRatingLabel: 'Casos do russo:',
+    editorialStarRatingAria: 'Classificação editorial: {{n}} em 5 estrelas',
+    reviewPros: 'Prós',
+    reviewCons: 'Contras',
     practiceThisCase: 'Praticar este caso',
     practiceNow: 'Começar a praticar →',
     relatedLessons: 'Lições relacionadas',
     relatedArticles: 'Artigos relacionados',
   },
   nl_nl: {
-    breadcrumb: { home: 'App', learn: 'Gratis grammatica-lessen' },
+    breadcrumb: { home: 'App', learn: 'Gratis grammatica-lessen', articles: 'Artikelen' },
     backToLearn: '← Terug naar Leren',
     whatsInThisCheatsheet: 'Inhoud van dit spiekbriefje:',
     whatYouLearnInThisGuide: 'Wat je leert in deze gids:',
@@ -203,13 +237,17 @@ const translations: Record<LandingLanguage, LearnDetailTranslations> = {
     relatedGuides: 'Gerelateerde gidsen',
     exploreEachCase: 'Verken elk geval',
     viewApp: 'Bekijk de app →',
+    reviewRatingLabel: 'Russische naamvallen:',
+    editorialStarRatingAria: 'Redactieranking: {{n}} van 5 sterren',
+    reviewPros: 'Voordelen',
+    reviewCons: 'Nadelen',
     practiceThisCase: 'Oefen deze naamval',
     practiceNow: 'Begin met oefenen →',
     relatedLessons: 'Gerelateerde lessen',
     relatedArticles: 'Gerelateerde artikelen',
   },
   pl_pl: {
-    breadcrumb: { home: 'App', learn: 'Darmowe lekcje gramatyki' },
+    breadcrumb: { home: 'App', learn: 'Darmowe lekcje gramatyki', articles: 'Artykuły' },
     backToLearn: '← Powrót do Nauki',
     whatsInThisCheatsheet: 'Zawartość tej ściągi:',
     whatYouLearnInThisGuide: 'Czego nauczysz się w tym przewodniku:',
@@ -226,13 +264,17 @@ const translations: Record<LandingLanguage, LearnDetailTranslations> = {
     relatedGuides: 'Powiązane przewodniki',
     exploreEachCase: 'Odkryj każdy przypadek',
     viewApp: 'Zobacz aplikację →',
+    reviewRatingLabel: 'Przypadki w rosyjskim:',
+    editorialStarRatingAria: 'Ocena w rankingu: {{n}} na 5 gwiazdek',
+    reviewPros: 'Plusy',
+    reviewCons: 'Minusy',
     practiceThisCase: 'Ćwicz ten przypadek',
     practiceNow: 'Zacznij ćwiczyć →',
     relatedLessons: 'Powiązane lekcje',
     relatedArticles: 'Powiązane artykuły',
   },
   ru_ru: {
-    breadcrumb: { home: 'App', learn: 'Бесплатные уроки грамматики' },
+    breadcrumb: { home: 'App', learn: 'Бесплатные уроки грамматики', articles: 'Статьи' },
     backToLearn: '← Назад к Обучению',
     whatsInThisCheatsheet: 'Содержание этой шпаргалки:',
     whatYouLearnInThisGuide: 'Что вы узнаете в этом руководстве:',
@@ -249,6 +291,10 @@ const translations: Record<LandingLanguage, LearnDetailTranslations> = {
     relatedGuides: 'Связанные руководства',
     exploreEachCase: 'Изучить каждый падеж',
     viewApp: 'Смотреть приложение →',
+    reviewRatingLabel: 'Падежи и склонения:',
+    editorialStarRatingAria: 'Редакционная оценка в рейтинге: {{n}} из 5 звёзд',
+    reviewPros: 'Плюсы',
+    reviewCons: 'Минусы',
     practiceThisCase: 'Потренировать этот падеж',
     practiceNow: 'Начать тренировку →',
     relatedLessons: 'Связанные уроки',

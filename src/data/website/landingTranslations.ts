@@ -80,6 +80,8 @@ export interface LandingTranslations {
     privacy: string;
     terms: string;
     contact: string;
+    /** Lien maillage vers le guide apps (slug fixe). */
+    topAppsGuide: string;
     copyright: string;
   };
 }
@@ -978,6 +980,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       privacy: 'Privacy',
       terms: 'Terms',
       contact: 'Contact',
+      topAppsGuide: 'Top 10 apps to learn Russian',
       copyright: '© 2026 Russian Cases with Anna®. All rights reserved.',
     },
   },
@@ -1041,6 +1044,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       privacy: 'Confidentialité',
       terms: 'CGU',
       contact: 'Contact',
+      topAppsGuide: 'Top 10 applis pour apprendre le russe',
       copyright: '© 2026 Russian Cases with Anna®. Tous droits réservés.',
     },
   },
@@ -1104,6 +1108,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       privacy: 'Gizlilik',
       terms: 'Koşullar',
       contact: 'İletişim',
+      topAppsGuide: 'Rusça öğrenmek için en iyi 10 uygulama',
       copyright: '© 2026 Russian Cases with Anna®. Tüm hakları saklıdır.',
     },
   },
@@ -1167,6 +1172,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       privacy: 'Datenschutz',
       terms: 'AGB',
       contact: 'Kontakt',
+      topAppsGuide: 'Top 10 Apps zum Russischlernen',
       copyright: '© 2026 Russian Cases with Anna®. Alle Rechte vorbehalten.',
     },
   },
@@ -1230,6 +1236,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       privacy: 'Prywatność',
       terms: 'Regulamin',
       contact: 'Kontakt',
+      topAppsGuide: 'Top 10 aplikacji do nauki rosyjskiego',
       copyright: '© 2026 Russian Cases with Anna®. Wszelkie prawa zastrzeżone.',
     },
   },
@@ -1293,6 +1300,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       privacy: 'Privacidad',
       terms: 'Términos',
       contact: 'Contacto',
+      topAppsGuide: 'Top 10 apps para aprender ruso',
       copyright: '© 2026 Russian Cases with Anna®. Todos los derechos reservados.',
     },
   },
@@ -1356,6 +1364,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       privacy: 'Privacy',
       terms: 'Termini',
       contact: 'Contatti',
+      topAppsGuide: 'Le 10 migliori app per imparare il russo',
       copyright: '© 2026 Russian Cases with Anna®. Tutti i diritti riservati.',
     },
   },
@@ -1418,6 +1427,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       privacy: 'Privacidade',
       terms: 'Termos',
       contact: 'Contacto',
+      topAppsGuide: 'As 10 melhores apps para aprender russo',
       copyright: '© 2026 Russian Cases with Anna®. Todos os direitos reservados.',
     },
   },
@@ -1481,6 +1491,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       privacy: 'Privacy',
       terms: 'Voorwaarden',
       contact: 'Contact',
+      topAppsGuide: 'Top 10 apps om Russisch te leren',
       copyright: '© 2026 Russian Cases with Anna®. Alle rechten voorbehouden.',
     },
   },
@@ -1544,6 +1555,7 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
       privacy: 'Конфиденциальность',
       terms: 'Условия',
       contact: 'Контакты',
+      topAppsGuide: 'Топ-10 приложений для изучения русского',
       copyright: '© 2026 Russian Cases with Anna®. Все права защищены.',
     },
   },

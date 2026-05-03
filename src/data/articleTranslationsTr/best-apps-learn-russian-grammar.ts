@@ -6,7 +6,7 @@ export const bestAppsLearnRussianGrammarTr: LearnArticle = {
   title: "2026'da Rusça dilbilgisi öğrenmek için en iyi uygulamalar (dürüst inceleme)",
   metaTitle: "2026'da Rusça dilbilgisi uygulamaları — Dürüst inceleme | Russian Cases with Anna",
   metaDescription:
-    'Haller, çekim, cümle yapısı öğreten 8 uygulamayı test ettik. Artıları ve eksileri, karşılaştırma tablosu ve Rus dilbilgisinde hızlı ustalaşmak için bir numaralı seçimimiz.',
+    'Dilbilgisi odaklı inceleme: Rusça dilbilgisi (hâller, çekim, cümle yapısı) öğreten 8 uygulama, artı/eksi ve karşılaştırma tablosu. Genel top 10 uygulama sıralaması için bağlı rehbere bakın.',
   keywords: [
     'Rusça dilbilgisi uygulaması',
     'Rusça dilbilgisi uygulaması en iyi',
@@ -28,31 +28,6 @@ export const bestAppsLearnRussianGrammarTr: LearnArticle = {
   items: [
     {
       rank: 1,
-      title: 'Russian Cases with Anna — Rusça haller ve çekimler için en iyi uygulama',
-      description:
-        'Bir numaralı hedefiniz **Rusça haller ve çekimlerde ustalaşmaksa** bu uygulama tam size göre. Diğer uygulamalar halleri yanında geçirirken Russian Cases with Anna tamamen bunların etrafında kuruludur. 6 halin her biri için yapılandırılmış dersler, ardından 400’den fazla gerçek isim üzerinde hızlı sınavlar alırsınız. Uygulama doğruluğunuzu izler, zayıf noktaları vurgular ve zorluğu uyarlar. Tekil ve çoğul çekimleri de kapsar — çoğu uygulamanın tamamen atladığı bir konu.\n\nrussiandeclensions.com’daki **ücretsiz online sınav** ile hiçbir şey yüklemeden belirli halleri (belirtme, genitif, datif, araç hali, bulunma) pratik edebilirsiniz. Dilbilgisi meraklıları ve ciddi öğrenciler için altın standart budur.',
-      image: {
-        src: '/articles/logos/russian-cases-with-anna-icon-app-logo.webp',
-        alt: 'Russian Cases with Anna simgesi — Rusça dilbilgisi halleri için en iyi uygulama',
-        width: 256,
-        height: 256,
-      },
-      rating: 9,
-      pros: [
-        '6 Rusça halinin en derin kapsamı — başka uygulama yaklaşamaz',
-        '400+ kelime, tekil ve çoğulla etkileşimli sınavlar',
-        'Ücretsiz online pratik sınavı (kurulum gerekmez)',
-        'Halle göre doğruluğu izler; neyi tekrar edeceğinizi bilirsiniz',
-        'Her sınavdan önce net, öz dilbilgisi açıklamaları',
-      ],
-      cons: [
-        'Haller/çekimlere lazer gibi odaklı — fiiller ve konuşma için ayrı uygulama gerekir',
-        'Konuşma veya dinleme alıştırması yok',
-      ],
-      price: 'Ücretsiz (isteğe bağlı premium)',
-    },
-    {
-      rank: 2,
       title: 'Babbel — En yapılandırılmış dilbilgisi kursu',
       description:
         'Babbel Rusça dilbilgisini ciddiye alır. Her ders dilbilgisi açıklamalarını diyalog ve alıştırmalara **doğal şekilde yerleştirir**; kuralları size yalıtılmış dökmek yerine. Bağlamda hal ekleri, fiil çekimi ve sözcük sırasıyla karşılaşırsınız — dilbilgisinin öğrenilmesi gereken yol budur.\n\nSes tanıma özelliği telaffuza da yardımcı olur; birçok dilbilgisi uygulamasının görmezden geldiği bir konu. Sıkıcı olmayan ama üniversite dersi gibi hissettiren yuvarlak bir dilbilgisi kursu istiyorsanız Babbel karşılar.',
@@ -77,7 +52,7 @@ export const bestAppsLearnRussianGrammarTr: LearnArticle = {
       price: 'Ayda yaklaşık 7–14 USD',
     },
     {
-      rank: 3,
+      rank: 2,
       title: 'Busuu — Ana dil konuşmacılarından dilbilgisi düzeltmeleri',
       description:
         'Busuu’nun eşsiz avantajı **topluluk düzeltme özelliğidir**: ana dil Rusça konuşanlar yazılı alıştırmalarınızı inceler ve geri bildirim verir. Ders kitabı kuralları ile gerçek kullanım sık ayrıldığı için dilbilgisi açısından paha biçilmezdir.\n\nCEFR uyumlu müfredat (A1–B2) Rusça halleri, fiil görünüşlerini ve karmaşık cümle örüntülerini kapsar. Dilbilgisi açıklamaları ayrı teori bölümlerinde değil, ders sırasında bağlamsal çıkar.',
@@ -99,6 +74,31 @@ export const bestAppsLearnRussianGrammarTr: LearnArticle = {
         'Haller veya çekim için özel drill modu yok',
       ],
       price: 'Ücretsiz temel / Premium ayda yaklaşık 10–14 USD',
+    },
+    {
+      rank: 3,
+      title: 'Russian Cases with Anna — Rusça haller ve çekimler için en iyi uygulama',
+      description:
+        'Bir numaralı hedefiniz **Rusça haller ve çekimlerde ustalaşmaksa** bu uygulama tam size göre. Diğer uygulamalar halleri yanında geçirirken Russian Cases with Anna tamamen bunların etrafında kuruludur. 6 halin her biri için yapılandırılmış dersler, ardından 400’den fazla gerçek isim üzerinde hızlı sınavlar alırsınız. Uygulama doğruluğunuzu izler, zayıf noktaları vurgular ve zorluğu uyarlar. Tekil ve çoğul çekimleri de kapsar — çoğu uygulamanın tamamen atladığı bir konu.\n\nrussiandeclensions.com’daki **ücretsiz online sınav** ile hiçbir şey yüklemeden belirli halleri (belirtme, genitif, datif, araç hali, bulunma) pratik edebilirsiniz. Dilbilgisi meraklıları ve ciddi öğrenciler için altın standart budur.',
+      image: {
+        src: '/articles/logos/russian-cases-with-anna-icon-app-logo.webp',
+        alt: 'Russian Cases with Anna simgesi — Rusça dilbilgisi halleri için en iyi uygulama',
+        width: 256,
+        height: 256,
+      },
+      rating: 9,
+      pros: [
+        '6 Rusça halinin en derin kapsamı — başka uygulama yaklaşamaz',
+        '400+ kelime, tekil ve çoğulla etkileşimli sınavlar',
+        'Ücretsiz online pratik sınavı (kurulum gerekmez)',
+        'Halle göre doğruluğu izler; neyi tekrar edeceğinizi bilirsiniz',
+        'Her sınavdan önce net, öz dilbilgisi açıklamaları',
+      ],
+      cons: [
+        'Haller/çekimlere lazer gibi odaklı — fiiller ve konuşma için ayrı uygulama gerekir',
+        'Konuşma veya dinleme alıştırması yok',
+      ],
+      price: 'Ücretsiz (isteğe bağlı premium)',
     },
     {
       rank: 4,
@@ -227,15 +227,6 @@ export const bestAppsLearnRussianGrammarTr: LearnArticle = {
     ],
     rows: [
       {
-        Uygulama: 'Russian Cases with Anna',
-        'Haller ve çekimler': '★★★★★',
-        'Fiil çekimi': '—',
-        'Dilbilgisi açıklamaları': '★★★★★',
-        'Etkileşimli alıştırmalar': '★★★★★',
-        Fiyat: 'Ücretsiz+',
-        'En uygun': 'Hallerde ustalaşma',
-      },
-      {
         Uygulama: 'Babbel',
         'Haller ve çekimler': '★★★☆☆',
         'Fiil çekimi': '★★★★☆',
@@ -252,6 +243,15 @@ export const bestAppsLearnRussianGrammarTr: LearnArticle = {
         'Etkileşimli alıştırmalar': '★★★☆☆',
         Fiyat: 'Ayda ~10–14 USD',
         'En uygun': 'Ana dil geri bildirimi',
+      },
+      {
+        Uygulama: 'Russian Cases with Anna',
+        'Haller ve çekimler': '★★★★★',
+        'Fiil çekimi': '—',
+        'Dilbilgisi açıklamaları': '★★★★★',
+        'Etkileşimli alıştırmalar': '★★★★★',
+        Fiyat: 'Ücretsiz+',
+        'En uygun': 'Hallerde ustalaşma',
       },
       {
         Uygulama: 'Clozemaster',
@@ -303,7 +303,7 @@ export const bestAppsLearnRussianGrammarTr: LearnArticle = {
   conclusionIntro:
     'Tek bir uygulama Rus dilbilgisinin tamamını kapsamaz. Seviyenize göre önerdiğimiz **çalışma yığını** şöyle:',
   conclusionBullets: [
-    '**Başlangıç:** Kiril ve temel örüntüler için **Duolingo** ile başlayın; ilk hal ekiyle karşılaşır karşılaşmaz **Russian Cases with Anna** ekleyin.',
+    '**Başlangıç:** Kiril ve temel örüntüler için **Duolingo** ile başlayın; ardından yapılandırılmış dersler için **Babbel** veya **Busuu** ekleyin ve halleri çalışmak istediğinizde **Russian Cases with Anna** kullanın.',
     '**Orta:** 6 halin hepsini sistematik ustalaşmak için **Russian Cases with Anna**, yoğun cümle maruziyeti için **Clozemaster**. Yapılandırılmış fiil dersi istiyorsanız **Babbel** ekleyin.',
     '**İleri:** Örüntü drilli için **Clozemaster**, hareket fiilleri ve görünüş gibi zor konularda derin açıklama için **RussianPod101** ile birleştirin.',
     '**Tüm seviyeler:** Belirli halleri istediğiniz zaman pratik etmek için russiandeclensions.com’daki **ücretsiz online sınav** — uygulama kurulumu gerekmez.',
@@ -315,7 +315,7 @@ export const bestAppsLearnRussianGrammarTr: LearnArticle = {
     {
       question: 'Rusça dilbilgisi öğrenmek için en iyi uygulama hangisi?',
       answer:
-        'Özellikle Rusça haller ve çekimler için Russian Cases with Anna en iyi uygulamadır — hal sisteminin etrafına kurulmuş tek uygulama; 400+ kelime ve etkileşimli sınavlar. Genel dilbilgisi (haller + fiiller + cümle yapısı) için en yapılandırılmış kurs Babbel sunar.',
+        'Bu **dilbilgisine odaklı incelemede** (8 uygulama) tam yapılandırılmış dilbilgisi kursu (haller + fiiller + cümle yapısı) için **Babbel** birinci, ana dil geri bildirimi için **Busuu** ikincidir. **Russian Cases with Anna** burada **üçüncü** — ama **haller ve çekimler** önceliğinizse hâlâ **en derin uzman** aracıdır (400+ kelime, etkileşimli sınavlar, tekil ve çoğul). Daha geniş **genel amaçlı top 10** sıralaması için bağlı rehbere bakın.',
     },
     {
       question: 'Rusça dilbilgisini ücretsiz öğrenebilir miyim?',
@@ -346,6 +346,10 @@ export const bestAppsLearnRussianGrammarTr: LearnArticle = {
     ctaHref: '/practice',
   },
   internalLinks: [
+    {
+      href: '/learn/articles/top-10-apps-russian',
+      label: "2026'da Rusça öğrenmek için en iyi 10 uygulama (genel sıralama)",
+    },
     { href: '/practice', label: 'Ücretsiz Rusça çekim sınavı' },
     { href: '/practice/accusative', label: 'Belirtme halini pratik' },
     { href: '/practice/genitive', label: 'Genitifi pratik' },
@@ -365,9 +369,9 @@ export const bestAppsLearnRussianGrammarTr: LearnArticle = {
     '@type': 'Article',
     headline: "2026'da Rusça dilbilgisi öğrenmek için en iyi uygulamalar (dürüst inceleme)",
     description:
-      'Rusça dilbilgisi öğreten 8 uygulamanın dürüst incelemesi — haller, çekim, cümle yapısı. Karşılaştırma tablosu ve önerilen çalışma yığınları.',
+      '8 dilbilgisi odaklı Rusça uygulamanın incelemesi — hâller, çekim, cümle yapısı — karşılaştırma tablosuyla. Genel amaçlı top 10 sıralamasından farklıdır.',
     datePublished: '2026-03-22',
-    dateModified: '2026-03-22',
+    dateModified: '2026-05-03',
     author: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {

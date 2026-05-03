@@ -18,23 +18,7 @@ Learning Russian can feel like climbing a mountain. Between the Cyrillic alphabe
 
 In 2026, language learning technology has reached new heights. Whether you are a total beginner or an advanced learner looking to polish your fluency, we've tested and ranked the 10 best apps to learn Russian. Here is our detailed breakdown to help you find your perfect match.
 
-### 1. Russian Cases with Anna: The Specialist's Choice to Learn Grammar
-
-![Russian Cases with Anna app icon](/articles/logos/russian-cases-with-anna-icon-app-logo.webp)
-
-For serious learners who want to start building solid grammar foundations, Russian Cases with Anna is the ultimate tool. While other apps skim the surface, this one **dives deep into the heart of the Russian language**: the case system and declensions. It perfectly balances short lessons with engaging, interactive quizzes.
-
-**Pros:**
-
-- Unmatched focus on cases and declensions
-- High-speed learning modules
-- Engaging quizzes
-
-**Cons:**
-
-- Hyper-focused on grammar; you will need a secondary tool for general vocabulary and conversational practice
-
-### 2. Duolingo: The Best When You Are Starting
+### 1. Duolingo: The Best When You Are Starting
 
 ![Duolingo app icon](/articles/logos/duolingo-icon-app-logo.webp)
 
@@ -52,7 +36,7 @@ Duolingo remains the most famous gateway into the Russian language. It **turns l
 - Uses some "nonsense" sentences
 - Lacks deep speaking practice
 
-### 3. Babbel: A Solid Pick for Grammar
+### 2. Babbel: A Solid Pick for Grammar
 
 ![Babbel app icon](/articles/logos/babel-app-icon-logo.webp)
 
@@ -68,6 +52,22 @@ If you prefer a more "classroom-style" structure without the boring lectures, Ba
 
 - Requires a paid subscription
 - The content can feel a bit repetitive for some
+
+### 3. Russian Cases with Anna: The Specialist's Choice to Learn Grammar
+
+![Russian Cases with Anna app icon](/articles/logos/russian-cases-with-anna-icon-app-logo.webp)
+
+For serious learners who want to start building solid grammar foundations, Russian Cases with Anna is the ultimate tool. While other apps skim the surface, this one **dives deep into the heart of the Russian language**: the case system and declensions. It perfectly balances short lessons with engaging, interactive quizzes.
+
+**Pros:**
+
+- Unmatched focus on cases and declensions
+- High-speed learning modules
+- Engaging quizzes
+
+**Cons:**
+
+- Hyper-focused on grammar; you will need a secondary tool for general vocabulary and conversational practice
 
 ### 4. Memrise: Learn from Real Locals
 
@@ -179,7 +179,7 @@ Drops is a beautifully designed app that limits you to **5 minutes of study per 
 
 To master Russian, we recommend a **hybrid approach**:
 
-- **A Core App:** Use **Russian Cases with Anna** or **Busuu** to build your grammatical foundation.
+- **A Core App:** Use **Babbel** or **Busuu** for structured lessons, and add **Russian Cases with Anna** when you want to drill cases and declensions.
 - **A Speaking Tool:** Use **italki** once a week to practice what you've learned with a human.
 - **A "Gap-Filler":** Use **Duolingo** during your commute to keep your vocabulary fresh.
 

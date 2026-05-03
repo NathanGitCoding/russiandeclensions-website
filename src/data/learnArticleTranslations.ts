@@ -53,6 +53,9 @@ import { top10AppsRussianFr } from './articleTranslationsFr/top-10-apps-russian'
 import { top10AppsRussianDe } from './articleTranslationsDe/top-10-apps-russian';
 import { top10AppsRussianTr } from './articleTranslationsTr/top-10-apps-russian';
 import { top10AppsRussianPl } from './articleTranslationsPl/top-10-apps-russian';
+import { top10AppsRussianEs } from './articleTranslationsEs/top-10-apps-russian';
+import { top10AppsRussianIt } from './articleTranslationsIt/top-10-apps-russian';
+import { top10AppsRussianPt } from './articleTranslationsPt/top-10-apps-russian';
 import { bestAppsLearnRussianGrammarFr } from './articleTranslationsFr/best-apps-learn-russian-grammar';
 import { bestAppsLearnRussianGrammarDe } from './articleTranslationsDe/best-apps-learn-russian-grammar';
 import { bestAppsLearnRussianGrammarTr } from './articleTranslationsTr/best-apps-learn-russian-grammar';
@@ -531,6 +534,9 @@ export const learnArticleTranslations: Partial<
     de_de: top10AppsRussianDe,
     tr_tr: top10AppsRussianTr,
     pl_pl: top10AppsRussianPl,
+    es_es: top10AppsRussianEs,
+    it_it: top10AppsRussianIt,
+    pt_pt: top10AppsRussianPt,
   },
   'best-apps-learn-russian-grammar': {
     fr_fr: bestAppsLearnRussianGrammarFr,

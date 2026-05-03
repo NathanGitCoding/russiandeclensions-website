@@ -7,7 +7,7 @@ export const bestAppsLearnRussianGrammarPl: LearnArticle = {
   metaTitle:
     'Najlepsze aplikacje do gramatyki rosyjskiej 2026 — szczera recenzja | Russian Cases with Anna',
   metaDescription:
-    'Przetestowaliśmy 8 aplikacji uczących gramatyki rosyjskiej — przypadki, koniugacja, składnia. Plusy i minusy, tabela porównawcza i nasz wybór nr 1 do szybkiego opanowania gramatyki.',
+    'Recenzja pod gramatykę: 8 aplikacji do gramatyki rosyjskiej (przypadki, koniugacja, składnia) z plusami, minusami i tabelą. Szerszy ranking top 10 aplikacji „wszystko w jednym” — w powiązanym przewodniku.',
   keywords: [
     'najlepsze aplikacje gramatyka rosyjska',
     'aplikacja gramatyka rosyjska',
@@ -29,31 +29,6 @@ export const bestAppsLearnRussianGrammarPl: LearnArticle = {
   items: [
     {
       rank: 1,
-      title: 'Russian Cases with Anna — najlepsza aplikacja do rosyjskich przypadków i deklinacji',
-      description:
-        'Jeśli celem nr 1 jest **opanowanie rosyjskich przypadków i deklinacji**, to jest ta aplikacja. Tam, gdzie inne tylko wspominają o przypadkach, Russian Cases with Anna jest wokół nich zbudowana w całości. Masz uporządkowane lekcje dla każdego z 6 przypadków, potem szybkie quizy z ponad 400 rzeczywistymi rzeczownikami. Aplikacja śledzi trafność, podświetla słabe miejsca i dostosowuje trudność. Obejmuje też liczbę pojedynczą i mnogą — czego większość aplikacji w ogóle nie ma.\n\n**Darmowy quiz online** na russiandeclensions.com pozwala ćwiczyć wybrane przypadki (biernik, dopełniacz, celownik, narzędnik, miejscownik) bez instalowania czegokolwiek. Dla pasjonatów gramatyki i poważnych uczących się to złoty standard.',
-      image: {
-        src: '/articles/logos/russian-cases-with-anna-icon-app-logo.webp',
-        alt: 'Ikona Russian Cases with Anna — najlepsza aplikacja do rosyjskich przypadków gramatycznych',
-        width: 256,
-        height: 256,
-      },
-      rating: 9,
-      pros: [
-        'Najgłębsze omówienie wszystkich 6 przypadków rosyjskich — żadna inna aplikacja nie jest blisko',
-        'Interaktywne quizy z ponad 400 słowami, liczba pojedyncza i mnoga',
-        'Darmowy quiz online (bez instalacji)',
-        'Śledzenie trafności według przypadku — wiesz dokładnie, co powtórzyć',
-        'Przed każdym quizem jasne, zwięzłe wyjaśnienia gramatyczne',
-      ],
-      cons: [
-        'Skupienie na przypadkach/deklinacji — potrzebna osobna aplikacja do czasowników i rozmowy',
-        'Brak ćwiczeń mówienia i słuchania',
-      ],
-      price: 'Darmowa (opcjonalnie premium)',
-    },
-    {
-      rank: 2,
       title: 'Babbel — najlepszy uporządkowany kurs gramatyki',
       description:
         'Babbel traktuje gramatykę rosyjską poważnie. W każdej lekcji **wyjaśnienia gramatyczne są naturalnie wplecione** w dialogi i ćwiczenia, zamiast wyrzucać reguły w izolacji. W kontekście pojawiają się końcówki przypadków, koniugacja i szyk — tak powinno się uczyć gramatyki.\n\nRozpoznawanie mowy pomaga też w wymowie, często pomijanej przez aplikacje „gramatyczne”. Jeśli chcesz zrównoważony kurs gramatyki w stylu zajęć bez nudy uniwersyteckiej, Babbel dowozi.',
@@ -78,7 +53,7 @@ export const bestAppsLearnRussianGrammarPl: LearnArticle = {
       price: '7–14 USD/mies.',
     },
     {
-      rank: 3,
+      rank: 2,
       title: 'Busuu — poprawki gramatyczne od native speakerów',
       description:
         'Atut Busuu to **funkcja korekty społecznościowej**: rodzimi użytkownicy rosyjskiego sprawdzają twoje ćwiczenia pisemne. To bezcenne dla gramatyki, bo reguły podręcznikowe i rzeczywiste użycie często się rozjeżdżają.\n\nProgram zgodny z CEFR (A1–B2) obejmuje rosyjskie przypadki, aspekty czasownika i złożone wzorce zdań. Wyjaśnienia gramatyczne pojawiają się w kontekście lekcji, a nie w osobnych blokach teorii.',
@@ -100,6 +75,31 @@ export const bestAppsLearnRussianGrammarPl: LearnArticle = {
         'Brak dedykowanego trybu drillów na przypadki lub koniugację',
       ],
       price: 'Darmowy podstawowy / Premium 10–14 USD/mies.',
+    },
+    {
+      rank: 3,
+      title: 'Russian Cases with Anna — najlepsza aplikacja do rosyjskich przypadków i deklinacji',
+      description:
+        'Jeśli celem nr 1 jest **opanowanie rosyjskich przypadków i deklinacji**, to jest ta aplikacja. Tam, gdzie inne tylko wspominają o przypadkach, Russian Cases with Anna jest wokół nich zbudowana w całości. Masz uporządkowane lekcje dla każdego z 6 przypadków, potem szybkie quizy z ponad 400 rzeczywistymi rzeczownikami. Aplikacja śledzi trafność, podświetla słabe miejsca i dostosowuje trudność. Obejmuje też liczbę pojedynczą i mnogą — czego większość aplikacji w ogóle nie ma.\n\n**Darmowy quiz online** na russiandeclensions.com pozwala ćwiczyć wybrane przypadki (biernik, dopełniacz, celownik, narzędnik, miejscownik) bez instalowania czegokolwiek. Dla pasjonatów gramatyki i poważnych uczących się to złoty standard.',
+      image: {
+        src: '/articles/logos/russian-cases-with-anna-icon-app-logo.webp',
+        alt: 'Ikona Russian Cases with Anna — najlepsza aplikacja do rosyjskich przypadków gramatycznych',
+        width: 256,
+        height: 256,
+      },
+      rating: 9,
+      pros: [
+        'Najgłębsze omówienie wszystkich 6 przypadków rosyjskich — żadna inna aplikacja nie jest blisko',
+        'Interaktywne quizy z ponad 400 słowami, liczba pojedyncza i mnoga',
+        'Darmowy quiz online (bez instalacji)',
+        'Śledzenie trafności według przypadku — wiesz dokładnie, co powtórzyć',
+        'Przed każdym quizem jasne, zwięzłe wyjaśnienia gramatyczne',
+      ],
+      cons: [
+        'Skupienie na przypadkach/deklinacji — potrzebna osobna aplikacja do czasowników i rozmowy',
+        'Brak ćwiczeń mówienia i słuchania',
+      ],
+      price: 'Darmowa (opcjonalnie premium)',
     },
     {
       rank: 4,
@@ -228,15 +228,6 @@ export const bestAppsLearnRussianGrammarPl: LearnArticle = {
     ],
     rows: [
       {
-        Aplikacja: 'Russian Cases with Anna',
-        'Przypadki i deklinacja': '★★★★★',
-        'Koniugacja czasowników': '—',
-        'Wyjaśnienia gramatyczne': '★★★★★',
-        'Ćwiczenia interaktywne': '★★★★★',
-        Cena: 'Darmowa+',
-        'Najlepiej dla': 'Opanowanie przypadków',
-      },
-      {
         Aplikacja: 'Babbel',
         'Przypadki i deklinacja': '★★★☆☆',
         'Koniugacja czasowników': '★★★★☆',
@@ -253,6 +244,15 @@ export const bestAppsLearnRussianGrammarPl: LearnArticle = {
         'Ćwiczenia interaktywne': '★★★☆☆',
         Cena: '10–14 USD/mies.',
         'Najlepiej dla': 'Feedback od native',
+      },
+      {
+        Aplikacja: 'Russian Cases with Anna',
+        'Przypadki i deklinacja': '★★★★★',
+        'Koniugacja czasowników': '—',
+        'Wyjaśnienia gramatyczne': '★★★★★',
+        'Ćwiczenia interaktywne': '★★★★★',
+        Cena: 'Darmowa+',
+        'Najlepiej dla': 'Opanowanie przypadków',
       },
       {
         Aplikacja: 'Clozemaster',
@@ -304,7 +304,7 @@ export const bestAppsLearnRussianGrammarPl: LearnArticle = {
   conclusionIntro:
     'Żadna aplikacja nie obejmuje całej gramatyki rosyjskiej. Oto **zestaw nauki, który polecamy** według poziomu:',
   conclusionBullets: [
-    '**Początkujący:** Zacznij od **Duolingo**, żeby poznać cyrylicę i podstawowe wzorce, potem dodaj **Russian Cases with Anna**, gdy pojawi się pierwsza końcówka przypadku.',
+    '**Początkujący:** Zacznij od **Duolingo**, żeby poznać cyrylicę i podstawowe wzorce, potem dodaj **Babbel** lub **Busuu** do lekcji w kursie i **Russian Cases with Anna**, gdy chcesz ćwiczyć przypadki.',
     '**Średni:** Używaj **Russian Cases with Anna**, by systematycznie opanować wszystkie 6 przypadków, plus **Clozemaster** na masę zdań w kontekście. Dodaj **Babbel**, jeśli chcesz strukturalnych lekcji czasowników.',
     '**Zaawansowany:** Połącz **Clozemaster** do drillów wzorców z **RussianPod101** na dogłębne wyjaśnienia trudnych tematów, np. czasowników ruchu i aspektu.',
     '**Wszystkie poziomy:** Korzystaj z **darmowego quizu online** na russiandeclensions.com, żeby ćwiczyć wybrane przypadki w dowolnym momencie — bez instalacji aplikacji.',
@@ -316,7 +316,7 @@ export const bestAppsLearnRussianGrammarPl: LearnArticle = {
     {
       question: 'Jaka jest najlepsza aplikacja do nauki gramatyki rosyjskiej?',
       answer:
-        'Do przypadków i deklinacji w szczególności najlepsza jest Russian Cases with Anna — jedyna zbudowana w całości wokół systemu przypadków z ponad 400 słowami i quizami interaktywnymi. Do gramatyki ogólnej (przypadki + czasowniki + składnia) Babbel oferuje najpełniejszy strukturalny kurs.',
+        'W **tej recenzji pod gramatykę** (8 aplikacji) na pierwszym miejscu jest **Babbel** (pełny kurs: przypadki + czasowniki + składnia), na drugim **Busuu** (feedback od native speakerów). **Russian Cases with Anna** jest **tu trzecia**, ale nadal **najgłębszym narzędziem** do **przypadków i deklinacji** (ponad 400 słów, quizy, liczba pojedyncza i mnoga). Szerszy **ranking top 10 „wszystko w jednym”** — w powiązanym przewodniku.',
     },
     {
       question: 'Czy mogę uczyć się gramatyki rosyjskiej za darmo?',
@@ -347,6 +347,10 @@ export const bestAppsLearnRussianGrammarPl: LearnArticle = {
     ctaHref: '/practice',
   },
   internalLinks: [
+    {
+      href: '/learn/articles/top-10-apps-russian',
+      label: 'Top 10 aplikacji do nauki rosyjskiego w 2026 (ranking ogólny)',
+    },
     { href: '/practice', label: 'Darmowy quiz deklinacji rosyjskiej' },
     { href: '/practice/accusative', label: 'Ćwiczenia przypadka biernika' },
     { href: '/practice/genitive', label: 'Ćwiczenia przypadka dopełniacza' },
@@ -369,9 +373,9 @@ export const bestAppsLearnRussianGrammarPl: LearnArticle = {
     '@type': 'Article',
     headline: 'Najlepsze aplikacje do nauki gramatyki rosyjskiej w 2026 r. (szczera recenzja)',
     description:
-      'Szczera recenzja 8 aplikacji uczących gramatyki rosyjskiej — przypadki, koniugacja, składnia. Tabela porównawcza i polecane zestawy nauki.',
+      'Recenzja 8 aplikacji skupionych na gramatyce rosyjskiej — przypadki, koniugacja, składnia — z tabelą porównawczą. Odrębna od rankingu top 10 wszechstronnego.',
     datePublished: '2026-03-22',
-    dateModified: '2026-03-22',
+    dateModified: '2026-05-03',
     author: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {

@@ -46,17 +46,7 @@ export const bestFreeResourcesLearnRussianDe: LearnArticle = {
         'Mobile Apps sind der bequemste Weg, Russisch täglich zu üben. Hier sind die 5 besten kostenlosen Optionen 2026 — jede mit einem anderen Schwerpunkt.',
       subsections: [
         {
-          h3: '1. Russian Cases with Anna — am besten für Grammatik & Deklinationen',
-          content:
-            'Wenn Sie **russische Grammatik** meistern wollen, besonders Nomen-Deklination und die **6 grammatischen Fälle**, ist **Russian Cases with Anna** die beste kostenlose App. Sie ist die einzige App, die sich vollständig den russischen Fällen widmet.\n\n**Kostenlos enthalten:** 128 kurze Grammatiklektionen, 136 interaktive Quiz, Vokabelkarten mit Spaced Repetition und eine vollständige Deklinations­tabelle für über 400 russische Nomen. Die App behandelt alle 6 Fälle (Nominativ, Akkusativ, Genitiv, Dativ, Instrumental, Präpositional) mit klaren Erklärungen und Beispielen aus dem Alltag.\n\nSie können auch das **kostenlose Online-Quiz** unter russiandeclensions.com/practice ausprobieren — ohne Download.',
-          bullets: [
-            '**Am besten für:** Lernende, die russische Fälle systematisch verstehen und üben wollen',
-            '**Preis:** kostenlos (optional Premium für erweiterte Funktionen)',
-            '**Plattformen:** iOS und Android',
-          ],
-        },
-        {
-          h3: '2. Duolingo — am besten für absolute Anfänger',
+          h3: '1. Duolingo — am besten für absolute Anfänger',
           content:
             '**Duolingo** braucht keine Vorstellung. Gamifizierte Lektionen machen den Einstieg ins Russische leicht. Die App vermittelt Wortschatz und Grundgrammatik in kurzen, motivierenden Übungen.\n\n**Grenzen bei der Grammatik:** Duolingo erklärt russische Fälle nicht explizit. Sie lernen Muster durch Wiederholung, verstehen aber nicht immer *warum* die Endungen wechseln. Dafür brauchen Sie eine grammatikorientierte Ressource wie Russian Cases with Anna.',
           bullets: [
@@ -66,13 +56,23 @@ export const bestFreeResourcesLearnRussianDe: LearnArticle = {
           ],
         },
         {
-          h3: '3. Anki — am besten für Wortschatz mit Spaced Repetition',
+          h3: '2. Anki — am besten für Wortschatz mit Spaced Repetition',
           content:
             '**Anki** ist der Goldstandard für Karteikarten-Lernen. Ein **Algorithmus für verteilte Wiederholungen** zeigt Ihnen Karten kurz bevor Sie sie vergessen würden. Tausende vorgefertigter Russisch-Decks sind kostenlos verfügbar.\n\nAnki ist keine „App“ im klassischen Sinn — es ist ein Karteikarten-System. Für Vokabeln ist es unschlagbar. Kombinieren Sie es mit einer Grammatik-App und Sie kommen schnell voran.',
           bullets: [
             '**Am besten für:** fortgeschrittene Lernende, die Wortschatz aufbauen',
             '**Preis:** kostenlos auf Desktop und Android (iOS-App kostenpflichtig)',
             '**Plattformen:** Desktop, Android, iOS',
+          ],
+        },
+        {
+          h3: '3. Russian Cases with Anna — am besten für Grammatik & Deklinationen',
+          content:
+            'Wenn Sie **russische Grammatik** meistern wollen, besonders Nomen-Deklination und die **6 grammatischen Fälle**, ist **Russian Cases with Anna** die beste kostenlose App. Sie ist die einzige App, die sich vollständig den russischen Fällen widmet.\n\n**Kostenlos enthalten:** 128 kurze Grammatiklektionen, 136 interaktive Quiz, Vokabelkarten mit Spaced Repetition und eine vollständige Deklinations­tabelle für über 400 russische Nomen. Die App behandelt alle 6 Fälle (Nominativ, Akkusativ, Genitiv, Dativ, Instrumental, Präpositional) mit klaren Erklärungen und Beispielen aus dem Alltag.\n\nSie können auch das **kostenlose Online-Quiz** unter russiandeclensions.com/practice ausprobieren — ohne Download.',
+          bullets: [
+            '**Am besten für:** Lernende, die russische Fälle systematisch verstehen und üben wollen',
+            '**Preis:** kostenlos (optional Premium für erweiterte Funktionen)',
+            '**Plattformen:** iOS und Android',
           ],
         },
         {

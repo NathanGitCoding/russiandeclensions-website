@@ -9,6 +9,8 @@ export interface LearnPageTranslations {
   breadcrumb: { home: string; learn: string };
   header: { title: string; lead: string };
   sections: { grammarLessons: string; articles: string };
+  /** Mise en avant maillage SEO vers le guide apps (slug fixe). */
+  featuredTopAppsGuide: { title: string; lead: string; cta: string };
   badges: { lesson: string; article: string };
   lessonTitles: Record<string, string>;
   articleTitles: Record<string, string>;
@@ -55,6 +57,11 @@ const en: LearnPageTranslations = {
     lead: 'Free lessons and articles on Russian declensions, grammatical cases, and vocabulary.',
   },
   sections: { grammarLessons: 'Grammar Lessons', articles: 'Articles' },
+  featuredTopAppsGuide: {
+    title: "Editor's pick: Russian learning apps (2026)",
+    lead: 'Hands-on ranking of the best apps—tested on iOS, Android & web. Start here when building your study stack.',
+    cta: 'Read the top 10 guide →',
+  },
   badges: { lesson: 'Lesson', article: 'Article' },
   lessonTitles: {
     'russian-cases-complete-guide': 'The Complete Guide to Russian Cases',
@@ -109,6 +116,11 @@ const fr: LearnPageTranslations = {
     lead: 'Leçons et articles gratuits sur les déclinaisons russes, les cas grammaticaux et le vocabulaire.',
   },
   sections: { grammarLessons: 'Leçons de grammaire', articles: 'Articles' },
+  featuredTopAppsGuide: {
+    title: 'À la une : applis pour le russe (2026)',
+    lead: 'Classement testé sur iOS, Android et le web — pour choisir vos outils sérieusement.',
+    cta: 'Lire le guide top 10 →',
+  },
   badges: { lesson: 'Leçon', article: 'Article' },
   lessonTitles: {
     'russian-cases-complete-guide': 'Le guide complet des cas russes',
@@ -164,6 +176,11 @@ const tr: LearnPageTranslations = {
     lead: 'Rusça çekimler, gramer halleri ve kelime bilgisi hakkında ücretsiz dersler ve makaleler.',
   },
   sections: { grammarLessons: 'Gramer Dersleri', articles: 'Makaleler' },
+  featuredTopAppsGuide: {
+    title: 'Öne çıkan: Rusça öğrenme uygulamaları (2026)',
+    lead: 'iOS, Android ve web üzerinde test edilmiş uygulama sıralaması — çalışma yığınınızı kurarken buradan başlayın.',
+    cta: 'Top 10 rehberini oku →',
+  },
   badges: { lesson: 'Ders', article: 'Makale' },
   lessonTitles: {
     'russian-cases-complete-guide': 'Rusça Haller: Kapsamlı Rehber',
@@ -216,6 +233,11 @@ const de: LearnPageTranslations = {
     lead: 'Kostenlose Lektionen und Artikel zu russischen Deklinationen, grammatischen Fällen und Wortschatz.',
   },
   sections: { grammarLessons: 'Grammatik-Lektionen', articles: 'Artikel' },
+  featuredTopAppsGuide: {
+    title: 'Tipp: Apps zum Russischlernen (2026)',
+    lead: 'Praxisnahe Rangliste — getestet auf iOS, Android und Web. Ideal, um Ihren Lern-Stack zusammenzustellen.',
+    cta: 'Top-10-Leitfaden lesen →',
+  },
   badges: { lesson: 'Lektion', article: 'Artikel' },
   lessonTitles: {
     'russian-cases-complete-guide': 'Der vollständige Leitfaden zu den russischen Fällen',
@@ -270,6 +292,11 @@ const pl: LearnPageTranslations = {
     lead: 'Darmowe lekcje i artykuły o rosyjskich deklinacjach, przypadkach gramatycznych i słownictwie.',
   },
   sections: { grammarLessons: 'Lekcje gramatyki', articles: 'Artykuły' },
+  featuredTopAppsGuide: {
+    title: 'Wybór redakcji: aplikacje do nauki rosyjskiego (2026)',
+    lead: 'Ranking po testach na iOS, Androidzie i w przeglądarce — dobry start przy budowaniu zestawu narzędzi.',
+    cta: 'Czytaj przewodnik top 10 →',
+  },
   badges: { lesson: 'Lekcja', article: 'Artykuł' },
   lessonTitles: {
     'russian-cases-complete-guide': 'Kompletny przewodnik po rosyjskich przypadkach',
@@ -325,6 +352,11 @@ const ru: LearnPageTranslations = {
     lead: 'Бесплатные уроки и статьи о русских склонениях, падежах и лексике.',
   },
   sections: { grammarLessons: 'Уроки грамматики', articles: 'Статьи' },
+  featuredTopAppsGuide: {
+    title: 'Выбор редакции: приложения для русского (2026)',
+    lead: 'Рейтинг после тестов на iOS, Android и в вебе — удобная отправная точка для набора инструментов.',
+    cta: 'Читать гид топ-10 →',
+  },
   badges: { lesson: 'Урок', article: 'Статья' },
   lessonTitles: {
     'russian-cases-complete-guide': 'Полное руководство по русским падежам',
@@ -378,6 +410,11 @@ const es: LearnPageTranslations = {
     lead: 'Lecciones y artículos gratuitos sobre declinaciones rusas, casos gramaticales y vocabulario.',
   },
   sections: { grammarLessons: 'Lecciones de gramática', articles: 'Artículos' },
+  featuredTopAppsGuide: {
+    title: 'Destacado: apps para aprender ruso (2026)',
+    lead: 'Ranking probado en iOS, Android y web. Empieza aquí al montar tu stack de estudio.',
+    cta: 'Leer la guía top 10 →',
+  },
   badges: { lesson: 'Lección', article: 'Artículo' },
   lessonTitles: {
     'russian-cases-complete-guide': 'Guía completa de los casos rusos',
@@ -431,6 +468,11 @@ const it: LearnPageTranslations = {
     lead: 'Lezioni e articoli gratuiti su declinazioni russe, casi grammaticali e lessico.',
   },
   sections: { grammarLessons: 'Lezioni di grammatica', articles: 'Articoli' },
+  featuredTopAppsGuide: {
+    title: 'In evidenza: app per il russo (2026)',
+    lead: 'Classifica testata su iOS, Android e web — punto di partenza per il tuo kit di studio.',
+    cta: 'Leggi la guida top 10 →',
+  },
   badges: { lesson: 'Lezione', article: 'Articolo' },
   lessonTitles: {
     'russian-cases-complete-guide': 'Guida completa ai casi russi',
@@ -486,6 +528,11 @@ const pt: LearnPageTranslations = {
     lead: 'Lições e artigos gratuitos sobre declinações russas, casos gramaticais e vocabulário.',
   },
   sections: { grammarLessons: 'Lições de gramática', articles: 'Artigos' },
+  featuredTopAppsGuide: {
+    title: 'Em destaque: apps para russo (2026)',
+    lead: 'Ranking testado em iOS, Android e web — comece aqui ao montar o teu kit de estudo.',
+    cta: 'Ler o guia top 10 →',
+  },
   badges: { lesson: 'Lição', article: 'Artigo' },
   lessonTitles: {
     'russian-cases-complete-guide': 'Guia completo dos casos russos',
@@ -539,6 +586,11 @@ const nl: LearnPageTranslations = {
     lead: 'Gratis lessen en artikelen over Russische verbuigingen, grammaticale gevallen en vocabulaire.',
   },
   sections: { grammarLessons: 'Grammatica-lessen', articles: 'Artikelen' },
+  featuredTopAppsGuide: {
+    title: 'Tip van de redactie: apps voor Russisch (2026)',
+    lead: 'Geteste ranking op iOS, Android en web — begin hier bij het samenstellen van je leerstack.',
+    cta: 'Lees de top 10-gids →',
+  },
   badges: { lesson: 'Les', article: 'Artikel' },
   lessonTitles: {
     'russian-cases-complete-guide': 'De complete gids voor Russische gevallen',

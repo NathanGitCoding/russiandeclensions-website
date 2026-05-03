@@ -6,7 +6,7 @@ export const bestAppsLearnRussianGrammarFr: LearnArticle = {
   title: 'Meilleures applis pour apprendre la grammaire russe en 2026 (avis honnête)',
   metaTitle: 'Meilleures applis grammaire russe 2026 — avis honnête | Russian Cases with Anna',
   metaDescription:
-    'Nous avons testé 8 applis qui enseignent la grammaire russe — cas, conjugaison, structure des phrases. Avantages et limites, tableau comparatif, et notre choix n°1 pour maîtriser la grammaire vite.',
+    'Avis ciblé grammaire : 8 applis pour le russe (cas, conjugaison, structure) avec pour/contre et tableau comparatif. Pour le classement top 10 « tout usage » (habitude, conversation, tutorat), voir le guide lié.',
   keywords: [
     'meilleures applis grammaire russe',
     'appli grammaire russe',
@@ -28,31 +28,6 @@ export const bestAppsLearnRussianGrammarFr: LearnArticle = {
   items: [
     {
       rank: 1,
-      title: 'Russian Cases with Anna — la meilleure appli pour les cas et déclinaisons russes',
-      description:
-        'Si votre priorité n°1 est de **maîtriser les cas et déclinaisons russes**, c’est cette appli. Les autres évoquent les cas en passant ; Russian Cases with Anna est construite autour d’eux. Vous avez des leçons structurées pour chacun des 6 cas, puis des quiz rapides sur plus de 400 noms réels. L’appli suit votre précision, met en avant les points faibles et ajuste la difficulté. Elle couvre singulier et pluriel — ce que beaucoup d’applis ignorent.\n\nLe **quiz en ligne gratuit** sur russiandeclensions.com permet de cibler des cas précis (accusatif, génitif, datif, instrumental, prépositionnel) sans installer quoi que ce soit. Pour les passionnés de grammaire et les apprenants sérieux, c’est la référence.',
-      image: {
-        src: '/articles/logos/russian-cases-with-anna-icon-app-logo.webp',
-        alt: 'Icône Russian Cases with Anna — meilleure appli pour les cas de la grammaire russe',
-        width: 256,
-        height: 256,
-      },
-      rating: 9,
-      pros: [
-        'Couverture la plus profonde des 6 cas — aucune autre appli n’approche',
-        'Quiz interactifs sur 400+ mots, singulier et pluriel',
-        'Quiz d’entraînement en ligne gratuit (sans installation)',
-        'Précision par cas pour savoir exactement quoi réviser',
-        'Explications grammaticales claires et courtes avant chaque quiz',
-      ],
-      cons: [
-        'Très ciblée cas / déclinaisons — il faudra une autre appli pour les verbes et la conversation',
-        'Pas d’exercices de parole ni d’écoute',
-      ],
-      price: 'Gratuit (premium optionnel)',
-    },
-    {
-      rank: 2,
       title: 'Babbel — le meilleur cours de grammaire structuré',
       description:
         'Babbel prend la grammaire russe au sérieux. Chaque leçon **intègre les explications grammaticales** dans dialogues et exercices, au lieu de poser les règles à part. Vous croisez les cas, la conjugaison et l’ordre des mots en contexte — comme la grammaire devrait s’apprendre.\n\nLa reconnaissance vocale aide aussi à la prononciation, souvent négligée par les applis « grammaire ». Si vous voulez un cours équilibré façon université sans l’ennui, Babbel tient la route.',
@@ -77,7 +52,7 @@ export const bestAppsLearnRussianGrammarFr: LearnArticle = {
       price: '7–14 $/mois',
     },
     {
-      rank: 3,
+      rank: 2,
       title: 'Busuu — corrections grammaticales par des natifs',
       description:
         'L’atout de Busuu, c’est la **fonction communautaire** : des Russes natifs corrigent vos écrits. Inestimable pour la grammaire, car manuel et usage réel divergent souvent.\n\nLe programme aligné CECRL (A1–B2) couvre les cas, les aspects verbaux et les phrases complexes. Les explications apparaissent en contexte pendant les leçons plutôt que dans des blocs de théorie séparés.',
@@ -99,6 +74,31 @@ export const bestAppsLearnRussianGrammarFr: LearnArticle = {
         'Pas de mode drill dédié aux cas ou à la conjugaison',
       ],
       price: 'Gratuit basique / 10–14 $/mois Premium',
+    },
+    {
+      rank: 3,
+      title: 'Russian Cases with Anna — la meilleure appli pour les cas et déclinaisons russes',
+      description:
+        'Si votre priorité n°1 est de **maîtriser les cas et déclinaisons russes**, c’est cette appli. Les autres évoquent les cas en passant ; Russian Cases with Anna est construite autour d’eux. Vous avez des leçons structurées pour chacun des 6 cas, puis des quiz rapides sur plus de 400 noms réels. L’appli suit votre précision, met en avant les points faibles et ajuste la difficulté. Elle couvre singulier et pluriel — ce que beaucoup d’applis ignorent.\n\nLe **quiz en ligne gratuit** sur russiandeclensions.com permet de cibler des cas précis (accusatif, génitif, datif, instrumental, prépositionnel) sans installer quoi que ce soit. Pour les passionnés de grammaire et les apprenants sérieux, c’est la référence.',
+      image: {
+        src: '/articles/logos/russian-cases-with-anna-icon-app-logo.webp',
+        alt: 'Icône Russian Cases with Anna — meilleure appli pour les cas de la grammaire russe',
+        width: 256,
+        height: 256,
+      },
+      rating: 9,
+      pros: [
+        'Couverture la plus profonde des 6 cas — aucune autre appli n’approche',
+        'Quiz interactifs sur 400+ mots, singulier et pluriel',
+        'Quiz d’entraînement en ligne gratuit (sans installation)',
+        'Précision par cas pour savoir exactement quoi réviser',
+        'Explications grammaticales claires et courtes avant chaque quiz',
+      ],
+      cons: [
+        'Très ciblée cas / déclinaisons — il faudra une autre appli pour les verbes et la conversation',
+        'Pas d’exercices de parole ni d’écoute',
+      ],
+      price: 'Gratuit (premium optionnel)',
     },
     {
       rank: 4,
@@ -227,15 +227,6 @@ export const bestAppsLearnRussianGrammarFr: LearnArticle = {
     ],
     rows: [
       {
-        Appli: 'Russian Cases with Anna',
-        'Cas et déclinaisons': '★★★★★',
-        'Conjugaison des verbes': '—',
-        'Explications grammaticales': '★★★★★',
-        'Exercices interactifs': '★★★★★',
-        Prix: 'Gratuit+',
-        'Idéal pour': 'Maîtriser les cas',
-      },
-      {
         Appli: 'Babbel',
         'Cas et déclinaisons': '★★★☆☆',
         'Conjugaison des verbes': '★★★★☆',
@@ -252,6 +243,15 @@ export const bestAppsLearnRussianGrammarFr: LearnArticle = {
         'Exercices interactifs': '★★★☆☆',
         Prix: '10–14 $/mois',
         'Idéal pour': 'Retour des natifs',
+      },
+      {
+        Appli: 'Russian Cases with Anna',
+        'Cas et déclinaisons': '★★★★★',
+        'Conjugaison des verbes': '—',
+        'Explications grammaticales': '★★★★★',
+        'Exercices interactifs': '★★★★★',
+        Prix: 'Gratuit+',
+        'Idéal pour': 'Maîtriser les cas',
       },
       {
         Appli: 'Clozemaster',
@@ -303,7 +303,7 @@ export const bestAppsLearnRussianGrammarFr: LearnArticle = {
   conclusionIntro:
     'Aucune appli ne couvre toute la grammaire russe. Voici la **pile d’étude** que nous recommandons selon votre niveau :',
   conclusionBullets: [
-    '**Débutant :** commencez avec **Duolingo** pour le cyrillique et les premiers motifs, puis ajoutez **Russian Cases with Anna** dès que vous croisez votre première terminaison de cas.',
+    '**Débutant :** commencez avec **Duolingo** pour le cyrillique et les premiers motifs, puis ajoutez **Babbel** ou **Busuu** pour un cours structuré, et **Russian Cases with Anna** lorsque vous voulez cibler les cas.',
     '**Intermédiaire :** **Russian Cases with Anna** pour maîtriser les 6 cas, plus **Clozemaster** pour la masse de phrases. Ajoutez **Babbel** si vous voulez des leçons verbales structurées.',
     '**Avancé :** **Clozemaster** pour le drill de motifs et **RussianPod101** pour les explications pointues (verbes de mouvement, aspect, etc.).',
     '**Tous niveaux :** le **quiz en ligne gratuit** sur russiandeclensions.com pour cibler des cas à tout moment — sans installation.',
@@ -315,7 +315,7 @@ export const bestAppsLearnRussianGrammarFr: LearnArticle = {
     {
       question: 'Quelle est la meilleure appli pour la grammaire russe ?',
       answer:
-        'Pour les cas et déclinaisons, Russian Cases with Anna est la meilleure — la seule construite autour du système des cas avec 400+ mots et quiz interactifs. Pour une grammaire plus globale (cas + verbes + structure), Babbel offre le cours structuré le plus complet.',
+        'Dans **cette revue centrée grammaire** (8 applis), **Babbel** arrive en premier pour un cours complet (cas + verbes + structure), suivi de **Busuu** pour les retours de natifs. **Russian Cases with Anna** est **n°3 ici** — mais elle reste le **spécialiste le plus profond** pour **cas et déclinaisons** (400+ mots, quiz interactifs, singulier et pluriel). Pour notre **top 10 tout usage**, voir le guide lié.',
     },
     {
       question: 'Peut-on apprendre la grammaire russe gratuitement ?',
@@ -346,6 +346,10 @@ export const bestAppsLearnRussianGrammarFr: LearnArticle = {
     ctaHref: '/practice',
   },
   internalLinks: [
+    {
+      href: '/learn/articles/top-10-apps-russian',
+      label: 'Top 10 des applis pour apprendre le russe en 2026 (classement général)',
+    },
     { href: '/practice', label: 'Quiz gratuit de déclinaison russe' },
     { href: '/practice/accusative', label: 'Pratiquer l’accusatif' },
     { href: '/practice/genitive', label: 'Pratiquer le génitif' },
@@ -368,9 +372,9 @@ export const bestAppsLearnRussianGrammarFr: LearnArticle = {
     '@type': 'Article',
     headline: 'Meilleures applis pour apprendre la grammaire russe en 2026 (avis honnête)',
     description:
-      'Avis honnête sur 8 applis qui enseignent la grammaire russe — cas, conjugaison, structure. Tableau comparatif et piles d’étude recommandées.',
+      'Avis sur 8 applis centrées grammaire russe — cas, conjugaison, structure — avec tableau comparatif. Distinct du classement top 10 tout usage.',
     datePublished: '2026-03-22',
-    dateModified: '2026-03-22',
+    dateModified: '2026-05-03',
     author: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {

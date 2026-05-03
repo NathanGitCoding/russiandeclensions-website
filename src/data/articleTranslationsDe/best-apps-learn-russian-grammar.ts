@@ -7,7 +7,7 @@ export const bestAppsLearnRussianGrammarDe: LearnArticle = {
   metaTitle:
     'Die besten Apps zum Russisch-Grammatiklernen 2026 — ehrlicher Test | Russian Cases with Anna',
   metaDescription:
-    'Wir haben 8 Apps getestet, die russische Grammatik lehren — Kasus, Konjugation, Satzbau. Ehrliche Vor- und Nachteile, Vergleichstabelle und unsere Nr. 1 für schnelles Meistern der Grammatik.',
+    'Grammatik-Fokus: 8 Apps für russische Grammatik (Kasus, Konjugation, Satzbau) mit Vor- und Nachteilen und Vergleichstabelle. Für das breitere Top-10-Gesamtranking siehe den verlinkten Guide.',
   keywords: [
     'beste apps russisch grammatik',
     'russisch grammatik app',
@@ -29,31 +29,6 @@ export const bestAppsLearnRussianGrammarDe: LearnArticle = {
   items: [
     {
       rank: 1,
-      title: 'Russian Cases with Anna — die beste App für russische Kasus & Deklination',
-      description:
-        'Wenn Ihr Hauptziel ist, **russische Kasus und Deklination zu meistern**, ist das diese App. Wo andere Fälle nur am Rande erwähnen, ist Russian Cases with Anna komplett darauf ausgelegt. Strukturierte Lektionen für jeden der 6 Fälle, dann zügige Quiz zu über 400 echten Nomen. Die App trackt Ihre Trefferquote, hebt Schwächen hervor und passt die Schwierigkeit an. Singular und Plural sind dabei — das lassen die meisten Apps weg.\n\nDas **kostenlose Online-Quiz** auf russiandeclensions.com lässt Sie bestimmte Fälle (Akkusativ, Genitiv, Dativ, Instrumental, Präpositional) üben, ohne Installation. Für Grammatik-Nerds und ambitionierte Lernende ist das der Goldstandard.',
-      image: {
-        src: '/articles/logos/russian-cases-with-anna-icon-app-logo.webp',
-        alt: 'Russian Cases with Anna App-Symbol — beste App für russische Grammatik und Kasus',
-        width: 256,
-        height: 256,
-      },
-      rating: 9,
-      pros: [
-        'Tiefste Abdeckung aller 6 russischen Fälle — keine andere App kommt ran',
-        'Interaktive Quiz mit über 400 Wörtern, Singular und Plural',
-        'Kostenloses Online-Übungsquiz (ohne Installation)',
-        'Trefferquote pro Fall — Sie wissen genau, was wiederholen',
-        'Klare, kompakte Grammatikerklärungen vor jedem Quiz',
-      ],
-      cons: [
-        'Streng auf Kasus/Deklination fokussiert — für Verben und Konversation brauchen Sie eine zweite App',
-        'Keine Sprech- oder Hörübungen',
-      ],
-      price: 'Kostenlos (optional Premium)',
-    },
-    {
-      rank: 2,
       title: 'Babbel — am besten strukturierter Grammatikkurs',
       description:
         'Babbel nimmt russische Grammatik ernst. Jede Lektion **webt Grammatikerklärungen natürlich** in Dialoge und Übungen ein, statt Regeln isoliert abzuladen. Kasusendungen, Verbkonjugation und Wortstellung treffen Sie im Kontext — so sollte man Grammatik lernen.\n\nDie Spracherkennung hilft bei der Aussprache, die viele Grammatik-Apps ignorieren. Wenn Sie einen rundum Grammatikkurs wie im Seminar — nur ohne Langeweile — wollen, liefert Babbel.',
@@ -78,7 +53,7 @@ export const bestAppsLearnRussianGrammarDe: LearnArticle = {
       price: '7–14 $/Monat',
     },
     {
-      rank: 3,
+      rank: 2,
       title: 'Busuu — Grammatik-Korrekturen von Muttersprachlern',
       description:
         'Busuus Alleinstellungsmerkmal ist die **Community-Korrektur**: Muttersprachler korrigieren Ihre schriftlichen Übungen. Für Grammatik unschätzbar, weil Lehrbuchregeln und Realität oft auseinanderlaufen.\n\nDer GER-kurierte Stoff (A1–B2) deckt russische Kasus, Verbalspekte und komplexe Satzmuster ab. Grammatik-Hinweise erscheinen im Lauf der Lektion, nicht nur in separaten Theorieblöcken.',
@@ -100,6 +75,31 @@ export const bestAppsLearnRussianGrammarDe: LearnArticle = {
         'Kein eigener Drill-Modus für Kasus oder Konjugation',
       ],
       price: 'Gratis Basis / 10–14 $/Monat Premium',
+    },
+    {
+      rank: 3,
+      title: 'Russian Cases with Anna — die beste App für russische Kasus & Deklination',
+      description:
+        'Wenn Ihr Hauptziel ist, **russische Kasus und Deklination zu meistern**, ist das diese App. Wo andere Fälle nur am Rande erwähnen, ist Russian Cases with Anna komplett darauf ausgelegt. Strukturierte Lektionen für jeden der 6 Fälle, dann zügige Quiz zu über 400 echten Nomen. Die App trackt Ihre Trefferquote, hebt Schwächen hervor und passt die Schwierigkeit an. Singular und Plural sind dabei — das lassen die meisten Apps weg.\n\nDas **kostenlose Online-Quiz** auf russiandeclensions.com lässt Sie bestimmte Fälle (Akkusativ, Genitiv, Dativ, Instrumental, Präpositional) üben, ohne Installation. Für Grammatik-Nerds und ambitionierte Lernende ist das der Goldstandard.',
+      image: {
+        src: '/articles/logos/russian-cases-with-anna-icon-app-logo.webp',
+        alt: 'Russian Cases with Anna App-Symbol — beste App für russische Grammatik und Kasus',
+        width: 256,
+        height: 256,
+      },
+      rating: 9,
+      pros: [
+        'Tiefste Abdeckung aller 6 russischen Fälle — keine andere App kommt ran',
+        'Interaktive Quiz mit über 400 Wörtern, Singular und Plural',
+        'Kostenloses Online-Übungsquiz (ohne Installation)',
+        'Trefferquote pro Fall — Sie wissen genau, was wiederholen',
+        'Klare, kompakte Grammatikerklärungen vor jedem Quiz',
+      ],
+      cons: [
+        'Streng auf Kasus/Deklination fokussiert — für Verben und Konversation brauchen Sie eine zweite App',
+        'Keine Sprech- oder Hörübungen',
+      ],
+      price: 'Kostenlos (optional Premium)',
     },
     {
       rank: 4,
@@ -228,15 +228,6 @@ export const bestAppsLearnRussianGrammarDe: LearnArticle = {
     ],
     rows: [
       {
-        App: 'Russian Cases with Anna',
-        'Kasus & Deklination': '★★★★★',
-        Verbkonjugation: '—',
-        Grammatikerklärungen: '★★★★★',
-        'Interaktive Übungen': '★★★★★',
-        Preis: 'Kostenlos+',
-        'Am besten für': 'Kasus meistern',
-      },
-      {
         App: 'Babbel',
         'Kasus & Deklination': '★★★☆☆',
         Verbkonjugation: '★★★★☆',
@@ -253,6 +244,15 @@ export const bestAppsLearnRussianGrammarDe: LearnArticle = {
         'Interaktive Übungen': '★★★☆☆',
         Preis: '10–14 $/Mo.',
         'Am besten für': 'Feedback von Muttersprachlern',
+      },
+      {
+        App: 'Russian Cases with Anna',
+        'Kasus & Deklination': '★★★★★',
+        Verbkonjugation: '—',
+        Grammatikerklärungen: '★★★★★',
+        'Interaktive Übungen': '★★★★★',
+        Preis: 'Kostenlos+',
+        'Am besten für': 'Kasus meistern',
       },
       {
         App: 'Clozemaster',
@@ -304,7 +304,7 @@ export const bestAppsLearnRussianGrammarDe: LearnArticle = {
   conclusionIntro:
     'Keine einzelne App deckt die gesamte russische Grammatik ab. Hier der **empfohlene Lern-Stack** je nach Niveau:',
   conclusionBullets: [
-    '**Anfänger:** Mit **Duolingo** Kyrillisch und erste Muster lernen, sobald die ersten Kasusendungen auftauchen **Russian Cases with Anna** dazunehmen.',
+    '**Anfänger:** Mit **Duolingo** Kyrillisch und erste Muster lernen, dann **Babbel** oder **Busuu** für strukturierte Lektionen ergänzen und **Russian Cases with Anna** nutzen, wenn Sie Fälle drillen wollen.',
     '**Mittelstufe:** **Russian Cases with Anna** für alle 6 Fälle systematisch, plus **Clozemaster** für massiven Satz-Input. Optional **Babbel** für strukturierte Verb-Lektionen.',
     '**Fortgeschritten:** **Clozemaster** zum Muster-Drill mit **RussianPod101** für tiefe Erklärungen zu kniffligen Themen wie Bewegungsverben und Aspekt.',
     '**Alle Niveaus:** Das **kostenlose Online-Quiz** auf russiandeclensions.com für einzelne Fälle — ohne App-Installation.',
@@ -316,7 +316,7 @@ export const bestAppsLearnRussianGrammarDe: LearnArticle = {
     {
       question: 'Was ist die beste App zum Russisch-Grammatiklernen?',
       answer:
-        'Speziell für russische Kasus und Deklination ist Russian Cases with Anna die beste App — die einzige, die komplett um das Kasussystem mit über 400 Wörtern und interaktiven Quiz aufgebaut ist. Für allgemeine Grammatik (Kasus + Verben + Satzbau) bietet Babbel den vollständigsten strukturierten Kurs.',
+        'In dieser **grammatikfokussierten Review** (8 Apps) steht **Babbel** an erster Stelle für einen vollständigen strukturierten Grammatikkurs (Kasus + Verben + Satzbau), gefolgt von **Busuu** für Muttersprachler-Feedback. **Russian Cases with Anna** ist **hier Nr. 3** — bleibt aber der **tiefste Spezialist** für **Kasus und Deklination** (über 400 Wörter, interaktive Quiz, Singular und Plural). Für unser breiteres **Top-10-Gesamtranking** siehe den verlinkten Guide.',
     },
     {
       question: 'Kann man russische Grammatik kostenlos lernen?',
@@ -347,6 +347,10 @@ export const bestAppsLearnRussianGrammarDe: LearnArticle = {
     ctaHref: '/practice',
   },
   internalLinks: [
+    {
+      href: '/learn/articles/top-10-apps-russian',
+      label: 'Die 10 besten Apps zum Russischlernen 2026 (Gesamtranking)',
+    },
     { href: '/practice', label: 'Kostenloses russisches Deklinations-Quiz' },
     { href: '/practice/accusative', label: 'Akkusativ üben' },
     { href: '/practice/genitive', label: 'Genitiv üben' },
@@ -369,9 +373,9 @@ export const bestAppsLearnRussianGrammarDe: LearnArticle = {
     '@type': 'Article',
     headline: 'Die besten Apps zum Russisch-Grammatiklernen 2026 (ehrlicher Test)',
     description:
-      'Ehrlicher Test von 8 Apps zum Russisch-Grammatiklernen — Kasus, Konjugation, Satzbau. Vergleichstabelle und empfohlene Lern-Stacks.',
+      'Test von 8 grammatikzentrierten Russisch-Apps — Kasus, Konjugation, Satzbau — mit Vergleichstabelle. Abgrenzung zum Top-10-Gesamtranking.',
     datePublished: '2026-03-22',
-    dateModified: '2026-03-22',
+    dateModified: '2026-05-03',
     author: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {

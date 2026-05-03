@@ -46,17 +46,7 @@ export const bestFreeResourcesLearnRussianPl: LearnArticle = {
         'Aplikacje mobilne to najwygodniejszy sposób na codzienną praktykę rosyjskiego. Oto 5 najlepszych darmowych opcji w 2026 roku — każda z innym mocnym punktem.',
       subsections: [
         {
-          h3: '1. Russian Cases with Anna — najlepsza do gramatyki i deklinacji',
-          content:
-            'Jeśli chcesz **opanować gramatykę rosyjską**, zwłaszcza deklinację rzeczowników i **6 przypadków gramatycznych**, **Russian Cases with Anna** to najlepsza dostępna darmowa aplikacja. To jedyna aplikacja w całości poświęcona rosyjskim przypadkom.\n\n**Co jest za darmo:** 128 krótkich lekcji gramatyki, 136 interaktywnych quizów, fiszki z powtórkami rozłożonymi w czasie oraz pełna tabela deklinacji dla ponad 400 rosyjskich rzeczowników. Aplikacja obejmuje wszystkie 6 przypadków (mianownik, biernik, dopełniacz, celownik, narzędnik, miejscownik) z jasnymi wyjaśnieniami i przykładami z życia.\n\nMożesz też wypróbować **darmowy quiz online** na russiandeclensions.com/practice — bez pobierania.',
-          bullets: [
-            '**Dla kogo:** uczących się, którzy chcą systematycznie rozumieć i ćwiczyć przypadki',
-            '**Cena:** za darmo (opcjonalnie premium z zaawansowanymi funkcjami)',
-            '**Platformy:** iOS i Android',
-          ],
-        },
-        {
-          h3: '2. Duolingo — najlepsza dla zupełnych początkujących',
+          h3: '1. Duolingo — najlepsza dla zupełnych początkujących',
           content:
             '**Duolingo** nie wymaga przedstawienia. Grywalizowane lekcje ułatwiają start z rosyjskim od zera. Aplikacja uczy słownictwa i podstaw gramatyki krótkimi, wciągającymi ćwiczeniami.\n\n**Ograniczenia gramatyczne:** Duolingo nie wyjaśnia wprost rosyjskich przypadków. Uczysz się wzorców przez powtórki, ale nie zawsze rozumiesz, *dlaczego* końcówki się zmieniają. Potrzebujesz wtedy źródła nastawionego na gramatykę, np. Russian Cases with Anna.',
           bullets: [
@@ -66,13 +56,23 @@ export const bestFreeResourcesLearnRussianPl: LearnArticle = {
           ],
         },
         {
-          h3: '3. Anki — najlepsza do słownictwa z powtórkami rozłożonymi w czasie',
+          h3: '2. Anki — najlepsza do słownictwa z powtórkami rozłożonymi w czasie',
           content:
             '**Anki** to złoty standard nauki na fiszkach. Wykorzystuje **algorytm powtórek rozłożonych w czasie**, żeby pokazywać karty tuż przed zapomnieniem. Dostępne są tysiące gotowych zestawów rosyjskich za darmo.\n\nAnki to nie „aplikacja” w klasycznym sensie — to system fiszek. Do zapamiętywania słów nie ma lepszego narzędzia. Połącz z aplikacją gramatyczną i szybko posuwasz się naprzód.',
           bullets: [
             '**Dla kogo:** średnio zaawansowani budujący słownictwo',
             '**Cena:** za darmo na komputerze i Androidzie (aplikacja iOS płatna)',
             '**Platformy:** komputer, Android, iOS',
+          ],
+        },
+        {
+          h3: '3. Russian Cases with Anna — najlepsza do gramatyki i deklinacji',
+          content:
+            'Jeśli chcesz **opanować gramatykę rosyjską**, zwłaszcza deklinację rzeczowników i **6 przypadków gramatycznych**, **Russian Cases with Anna** to najlepsza dostępna darmowa aplikacja. To jedyna aplikacja w całości poświęcona rosyjskim przypadkom.\n\n**Co jest za darmo:** 128 krótkich lekcji gramatyki, 136 interaktywnych quizów, fiszki z powtórkami rozłożonymi w czasie oraz pełna tabela deklinacji dla ponad 400 rosyjskich rzeczowników. Aplikacja obejmuje wszystkie 6 przypadków (mianownik, biernik, dopełniacz, celownik, narzędnik, miejscownik) z jasnymi wyjaśnieniami i przykładami z życia.\n\nMożesz też wypróbować **darmowy quiz online** na russiandeclensions.com/practice — bez pobierania.',
+          bullets: [
+            '**Dla kogo:** uczących się, którzy chcą systematycznie rozumieć i ćwiczyć przypadki',
+            '**Cena:** za darmo (opcjonalnie premium z zaawansowanymi funkcjami)',
+            '**Platformy:** iOS i Android',
           ],
         },
         {

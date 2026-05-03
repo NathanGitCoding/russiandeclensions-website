@@ -3,12 +3,38 @@
  * Target: listicles, guides, app reviews
  */
 
+import { TOP_10_APPS_RUSSIAN_ARTICLE_JSONLD_EXTRAS } from './learnArticleStaticOg';
+
 /** Image 1200×630 pour screenshot app, lazy loading */
 export interface LearnArticleImage {
   src: string;
   alt: string;
   width?: number;
   height?: number;
+}
+
+/** Entrée tier list : icône + libellé optionnel sous l’image. */
+export interface LearnArticleTierListApp extends LearnArticleImage {
+  /** Si vrai, affiche `label` ou `alt` sous l’icône ; sinon icône seule (`alt` reste pour l’a11y). */
+  showLabel?: boolean;
+  /** Texte sous l’icône (sinon `alt`). Les `\n` deviennent des sauts de ligne. */
+  label?: string;
+  /** Réduit l’icône d’environ 15 % (logos très lisibles à taille égale aux autres). */
+  tierIconSmaller?: boolean;
+}
+
+export interface LearnArticleTierListRow {
+  letter: 'S' | 'A' | 'B' | 'C' | 'D';
+  /** Classe couleur : `s` | `a` | `b` | `c` | `d`. */
+  tone: 's' | 'a' | 'b' | 'c' | 'd';
+  apps: LearnArticleTierListApp[];
+}
+
+/** Bloc type tier list (S–D + barre sombre avec logos). */
+export interface LearnArticleTierListChart {
+  /** Titre optionnel (paragraphe stylé, pas un H2). */
+  title?: string;
+  tiers: LearnArticleTierListRow[];
 }
 
 export interface LearnArticleItem {
@@ -29,6 +55,8 @@ export interface LearnArticleItem {
 export interface LearnArticleComparisonTable {
   headers: string[];
   rows: Record<string, string>[];
+  /** Une icône par ligne (même ordre que `rows`) : colonne logo à gauche. */
+  rowIcons?: LearnArticleImage[];
 }
 
 /** Tableau pour cheat sheet / guides (headers + rows de cellules) */
@@ -91,6 +119,8 @@ export interface LearnArticle {
   metaDescription: string;
   keywords: string[];
   h1: string;
+  /** Tier list visuel (S–D) sous le fil d’Ariane, avant le H1. */
+  tierListChart?: LearnArticleTierListChart;
   intro: string;
   /** Items pour listicles (Top 10, etc.) — vide ou absent si sections utilisées */
   items?: LearnArticleItem[];
@@ -98,8 +128,19 @@ export interface LearnArticle {
   ctaText: string;
   ctaHref: string;
   jsonLd: Record<string, unknown>;
+  /** Titre / chapô optionnels au-dessus de la liste `items` (reviews). */
+  itemsSectionTitle?: string;
+  itemsSectionLead?: string;
   /** Tableau comparatif des apps */
   comparisonTable?: LearnArticleComparisonTable;
+  /** Petit tableau (ex. top 3) avec podium optionnel — affiché avant `comparisonTable`. */
+  quickTopPicksComparison?: LearnArticleComparisonTable;
+  quickTopPicksComparisonTitle?: string;
+  quickTopPicksComparisonIntro?: string;
+  /** Surcharge du H2 du tableau principal (défaut : libellé i18n « comparaison rapide »). */
+  comparisonTableTitle?: string;
+  /** Paragraphe sous le H2 du tableau principal. */
+  comparisonTableIntro?: string;
   /** FAQ pour schema FAQPage */
   faq?: LearnArticleFaqItem[];
   /** Lead magnet CTA (ex. cheat sheet gratuit) */
@@ -116,6 +157,14 @@ export interface LearnArticle {
   internalLinks?: { href: string; label: string }[];
   /** Image hero en haut de l'article */
   heroImage?: { src: string; alt: string; width?: number; height?: number };
+  /** Crédit auteur sous l’intro (photo + ligne, le texte peut utiliser **gras**). */
+  introByline?: {
+    text: string;
+    imageSrc: string;
+    imageAlt: string;
+    imageWidth?: number;
+    imageHeight?: number;
+  };
   /** Couleur d'accent pour les colonnes des tableaux (accusatif=rouge, datif=violet, instrumental=teal, prépositionnel=marron, génitif=bleu marine, orange=erreurs) */
   tableAccentVariant?:
     | 'accusative'
@@ -130,9 +179,10 @@ export const learnArticles: Record<string, LearnArticle> = {
   'top-10-apps-russian': {
     slug: 'top-10-apps-russian',
     title: 'Top 10 Apps to Learn Russian in 2026',
-    metaTitle: 'Top 10 Apps to Learn Russian in 2026 | Russian Cases with Anna',
+    metaTitle:
+      'Top 10 Apps to Learn Russian in 2026: Deep Reviews & Rankings | Russian Cases with Anna',
     metaDescription:
-      'Discover the best apps for learning Russian in 2026: grammar, vocabulary, cases, and conversation. Our top 10 picks help you master Russian at your own pace.',
+      'Top-10 all-round ranking of Russian learning apps for 2026—habit, conversation, audio, tutoring & cases—after hands-on iOS, Android & web tests. Distinct from our grammar-only 8-app review.',
     keywords: [
       'learn Russian app',
       'best Russian learning apps',
@@ -140,221 +190,583 @@ export const learnArticles: Record<string, LearnArticle> = {
       'Russian cases app',
       'top apps to learn Russian',
     ],
-    h1: 'Top 10 Apps to Learn Russian in 2026: The Ultimate Guide',
+    h1: 'Top 10 Apps to Learn Russian in 2026: Deep Reviews & Rankings',
     intro:
-      "Learning Russian can feel like climbing a mountain. Between the Cyrillic alphabet, the six grammatical cases, and verbs of motion, it's easy to get overwhelmed. However, with the right tools in your pocket, that mountain becomes a series of manageable steps.\n\nIn 2026, language learning technology has reached new heights. Whether you are a total beginner or an advanced learner looking to polish your fluency, we've tested and ranked the 10 best apps to learn Russian. Here is our detailed breakdown to help you find your perfect match.",
-    heroImage: {
-      src: '/articles/top-10-apps-to-learn-russian-2026.webp',
-      alt: 'Infographic: top 10 apps to learn Russian in 2026 with app logos and rankings',
-      width: 1200,
-      height: 630,
+      'Learning Russian in 2026 no longer looks like a dusty textbook and a red-pen workbook. Speech recognition, spaced-repetition titans, AI conversation partners, and specialist grammar drills are mainstream—which is exciting until you realise **more** apps means **harder** choices, not simpler ones.\n\nThe App Store and Play Store are crowded with Russian products, each promising fluency on a tight schedule. The real risk is not downloading a "bad" app; it is losing months to the **wrong stack for your goal**—pretty streaks when you need disciplined case practice, or endless gamification when what you actually need is endings you can deploy under pressure in real sentences.\n\nWe have spent 100+ hours testing the latest updates, flagship courses, tutor marketplaces, and niche drill tools to bring you a **definitive ranking of the best Russian learning apps** this year. We stress-tested more than thirty iOS, Android, and web tools—subscriptions, freemium giants, audio-first programmes, community-feedback apps, and case-focused trainers—and narrowed the field to **ten you can trust**. The picks below are mapped to how people actually study: **daily habit**, **structured scenarios**, **Russian cases and declensions**, **human tutoring**, **audio-first learning**, **memory-driven vocabulary**, **story and podcast immersion**, and **fast pattern practice** once the basics stick.\n\nIf your bottleneck is **Russian cases** (not tourist phrases alone), start with our method piece: [How to practice Russian cases: five methods, drills & a weekly habit](/learn/articles/how-to-practice-russian-cases)—then come back here to choose apps that match how you really learn.',
+    introByline: {
+      text: "**Written by Nathan** — native French speaker; I'm learning Russian and sharing what actually works for grammar, cases, and daily practice.",
+      imageSrc: '/landing-cases/founder-photo.webp',
+      imageAlt: 'Nathan, founder of Russian Cases with Anna',
+      imageWidth: 256,
+      imageHeight: 256,
+    },
+    tierListChart: {
+      title: "We've ranked the top Russian learning apps — 2026 📱 🇷🇺",
+      tiers: [
+        {
+          letter: 'S',
+          tone: 's',
+          apps: [
+            {
+              src: '/articles/logos/duolingo-icon-app-logo.webp',
+              alt: 'Duolingo',
+              width: 256,
+              height: 256,
+            },
+            {
+              src: '/articles/logos/babel-app-icon-logo.webp',
+              alt: 'Babbel',
+              width: 256,
+              height: 256,
+            },
+            {
+              src: '/articles/logos/russian-cases-with-anna-icon-app-logo.webp',
+              alt: 'Russian Cases with Anna',
+              label: 'Russian Cases\nwith Anna',
+              width: 256,
+              height: 256,
+              showLabel: true,
+              tierIconSmaller: true,
+            },
+          ],
+        },
+        {
+          letter: 'A',
+          tone: 'a',
+          apps: [
+            {
+              src: '/articles/logos/busuu-icon-app-logo.webp',
+              alt: 'Busuu',
+              width: 256,
+              height: 256,
+            },
+            {
+              src: '/articles/logos/memrise-icon-app-logo.webp',
+              alt: 'Memrise',
+              width: 256,
+              height: 256,
+            },
+          ],
+        },
+        {
+          letter: 'B',
+          tone: 'b',
+          apps: [
+            {
+              src: '/articles/logos/Pimsleur-app-icon-logo.webp',
+              alt: 'Pimsleur',
+              width: 256,
+              height: 256,
+            },
+            {
+              src: '/articles/logos/italki-icon-app-logo.webp',
+              alt: 'italki',
+              width: 256,
+              height: 256,
+            },
+          ],
+        },
+        {
+          letter: 'C',
+          tone: 'c',
+          apps: [
+            {
+              src: '/articles/logos/RussianPod101-icon-app-logo.webp',
+              alt: 'RussianPod101',
+              width: 256,
+              height: 256,
+            },
+            {
+              src: '/articles/logos/clozemaster-icon-app-logo.webp',
+              alt: 'Clozemaster',
+              width: 256,
+              height: 256,
+            },
+          ],
+        },
+        {
+          letter: 'D',
+          tone: 'd',
+          apps: [
+            {
+              src: '/articles/logos/drops-icon-app-logo.webp',
+              alt: 'Drops',
+              width: 256,
+              height: 256,
+            },
+          ],
+        },
+      ],
+    },
+    quickTopPicksComparisonTitle: 'Quick comparison: 2026 top picks',
+    quickTopPicksComparisonIntro:
+      'These three apps **stack well together**: a daily habit builder, a structured course, and a specialist for cases and declensions — without juggling ten subscriptions.',
+    quickTopPicksComparison: {
+      headers: ['Rank', 'App', 'Best for'],
+      rowIcons: [
+        {
+          src: '/articles/logos/duolingo-icon-app-logo.webp',
+          alt: 'Duolingo',
+          width: 256,
+          height: 256,
+        },
+        { src: '/articles/logos/babel-app-icon-logo.webp', alt: 'Babbel', width: 256, height: 256 },
+        {
+          src: '/articles/logos/russian-cases-with-anna-icon-app-logo.webp',
+          alt: 'Russian Cases with Anna',
+          width: 256,
+          height: 256,
+        },
+      ],
+      rows: [
+        {
+          Rank: '#1',
+          App: 'Duolingo',
+          'Best for':
+            '**Gamified daily habit** — short lessons, streaks, and a gentle on-ramp to Cyrillic and basic patterns when consistency matters most.',
+        },
+        {
+          Rank: '#2',
+          App: 'Babbel',
+          'Best for':
+            '**Structured scenarios & explanations** — clear grammar in context, quality audio, and practical phrases for travel and everyday Russian.',
+        },
+        {
+          Rank: '#3',
+          App: 'Russian Cases with Anna',
+          'Best for':
+            '**Russian cases & declensions** — **your best bet** for finally mastering the six-case system and noun declensions; **the perfect complement** to Duolingo, Babbel, or any general Russian app — stack a specialist on top of your daily habit, not a second full curriculum.',
+        },
+      ],
+    },
+    comparisonTableTitle: 'All 10 apps at a glance',
+    comparisonTableIntro:
+      'Use this table as a **quick map** of every mobile app in our 2026 ranking—whether your priority is a **daily Russian habit**, **structured grammar lessons**, **cases and declensions**, **listening with native speakers**, **writing feedback**, **live tutoring**, or fast **vocabulary** bursts. Each row states what that tool does best so you can shortlist apps that match your level and goals before the **in-depth reviews** below.',
+    itemsSectionTitle: 'In-depth reviews',
+    itemsSectionLead:
+      'Below, we go deeper into each app — strengths, trade-offs, and who it fits best for learners focused on **Russian cases** and beyond.',
+    comparisonTable: {
+      headers: ['App', 'Best for'],
+      rowIcons: [
+        {
+          src: '/articles/logos/duolingo-icon-app-logo.webp',
+          alt: 'Duolingo',
+          width: 256,
+          height: 256,
+        },
+        { src: '/articles/logos/babel-app-icon-logo.webp', alt: 'Babbel', width: 256, height: 256 },
+        {
+          src: '/articles/logos/russian-cases-with-anna-icon-app-logo.webp',
+          alt: 'Russian Cases with Anna',
+          width: 256,
+          height: 256,
+        },
+        {
+          src: '/articles/logos/memrise-icon-app-logo.webp',
+          alt: 'Memrise',
+          width: 256,
+          height: 256,
+        },
+        { src: '/articles/logos/busuu-icon-app-logo.webp', alt: 'Busuu', width: 256, height: 256 },
+        {
+          src: '/articles/logos/Pimsleur-app-icon-logo.webp',
+          alt: 'Pimsleur',
+          width: 256,
+          height: 256,
+        },
+        {
+          src: '/articles/logos/italki-icon-app-logo.webp',
+          alt: 'italki',
+          width: 256,
+          height: 256,
+        },
+        {
+          src: '/articles/logos/RussianPod101-icon-app-logo.webp',
+          alt: 'RussianPod101',
+          width: 256,
+          height: 256,
+        },
+        {
+          src: '/articles/logos/clozemaster-icon-app-logo.webp',
+          alt: 'Clozemaster',
+          width: 256,
+          height: 256,
+        },
+        { src: '/articles/logos/drops-icon-app-logo.webp', alt: 'Drops', width: 256, height: 256 },
+      ],
+      rows: [
+        {
+          App: '**Duolingo**',
+          'Best for': 'Daily habit & beginner basics',
+        },
+        {
+          App: '**Babbel**',
+          'Best for': 'Structured course & clear grammar',
+        },
+        {
+          App: '**Russian Cases with Anna**',
+          'Best for': 'Finally mastering cases & declensions; ideal complement to your main app',
+        },
+        {
+          App: '**Memrise**',
+          'Best for': 'Listening to real speakers',
+        },
+        {
+          App: '**Busuu**',
+          'Best for': 'Community feedback on writing',
+        },
+        {
+          App: '**Pimsleur**',
+          'Best for': 'Audio-first accent & speaking',
+        },
+        {
+          App: '**italki**',
+          'Best for': '1-on-1 lessons with tutors',
+        },
+        {
+          App: '**RussianPod101**',
+          'Best for': 'Huge podcast-style library',
+        },
+        {
+          App: '**Clozemaster**',
+          'Best for': 'Intermediate sentence exposure',
+        },
+        {
+          App: '**Drops**',
+          'Best for': 'Visual vocabulary bursts',
+        },
+      ],
     },
     items: [
       {
         rank: 1,
-        title: "Russian Cases with Anna: The Specialist's Choice to Learn Grammar",
-        description:
-          'For serious learners who want to start building solid grammar foundations, Russian Cases with Anna is the ultimate tool. While other apps skim the surface, this one **dives deep into the heart of the Russian language**: the case system and declensions. It perfectly balances short lessons with engaging, interactive quizzes.',
-        image: {
-          src: '/articles/logos/russian-cases-with-anna-icon-app-logo.webp',
-          alt: 'Russian Cases with Anna app icon',
-          width: 256,
-          height: 256,
-        },
-        pros: [
-          'Unmatched focus on cases and declensions',
-          'High-speed learning modules',
-          'Engaging quizzes',
-        ],
-        cons: [
-          'Hyper-focused on grammar; you will need a secondary tool for general vocabulary and conversational practice',
-        ],
-      },
-      {
-        rank: 2,
         title: 'Duolingo: The Best When You Are Starting',
         description:
-          'Duolingo remains the most famous gateway into the Russian language. It **turns learning into a game**, making it nearly impossible to forget your daily practice. Gamified "tree" structure focusing on basic vocabulary and simple sentence construction.',
+          'Duolingo remains the most famous gateway into the Russian language. It **turns learning into a game** — streaks, leagues, and bite-sized lessons make it hard to skip a day. The Path redesign added more listening and reading, but the core loop is still taps, translations, and matching.\n\nFor Russian specifically, you will internalize Cyrillic, survival phrases, and a *feel* for how sentences look on the screen. What you will not get is a systematic tour of the six cases or deep explanations of why endings change — patterns appear through repetition, not rules. That is fine for week one; serious grammar still belongs in a second app.\n\n**Pricing (2026)**\n\n**Model:** **Free + subscription** — start with a free tier (often with limits or ads) and subscribe in-app for more. **We do not list prices here** — they vary by region and plan.\n\n**The verdict:** Our pick for **daily habit** and a gentle on-ramp to Russian. Use it as an anchor, not your only textbook.',
         image: {
           src: '/articles/logos/duolingo-icon-app-logo.webp',
           alt: 'Duolingo app icon',
           width: 256,
           height: 256,
         },
+        rating: 7,
         pros: [
-          'Completely free (with a premium tier)',
-          'Excellent UI',
-          'High "stickiness" that keeps you coming back',
+          'Strong gamification and retention — the app actually wants you back tomorrow',
+          'Polished UX; sessions are short enough for a commute or coffee break',
+          'Introduces Cyrillic and basic vocabulary with almost zero friction',
         ],
         cons: [
-          'Light on grammar explanations (which Russian desperately needs)',
-          'Uses some "nonsense" sentences',
-          'Lacks deep speaking practice',
+          'Grammar explanations stay shallow for a language that rewards depth',
+          'Some sentences feel silly or unnatural in real Russian',
+          'Speaking and writing practice are thin compared with tutor-led tools',
         ],
+        price: 'Free + subscription (in-app)',
       },
       {
-        rank: 3,
+        rank: 2,
         title: 'Babbel: A Solid Pick for Grammar',
         description:
-          'If you prefer a more "classroom-style" structure without the boring lectures, Babbel is the top choice. It is specifically designed to **get you conversational quickly**. Expert-crafted lessons that balance dialogue, grammar rules, and cultural context.',
+          'Babbel sits in the sweet spot between "phrasebook app" and "serious courseware." Lessons are **scenario-driven**: you hear a dialogue, unpack the grammar, then drill it in exercises. Russian case endings show up in context — accusative for direct objects, prepositional for location — instead of abstract tables dumped on you on day one.\n\nSpeech recognition is baked in, which matters because Russian stress and vowel reduction are tricky for English speakers. You will not become a novelist here, but you will understand *why* a sentence is built the way it is far more often than in pure gamified apps.\n\n**Pricing (2026)**\n\n**Model:** **Subscription-based** — full access through paid plans; short trials or previews may exist. **We do not list prices here.**\n\n**The verdict:** The best **structured all-rounder** in this list for adults who want clear explanations without going back to university.',
         image: {
           src: '/articles/logos/babel-app-icon-logo.webp',
           alt: 'Babbel app icon',
           width: 256,
           height: 256,
         },
+        rating: 8,
         pros: [
-          'Very clear explanations of the Russian case system',
-          'High-quality audio',
-          'Practical vocabulary',
+          'Grammar is woven into dialogues — rules land when you need them',
+          'Solid coverage of cases, conjugation, and word order for A1–B1-ish learners',
+          'High-quality native audio and realistic travel/everyday scenarios',
         ],
-        cons: ['Requires a paid subscription', 'The content can feel a bit repetitive for some'],
+        cons: [
+          'Paid subscription required for meaningful progress',
+          'Case coverage is broad but not exhaustive — power users still outgrow it',
+          'Some learners find the pacing repetitive after the intermediate hump',
+        ],
+        price: 'Subscription (in-app)',
+      },
+      {
+        rank: 3,
+        title: "Russian Cases with Anna: The Specialist's Choice to Learn Grammar",
+        description:
+          'If your north star is **Russian cases and declensions**, this app is built for you. Other tools mention cases in passing; Russian Cases with Anna centers the whole product on them: short grammar capsules, then fast quizzes on real nouns in singular and plural. Weak spots surface in your stats so review sessions actually target what you miss.\n\nThe free **online declension quiz** on russiandeclensions.com mirrors the same idea in the browser — handy when you want five focused minutes without installing anything. Pair it with a general course (Babbel, Busuu) and you finally get the "rules + drills" loop Russian demands.\n\n**Pricing (2026)**\n\n**Model:** **Free + optional premium** in the app; **free web quiz** on russiandeclensions.com, no account. **We do not list prices here.**\n\n**The verdict:** The **deepest specialist** in this ranking for cases — keep it open next to any broader app.',
+        image: {
+          src: '/articles/logos/russian-cases-with-anna-icon-app-logo.webp',
+          alt: 'Russian Cases with Anna app icon',
+          width: 256,
+          height: 256,
+        },
+        rating: 9,
+        pros: [
+          'Purpose-built for all six cases with structured lessons + quizzes',
+          '400+ nouns with singular/plural declension tables — rare depth on mobile',
+          'Tracks accuracy per case so review time is not wasted',
+        ],
+        cons: [
+          'Laser-focused on grammar — you still want listening/speaking elsewhere',
+          'Not a full phrasebook or travel conversation simulator on its own',
+        ],
+        price: 'Free+ (optional premium)',
       },
       {
         rank: 4,
         title: 'Memrise: Learn from Real Locals',
         description:
-          "Memrise stands out because it doesn't just use robotic voices. It uses **thousands of short video clips of real Russian people** speaking in their natural environment. Uses Spaced Repetition Systems (SRS) and immersive video content to burn words into your memory.",
+          'Memrise is best understood as **SRS vocabulary plus ears**. Official Russian courses mix classic flashcards with "Learn with Locals" — short smartphone clips of native speakers in real settings. You hear hesitation, filler words, and multiple accents: exactly what textbooks smooth away.\n\nGrammar is present, but it is not the headline. You will memorize chunks and notice endings over time, yet you will still want a dedicated grammar app if cases are your pain point. Where Memrise shines is turning listening from "exam audio" into something human and addictive.\n\n**Pricing (2026)**\n\n**Model:** **Free + subscription** — start with a free tier (often with limits or ads) and subscribe in-app for more. **We do not list prices here** — they vary by region and plan.\n\n**The verdict:** A top-tier **listening and chunk acquisition** companion — stack it with a grammar-first tool.',
         image: {
           src: '/articles/logos/memrise-icon-app-logo.webp',
           alt: 'Memrise app icon',
           width: 256,
           height: 256,
         },
+        rating: 7,
         pros: [
-          'You hear different accents and speeds, which is vital for real-world listening',
-          'The "Learn with Locals" feature is a game-changer',
+          'Native video clips beat synthetic voices for attuning your ear',
+          'SRS scheduling keeps weak words in rotation automatically',
+          'Great for everyday phrases, small talk, and pronunciation modeling',
         ],
-        cons: ['Not great for learning complex sentence structures or deep grammar'],
+        cons: [
+          'Not a structured case curriculum — endings appear, rules do not',
+          'Less ideal if you need long-form grammar explanations',
+          'Premium unlocks the features power users actually want',
+        ],
+        price: 'Free + subscription (in-app)',
       },
       {
         rank: 5,
         title: 'Busuu: The Community-Driven App',
         description:
-          'Busuu offers a complete course that follows the CEFR levels (A1 to B2). Its "killer feature" is the ability to **have your exercises corrected by native speakers**. Structured lessons combined with a social network of language learners.',
+          'Busuu packages a **CEFR-aligned path** (A1–B2) with a social twist: you submit short writing or speaking prompts and native speakers correct you. That feedback loop catches mistakes grammar trees never see — wrong aspect, unnatural word order, "technically correct but nobody says it" phrasing.\n\nLessons still explain cases and verbs, but the depth sits between Babbel and a university textbook. Premium unlocks the full journey; the free layer is more of a sampler than a course.\n\n**Pricing (2026)**\n\n**Model:** **Free + subscription** — start with a free tier (often with limits or ads) and subscribe in-app for more. **We do not list prices here** — they vary by region and plan.\n\n**The verdict:** Best when you want **structure + human eyes on your Russian** in the same subscription.',
         image: {
           src: '/articles/logos/busuu-icon-app-logo.webp',
           alt: 'Busuu app icon',
           width: 256,
           height: 256,
         },
+        rating: 8,
         pros: [
-          'Real-time feedback from Russians',
-          'Offline mode',
-          'Very logical progression of difficulty',
+          'Native corrections make written Russian feel less like guessing',
+          'Logical progression with offline packs for flights and commutes',
+          'Mix of grammar, vocabulary, and functional dialogues',
         ],
         cons: [
-          'The free version is quite limited; you really need the Premium version to see progress',
+          'Free plan caps progress quickly — budget for Premium if you are serious',
+          'Grammar write-ups can feel brief on thorny topics (aspect, motion verbs)',
+          'No dedicated declension lab like a specialist case app',
         ],
+        price: 'Free + subscription (in-app)',
       },
       {
         rank: 6,
         title: 'Pimsleur: The King of Audio & Pronunciation',
         description:
-          'If you want to **sound like a native** and don\'t care about reading or writing yet, Pimsleur is the "gold standard." It\'s perfect for commuters. A 100% audio-based method focusing on active recall and organic conversation.',
+          'Pimsleur is deliberately old-school in the best way: **audio-first call-and-response** drills that force you to produce Russian aloud. You repeat after native speakers, answer prompts under time pressure, and build cadence before you worry about spelling.\n\nThat makes it a mismatch if you need to read menus or type emails today — Cyrillic is barely touched early on. But for pronunciation, stress patterns, and spoken confidence in a car or on a walk, few apps match the method.\n\n**Pricing (2026)**\n\n**Model:** **Paid subscription or bundles** — primarily a paid product; store trials may appear. **We do not list prices here.**\n\n**The verdict:** Choose Pimsleur when **speaking out loud** matters more than literacy for the next 90 days.',
         image: {
           src: '/articles/logos/Pimsleur-app-icon-logo.webp',
           alt: 'Pimsleur app icon',
           width: 256,
           height: 256,
         },
+        rating: 7,
         pros: [
-          'Develops an authentic accent and builds "muscle memory" for speaking',
-          'No screen time required',
+          'Trains mouth and ear together — excellent for accent and rhythm',
+          'Hands-free mode fits walking, driving, chores',
+          'Dialogues feel closer to real speech than many gamified lines',
         ],
         cons: [
-          "Doesn't teach the Cyrillic alphabet or writing",
-          'It can feel a bit "old school" for younger learners',
+          'Minimal reading/writing — you will parallel-track another tool for Cyrillic',
+          'Pedagogy can feel slow to visually oriented learners',
+          'Premium pricing compared with free-first competitors',
         ],
+        price: 'Paid (subscription or audio packs)',
       },
       {
         rank: 7,
         title: 'italki: Real Human Connection',
         description:
-          'Sometimes, you just need a human. italki isn\'t a "course" app; it\'s a platform that **connects you with professional Russian teachers** for 1-on-1 lessons. Personalized video lessons tailored to your specific goals.',
+          'italki is not a course generator — it is a **marketplace of humans**. You pick professional teachers or community tutors, book 30–60 minute slots, and bring your own goals: "I freeze on cases," "TORFL prep," "conversation only." Lesson notes and homework vary by instructor, so read profiles and trial lessons matter.\n\nQuality scales with how picky you are. Budget tutors can be fantastic; expensive ones are not automatically better. The platform simply removes the friction of finding *someone* who will speak Russian with you weekly.\n\n**Pricing (2026)**\n\n**Model:** **Per-lesson marketplace** — you book tutors and pay each session at the rates they set in the app. **We do not list prices here.**\n\n**The verdict:** The fastest cure for **speaking anxiety** and bespoke grammar questions — just budget time, not only money.',
         image: {
           src: '/articles/logos/italki-icon-app-logo.webp',
           alt: 'italki app icon',
           width: 256,
           height: 256,
         },
+        rating: 8,
         pros: [
-          'Total flexibility',
-          'Very affordable (you can find tutors for under $10/hour)',
-          'The fastest way to overcome the "fear of speaking"',
+          'Fully personalized feedback — ask about any case or nuance live',
+          'Flexible scheduling across time zones',
+          'Forces output — the bottleneck for most self-taught learners',
         ],
-        cons: ['Not an "on-the-go" app; requires scheduling and a stable internet connection'],
+        cons: [
+          'Requires calendar discipline and decent internet',
+          'Quality varies; vet tutors with intro videos and reviews',
+          'Not a passive "open app for two minutes" habit on its own',
+        ],
+        price: 'Per lesson (rates in app)',
       },
       {
         rank: 8,
         title: 'RussianPod101: The Infinite Audio Library',
         description:
-          "This is perhaps **the most comprehensive resource on the list**. It's essentially a massive library of podcasts covering every possible topic in Russian. Learning through listening to natural dialogues with detailed PDF lesson notes.",
+          'RussianPod101 is less an "app course" and more a **planet-sized podcast archive** with PDFs. You get slow readings, line-by-line breakdowns, slang series, exam prep, and deep dives on cases or aspect — if you can find the right playlist.\n\nStrength is breadth; weakness is navigation. Without a self-made study plan, it is easy to bounce between shiny lessons and never finish a sequence. Treat it like a library card: incredibly powerful when you know what shelf to walk to.\n\n**Pricing (2026)**\n\n**Model:** **Free rotating sample + subscription tiers** — try content for free on rotation; full library via paid plans. **We do not list prices here.**\n\n**The verdict:** Best for **intermediate+ listeners** who want grammar explained in audio and do not mind curating their own path.',
         image: {
           src: '/articles/logos/RussianPod101-icon-app-logo.webp',
           alt: 'RussianPod101 app icon',
           width: 256,
           height: 256,
         },
+        rating: 7,
         pros: [
-          'Covers everything from "Slang" to "Business Russian"',
-          'Excellent for intermediate learners who have plateaued',
+          'Depth rivals textbooks — entire series on cases, verbs of motion, etc.',
+          'PDF notes often include tables you can screenshot for later',
+          'Excellent while commuting or doing chores',
         ],
-        cons: ['The interface can be overwhelming because there is too much content'],
+        cons: [
+          'UI and library size overwhelm beginners',
+          'Little interactive production — mostly input-focused',
+          'Upsells and tier names can feel confusing — read the fine print',
+        ],
+        price: 'Free rotation + subscription (in-app)',
       },
       {
         rank: 9,
         title: 'Clozemaster: For the Intermediate Learner',
         description:
-          'Once you know the basics, Duolingo becomes too easy. Clozemaster **fills that gap** by using "cloze" tests (fill-in-the-blank) in thousands of real-world sentences. Mass immersion through sentences to learn how words actually function in context.',
+          'Clozemaster assumes you already know **what** cases are and pushes you to pick correct endings inside **real sentences** at speed. It is gamified mass exposure: fill the blank, hear the line, move on. Your brain starts pattern-matching prepositions to cases without conscious chart reading.\n\nBeginners without Cyrillic comfort will feel lost — this is the "bridge" app after Duolingo stops hurting. Pair it with explicit lessons (Babbel, Russian Cases with Anna) so you are not guessing forever.\n\n**Pricing (2026)**\n\n**Model:** **Free + subscription** — start with a free tier (often with limits or ads) and subscribe in-app for more. **We do not list prices here** — they vary by region and plan.\n\n**The verdict:** Our favorite **B1+ gym** for turning known rules into automatic choices.',
         image: {
           src: '/articles/logos/clozemaster-icon-app-logo.webp',
           alt: 'Clozemaster app icon',
           width: 256,
           height: 256,
         },
+        rating: 8,
         pros: [
-          'Best app for expanding vocabulary rapidly once you reach the B1 level',
-          'Retro 8-bit design is fun',
+          'Thousands of authentic sentences — incredible for collocations',
+          'Forces active recall of endings, not passive recognition',
+          'Retro arcade vibe keeps long sessions tolerable',
         ],
-        cons: ["Not beginner-friendly. If you don't know the alphabet, stay away for now."],
+        cons: [
+          'Almost no explicit teaching — bring your own grammar foundation',
+          'Not for day-one learners still decoding the alphabet',
+          'Visual design is functional, not luxurious',
+        ],
+        price: 'Free + subscription (in-app)',
       },
       {
         rank: 10,
         title: 'Drops: The Visual Vocabulary Builder',
         description:
-          'Drops is a beautifully designed app that limits you to **5 minutes of study per day** (unless you pay). It treats vocabulary like a fast-paced visual game. Associating minimalist icons with Russian words—no translations involved.',
+          'Drops leans hard into **micro-sessions**: five minutes a day of icon-driven vocabulary drops. You swipe, match, and associate Cyrillic words with minimalist illustrations — almost no traditional grammar screens.\n\nThat makes it a brilliant Cyrillic and noun booster, and a weak standalone Russian strategy. Use it when you want low-friction vocabulary growth without opening a "serious" textbook app.\n\n**Pricing (2026)**\n\n**Model:** **Free + subscription** — a limited free daily window with an in-app subscription to unlock more time. **We do not list prices here.**\n\n**The verdict:** A gorgeous **side dish** for vocabulary and script — never the main protein.',
         image: {
           src: '/articles/logos/drops-icon-app-logo.webp',
           alt: 'Drops app icon',
           width: 256,
           height: 256,
         },
+        rating: 6,
         pros: [
-          'Stunning design',
-          'Great for learning the Cyrillic alphabet and basic nouns without stress',
+          'Stunning UI lowers the activation energy to open the app',
+          'Great for alphabet and concrete nouns with low cognitive load',
+          'Micro-session design fits busy schedules',
         ],
-        cons: ["Zero grammar. It's a supplement, not a full course."],
+        cons: [
+          'No meaningful grammar path — cases barely exist here',
+          'Words appear in isolation relative to sentence-heavy apps',
+          'Daily cap on free tier frustrates motivated beginners',
+        ],
+        price: 'Free + subscription (in-app)',
       },
     ],
-    conclusionIntro: 'To master Russian, we recommend a **hybrid approach**:',
+    conclusionIntro:
+      '**Final verdict: the serious-learner stack for 2026**\n\nIf there is one thing we learned reviewing dozens of Russian learning tools in 2026, it is that the perfect all-in-one app is a myth. You cannot build a house with only a hammer — and you cannot build Russian you are proud of with only a game, only a phrase bank, or only a chatbot.\n\nThe learners who actually get past the **case wall** pair one broad app for **daily habit and exposure** with one **specialist engine** for the grammar Russian is famous for. **Russian Cases with Anna** is that engine: not a replacement for Duolingo or Babbel, but the complement serious students add when vague pattern-guessing stops being enough.\n\n**Our recommended 2026 stack:**',
     conclusionBullets: [
-      '**A Core App:** Use **Russian Cases with Anna** or **Busuu** to build your grammatical foundation.',
-      "**A Speaking Tool:** Use **italki** once a week to practice what you've learned with a human.",
-      '**A "Gap-Filler":** Use **Duolingo** during your commute to keep your vocabulary fresh.',
+      '**The habit & exposure layer (Duolingo, Babbel, or Busuu):** Your daily bread — Cyrillic comfort, themed vocabulary, and gentle sentence patterns in a rhythm you can sustain for months.',
+      '**The precision layer (Russian Cases with Anna):** Your secret weapon for **declension and the six cases**. General courses touch endings in passing; Russian Cases with Anna is built around them — structured lessons, hundreds of real nouns, and drills that make accurate endings automatic so your output stops sounding approximate.',
+      '**The live layer (italki, tandem, or voice practice):** Once or twice a week, put vocabulary and grammar on the line with a real human (or high-quality voice dialogue). That is where habit and precision turn into spoken Russian.',
     ],
+    conclusionOutro:
+      '**The bottom line:** resist app overload. Pick **one** broad habit app, add **Russian Cases with Anna** for cases, and protect a weekly slot for conversation. Consistency beats collecting logos — especially if you are serious about sounding clear, not just busy.\n\nThat completes our top-10 roadmap: from gamified giants to specialized engines — **build a stack, not a monoculture.**',
     conclusion: '',
-    ctaText: 'See Russian Cases with Anna',
-    ctaHref: '/',
+    faq: [
+      {
+        question: 'What is the best app to learn Russian?',
+        answer:
+          'It depends on your goal. For **daily habit**, **Cyrillic**, and a gentle start, **Duolingo** tops our 2026 ranking. For **structured grammar in context** and adult-friendly explanations, **Babbel** is the strongest all-rounder. If **Russian cases and declensions** are what slow you down, **Russian Cases with Anna** is the specialist we recommend stacking on top—not a second full curriculum.',
+      },
+      {
+        question: 'Is Duolingo enough to learn Russian?',
+        answer:
+          'Duolingo is excellent for **consistency** and early exposure, but it will not carry you through the **six-case system** on its own. Patterns show up through drills, not deep rule-based teaching. Most serious learners pair Duolingo with a **grammar-first** app (Babbel, Busuu) and, when cases bite, **Russian Cases with Anna** or **Clozemaster** for endings in real sentences.',
+      },
+      {
+        question: 'What is the best app for Russian grammar and cases?',
+        answer:
+          'For **cases and declensions** specifically, **Russian Cases with Anna** is built around the six cases, singular and plural, with hundreds of nouns and targeted quizzes. For **broad grammar** across levels (not only cases), **Babbel** and **Busuu** explain rules in context better than pure gamified apps. Use one broad course plus a **case specialist** once you feel endings are guesswork.',
+      },
+      {
+        question: 'Babbel or Duolingo for Russian — which is better?',
+        answer:
+          'They solve different jobs. **Duolingo** wins on **low friction and daily streaks**—great if you need something you will actually open every day. **Babbel** wins on **clearer grammar pedagogy** and more natural dialogues for travel and real life. Our typical stack: Duolingo (or similar) for the habit layer, Babbel when you want explanations, then a specialist when cases need dedicated drills.',
+      },
+      {
+        question: 'What is the best app to practice Russian conversation?',
+        answer:
+          'For **live speaking**, **italki** is the fastest path to real feedback—you book tutors and bring your own goals. **Busuu Premium** adds **community corrections** on writing and short speaking prompts. **Pimsleur** is not “conversation with a human,” but it is outstanding **audio-first** practice for pronunciation and rhythm when you are often hands-free.',
+      },
+      {
+        question: 'How many Russian learning apps should I use?',
+        answer:
+          'We recommend **two to three** at most: **one** broad habit or course app, **one** tool that matches your bottleneck (cases, listening, or sentence exposure), and optionally **one** human or community layer (tutor, corrections, tandem). More apps usually mean more **tab switching**, not more fluency—pick a stack and stay with it for months.',
+      },
+      {
+        question: 'What is the best free app to learn Russian?',
+        answer:
+          'Strong free tiers include **Duolingo** (daily habit), **Clozemaster** (sentence-level endings once you are past pure beginner), and **Russian Cases with Anna** plus the **free declension quiz** on this site for focused case practice without installing anything. “Best free” still depends on whether you need habit, grammar depth, or case drills—combine free layers instead of expecting one app to do everything.',
+      },
+    ],
+    leadMagnetCta: {
+      title: 'Practice Russian cases in your browser — free',
+      description:
+        'No install: pick any combination of the six cases, singular or plural, and get instant feedback on 400+ nouns — the same drill logic we recommend stacking next to your main app.',
+      ctaText: 'Open the free declension quiz →',
+      ctaHref: '/practice',
+    },
+    internalLinks: [
+      {
+        href: '/learn/articles/best-apps-learn-russian-grammar',
+        label: 'Best Apps to Learn Russian Grammar (2026 Honest Review)',
+      },
+      {
+        href: '/learn/articles/best-free-resources-learn-russian',
+        label: 'Best Free Resources to Learn Russian',
+      },
+      {
+        href: '/learn/articles/russian-cases-explained-beginners-guide',
+        label: "Russian Cases Explained: A Beginner's Guide",
+      },
+      {
+        href: '/learn/articles/how-to-practice-russian-cases',
+        label: 'How to Practice Russian Cases: 5 Proven Methods',
+      },
+      {
+        href: '/learn/lessons/russian-cases-complete-guide',
+        label: 'The Complete Guide to Russian Cases: All 6 Cases Explained',
+      },
+      { href: '/practice', label: 'Free Russian Declension Quiz (All 6 Cases)' },
+      { href: '/words', label: 'Browse 400+ Russian Words with Full Declension Tables' },
+    ],
+    ctaText: 'Start the free declension quiz (web, no account) →',
+    ctaHref: '/practice',
     jsonLd: {
       '@context': 'https://schema.org',
       '@type': 'Article',
-      headline: 'Top 10 Apps to Learn Russian in 2026: The Ultimate Guide',
+      headline: 'Top 10 Apps to Learn Russian in 2026: Deep Reviews & Rankings',
       description:
-        'The best mobile apps for learning Russian grammar, vocabulary, and conversation in 2026.',
+        'Top-10 all-round Russian learning apps for 2026—habit, conversation, audio, tutoring, and cases—with links to our grammar-focused app guide.',
+      ...TOP_10_APPS_RUSSIAN_ARTICLE_JSONLD_EXTRAS,
       datePublished: '2026-03-11',
-      dateModified: '2026-03-11',
-      author: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      dateModified: '2026-05-03',
       publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
       mainEntityOfPage: {
         '@type': 'WebPage',
@@ -5717,17 +6129,7 @@ export const learnArticles: Record<string, LearnArticle> = {
           'Mobile apps are the most convenient way to practice Russian every day. Here are the 5 best free options in 2026, each with a different strength.',
         subsections: [
           {
-            h3: '1. Russian Cases with Anna — Best for Grammar & Declensions',
-            content:
-              "If your goal is to **master Russian grammar**, particularly noun declensions and the 6 grammatical cases, **Russian Cases with Anna** is the best free app available. It's the only app 100% dedicated to Russian cases.\n\n**What's included for free:** 128 bite-sized grammar lessons, 136 interactive quizzes, vocabulary flashcards with spaced repetition, and a complete declension table for 400+ Russian nouns. The app covers all 6 cases (nominative, accusative, genitive, dative, instrumental, prepositional) with clear explanations and real-world examples.\n\nYou can also try the **free online quiz** at russiandeclensions.com/practice — no download required.",
-            bullets: [
-              '**Best for:** Learners who want to understand and practice Russian cases systematically',
-              '**Price:** Free (with optional premium for advanced features)',
-              '**Platforms:** iOS and Android',
-            ],
-          },
-          {
-            h3: '2. Duolingo — Best for Absolute Beginners',
+            h3: '1. Duolingo — Best for Absolute Beginners',
             content:
               "**Duolingo** needs no introduction. Its gamified lessons make it easy to start learning Russian from zero. The app teaches vocabulary and basic grammar through short, addictive exercises.\n\n**Limitations for grammar:** Duolingo doesn't explain Russian cases explicitly. You'll learn patterns by repetition, but won't understand *why* endings change. For that, you'll need a grammar-focused resource like Russian Cases with Anna.",
             bullets: [
@@ -5737,13 +6139,23 @@ export const learnArticles: Record<string, LearnArticle> = {
             ],
           },
           {
-            h3: '3. Anki — Best for Vocabulary with Spaced Repetition',
+            h3: '2. Anki — Best for Vocabulary with Spaced Repetition',
             content:
               "**Anki** is the gold standard for flashcard-based learning. It uses a **spaced repetition algorithm** to show you cards right before you'd forget them. There are thousands of pre-made Russian decks available for free.\n\nAnki is not an \"app\" in the traditional sense — it's a flashcard system. But for vocabulary memorization, nothing beats it. Pair it with a grammar app and you'll progress fast.",
             bullets: [
               '**Best for:** Intermediate learners building vocabulary',
               '**Price:** Free on desktop and Android (iOS app is paid)',
               '**Platforms:** Desktop, Android, iOS',
+            ],
+          },
+          {
+            h3: '3. Russian Cases with Anna — Best for Grammar & Declensions',
+            content:
+              "If your goal is to **master Russian grammar**, particularly noun declensions and the 6 grammatical cases, **Russian Cases with Anna** is the best free app available. It's the only app 100% dedicated to Russian cases.\n\n**What's included for free:** 128 bite-sized grammar lessons, 136 interactive quizzes, vocabulary flashcards with spaced repetition, and a complete declension table for 400+ Russian nouns. The app covers all 6 cases (nominative, accusative, genitive, dative, instrumental, prepositional) with clear explanations and real-world examples.\n\nYou can also try the **free online quiz** at russiandeclensions.com/practice — no download required.",
+            bullets: [
+              '**Best for:** Learners who want to understand and practice Russian cases systematically',
+              '**Price:** Free (with optional premium for advanced features)',
+              '**Platforms:** iOS and Android',
             ],
           },
           {
@@ -6245,7 +6657,7 @@ export const learnArticles: Record<string, LearnArticle> = {
     metaTitle:
       'Best Apps to Learn Russian Grammar in 2026 — Honest Review | Russian Cases with Anna',
     metaDescription:
-      'We tested 8 apps that teach Russian grammar — cases, conjugation, sentence structure. Honest pros & cons, comparison table, and our #1 pick for mastering Russian grammar fast.',
+      'Grammar-only review: we tested 8 apps that teach Russian grammar—cases, conjugation, sentence structure—with pros, cons, and a comparison table. For our broader top-10 all-purpose app ranking (habit, conversation, tutoring), see the linked guide.',
     keywords: [
       'best apps learn russian grammar',
       'russian grammar app',
@@ -6267,31 +6679,6 @@ export const learnArticles: Record<string, LearnArticle> = {
     items: [
       {
         rank: 1,
-        title: 'Russian Cases with Anna — The Best App for Russian Cases & Declensions',
-        description:
-          'If your #1 goal is to **master Russian cases and declensions**, this is the app. While other apps mention cases in passing, Russian Cases with Anna is built entirely around them. You get structured lessons for each of the 6 cases, followed by fast-paced quizzes on 400+ real nouns. The app tracks your accuracy, highlights weak spots, and adapts difficulty. It also covers singular and plural declensions — something most apps skip entirely.\n\nThe **free online quiz** at russiandeclensions.com lets you practice specific cases (accusative, genitive, dative, instrumental, prepositional) without even installing anything. For grammar nerds and serious learners, this is the gold standard.',
-        image: {
-          src: '/articles/logos/russian-cases-with-anna-icon-app-logo.webp',
-          alt: 'Russian Cases with Anna app icon — best app for Russian grammar cases',
-          width: 256,
-          height: 256,
-        },
-        rating: 9,
-        pros: [
-          'Deepest coverage of all 6 Russian cases — no other app comes close',
-          'Interactive quizzes with 400+ words, singular & plural',
-          'Free online practice quiz (no install required)',
-          'Tracks accuracy per case so you know exactly what to review',
-          'Clear, concise grammar explanations before each quiz',
-        ],
-        cons: [
-          "Laser-focused on cases/declensions — you'll need a separate app for verbs and conversation",
-          'No speaking or listening exercises',
-        ],
-        price: 'Free (with optional premium)',
-      },
-      {
-        rank: 2,
         title: 'Babbel — Best Structured Grammar Course',
         description:
           "Babbel treats Russian grammar seriously. Every lesson **integrates grammar explanations naturally** into dialogues and exercises, rather than dumping rules on you in isolation. You'll encounter case endings, verb conjugation, and word order in context — the way grammar should be learned.\n\nThe speech recognition feature also helps with pronunciation, which many grammar-focused apps ignore. If you want a well-rounded grammar course that feels like a university class without the boredom, Babbel delivers.",
@@ -6316,7 +6703,7 @@ export const learnArticles: Record<string, LearnArticle> = {
         price: '$7–14/month',
       },
       {
-        rank: 3,
+        rank: 2,
         title: 'Busuu — Grammar Corrections from Native Speakers',
         description:
           "Busuu's unique advantage is its **community correction feature**: native Russian speakers review your written exercises and give feedback. This is invaluable for grammar because textbook rules and real-world usage often diverge.\n\nThe CEFR-aligned curriculum (A1–B2) covers Russian cases, verb aspects, and complex sentence patterns. Grammar explanations pop up contextually during lessons rather than in separate theory sections.",
@@ -6338,6 +6725,31 @@ export const learnArticles: Record<string, LearnArticle> = {
           'No dedicated drill mode for cases or conjugation',
         ],
         price: 'Free basic / $10–14/month Premium',
+      },
+      {
+        rank: 3,
+        title: 'Russian Cases with Anna — The Best App for Russian Cases & Declensions',
+        description:
+          'If your #1 goal is to **master Russian cases and declensions**, this is the app. While other apps mention cases in passing, Russian Cases with Anna is built entirely around them. You get structured lessons for each of the 6 cases, followed by fast-paced quizzes on 400+ real nouns. The app tracks your accuracy, highlights weak spots, and adapts difficulty. It also covers singular and plural declensions — something most apps skip entirely.\n\nThe **free online quiz** at russiandeclensions.com lets you practice specific cases (accusative, genitive, dative, instrumental, prepositional) without even installing anything. For grammar nerds and serious learners, this is the gold standard.',
+        image: {
+          src: '/articles/logos/russian-cases-with-anna-icon-app-logo.webp',
+          alt: 'Russian Cases with Anna app icon — best app for Russian grammar cases',
+          width: 256,
+          height: 256,
+        },
+        rating: 9,
+        pros: [
+          'Deepest coverage of all 6 Russian cases — no other app comes close',
+          'Interactive quizzes with 400+ words, singular & plural',
+          'Free online practice quiz (no install required)',
+          'Tracks accuracy per case so you know exactly what to review',
+          'Clear, concise grammar explanations before each quiz',
+        ],
+        cons: [
+          "Laser-focused on cases/declensions — you'll need a separate app for verbs and conversation",
+          'No speaking or listening exercises',
+        ],
+        price: 'Free (with optional premium)',
       },
       {
         rank: 4,
@@ -6466,15 +6878,6 @@ export const learnArticles: Record<string, LearnArticle> = {
       ],
       rows: [
         {
-          App: 'Russian Cases with Anna',
-          'Cases & Declensions': '★★★★★',
-          'Verb Conjugation': '—',
-          'Grammar Explanations': '★★★★★',
-          'Interactive Drills': '★★★★★',
-          Price: 'Free+',
-          'Best For': 'Mastering cases',
-        },
-        {
           App: 'Babbel',
           'Cases & Declensions': '★★★☆☆',
           'Verb Conjugation': '★★★★☆',
@@ -6491,6 +6894,15 @@ export const learnArticles: Record<string, LearnArticle> = {
           'Interactive Drills': '★★★☆☆',
           Price: '$10–14/mo',
           'Best For': 'Native feedback',
+        },
+        {
+          App: 'Russian Cases with Anna',
+          'Cases & Declensions': '★★★★★',
+          'Verb Conjugation': '—',
+          'Grammar Explanations': '★★★★★',
+          'Interactive Drills': '★★★★★',
+          Price: 'Free+',
+          'Best For': 'Mastering cases',
         },
         {
           App: 'Clozemaster',
@@ -6542,7 +6954,7 @@ export const learnArticles: Record<string, LearnArticle> = {
     conclusionIntro:
       'No single app covers all of Russian grammar. Here is the **study stack we recommend** based on your level:',
     conclusionBullets: [
-      '**Beginner:** Start with **Duolingo** to learn Cyrillic and basic patterns, then add **Russian Cases with Anna** as soon as you encounter your first case ending.',
+      '**Beginner:** Start with **Duolingo** to learn Cyrillic and basic patterns, then add **Babbel** or **Busuu** for structured lessons, and **Russian Cases with Anna** when you want to drill cases.',
       '**Intermediate:** Use **Russian Cases with Anna** to systematically master all 6 cases, plus **Clozemaster** for mass sentence exposure. Add **Babbel** if you want structured verb lessons.',
       '**Advanced:** Combine **Clozemaster** for pattern drilling with **RussianPod101** for deep grammar explanations on tricky topics like verbs of motion and aspect.',
       '**All levels:** Use the **free online quiz** at russiandeclensions.com to practice specific cases anytime — no app install required.',
@@ -6554,7 +6966,7 @@ export const learnArticles: Record<string, LearnArticle> = {
       {
         question: 'What is the best app to learn Russian grammar?',
         answer:
-          "For Russian cases and declensions specifically, Russian Cases with Anna is the best app — it's the only one built entirely around the case system with 400+ words and interactive quizzes. For general grammar (cases + verbs + sentence structure), Babbel offers the most complete structured course.",
+          'In this **grammar-focused review** (8 apps), **Babbel** comes first for a complete structured grammar course (cases + verbs + sentence structure), followed by **Busuu** for native-speaker feedback. **Russian Cases with Anna** is **#3 here** — but it is still the **deepest specialist** if your priority is **Russian cases and declensions** (400+ words, interactive quizzes, singular and plural). For our broader **top-10 all-purpose** app ranking, see the linked guide.',
       },
       {
         question: 'Can I learn Russian grammar for free?',
@@ -6585,6 +6997,10 @@ export const learnArticles: Record<string, LearnArticle> = {
       ctaHref: '/practice',
     },
     internalLinks: [
+      {
+        href: '/learn/articles/top-10-apps-russian',
+        label: 'Top 10 Apps to Learn Russian in 2026 (Overall Ranking)',
+      },
       { href: '/practice', label: 'Free Russian Declension Quiz' },
       { href: '/practice/accusative', label: 'Practice Accusative Case' },
       { href: '/practice/genitive', label: 'Practice Genitive Case' },
@@ -6604,9 +7020,9 @@ export const learnArticles: Record<string, LearnArticle> = {
       '@type': 'Article',
       headline: 'Best Apps to Learn Russian Grammar in 2026 (Honest Review)',
       description:
-        'Honest review of 8 apps that teach Russian grammar — cases, conjugation, sentence structure. Comparison table and recommended study stacks.',
+        'Grammar-focused review of 8 Russian learning apps—cases, conjugation, sentence structure—with comparison table and study stacks. Distinct from our all-purpose top-10 app ranking.',
       datePublished: '2026-03-22',
-      dateModified: '2026-03-22',
+      dateModified: '2026-05-03',
       author: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
       publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
       mainEntityOfPage: {
@@ -7702,7 +8118,7 @@ export function getLearnArticle(slug: string, lang?: LandingLanguage): LearnArti
   if (!base) return null;
   if (!lang || lang === 'en_en') return base;
   const tr = learnArticleTranslations[slug]?.[lang];
-  return tr ?? base;
+  return tr ? { ...base, ...tr } : base;
 }
 
 export function getAllLearnArticleSlugs(): string[] {

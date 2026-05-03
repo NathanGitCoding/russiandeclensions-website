@@ -63,6 +63,12 @@ export default function LandingFooter() {
               <Link href="/learn" className="transition-colors hover:text-white">
                 {t.footer.learn}
               </Link>
+              <Link
+                href="/learn/articles/top-10-apps-russian"
+                className="transition-colors hover:text-white"
+              >
+                {t.footer.topAppsGuide}
+              </Link>
               <Link href="/practice" className="transition-colors hover:text-white">
                 {t.footer.practice}
               </Link>

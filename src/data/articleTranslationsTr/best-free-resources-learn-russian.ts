@@ -45,17 +45,7 @@ export const bestFreeResourcesLearnRussianTr: LearnArticle = {
         'Mobil uygulamalar Rusçayı her gün pratik etmek için en pratik yoldur. İşte 2026’nın en iyi 5 ücretsiz seçeneği; her birinin farklı bir güçlü yönü var.',
       subsections: [
         {
-          h3: '1. Russian Cases with Anna — dilbilgisi ve çekimler için en iyisi',
-          content:
-            'Amacınız **Rusça dilbilgisini**, özellikle isim çekimlerini ve **6 dilbilgisel hâli** öğrenmekse **Russian Cases with Anna** mevcut en iyi ücretsiz uygulamadır. Rus hâllerine tamamen adanmış tek uygulamadır.\n\n**Ücretsiz olarak neler var:** 128 kısa dilbilgisi dersi, 136 etkileşimli sınav, aralıklı tekrarlı kelime kartları ve 400’den fazla Rus ismi için tam çekim tablosu. Uygulama 6 hâlin tamamını (yalın, belirtme, ilgi, yönelme, araçlık, bulunma) net açıklamalar ve gerçek hayattan örneklerle işler.\n\nİndirmeden **ücretsiz çevrimiçi sınavı** russiandeclensions.com/practice adresinde de deneyebilirsiniz.',
-          bullets: [
-            '**Kimler için:** Rus hâllerini sistematik biçimde anlamak ve pratik etmek isteyenler',
-            '**Fiyat:** ücretsiz (ileri özellikler için isteğe bağlı premium)',
-            '**Platformlar:** iOS ve Android',
-          ],
-        },
-        {
-          h3: '2. Duolingo — sıfırdan başlayanlar için en iyisi',
+          h3: '1. Duolingo — sıfırdan başlayanlar için en iyisi',
           content:
             '**Duolingo** tanıtıma gerek bırakmaz. Oyunlaştırılmış derslerle Rusçaya sıfırdan başlamak kolaydır. Uygulama kelime ve temel dilbilgisini kısa, bağımlılık yapıcı alıştırmalarla öğretir.\n\n**Dilbilgisi sınırları:** Duolingo Rus hâllerini açıkça anlatmaz. Kalıpları tekrarla öğrenirsiniz ama son eklerin *neden* değiştiğini anlamazsınız. Bunun için Russian Cases with Anna gibi dilbilgisi odaklı bir kaynak gerekir.',
           bullets: [
@@ -65,13 +55,23 @@ export const bestFreeResourcesLearnRussianTr: LearnArticle = {
           ],
         },
         {
-          h3: '3. Anki — aralıklı tekrarla kelime için en iyisi',
+          h3: '2. Anki — aralıklı tekrarla kelime için en iyisi',
           content:
             '**Anki** kart tabanlı öğrenmede altın standarttır. Kartları unutmak üzereyken göstermenizi sağlayan bir **aralıklı tekrar algoritması** kullanır. Binlerce hazır Rusça deste ücretsiz.\n\nAnki klasik anlamda bir „uygulama“ değil — bir kart sistemidir. Ama kelime ezberinde ondan iyisi yok. Bir dilbilgisi uygulamasıyla birleştirin, hızlı ilerlersiniz.',
           bullets: [
             '**Kimler için:** kelime hazinesini genişleten orta seviye öğrenciler',
             '**Fiyat:** masaüstü ve Android’de ücretsiz (iOS uygulaması ücretli)',
             '**Platformlar:** masaüstü, Android, iOS',
+          ],
+        },
+        {
+          h3: '3. Russian Cases with Anna — dilbilgisi ve çekimler için en iyisi',
+          content:
+            'Amacınız **Rusça dilbilgisini**, özellikle isim çekimlerini ve **6 dilbilgisel hâli** öğrenmekse **Russian Cases with Anna** mevcut en iyi ücretsiz uygulamadır. Rus hâllerine tamamen adanmış tek uygulamadır.\n\n**Ücretsiz olarak neler var:** 128 kısa dilbilgisi dersi, 136 etkileşimli sınav, aralıklı tekrarlı kelime kartları ve 400’den fazla Rus ismi için tam çekim tablosu. Uygulama 6 hâlin tamamını (yalın, belirtme, ilgi, yönelme, araçlık, bulunma) net açıklamalar ve gerçek hayattan örneklerle işler.\n\nİndirmeden **ücretsiz çevrimiçi sınavı** russiandeclensions.com/practice adresinde de deneyebilirsiniz.',
+          bullets: [
+            '**Kimler için:** Rus hâllerini sistematik biçimde anlamak ve pratik etmek isteyenler',
+            '**Fiyat:** ücretsiz (ileri özellikler için isteğe bağlı premium)',
+            '**Platformlar:** iOS ve Android',
           ],
         },
         {
