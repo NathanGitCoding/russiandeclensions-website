@@ -17,6 +17,46 @@ const CASE_SLUGS = [
   'prepositional',
 ] as const;
 
+const LEARN_RESOURCE_LINKS = [
+  { href: '/learn/lessons/russian-cases-complete-guide', label: 'Complete guide to Russian cases' },
+  { href: '/learn/lessons/dative-case-declension', label: 'Dative case declension lesson' },
+  {
+    href: '/learn/articles/russian-cases-explained-beginners-guide',
+    label: 'Russian cases for beginners',
+  },
+  {
+    href: '/learn/articles/russian-case-endings-cheatsheet',
+    label: 'Russian case endings cheat sheet',
+  },
+  {
+    href: '/learn/articles/russian-prepositions-and-cases',
+    label: 'Russian prepositions and cases',
+  },
+  {
+    href: '/learn/articles/russian-prepositions-cases-cheat-sheet',
+    label: 'Prepositions + case quick reference',
+  },
+  { href: '/learn/articles/russian-accusative-case', label: 'Accusative case guide' },
+  { href: '/learn/articles/russian-dative-case', label: 'Dative case guide' },
+  { href: '/learn/articles/russian-prepositional-case', label: 'Prepositional case guide' },
+  { href: '/learn/articles/how-to-practice-russian-cases', label: 'How to practice Russian cases' },
+  { href: '/learn/articles/top-10-russian-case-mistakes', label: 'Top 10 Russian case mistakes' },
+  {
+    href: '/learn/articles/best-apps-learn-russian-grammar',
+    label: 'Best apps to learn Russian grammar',
+  },
+  {
+    href: '/learn/articles/best-free-resources-learn-russian',
+    label: 'Best free Russian resources',
+  },
+  { href: '/learn/articles/how-long-learn-russian', label: 'How long to learn Russian' },
+  { href: '/learn/articles/top-10-apps-russian', label: 'Top 10 apps to learn Russian' },
+  {
+    href: '/learn/articles/torfl-trki-russian-language-exam-guide',
+    label: 'TORFL / TRKI exam guide',
+  },
+] as const;
+
 /** Nom russe du cas (référence pédagogique, inchangé quelle que soit la langue UI) */
 const RU_CASE_NAMES: Record<(typeof CASE_SLUGS)[number], string> = {
   nominative: 'именительный',
@@ -216,6 +256,23 @@ export default async function PracticePage() {
                   <span className="text-xs text-gray-400" lang="ru">
                     {RU_CASE_NAMES[slug]}
                   </span>
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          <div className="mt-8">
+            <h3 className="mb-3 text-base font-semibold text-gray-700">
+              Related Russian grammar guides
+            </h3>
+            <div className="grid gap-2 sm:grid-cols-2">
+              {LEARN_RESOURCE_LINKS.map((resource) => (
+                <Link
+                  key={resource.href}
+                  href={resource.href}
+                  className="rounded-lg border border-gray-200 px-3 py-2 text-sm text-blue-700 transition-colors hover:border-blue-400 hover:bg-blue-50 hover:text-blue-800"
+                >
+                  {resource.label}
                 </Link>
               ))}
             </div>

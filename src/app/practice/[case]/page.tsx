@@ -155,6 +155,12 @@ const CASE_PAGES: Record<string, CasePageData> = {
   },
 };
 
+const CASE_TO_ARTICLE_SLUG: Partial<Record<string, string>> = {
+  accusative: 'russian-accusative-case',
+  dative: 'russian-dative-case',
+  prepositional: 'russian-prepositional-case',
+};
+
 const CASE_PAGE_KEYS = Object.keys(CASE_PAGES);
 {
   const fromPages = new Set(CASE_PAGE_KEYS);
@@ -443,6 +449,36 @@ export default async function CasePracticePage({ params }: PageProps) {
               read our grammar lessons
             </Link>{' '}
             for in-depth explanations of the {data.nameEn.toLowerCase()} case and others.
+          </p>
+
+          <p className="mt-3 text-sm leading-relaxed text-gray-600">
+            Continue with theory:{' '}
+            <Link
+              href="/learn/lessons/russian-cases-complete-guide"
+              className="font-medium text-blue-600 hover:underline"
+            >
+              complete Russian cases lesson
+            </Link>
+            {CASE_TO_ARTICLE_SLUG[caseSlug] ? (
+              <>
+                {' '}
+                and{' '}
+                <Link
+                  href={`/learn/articles/${CASE_TO_ARTICLE_SLUG[caseSlug]}`}
+                  className="font-medium text-blue-600 hover:underline"
+                >
+                  detailed {data.nameEn.toLowerCase()} article
+                </Link>
+              </>
+            ) : null}
+            . If you are preparing for exams, read our{' '}
+            <Link
+              href="/learn/articles/torfl-trki-russian-language-exam-guide"
+              className="font-medium text-blue-600 hover:underline"
+            >
+              TORFL/TRKI guide
+            </Link>
+            .
           </p>
         </div>
       </section>
