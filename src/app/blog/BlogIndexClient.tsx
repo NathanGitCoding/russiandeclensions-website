@@ -59,11 +59,35 @@ export default function BlogIndexClient() {
                     {t.badges.article}
                   </span>
                   <span className="learn-grid-title">{title}</span>
-                  <span className="learn-grid-arrow">→</span>
                 </div>
               </Link>
             );
           })}
+        </div>
+      </section>
+
+      <section className="learn-section">
+        <h2 className="learn-section-title">{t.practiceQuiz.title}</h2>
+        <p className="learn-lead" style={{ marginBottom: '1rem' }}>
+          {t.practiceQuiz.lead}
+        </p>
+        <div style={{ textAlign: 'center' }}>
+          <Link
+            href="/practice"
+            className="learn-card"
+            style={{
+              display: 'inline-flex',
+              padding: '0.75rem 1.5rem',
+              background: 'linear-gradient(135deg, #4A90FF 0%, #0066FF 100%)',
+              color: 'white',
+              borderRadius: '0.75rem',
+              fontWeight: 600,
+            }}
+          >
+            <span className="learn-card-title" style={{ color: 'white' }}>
+              {t.practiceQuiz.cta}
+            </span>
+          </Link>
         </div>
       </section>
     </article>
