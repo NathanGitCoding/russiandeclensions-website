@@ -80,12 +80,7 @@ export default function PracticeClient({ words, initialConfig }: Props) {
   }, []);
 
   return (
-    <section className="container mx-auto px-4 py-8 sm:px-6 sm:py-12">
-      <div className="mx-auto mb-8 max-w-2xl text-center">
-        <h1 className="text-2xl font-bold text-gray-900 sm:text-3xl">{t.h1}</h1>
-        <p className="mt-2 text-gray-600">{t.subtitle}</p>
-      </div>
-
+    <section className="container mx-auto -mt-6 px-4 pb-8 sm:px-6 sm:pb-12">
       {screen === 'config' && (
         <PracticeConfig
           config={config}

@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { getPracticeWords } from '@/lib/data';
 import PracticeClient from '@/components/practice/PracticeClient';
+import { PracticeHero } from '@/components/practice/PracticeHero';
 import { PracticeFAQ } from '@/components/practice/PracticeFAQ';
 import { getLandingLangFromRequest } from '@/lib/landingLangServer';
 import { getPracticeTranslations } from '@/data/website/practicePageTranslations';
@@ -65,6 +66,16 @@ const RU_CASE_NAMES: Record<(typeof CASE_SLUGS)[number], string> = {
   dative: 'дательный',
   instrumental: 'творительный',
   prepositional: 'предложный',
+};
+
+/** Accent couleur par cas (rappel visuel cohérent) */
+const CASE_ACCENTS: Record<(typeof CASE_SLUGS)[number], string> = {
+  nominative: 'hover:border-blue-400 hover:bg-blue-50',
+  accusative: 'hover:border-emerald-400 hover:bg-emerald-50',
+  genitive: 'hover:border-amber-400 hover:bg-amber-50',
+  dative: 'hover:border-rose-400 hover:bg-rose-50',
+  instrumental: 'hover:border-purple-400 hover:bg-purple-50',
+  prepositional: 'hover:border-cyan-400 hover:bg-cyan-50',
 };
 
 const LANG_TO_BCP47: Record<LandingLanguage, string> = {
@@ -201,17 +212,13 @@ export default async function PracticePage() {
         />
       ))}
 
-      <section className="container mx-auto px-4 pt-8 sm:px-6 sm:pt-12">
-        <div className="mx-auto max-w-2xl text-center">
-          <nav aria-label={t.breadcrumbAria} className="mb-4 text-sm text-gray-400">
-            <Link href="/" className="transition-colors hover:text-blue-600">
-              {t.breadcrumb.home}
-            </Link>
-            <span className="mx-1.5">/</span>
-            <span className="text-gray-600">{t.breadcrumb.practice}</span>
-          </nav>
-        </div>
-      </section>
+      <PracticeHero
+        title={t.h1}
+        subtitle={t.subtitle}
+        breadcrumbAria={t.breadcrumbAria}
+        breadcrumbHome={t.breadcrumb.home}
+        breadcrumbPractice={t.breadcrumb.practice}
+      />
 
       <PracticeClient words={words} />
 
@@ -228,8 +235,11 @@ export default async function PracticePage() {
             <h3 className="mb-4 text-base font-semibold text-gray-700">{t.seo.howItWorksTitle}</h3>
             <div className="grid gap-3 sm:grid-cols-3">
               {t.seo.howItWorksSteps.map((step, index) => (
-                <div key={step.title} className="rounded-xl border border-gray-200 p-4 text-center">
-                  <span className="mb-2 inline-flex h-8 w-8 items-center justify-center rounded-full bg-blue-100 text-sm font-bold text-blue-700">
+                <div
+                  key={step.title}
+                  className="rounded-xl border border-gray-200 bg-gradient-to-b from-white to-blue-50/40 p-4 text-center transition-all hover:-translate-y-0.5 hover:border-blue-300 hover:shadow-md"
+                >
+                  <span className="mb-2 inline-flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-[#0080FF] to-[#3DA5FF] text-sm font-bold text-white shadow-sm">
                     {String(index + 1)}
                   </span>
                   <h4 className="mb-1 text-sm font-semibold text-gray-800">{step.title}</h4>
@@ -248,7 +258,7 @@ export default async function PracticePage() {
                 <Link
                   key={slug}
                   href={`/practice/${slug}`}
-                  className="flex flex-col items-center rounded-xl border border-gray-200 px-3 py-3 text-center transition-colors hover:border-blue-400 hover:bg-blue-50"
+                  className={`flex flex-col items-center rounded-xl border border-gray-200 px-3 py-3 text-center transition-all hover:-translate-y-0.5 hover:shadow-sm ${CASE_ACCENTS[slug]}`}
                 >
                   <span className="text-sm font-semibold text-gray-800">
                     {t.config.cases[slug]}
