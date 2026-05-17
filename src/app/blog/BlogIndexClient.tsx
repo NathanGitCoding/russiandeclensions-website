@@ -2,9 +2,11 @@
 
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useLandingLanguage } from '@/contexts/LandingLanguageContext';
 import { getLearnPageTranslations, ARTICLE_SLUGS } from '@/data/website/learnPageTranslations';
 import { getLandingTranslations } from '@/data/website/landingTranslations';
+import { getLearnCardImage } from '@/data/website/learnCardImages';
 
 export default function BlogIndexClient() {
   const { landingLanguage } = useLandingLanguage();
@@ -12,7 +14,7 @@ export default function BlogIndexClient() {
   const nav = getLandingTranslations(landingLanguage).navbar;
 
   return (
-    <article className="learn-content">
+    <article className="learn-content learn-content--wide">
       <div className="learn-breadcrumb">
         <Link href="/" className="learn-breadcrumb-link">
           {t.breadcrumb.home}
@@ -38,17 +40,27 @@ export default function BlogIndexClient() {
             {t.featuredTopAppsGuide.cta}
           </Link>
         </div>
-        <div className="learn-cards">
+        <div className="learn-grid">
           {ARTICLE_SLUGS.map((slug) => {
             const title = t.articleTitles[slug];
             if (!title) return null;
             return (
-              <Link key={slug} href={`/learn/articles/${slug}`} className="learn-card">
-                <span className="learn-card-badge learn-card-badge-article">
-                  {t.badges.article}
-                </span>
-                <span className="learn-card-title">{title}</span>
-                <span className="learn-card-arrow">→</span>
+              <Link key={slug} href={`/learn/articles/${slug}`} className="learn-grid-card">
+                <div className="learn-grid-thumb">
+                  <Image
+                    src={getLearnCardImage(slug)}
+                    alt={title}
+                    fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 960px) 50vw, 33vw"
+                  />
+                </div>
+                <div className="learn-grid-body">
+                  <span className="learn-grid-badge learn-grid-badge-article">
+                    {t.badges.article}
+                  </span>
+                  <span className="learn-grid-title">{title}</span>
+                  <span className="learn-grid-arrow">→</span>
+                </div>
               </Link>
             );
           })}

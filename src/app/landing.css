@@ -215,6 +215,95 @@
   font-weight: 500;
 }
 
+/* Wide container for visual index grids (/learn, /blog) */
+.learn-content--wide {
+  max-width: 72rem;
+}
+
+/* Visual card grid (image on top) */
+.learn-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+@media (min-width: 640px) {
+  .learn-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 960px) {
+  .learn-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.learn-grid-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: hsl(var(--card));
+  border: 1px solid hsl(var(--border));
+  border-radius: 0.85rem;
+  text-decoration: none;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease,
+    border-color 0.15s ease;
+}
+.learn-grid-card:hover {
+  transform: translateY(-3px);
+  border-color: hsl(var(--primary) / 0.5);
+  box-shadow: 0 12px 28px hsl(0 0% 0% / 0.1);
+}
+.learn-grid-thumb {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: hsl(var(--muted));
+  overflow: hidden;
+}
+.learn-grid-thumb img {
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.learn-grid-card:hover .learn-grid-thumb img {
+  transform: scale(1.04);
+}
+.learn-grid-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding: 1rem 1.15rem 1.25rem;
+}
+.learn-grid-badge {
+  align-self: flex-start;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.22rem 0.5rem;
+  border-radius: 0.3rem;
+  background: hsl(var(--primary) / 0.1);
+  color: hsl(var(--primary));
+}
+.learn-grid-badge-article {
+  background: hsl(var(--muted));
+  color: hsl(var(--muted-foreground));
+}
+.learn-grid-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: hsl(var(--foreground));
+}
+.learn-grid-arrow {
+  margin-top: auto;
+  padding-top: 0.35rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: hsl(var(--primary));
+}
+
 /* Learn detail pages - lesson & article */
 .learn-detail {
   width: 100%;
