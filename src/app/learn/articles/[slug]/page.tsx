@@ -860,7 +860,6 @@ export default async function LearnArticlePage({ params }: Props) {
     ...(imageFromStaticOg ? { image: imageFromStaticOg } : {}),
   };
 
-  const articlesHubUrl = `${siteUrl}/learn#learn-articles-section`;
   const breadcrumbLd = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -870,12 +869,6 @@ export default async function LearnArticlePage({ params }: Props) {
       {
         '@type': 'ListItem',
         position: 3,
-        name: t.breadcrumb.articles,
-        item: articlesHubUrl,
-      },
-      {
-        '@type': 'ListItem',
-        position: 4,
         name: article.h1,
         item: `${siteUrl}/learn/articles/${slug}`,
       },
@@ -954,10 +947,6 @@ export default async function LearnArticlePage({ params }: Props) {
           <span className="learn-breadcrumb-sep">/</span>
           <Link href="/learn" className="learn-breadcrumb-link">
             {t.breadcrumb.learn}
-          </Link>
-          <span className="learn-breadcrumb-sep">/</span>
-          <Link href="/learn#learn-articles-section" className="learn-breadcrumb-link">
-            {t.breadcrumb.articles}
           </Link>
           <span className="learn-breadcrumb-sep">/</span>
           <span className="learn-breadcrumb-current">{article.h1}</span>

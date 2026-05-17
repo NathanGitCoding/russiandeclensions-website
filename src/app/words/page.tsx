@@ -186,8 +186,7 @@ export default async function WordsIndexPage({ searchParams }: Props) {
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: t.breadcrumb.home, item: siteUrl },
-      { '@type': 'ListItem', position: 2, name: t.breadcrumb.learn, item: `${siteUrl}/learn` },
-      { '@type': 'ListItem', position: 3, name: t.breadcrumb.words, item: `${siteUrl}/words` },
+      { '@type': 'ListItem', position: 2, name: t.breadcrumb.words, item: `${siteUrl}/words` },
     ],
   };
 
@@ -226,10 +225,6 @@ export default async function WordsIndexPage({ searchParams }: Props) {
       <nav className="learn-breadcrumb mb-6" aria-label="Breadcrumb">
         <Link href="/" className="learn-breadcrumb-link">
           {t.breadcrumb.home}
-        </Link>
-        <span className="learn-breadcrumb-sep">/</span>
-        <Link href="/learn" className="learn-breadcrumb-link">
-          {t.breadcrumb.learn}
         </Link>
         <span className="learn-breadcrumb-sep">/</span>
         <span className="learn-breadcrumb-current">{t.breadcrumb.words}</span>

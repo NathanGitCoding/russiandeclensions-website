@@ -5,7 +5,7 @@
 import type { LandingLanguage } from './landingTranslations';
 
 export interface WordsIndexPageTranslations {
-  breadcrumb: { home: string; learn: string; words: string };
+  breadcrumb: { home: string; words: string };
   title: string;
   titleWithCount: (total: number) => string;
   subtitle: (total: number) => string;
@@ -48,7 +48,7 @@ export interface WordsIndexPageTranslations {
 
 const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
   en_en: {
-    breadcrumb: { home: 'App', learn: 'Free Grammar Lessons', words: 'Declension tables' },
+    breadcrumb: { home: 'App', words: 'Declension tables' },
     title: 'Russian Word Declensions — Complete List',
     titleWithCount: (total) =>
       `${total} Most Useful Russian Words with Full Declension Tables (All 6 Cases)`,
@@ -105,7 +105,6 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
   fr_fr: {
     breadcrumb: {
       home: 'App',
-      learn: 'Leçons de grammaire gratuites',
       words: 'Tables de déclinaisons',
     },
     title: 'Déclinaisons des mots russes — Liste complète',
@@ -165,7 +164,6 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
   de_de: {
     breadcrumb: {
       home: 'App',
-      learn: 'Kostenlose Grammatik-Lektionen',
       words: 'Deklinationstabellen',
     },
     title: 'Russische Wortdeklinationen — Vollständige Liste',
@@ -223,7 +221,7 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
     },
   },
   tr_tr: {
-    breadcrumb: { home: 'App', learn: 'Ücretsiz Gramer Dersleri', words: 'Çekim tabloları' },
+    breadcrumb: { home: 'App', words: 'Çekim tabloları' },
     title: 'Rusça Kelime Çekimleri — Tam Liste',
     titleWithCount: (total) =>
       `Tam çekim tablolarıyla en yararlı ${total.toLocaleString('tr-TR')} Rusça kelime (6 hal)`,
@@ -279,7 +277,7 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
     },
   },
   pl_pl: {
-    breadcrumb: { home: 'App', learn: 'Darmowe lekcje gramatyki', words: 'Tabele odmian' },
+    breadcrumb: { home: 'App', words: 'Tabele odmian' },
     title: 'Odmiany rosyjskich słów — Pełna lista',
     titleWithCount: (total) =>
       `Najbardziej przydatne ${total.toLocaleString('pl-PL')} rosyjskich słów z pełnymi tabelami odmian (6 przypadków)`,
@@ -338,7 +336,6 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
   es_es: {
     breadcrumb: {
       home: 'App',
-      learn: 'Lecciones de gramática gratis',
       words: 'Tablas de declinación',
     },
     title: 'Declinaciones de palabras rusas — Lista completa',
@@ -398,7 +395,6 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
   it_it: {
     breadcrumb: {
       home: 'App',
-      learn: 'Lezioni di grammatica gratuite',
       words: 'Tabelle di declinazione',
     },
     title: 'Declinazioni delle parole russe — Lista completa',
@@ -458,7 +454,6 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
   pt_pt: {
     breadcrumb: {
       home: 'App',
-      learn: 'Lições de gramática grátis',
       words: 'Tabelas de declinação',
     },
     title: 'Declinações de palavras russas — Lista completa',
@@ -517,7 +512,7 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
     },
   },
   nl_nl: {
-    breadcrumb: { home: 'App', learn: 'Gratis grammatica-lessen', words: 'Verbuigingstabellen' },
+    breadcrumb: { home: 'App', words: 'Verbuigingstabellen' },
     title: 'Russische woordverbuigingen — Volledige lijst',
     titleWithCount: (total) =>
       `${total} meest nuttige Russische woorden met volledige verbuigingstabellen (6 gevallen)`,
@@ -573,7 +568,7 @@ const translations: Record<LandingLanguage, WordsIndexPageTranslations> = {
     },
   },
   ru_ru: {
-    breadcrumb: { home: 'App', learn: 'Бесплатные уроки грамматики', words: 'Таблицы склонений' },
+    breadcrumb: { home: 'App', words: 'Таблицы склонений' },
     title: 'Склонения русских слов — Полный список',
     titleWithCount: (total) =>
       `${total.toLocaleString('ru-RU')} самых полезных русских слов с полными таблицами склонений (6 падежей)`,

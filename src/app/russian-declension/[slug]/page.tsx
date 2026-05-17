@@ -180,11 +180,10 @@ export default async function WordPage({ params }: Props) {
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: wt.breadcrumb.home, item: siteUrl },
-      { '@type': 'ListItem', position: 2, name: wt.breadcrumb.learn, item: `${siteUrl}/learn` },
-      { '@type': 'ListItem', position: 3, name: wt.breadcrumb.words, item: `${siteUrl}/words` },
+      { '@type': 'ListItem', position: 2, name: wt.breadcrumb.words, item: `${siteUrl}/words` },
       {
         '@type': 'ListItem',
-        position: 4,
+        position: 3,
         name: `${word.base_form} (${translation})`,
         item: canonicalUrl,
       },
@@ -304,10 +303,6 @@ export default async function WordPage({ params }: Props) {
       <nav className="learn-breadcrumb mb-6" aria-label={wt.a11y.breadcrumb}>
         <Link href="/" className="learn-breadcrumb-link">
           {wt.breadcrumb.home}
-        </Link>
-        <span className="learn-breadcrumb-sep">/</span>
-        <Link href="/learn" className="learn-breadcrumb-link">
-          {wt.breadcrumb.learn}
         </Link>
         <span className="learn-breadcrumb-sep">/</span>
         <Link href="/words" className="learn-breadcrumb-link">

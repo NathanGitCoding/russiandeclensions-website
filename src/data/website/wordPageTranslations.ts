@@ -11,7 +11,7 @@ export interface CaseConfigItem {
 }
 
 export interface WordPageTranslations {
-  breadcrumb: { home: string; learn: string; words: string };
+  breadcrumb: { home: string; words: string };
   /** H1: Russian Declension: [Word] ([Translation]) */
   h1Title: (baseForm: string, translation: string) => string;
   /** H2 #1: Full Declension Table of [Word] */
@@ -421,7 +421,7 @@ const wordPageMetaRu: WordPageMetaBundle = {
 const translations: Record<LandingLanguage, WordPageTranslations> = {
   en_en: {
     ...wordPageMetaEn,
-    breadcrumb: { home: 'App', learn: 'Free Grammar Lessons', words: 'Declension tables' },
+    breadcrumb: { home: 'App', words: 'Declension tables' },
     h1Title: (base, trans) => `Russian Declension: ${base} (${trans})`,
     h2FullTable: (base) => `Full Declension Table of ${base}`,
     h2HowToUse: (base) => `How to use "${base}" in Russian (Examples)`,
@@ -527,7 +527,6 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     ...wordPageMetaFr,
     breadcrumb: {
       home: 'App',
-      learn: 'Leçons de grammaire gratuites',
       words: 'Tables de déclinaisons',
     },
     h1Title: (base, trans) => `Déclinaison russe : ${base} (${trans})`,
@@ -637,7 +636,7 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
   },
   tr_tr: {
     ...wordPageMetaEn,
-    breadcrumb: { home: 'App', learn: 'Ücretsiz Gramer Dersleri', words: 'Çekim tabloları' },
+    breadcrumb: { home: 'App', words: 'Çekim tabloları' },
     h1Title: (base, trans) => `Rusça çekim: ${base} (${trans})`,
     h2FullTable: (base) => `${base} için tam çekim tablosu`,
     h2HowToUse: (base) => `"${base}" Rusçada nasıl kullanılır (örnekler)`,
@@ -735,7 +734,6 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     ...wordPageMetaEn,
     breadcrumb: {
       home: 'App',
-      learn: 'Kostenlose Grammatik-Lektionen',
       words: 'Deklinationstabellen',
     },
     h1Title: (base, trans) => `Russische Deklination: ${base} (${trans})`,
@@ -834,7 +832,7 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
   },
   pl_pl: {
     ...wordPageMetaEn,
-    breadcrumb: { home: 'App', learn: 'Darmowe lekcje gramatyki', words: 'Tabele odmian' },
+    breadcrumb: { home: 'App', words: 'Tabele odmian' },
     h1Title: (base, trans) => `Rosyjska odmiana: ${base} (${trans})`,
     h2FullTable: (base) => `Pełna tabela odmian ${base}`,
     h2HowToUse: (base) => `Jak używać „${base}" po rosyjsku (przykłady)`,
@@ -935,7 +933,6 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     ...wordPageMetaEn,
     breadcrumb: {
       home: 'App',
-      learn: 'Lecciones de gramática gratis',
       words: 'Tablas de declinación',
     },
     h1Title: (base, trans) => `Declinación rusa: ${base} (${trans})`,
@@ -1034,7 +1031,6 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     ...wordPageMetaEn,
     breadcrumb: {
       home: 'App',
-      learn: 'Lezioni di grammatica gratuite',
       words: 'Tabelle di declinazione',
     },
     h1Title: (base, trans) => `Declinazione russa: ${base} (${trans})`,
@@ -1133,7 +1129,6 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
     ...wordPageMetaEn,
     breadcrumb: {
       home: 'App',
-      learn: 'Lições de gramática grátis',
       words: 'Tabelas de declinação',
     },
     h1Title: (base, trans) => `Declinação russa: ${base} (${trans})`,
@@ -1230,7 +1225,7 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
   },
   nl_nl: {
     ...wordPageMetaEn,
-    breadcrumb: { home: 'App', learn: 'Gratis grammatica-lessen', words: 'Verbuigingstabellen' },
+    breadcrumb: { home: 'App', words: 'Verbuigingstabellen' },
     h1Title: (base, trans) => `Russische verbuiging: ${base} (${trans})`,
     h2FullTable: (base) => `Volledige verbuigingstabel van ${base}`,
     h2HowToUse: (base) => `Hoe «${base}» te gebruiken in het Russisch (voorbeelden)`,
@@ -1329,7 +1324,7 @@ const translations: Record<LandingLanguage, WordPageTranslations> = {
   },
   ru_ru: {
     ...wordPageMetaRu,
-    breadcrumb: { home: 'App', learn: 'Бесплатные уроки грамматики', words: 'Таблицы склонений' },
+    breadcrumb: { home: 'App', words: 'Таблицы склонений' },
     h1Title: (base, trans) => `Склонение: ${base} (${trans})`,
     h2FullTable: (base) => `Полная таблица склонений ${base}`,
     h2HowToUse: (base) => `Как использовать «${base}» в русском языке (примеры)`,

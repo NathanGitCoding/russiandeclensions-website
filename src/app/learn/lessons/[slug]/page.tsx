@@ -153,10 +153,9 @@ export default async function LearnLessonPage({ params }: Props) {
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: t.breadcrumb.home, item: `${siteUrl}/` },
       { '@type': 'ListItem', position: 2, name: t.breadcrumb.learn, item: `${siteUrl}/learn` },
-      { '@type': 'ListItem', position: 3, name: 'Grammar Lessons', item: `${siteUrl}/learn` },
       {
         '@type': 'ListItem',
-        position: 4,
+        position: 3,
         name: lesson.h1,
         item: `${siteUrl}/learn/lessons/${slug}`,
       },

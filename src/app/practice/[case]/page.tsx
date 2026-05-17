@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getPracticeWords } from '@/lib/data';
+import { getLandingLangFromRequest } from '@/lib/landingLangServer';
+import { getPracticeTranslations } from '@/data/website/practicePageTranslations';
 import PracticeClient from '@/components/practice/PracticeClient';
 import { PracticeFAQ } from '@/components/practice/PracticeFAQ';
 import type { PracticeConfig } from '@/lib/practiceQuiz';
@@ -244,6 +246,10 @@ export default async function CasePracticePage({ params }: PageProps) {
   const data = CASE_PAGES[caseSlug];
   if (!data) notFound();
 
+  const lang = await getLandingLangFromRequest();
+  const t = getPracticeTranslations(lang);
+  const caseName = t.config.cases[caseSlug] ?? data.nameEn;
+
   const words = await getPracticeWords();
   const initialConfig = makeCaseConfig(caseSlug);
 
@@ -252,12 +258,17 @@ export default async function CasePracticePage({ params }: PageProps) {
       '@context': 'https://schema.org',
       '@type': 'BreadcrumbList',
       itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
-        { '@type': 'ListItem', position: 2, name: 'Practice', item: `${siteUrl}/practice` },
+        { '@type': 'ListItem', position: 1, name: t.breadcrumb.home, item: siteUrl },
+        {
+          '@type': 'ListItem',
+          position: 2,
+          name: t.breadcrumb.practice,
+          item: `${siteUrl}/practice`,
+        },
         {
           '@type': 'ListItem',
           position: 3,
-          name: `${data.nameEn} Case`,
+          name: caseName,
           item: `${siteUrl}/practice/${data.slug}`,
         },
       ],
@@ -308,16 +319,16 @@ export default async function CasePracticePage({ params }: PageProps) {
       {/* Server-rendered SEO content */}
       <section className="container mx-auto px-4 pt-8 sm:px-6 sm:pt-12">
         <div className="mx-auto max-w-2xl">
-          <nav aria-label="breadcrumb" className="mb-4 text-center text-sm text-gray-400">
+          <nav aria-label={t.breadcrumbAria} className="mb-4 text-center text-sm text-gray-400">
             <Link href="/" className="transition-colors hover:text-blue-600">
-              Home
+              {t.breadcrumb.home}
             </Link>
             <span className="mx-1.5">/</span>
             <Link href="/practice" className="transition-colors hover:text-blue-600">
-              Practice
+              {t.breadcrumb.practice}
             </Link>
             <span className="mx-1.5">/</span>
-            <span className="text-gray-600">{data.nameEn}</span>
+            <span className="text-gray-600">{caseName}</span>
           </nav>
 
           <h1 className="mb-3 text-center text-2xl font-bold text-gray-900 sm:text-3xl">

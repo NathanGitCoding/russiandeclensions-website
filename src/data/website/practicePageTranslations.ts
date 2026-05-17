@@ -90,7 +90,7 @@ const en: PracticeTranslations = {
       'practice Russian declensions, Russian cases quiz, Russian grammar test, declension exercises, Russian noun quiz',
   },
   breadcrumbAria: 'Breadcrumb',
-  breadcrumb: { home: 'Home', practice: 'Practice' },
+  breadcrumb: { home: 'App', practice: 'Practice' },
   h1: 'Practice Russian Declensions',
   subtitle:
     'Test your knowledge of Russian noun cases with a customizable quiz. Select which cases and genders to practice, then answer 10 questions.',
@@ -221,7 +221,7 @@ const fr: PracticeTranslations = {
       'déclinaisons russes, quiz cas russes, grammaire russe, exercices de déclinaison, quiz noms russes',
   },
   breadcrumbAria: 'Fil d’Ariane',
-  breadcrumb: { home: 'Accueil', practice: 'Entraînement' },
+  breadcrumb: { home: 'App', practice: 'Entraînement' },
   h1: 'Pratiquer les déclinaisons russes',
   subtitle:
     'Testez vos connaissances des cas russes avec un quiz personnalisable. Sélectionnez les cas et les genres à pratiquer, puis répondez à 10 questions.',
@@ -352,7 +352,7 @@ const de: PracticeTranslations = {
       'Russische Deklinationen üben, Kasus-Quiz Russisch, Russisch Grammatik Test, Deklinationsübungen, Substantiv-Quiz',
   },
   breadcrumbAria: 'Brotkrümelnavigation',
-  breadcrumb: { home: 'Startseite', practice: 'Übung' },
+  breadcrumb: { home: 'App', practice: 'Übung' },
   h1: 'Russische Deklinationen üben',
   subtitle:
     'Testen Sie Ihr Wissen über russische Fälle mit einem anpassbaren Quiz. Wählen Sie Fälle und Geschlechter, dann beantworten Sie 10 Fragen.',
@@ -483,7 +483,7 @@ const pl: PracticeTranslations = {
       'deklinacja rosyjska, quiz przypadków, gramatyka rosyjska, ćwiczenia deklinacji, quiz rzeczowników',
   },
   breadcrumbAria: 'Ścieżka nawigacyjna',
-  breadcrumb: { home: 'Strona główna', practice: 'Ćwiczenia' },
+  breadcrumb: { home: 'App', practice: 'Ćwiczenia' },
   h1: 'Ćwicz rosyjskie deklinacje',
   subtitle:
     'Sprawdź swoją wiedzę o rosyjskich przypadkach z konfigurowalnym quizem. Wybierz przypadki i rodzaje, a następnie odpowiedz na 10 pytań.',
@@ -613,7 +613,7 @@ const tr: PracticeTranslations = {
     keywords: 'Rusça çekim, Rusça durum quiz, Rusça dilbilgisi, çekim alıştırmaları, isim quiz',
   },
   breadcrumbAria: 'Sayfa konumu',
-  breadcrumb: { home: 'Ana Sayfa', practice: 'Alıştırma' },
+  breadcrumb: { home: 'App', practice: 'Alıştırma' },
   h1: 'Rusça çekimleri pratik yapın',
   subtitle:
     'Özelleştirilebilir bir quiz ile Rusça isim durumlarındaki bilginizi test edin. Durumları ve cinsiyetleri seçin, ardından 10 soruyu yanıtlayın.',
@@ -744,7 +744,7 @@ const es: PracticeTranslations = {
       'declinaciones rusas, quiz casos rusos, gramática rusa, ejercicios declinación, quiz sustantivos rusos',
   },
   breadcrumbAria: 'Migas de pan',
-  breadcrumb: { home: 'Inicio', practice: 'Práctica' },
+  breadcrumb: { home: 'App', practice: 'Práctica' },
   h1: 'Practicar declinaciones rusas',
   subtitle:
     'Pon a prueba tus conocimientos de los casos rusos con un cuestionario personalizable. Selecciona qué casos y géneros practicar y responde 10 preguntas.',
@@ -875,7 +875,7 @@ const it: PracticeTranslations = {
       'declinazioni russe, quiz casi russi, grammatica russa, esercizi declinazione, quiz sostantivi russi',
   },
   breadcrumbAria: 'Percorso di navigazione',
-  breadcrumb: { home: 'Home', practice: 'Esercizi' },
+  breadcrumb: { home: 'App', practice: 'Esercizi' },
   h1: 'Esercitati con le declinazioni russe',
   subtitle:
     'Metti alla prova le tue conoscenze dei casi russi con un quiz personalizzabile. Seleziona quali casi e generi esercitare, poi rispondi a 10 domande.',
@@ -1006,7 +1006,7 @@ const pt: PracticeTranslations = {
       'declinações russas, quiz casos russos, gramática russa, exercícios declinação, quiz substantivos russos',
   },
   breadcrumbAria: 'Navegação estrutural',
-  breadcrumb: { home: 'Início', practice: 'Prática' },
+  breadcrumb: { home: 'App', practice: 'Prática' },
   h1: 'Praticar declinações russas',
   subtitle:
     'Testa os teus conhecimentos dos casos russos com um questionário personalizável. Seleciona quais casos e géneros praticar, depois responde a 10 perguntas.',
@@ -1137,7 +1137,7 @@ const nl: PracticeTranslations = {
       'Russische verbuigingen oefenen, Russische naamvallen quiz, Russische grammatica, verbuigingsoefeningen, zelfstandig naamwoord quiz',
   },
   breadcrumbAria: 'Broodkruimelpad',
-  breadcrumb: { home: 'Home', practice: 'Oefenen' },
+  breadcrumb: { home: 'App', practice: 'Oefenen' },
   h1: 'Oefen Russische verbuigingen',
   subtitle:
     'Test je kennis van Russische naamwoordgevallen met een aanpasbare quiz. Selecteer welke gevallen en geslachten je wilt oefenen, beantwoord dan 10 vragen.',
@@ -1268,7 +1268,7 @@ const ru: PracticeTranslations = {
       'склонения русский язык, тест падежи, грамматика русского, упражнения склонение, существительные тест',
   },
   breadcrumbAria: 'Навигационная цепочка',
-  breadcrumb: { home: 'Главная', practice: 'Практика' },
+  breadcrumb: { home: 'App', practice: 'Практика' },
   h1: 'Практика склонений',
   subtitle:
     'Проверьте свои знания падежей русских существительных с помощью настраиваемого теста. Выберите падежи и рода, затем ответьте на 10 вопросов.',

@@ -5,7 +5,7 @@
 import type { LandingLanguage } from './landingTranslations';
 
 export interface LearnDetailTranslations {
-  breadcrumb: { home: string; learn: string; articles: string };
+  breadcrumb: { home: string; learn: string };
   backToLearn: string;
   whatsInThisCheatsheet: string;
   whatYouLearnInThisGuide: string;
@@ -31,7 +31,7 @@ export interface LearnDetailTranslations {
 
 const translations: Record<LandingLanguage, LearnDetailTranslations> = {
   en_en: {
-    breadcrumb: { home: 'App', learn: 'Free Grammar Lessons', articles: 'Articles' },
+    breadcrumb: { home: 'App', learn: 'Free Grammar Lessons' },
     backToLearn: '← Back to Learn',
     whatsInThisCheatsheet: "What's in this cheat sheet:",
     whatYouLearnInThisGuide: "What you'll learn in this guide:",
@@ -58,7 +58,7 @@ const translations: Record<LandingLanguage, LearnDetailTranslations> = {
     relatedArticles: 'Related articles',
   },
   fr_fr: {
-    breadcrumb: { home: 'App', learn: 'Leçons de grammaire gratuites', articles: 'Articles' },
+    breadcrumb: { home: 'App', learn: 'Leçons de grammaire gratuites' },
     backToLearn: '← Retour à Apprendre',
     whatsInThisCheatsheet: 'Contenu de cette antisèche :',
     whatYouLearnInThisGuide: 'Ce que vous allez apprendre dans ce guide :',
@@ -85,7 +85,7 @@ const translations: Record<LandingLanguage, LearnDetailTranslations> = {
     relatedArticles: 'Articles associés',
   },
   tr_tr: {
-    breadcrumb: { home: 'App', learn: 'Ücretsiz Gramer Dersleri', articles: 'Makaleler' },
+    breadcrumb: { home: 'App', learn: 'Ücretsiz Gramer Dersleri' },
     backToLearn: "← Öğren'e geri dön",
     whatsInThisCheatsheet: 'Bu kopya kağıdında neler var:',
     whatYouLearnInThisGuide: 'Bu rehberde ne öğreneceksiniz:',
@@ -112,7 +112,7 @@ const translations: Record<LandingLanguage, LearnDetailTranslations> = {
     relatedArticles: 'İlgili makaleler',
   },
   de_de: {
-    breadcrumb: { home: 'App', learn: 'Kostenlose Grammatik-Lektionen', articles: 'Artikel' },
+    breadcrumb: { home: 'App', learn: 'Kostenlose Grammatik-Lektionen' },
     backToLearn: '← Zurück zu Lernen',
     whatsInThisCheatsheet: 'Inhalt dieser Spickzettel:',
     whatYouLearnInThisGuide: 'Was Sie in diesem Leitfaden lernen:',
@@ -139,7 +139,7 @@ const translations: Record<LandingLanguage, LearnDetailTranslations> = {
     relatedArticles: 'Verwandte Artikel',
   },
   es_es: {
-    breadcrumb: { home: 'App', learn: 'Lecciones de gramática gratis', articles: 'Artículos' },
+    breadcrumb: { home: 'App', learn: 'Lecciones de gramática gratis' },
     backToLearn: '← Volver a Aprender',
     whatsInThisCheatsheet: 'Contenido de esta chuleta:',
     whatYouLearnInThisGuide: 'Qué aprenderás en esta guía:',
@@ -166,7 +166,7 @@ const translations: Record<LandingLanguage, LearnDetailTranslations> = {
     relatedArticles: 'Artículos relacionados',
   },
   it_it: {
-    breadcrumb: { home: 'App', learn: 'Lezioni di grammatica gratuite', articles: 'Articoli' },
+    breadcrumb: { home: 'App', learn: 'Lezioni di grammatica gratuite' },
     backToLearn: '← Torna a Impara',
     whatsInThisCheatsheet: 'Contenuto di questo prontuario:',
     whatYouLearnInThisGuide: 'Cosa imparerai in questa guida:',
@@ -193,7 +193,7 @@ const translations: Record<LandingLanguage, LearnDetailTranslations> = {
     relatedArticles: 'Articoli correlati',
   },
   pt_pt: {
-    breadcrumb: { home: 'App', learn: 'Lições de gramática grátis', articles: 'Artigos' },
+    breadcrumb: { home: 'App', learn: 'Lições de gramática grátis' },
     backToLearn: '← Voltar a Aprender',
     whatsInThisCheatsheet: 'Conteúdo deste resumo:',
     whatYouLearnInThisGuide: 'O que vais aprender neste guia:',
@@ -220,7 +220,7 @@ const translations: Record<LandingLanguage, LearnDetailTranslations> = {
     relatedArticles: 'Artigos relacionados',
   },
   nl_nl: {
-    breadcrumb: { home: 'App', learn: 'Gratis grammatica-lessen', articles: 'Artikelen' },
+    breadcrumb: { home: 'App', learn: 'Gratis grammatica-lessen' },
     backToLearn: '← Terug naar Leren',
     whatsInThisCheatsheet: 'Inhoud van dit spiekbriefje:',
     whatYouLearnInThisGuide: 'Wat je leert in deze gids:',
@@ -247,7 +247,7 @@ const translations: Record<LandingLanguage, LearnDetailTranslations> = {
     relatedArticles: 'Gerelateerde artikelen',
   },
   pl_pl: {
-    breadcrumb: { home: 'App', learn: 'Darmowe lekcje gramatyki', articles: 'Artykuły' },
+    breadcrumb: { home: 'App', learn: 'Darmowe lekcje gramatyki' },
     backToLearn: '← Powrót do Nauki',
     whatsInThisCheatsheet: 'Zawartość tej ściągi:',
     whatYouLearnInThisGuide: 'Czego nauczysz się w tym przewodniku:',
@@ -274,7 +274,7 @@ const translations: Record<LandingLanguage, LearnDetailTranslations> = {
     relatedArticles: 'Powiązane artykuły',
   },
   ru_ru: {
-    breadcrumb: { home: 'App', learn: 'Бесплатные уроки грамматики', articles: 'Статьи' },
+    breadcrumb: { home: 'App', learn: 'Бесплатные уроки грамматики' },
     backToLearn: '← Назад к Обучению',
     whatsInThisCheatsheet: 'Содержание этой шпаргалки:',
     whatYouLearnInThisGuide: 'Что вы узнаете в этом руководстве:',
