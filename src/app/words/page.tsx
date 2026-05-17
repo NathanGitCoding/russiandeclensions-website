@@ -7,6 +7,7 @@ import { getWordsIndexPageTranslations } from '@/data/website/wordsIndexPageTran
 import { getLearnPageTranslations } from '@/data/website/learnPageTranslations';
 import type { LandingLanguage } from '@/data/website/landingTranslations';
 import type { WordListItem } from '@/lib/data';
+import { PageHero } from '@/components/PageHero';
 
 /* Case articles for internal linking (SEO) */
 const CASE_ARTICLE_SLUGS = [
@@ -213,7 +214,7 @@ export default async function WordsIndexPage({ searchParams }: Props) {
   };
 
   return (
-    <article className="learn-detail">
+    <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
@@ -222,249 +223,258 @@ export default async function WordsIndexPage({ searchParams }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageJsonLd) }}
       />
-      <nav className="learn-breadcrumb mb-6" aria-label="Breadcrumb">
-        <Link href="/" className="learn-breadcrumb-link">
-          {t.breadcrumb.home}
-        </Link>
-        <span className="learn-breadcrumb-sep">/</span>
-        <span className="learn-breadcrumb-current">{t.breadcrumb.words}</span>
-      </nav>
 
-      {/* HERO */}
-      <section className="learn-detail-header !mb-0">
-        <h1 className="learn-detail-title text-4xl sm:text-5xl">{t.titleWithCount(total)}</h1>
-        <div className="mt-4 space-y-3 text-lg text-[hsl(var(--muted-foreground))]">
-          {t.intro.paragraphs(total).map((para, i) => (
-            <p key={i}>
-              <WithBold text={para} />
-            </p>
-          ))}
-        </div>
-        <div className="mt-8 border-t border-[hsl(var(--border))] pt-6">
-          <h2 className="mb-3 text-xl font-semibold text-[hsl(var(--foreground))]">
-            {t.heroH2.title(total)}
-          </h2>
-          <p className="mb-4 text-[hsl(var(--muted-foreground))]">{t.heroH2.body(total)}</p>
-          <Link
-            href="/learn/lessons/russian-cases-complete-guide"
-            className="inline-flex items-center font-medium text-[hsl(var(--primary))] hover:underline"
-          >
-            {learnT.lessonTitles['russian-cases-complete-guide']} →
-          </Link>
-        </div>
-      </section>
+      <PageHero
+        title={t.titleWithCount(total)}
+        subtitle={t.subtitle(total)}
+        breadcrumbAria="Breadcrumb"
+        breadcrumb={[{ label: t.breadcrumb.home, href: '/' }, { label: t.breadcrumb.words }]}
+      />
 
-      {/* WORDS TABLE + ALPHABET SIDEBAR */}
-      <section className="learn-detail-section flex flex-col items-start gap-6 sm:flex-row">
-        <div className="learn-detail-table-wrap min-w-0 flex-1">
-          <table className="learn-detail-table">
-            <thead>
-              <tr>
-                <th>{t.tableHeaders.russian}</th>
-                <th>{t.tableHeaders.translation}</th>
-                <th>{t.tableHeaders.gender}</th>
-                <th className="text-right">{t.tableHeaders.viewDeclension}</th>
-              </tr>
-            </thead>
-            <tbody>
-              {words.map((w) => (
-                <tr
-                  key={w.word_id}
-                  className="group transition-colors hover:bg-[hsl(var(--primary)_/_0.06)]"
-                >
-                  <td className="font-semibold" lang="ru">
-                    <Link
-                      href={`/russian-declension/${w.slug}`}
-                      className="text-[hsl(var(--primary))] hover:underline"
-                      style={{ fontFamily: 'var(--font-cyrillic)' }}
-                    >
-                      {capitalizeRussianWord(w.base_form)}
-                    </Link>
-                  </td>
-                  <td className="text-[hsl(var(--muted-foreground))]">
-                    {getDisplayTranslation(w, lang)}
-                  </td>
-                  <td>
-                    <span
-                      className={`inline-flex rounded-full px-2.5 py-0.5 text-xs font-medium ${
-                        genderBadgeClasses[w.gender] ??
-                        'bg-[hsl(var(--muted))] text-[hsl(var(--muted-foreground))]'
-                      }`}
-                    >
-                      {t.gender[w.gender] ?? w.gender}
-                    </span>
-                  </td>
-                  <td className="text-right">
-                    <Link
-                      href={`/russian-declension/${w.slug}`}
-                      className="inline-flex items-center gap-1.5 rounded-lg border border-[hsl(var(--primary))] bg-transparent px-3 py-1.5 text-sm font-medium text-[hsl(var(--primary))] transition-colors hover:bg-[hsl(var(--primary)_/_0.1)]"
-                    >
-                      {t.tableHeaders.viewDeclension}
-                    </Link>
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-
-        {/* ALPHABET FILTER BAR - vertical on the right */}
-        <aside
-          className="sticky top-24 flex shrink-0 flex-col gap-1.5"
-          aria-label={t.filterByLetter}
-        >
-          <Link
-            href={buildWordsUrl({ level, page: 1, q })}
-            className={`flex h-10 w-10 items-center justify-center rounded-lg text-sm font-medium transition-colors ${
-              !letter
-                ? 'bg-[hsl(var(--primary))] text-white'
-                : 'bg-[hsl(var(--muted))] text-[hsl(var(--muted-foreground))] hover:bg-[hsl(var(--muted))]/80'
-            }`}
-          >
-            {t.filterAll}
-          </Link>
-          {cyrillicLetters.map((l) => (
+      <article className="learn-detail">
+        {/* Intro SEO */}
+        <section className="learn-detail-header !mb-0">
+          <div className="space-y-3 text-lg text-[hsl(var(--muted-foreground))]">
+            {t.intro.paragraphs(total).map((para, i) => (
+              <p key={i}>
+                <WithBold text={para} />
+              </p>
+            ))}
+          </div>
+          <div className="mt-8 border-t border-[hsl(var(--border))] pt-6">
+            <h2 className="mb-3 text-xl font-semibold text-[hsl(var(--foreground))]">
+              {t.heroH2.title(total)}
+            </h2>
+            <p className="mb-4 text-[hsl(var(--muted-foreground))]">{t.heroH2.body(total)}</p>
             <Link
-              key={l}
-              href={buildWordsUrl({ letter: l, level, page: 1, q })}
+              href="/learn/lessons/russian-cases-complete-guide"
+              className="inline-flex items-center font-medium text-[hsl(var(--primary))] hover:underline"
+            >
+              {learnT.lessonTitles['russian-cases-complete-guide']} →
+            </Link>
+          </div>
+        </section>
+
+        {/* WORDS TABLE + ALPHABET SIDEBAR */}
+        <section className="learn-detail-section flex flex-col items-start gap-6 sm:flex-row">
+          <div className="learn-detail-table-wrap min-w-0 flex-1">
+            <table className="learn-detail-table">
+              <thead>
+                <tr>
+                  <th>{t.tableHeaders.russian}</th>
+                  <th>{t.tableHeaders.translation}</th>
+                  <th>{t.tableHeaders.gender}</th>
+                  <th className="text-right">{t.tableHeaders.viewDeclension}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {words.map((w) => (
+                  <tr
+                    key={w.word_id}
+                    className="group transition-colors hover:bg-[hsl(var(--primary)_/_0.06)]"
+                  >
+                    <td className="font-semibold" lang="ru">
+                      <Link
+                        href={`/russian-declension/${w.slug}`}
+                        className="text-[hsl(var(--primary))] hover:underline"
+                        style={{ fontFamily: 'var(--font-cyrillic)' }}
+                      >
+                        {capitalizeRussianWord(w.base_form)}
+                      </Link>
+                    </td>
+                    <td className="text-[hsl(var(--muted-foreground))]">
+                      {getDisplayTranslation(w, lang)}
+                    </td>
+                    <td>
+                      <span
+                        className={`inline-flex rounded-full px-2.5 py-0.5 text-xs font-medium ${
+                          genderBadgeClasses[w.gender] ??
+                          'bg-[hsl(var(--muted))] text-[hsl(var(--muted-foreground))]'
+                        }`}
+                      >
+                        {t.gender[w.gender] ?? w.gender}
+                      </span>
+                    </td>
+                    <td className="text-right">
+                      <Link
+                        href={`/russian-declension/${w.slug}`}
+                        className="inline-flex items-center gap-1.5 rounded-lg border border-[hsl(var(--primary))] bg-transparent px-3 py-1.5 text-sm font-medium text-[hsl(var(--primary))] transition-colors hover:bg-[hsl(var(--primary)_/_0.1)]"
+                      >
+                        {t.tableHeaders.viewDeclension}
+                      </Link>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          {/* ALPHABET FILTER BAR - vertical on the right */}
+          <aside
+            className="sticky top-24 flex shrink-0 flex-col gap-1.5"
+            aria-label={t.filterByLetter}
+          >
+            <Link
+              href={buildWordsUrl({ level, page: 1, q })}
               className={`flex h-10 w-10 items-center justify-center rounded-lg text-sm font-medium transition-colors ${
-                letter?.toUpperCase() === l
+                !letter
                   ? 'bg-[hsl(var(--primary))] text-white'
                   : 'bg-[hsl(var(--muted))] text-[hsl(var(--muted-foreground))] hover:bg-[hsl(var(--muted))]/80'
               }`}
-              style={{ fontFamily: 'var(--font-cyrillic)' }}
             >
-              {l}
+              {t.filterAll}
             </Link>
-          ))}
-        </aside>
-      </section>
+            {cyrillicLetters.map((l) => (
+              <Link
+                key={l}
+                href={buildWordsUrl({ letter: l, level, page: 1, q })}
+                className={`flex h-10 w-10 items-center justify-center rounded-lg text-sm font-medium transition-colors ${
+                  letter?.toUpperCase() === l
+                    ? 'bg-[hsl(var(--primary))] text-white'
+                    : 'bg-[hsl(var(--muted))] text-[hsl(var(--muted-foreground))] hover:bg-[hsl(var(--muted))]/80'
+                }`}
+                style={{ fontFamily: 'var(--font-cyrillic)' }}
+              >
+                {l}
+              </Link>
+            ))}
+          </aside>
+        </section>
 
-      {words.length === 0 && (
-        <p className="-mt-4 py-8 text-center text-[hsl(var(--muted-foreground))]">{t.emptyState}</p>
-      )}
-
-      {/* PAGINATION */}
-      {total > 0 && (
-        <nav className="mt-8 border-t border-[hsl(var(--border))] pt-8" aria-label="Pagination">
-          <p className="mb-4 text-sm text-[hsl(var(--muted-foreground))]">
-            {t.pagination.showing(from, to, total)}
+        {words.length === 0 && (
+          <p className="-mt-4 py-8 text-center text-[hsl(var(--muted-foreground))]">
+            {t.emptyState}
           </p>
-          <div className="flex flex-wrap items-center gap-2">
-            {page > 1 && (
-              <Link
-                href={buildWordsUrl({ letter, level, page: page - 1, q })}
-                className="inline-flex items-center gap-1 rounded-lg border border-[hsl(var(--border))] px-4 py-2 text-sm font-medium text-[hsl(var(--foreground))] transition-colors hover:bg-[hsl(var(--muted))]"
-              >
-                {t.pagination.previous}
-              </Link>
-            )}
-            <span className="flex items-center gap-1">
-              {Array.from({ length: Math.min(5, totalPages) }, (_, i) => {
-                let p: number;
-                if (totalPages <= 5) {
-                  p = i + 1;
-                } else if (page <= 3) {
-                  p = i + 1;
-                } else if (page >= totalPages - 2) {
-                  p = totalPages - 4 + i;
-                } else {
-                  p = page - 2 + i;
-                }
-                return (
-                  <Link
-                    key={p}
-                    href={buildWordsUrl({ letter, level, page: p, q })}
-                    className={`min-w-[2.25rem] rounded-lg px-3 py-2 text-center text-sm font-medium transition-colors ${
-                      p === page
-                        ? 'bg-[hsl(var(--primary))] text-white'
-                        : 'bg-[hsl(var(--muted))] text-[hsl(var(--muted-foreground))] hover:bg-[hsl(var(--muted))]/80'
-                    }`}
-                  >
-                    {p}
-                  </Link>
-                );
-              })}
-            </span>
-            {page < totalPages && (
-              <Link
-                href={buildWordsUrl({ letter, level, page: page + 1, q })}
-                className="inline-flex items-center gap-1 rounded-lg border border-[hsl(var(--border))] px-4 py-2 text-sm font-medium text-[hsl(var(--foreground))] transition-colors hover:bg-[hsl(var(--muted))]"
-              >
-                {t.pagination.next}
-              </Link>
-            )}
-          </div>
-        </nav>
-      )}
+        )}
 
-      {/* Internal links for SEO */}
-      <section
-        className="mt-12 border-t border-[hsl(var(--border))] pt-8"
-        aria-labelledby="related-links-heading"
-      >
-        <h2
-          id="related-links-heading"
-          className="mb-4 text-lg font-semibold text-[hsl(var(--foreground))]"
+        {/* PAGINATION */}
+        {total > 0 && (
+          <nav className="mt-8 border-t border-[hsl(var(--border))] pt-8" aria-label="Pagination">
+            <p className="mb-4 text-sm text-[hsl(var(--muted-foreground))]">
+              {t.pagination.showing(from, to, total)}
+            </p>
+            <div className="flex flex-wrap items-center gap-2">
+              {page > 1 && (
+                <Link
+                  href={buildWordsUrl({ letter, level, page: page - 1, q })}
+                  className="inline-flex items-center gap-1 rounded-lg border border-[hsl(var(--border))] px-4 py-2 text-sm font-medium text-[hsl(var(--foreground))] transition-colors hover:bg-[hsl(var(--muted))]"
+                >
+                  {t.pagination.previous}
+                </Link>
+              )}
+              <span className="flex items-center gap-1">
+                {Array.from({ length: Math.min(5, totalPages) }, (_, i) => {
+                  let p: number;
+                  if (totalPages <= 5) {
+                    p = i + 1;
+                  } else if (page <= 3) {
+                    p = i + 1;
+                  } else if (page >= totalPages - 2) {
+                    p = totalPages - 4 + i;
+                  } else {
+                    p = page - 2 + i;
+                  }
+                  return (
+                    <Link
+                      key={p}
+                      href={buildWordsUrl({ letter, level, page: p, q })}
+                      className={`min-w-[2.25rem] rounded-lg px-3 py-2 text-center text-sm font-medium transition-colors ${
+                        p === page
+                          ? 'bg-[hsl(var(--primary))] text-white'
+                          : 'bg-[hsl(var(--muted))] text-[hsl(var(--muted-foreground))] hover:bg-[hsl(var(--muted))]/80'
+                      }`}
+                    >
+                      {p}
+                    </Link>
+                  );
+                })}
+              </span>
+              {page < totalPages && (
+                <Link
+                  href={buildWordsUrl({ letter, level, page: page + 1, q })}
+                  className="inline-flex items-center gap-1 rounded-lg border border-[hsl(var(--border))] px-4 py-2 text-sm font-medium text-[hsl(var(--foreground))] transition-colors hover:bg-[hsl(var(--muted))]"
+                >
+                  {t.pagination.next}
+                </Link>
+              )}
+            </div>
+          </nav>
+        )}
+
+        {/* Internal links for SEO */}
+        <section
+          className="mt-12 border-t border-[hsl(var(--border))] pt-8"
+          aria-labelledby="related-links-heading"
         >
-          {t.relatedLinks.title}
-        </h2>
-        <div className="grid gap-6 sm:grid-cols-2">
-          <div>
-            <p className="mb-2 text-sm font-medium text-[hsl(var(--muted-foreground))]">
-              {t.relatedLinks.learnLabel}
-            </p>
-            <ul className="space-y-1">
-              <li>
-                <Link href="/learn" className="text-sm text-[hsl(var(--primary))] hover:underline">
-                  {learnT.header.title}
-                </Link>
-              </li>
-              <li>
-                <Link href="/learn" className="text-sm text-[hsl(var(--primary))] hover:underline">
-                  {t.relatedLinks.blogLabel}
-                </Link>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <p className="mb-2 text-sm font-medium text-[hsl(var(--muted-foreground))]">
-              {t.relatedLinks.caseArticlesTitle}
-            </p>
-            <ul className="space-y-1">
-              {CASE_ARTICLE_SLUGS.map((slug) => (
-                <li key={slug}>
+          <h2
+            id="related-links-heading"
+            className="mb-4 text-lg font-semibold text-[hsl(var(--foreground))]"
+          >
+            {t.relatedLinks.title}
+          </h2>
+          <div className="grid gap-6 sm:grid-cols-2">
+            <div>
+              <p className="mb-2 text-sm font-medium text-[hsl(var(--muted-foreground))]">
+                {t.relatedLinks.learnLabel}
+              </p>
+              <ul className="space-y-1">
+                <li>
                   <Link
-                    href={`/learn/articles/${slug}`}
+                    href="/learn"
                     className="text-sm text-[hsl(var(--primary))] hover:underline"
                   >
-                    {learnT.lessonTitles[slug] ?? slug}
+                    {learnT.header.title}
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/learn"
+                    className="text-sm text-[hsl(var(--primary))] hover:underline"
+                  >
+                    {t.relatedLinks.blogLabel}
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <p className="mb-2 text-sm font-medium text-[hsl(var(--muted-foreground))]">
+                {t.relatedLinks.caseArticlesTitle}
+              </p>
+              <ul className="space-y-1">
+                {CASE_ARTICLE_SLUGS.map((slug) => (
+                  <li key={slug}>
+                    <Link
+                      href={`/learn/articles/${slug}`}
+                      className="text-sm text-[hsl(var(--primary))] hover:underline"
+                    >
+                      {learnT.lessonTitles[slug] ?? slug}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+          <div className="mt-6">
+            <p className="mb-2 text-sm font-medium text-[hsl(var(--muted-foreground))]">
+              {t.relatedLinks.popularWordsTitle}
+            </p>
+            <ul className="flex flex-wrap gap-2">
+              {POPULAR_WORDS.map(({ slug, baseForm }) => (
+                <li key={slug}>
+                  <Link
+                    href={`/russian-declension/${slug}`}
+                    className="inline-flex rounded-lg border border-[hsl(var(--border))] px-3 py-1.5 text-sm text-[hsl(var(--foreground))] transition-colors hover:bg-[hsl(var(--muted))]"
+                    style={{ fontFamily: 'var(--font-cyrillic)' }}
+                    lang="ru"
+                  >
+                    {baseForm}
                   </Link>
                 </li>
               ))}
             </ul>
           </div>
-        </div>
-        <div className="mt-6">
-          <p className="mb-2 text-sm font-medium text-[hsl(var(--muted-foreground))]">
-            {t.relatedLinks.popularWordsTitle}
-          </p>
-          <ul className="flex flex-wrap gap-2">
-            {POPULAR_WORDS.map(({ slug, baseForm }) => (
-              <li key={slug}>
-                <Link
-                  href={`/russian-declension/${slug}`}
-                  className="inline-flex rounded-lg border border-[hsl(var(--border))] px-3 py-1.5 text-sm text-[hsl(var(--foreground))] transition-colors hover:bg-[hsl(var(--muted))]"
-                  style={{ fontFamily: 'var(--font-cyrillic)' }}
-                  lang="ru"
-                >
-                  {baseForm}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
-    </article>
+        </section>
+      </article>
+    </>
   );
 }

@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { getPracticeWords } from '@/lib/data';
 import PracticeClient from '@/components/practice/PracticeClient';
-import { PracticeHero } from '@/components/practice/PracticeHero';
+import { PageHero } from '@/components/PageHero';
 import { PracticeFAQ } from '@/components/practice/PracticeFAQ';
 import { getLandingLangFromRequest } from '@/lib/landingLangServer';
 import { getPracticeTranslations } from '@/data/website/practicePageTranslations';
@@ -212,12 +212,11 @@ export default async function PracticePage() {
         />
       ))}
 
-      <PracticeHero
+      <PageHero
         title={t.h1}
         subtitle={t.subtitle}
         breadcrumbAria={t.breadcrumbAria}
-        breadcrumbHome={t.breadcrumb.home}
-        breadcrumbPractice={t.breadcrumb.practice}
+        breadcrumb={[{ label: t.breadcrumb.home, href: '/' }, { label: t.breadcrumb.practice }]}
       />
 
       <PracticeClient words={words} />

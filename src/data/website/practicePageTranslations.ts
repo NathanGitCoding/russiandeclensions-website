@@ -17,6 +17,7 @@ export interface PracticeTranslations {
   subtitle: string;
   config: {
     title: string;
+    subtitle: string;
     casesLabel: string;
     gendersLabel: string;
     singular: string;
@@ -96,6 +97,7 @@ const en: PracticeTranslations = {
     'Test your knowledge of Russian noun cases with a customizable quiz. Select which cases and genders to practice, then answer 10 questions.',
   config: {
     title: 'Configure your quiz',
+    subtitle: 'Which cases do you want to practice today?',
     casesLabel: 'Cases',
     gendersLabel: 'Genders',
     singular: 'Singular',
@@ -227,6 +229,7 @@ const fr: PracticeTranslations = {
     'Testez vos connaissances des cas russes avec un quiz personnalisable. Sélectionnez les cas et les genres à pratiquer, puis répondez à 10 questions.',
   config: {
     title: 'Configurez votre quiz',
+    subtitle: 'Quels cas voulez-vous pratiquer aujourd’hui ?',
     casesLabel: 'Cas',
     gendersLabel: 'Genres',
     singular: 'Singulier',
@@ -358,6 +361,7 @@ const de: PracticeTranslations = {
     'Testen Sie Ihr Wissen über russische Fälle mit einem anpassbaren Quiz. Wählen Sie Fälle und Geschlechter, dann beantworten Sie 10 Fragen.',
   config: {
     title: 'Quiz konfigurieren',
+    subtitle: 'Welche Fälle möchtest du heute üben?',
     casesLabel: 'Fälle',
     gendersLabel: 'Geschlechter',
     singular: 'Singular',
@@ -489,6 +493,7 @@ const pl: PracticeTranslations = {
     'Sprawdź swoją wiedzę o rosyjskich przypadkach z konfigurowalnym quizem. Wybierz przypadki i rodzaje, a następnie odpowiedz na 10 pytań.',
   config: {
     title: 'Skonfiguruj quiz',
+    subtitle: 'Które przypadki chcesz dziś poćwiczyć?',
     casesLabel: 'Przypadki',
     gendersLabel: 'Rodzaje',
     singular: 'Liczba pojedyncza',
@@ -619,6 +624,7 @@ const tr: PracticeTranslations = {
     'Özelleştirilebilir bir quiz ile Rusça isim durumlarındaki bilginizi test edin. Durumları ve cinsiyetleri seçin, ardından 10 soruyu yanıtlayın.',
   config: {
     title: 'Quizi yapılandırın',
+    subtitle: 'Bugün hangi durumları çalışmak istiyorsun?',
     casesLabel: 'Durumlar',
     gendersLabel: 'Cinsiyetler',
     singular: 'Tekil',
@@ -750,6 +756,7 @@ const es: PracticeTranslations = {
     'Pon a prueba tus conocimientos de los casos rusos con un cuestionario personalizable. Selecciona qué casos y géneros practicar y responde 10 preguntas.',
   config: {
     title: 'Configura tu cuestionario',
+    subtitle: '¿Qué casos quieres practicar hoy?',
     casesLabel: 'Casos',
     gendersLabel: 'Géneros',
     singular: 'Singular',
@@ -881,6 +888,7 @@ const it: PracticeTranslations = {
     'Metti alla prova le tue conoscenze dei casi russi con un quiz personalizzabile. Seleziona quali casi e generi esercitare, poi rispondi a 10 domande.',
   config: {
     title: 'Configura il tuo quiz',
+    subtitle: 'Quali casi vuoi esercitare oggi?',
     casesLabel: 'Casi',
     gendersLabel: 'Generi',
     singular: 'Singolare',
@@ -1012,6 +1020,7 @@ const pt: PracticeTranslations = {
     'Testa os teus conhecimentos dos casos russos com um questionário personalizável. Seleciona quais casos e géneros praticar, depois responde a 10 perguntas.',
   config: {
     title: 'Configura o teu questionário',
+    subtitle: 'Que casos queres praticar hoje?',
     casesLabel: 'Casos',
     gendersLabel: 'Géneros',
     singular: 'Singular',
@@ -1143,6 +1152,7 @@ const nl: PracticeTranslations = {
     'Test je kennis van Russische naamwoordgevallen met een aanpasbare quiz. Selecteer welke gevallen en geslachten je wilt oefenen, beantwoord dan 10 vragen.',
   config: {
     title: 'Configureer je quiz',
+    subtitle: 'Welke naamvallen wil je vandaag oefenen?',
     casesLabel: 'Gevallen',
     gendersLabel: 'Geslachten',
     singular: 'Enkelvoud',
@@ -1274,6 +1284,7 @@ const ru: PracticeTranslations = {
     'Проверьте свои знания падежей русских существительных с помощью настраиваемого теста. Выберите падежи и рода, затем ответьте на 10 вопросов.',
   config: {
     title: 'Настройте тест',
+    subtitle: 'Какие падежи вы хотите потренировать сегодня?',
     casesLabel: 'Падежи',
     gendersLabel: 'Рода',
     singular: 'Единственное',

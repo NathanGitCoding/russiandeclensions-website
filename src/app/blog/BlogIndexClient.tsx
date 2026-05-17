@@ -7,6 +7,7 @@ import { useLandingLanguage } from '@/contexts/LandingLanguageContext';
 import { getLearnPageTranslations, ARTICLE_SLUGS } from '@/data/website/learnPageTranslations';
 import { getLandingTranslations } from '@/data/website/landingTranslations';
 import { getLearnCardImage } from '@/data/website/learnCardImages';
+import { PageHero } from '@/components/PageHero';
 
 export default function BlogIndexClient() {
   const { landingLanguage } = useLandingLanguage();
@@ -14,82 +15,78 @@ export default function BlogIndexClient() {
   const nav = getLandingTranslations(landingLanguage).navbar;
 
   return (
-    <article className="learn-content learn-content--wide">
-      <div className="learn-breadcrumb">
-        <Link href="/" className="learn-breadcrumb-link">
-          {t.breadcrumb.home}
-        </Link>
-        <span className="learn-breadcrumb-sep">/</span>
-        <span className="learn-breadcrumb-current">{nav.blog}</span>
-      </div>
+    <>
+      <PageHero
+        title={t.sections.articles}
+        subtitle={t.header.lead}
+        breadcrumbAria={t.sections.articles}
+        breadcrumb={[{ label: t.breadcrumb.home, href: '/' }, { label: nav.blog }]}
+      />
 
-      <header className="learn-header">
-        <h1 className="learn-title">{t.sections.articles}</h1>
-        <p className="learn-lead">{t.header.lead}</p>
-      </header>
-
-      <section className="learn-section">
-        <div
-          className="learn-featured-guide"
-          role="region"
-          aria-label={t.featuredTopAppsGuide.title}
-        >
-          <p className="learn-featured-guide-title">{t.featuredTopAppsGuide.title}</p>
-          <p className="learn-featured-guide-lead">{t.featuredTopAppsGuide.lead}</p>
-          <Link href="/learn/articles/top-10-apps-russian" className="learn-featured-guide-cta">
-            {t.featuredTopAppsGuide.cta}
-          </Link>
-        </div>
-        <div className="learn-grid">
-          {ARTICLE_SLUGS.map((slug) => {
-            const title = t.articleTitles[slug];
-            if (!title) return null;
-            return (
-              <Link key={slug} href={`/learn/articles/${slug}`} className="learn-grid-card">
-                <div className="learn-grid-thumb">
-                  <Image
-                    src={getLearnCardImage(slug)}
-                    alt={title}
-                    fill
-                    sizes="(max-width: 640px) 100vw, (max-width: 960px) 50vw, 33vw"
-                  />
-                </div>
-                <div className="learn-grid-body">
-                  <span className="learn-grid-badge learn-grid-badge-article">
-                    {t.badges.article}
-                  </span>
-                  <span className="learn-grid-title">{title}</span>
-                </div>
-              </Link>
-            );
-          })}
-        </div>
-      </section>
-
-      <section className="learn-section">
-        <h2 className="learn-section-title">{t.practiceQuiz.title}</h2>
-        <p className="learn-lead" style={{ marginBottom: '1rem' }}>
-          {t.practiceQuiz.lead}
-        </p>
-        <div style={{ textAlign: 'center' }}>
-          <Link
-            href="/practice"
-            className="learn-card"
-            style={{
-              display: 'inline-flex',
-              padding: '0.75rem 1.5rem',
-              background: 'linear-gradient(135deg, #4A90FF 0%, #0066FF 100%)',
-              color: 'white',
-              borderRadius: '0.75rem',
-              fontWeight: 600,
-            }}
+      <article className="learn-content learn-content--wide">
+        <section className="learn-section">
+          <div
+            className="learn-featured-guide"
+            role="region"
+            aria-label={t.featuredTopAppsGuide.title}
           >
-            <span className="learn-card-title" style={{ color: 'white' }}>
-              {t.practiceQuiz.cta}
-            </span>
-          </Link>
-        </div>
-      </section>
-    </article>
+            <p className="learn-featured-guide-title">{t.featuredTopAppsGuide.title}</p>
+            <p className="learn-featured-guide-lead">{t.featuredTopAppsGuide.lead}</p>
+            <Link href="/learn/articles/top-10-apps-russian" className="learn-featured-guide-cta">
+              {t.featuredTopAppsGuide.cta}
+            </Link>
+          </div>
+          <div className="learn-grid">
+            {ARTICLE_SLUGS.map((slug) => {
+              const title = t.articleTitles[slug];
+              if (!title) return null;
+              return (
+                <Link key={slug} href={`/learn/articles/${slug}`} className="learn-grid-card">
+                  <div className="learn-grid-thumb">
+                    <Image
+                      src={getLearnCardImage(slug)}
+                      alt={title}
+                      fill
+                      sizes="(max-width: 640px) 100vw, (max-width: 960px) 50vw, 33vw"
+                    />
+                  </div>
+                  <div className="learn-grid-body">
+                    <span className="learn-grid-badge learn-grid-badge-article">
+                      {t.badges.article}
+                    </span>
+                    <span className="learn-grid-title">{title}</span>
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+        </section>
+
+        <section className="learn-section">
+          <h2 className="learn-section-title">{t.practiceQuiz.title}</h2>
+          <p className="learn-lead" style={{ marginBottom: '1rem' }}>
+            {t.practiceQuiz.lead}
+          </p>
+          <div style={{ textAlign: 'center' }}>
+            <Link
+              href="/practice"
+              className="learn-card"
+              style={{
+                display: 'inline-flex',
+                padding: '0.75rem 1.5rem',
+                background: 'linear-gradient(135deg, #4A90FF 0%, #0066FF 100%)',
+                color: 'white',
+                borderRadius: '0.75rem',
+                fontWeight: 600,
+              }}
+            >
+              <span className="learn-card-title" style={{ color: 'white' }}>
+                {t.practiceQuiz.cta}
+              </span>
+            </Link>
+          </div>
+        </section>
+      </article>
+    </>
   );
 }
