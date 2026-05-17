@@ -1,10 +1,6 @@
 import React from 'react';
 import { getLandingLangFromRequest } from '@/lib/landingLangServer';
-import {
-  getLearnPageTranslations,
-  LESSON_SLUGS,
-  ARTICLE_SLUGS,
-} from '@/data/website/learnPageTranslations';
+import { getLearnPageTranslations, LESSON_SLUGS } from '@/data/website/learnPageTranslations';
 import LearnIndexClient from './LearnIndexClient';
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://russiandeclensions.com';
@@ -39,17 +35,6 @@ export default async function LearnIndexPage() {
         position: pos++,
         name: title,
         url: `${siteUrl}${href}`,
-      });
-    }
-  }
-  for (const slug of ARTICLE_SLUGS) {
-    const title = t.articleTitles[slug];
-    if (title) {
-      itemListElements.push({
-        '@type': 'ListItem',
-        position: pos++,
-        name: title,
-        url: `${siteUrl}/learn/articles/${slug}`,
       });
     }
   }

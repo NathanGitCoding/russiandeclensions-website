@@ -35,9 +35,8 @@ const nextConfig: NextConfig = {
       { source: '/landing-cases/', destination: '/', permanent: true },
       // Thin content — redirect to learn hub
       { source: '/blog/understanding-russian-cases', destination: '/learn', permanent: true },
-      // Blog index — all posts now live under /learn/articles
-      { source: '/blog', destination: '/learn', permanent: true },
-      // Deduplicate blog posts → learn articles (301)
+      // /blog is now a real index page (lists articles). Individual /blog/:slug
+      // legacy URLs still 301 to their canonical /learn/articles/:slug page.
       ...blogToArticleRedirects,
       // SEO keyword-rich aliases → practice quiz
       { source: '/russian-declension-quiz', destination: '/practice', permanent: true },

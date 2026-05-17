@@ -33,13 +33,37 @@ export interface LandingTranslations {
   };
   navbar: {
     brand: string;
-    declinaisons: string;
     home: string;
-    features: string;
-    about: string;
+    freeResources: string;
     learn: string;
+    declinaisons: string;
+    blog: string;
+    freeEbook: string;
     practice: string;
     getApp: string;
+    menuOpen: string;
+    menuClose: string;
+  };
+  freeEbookPage: {
+    metadataTitle: string;
+    metadataDescription: string;
+    badge: string;
+    title: string;
+    subtitle: string;
+    bullets: string[];
+    emailLabel: string;
+    emailPlaceholder: string;
+    marketingConsent: string;
+    cta: string;
+    submitting: string;
+    successTitle: string;
+    successMessage: string;
+    successDownload: string;
+    errorEmailRequired: string;
+    errorEmailInvalid: string;
+    errorConsentRequired: string;
+    errorGeneric: string;
+    errorAlreadyRegistered: string;
   };
   hero: {
     tagline: string;
@@ -930,13 +954,46 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     },
     navbar: {
       brand: 'Russian Cases with Anna®',
+      home: 'Mobile app',
+      freeResources: 'Free resources',
+      learn: 'Grammar lessons',
       declinaisons: 'Declension tables',
-      home: 'App',
-      features: 'Features',
-      about: 'About',
-      learn: 'Free Grammar Lessons',
-      practice: 'Practice',
+      blog: 'Blog',
+      freeEbook: 'Free ebook',
+      practice: 'Interactive quizzes',
       getApp: 'Get the app for free',
+      menuOpen: 'Open menu',
+      menuClose: 'Close menu',
+    },
+    freeEbookPage: {
+      metadataTitle: 'Free Russian ebook — Russian Cases with Anna®',
+      metadataDescription:
+        'Download our free Russian ebook to master Russian cases and declensions. Sent straight to your inbox.',
+      badge: 'Free download',
+      title: 'Your free Russian ebook',
+      subtitle:
+        'A practical guide to help you master Russian cases — the perfect companion to the app.',
+      bullets: [
+        'A clear, printable overview of all 6 Russian cases',
+        'When to use each case, with real-world examples',
+        'Common mistakes English speakers make (and how to avoid them)',
+        'A daily routine to anchor the cases in your memory',
+      ],
+      emailLabel: 'Your email address',
+      emailPlaceholder: 'you@example.com',
+      marketingConsent:
+        'I agree to receive the ebook and occasional emails about Russian Cases with Anna®. I can unsubscribe at any time.',
+      cta: 'Send me the ebook',
+      submitting: 'Sending…',
+      successTitle: 'Check your inbox!',
+      successMessage:
+        'Your ebook is on its way. In the meantime, you can download it right now using the button below.',
+      successDownload: 'Download the ebook',
+      errorEmailRequired: 'Please enter your email address.',
+      errorEmailInvalid: 'This email address looks invalid.',
+      errorConsentRequired: 'Please accept to receive the ebook.',
+      errorGeneric: 'Something went wrong. Please try again in a moment.',
+      errorAlreadyRegistered: 'This email is already registered. Check your inbox or spam folder.',
     },
     hero: {
       tagline: 'Russian Cases with Anna®',
@@ -994,13 +1051,47 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     },
     navbar: {
       brand: 'Russian Cases with Anna®',
+      home: 'App mobile',
+      freeResources: 'Ressources gratuites',
+      learn: 'Leçons de grammaire',
       declinaisons: 'Tables de déclinaisons',
-      home: 'App',
-      features: 'Fonctionnalités',
-      about: 'À propos',
-      learn: 'Leçons de grammaire gratuites',
-      practice: 'Entraînement',
+      blog: 'Blog',
+      freeEbook: 'Ebook gratuit',
+      practice: 'Quiz interactifs',
       getApp: "Obtenez l'app gratuitement",
+      menuOpen: 'Ouvrir le menu',
+      menuClose: 'Fermer le menu',
+    },
+    freeEbookPage: {
+      metadataTitle: 'Ebook russe gratuit — Russian Cases with Anna®',
+      metadataDescription:
+        'Téléchargez notre ebook russe gratuit pour maîtriser les cas et les déclinaisons. Envoyé directement dans votre boîte mail.',
+      badge: 'Téléchargement gratuit',
+      title: 'Votre ebook russe gratuit',
+      subtitle:
+        'Un guide pratique pour vous aider à maîtriser les cas russes — le complément parfait de l’app.',
+      bullets: [
+        'Un récapitulatif clair et imprimable des 6 cas russes',
+        'Quand utiliser chaque cas, avec des exemples concrets',
+        'Les erreurs typiques des francophones (et comment les éviter)',
+        'Une routine quotidienne pour ancrer les cas dans votre mémoire',
+      ],
+      emailLabel: 'Votre adresse email',
+      emailPlaceholder: 'vous@exemple.com',
+      marketingConsent:
+        "J'accepte de recevoir l'ebook et des emails occasionnels au sujet de Russian Cases with Anna®. Je peux me désinscrire à tout moment.",
+      cta: "Envoyez-moi l'ebook",
+      submitting: 'Envoi en cours…',
+      successTitle: 'Vérifiez votre boîte mail !',
+      successMessage:
+        'Votre ebook arrive. En attendant, vous pouvez le télécharger directement via le bouton ci-dessous.',
+      successDownload: "Télécharger l'ebook",
+      errorEmailRequired: 'Veuillez saisir votre adresse email.',
+      errorEmailInvalid: 'Cette adresse email semble invalide.',
+      errorConsentRequired: "Veuillez accepter pour recevoir l'ebook.",
+      errorGeneric: 'Une erreur est survenue. Veuillez réessayer dans un instant.',
+      errorAlreadyRegistered:
+        'Cet email est déjà inscrit. Vérifiez votre boîte de réception ou vos spams.',
     },
     hero: {
       tagline: 'Russian Cases with Anna®',
@@ -1058,13 +1149,47 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     },
     navbar: {
       brand: 'Russian Cases with Anna®',
+      home: 'Mobil uygulama',
+      freeResources: 'Ücretsiz kaynaklar',
+      learn: 'Gramer dersleri',
       declinaisons: 'Çekim tabloları',
-      home: 'App',
-      features: 'Özellikler',
-      about: 'Hakkında',
-      learn: 'Ücretsiz Gramer Dersleri',
-      practice: 'Alıştırma',
+      blog: 'Blog',
+      freeEbook: 'Ücretsiz e-kitap',
+      practice: 'Etkileşimli testler',
       getApp: 'Uygulamayı ücretsiz indirin',
+      menuOpen: 'Menüyü aç',
+      menuClose: 'Menüyü kapat',
+    },
+    freeEbookPage: {
+      metadataTitle: 'Ücretsiz Rusça e-kitap — Russian Cases with Anna®',
+      metadataDescription:
+        'Rusça hâlleri ve çekimlerinde ustalaşmak için ücretsiz e-kitabımızı indirin. Doğrudan e-posta kutunuza gönderilir.',
+      badge: 'Ücretsiz indirme',
+      title: 'Ücretsiz Rusça e-kitabınız',
+      subtitle:
+        'Rusça hâllerinde ustalaşmanıza yardımcı olacak pratik bir rehber — uygulamanın mükemmel tamamlayıcısı.',
+      bullets: [
+        '6 Rusça hâlinin net, yazdırılabilir bir özeti',
+        'Her hâli ne zaman kullanmalı, gerçek hayattan örneklerle',
+        'İngilizce konuşanların yaptığı yaygın hatalar (ve nasıl önleneceği)',
+        'Hâlleri belleğinize yerleştirecek günlük bir rutin',
+      ],
+      emailLabel: 'E-posta adresiniz',
+      emailPlaceholder: 'siz@ornek.com',
+      marketingConsent:
+        'E-kitabı ve Russian Cases with Anna® hakkında ara sıra e-posta almayı kabul ediyorum. İstediğim zaman aboneliğimi iptal edebilirim.',
+      cta: 'E-kitabı bana gönder',
+      submitting: 'Gönderiliyor…',
+      successTitle: 'E-posta kutunuzu kontrol edin!',
+      successMessage:
+        'E-kitabınız yolda. Bu arada, aşağıdaki düğmeyi kullanarak hemen indirebilirsiniz.',
+      successDownload: 'E-kitabı indir',
+      errorEmailRequired: 'Lütfen e-posta adresinizi girin.',
+      errorEmailInvalid: 'Bu e-posta adresi geçersiz görünüyor.',
+      errorConsentRequired: 'E-kitabı almak için lütfen onay verin.',
+      errorGeneric: 'Bir şeyler ters gitti. Lütfen biraz sonra tekrar deneyin.',
+      errorAlreadyRegistered:
+        'Bu e-posta zaten kayıtlı. Gelen kutunuzu veya spam klasörünüzü kontrol edin.',
     },
     hero: {
       tagline: 'Russian Cases with Anna®',
@@ -1122,13 +1247,47 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     },
     navbar: {
       brand: 'Russian Cases with Anna®',
+      home: 'Mobile App',
+      freeResources: 'Kostenlose Ressourcen',
+      learn: 'Grammatik-Lektionen',
       declinaisons: 'Deklinationstabellen',
-      home: 'App',
-      features: 'Funktionen',
-      about: 'Über uns',
-      learn: 'Kostenlose Grammatik-Lektionen',
-      practice: 'Übung',
+      blog: 'Blog',
+      freeEbook: 'Kostenloses E-Book',
+      practice: 'Interaktive Quizze',
       getApp: 'App kostenlos herunterladen',
+      menuOpen: 'Menü öffnen',
+      menuClose: 'Menü schließen',
+    },
+    freeEbookPage: {
+      metadataTitle: 'Kostenloses Russisch-E-Book — Russian Cases with Anna®',
+      metadataDescription:
+        'Lade unser kostenloses Russisch-E-Book herunter, um die russischen Fälle und Deklinationen zu meistern. Direkt in dein Postfach.',
+      badge: 'Kostenloser Download',
+      title: 'Dein kostenloses Russisch-E-Book',
+      subtitle:
+        'Ein praktischer Leitfaden, der dir hilft, die russischen Fälle zu meistern — die perfekte Ergänzung zur App.',
+      bullets: [
+        'Eine klare, druckbare Übersicht aller 6 russischen Fälle',
+        'Wann welcher Fall verwendet wird, mit Beispielen aus dem Alltag',
+        'Typische Fehler deutschsprachiger Lernender (und wie man sie vermeidet)',
+        'Eine tägliche Routine, um die Fälle im Gedächtnis zu verankern',
+      ],
+      emailLabel: 'Deine E-Mail-Adresse',
+      emailPlaceholder: 'du@beispiel.de',
+      marketingConsent:
+        'Ich stimme zu, das E-Book und gelegentliche E-Mails über Russian Cases with Anna® zu erhalten. Ich kann mich jederzeit abmelden.',
+      cta: 'Schick mir das E-Book',
+      submitting: 'Wird gesendet…',
+      successTitle: 'Schau in dein Postfach!',
+      successMessage:
+        'Dein E-Book ist unterwegs. Du kannst es in der Zwischenzeit direkt über den Button unten herunterladen.',
+      successDownload: 'E-Book herunterladen',
+      errorEmailRequired: 'Bitte gib deine E-Mail-Adresse ein.',
+      errorEmailInvalid: 'Diese E-Mail-Adresse scheint ungültig zu sein.',
+      errorConsentRequired: 'Bitte stimme zu, um das E-Book zu erhalten.',
+      errorGeneric: 'Etwas ist schiefgelaufen. Bitte versuche es gleich noch einmal.',
+      errorAlreadyRegistered:
+        'Diese E-Mail ist bereits registriert. Bitte schau in dein Postfach oder deinen Spam-Ordner.',
     },
     hero: {
       tagline: 'Russian Cases with Anna®',
@@ -1186,13 +1345,46 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     },
     navbar: {
       brand: 'Russian Cases with Anna®',
+      home: 'Aplikacja mobilna',
+      freeResources: 'Darmowe zasoby',
+      learn: 'Lekcje gramatyki',
       declinaisons: 'Tabele odmian',
-      home: 'App',
-      features: 'Funkcje',
-      about: 'O nas',
-      learn: 'Darmowe lekcje gramatyki',
-      practice: 'Ćwiczenia',
+      blog: 'Blog',
+      freeEbook: 'Darmowy ebook',
+      practice: 'Interaktywne quizy',
       getApp: 'Pobierz aplikację za darmo',
+      menuOpen: 'Otwórz menu',
+      menuClose: 'Zamknij menu',
+    },
+    freeEbookPage: {
+      metadataTitle: 'Darmowy ebook o rosyjskim — Russian Cases with Anna®',
+      metadataDescription:
+        'Pobierz nasz darmowy ebook, aby opanować rosyjskie przypadki i odmiany. Wysyłany prosto na Twoją skrzynkę.',
+      badge: 'Darmowe pobranie',
+      title: 'Twój darmowy ebook o rosyjskim',
+      subtitle:
+        'Praktyczny przewodnik, który pomoże Ci opanować rosyjskie przypadki — idealne uzupełnienie aplikacji.',
+      bullets: [
+        'Przejrzyste, gotowe do druku zestawienie 6 rosyjskich przypadków',
+        'Kiedy stosować każdy przypadek, z przykładami z życia',
+        'Typowe błędy uczących się (i jak ich unikać)',
+        'Codzienna rutyna, która utrwali przypadki w Twojej pamięci',
+      ],
+      emailLabel: 'Twój adres e-mail',
+      emailPlaceholder: 'ty@przyklad.pl',
+      marketingConsent:
+        'Zgadzam się otrzymać ebook oraz okazjonalne wiadomości o Russian Cases with Anna®. Mogę zrezygnować w każdej chwili.',
+      cta: 'Wyślij mi ebook',
+      submitting: 'Wysyłanie…',
+      successTitle: 'Sprawdź swoją skrzynkę!',
+      successMessage:
+        'Twój ebook jest w drodze. W międzyczasie możesz pobrać go bezpośrednio przyciskiem poniżej.',
+      successDownload: 'Pobierz ebook',
+      errorEmailRequired: 'Podaj swój adres e-mail.',
+      errorEmailInvalid: 'Ten adres e-mail wygląda na nieprawidłowy.',
+      errorConsentRequired: 'Zaakceptuj, aby otrzymać ebook.',
+      errorGeneric: 'Coś poszło nie tak. Spróbuj ponownie za chwilę.',
+      errorAlreadyRegistered: 'Ten e-mail jest już zapisany. Sprawdź skrzynkę lub folder spam.',
     },
     hero: {
       tagline: 'Russian Cases with Anna®',
@@ -1250,13 +1442,47 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     },
     navbar: {
       brand: 'Russian Cases with Anna®',
+      home: 'App móvil',
+      freeResources: 'Recursos gratis',
+      learn: 'Lecciones de gramática',
       declinaisons: 'Tablas de declinación',
-      home: 'App',
-      features: 'Funcionalidades',
-      about: 'Sobre nosotros',
-      learn: 'Lecciones de gramática gratis',
-      practice: 'Práctica',
+      blog: 'Blog',
+      freeEbook: 'Ebook gratis',
+      practice: 'Cuestionarios interactivos',
       getApp: 'Descarga la app gratis',
+      menuOpen: 'Abrir menú',
+      menuClose: 'Cerrar menú',
+    },
+    freeEbookPage: {
+      metadataTitle: 'Ebook gratuito de ruso — Russian Cases with Anna®',
+      metadataDescription:
+        'Descarga nuestro ebook gratuito para dominar los casos y declinaciones del ruso. Te lo enviamos directamente a tu correo.',
+      badge: 'Descarga gratuita',
+      title: 'Tu ebook gratuito de ruso',
+      subtitle:
+        'Una guía práctica que te ayudará a dominar los casos rusos — el complemento ideal de la app.',
+      bullets: [
+        'Un resumen claro e imprimible de los 6 casos rusos',
+        'Cuándo usar cada caso, con ejemplos reales',
+        'Errores típicos de los hispanohablantes (y cómo evitarlos)',
+        'Una rutina diaria para fijar los casos en tu memoria',
+      ],
+      emailLabel: 'Tu dirección de correo',
+      emailPlaceholder: 'tu@ejemplo.com',
+      marketingConsent:
+        'Acepto recibir el ebook y correos ocasionales sobre Russian Cases with Anna®. Puedo darme de baja cuando quiera.',
+      cta: 'Envíame el ebook',
+      submitting: 'Enviando…',
+      successTitle: '¡Revisa tu bandeja de entrada!',
+      successMessage:
+        'Tu ebook está en camino. Mientras tanto, puedes descargarlo directamente con el botón de abajo.',
+      successDownload: 'Descargar el ebook',
+      errorEmailRequired: 'Por favor, introduce tu correo.',
+      errorEmailInvalid: 'Este correo no parece válido.',
+      errorConsentRequired: 'Acepta para recibir el ebook.',
+      errorGeneric: 'Algo ha salido mal. Vuelve a intentarlo en un momento.',
+      errorAlreadyRegistered:
+        'Este correo ya está registrado. Revisa tu bandeja de entrada o spam.',
     },
     hero: {
       tagline: 'Russian Cases with Anna®',
@@ -1314,13 +1540,47 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     },
     navbar: {
       brand: 'Russian Cases with Anna®',
+      home: 'App mobile',
+      freeResources: 'Risorse gratuite',
+      learn: 'Lezioni di grammatica',
       declinaisons: 'Tabelle di declinazione',
-      home: 'App',
-      features: 'Funzionalità',
-      about: 'Chi siamo',
-      learn: 'Lezioni di grammatica gratuite',
-      practice: 'Esercizi',
+      blog: 'Blog',
+      freeEbook: 'Ebook gratuito',
+      practice: 'Quiz interattivi',
       getApp: "Scarica l'app gratuitamente",
+      menuOpen: 'Apri il menu',
+      menuClose: 'Chiudi il menu',
+    },
+    freeEbookPage: {
+      metadataTitle: 'Ebook russo gratuito — Russian Cases with Anna®',
+      metadataDescription:
+        'Scarica il nostro ebook gratuito per padroneggiare i casi e le declinazioni russe. Ricevilo direttamente nella tua casella email.',
+      badge: 'Download gratuito',
+      title: 'Il tuo ebook russo gratuito',
+      subtitle:
+        'Una guida pratica per aiutarti a padroneggiare i casi russi — il complemento perfetto dell’app.',
+      bullets: [
+        'Un riepilogo chiaro e stampabile dei 6 casi russi',
+        'Quando usare ogni caso, con esempi concreti',
+        'Gli errori tipici di chi parla italiano (e come evitarli)',
+        'Una routine quotidiana per fissare i casi nella memoria',
+      ],
+      emailLabel: 'Il tuo indirizzo email',
+      emailPlaceholder: 'tu@esempio.com',
+      marketingConsent:
+        "Accetto di ricevere l'ebook ed email occasionali su Russian Cases with Anna®. Posso disiscrivermi in qualsiasi momento.",
+      cta: "Inviami l'ebook",
+      submitting: 'Invio in corso…',
+      successTitle: 'Controlla la tua casella!',
+      successMessage:
+        'Il tuo ebook è in arrivo. Nel frattempo, puoi scaricarlo direttamente con il pulsante qui sotto.',
+      successDownload: "Scarica l'ebook",
+      errorEmailRequired: 'Inserisci il tuo indirizzo email.',
+      errorEmailInvalid: 'Questo indirizzo email non sembra valido.',
+      errorConsentRequired: "Accetta per ricevere l'ebook.",
+      errorGeneric: 'Qualcosa è andato storto. Riprova tra poco.',
+      errorAlreadyRegistered:
+        'Questa email è già registrata. Controlla la posta in arrivo o lo spam.',
     },
     hero: {
       tagline: 'Russian Cases with Anna®',
@@ -1378,13 +1638,47 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     },
     navbar: {
       brand: 'Russian Cases with Anna®',
+      home: 'App móvel',
+      freeResources: 'Recursos grátis',
+      learn: 'Lições de gramática',
       declinaisons: 'Tabelas de declinação',
-      home: 'App',
-      features: 'Funcionalidades',
-      about: 'Sobre nós',
-      learn: 'Lições de gramática grátis',
-      practice: 'Prática',
+      blog: 'Blog',
+      freeEbook: 'Ebook grátis',
+      practice: 'Quizzes interativos',
       getApp: 'Descarrega a app grátis',
+      menuOpen: 'Abrir menu',
+      menuClose: 'Fechar menu',
+    },
+    freeEbookPage: {
+      metadataTitle: 'Ebook de russo grátis — Russian Cases with Anna®',
+      metadataDescription:
+        'Descarrega o nosso ebook grátis para dominar os casos e declinações do russo. Enviado diretamente para a tua caixa de entrada.',
+      badge: 'Download gratuito',
+      title: 'O teu ebook de russo grátis',
+      subtitle:
+        'Um guia prático para te ajudar a dominar os casos russos — o complemento perfeito da app.',
+      bullets: [
+        'Um resumo claro e imprimível dos 6 casos russos',
+        'Quando usar cada caso, com exemplos reais',
+        'Erros típicos de quem fala português (e como evitá-los)',
+        'Uma rotina diária para fixar os casos na tua memória',
+      ],
+      emailLabel: 'O teu email',
+      emailPlaceholder: 'tu@exemplo.com',
+      marketingConsent:
+        'Aceito receber o ebook e emails ocasionais sobre Russian Cases with Anna®. Posso cancelar a subscrição a qualquer momento.',
+      cta: 'Envia-me o ebook',
+      submitting: 'A enviar…',
+      successTitle: 'Verifica a tua caixa de entrada!',
+      successMessage:
+        'O teu ebook está a caminho. Entretanto, podes descarregá-lo diretamente com o botão abaixo.',
+      successDownload: 'Descarregar o ebook',
+      errorEmailRequired: 'Indica o teu email.',
+      errorEmailInvalid: 'Este email parece inválido.',
+      errorConsentRequired: 'Aceita para receber o ebook.',
+      errorGeneric: 'Algo correu mal. Tenta novamente daqui a pouco.',
+      errorAlreadyRegistered:
+        'Este email já está registado. Verifica a caixa de entrada ou o spam.',
     },
     hero: {
       tagline: 'Russian Cases with Anna®',
@@ -1441,13 +1735,46 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     },
     navbar: {
       brand: 'Russian Cases with Anna®',
+      home: 'Mobiele app',
+      freeResources: 'Gratis bronnen',
+      learn: 'Grammatica-lessen',
       declinaisons: 'Verbuigingstabellen',
-      home: 'App',
-      features: 'Functies',
-      about: 'Over ons',
-      learn: 'Gratis grammatica-lessen',
-      practice: 'Oefenen',
+      blog: 'Blog',
+      freeEbook: 'Gratis e-book',
+      practice: 'Interactieve quizzen',
       getApp: 'Download de app gratis',
+      menuOpen: 'Menu openen',
+      menuClose: 'Menu sluiten',
+    },
+    freeEbookPage: {
+      metadataTitle: 'Gratis Russisch e-book — Russian Cases with Anna®',
+      metadataDescription:
+        'Download ons gratis Russisch e-book om de Russische naamvallen en verbuigingen te beheersen. Direct in je inbox.',
+      badge: 'Gratis download',
+      title: 'Jouw gratis Russisch e-book',
+      subtitle:
+        'Een praktische gids om de Russische naamvallen te beheersen — het perfecte complement van de app.',
+      bullets: [
+        'Een helder, afdrukbaar overzicht van alle 6 Russische naamvallen',
+        'Wanneer je elke naamval gebruikt, met praktijkvoorbeelden',
+        'Typische fouten van Nederlandstaligen (en hoe je ze vermijdt)',
+        'Een dagelijkse routine om de naamvallen in je geheugen te verankeren',
+      ],
+      emailLabel: 'Je e-mailadres',
+      emailPlaceholder: 'jij@voorbeeld.com',
+      marketingConsent:
+        'Ik ga ermee akkoord het e-book en af en toe e-mails over Russian Cases with Anna® te ontvangen. Ik kan me op elk moment uitschrijven.',
+      cta: 'Stuur me het e-book',
+      submitting: 'Bezig met verzenden…',
+      successTitle: 'Controleer je inbox!',
+      successMessage:
+        'Je e-book is onderweg. In de tussentijd kun je het direct downloaden met de knop hieronder.',
+      successDownload: 'Download het e-book',
+      errorEmailRequired: 'Vul je e-mailadres in.',
+      errorEmailInvalid: 'Dit e-mailadres lijkt ongeldig.',
+      errorConsentRequired: 'Accepteer om het e-book te ontvangen.',
+      errorGeneric: 'Er ging iets mis. Probeer het zo opnieuw.',
+      errorAlreadyRegistered: 'Dit e-mailadres is al geregistreerd. Bekijk je inbox of spamfolder.',
     },
     hero: {
       tagline: 'Russian Cases with Anna®',
@@ -1505,13 +1832,46 @@ const translations: Record<LandingLanguage, LandingTranslations> = {
     },
     navbar: {
       brand: 'Russian Cases with Anna®',
+      home: 'Мобильное приложение',
+      freeResources: 'Бесплатные ресурсы',
+      learn: 'Уроки грамматики',
       declinaisons: 'Таблицы склонений',
-      home: 'App',
-      features: 'Функции',
-      about: 'О нас',
-      learn: 'Бесплатные уроки грамматики',
-      practice: 'Практика',
+      blog: 'Блог',
+      freeEbook: 'Бесплатная электронная книга',
+      practice: 'Интерактивные тесты',
       getApp: 'Скачать приложение бесплатно',
+      menuOpen: 'Открыть меню',
+      menuClose: 'Закрыть меню',
+    },
+    freeEbookPage: {
+      metadataTitle: 'Бесплатная электронная книга — Russian Cases with Anna®',
+      metadataDescription:
+        'Скачайте нашу бесплатную электронную книгу, чтобы освоить русские падежи и склонения. Отправим прямо на вашу почту.',
+      badge: 'Бесплатное скачивание',
+      title: 'Ваша бесплатная электронная книга',
+      subtitle:
+        'Практическое руководство, которое поможет освоить русские падежи — идеальное дополнение к приложению.',
+      bullets: [
+        'Ясный, готовый к печати обзор всех 6 русских падежей',
+        'Когда использовать каждый падеж, с реальными примерами',
+        'Типичные ошибки учащихся (и как их избежать)',
+        'Ежедневный план, чтобы закрепить падежи в памяти',
+      ],
+      emailLabel: 'Ваш адрес электронной почты',
+      emailPlaceholder: 'vy@primer.com',
+      marketingConsent:
+        'Я согласен получать электронную книгу и периодические письма о Russian Cases with Anna®. Могу отписаться в любой момент.',
+      cta: 'Отправить мне книгу',
+      submitting: 'Отправка…',
+      successTitle: 'Проверьте свою почту!',
+      successMessage: 'Ваша книга уже в пути. А пока вы можете скачать её сразу по кнопке ниже.',
+      successDownload: 'Скачать книгу',
+      errorEmailRequired: 'Пожалуйста, введите ваш email.',
+      errorEmailInvalid: 'Этот email выглядит некорректно.',
+      errorConsentRequired: 'Пожалуйста, согласитесь, чтобы получить книгу.',
+      errorGeneric: 'Что-то пошло не так. Попробуйте ещё раз через минуту.',
+      errorAlreadyRegistered:
+        'Этот email уже зарегистрирован. Проверьте папку «Входящие» или «Спам».',
     },
     hero: {
       tagline: 'Russian Cases with Anna®',

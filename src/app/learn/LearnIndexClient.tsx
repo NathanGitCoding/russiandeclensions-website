@@ -3,11 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { useLandingLanguage } from '@/contexts/LandingLanguageContext';
-import {
-  getLearnPageTranslations,
-  LESSON_SLUGS,
-  ARTICLE_SLUGS,
-} from '@/data/website/learnPageTranslations';
+import { getLearnPageTranslations, LESSON_SLUGS } from '@/data/website/learnPageTranslations';
 
 const POPULAR_DECLENSIONS = [
   { slug: 'chelovek', label: 'человек (person)' },
@@ -78,36 +74,6 @@ export default function LearnIndexClient() {
                 className="learn-card"
               >
                 <span className="learn-card-badge">{t.badges.lesson}</span>
-                <span className="learn-card-title">{title}</span>
-                <span className="learn-card-arrow">→</span>
-              </Link>
-            );
-          })}
-        </div>
-      </section>
-
-      <section id="learn-articles-section" className="learn-section">
-        <h2 className="learn-section-title">{t.sections.articles}</h2>
-        <div
-          className="learn-featured-guide"
-          role="region"
-          aria-label={t.featuredTopAppsGuide.title}
-        >
-          <p className="learn-featured-guide-title">{t.featuredTopAppsGuide.title}</p>
-          <p className="learn-featured-guide-lead">{t.featuredTopAppsGuide.lead}</p>
-          <Link href="/learn/articles/top-10-apps-russian" className="learn-featured-guide-cta">
-            {t.featuredTopAppsGuide.cta}
-          </Link>
-        </div>
-        <div className="learn-cards">
-          {ARTICLE_SLUGS.map((slug) => {
-            const title = t.articleTitles[slug];
-            if (!title) return null;
-            return (
-              <Link key={slug} href={`/learn/articles/${slug}`} className="learn-card">
-                <span className="learn-card-badge learn-card-badge-article">
-                  {t.badges.article}
-                </span>
                 <span className="learn-card-title">{title}</span>
                 <span className="learn-card-arrow">→</span>
               </Link>
