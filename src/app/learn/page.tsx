@@ -1,4 +1,5 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import { getLandingLangFromRequest } from '@/lib/landingLangServer';
 import { getLearnPageTranslations, LESSON_SLUGS } from '@/data/website/learnPageTranslations';
 import { getLearnArticlePublishedDate } from '@/data/learnArticles';
@@ -6,6 +7,28 @@ import { getLearnLessonPublishedDate } from '@/data/learnLessons';
 import LearnIndexClient from './LearnIndexClient';
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://russiandeclensions.com';
+
+const learnDescription =
+  'Free Russian grammar lessons and articles: all 6 cases, declension rules, endings cheat sheets, and step-by-step guides for every Russian case.';
+
+export const metadata: Metadata = {
+  title: 'Learn Russian Grammar & Cases',
+  description: learnDescription,
+  alternates: { canonical: '/learn' },
+  openGraph: {
+    type: 'website',
+    url: '/learn',
+    title: 'Learn Russian Grammar & Cases',
+    description: learnDescription,
+    images: [{ url: '/landing-cases/icon-app-russian-cases-with-anna.webp', width: 1200, height: 1200 }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Learn Russian Grammar & Cases',
+    description: learnDescription,
+    images: ['/landing-cases/icon-app-russian-cases-with-anna.webp'],
+  },
+};
 
 /** Path pour chaque slug de leçon: 'articles' | 'lessons' */
 const LESSON_PATH_MAP: Record<string, 'articles' | 'lessons'> = {

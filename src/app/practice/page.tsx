@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { getPracticeWords } from '@/lib/data';
 import PracticeClient from '@/components/practice/PracticeClient';
 import { PageHero } from '@/components/PageHero';
@@ -89,6 +90,28 @@ const LANG_TO_BCP47: Record<LandingLanguage, string> = {
   pt_pt: 'pt',
   nl_nl: 'nl',
   ru_ru: 'ru',
+};
+
+const practiceDescription =
+  'Free interactive Russian declension quiz. Practice all 6 cases with 400+ nouns across genders and get instant feedback — from nominative to prepositional.';
+
+export const metadata: Metadata = {
+  title: 'Russian Cases Practice Quiz',
+  description: practiceDescription,
+  alternates: { canonical: '/practice' },
+  openGraph: {
+    type: 'website',
+    url: '/practice',
+    title: 'Russian Cases Practice Quiz',
+    description: practiceDescription,
+    images: [{ url: '/landing-cases/icon-app-russian-cases-with-anna.webp', width: 1200, height: 1200 }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Russian Cases Practice Quiz',
+    description: practiceDescription,
+    images: ['/landing-cases/icon-app-russian-cases-with-anna.webp'],
+  },
 };
 
 export default async function PracticePage() {
