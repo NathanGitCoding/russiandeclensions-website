@@ -80,7 +80,7 @@ export default function PracticeClient({ words, initialConfig }: Props) {
   }, []);
 
   return (
-    <section className="container mx-auto -mt-6 px-4 pb-8 sm:px-6 sm:pb-12">
+    <section className="container mx-auto -mt-2 px-4 pb-8 sm:px-6 sm:pb-12">
       {screen === 'config' && (
         <PracticeConfig
           config={config}

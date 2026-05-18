@@ -298,9 +298,15 @@ export const russianVerbsOfMotionRu: LearnArticle = {
     'Готовы отработать падежи, которые управляются глаголами движения? Бесплатный интерактивный тест на russiandeclensions.com/practice позволяет практиковать винительный, дательный и предложный падежи с мгновенной обратной связью.',
   internalLinks: [
     { href: '/practice', label: 'Бесплатная викторина по склонениям — практика всех 6 падежей' },
-    { href: '/learn/articles/russian-accusative-case', label: 'Руководство по винительному падежу' },
+    {
+      href: '/learn/articles/russian-accusative-case',
+      label: 'Руководство по винительному падежу',
+    },
     { href: '/learn/articles/russian-dative-case', label: 'Руководство по дательному падежу' },
-    { href: '/learn/articles/russian-prepositional-case', label: 'Руководство по предложному падежу' },
+    {
+      href: '/learn/articles/russian-prepositional-case',
+      label: 'Руководство по предложному падежу',
+    },
     {
       href: '/learn/articles/russian-prepositions-and-cases',
       label: 'Предлоги и падежи русского языка: полный справочник',
@@ -315,7 +321,8 @@ export const russianVerbsOfMotionRu: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'Глаголы движения в русском языке: полное руководство по идти, ходить, ехать и ездить',
+    headline:
+      'Глаголы движения в русском языке: полное руководство по идти, ходить, ехать и ездить',
     description:
       'Глаголы движения: идти/ходить vs. ехать/ездить, противопоставление однонаправленности и разнонаправленности, глаголы с приставками и управляемые ими падежи.',
     datePublished: '2026-05-18',

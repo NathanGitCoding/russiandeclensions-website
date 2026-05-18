@@ -166,7 +166,8 @@ export const russianVerbsOfMotionPt: LearnArticle = {
         },
         {
           h3: 'Os Prefixos Mais Comuns',
-          content: 'Aqui estão os prefixos principais que você vai encontrar no dia a dia, com seus significados:',
+          content:
+            'Aqui estão os prefixos principais que você vai encontrar no dia a dia, com seus significados:',
           table: {
             headers: ['Prefixo', 'Significado', 'Exemplo (a pé)', 'Exemplo (em veículo)'],
             rows: [
@@ -175,7 +176,12 @@ export const russianVerbsOfMotionPt: LearnArticle = {
               ['вы-', 'saída', 'выходить (sair)', 'выезжать (sair de carro)'],
               ['в-/вой-', 'entrada', 'входить (entrar)', 'въезжать (entrar de carro)'],
               ['пере-', 'travessia', 'переходить (atravessar)', 'переезжать (mudar/atravessar)'],
-              ['под-', 'aproximação', 'подходить (aproximar-se)', 'подъезжать (aproximar-se de veículo)'],
+              [
+                'под-',
+                'aproximação',
+                'подходить (aproximar-se)',
+                'подъезжать (aproximar-se de veículo)',
+              ],
               ['от-', 'afastamento', 'отходить (afastar-se)', 'отъезжать (afastar-se de carro)'],
               ['за-', 'parar por', 'заходить (passar por)', 'заезжать (passar de carro)'],
               ['до-', 'alcançar', 'доходить (alcançar)', 'доезжать (chegar de veículo)'],

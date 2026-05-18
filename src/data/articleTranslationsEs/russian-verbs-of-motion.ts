@@ -176,7 +176,12 @@ export const russianVerbsOfMotionEs: LearnArticle = {
               ['вы-', 'salida', 'выходить (salir)', 'выезжать (salir en coche)'],
               ['в-/вой-', 'entrada', 'входить (entrar)', 'въезжать (entrar en coche)'],
               ['пере-', 'cruce', 'переходить (cruzar)', 'переезжать (cruzar / mudarse)'],
-              ['под-', 'aproximación', 'подходить (acercarse)', 'подъезжать (acercarse en vehículo)'],
+              [
+                'под-',
+                'aproximación',
+                'подходить (acercarse)',
+                'подъезжать (acercarse en vehículo)',
+              ],
               ['от-', 'alejamiento', 'отходить (alejarse)', 'отъезжать (alejarse en coche)'],
               ['за-', 'pasar por', 'заходить (pasar)', 'заезжать (pasar en coche)'],
               ['до-', 'llegar hasta', 'доходить (llegar a)', 'доезжать (llegar en vehículo)'],
@@ -301,7 +306,10 @@ export const russianVerbsOfMotionEs: LearnArticle = {
     { href: '/practice', label: 'Quiz de declinaciones del ruso gratis — practica los 6 casos' },
     { href: '/learn/articles/russian-accusative-case', label: 'Guía del caso acusativo en ruso' },
     { href: '/learn/articles/russian-dative-case', label: 'Guía del caso dativo en ruso' },
-    { href: '/learn/articles/russian-prepositional-case', label: 'Guía del caso preposicional en ruso' },
+    {
+      href: '/learn/articles/russian-prepositional-case',
+      label: 'Guía del caso preposicional en ruso',
+    },
     {
       href: '/learn/articles/russian-prepositions-and-cases',
       label: 'Preposiciones y casos del ruso: referencia completa',

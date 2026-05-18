@@ -165,7 +165,8 @@ export const russianVerbsOfMotionPl: LearnArticle = {
         },
         {
           h3: 'Najczęstsze przedrostki',
-          content: 'Oto kluczowe przedrostki, z którymi będziesz się spotykać na co dzień, z ich znaczeniami:',
+          content:
+            'Oto kluczowe przedrostki, z którymi będziesz się spotykać na co dzień, z ich znaczeniami:',
           table: {
             headers: ['Przedrostek', 'Znaczenie', 'Przykład (pieszo)', 'Przykład (pojazdem)'],
             rows: [
@@ -173,7 +174,12 @@ export const russianVerbsOfMotionPl: LearnArticle = {
               ['у-', 'odejście', 'уходить (odchodzić)', 'уезжать (odjeżdżać)'],
               ['вы-', 'wyjście', 'выходить (wychodzić)', 'выезжать (wyjeżdżać)'],
               ['в-/вой-', 'wejście', 'входить (wchodzić)', 'въезжать (wjeżdżać)'],
-              ['пере-', 'przekroczenie', 'переходить (przechodzić)', 'переезжать (przejeżdżać/przeprowadzać się)'],
+              [
+                'пере-',
+                'przekroczenie',
+                'переходить (przechodzić)',
+                'переезжать (przejeżdżać/przeprowadzać się)',
+              ],
               ['под-', 'zbliżenie', 'подходить (podchodzić)', 'подъезжать (podjeżdżać)'],
               ['от-', 'oddalenie', 'отходить (odchodzić)', 'отъезжать (odjeżdżać)'],
               ['за-', 'wstąpienie', 'заходить (wstępować)', 'заезжать (zajeżdżać)'],
@@ -294,7 +300,10 @@ export const russianVerbsOfMotionPl: LearnArticle = {
     { href: '/practice', label: 'Bezpłatny quiz deklinacyjny — ćwicz wszystkie 6 przypadków' },
     { href: '/learn/articles/russian-accusative-case', label: 'Przewodnik po bierniku rosyjskim' },
     { href: '/learn/articles/russian-dative-case', label: 'Przewodnik po celowniku rosyjskim' },
-    { href: '/learn/articles/russian-prepositional-case', label: 'Przewodnik po miejscowniku rosyjskim' },
+    {
+      href: '/learn/articles/russian-prepositional-case',
+      label: 'Przewodnik po miejscowniku rosyjskim',
+    },
     {
       href: '/learn/articles/russian-prepositions-and-cases',
       label: 'Rosyjskie przyimki i przypadki: kompletna referencja',

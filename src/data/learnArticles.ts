@@ -8371,8 +8371,8 @@ export const learnArticles: Record<string, LearnArticle> = {
               'When you move **toward a person** (as opposed to a place), Russian uses the preposition **к** + **dative case**.',
             bullets: [
               '**Я иду к врачу.** — I am going to the doctor. (врачу = dative of врач)',
-              '**Она едет к маме.** — She is going to her mother\'s. (маме = dative of мама)',
-              '**Мы идём к другу.** — We are going to our friend\'s. (другу = dative of друг)',
+              "**Она едет к маме.** — She is going to her mother's. (маме = dative of мама)",
+              "**Мы идём к другу.** — We are going to our friend's. (другу = dative of друг)",
             ],
           },
         ],

@@ -165,7 +165,8 @@ export const russianVerbsOfMotionDe: LearnArticle = {
         },
         {
           h3: 'Die häufigsten Präfixe',
-          content: 'Hier sind die wichtigsten Präfixe, die Sie täglich begegnen werden, mit ihren Bedeutungen:',
+          content:
+            'Hier sind die wichtigsten Präfixe, die Sie täglich begegnen werden, mit ihren Bedeutungen:',
           table: {
             headers: ['Präfix', 'Bedeutung', 'Beispiel (zu Fuß)', 'Beispiel (mit Fahrzeug)'],
             rows: [
@@ -173,7 +174,12 @@ export const russianVerbsOfMotionDe: LearnArticle = {
               ['у-', 'Abreise', 'уходить (weggehen)', 'уезжать (abreisen)'],
               ['вы-', 'Ausgang', 'выходить (herausgehen)', 'выезжать (herausfahren)'],
               ['в-/вой-', 'Eintritt', 'входить (eintreten)', 'въезжать (einfahren)'],
-              ['пере-', 'Überquerung', 'переходить (überqueren)', 'переезжать (überfahren/umziehen)'],
+              [
+                'пере-',
+                'Überquerung',
+                'переходить (überqueren)',
+                'переезжать (überfahren/umziehen)',
+              ],
               ['под-', 'Annäherung', 'подходить (sich nähern)', 'подъезжать (heranfahren)'],
               ['от-', 'Entfernung', 'отходить (zurücktreten)', 'отъезжать (wegfahren)'],
               ['за-', 'Vorbeigehen', 'заходить (vorbeikommen)', 'заезжать (vorbeifahren)'],
@@ -292,9 +298,15 @@ export const russianVerbsOfMotionDe: LearnArticle = {
     'Bereit, russische Kasus zu üben, die durch Bewegungsverben ausgelöst werden? Unser kostenloses interaktives Quiz unter russiandeclensions.com/practice ermöglicht es Ihnen, Akkusativ, Dativ und Präpositional mit sofortigem Feedback zu üben.',
   internalLinks: [
     { href: '/practice', label: 'Kostenloses Russisch-Deklinationsquiz — alle 6 Kasus üben' },
-    { href: '/learn/articles/russian-accusative-case', label: 'Leitfaden zum russischen Akkusativ' },
+    {
+      href: '/learn/articles/russian-accusative-case',
+      label: 'Leitfaden zum russischen Akkusativ',
+    },
     { href: '/learn/articles/russian-dative-case', label: 'Leitfaden zum russischen Dativ' },
-    { href: '/learn/articles/russian-prepositional-case', label: 'Leitfaden zum russischen Präpositional' },
+    {
+      href: '/learn/articles/russian-prepositional-case',
+      label: 'Leitfaden zum russischen Präpositional',
+    },
     {
       href: '/learn/articles/russian-prepositions-and-cases',
       label: 'Russische Präpositionen und Kasus: Vollständige Referenz',
@@ -309,7 +321,8 @@ export const russianVerbsOfMotionDe: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'Russische Bewegungsverben: Der vollständige Leitfaden zu идти, ходить, ехать und ездить',
+    headline:
+      'Russische Bewegungsverben: Der vollständige Leitfaden zu идти, ходить, ехать und ездить',
     description:
       'Russische Bewegungsverben meistern: идти/ходить vs. ехать/ездить, die unidirektionale/multidirektionale Unterscheidung, Präfixverben und ausgelöste Kasus.',
     datePublished: '2026-05-18',

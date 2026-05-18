@@ -4,8 +4,7 @@ import type { LearnArticle } from '../learnArticles';
 export const russianVerbsOfMotionIt: LearnArticle = {
   slug: 'russian-verbs-of-motion',
   title: 'Verbi di moto russi: la guida completa (идти, ходить, ехать, ездить)',
-  metaTitle:
-    'Verbi di moto russi: идти, ходить, ехать, ездить spiegati | Russian Cases with Anna',
+  metaTitle: 'Verbi di moto russi: идти, ходить, ехать, ездить spiegati | Russian Cases with Anna',
   metaDescription:
     'Padroneggia i verbi di moto russi: impara la differenza tra идти/ходить (a piedi) e ехать/ездить (in veicolo), quando usare i verbi unidirezionali vs multidirezionali, i verbi prefissati e il loro legame con i casi russi.',
   keywords: [
@@ -24,8 +23,7 @@ export const russianVerbsOfMotionIt: LearnArticle = {
     width: 1200,
     height: 630,
   },
-  intro:
-    `I verbi di moto russi sono uno degli angoli più affascinanti — e più temuti — della grammatica russa. A differenza dell'italiano, che usa semplicemente «andare» per quasi ogni tipo di spostamento, **il russo ti obbliga a specificare esattamente come ti stai muovendo**: a piedi o in veicolo, in un'unica direzione o abitualmente. Sbagliare e un madrelingua ti capirà ugualmente, ma saprà immediatamente che sei uno studente.\n\nLa buona notizia: il sistema è logico. Una volta comprese le due distinzioni chiave — **unidirezionale vs multidirezionale** e **a piedi vs in veicolo** — tutto il resto segue regole prevedibili. Questa guida spiega l'intero sistema con tabelle chiare, esempi reali e collegamenti ai **casi grammaticali russi**, così potrai usare questi verbi correttamente nella conversazione fin dal primo giorno.`,
+  intro: `I verbi di moto russi sono uno degli angoli più affascinanti — e più temuti — della grammatica russa. A differenza dell'italiano, che usa semplicemente «andare» per quasi ogni tipo di spostamento, **il russo ti obbliga a specificare esattamente come ti stai muovendo**: a piedi o in veicolo, in un'unica direzione o abitualmente. Sbagliare e un madrelingua ti capirà ugualmente, ma saprà immediatamente che sei uno studente.\n\nLa buona notizia: il sistema è logico. Una volta comprese le due distinzioni chiave — **unidirezionale vs multidirezionale** e **a piedi vs in veicolo** — tutto il resto segue regole prevedibili. Questa guida spiega l'intero sistema con tabelle chiare, esempi reali e collegamenti ai **casi grammaticali russi**, così potrai usare questi verbi correttamente nella conversazione fin dal primo giorno.`,
   whatYouLearn: [
     'La differenza fondamentale tra **идти** e **ходить** (e quando usare ciascuno)',
     'La differenza fondamentale tra **ехать** e **ездить** (spostamento in veicolo)',
@@ -35,16 +33,14 @@ export const russianVerbsOfMotionIt: LearnArticle = {
   ],
   leadMagnetCta: {
     title: 'Pratica i casi russi con i verbi di moto',
-    description:
-      `Russian Cases with Anna è l'unica app dedicata alle declinazioni e ai casi russi. I verbi di moto richiedono l'accusativo e il dativo — i nostri quiz interattivi ti aiutano a esercitarli finché non diventano automatici. Download gratuito su iOS e Android.`,
+    description: `Russian Cases with Anna è l'unica app dedicata alle declinazioni e ai casi russi. I verbi di moto richiedono l'accusativo e il dativo — i nostri quiz interattivi ti aiutano a esercitarli finché non diventano automatici. Download gratuito su iOS e Android.`,
     ctaText: `Scarica l'app — Gratis`,
     ctaHref: '/',
   },
   sections: [
     {
       h2: 'Cosa rende unici i verbi di moto russi',
-      content:
-        `L'italiano ha un verbo tuttofare per il movimento: «andare». Si dice «vado a scuola», «vado in autobus», «ci vado ogni giorno» e «ci sto andando adesso» — sempre lo stesso verbo, affidandosi al contesto.\n\nIl russo funziona diversamente. Ha una classe dedicata di **verbi di moto** (глаголы движения), che codificano due informazioni che l'italiano ignora:\n\n1. **Direzione del movimento:** si tratta di un viaggio una tantum e diretto (sto andando lì adesso) — oppure di un movimento generale, abituale, o di andata e ritorno (ci vado regolarmente)?\n2. **Mezzo di trasporto:** mi sto muovendo **a piedi** (идти / ходить) oppure **in veicolo** (ехать / ездить)?\n\nQueste distinzioni non sono opzioni aggiuntive. Sono incorporate nella forma stessa del verbo, e i parlanti russi le usano automaticamente senza pensarci.`,
+      content: `L'italiano ha un verbo tuttofare per il movimento: «andare». Si dice «vado a scuola», «vado in autobus», «ci vado ogni giorno» e «ci sto andando adesso» — sempre lo stesso verbo, affidandosi al contesto.\n\nIl russo funziona diversamente. Ha una classe dedicata di **verbi di moto** (глаголы движения), che codificano due informazioni che l'italiano ignora:\n\n1. **Direzione del movimento:** si tratta di un viaggio una tantum e diretto (sto andando lì adesso) — oppure di un movimento generale, abituale, o di andata e ritorno (ci vado regolarmente)?\n2. **Mezzo di trasporto:** mi sto muovendo **a piedi** (идти / ходить) oppure **in veicolo** (ехать / ездить)?\n\nQueste distinzioni non sono opzioni aggiuntive. Sono incorporate nella forma stessa del verbo, e i parlanti russi le usano automaticamente senza pensarci.`,
       subsections: [
         {
           h3: 'Unidirezionale vs multidirezionale: il concetto chiave',
@@ -57,8 +53,7 @@ export const russianVerbsOfMotionIt: LearnArticle = {
         },
         {
           h3: 'Il test rapido',
-          content:
-            `Quando vuoi usare un verbo di moto russo, poniti due domande:\n\n**Domanda 1:** Sto descrivendo un movimento che avviene adesso in una direzione, oppure un movimento abituale/ripetuto/di andata e ritorno?\n• Adesso, una direzione → usa l'**unidirezionale** (идти / ехать)\n• Abituale, ripetuto o generale → usa il **multidirezionale** (ходить / ездить)\n\n**Domanda 2:** Mi sto muovendo a piedi o in veicolo (auto, autobus, treno, bici…)?\n• A piedi → идти / ходить\n• In veicolo → ехать / ездить`,
+          content: `Quando vuoi usare un verbo di moto russo, poniti due domande:\n\n**Domanda 1:** Sto descrivendo un movimento che avviene adesso in una direzione, oppure un movimento abituale/ripetuto/di andata e ritorno?\n• Adesso, una direzione → usa l'**unidirezionale** (идти / ехать)\n• Abituale, ripetuto o generale → usa il **multidirezionale** (ходить / ездить)\n\n**Domanda 2:** Mi sto muovendo a piedi o in veicolo (auto, autobus, treno, bici…)?\n• A piedi → идти / ходить\n• In veicolo → ехать / ездить`,
         },
       ],
     },
@@ -166,7 +161,8 @@ export const russianVerbsOfMotionIt: LearnArticle = {
         },
         {
           h3: 'I prefissi più comuni',
-          content: 'Ecco i prefissi essenziali che incontrerai ogni giorno, con i loro significati:',
+          content:
+            'Ecco i prefissi essenziali che incontrerai ogni giorno, con i loro significati:',
           table: {
             headers: ['Prefisso', 'Significato', 'Esempio (a piedi)', 'Esempio (in veicolo)'],
             rows: [
@@ -174,9 +170,24 @@ export const russianVerbsOfMotionIt: LearnArticle = {
               ['у-', 'partenza', 'уходить (partire)', 'уезжать (partire in veicolo)'],
               ['вы-', 'uscita', 'выходить (uscire)', 'выезжать (uscire in auto)'],
               ['в-/вой-', 'entrata', 'входить (entrare)', 'въезжать (entrare in auto)'],
-              ['пере-', 'attraversamento', 'переходить (attraversare)', 'переезжать (attraversare / trasferirsi)'],
-              ['под-', 'avvicinamento', 'подходить (avvicinarsi)', 'подъезжать (avvicinarsi in veicolo)'],
-              ['от-', 'allontanamento', 'отходить (allontanarsi)', 'отъезжать (allontanarsi in auto)'],
+              [
+                'пере-',
+                'attraversamento',
+                'переходить (attraversare)',
+                'переезжать (attraversare / trasferirsi)',
+              ],
+              [
+                'под-',
+                'avvicinamento',
+                'подходить (avvicinarsi)',
+                'подъезжать (avvicinarsi in veicolo)',
+              ],
+              [
+                'от-',
+                'allontanamento',
+                'отходить (allontanarsi)',
+                'отъезжать (allontanarsi in auto)',
+              ],
               ['за-', 'passare da', 'заходить (passare da)', 'заезжать (passare in auto)'],
               ['до-', 'raggiungere', 'доходить (arrivare a)', 'доезжать (arrivare in veicolo)'],
             ],
@@ -205,8 +216,7 @@ export const russianVerbsOfMotionIt: LearnArticle = {
       subsections: [
         {
           h3: 'Direzione (куда?) → accusativo',
-          content:
-            `Per rispondere alla domanda **куда?** (dove? / verso dove?), il russo usa l'**accusativo** dopo i verbi di moto. Questo vale con le preposizioni **в** e **на** per indicare la direzione.`,
+          content: `Per rispondere alla domanda **куда?** (dove? / verso dove?), il russo usa l'**accusativo** dopo i verbi di moto. Questo vale con le preposizioni **в** e **на** per indicare la direzione.`,
           bullets: [
             '**Я иду в школу.** — Vado a scuola. (школу = accusativo di школа)',
             '**Мы едем на работу.** — Andiamo al lavoro. (работу = accusativo di работа)',
@@ -260,28 +270,23 @@ export const russianVerbsOfMotionIt: LearnArticle = {
   faq: [
     {
       question: 'Qual è la differenza tra идти e ходить?',
-      answer:
-        `**идти** è unidirezionale: descrive un movimento a piedi che avviene adesso, in una direzione precisa (es. «Sto andando al negozio adesso»). **ходить** è multidirezionale: descrive un movimento a piedi abituale, ripetuto o di andata e ritorno (es. «Vado al negozio ogni giorno» oppure «Ieri sono andato al negozio e sono tornato»). La domanda chiave è: sto descrivendo un viaggio singolo e diretto adesso, o un'abitudine generale/ripetuta?`,
+      answer: `**идти** è unidirezionale: descrive un movimento a piedi che avviene adesso, in una direzione precisa (es. «Sto andando al negozio adesso»). **ходить** è multidirezionale: descrive un movimento a piedi abituale, ripetuto o di andata e ritorno (es. «Vado al negozio ogni giorno» oppure «Ieri sono andato al negozio e sono tornato»). La domanda chiave è: sto descrivendo un viaggio singolo e diretto adesso, o un'abitudine generale/ripetuta?`,
     },
     {
       question: 'Qual è la differenza tra ехать e ездить?',
-      answer:
-        `**ехать** è il verbo unidirezionale per gli spostamenti in veicolo — descrive un viaggio preciso in corso (es. «Stiamo andando a Mosca in treno»). **ездить** è il verbo multidirezionale — descrive spostamenti in veicolo abituali o ripetuti (es. «Vado al lavoro in metro ogni giorno» oppure «Viaggia spesso all'estero»). La logica è identica a идти vs ходить, ma per gli spostamenti in veicolo.`,
+      answer: `**ехать** è il verbo unidirezionale per gli spostamenti in veicolo — descrive un viaggio preciso in corso (es. «Stiamo andando a Mosca in treno»). **ездить** è il verbo multidirezionale — descrive spostamenti in veicolo abituali o ripetuti (es. «Vado al lavoro in metro ogni giorno» oppure «Viaggia spesso all'estero»). La logica è identica a идти vs ходить, ma per gli spostamenti in veicolo.`,
     },
     {
       question: `Quando i verbi di moto richiedono l'accusativo?`,
-      answer:
-        `I verbi di moto usano l'**accusativo** per esprimere la **destinazione** (куда? — verso dove?). Con le preposizioni **в** e **на** che indicano la direzione, il sostantivo seguente si mette all'accusativo: «Я иду **в школу**» (Vado a scuola), «Мы едем **на работу**» (Andiamo al lavoro). Questo contrasta con il prepositivo usato per la posizione statica.`,
+      answer: `I verbi di moto usano l'**accusativo** per esprimere la **destinazione** (куда? — verso dove?). Con le preposizioni **в** e **на** che indicano la direzione, il sostantivo seguente si mette all'accusativo: «Я иду **в школу**» (Vado a scuola), «Мы едем **на работу**» (Andiamo al lavoro). Questo contrasta con il prepositivo usato per la posizione statica.`,
     },
     {
       question: 'Come funzionano i verbi di moto con i prefissi?',
-      answer:
-        `Quando si aggiunge un prefisso a un verbo di moto, l'attenzione si sposta dal tipo di movimento (andata e ritorno vs abituale) alla **direzione o alla modalità** del movimento. Il prefisso si attacca alle forme imperfettiva e perfettiva. Esempio: **при-** (arrivo) + ходить/идти = **приходить** (imperfettivo: venire regolarmente) / **прийти** (perfettivo: arrivare una volta). Prefissi comuni: при- (arrivo), у- (partenza), вы- (uscita), в- (entrata), пере- (attraversamento).`,
+      answer: `Quando si aggiunge un prefisso a un verbo di moto, l'attenzione si sposta dal tipo di movimento (andata e ritorno vs abituale) alla **direzione o alla modalità** del movimento. Il prefisso si attacca alle forme imperfettiva e perfettiva. Esempio: **при-** (arrivo) + ходить/идти = **приходить** (imperfettivo: venire regolarmente) / **прийти** (perfettivo: arrivare una volta). Prefissi comuni: при- (arrivo), у- (partenza), вы- (uscita), в- (entrata), пере- (attraversamento).`,
     },
     {
       question: 'I verbi di moto russi sono difficili da imparare?',
-      answer:
-        `All'inizio possono sembrare complessi, ma il sistema segue regole coerenti. La chiave è interiorizzare le due domande fondamentali: «Sto andando adesso in una direzione o abitualmente?» e «Vado a piedi o in veicolo?». Una volta automatizzate queste due distinzioni, le forme con prefisso diventano intuitive. Praticare con frasi reali — non solo tabelle — accelera enormemente l'apprendimento.`,
+      answer: `All'inizio possono sembrare complessi, ma il sistema segue regole coerenti. La chiave è interiorizzare le due domande fondamentali: «Sto andando adesso in una direzione o abitualmente?» e «Vado a piedi o in veicolo?». Una volta automatizzate queste due distinzioni, le forme con prefisso diventano intuitive. Praticare con frasi reali — non solo tabelle — accelera enormemente l'apprendimento.`,
     },
   ],
   conclusion: '',
@@ -300,7 +305,10 @@ export const russianVerbsOfMotionIt: LearnArticle = {
     { href: '/practice', label: 'Quiz di declinazione russa gratis — pratica tutti i 6 casi' },
     { href: '/learn/articles/russian-accusative-case', label: 'Guida al caso accusativo russo' },
     { href: '/learn/articles/russian-dative-case', label: 'Guida al caso dativo russo' },
-    { href: '/learn/articles/russian-prepositional-case', label: 'Guida al caso prepositivo russo' },
+    {
+      href: '/learn/articles/russian-prepositional-case',
+      label: 'Guida al caso prepositivo russo',
+    },
     {
       href: '/learn/articles/russian-prepositions-and-cases',
       label: 'Preposizioni e casi russi: riferimento completo',

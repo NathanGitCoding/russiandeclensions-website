@@ -35,7 +35,7 @@ export const russianVerbsOfMotionTr: LearnArticle = {
   leadMagnetCta: {
     title: 'Hareket Fiilleriyle Rusça Halleri Çalışın',
     description:
-      'Russian Cases with Anna, Rusça çekimler ve hallerine adanmış tek uygulamadır. Hareket fiilleri akkusatif ve datif halleri tetikler — etkileşimli sınavlarımız bunları otomatik hale gelene kadar pratik yapmanıza yardımcı olur. iOS ve Android\'de ücretsiz indirin.',
+      "Russian Cases with Anna, Rusça çekimler ve hallerine adanmış tek uygulamadır. Hareket fiilleri akkusatif ve datif halleri tetikler — etkileşimli sınavlarımız bunları otomatik hale gelene kadar pratik yapmanıza yardımcı olur. iOS ve Android'de ücretsiz indirin.",
     ctaText: 'Uygulamayı İndir — Ücretsiz',
     ctaHref: '/',
   },
@@ -64,7 +64,7 @@ export const russianVerbsOfMotionTr: LearnArticle = {
     {
       h2: 'İki Temel Fiil Çifti: Yürüyerek ve Araçla',
       content:
-        'En önemli fiil çiftleri **идти/ходить** (yürüyerek hareket) ve **ехать/ездить** (araçla hareket)\'tir. Karşılaştırma şöyle:',
+        "En önemli fiil çiftleri **идти/ходить** (yürüyerek hareket) ve **ехать/ездить** (araçla hareket)'tir. Karşılaştırma şöyle:",
       table: {
         headers: ['', 'Yürüyerek', 'Araçla'],
         rows: [
@@ -102,7 +102,7 @@ export const russianVerbsOfMotionTr: LearnArticle = {
           content:
             '**ехать** fiilini, araçla (araba, tren, otobüs, bisiklet…) yapılan hareket şu an belirli bir yönde gerçekleştiğinde kullanın.',
           bullets: [
-            '**Мы едем в Москву.** — Moskova\'ya gidiyoruz. (araçla, şu an)',
+            "**Мы едем в Москву.** — Moskova'ya gidiyoruz. (araçla, şu an)",
             '**Автобус едет медленно.** — Otobüs yavaş gidiyor. (devam ediyor)',
             '**Я еду на такси.** — Taksiyle gidiyorum. (belirli yolculuk, şu an)',
             '**Машина едет быстро.** — Araba hızlı gidiyor. (yönlü hareket)',
@@ -173,7 +173,12 @@ export const russianVerbsOfMotionTr: LearnArticle = {
               ['у-', 'ayrılış', 'уходить (gitmek)', 'уезжать (ayrılmak)'],
               ['вы-', 'çıkış', 'выходить (çıkmak)', 'выезжать (araçla çıkmak)'],
               ['в-/вой-', 'giriş', 'входить (girmek)', 'въезжать (araçla girmek)'],
-              ['пере-', 'geçiş', 'переходить (karşıya geçmek)', 'переезжать (araçla geçmek/taşınmak)'],
+              [
+                'пере-',
+                'geçiş',
+                'переходить (karşıya geçmek)',
+                'переезжать (araçla geçmek/taşınmak)',
+              ],
               ['под-', 'yaklaşma', 'подходить (yaklaşmak)', 'подъезжать (araçla yaklaşmak)'],
               ['от-', 'uzaklaşma', 'отходить (uzaklaşmak)', 'отъезжать (araçla uzaklaşmak)'],
               ['за-', 'uğrama', 'заходить (uğramak)', 'заезжать (araçla uğramak)'],
@@ -188,9 +193,9 @@ export const russianVerbsOfMotionTr: LearnArticle = {
           content:
             'Ön ekli hareket fiillerinin bağlamda nasıl çalıştığı şöyle. Ön ekin hareket yönünü nasıl tamamen belirsizlikten kurtardığına dikkat edin:',
           bullets: [
-            '**Он пришёл домой в 6 часов.** — Eve saat 6\'da geldi. (прийти — yürüyerek vardı, perfektif)',
+            "**Он пришёл домой в 6 часов.** — Eve saat 6'da geldi. (прийти — yürüyerek vardı, perfektif)",
             '**Она ушла из офиса.** — Ofisten ayrıldı. (уйти — yürüyerek gitti, perfektif)',
-            '**Они приехали из Лондона.** — Londra\'dan geldiler. (приехать — araçla vardı, perfektif)',
+            "**Они приехали из Лондона.** — Londra'dan geldiler. (приехать — araçla vardı, perfektif)",
             '**Я выхожу из дома каждое утро.** — Her sabah evden çıkıyorum. (выходить — alışkanlık, imperfektif)',
             '**Когда ты придёшь?** — Ne zaman geleceksin? (прийти — gelecek zaman, perfektif)',
           ],
@@ -207,8 +212,8 @@ export const russianVerbsOfMotionTr: LearnArticle = {
           content:
             '**куда?** (nereye?) sorusunu yanıtlarken Rusça, hareket fiillerinden sonra **akkusatif** kullanır. Bu, yön bildirmek için **в** ve **на** edatlarıyla geçerlidir.',
           bullets: [
-            '**Я иду в школу.** — Okula gidiyorum. (школу = школа\'nın akkusatifi)',
-            '**Мы едем на работу.** — İşe gidiyoruz. (работу = работа\'nın akkusatifi)',
+            "**Я иду в школу.** — Okula gidiyorum. (школу = школа'nın akkusatifi)",
+            "**Мы едем на работу.** — İşe gidiyoruz. (работу = работа'nın akkusatifi)",
             '**Она идёт в магазин.** — Markete gidiyor. (магазин = akkusatif)',
             '**Он едет на вокзал.** — Garа gidiyor. (вокзал = akkusatif)',
           ],
@@ -218,9 +223,9 @@ export const russianVerbsOfMotionTr: LearnArticle = {
           content:
             '**где?** (nerede?) sorusunu yanıtlarken Rusça, aynı **в** ve **на** edatlarıyla **prepozisyonel** hal kullanır — ancak bu sefer hareketi değil statik konumu belirtir.',
           bullets: [
-            '**Я учусь в школе.** — Okulda okuyorum. (школе = школа\'nın prepozisyoneli)',
+            "**Я учусь в школе.** — Okulda okuyorum. (школе = школа'nın prepozisyoneli)",
             '**Мы работаем на заводе.** — Fabrikada çalışıyoruz. (заводе = prepozisyonel)',
-            '**Она живёт в Москве.** — Moskova\'da yaşıyor. (Москве = prepozisyonel)',
+            "**Она живёт в Москве.** — Moskova'da yaşıyor. (Москве = prepozisyonel)",
           ],
         },
         {
@@ -242,9 +247,9 @@ export const russianVerbsOfMotionTr: LearnArticle = {
           content:
             'Bir yere değil **bir kişiye doğru** hareket ettiğinizde Rusça **к** edatı + **datif** kullanır.',
           bullets: [
-            '**Я иду к врачу.** — Doktora gidiyorum. (врачу = врач\'ın datifi)',
-            '**Она едет к маме.** — Annesine gidiyor. (маме = мама\'nın datifi)',
-            '**Мы идём к другу.** — Arkadaşımıza gidiyoruz. (другу = друг\'ın datifi)',
+            "**Я иду к врачу.** — Doktora gidiyorum. (врачу = врач'ın datifi)",
+            "**Она едет к маме.** — Annesine gidiyor. (маме = мама'nın datifi)",
+            "**Мы идём к другу.** — Arkadaşımıza gidiyoruz. (другу = друг'ın datifi)",
           ],
         },
       ],
@@ -252,7 +257,7 @@ export const russianVerbsOfMotionTr: LearnArticle = {
         '**куда?** (nereye?) → yön fiillerinden sonra **в/на + akkusatif**',
         '**где?** (nerede?) → statik konum için **в/на + prepozisyonel**',
         '**к кому?** (kime doğru?) → bir kişiye doğru hareket ederken **к + datif**',
-        'Bu üçlüyü ezberleyin ve hareket fiillerindeki hal hatalarının %80\'ini ortadan kaldırın',
+        "Bu üçlüyü ezberleyin ve hareket fiillerindeki hal hatalarının %80'ini ortadan kaldırın",
       ],
     },
   ],

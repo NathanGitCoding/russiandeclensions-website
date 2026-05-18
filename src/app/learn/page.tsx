@@ -20,7 +20,9 @@ export const metadata: Metadata = {
     url: '/learn',
     title: 'Learn Russian Grammar & Cases',
     description: learnDescription,
-    images: [{ url: '/landing-cases/icon-app-russian-cases-with-anna.webp', width: 1200, height: 1200 }],
+    images: [
+      { url: '/landing-cases/icon-app-russian-cases-with-anna.webp', width: 1200, height: 1200 },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
@@ -55,9 +57,7 @@ export default async function LearnIndexPage() {
     const title = t.lessonTitles[slug];
     const path = LESSON_PATH_MAP[slug] ?? 'lessons';
     const date =
-      path === 'articles'
-        ? getLearnArticlePublishedDate(slug)
-        : getLearnLessonPublishedDate(slug);
+      path === 'articles' ? getLearnArticlePublishedDate(slug) : getLearnLessonPublishedDate(slug);
     if (date) publishedDates[slug] = date;
     if (title) {
       const href = path === 'articles' ? `/learn/articles/${slug}` : `/learn/lessons/${slug}`;

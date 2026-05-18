@@ -104,7 +104,9 @@ export const metadata: Metadata = {
     url: '/practice',
     title: 'Russian Cases Practice Quiz',
     description: practiceDescription,
-    images: [{ url: '/landing-cases/icon-app-russian-cases-with-anna.webp', width: 1200, height: 1200 }],
+    images: [
+      { url: '/landing-cases/icon-app-russian-cases-with-anna.webp', width: 1200, height: 1200 },
+    ],
   },
   twitter: {
     card: 'summary_large_image',

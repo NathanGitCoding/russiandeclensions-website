@@ -166,15 +166,26 @@ export const russianVerbsOfMotionNl: LearnArticle = {
         },
         {
           h3: 'De meest voorkomende voorvoegsels',
-          content: 'Hier zijn de belangrijkste voorvoegsels die je dagelijks tegenkomt, met hun betekenissen:',
+          content:
+            'Hier zijn de belangrijkste voorvoegsels die je dagelijks tegenkomt, met hun betekenissen:',
           table: {
-            headers: ['Voorvoegsel', 'Betekenis', 'Voorbeeld (te voet)', 'Voorbeeld (per voertuig)'],
+            headers: [
+              'Voorvoegsel',
+              'Betekenis',
+              'Voorbeeld (te voet)',
+              'Voorbeeld (per voertuig)',
+            ],
             rows: [
               ['при-', 'aankomst', 'приходить (komen)', 'приезжать (aankomen)'],
               ['у-', 'vertrek', 'уходить (weggaan)', 'уезжать (vertrekken)'],
               ['вы-', 'uitgang', 'выходить (buitengaan)', 'выезжать (wegrijden)'],
               ['в-/вой-', 'ingang', 'входить (binnengaan)', 'въезжать (binnenrijden)'],
-              ['пере-', 'oversteek', 'переходить (oversteken)', 'переезжать (verhuizen/oversteken)'],
+              [
+                'пере-',
+                'oversteek',
+                'переходить (oversteken)',
+                'переезжать (verhuizen/oversteken)',
+              ],
               ['под-', 'nadering', 'подходить (naderen)', 'подъезжать (naderen per voertuig)'],
               ['от-', 'weggaan', 'отходить (wegstappen)', 'отъезжать (wegrijden)'],
               ['за-', 'langsgaan', 'заходить (langsgaan)', 'заезжать (langsgaan per voertuig)'],
@@ -300,7 +311,10 @@ export const russianVerbsOfMotionNl: LearnArticle = {
     { href: '/practice', label: 'Gratis Russisch verbuigingsquiz — oefen alle 6 naamvallen' },
     { href: '/learn/articles/russian-accusative-case', label: 'Gids voor de Russische accusatief' },
     { href: '/learn/articles/russian-dative-case', label: 'Gids voor de Russische datief' },
-    { href: '/learn/articles/russian-prepositional-case', label: 'Gids voor de Russische prepositief' },
+    {
+      href: '/learn/articles/russian-prepositional-case',
+      label: 'Gids voor de Russische prepositief',
+    },
     {
       href: '/learn/articles/russian-prepositions-and-cases',
       label: 'Russische voorzetsels en naamvallen: complete referentie',

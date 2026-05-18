@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 export interface BreadcrumbItem {
@@ -75,13 +76,13 @@ export function PageHero({
 
           {showIllustration && (
             <div className="flex justify-center md:justify-end">
-              <img
+              <Image
                 src="/saint-basil.svg"
                 alt="Saint Basil's Cathedral, Moscow"
-                width={260}
-                height={260}
-                loading="eager"
-                className="h-44 w-auto drop-shadow-xl sm:h-52 md:h-60"
+                width={312}
+                height={312}
+                priority
+                className="h-[13.2rem] w-auto drop-shadow-xl sm:h-[15.6rem] md:h-72"
               />
             </div>
           )}

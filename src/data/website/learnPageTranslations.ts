@@ -214,8 +214,7 @@ const tr: LearnPageTranslations = {
       'TORFL Sınavı (ТРКИ): Rusça Yeterlilik Testi Tam Rehberi',
     'russian-prepositions-cases-cheat-sheet':
       'Rusça edatlar ve haller: Her edattan sonra hangi hal kullanılır',
-    'russian-verbs-of-motion':
-      'Rusça hareket fiilleri: Tam rehber (идти, ходить, ехать, ездить)',
+    'russian-verbs-of-motion': 'Rusça hareket fiilleri: Tam rehber (идти, ходить, ехать, ездить)',
   },
   practiceQuiz: {
     title: 'Alıştırma Testi',
@@ -519,8 +518,7 @@ const it: LearnPageTranslations = {
     'torfl-trki-russian-language-exam-guide': 'Esame TORFL (ТРКИ): guida completa al test di russo',
     'russian-prepositions-cases-cheat-sheet':
       'Prontuario preposizioni e casi russi: quale caso dopo ogni preposizione',
-    'russian-verbs-of-motion':
-      'Verbi di moto russi: guida completa (идти, ходить, ехать, ездить)',
+    'russian-verbs-of-motion': 'Verbi di moto russi: guida completa (идти, ходить, ехать, ездить)',
   },
   practiceQuiz: {
     title: 'Quiz di esercizio',

@@ -165,7 +165,8 @@ export const russianVerbsOfMotionFr: LearnArticle = {
         },
         {
           h3: 'Les préfixes les plus courants',
-          content: 'Voici les préfixes essentiels que vous rencontrerez au quotidien, avec leur signification :',
+          content:
+            'Voici les préfixes essentiels que vous rencontrerez au quotidien, avec leur signification :',
           table: {
             headers: ['Préfixe', 'Sens', 'Exemple (à pied)', 'Exemple (en véhicule)'],
             rows: [
@@ -173,8 +174,18 @@ export const russianVerbsOfMotionFr: LearnArticle = {
               ['у-', 'départ', 'уходить (partir)', 'уезжать (partir en véhicule)'],
               ['вы-', 'sortie', 'выходить (sortir)', 'выезжать (sortir en voiture)'],
               ['в-/вой-', 'entrée', 'входить (entrer)', 'въезжать (entrer en voiture)'],
-              ['пере-', 'traversée', 'переходить (traverser)', 'переезжать (traverser / déménager)'],
-              ['под-', 'approche', 'подходить (s’approcher)', 'подъезжать (s’approcher en véhicule)'],
+              [
+                'пере-',
+                'traversée',
+                'переходить (traverser)',
+                'переезжать (traverser / déménager)',
+              ],
+              [
+                'под-',
+                'approche',
+                'подходить (s’approcher)',
+                'подъезжать (s’approcher en véhicule)',
+              ],
               ['от-', 's’éloigner', 'отходить (s’écarter)', 'отъезжать (s’éloigner en voiture)'],
               ['за-', 'passer par', 'заходить (passer)', 'заезжать (passer en voiture)'],
               ['до-', 'atteindre', 'доходить (arriver jusqu’à)', 'доезжать (arriver en véhicule)'],
@@ -294,7 +305,10 @@ export const russianVerbsOfMotionFr: LearnArticle = {
     { href: '/practice', label: 'Quiz de déclinaisons russe gratuit — pratiquer les 6 cas' },
     { href: '/learn/articles/russian-accusative-case', label: 'Guide du cas accusatif russe' },
     { href: '/learn/articles/russian-dative-case', label: 'Guide du cas datif russe' },
-    { href: '/learn/articles/russian-prepositional-case', label: 'Guide du cas prépositionnel russe' },
+    {
+      href: '/learn/articles/russian-prepositional-case',
+      label: 'Guide du cas prépositionnel russe',
+    },
     {
       href: '/learn/articles/russian-prepositions-and-cases',
       label: 'Prépositions et cas russes : référence complète',

@@ -19,7 +19,9 @@ export const metadata: Metadata = {
     url: '/',
     title: 'Russian Declensions — Learn Russian Cases & Grammar Free',
     description,
-    images: [{ url: '/landing-cases/icon-app-russian-cases-with-anna.webp', width: 1200, height: 1200 }],
+    images: [
+      { url: '/landing-cases/icon-app-russian-cases-with-anna.webp', width: 1200, height: 1200 },
+    ],
   },
   twitter: {
     card: 'summary_large_image',

@@ -77,7 +77,7 @@ export function PracticeConfig({ config, onChange, onStart, t, words }: Props) {
 
   return (
     <div className="mx-auto max-w-lg overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
-      <div className="bg-gradient-to-br from-[#0066DD] to-[#0080FF] px-5 py-5 text-center sm:px-6">
+      <div className="bg-gradient-to-br from-[#0066DD] to-[#0080FF] px-5 pt-7 pb-5 text-center sm:px-6 sm:pt-8 sm:pb-6">
         <h2 className="text-xl font-bold text-white sm:text-2xl">{t.config.title}</h2>
         <p className="mt-1.5 text-sm text-white/85 sm:text-base">{t.config.subtitle}</p>
       </div>
