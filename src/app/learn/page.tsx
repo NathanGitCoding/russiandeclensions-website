@@ -1,6 +1,8 @@
 import React from 'react';
 import { getLandingLangFromRequest } from '@/lib/landingLangServer';
 import { getLearnPageTranslations, LESSON_SLUGS } from '@/data/website/learnPageTranslations';
+import { getLearnArticlePublishedDate } from '@/data/learnArticles';
+import { getLearnLessonPublishedDate } from '@/data/learnLessons';
 import LearnIndexClient from './LearnIndexClient';
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://russiandeclensions.com';
@@ -24,11 +26,17 @@ export default async function LearnIndexPage() {
 
   const itemListElements: { '@type': 'ListItem'; position: number; name: string; url: string }[] =
     [];
+  const publishedDates: Record<string, string> = {};
   let pos = 1;
   for (const slug of LESSON_SLUGS) {
     const title = t.lessonTitles[slug];
+    const path = LESSON_PATH_MAP[slug] ?? 'lessons';
+    const date =
+      path === 'articles'
+        ? getLearnArticlePublishedDate(slug)
+        : getLearnLessonPublishedDate(slug);
+    if (date) publishedDates[slug] = date;
     if (title) {
-      const path = LESSON_PATH_MAP[slug] ?? 'lessons';
       const href = path === 'articles' ? `/learn/articles/${slug}` : `/learn/lessons/${slug}`;
       itemListElements.push({
         '@type': 'ListItem',
@@ -91,7 +99,7 @@ export default async function LearnIndexPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(learningResourceJsonLd) }}
       />
-      <LearnIndexClient />
+      <LearnIndexClient publishedDates={publishedDates} />
     </>
   );
 }

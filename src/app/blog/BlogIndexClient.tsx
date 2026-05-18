@@ -8,8 +8,13 @@ import { getLearnPageTranslations, ARTICLE_SLUGS } from '@/data/website/learnPag
 import { getLandingTranslations } from '@/data/website/landingTranslations';
 import { getLearnCardImage } from '@/data/website/learnCardImages';
 import { PageHero } from '@/components/PageHero';
+import { formatLandingDate } from '@/lib/formatLandingDate';
 
-export default function BlogIndexClient() {
+export default function BlogIndexClient({
+  publishedDates,
+}: {
+  publishedDates: Record<string, string>;
+}) {
   const { landingLanguage } = useLandingLanguage();
   const t = getLearnPageTranslations(landingLanguage);
   const nav = getLandingTranslations(landingLanguage).navbar;
@@ -40,6 +45,7 @@ export default function BlogIndexClient() {
             {ARTICLE_SLUGS.map((slug) => {
               const title = t.articleTitles[slug];
               if (!title) return null;
+              const publishedLabel = formatLandingDate(publishedDates[slug], landingLanguage);
               return (
                 <Link key={slug} href={`/learn/articles/${slug}`} className="learn-grid-card">
                   <div className="learn-grid-thumb">
@@ -55,6 +61,11 @@ export default function BlogIndexClient() {
                       {t.badges.article}
                     </span>
                     <span className="learn-grid-title">{title}</span>
+                    {publishedLabel && (
+                      <time className="learn-grid-date" dateTime={publishedDates[slug]}>
+                        {publishedLabel}
+                      </time>
+                    )}
                   </div>
                 </Link>
               );

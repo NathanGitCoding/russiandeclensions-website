@@ -7,6 +7,7 @@ import { useLandingLanguage } from '@/contexts/LandingLanguageContext';
 import { getLearnPageTranslations, LESSON_SLUGS } from '@/data/website/learnPageTranslations';
 import { getLearnCardImage } from '@/data/website/learnCardImages';
 import { PageHero } from '@/components/PageHero';
+import { formatLandingDate } from '@/lib/formatLandingDate';
 
 /** Path pour chaque slug de leçon: 'articles' | 'lessons' */
 const LESSON_PATH_MAP: Record<string, 'articles' | 'lessons'> = {
@@ -21,7 +22,11 @@ const LESSON_PATH_MAP: Record<string, 'articles' | 'lessons'> = {
   'russian-instrumental-case': 'articles',
 };
 
-export default function LearnIndexClient() {
+export default function LearnIndexClient({
+  publishedDates,
+}: {
+  publishedDates: Record<string, string>;
+}) {
   const { landingLanguage } = useLandingLanguage();
   const t = getLearnPageTranslations(landingLanguage);
 
@@ -42,6 +47,7 @@ export default function LearnIndexClient() {
               const path = LESSON_PATH_MAP[slug] ?? 'lessons';
               const title = t.lessonTitles[slug];
               if (!title) return null;
+              const publishedLabel = formatLandingDate(publishedDates[slug], landingLanguage);
               return (
                 <Link
                   key={slug}
@@ -59,6 +65,11 @@ export default function LearnIndexClient() {
                   <div className="learn-grid-body">
                     <span className="learn-grid-badge">{t.badges.lesson}</span>
                     <span className="learn-grid-title">{title}</span>
+                    {publishedLabel && (
+                      <time className="learn-grid-date" dateTime={publishedDates[slug]}>
+                        {publishedLabel}
+                      </time>
+                    )}
                   </div>
                 </Link>
               );

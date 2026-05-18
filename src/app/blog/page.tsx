@@ -1,6 +1,7 @@
 import React from 'react';
 import { getLandingLangFromRequest } from '@/lib/landingLangServer';
 import { getLearnPageTranslations, ARTICLE_SLUGS } from '@/data/website/learnPageTranslations';
+import { getLearnArticlePublishedDate } from '@/data/learnArticles';
 import BlogIndexClient from './BlogIndexClient';
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://russiandeclensions.com';
@@ -11,9 +12,12 @@ export default async function BlogIndexPage() {
 
   const itemListElements: { '@type': 'ListItem'; position: number; name: string; url: string }[] =
     [];
+  const publishedDates: Record<string, string> = {};
   let pos = 1;
   for (const slug of ARTICLE_SLUGS) {
     const title = t.articleTitles[slug];
+    const date = getLearnArticlePublishedDate(slug);
+    if (date) publishedDates[slug] = date;
     if (title) {
       itemListElements.push({
         '@type': 'ListItem',
@@ -57,7 +61,7 @@ export default async function BlogIndexPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(blogJsonLd) }}
       />
-      <BlogIndexClient />
+      <BlogIndexClient publishedDates={publishedDates} />
     </>
   );
 }

@@ -736,3 +736,24 @@ export function getLearnLesson(slug: string, lang?: LandingLanguage): LearnLesso
 export function getAllLearnLessonSlugs(): string[] {
   return Object.keys(learnLessons);
 }
+
+/** Date de publication (ISO) issue du JSON-LD de la leçon (direct ou @graph), si présente. */
+export function getLearnLessonPublishedDate(slug: string): string | null {
+  const lesson = learnLessons[slug];
+  if (!lesson) return null;
+  const jl = lesson.jsonLd as Record<string, unknown>;
+  if (typeof jl.datePublished === 'string') return jl.datePublished;
+  const graph = jl['@graph'];
+  if (Array.isArray(graph)) {
+    for (const node of graph) {
+      if (
+        node &&
+        typeof node === 'object' &&
+        typeof (node as Record<string, unknown>).datePublished === 'string'
+      ) {
+        return (node as Record<string, unknown>).datePublished as string;
+      }
+    }
+  }
+  return null;
+}

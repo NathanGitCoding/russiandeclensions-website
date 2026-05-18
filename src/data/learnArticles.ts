@@ -175,6 +175,15 @@ export interface LearnArticle {
     | 'orange';
 }
 
+/** Auteur affiché sous l’intro de chaque article (photo + ligne « écrit par »). */
+export const ARTICLE_BYLINE = {
+  text: "**Written by Nathan** — native French speaker; I'm learning Russian and sharing what actually works for grammar, cases, and daily practice.",
+  imageSrc: '/landing-cases/founder-photo.webp',
+  imageAlt: 'Nathan, founder of Russian Cases with Anna',
+  imageWidth: 256,
+  imageHeight: 256,
+} as const;
+
 export const learnArticles: Record<string, LearnArticle> = {
   'top-10-apps-russian': {
     slug: 'top-10-apps-russian',
@@ -193,13 +202,7 @@ export const learnArticles: Record<string, LearnArticle> = {
     h1: 'Top 10 Apps to Learn Russian in 2026: Deep Reviews & Rankings',
     intro:
       'Learning Russian in 2026 no longer looks like a dusty textbook and a red-pen workbook. Speech recognition, spaced-repetition titans, AI conversation partners, and specialist grammar drills are mainstream—which is exciting until you realise **more** apps means **harder** choices, not simpler ones.\n\nThe App Store and Play Store are crowded with Russian products, each promising fluency on a tight schedule. The real risk is not downloading a "bad" app; it is losing months to the **wrong stack for your goal**—pretty streaks when you need disciplined case practice, or endless gamification when what you actually need is endings you can deploy under pressure in real sentences.\n\nWe have spent 100+ hours testing the latest updates, flagship courses, tutor marketplaces, and niche drill tools to bring you a **definitive ranking of the best Russian learning apps** this year. We stress-tested more than thirty iOS, Android, and web tools—subscriptions, freemium giants, audio-first programmes, community-feedback apps, and case-focused trainers—and narrowed the field to **ten you can trust**. The picks below are mapped to how people actually study: **daily habit**, **structured scenarios**, **Russian cases and declensions**, **human tutoring**, **audio-first learning**, **memory-driven vocabulary**, **story and podcast immersion**, and **fast pattern practice** once the basics stick.\n\nIf your bottleneck is **Russian cases** (not tourist phrases alone), start with our method piece: [How to practice Russian cases: five methods, drills & a weekly habit](/learn/articles/how-to-practice-russian-cases)—then come back here to choose apps that match how you really learn.',
-    introByline: {
-      text: "**Written by Nathan** — native French speaker; I'm learning Russian and sharing what actually works for grammar, cases, and daily practice.",
-      imageSrc: '/landing-cases/founder-photo.webp',
-      imageAlt: 'Nathan, founder of Russian Cases with Anna',
-      imageWidth: 256,
-      imageHeight: 256,
-    },
+    introByline: ARTICLE_BYLINE,
     tierListChart: {
       title: "We've ranked the top Russian learning apps — 2026 📱 🇷🇺",
       tiers: [
@@ -777,6 +780,7 @@ export const learnArticles: Record<string, LearnArticle> = {
   },
   'russian-case-endings-cheatsheet': {
     slug: 'russian-case-endings-cheatsheet',
+    introByline: ARTICLE_BYLINE,
     title: 'Russian Case Endings: The Ultimate Cheat Sheet & Chart',
     metaTitle:
       'Russian Case Endings Cheat Sheet | Complete Declension Chart | Russian Cases with Anna',
@@ -1171,6 +1175,7 @@ export const learnArticles: Record<string, LearnArticle> = {
   },
   'russian-genitive-case': {
     slug: 'russian-genitive-case',
+    introByline: ARTICLE_BYLINE,
     title: 'Russian Genitive Case: Rules, Endings & 32 Real Examples',
     metaTitle: 'Russian Genitive Case: Rules, Endings & Examples | Russian Cases with Anna',
     metaDescription:
@@ -1857,6 +1862,7 @@ export const learnArticles: Record<string, LearnArticle> = {
   },
   'russian-accusative-case': {
     slug: 'russian-accusative-case',
+    introByline: ARTICLE_BYLINE,
     title: 'Russian Accusative Case: Direct Objects, Animate vs. Inanimate & Motion Verbs',
     metaTitle: 'Russian Accusative Case: Rules, Endings & 30 Examples | Russian Cases with Anna',
     metaDescription:
@@ -2719,6 +2725,7 @@ export const learnArticles: Record<string, LearnArticle> = {
   },
   'russian-dative-case': {
     slug: 'russian-dative-case',
+    introByline: ARTICLE_BYLINE,
     title: 'Russian Dative Case: How to Say "To" and "For" in Russian',
     metaTitle:
       'Russian Dative Case: Rules, Endings, нравиться & 30 Examples | Russian Cases with Anna',
@@ -3549,6 +3556,7 @@ export const learnArticles: Record<string, LearnArticle> = {
   },
   'russian-instrumental-case': {
     slug: 'russian-instrumental-case',
+    introByline: ARTICLE_BYLINE,
     title: "Russian Instrumental Case: When to Use It and Why It's Easier Than You Think",
     metaTitle:
       'Russian Instrumental Case: Endings, Professions, с + Instrumental, 30 Examples | Russian Cases with Anna',
@@ -4161,6 +4169,7 @@ export const learnArticles: Record<string, LearnArticle> = {
   },
   'russian-prepositional-case': {
     slug: 'russian-prepositional-case',
+    introByline: ARTICLE_BYLINE,
     title: 'Russian Prepositional Case: The Only Case That Never Stands Alone',
     metaTitle:
       'Russian Prepositional Case: Endings, в vs на, о чём & 30 Examples | Russian Cases with Anna',
@@ -4834,6 +4843,7 @@ export const learnArticles: Record<string, LearnArticle> = {
   },
   'how-to-practice-russian-cases': {
     slug: 'how-to-practice-russian-cases',
+    introByline: ARTICLE_BYLINE,
     title: 'How to Practice Russian Cases: 5 Proven Methods',
     metaTitle: 'How to Practice Russian Cases: 5 Proven Methods to Finally Make Them Stick',
     metaDescription:
@@ -5193,6 +5203,7 @@ export const learnArticles: Record<string, LearnArticle> = {
   },
   'top-10-russian-case-mistakes': {
     slug: 'top-10-russian-case-mistakes',
+    introByline: ARTICLE_BYLINE,
     title: 'Top 10 Mistakes English Speakers Make with Russian Cases (And How to Fix Them)',
     metaTitle:
       'Top 10 Russian Case Mistakes English Speakers Make | Fix Your Grammar | Russian Cases with Anna',
@@ -5518,6 +5529,7 @@ export const learnArticles: Record<string, LearnArticle> = {
   },
   'russian-prepositions-and-cases': {
     slug: 'russian-prepositions-and-cases',
+    introByline: ARTICLE_BYLINE,
     title: 'Russian Prepositions and Cases: Which Case Does Each Preposition Take?',
     metaTitle:
       'Russian Prepositions and Cases | Complete Reference Guide | Russian Cases with Anna',
@@ -6087,6 +6099,7 @@ export const learnArticles: Record<string, LearnArticle> = {
   },
   'best-free-resources-learn-russian': {
     slug: 'best-free-resources-learn-russian',
+    introByline: ARTICLE_BYLINE,
     title: '15 Best Free Resources to Learn Russian in 2026',
     metaTitle: '15 Best Free Resources to Learn Russian in 2026 | Russian Cases with Anna',
     metaDescription:
@@ -6385,6 +6398,7 @@ export const learnArticles: Record<string, LearnArticle> = {
   },
   'russian-cases-explained-beginners-guide': {
     slug: 'russian-cases-explained-beginners-guide',
+    introByline: ARTICLE_BYLINE,
     title: "Russian Cases Explained Simply: A Beginner's Visual Guide",
     metaTitle:
       "Russian Cases Explained Simply: A Beginner's Visual Guide | Russian Cases with Anna",
@@ -6653,6 +6667,7 @@ export const learnArticles: Record<string, LearnArticle> = {
 
   'best-apps-learn-russian-grammar': {
     slug: 'best-apps-learn-russian-grammar',
+    introByline: ARTICLE_BYLINE,
     title: 'Best Apps to Learn Russian Grammar in 2026 (Honest Review)',
     metaTitle:
       'Best Apps to Learn Russian Grammar in 2026 — Honest Review | Russian Cases with Anna',
@@ -7036,6 +7051,7 @@ export const learnArticles: Record<string, LearnArticle> = {
 
   'how-long-learn-russian': {
     slug: 'how-long-learn-russian',
+    introByline: ARTICLE_BYLINE,
     title: 'How Long Does It Take to Learn Russian? (Realistic Timeline)',
     metaTitle:
       'How Long Does It Take to Learn Russian? Realistic Timeline by Level | Russian Cases with Anna',
@@ -7308,6 +7324,7 @@ export const learnArticles: Record<string, LearnArticle> = {
 
   'torfl-trki-russian-language-exam-guide': {
     slug: 'torfl-trki-russian-language-exam-guide',
+    introByline: ARTICLE_BYLINE,
     title: 'TORFL Exam (ТРКИ): Complete Guide to the Russian Language Proficiency Test',
     metaTitle:
       'TORFL Exam Guide (ТРКИ) — Levels, Format, Preparation & Registration | Russian Cases with Anna',
@@ -7670,6 +7687,7 @@ export const learnArticles: Record<string, LearnArticle> = {
 
   'russian-prepositions-cases-cheat-sheet': {
     slug: 'russian-prepositions-cases-cheat-sheet',
+    introByline: ARTICLE_BYLINE,
     title: 'Russian Prepositions & Cases Cheat Sheet: Which Case After Every Preposition',
     metaTitle:
       'Russian Prepositions & Cases Cheat Sheet — Which Case to Use | Russian Cases with Anna',
@@ -8123,4 +8141,12 @@ export function getLearnArticle(slug: string, lang?: LandingLanguage): LearnArti
 
 export function getAllLearnArticleSlugs(): string[] {
   return Object.keys(learnArticles);
+}
+
+/** Date de publication (ISO) issue du JSON-LD de l’article, si présente. */
+export function getLearnArticlePublishedDate(slug: string): string | null {
+  const a = learnArticles[slug];
+  if (!a) return null;
+  const d = (a.jsonLd as Record<string, unknown>).datePublished;
+  return typeof d === 'string' ? d : null;
 }

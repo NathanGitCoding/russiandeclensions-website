@@ -296,6 +296,12 @@
   line-height: 1.35;
   color: hsl(var(--foreground));
 }
+.learn-grid-date {
+  margin-top: auto;
+  padding-top: 0.5rem;
+  font-size: 0.8rem;
+  color: hsl(var(--muted-foreground));
+}
 
 /* Learn detail pages - lesson & article */
 .learn-detail {
