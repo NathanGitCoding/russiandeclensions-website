@@ -77,6 +77,7 @@ import { russianVerbsOfMotionDe } from './articleTranslationsDe/russian-verbs-of
 import { russianVerbsOfMotionTr } from './articleTranslationsTr/russian-verbs-of-motion';
 import { russianVerbsOfMotionPl } from './articleTranslationsPl/russian-verbs-of-motion';
 import { russianVerbsOfMotionEs } from './articleTranslationsEs/russian-verbs-of-motion';
+import { russianVerbsOfMotionIt } from './articleTranslationsIt/russian-verbs-of-motion';
 
 export const learnArticleTranslations: Partial<
   Record<string, Partial<Record<LandingLanguage, LearnArticle>>>
@@ -574,5 +575,6 @@ export const learnArticleTranslations: Partial<
     tr_tr: russianVerbsOfMotionTr,
     pl_pl: russianVerbsOfMotionPl,
     es_es: russianVerbsOfMotionEs,
+    it_it: russianVerbsOfMotionIt,
   },
 };
