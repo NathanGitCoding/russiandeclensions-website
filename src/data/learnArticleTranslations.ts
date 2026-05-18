@@ -72,6 +72,11 @@ import { howLongLearnRussianFr } from './articleTranslationsFr/how-long-learn-ru
 import { howLongLearnRussianDe } from './articleTranslationsDe/how-long-learn-russian';
 import { howLongLearnRussianTr } from './articleTranslationsTr/how-long-learn-russian';
 import { howLongLearnRussianPl } from './articleTranslationsPl/how-long-learn-russian';
+import { russianVerbsOfMotionFr } from './articleTranslationsFr/russian-verbs-of-motion';
+import { russianVerbsOfMotionDe } from './articleTranslationsDe/russian-verbs-of-motion';
+import { russianVerbsOfMotionTr } from './articleTranslationsTr/russian-verbs-of-motion';
+import { russianVerbsOfMotionPl } from './articleTranslationsPl/russian-verbs-of-motion';
+import { russianVerbsOfMotionEs } from './articleTranslationsEs/russian-verbs-of-motion';
 
 export const learnArticleTranslations: Partial<
   Record<string, Partial<Record<LandingLanguage, LearnArticle>>>
@@ -563,4 +568,11 @@ export const learnArticleTranslations: Partial<
     pl_pl: howLongLearnRussianPl,
   },
   'torfl-trki-russian-language-exam-guide': torflTrkiRussianLanguageExamGuideTranslations,
+  'russian-verbs-of-motion': {
+    fr_fr: russianVerbsOfMotionFr,
+    de_de: russianVerbsOfMotionDe,
+    tr_tr: russianVerbsOfMotionTr,
+    pl_pl: russianVerbsOfMotionPl,
+    es_es: russianVerbsOfMotionEs,
+  },
 };

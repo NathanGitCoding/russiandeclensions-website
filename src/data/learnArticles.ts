@@ -93,7 +93,7 @@ export interface LearnArticleSection {
   content?: string;
   /** Image illustrative pour la section */
   image?: LearnArticleSectionImage;
-  subsections?: { h3: string; content: string; bullets?: string[] }[];
+  subsections?: { h3: string; content: string; bullets?: string[]; table?: LearnArticleTable }[];
   table?: LearnArticleTable;
   bullets?: string[];
   /** Cartes d'erreurs (format ✗ Wrong / ✓ Correct / 📌 Why / 🔧 Fix) */
@@ -8124,6 +8124,346 @@ export const learnArticles: Record<string, LearnArticle> = {
       },
       keywords:
         'russian prepositions and cases, which case after в, russian preposition cheat sheet, russian cases after prepositions',
+    },
+  },
+
+  'russian-verbs-of-motion': {
+    slug: 'russian-verbs-of-motion',
+    introByline: ARTICLE_BYLINE,
+    title: 'Russian Verbs of Motion: The Complete Guide (идти, ходить, ехать, ездить)',
+    metaTitle:
+      'Russian Verbs of Motion: идти, ходить, ехать, ездить Explained | Russian Cases with Anna',
+    metaDescription:
+      'Master Russian verbs of motion: learn the difference between идти/ходить (on foot) and ехать/ездить (by vehicle), when to use unidirectional vs. multidirectional verbs, prefixed motion verbs, and how they connect to Russian cases.',
+    keywords: [
+      'russian verbs of motion',
+      'идти ходить',
+      'ехать ездить',
+      'unidirectional verbs russian',
+      'russian motion verbs grammar',
+      'determinate indeterminate verbs russian',
+      'prefixed verbs of motion russian',
+    ],
+    h1: 'Russian Verbs of Motion: The Complete Guide to идти, ходить, ехать & ездить',
+    heroImage: {
+      src: '/articles/russian-verbs-of-motion-complete-guide.webp',
+      alt: 'Russian verbs of motion guide — идти, ходить, ехать, ездить',
+      width: 1200,
+      height: 630,
+    },
+    intro:
+      'Russian verbs of motion are one of the most fascinating — and most feared — corners of Russian grammar. Unlike English, which simply uses "to go" for almost any kind of movement, **Russian forces you to specify exactly how you are moving**: on foot or by vehicle, one-way or habitually. Mess this up and a native speaker will understand you, but they will immediately know you are a learner.\n\nThe good news: the system is logical. Once you understand the two key distinctions — **unidirectional vs. multidirectional** and **on foot vs. by vehicle** — everything else follows predictable rules. This guide breaks down the full system with clear tables, real examples, and connections to **Russian grammatical cases**, so you can use these verbs correctly in conversation from day one.',
+    whatYouLearn: [
+      'The core difference between **идти** and **ходить** (and when to use each)',
+      'The core difference between **ехать** and **ездить** (vehicle travel)',
+      'The 14 most important Russian verbs of motion with their pairs',
+      'How prefixes transform motion verbs (приходить, уходить, приезжать…)',
+      'Which Russian cases verbs of motion trigger — and why',
+    ],
+    leadMagnetCta: {
+      title: 'Practice Russian Cases with Verbs of Motion',
+      description:
+        'Russian Cases with Anna is the only app dedicated to Russian declensions and cases. Verbs of motion trigger accusative and dative cases — our interactive quizzes help you drill them until they become automatic. Free to download on iOS and Android.',
+      ctaText: 'Download the App — Free',
+      ctaHref: '/',
+    },
+    sections: [
+      {
+        h2: 'What Makes Russian Verbs of Motion Unique?',
+        content:
+          'English has one all-purpose verb for movement: "to go." You say "I go to school," "I go by bus," "I go every day," and "I am going now" — all with the same verb, relying on context.\n\nRussian works differently. It has a dedicated class of **verbs of motion** (глаголы движения), and they encode two pieces of information that English ignores:\n\n1. **Direction of movement:** Is this a one-time, directed trip (I am going there right now) — or a general, habitual, or back-and-forth movement (I go there regularly)?\n2. **Mode of transport:** Am I going **on foot** (идти / ходить) or **by vehicle** (ехать / ездить)?\n\nThese distinctions are not optional add-ons. They are built into the verb form itself, and Russian speakers use them automatically without thinking.',
+        subsections: [
+          {
+            h3: 'Unidirectional vs. Multidirectional: The Core Concept',
+            content:
+              '**Unidirectional verbs** (also called determinate) describe movement in one specific direction, at one specific moment. Think of them as a straight arrow pointing somewhere.\n\n**Multidirectional verbs** (also called indeterminate) describe movement that is habitual, repeated, round-trip, or general — not a single focused trip. Think of them as a zigzag or a circle.',
+            bullets: [
+              '**Unidirectional (идти, ехать):** I am going to work *right now* / She is walking toward us / The train is leaving',
+              '**Multidirectional (ходить, ездить):** I go to work every day / She often walks in the park / He used to travel a lot',
+            ],
+          },
+          {
+            h3: 'The Quick Test',
+            content:
+              'When you want to use a Russian verb of motion, ask yourself two questions:\n\n**Question 1:** Am I describing movement happening right now in one direction, or movement that is habitual/repeated/round-trip?\n• Right now, one direction → use **unidirectional** (идти / ехать)\n• Habitual, repeated, or general → use **multidirectional** (ходить / ездить)\n\n**Question 2:** Am I moving on foot, or by vehicle (car, bus, train, bike…)?\n• On foot → идти / ходить\n• By vehicle → ехать / ездить',
+          },
+        ],
+      },
+      {
+        h2: 'The Two Core Verb Pairs: On Foot and By Vehicle',
+        content:
+          'The most important verb pairs are **идти/ходить** (movement on foot) and **ехать/ездить** (movement by vehicle). Here is how they compare:',
+        table: {
+          headers: ['', 'On Foot', 'By Vehicle'],
+          rows: [
+            ['**Unidirectional**', 'идти', 'ехать'],
+            ['**Multidirectional**', 'ходить', 'ездить'],
+          ],
+          caption: 'The four core Russian verbs of motion',
+          boldColumnIndices: [0],
+        },
+        subsections: [
+          {
+            h3: 'идти — Going (on foot, right now, one direction)',
+            content:
+              'Use **идти** when you are describing movement on foot that is happening right now, in a specific direction, as a single one-way trip.',
+            bullets: [
+              '**Я иду в магазин.** — I am going to the shop. (right now, on foot)',
+              '**Она идёт к нам.** — She is coming toward us. (in progress, on foot)',
+              '**Поезд идёт в Москву.** — The train is going to Moscow. (directional — even trains "walk" in Russian!)',
+              '**Дети идут в школу.** — The children are going to school. (right now, on foot)',
+            ],
+          },
+          {
+            h3: 'ходить — Going (on foot, habitually or round-trip)',
+            content:
+              'Use **ходить** when movement on foot is habitual, repeated, or describes the general ability/tendency to go somewhere.',
+            bullets: [
+              '**Я хожу в спортзал каждый день.** — I go to the gym every day. (habitual)',
+              '**Мы часто ходим в кино.** — We often go to the cinema. (repeated)',
+              '**Вчера я ходил в банк.** — Yesterday I went to the bank (and came back). (round-trip completed in the past)',
+              '**Она хорошо ходит.** — She walks well. (general ability)',
+            ],
+          },
+          {
+            h3: 'ехать — Going (by vehicle, right now, one direction)',
+            content:
+              'Use **ехать** when movement by vehicle (car, train, bus, bike…) is happening right now, in a specific direction.',
+            bullets: [
+              '**Мы едем в Москву.** — We are going to Moscow. (by vehicle, right now)',
+              '**Автобус едет медленно.** — The bus is going slowly. (in progress)',
+              '**Я еду на такси.** — I am going by taxi. (specific trip, right now)',
+              '**Машина едет быстро.** — The car is going fast. (directional movement)',
+            ],
+          },
+          {
+            h3: 'ездить — Going (by vehicle, habitually or round-trip)',
+            content:
+              'Use **ездить** when vehicle travel is habitual, repeated, or describes the general tendency.',
+            bullets: [
+              '**Я езжу на работу на метро.** — I go to work by metro. (daily habit)',
+              '**Она часто ездит за границу.** — She often travels abroad. (repeated)',
+              '**Вчера мы ездили на дачу.** — Yesterday we went to the dacha (and came back). (round-trip in past)',
+              '**Он умеет ездить на велосипеде.** — He knows how to ride a bike. (ability)',
+            ],
+          },
+          {
+            h3: 'The Full Table: 14 Verbs of Motion',
+            content:
+              'Russian actually has 14 pairs of motion verbs — each encoding a different type of movement. The most common are listed below.',
+            table: {
+              headers: ['Unidirectional', 'Multidirectional', 'Meaning'],
+              rows: [
+                ['идти', 'ходить', 'go on foot'],
+                ['ехать', 'ездить', 'go by vehicle'],
+                ['бежать', 'бегать', 'run'],
+                ['лететь', 'летать', 'fly'],
+                ['плыть', 'плавать', 'swim / sail'],
+                ['нести', 'носить', 'carry (on foot)'],
+                ['везти', 'возить', 'carry (by vehicle)'],
+                ['вести', 'водить', 'lead / drive (s.o.)'],
+                ['ползти', 'ползать', 'crawl'],
+                ['лезть', 'лазить', 'climb'],
+              ],
+              caption: 'The most common Russian verb-of-motion pairs',
+              boldColumnIndices: [0, 1],
+            },
+          },
+        ],
+      },
+      {
+        h2: 'Prefixed Verbs of Motion: The Next Level',
+        content:
+          'Once you add a **prefix** to a verb of motion, something important happens: the verb **loses its unidirectional/multidirectional distinction** and instead becomes a regular imperfective/perfective pair. Prefixes indicate a specific type or direction of movement, and they always attach to the multidirectional base.',
+        subsections: [
+          {
+            h3: 'How Prefixes Work',
+            content:
+              'Take the prefix **при-** (meaning "arrival, coming to"). You attach it to both forms:\n\n• **при-** + ходить → **приходить** (to come/arrive regularly — imperfective)\n• **при-** + йти → **прийти** (to come/arrive — perfective)\n\nNote: **идти** changes its spelling when prefixed (usually → -йти). **ехать** becomes **-езжать** (imperfective) and **-ехать** (perfective).',
+            bullets: [
+              '**приходить / прийти** — to arrive (on foot)',
+              '**уходить / уйти** — to leave, go away (on foot)',
+              '**выходить / выйти** — to go out, exit (on foot)',
+              '**входить / войти** — to enter, go in (on foot)',
+              '**переходить / перейти** — to cross, go across (on foot)',
+              '**приезжать / приехать** — to arrive (by vehicle)',
+              '**уезжать / уехать** — to leave (by vehicle)',
+              '**выезжать / выехать** — to drive out, exit (by vehicle)',
+            ],
+          },
+          {
+            h3: 'The Most Common Prefixes',
+            content: 'Here are the key prefixes you will encounter daily, with their meanings:',
+            table: {
+              headers: ['Prefix', 'Meaning', 'Example (on foot)', 'Example (by vehicle)'],
+              rows: [
+                ['при-', 'arrival', 'приходить (to come)', 'приезжать (to arrive)'],
+                ['у-', 'departure', 'уходить (to leave)', 'уезжать (to depart)'],
+                ['вы-', 'exit', 'выходить (to go out)', 'выезжать (to drive out)'],
+                ['в-/вой-', 'entry', 'входить (to enter)', 'въезжать (to drive in)'],
+                ['пере-', 'crossing', 'переходить (to cross)', 'переезжать (to move/cross)'],
+                ['под-', 'approaching', 'подходить (to approach)', 'подъезжать (to pull up)'],
+                ['от-', 'moving away', 'отходить (to step away)', 'отъезжать (to drive off)'],
+                ['за-', 'stopping by', 'заходить (to stop by)', 'заезжать (to drop by)'],
+                ['до-', 'reaching', 'доходить (to reach)', 'доезжать (to get to)'],
+              ],
+              caption: 'Russian motion verb prefixes — on foot vs. by vehicle',
+              boldColumnIndices: [0],
+            },
+          },
+          {
+            h3: 'Examples in Real Sentences',
+            content:
+              'Here is how prefixed motion verbs work in context. Notice how the prefix makes the direction of movement completely unambiguous:',
+            bullets: [
+              '**Он пришёл домой в 6 часов.** — He came home at 6 o’clock. (прийти — arrived on foot, perfective)',
+              '**Она ушла из офиса.** — She left the office. (уйти — departed on foot, perfective)',
+              '**Они приехали из Лондона.** — They arrived from London. (приехать — arrived by vehicle, perfective)',
+              '**Я выхожу из дома каждое утро.** — I leave the house every morning. (выходить — habitual, imperfective)',
+              '**Когда ты придёшь?** — When will you come? (прийти — future, perfective)',
+            ],
+          },
+        ],
+      },
+      {
+        h2: 'Verbs of Motion and Russian Cases',
+        content:
+          'Russian verbs of motion connect directly to the **grammatical case system**. The case you need depends on whether you are talking about **destination (where are you going?)** or **location (where are you?)**. This is also where verbs of motion overlap with the broader preposition-case system.',
+        subsections: [
+          {
+            h3: 'Direction (куда?) → Accusative Case',
+            content:
+              'When answering the question **куда?** (where to?), Russian uses the **accusative case** after motion verbs. This applies with prepositions **в** and **на** to indicate direction.',
+            bullets: [
+              '**Я иду в школу.** — I am going to school. (школу = accusative of школа)',
+              '**Мы едем на работу.** — We are going to work. (работу = accusative of работа)',
+              '**Она идёт в магазин.** — She is going to the shop. (магазин = accusative)',
+              '**Он едет на вокзал.** — He is going to the station. (вокзал = accusative)',
+            ],
+          },
+          {
+            h3: 'Location (где?) → Prepositional Case',
+            content:
+              'When answering the question **где?** (where?/at what location?), Russian uses the **prepositional case** with the same prepositions **в** and **на** — but now they indicate static location, not motion.',
+            bullets: [
+              '**Я учусь в школе.** — I study at school. (школе = prepositional of школа)',
+              '**Мы работаем на заводе.** — We work at the factory. (заводе = prepositional)',
+              '**Она живёт в Москве.** — She lives in Moscow. (Москве = prepositional)',
+            ],
+          },
+          {
+            h3: 'The Direction-Location Contrast',
+            content:
+              'This contrast — **accusative for direction, prepositional for location** — is the single most important case rule connected to verbs of motion. It applies with **в** (in/into) and **на** (on/onto):',
+            table: {
+              headers: ['Question', 'Case', 'Preposition', 'Example'],
+              rows: [
+                ['куда? (where to?)', 'Accusative', 'в / на', 'Я иду **в школу**'],
+                ['где? (where?)', 'Prepositional', 'в / на', 'Я нахожусь **в школе**'],
+              ],
+              caption: 'Direction vs. location: accusative vs. prepositional',
+              boldColumnIndices: [1],
+            },
+          },
+          {
+            h3: 'Dative Case with к (toward a person)',
+            content:
+              'When you move **toward a person** (as opposed to a place), Russian uses the preposition **к** + **dative case**.',
+            bullets: [
+              '**Я иду к врачу.** — I am going to the doctor. (врачу = dative of врач)',
+              '**Она едет к маме.** — She is going to her mother\'s. (маме = dative of мама)',
+              '**Мы идём к другу.** — We are going to our friend\'s. (другу = dative of друг)',
+            ],
+          },
+        ],
+        bullets: [
+          '**куда?** (where to?) → **в/на + Accusative** after direction verbs',
+          '**где?** (where?) → **в/на + Prepositional** for static location',
+          '**к кому?** (toward whom?) → **к + Dative** when moving toward a person',
+          'Memorize this trio and you will eliminate 80% of motion verb case errors',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'What is the difference between идти and ходить?',
+        answer:
+          '**идти** is unidirectional: it describes movement on foot happening right now, in one specific direction (e.g., "I am going to the store right now"). **ходить** is multidirectional: it describes habitual, repeated, or round-trip movement on foot (e.g., "I go to the store every day" or "Yesterday I went to the store and came back"). The key question to ask is: am I describing a single directed trip right now, or a general/repeated pattern?',
+      },
+      {
+        question: 'What is the difference between ехать and ездить?',
+        answer:
+          '**ехать** is the unidirectional verb for vehicle travel — it describes a specific trip happening right now (e.g., "We are going to Moscow by train"). **ездить** is the multidirectional verb — it describes habitual or repeated vehicle travel (e.g., "I commute to work by metro every day" or "She often travels abroad"). The logic is identical to идти vs. ходить, but for vehicle movement.',
+      },
+      {
+        question: 'When do verbs of motion use the accusative case?',
+        answer:
+          'Verbs of motion use the **accusative case** when expressing **destination** (куда? — where to?). With prepositions **в** and **на** indicating direction, the following noun takes the accusative: "Я иду **в школу**" (I am going to school), "Мы едем **на работу**" (We are going to work). This contrasts with the prepositional case used for static location (where you already are).',
+      },
+      {
+        question: 'How do prefixed verbs of motion work?',
+        answer:
+          'When you add a prefix to a verb of motion, it changes the focus from the type of movement (one-way vs. habitual) to the **direction or manner** of movement. The prefix attaches to both the imperfective and perfective form. For example, **при-** (arrival) + ходить/идти = **приходить** (imperfective: to come regularly) / **прийти** (perfective: to arrive once). Common prefixes: при- (arrival), у- (departure), вы- (exit), в- (entry), пере- (crossing).',
+      },
+      {
+        question: 'Do all Russian verbs of motion come in pairs?',
+        answer:
+          'Yes — all 14 Russian verbs of motion come in unidirectional/multidirectional pairs: идти/ходить (on foot), ехать/ездить (by vehicle), бежать/бегать (run), лететь/летать (fly), плыть/плавать (swim/sail), нести/носить (carry on foot), везти/возить (carry by vehicle), and more. The most important pairs to master first are идти/ходить and ехать/ездить, which cover the vast majority of everyday usage.',
+      },
+    ],
+    conclusion: '',
+    conclusionIntro:
+      'Russian verbs of motion are a powerful system that, once understood, makes your Russian dramatically more precise and natural. Here is the core summary:',
+    conclusionBullets: [
+      '**идти** = on foot, right now, one direction | **ходить** = on foot, habitual or round-trip',
+      '**ехать** = by vehicle, right now, one direction | **ездить** = by vehicle, habitual or round-trip',
+      'After prefixes (при-, у-, вы-, в-…), the unidirectional/multidirectional distinction becomes imperfective/perfective',
+      'Direction (куда?) → accusative case; Location (где?) → prepositional case; Toward a person (к кому?) → dative',
+      'Practice with real sentences — motion verbs click into place much faster in context than through tables alone',
+    ],
+    conclusionOutro:
+      'Ready to drill Russian cases triggered by verbs of motion? Our free interactive quiz at russiandeclensions.com/practice lets you practice accusative, dative, and prepositional declensions with immediate feedback.',
+    internalLinks: [
+      { href: '/practice', label: 'Free Russian Declension Quiz — practice all 6 cases' },
+      { href: '/learn/articles/russian-accusative-case', label: 'Russian Accusative Case Guide' },
+      { href: '/learn/articles/russian-dative-case', label: 'Russian Dative Case Guide' },
+      {
+        href: '/learn/articles/russian-prepositional-case',
+        label: 'Russian Prepositional Case Guide',
+      },
+      {
+        href: '/learn/articles/russian-prepositions-and-cases',
+        label: 'Russian Prepositions & Cases: Complete Reference',
+      },
+      {
+        href: '/learn/articles/how-to-practice-russian-cases',
+        label: 'How to Practice Russian Cases: 5 Proven Methods',
+      },
+    ],
+    ctaText: 'Practice Russian Cases — Free →',
+    ctaHref: '/practice',
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: 'Russian Verbs of Motion: The Complete Guide to идти, ходить, ехать & ездить',
+      description:
+        'Master Russian verbs of motion: understand идти/ходить vs. ехать/ездить, the unidirectional/multidirectional distinction, prefixed verbs, and the case system they trigger.',
+      datePublished: '2026-05-18',
+      dateModified: '2026-05-18',
+      author: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': 'https://russiandeclensions.com/learn/articles/russian-verbs-of-motion',
+      },
+      keywords:
+        'russian verbs of motion, идти ходить, ехать ездить, unidirectional verbs russian, determinate indeterminate verbs, prefixed motion verbs',
+      image: {
+        '@type': 'ImageObject',
+        url: 'https://russiandeclensions.com/articles/russian-verbs-of-motion-complete-guide.webp',
+        width: 1200,
+        height: 630,
+      },
     },
   },
 };
