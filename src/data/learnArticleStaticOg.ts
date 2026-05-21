@@ -14,6 +14,11 @@ export const LEARN_ARTICLE_STATIC_OG: Record<string, LearnArticleStaticOgEntry> 
     width: 1200,
     height: 630,
   },
+  'learn-russian-on-your-own': {
+    relativeToPublic: 'articles/learn-russian-on-your-own.webp',
+    width: 1200,
+    height: 630,
+  },
 };
 
 /** Fragment `Article` JSON-LD (image + auteur) — même URL pour toutes les langues. */

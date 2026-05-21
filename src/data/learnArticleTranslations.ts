@@ -26,6 +26,12 @@ import { russianPrepositionalCaseFr } from './articleTranslationsFr/russian-prep
 import { russianInstrumentalCaseDe } from './articleTranslationsDe/russian-instrumental-case';
 import { russianPrepositionalCaseDe } from './articleTranslationsDe/russian-prepositional-case';
 import { torflTrkiRussianLanguageExamGuideTranslations } from './learnArticleTranslationsTorflTrki';
+import { learnRussianOnYourOwnFr } from './articleTranslationsFr/learn-russian-on-your-own';
+import { learnRussianOnYourOwnDe } from './articleTranslationsDe/learn-russian-on-your-own';
+import { learnRussianOnYourOwnEs } from './articleTranslationsEs/learn-russian-on-your-own';
+import { learnRussianOnYourOwnIt } from './articleTranslationsIt/learn-russian-on-your-own';
+import { learnRussianOnYourOwnPl } from './articleTranslationsPl/learn-russian-on-your-own';
+import { learnRussianOnYourOwnTr } from './articleTranslationsTr/learn-russian-on-your-own';
 import { russianCaseEndingsCheatsheetDe } from './articleTranslationsDe/russian-case-endings-cheatsheet';
 import { russianCaseEndingsCheatsheetTr } from './articleTranslationsTr/russian-case-endings-cheatsheet';
 import { russianCaseEndingsCheatsheetPl } from './articleTranslationsPl/russian-case-endings-cheatsheet';
@@ -576,5 +582,13 @@ export const learnArticleTranslations: Partial<
     pl_pl: russianVerbsOfMotionPl,
     es_es: russianVerbsOfMotionEs,
     it_it: russianVerbsOfMotionIt,
+  },
+  'learn-russian-on-your-own': {
+    fr_fr: learnRussianOnYourOwnFr,
+    de_de: learnRussianOnYourOwnDe,
+    es_es: learnRussianOnYourOwnEs,
+    it_it: learnRussianOnYourOwnIt,
+    pl_pl: learnRussianOnYourOwnPl,
+    tr_tr: learnRussianOnYourOwnTr,
   },
 };
