@@ -49,6 +49,7 @@ export const ARTICLE_SLUGS = [
   'torfl-trki-russian-language-exam-guide',
   'russian-prepositions-cases-cheat-sheet',
   'russian-verbs-of-motion',
+  'learn-russian-on-your-own',
 ] as const;
 
 const en: LearnPageTranslations = {
@@ -95,6 +96,7 @@ const en: LearnPageTranslations = {
       'Russian Prepositions & Cases Cheat Sheet: Which Case After Every Preposition',
     'russian-verbs-of-motion':
       'Russian Verbs of Motion: The Complete Guide (идти, ходить, ехать, ездить)',
+    'learn-russian-on-your-own': 'Can You Learn Russian on Your Own? (Honest Answer + Full Roadmap)',
   },
   practiceQuiz: {
     title: 'Practice Quiz',
@@ -157,6 +159,8 @@ const fr: LearnPageTranslations = {
       'Aide-mémoire prépositions et cas russes : quel cas après chaque préposition',
     'russian-verbs-of-motion':
       'Verbes de mouvement russes : guide complet (идти, ходить, ехать, ездить)',
+    'learn-russian-on-your-own':
+      'Peut-on apprendre le russe seul ? (Réponse honnête + feuille de route complète)',
   },
   practiceQuiz: {
     title: 'Quiz de pratique',
@@ -215,6 +219,8 @@ const tr: LearnPageTranslations = {
     'russian-prepositions-cases-cheat-sheet':
       'Rusça edatlar ve haller: Her edattan sonra hangi hal kullanılır',
     'russian-verbs-of-motion': 'Rusça hareket fiilleri: Tam rehber (идти, ходить, ехать, ездить)',
+    'learn-russian-on-your-own':
+      'Rusçayı kendi başınıza öğrenebilir misiniz? (Dürüst cevap + tam yol haritası)',
   },
   practiceQuiz: {
     title: 'Alıştırma Testi',
@@ -276,6 +282,8 @@ const de: LearnPageTranslations = {
       'Russische Präpositionen und Fälle: Welcher Fall nach jeder Präposition',
     'russian-verbs-of-motion':
       'Russische Bewegungsverben: Der vollständige Leitfaden (идти, ходить, ехать, ездить)',
+    'learn-russian-on-your-own':
+      'Kann man Russisch alleine lernen? (Ehrliche Antwort + vollständiger Lernplan)',
   },
   practiceQuiz: {
     title: 'Übungsquiz',
@@ -338,6 +346,8 @@ const pl: LearnPageTranslations = {
       'Rosyjskie przyimki i przypadki: Który przypadek po każdym przyimku',
     'russian-verbs-of-motion':
       'Rosyjskie czasowniki ruchu: Kompletny przewodnik (идти, ходить, ехать, ездить)',
+    'learn-russian-on-your-own':
+      'Czy można nauczyć się rosyjskiego samodzielnie? (Szczera odpowiedź + pełny plan)',
   },
   practiceQuiz: {
     title: 'Quiz praktyczny',
@@ -398,6 +408,8 @@ const ru: LearnPageTranslations = {
       'Русские предлоги и падежи: какой падеж после каждого предлога',
     'russian-verbs-of-motion':
       'Глаголы движения в русском: полное руководство (идти, ходить, ехать, ездить)',
+    'learn-russian-on-your-own':
+      'Можно ли выучить русский самостоятельно? (Честный ответ + полный план)',
   },
   practiceQuiz: {
     title: 'Тренировочный тест',
@@ -458,6 +470,8 @@ const es: LearnPageTranslations = {
       'Chuleta de preposiciones y casos rusos: qué caso después de cada preposición',
     'russian-verbs-of-motion':
       'Verbos de movimiento en ruso: guía completa (идти, ходить, ехать, ездить)',
+    'learn-russian-on-your-own':
+      '¿Puedes aprender ruso por tu cuenta? (Respuesta honesta + hoja de ruta completa)',
   },
   practiceQuiz: {
     title: 'Cuestionario de práctica',
@@ -519,6 +533,8 @@ const it: LearnPageTranslations = {
     'russian-prepositions-cases-cheat-sheet':
       'Prontuario preposizioni e casi russi: quale caso dopo ogni preposizione',
     'russian-verbs-of-motion': 'Verbi di moto russi: guida completa (идти, ходить, ехать, ездить)',
+    'learn-russian-on-your-own':
+      'Puoi imparare il russo da solo? (Risposta onesta + piano completo)',
   },
   practiceQuiz: {
     title: 'Quiz di esercizio',
@@ -579,6 +595,8 @@ const pt: LearnPageTranslations = {
       'Resumo de preposições e casos russos: que caso após cada preposição',
     'russian-verbs-of-motion':
       'Verbos de movimento em russo: guia completo (идти, ходить, ехать, ездить)',
+    'learn-russian-on-your-own':
+      'Podes aprender russo sozinho? (Resposta honesta + plano completo)',
   },
   practiceQuiz: {
     title: 'Questionário de prática',
@@ -640,6 +658,8 @@ const nl: LearnPageTranslations = {
       'Russische voorzetsels en gevallen spiekbriefje: welk geval na elk voorzetsel',
     'russian-verbs-of-motion':
       'Russische bewegingswerkwoorden: complete gids (идти, ходить, ехать, ездить)',
+    'learn-russian-on-your-own':
+      'Kun je Russisch zelf leren? (Eerlijk antwoord + compleet stappenplan)',
   },
   practiceQuiz: {
     title: 'Oefenquiz',
