@@ -4,7 +4,7 @@
  * de droit ont été téléchargées pour combler les manques.
  */
 
-const FALLBACK = '/articles/the-six-russian-cases-quick-reference.webp';
+const FALLBACK = '/articles/russia-kremlin-moscow.webp';
 
 const LEARN_CARD_IMAGES: Record<string, string> = {
   // Grammar lessons
