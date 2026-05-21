@@ -42,7 +42,7 @@ export default function BlogIndexClient({
             </Link>
           </div>
           <div className="learn-grid">
-            {ARTICLE_SLUGS.map((slug) => {
+            {[...ARTICLE_SLUGS].reverse().map((slug) => {
               const title = t.articleTitles[slug];
               if (!title) return null;
               const publishedLabel = formatLandingDate(publishedDates[slug], landingLanguage);
