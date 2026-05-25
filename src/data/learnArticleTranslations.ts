@@ -84,6 +84,12 @@ import { russianVerbsOfMotionTr } from './articleTranslationsTr/russian-verbs-of
 import { russianVerbsOfMotionPl } from './articleTranslationsPl/russian-verbs-of-motion';
 import { russianVerbsOfMotionEs } from './articleTranslationsEs/russian-verbs-of-motion';
 import { russianVerbsOfMotionIt } from './articleTranslationsIt/russian-verbs-of-motion';
+import { russianAlphabetCyrillicGuideFr } from './articleTranslationsFr/russian-alphabet-cyrillic-guide';
+import { russianAlphabetCyrillicGuideDe } from './articleTranslationsDe/russian-alphabet-cyrillic-guide';
+import { russianAlphabetCyrillicGuideTr } from './articleTranslationsTr/russian-alphabet-cyrillic-guide';
+import { russianAlphabetCyrillicGuidePl } from './articleTranslationsPl/russian-alphabet-cyrillic-guide';
+import { russianAlphabetCyrillicGuideEs } from './articleTranslationsEs/russian-alphabet-cyrillic-guide';
+import { russianAlphabetCyrillicGuideIt } from './articleTranslationsIt/russian-alphabet-cyrillic-guide';
 
 export const learnArticleTranslations: Partial<
   Record<string, Partial<Record<LandingLanguage, LearnArticle>>>
@@ -590,5 +596,13 @@ export const learnArticleTranslations: Partial<
     it_it: learnRussianOnYourOwnIt,
     pl_pl: learnRussianOnYourOwnPl,
     tr_tr: learnRussianOnYourOwnTr,
+  },
+  'russian-alphabet-cyrillic-guide': {
+    fr_fr: russianAlphabetCyrillicGuideFr,
+    de_de: russianAlphabetCyrillicGuideDe,
+    tr_tr: russianAlphabetCyrillicGuideTr,
+    pl_pl: russianAlphabetCyrillicGuidePl,
+    es_es: russianAlphabetCyrillicGuideEs,
+    it_it: russianAlphabetCyrillicGuideIt,
   },
 };

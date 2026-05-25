@@ -50,6 +50,7 @@ export const ARTICLE_SLUGS = [
   'russian-prepositions-cases-cheat-sheet',
   'russian-verbs-of-motion',
   'learn-russian-on-your-own',
+  'russian-alphabet-cyrillic-guide',
 ] as const;
 
 const en: LearnPageTranslations = {
@@ -97,6 +98,7 @@ const en: LearnPageTranslations = {
     'russian-verbs-of-motion':
       'Russian Verbs of Motion: The Complete Guide (идти, ходить, ехать, ездить)',
     'learn-russian-on-your-own': 'Can You Learn Russian on Your Own? (Honest Answer + Full Roadmap)',
+    'russian-alphabet-cyrillic-guide': 'Russian Alphabet: Learn Cyrillic in 3 Simple Steps',
   },
   practiceQuiz: {
     title: 'Practice Quiz',
@@ -161,6 +163,8 @@ const fr: LearnPageTranslations = {
       'Verbes de mouvement russes : guide complet (идти, ходить, ехать, ездить)',
     'learn-russian-on-your-own':
       'Peut-on apprendre le russe seul ? (Réponse honnête + feuille de route complète)',
+    'russian-alphabet-cyrillic-guide':
+      "L'alphabet russe : apprendre le cyrillique en 3 étapes simples",
   },
   practiceQuiz: {
     title: 'Quiz de pratique',
@@ -221,6 +225,7 @@ const tr: LearnPageTranslations = {
     'russian-verbs-of-motion': 'Rusça hareket fiilleri: Tam rehber (идти, ходить, ехать, ездить)',
     'learn-russian-on-your-own':
       'Rusçayı kendi başınıza öğrenebilir misiniz? (Dürüst cevap + tam yol haritası)',
+    'russian-alphabet-cyrillic-guide': 'Rus Alfabesi: Kiril Alfabesini 3 Basit Adımda Öğrenin',
   },
   practiceQuiz: {
     title: 'Alıştırma Testi',
@@ -284,6 +289,8 @@ const de: LearnPageTranslations = {
       'Russische Bewegungsverben: Der vollständige Leitfaden (идти, ходить, ехать, ездить)',
     'learn-russian-on-your-own':
       'Kann man Russisch alleine lernen? (Ehrliche Antwort + vollständiger Lernplan)',
+    'russian-alphabet-cyrillic-guide':
+      'Russisches Alphabet: Kyrillisch in 3 einfachen Schritten lernen',
   },
   practiceQuiz: {
     title: 'Übungsquiz',
@@ -348,6 +355,8 @@ const pl: LearnPageTranslations = {
       'Rosyjskie czasowniki ruchu: Kompletny przewodnik (идти, ходить, ехать, ездить)',
     'learn-russian-on-your-own':
       'Czy można nauczyć się rosyjskiego samodzielnie? (Szczera odpowiedź + pełny plan)',
+    'russian-alphabet-cyrillic-guide':
+      'Rosyjski alfabet: naucz się cyrylicy w 3 prostych krokach',
   },
   practiceQuiz: {
     title: 'Quiz praktyczny',
@@ -410,6 +419,8 @@ const ru: LearnPageTranslations = {
       'Глаголы движения в русском: полное руководство (идти, ходить, ехать, ездить)',
     'learn-russian-on-your-own':
       'Можно ли выучить русский самостоятельно? (Честный ответ + полный план)',
+    'russian-alphabet-cyrillic-guide':
+      'Русский алфавит: учим кириллицу за 3 простых шага',
   },
   practiceQuiz: {
     title: 'Тренировочный тест',
@@ -472,6 +483,8 @@ const es: LearnPageTranslations = {
       'Verbos de movimiento en ruso: guía completa (идти, ходить, ехать, ездить)',
     'learn-russian-on-your-own':
       '¿Puedes aprender ruso por tu cuenta? (Respuesta honesta + hoja de ruta completa)',
+    'russian-alphabet-cyrillic-guide':
+      'El alfabeto ruso: aprende el cirílico en 3 pasos simples',
   },
   practiceQuiz: {
     title: 'Cuestionario de práctica',
@@ -535,6 +548,8 @@ const it: LearnPageTranslations = {
     'russian-verbs-of-motion': 'Verbi di moto russi: guida completa (идти, ходить, ехать, ездить)',
     'learn-russian-on-your-own':
       'Puoi imparare il russo da solo? (Risposta onesta + piano completo)',
+    'russian-alphabet-cyrillic-guide':
+      "L'alfabeto russo: impara il cirillico in 3 semplici passi",
   },
   practiceQuiz: {
     title: 'Quiz di esercizio',
@@ -597,6 +612,8 @@ const pt: LearnPageTranslations = {
       'Verbos de movimento em russo: guia completo (идти, ходить, ехать, ездить)',
     'learn-russian-on-your-own':
       'Podes aprender russo sozinho? (Resposta honesta + plano completo)',
+    'russian-alphabet-cyrillic-guide':
+      'O alfabeto russo: aprende o cirílico em 3 passos simples',
   },
   practiceQuiz: {
     title: 'Questionário de prática',
@@ -660,6 +677,8 @@ const nl: LearnPageTranslations = {
       'Russische bewegingswerkwoorden: complete gids (идти, ходить, ехать, ездить)',
     'learn-russian-on-your-own':
       'Kun je Russisch zelf leren? (Eerlijk antwoord + compleet stappenplan)',
+    'russian-alphabet-cyrillic-guide':
+      'Russisch alfabet: leer het Cyrillisch in 3 eenvoudige stappen',
   },
   practiceQuiz: {
     title: 'Oefenquiz',

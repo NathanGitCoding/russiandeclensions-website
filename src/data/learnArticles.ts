@@ -8467,6 +8467,366 @@ export const learnArticles: Record<string, LearnArticle> = {
     },
   },
 
+  'russian-alphabet-cyrillic-guide': {
+    slug: 'russian-alphabet-cyrillic-guide',
+    title: 'Russian Alphabet: Learn Cyrillic in 3 Simple Steps',
+    metaTitle:
+      'Russian Alphabet: Learn Cyrillic in 3 Simple Steps (Complete 2026 Guide) | Russian Cases with Anna',
+    metaDescription:
+      'Learn the Russian Cyrillic alphabet in 3 clear steps: familiar letters, false friends, and new letters — with pronunciation tips, memory tricks, and a free 7-day study plan.',
+    keywords: [
+      'russian alphabet',
+      'cyrillic alphabet',
+      'learn russian alphabet',
+      'russian letters',
+      'cyrillic letters for beginners',
+      'how to read russian',
+    ],
+    h1: 'Russian Alphabet: Learn Cyrillic in 3 Simple Steps',
+    heroImage: {
+      src: '/articles/russian-alphabet-cyrillic-guide.webp',
+      alt: 'Russian Cyrillic alphabet letters displayed on a notebook for learners',
+      width: 1200,
+      height: 630,
+    },
+    introByline: ARTICLE_BYLINE,
+    intro:
+      'Learning to read Russian feels like standing in front of a locked door — until you realise you already have most of the keys.\n\nThe Cyrillic alphabet has **33 letters**, compared to 26 in English. About a third of them will feel immediately familiar; another third are visual imposters that look like English letters but sound completely different; and the final third are genuinely new — though simpler to learn than you might expect. The whole system can click into place in **one to two weeks** of short daily practice.\n\nThis guide sorts all 33 letters into three groups, gives you memory tricks for every tricky one, and adds the pronunciation rules — stress and vowel reduction — that make Russian sound the way it does. By the end, you will be able to sound out **any Russian word correctly**, which is the foundation everything else is built on.',
+    whatYouLearn: [
+      'All 33 Cyrillic letters sorted into 3 manageable groups',
+      'Memory tricks for every tricky or unfamiliar letter',
+      'Why Russian stress (ударение) is the key to correct pronunciation',
+      'How vowel reduction changes the way Russian actually sounds',
+      'A practical 7-day plan to go from zero to confident Cyrillic reading',
+    ],
+    sections: [
+      {
+        h2: 'Why Cyrillic is easier than it looks',
+        content:
+          'Most learners dread Cyrillic because it looks alien at first glance. In practice, it is one of the most **phonetically consistent** alphabets in common use — far more regular than English spelling, where "rough," "through," and "though" all end differently.\n\nHere are three things that make Cyrillic manageable:\n\n**1. It is phonetic.** Each letter has roughly one sound. Once you know the sounds, you can read any Russian word correctly (with some stress caveats — more on that below).\n\n**2. A third of the letters are already familiar.** Five look and sound like their English equivalents. Eight more look familiar but have different sounds — which is actually useful, because you already recognise their shapes.\n\n**3. You do not need to write cursive to get started.** Printed Cyrillic is what you will encounter in books, apps, and digital content. Learn to read print first; add handwriting later if you need it.',
+        table: {
+          caption: 'All 33 Russian letters at a glance',
+          headers: ['Letter', 'Name', 'Approximate sound', 'Group'],
+          rows: [
+            ['А а', 'a', '/a/ — "father"', 'Familiar'],
+            ['Б б', 'be', '/b/ — "bed"', 'New'],
+            ['В в', 've', '/v/ — "voice"', 'False friend'],
+            ['Г г', 'ge', '/g/ — "go"', 'New'],
+            ['Д д', 'de', '/d/ — "dog"', 'New'],
+            ['Е е', 'ye', '/je/ — "yet"', 'False friend'],
+            ['Ё ё', 'yo', '/jo/ — "yolk"', 'False friend'],
+            ['Ж ж', 'zhe', '/ʒ/ — "measure"', 'New'],
+            ['З з', 'ze', '/z/ — "zone"', 'New'],
+            ['И и', 'i', '/i/ — "meet"', 'New'],
+            ['Й й', 'kratkoye i', '/j/ — "boy"', 'New'],
+            ['К к', 'ka', '/k/ — "kind"', 'Familiar'],
+            ['Л л', 'el', '/l/ — "lamp"', 'New'],
+            ['М м', 'em', '/m/ — "more"', 'Familiar'],
+            ['Н н', 'en', '/n/ — "note"', 'False friend'],
+            ['О о', 'o', '/o/ — "more" (stressed)', 'Familiar'],
+            ['П п', 'pe', '/p/ — "put"', 'New'],
+            ['Р р', 'er', '/r/ — rolled R', 'False friend'],
+            ['С с', 'es', '/s/ — "sun"', 'False friend'],
+            ['Т т', 'te', '/t/ — "top"', 'Familiar'],
+            ['У у', 'u', '/u/ — "moon"', 'False friend'],
+            ['Ф ф', 'ef', '/f/ — "fun"', 'New'],
+            ['Х х', 'kha', '/x/ — "loch"', 'False friend'],
+            ['Ц ц', 'tse', '/ts/ — "cats"', 'New'],
+            ['Ч ч', 'che', '/tʃ/ — "chair"', 'New'],
+            ['Ш ш', 'sha', '/ʃ/ — "show"', 'New'],
+            ['Щ щ', 'shcha', '/ʃtʃ/ — "fresh cheese"', 'New'],
+            ['Ъ ъ', 'tvyordy znak', '(no sound — hard sign)', 'New'],
+            ['Ы ы', 'yery', '/ɨ/ — dark "ee"', 'New'],
+            ['Ь ь', 'myagky znak', '(no sound — soft sign)', 'New'],
+            ['Э э', 'e', '/e/ — "met"', 'New'],
+            ['Ю ю', 'yu', '/ju/ — "you"', 'New'],
+            ['Я я', 'ya', '/ja/ — "yard"', 'New'],
+          ],
+          boldColumnIndices: [0, 3],
+        },
+      },
+      {
+        h2: 'Step 1: The 5 familiar letters',
+        content:
+          'Start here. These five letters look and sound like their English counterparts — no tricks, no surprises. Learning them takes about ten minutes.',
+        table: {
+          headers: ['Letter', 'Sound', 'Like in English', 'Example word'],
+          rows: [
+            ['А а', '/a/', '"a" in "father"', 'атом (atom)'],
+            ['К к', '/k/', '"k" in "kind"', 'кот (cat)'],
+            ['М м', '/m/', '"m" in "more"', 'мама (mum)'],
+            ['О о', '/o/', '"o" in "more" (stressed)', 'он (he)'],
+            ['Т т', '/t/', '"t" in "top"', 'там (there)'],
+          ],
+          boldColumnIndices: [0],
+        },
+        bullets: [
+          '**О** sounds like "o" only when **stressed**. When unstressed it reduces toward "a" (more on this in the vowel reduction section below).',
+          'All five are used extremely frequently — you will see them in almost every Russian sentence.',
+          'Practise by spotting these letters in any Russian text and saying them aloud.',
+        ],
+      },
+      {
+        h2: 'Step 2: The 8 false friends',
+        content:
+          'These eight letters look like Latin or English letters you already know — but they make completely different sounds. This is the most common source of confusion for beginners. Learn them carefully; once they stick, you have effectively learned 13 of the 33 letters.',
+        table: {
+          headers: ['Letter', 'Looks like', 'Actual sound', 'Memory trick'],
+          rows: [
+            ['В в', 'B', '/v/ — "voice"', 'Think of "vodka" — starts with В, sounds like V'],
+            ['Е е', 'E', '/je/ — "yet"', '"YE" — like "yes" without the s'],
+            ['Ё ё', 'E with dots', '/jo/ — "yolk"', '"YO" — the two dots signal the "yo" sound'],
+            ['Н н', 'H', '/n/ — "note"', 'Think "eN" — the letter name gives you the sound'],
+            ['Р р', 'P', '/r/ — rolled', 'Like a rolled "R" — Р for Россия (Russia)'],
+            ['С с', 'C', '/s/ — "sun"', '"С" like "С" in "sun" — same shape, same idea'],
+            ['У у', 'Y', '/u/ — "moon"', '"OO" — imagine a horseshoe sound'],
+            ['Х х', 'X', '/x/ — "loch"', 'KH sound — like clearing your throat gently'],
+          ],
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          'The **В / B** confusion is the single most common mistake. Drill it separately until В always says "V."',
+          '**Р** is a trilled or flapped R, not the English R. Even a light trill is enough for most contexts.',
+          '**Х** does not exist in English but occurs in Scottish "loch," German "Bach," or Spanish "jota." Practice it as a soft throat sound.',
+          'Once you can read these 8 letters without hesitation, you know 13 of 33 — nearly **40 % of the alphabet**.',
+        ],
+      },
+      {
+        h2: 'Step 3: The 20 new letters',
+        content:
+          'The remaining 20 letters have no obvious English visual equivalent. Some map to sounds that exist in English (Б = B, Д = D, Л = L, П = P, Ф = F); others introduce sounds English does not have (Ж, Ц, Щ, Ы). Group them by difficulty.',
+        subsections: [
+          {
+            h3: '3a — New letters with familiar English sounds',
+            content:
+              'These letters look unfamiliar but make sounds you already produce every day in English. Learn the sound first, then the shape.',
+            table: {
+              headers: ['Letter', 'Sound', 'Like in English', 'Memory trick'],
+              rows: [
+                ['Б б', '/b/ — "bed"', '"b"', 'Looks like 6 — remember "Б for B-six"'],
+                ['Г г', '/g/ — "go"', '"g"', 'Looks like an upside-down L — sounds like "Go"'],
+                ['Д д', '/d/ — "dog"', '"d"', 'Looks like a tent — "Д for Dom (house)"'],
+                ['З з', '/z/ — "zone"', '"z"', 'Looks like the number 3 — "З for Zone"'],
+                ['И и', '/i/ — "meet"', '"ee"', 'Like a backwards N — "И = EE"'],
+                ['Й й', '/j/ — "boy"', '"y" in "yes"', 'И with a breve — short И, sounds like "Y"'],
+                ['Л л', '/l/ — "lamp"', '"l"', 'Like an upside-down V — "Л for Lamp"'],
+                ['П п', '/p/ — "put"', '"p"', 'Looks like a doorframe П — "П for Put"'],
+                ['Ф ф', '/f/ — "fun"', '"f"', 'Looks like a phi Φ — sounds like F'],
+              ],
+            },
+          },
+          {
+            h3: '3b — New letters with new sounds',
+            content:
+              'These letters introduce sounds that require a little practice — but each one is phonetically consistent, meaning the sound never changes once you have it.',
+            table: {
+              headers: ['Letter', 'Sound', 'Closest English', 'Memory trick'],
+              rows: [
+                ['Ж ж', '/ʒ/ — like "zh"', '"measure", "genre"', 'Looks like a bug — "Ж buzzes like a beetle"'],
+                ['Ц ц', '/ts/ — like "ts"', '"cats", "pizza"', 'Two letters in one: T + S = Ц'],
+                ['Ч ч', '/tʃ/ — "ch"', '"chair"', 'Looks like a backwards 4 — "Ч for Chetyre (four)"'],
+                ['Ш ш', '/ʃ/ — "sh"', '"show"', 'Looks like a comb — "Ш makes the SH sound"'],
+                ['Щ щ', '/ʃtʃ/ — "shch"', '"fresh cheese" (run together)', 'Ш with a tail = harder Ш sound'],
+                ['Э э', '/e/ — "met"', '"e" in "bed"', 'Backwards С with a tongue — "Э = pure E"'],
+                ['Ю ю', '/ju/ — "you"', '"you", "university"', 'О with a stick — "Ю = YOU"'],
+                ['Я я', '/ja/ — "yard"', '"ya" in "yard"', 'Backwards R — "Я means I (me)"'],
+              ],
+            },
+          },
+          {
+            h3: '3c — The special signs: Ъ, Ы, Ь',
+            content:
+              'Three letters need special treatment: **Ь** (soft sign), **Ъ** (hard sign), and **Ы** (a unique vowel).\n\n**Ь (soft sign)** has no sound of its own. It "softens" the consonant before it — imagine pressing your tongue to the roof of your mouth as you finish the consonant. Example: брат (brother) vs. брать (to take).\n\n**Ъ (hard sign)** is rare. It creates a brief pause between a prefix and the next syllable (like съезд — congress). Do not worry about it until intermediate level.\n\n**Ы** is the hardest vowel for English speakers. It is a dark, centralised "ee" — to approximate it, say "ee" and then pull your tongue back slightly. Example: ты (you), мы (we). It becomes natural with practice.',
+          },
+        ],
+      },
+      {
+        h2: 'Vowel reduction: why Russian sounds different from how it reads',
+        content:
+          'Here is the rule that confuses most beginners: **Russian vowels change their sound depending on whether they are stressed or not.**\n\nThe most noticeable example is the letter О:\n- **Stressed О** sounds like the "o" in "more": большой (big) — the О in большой is stressed: bol-SHOY.\n- **Unstressed О** sounds like a reduced "a" (like the "a" in "about"): молоко (milk) — sounds like "muh-luh-KO," not "MOH-loh-KO."\n\nА also reduces when unstressed, though less dramatically. This is called **vowel reduction** (редукция), and it is why Russian can sound very different from how it is written phonetically.',
+        table: {
+          headers: ['Vowel', 'Stressed', 'Unstressed', 'Example'],
+          rows: [
+            ['О', '/o/ — "more"', '/ə/ — reduces to "ah"', 'молоко → muh-luh-KO'],
+            ['Е', '/je/ — "yet"', '/jɪ/ — reduces to "yi"', 'телефон → tyi-lyi-FON'],
+            ['А', '/a/ — "father"', '/ə/ — lighter "ah"', 'трамвай → truhm-VAY'],
+            ['Я', '/ja/ — "yard"', '/jɪ/ — reduces to "yi"', 'язык → yi-ZYIK'],
+          ],
+          boldColumnIndices: [0],
+        },
+        bullets: [
+          'Dictionaries mark stress with an accent over the stressed vowel (e.g. молоко́). Use them — stress is not predictable.',
+          'You do not need to master vowel reduction before you start reading; just be aware it exists so the spoken language does not confuse you.',
+          'Reduction clicks naturally once you listen to a lot of Russian audio alongside reading.',
+        ],
+      },
+      {
+        h2: 'Russian stress (ударение): the hidden challenge',
+        content:
+          'Russian stress is free (it can fall on any syllable) and mobile (it can shift between grammatical forms of the same word). There is no rule that tells you where stress falls — you must learn it with each word.\n\nWhy does it matter?\n\n1. **Vowel sounds change** (as shown above).\n2. **Word meaning can change**: за́мок means "castle"; замо́к means "lock." The same letters, different stress, different word.\n3. **Grammar forms change meaning**: я пишу́ (I write) vs. они́ пи́шут (they write) — the verb endings and stress both shift.\n\nThe practical advice: **always mark stress when you write a new word in your notebook.** Over time the patterns become intuitive, but early deliberate practice saves hours of confusion.',
+        table: {
+          headers: ['Word', 'Stress', 'Meaning', 'Notes'],
+          rows: [
+            ['за́мок', '1st syllable', 'castle', 'ZA-mok'],
+            ['замо́к', '2nd syllable', 'lock (padlock)', 'za-MOK'],
+            ['до́рога', '1st syllable', 'road', 'DO-ro-ga'],
+            ['дорога́', '3rd syllable', 'dear / expensive', 'do-ro-GA'],
+          ],
+          boldColumnIndices: [0],
+        },
+      },
+      {
+        h2: 'Typing in Cyrillic: quick setup',
+        content:
+          'Typing is one of the fastest ways to learn to recognise letters. Setting up a Cyrillic keyboard takes two minutes.',
+        subsections: [
+          {
+            h3: 'On iOS (iPhone / iPad)',
+            content:
+              'Go to **Settings → General → Keyboard → Keyboards → Add New Keyboard**. Choose **Russian**. Once added, tap the globe icon on your keyboard to switch between English and Russian. The standard layout is a phonetic layout for English speakers (Р on the R key, К on the K key, etc.).',
+          },
+          {
+            h3: 'On Android',
+            content:
+              'Go to **Settings → General Management → Language and Input → On-screen Keyboard**. Add Russian. Switch by tapping the language indicator on the space bar. Gboard (Google Keyboard) and SwiftKey both support Russian.',
+          },
+          {
+            h3: 'On desktop (Windows / Mac)',
+            content:
+              'Windows: Settings → Time & Language → Language → Add Russian → Russian Phonetic (or standard). Mac: System Settings → Keyboard → Input Sources → add Russian (Phonetic layout is easiest for beginners). Toggle with the input menu in the menu bar.',
+          },
+        ],
+        bullets: [
+          'Use a **phonetic layout** if available — it maps Cyrillic letters to similar-sounding Latin keys, dramatically reducing the learning curve.',
+          'Typing a word five times is worth more than reading it twenty times for letter recognition.',
+          'Emoji keyboards in messaging apps are often Russian-aware — use them to practise in real conversations.',
+        ],
+      },
+      {
+        h2: 'Your 7-day plan to master the Russian alphabet',
+        content:
+          'Ten minutes a day for seven days is all you need to reach functional Cyrillic reading. Here is a day-by-day structure:',
+        table: {
+          headers: ['Day', 'Focus', 'Target', 'Drill method'],
+          rows: [
+            ['Day 1', '5 familiar letters (А К М О Т)', 'Instant recognition, no hesitation', 'Write each letter 10×; read 5 short words'],
+            ['Day 2', '8 false friends (В Е Ё Н Р С У Х)', 'Know the sound trap for each', 'Cover the sound column and say it; check'],
+            ['Day 3', 'New letters with English sounds (Б Г Д З И Й Л П Ф)', 'Can read a basic word with each', 'Read 3 words per letter; add to Anki'],
+            ['Day 4', 'New letters with new sounds (Ж Ц Ч Ш Щ Э Ю Я)', 'Can produce each sound correctly', 'Shadowing: listen + repeat 10×'],
+            ['Day 5', 'Special signs (Ъ Ы Ь) + vowel reduction', 'Understand function; can produce Ы', 'Minimal pairs: брат / брать; мы / ми'],
+            ['Day 6', 'Full alphabet review', 'Read all 33 letters without hesitation', 'Random flash test: shuffle and identify'],
+            ['Day 7', 'Read short Russian text aloud', 'Sound out every word in a paragraph', 'Use Duolingo / Babbel / any text at hand'],
+          ],
+          boldColumnIndices: [0],
+        },
+        bullets: [
+          'Keep a notebook with all 33 letters, their sounds, and one example word each.',
+          'After Day 7, spend 5 minutes per day reading Russian text aloud — even if you do not understand the words yet.',
+          'Add a Cyrillic keyboard to your phone today (Day 1) and use it from the start.',
+        ],
+      },
+    ],
+    leadMagnetCta: {
+      title: 'From Alphabet to Grammar: Practice the 6 Russian Cases',
+      description:
+        'Once you can read Cyrillic, the next step is Russian grammar — and cases are the core challenge. Russian Cases with Anna lets you drill all six cases with instant feedback, at your own pace, on iOS and Android.',
+      ctaText: 'Download Russian Cases with Anna — Free to Start →',
+      ctaHref: '/',
+    },
+    faq: [
+      {
+        question: 'How long does it take to learn the Russian alphabet?',
+        answer:
+          'Most learners can sound out Russian text slowly but correctly within one to two weeks of 10–15 minutes of daily practice. Comfortable, natural reading speed typically develops over the following month as you encounter more vocabulary in context.',
+      },
+      {
+        question: 'Is Cyrillic hard to learn for English speakers?',
+        answer:
+          'Cyrillic is generally considered one of the easier parts of learning Russian. Unlike Russian grammar (cases, aspects, verb conjugation), the alphabet is finite and learnable in days. The phonetic consistency of Cyrillic is a genuine advantage — once you know the sounds, you can read any word.',
+      },
+      {
+        question: 'Should I learn Russian cursive handwriting?',
+        answer:
+          'Not at the start. Printed Cyrillic is what you will encounter in books, apps, websites, and typed text. Russian cursive is genuinely different (several letters look nothing like their printed equivalents) and is only necessary if you plan to read handwritten notes or old documents. Focus on print first.',
+      },
+      {
+        question: 'Do I need to memorise all 33 letters before starting Russian grammar?',
+        answer:
+          'No — and waiting until you know every letter perfectly is a common procrastination trap. By Day 7 of the plan above you should start touching basic grammar even if Ы and Щ are not yet second nature. Reading and grammar can develop in parallel; the alphabet reinforces itself through vocabulary.',
+      },
+      {
+        question: 'What is the difference between Ш and Щ?',
+        answer:
+          'Ш is a hard "sh" sound, like in "show." Щ is a softer, longer "shch" sound — like the end of "fresh cheese" said quickly. In everyday speech the distinction between them is important: шить (to sew) vs. считать (to count). Practise by listening and repeating Russian minimal pairs.',
+      },
+      {
+        question: 'What is the soft sign (Ь) and do I need to worry about it?',
+        answer:
+          'The soft sign softens the consonant before it — linguistically, it palatalises it. In practice, it changes the pronunciation and also affects grammar (some feminine nouns end in Ь; the presence or absence of Ь in verb infinitives matters). You will encounter it constantly. Recognise it from Day 1 and learn its effect gradually through real examples.',
+      },
+    ],
+    conclusionIntro: 'Learning Cyrillic is a one-time investment that unlocks everything else in Russian. Here is the key takeaway:',
+    conclusionBullets: [
+      '**5 familiar letters** (А К М О Т) — learn in one session',
+      '**8 false friends** (В Е Ё Н Р С У Х) — the most important group to drill carefully',
+      '**20 new letters** — sort by difficulty; most map to sounds you already make',
+      'Russian is **phonetically consistent** — learn the sounds once and read anything',
+      '**Stress and vowel reduction** explain why spoken Russian sounds different from a phonetic reading',
+      'A **7-day plan** at 10 min/day takes you from zero to functional reading',
+    ],
+    conclusionOutro:
+      'Once you can read Cyrillic, the real challenge begins: Russian grammar, and above all, the six grammatical cases. Start drilling them early at russiandeclensions.com/practice — it is free and requires no registration.',
+    internalLinks: [
+      { href: '/practice', label: 'Free Russian Declension Practice — all 6 cases' },
+      {
+        href: '/learn/articles/russian-cases-explained-beginners-guide',
+        label: "Russian Cases Explained Simply: A Beginner's Visual Guide",
+      },
+      {
+        href: '/learn/articles/learn-russian-on-your-own',
+        label: 'Can You Learn Russian on Your Own? Full Roadmap',
+      },
+      {
+        href: '/learn/articles/best-free-resources-learn-russian',
+        label: '15 Best Free Resources to Learn Russian',
+      },
+    ],
+    ctaText: 'Practice Russian Cases — Free →',
+    ctaHref: '/practice',
+    conclusion: '',
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: 'Russian Alphabet: Learn Cyrillic in 3 Simple Steps',
+      description:
+        'Learn the Russian Cyrillic alphabet in 3 clear steps: familiar letters, false friends, and new letters — with pronunciation tips, memory tricks, and a free 7-day study plan.',
+      datePublished: '2026-05-25',
+      dateModified: '2026-05-25',
+      author: {
+        '@type': 'Person',
+        name: 'Nathan',
+        url: 'https://russiandeclensions.com/',
+        image: 'https://russiandeclensions.com/landing-cases/founder-photo.webp',
+        description:
+          'Native French speaker learning Russian; writes about grammar, cases, and practical self-study habits.',
+        worksFor: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      },
+      publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': 'https://russiandeclensions.com/learn/articles/russian-alphabet-cyrillic-guide',
+      },
+      keywords:
+        'russian alphabet, cyrillic alphabet, learn russian alphabet, russian letters, cyrillic letters for beginners, how to read russian',
+      image: {
+        '@type': 'ImageObject',
+        url: 'https://russiandeclensions.com/articles/russian-alphabet-cyrillic-guide.webp',
+        width: 1200,
+        height: 630,
+      },
+    },
+  },
+
   'learn-russian-on-your-own': {
     slug: 'learn-russian-on-your-own',
     title: 'Can You Learn Russian on Your Own?',
