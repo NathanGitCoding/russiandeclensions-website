@@ -34,6 +34,8 @@ const LEARN_CARD_IMAGES: Record<string, string> = {
   'russian-verbs-of-motion': '/articles/russian-verbs-of-motion-complete-guide.webp',
   'learn-russian-on-your-own': '/articles/learn-russian-on-your-own.webp',
   'russian-alphabet-cyrillic-guide': '/articles/russian-alphabet-cyrillic-guide.webp',
+  'russian-verbal-aspect-perfective-imperfective':
+    '/articles/russian-verbal-aspect-perfective-imperfective.webp',
 };
 
 export function getLearnCardImage(slug: string): string {

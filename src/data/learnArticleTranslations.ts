@@ -90,6 +90,12 @@ import { russianAlphabetCyrillicGuideTr } from './articleTranslationsTr/russian-
 import { russianAlphabetCyrillicGuidePl } from './articleTranslationsPl/russian-alphabet-cyrillic-guide';
 import { russianAlphabetCyrillicGuideEs } from './articleTranslationsEs/russian-alphabet-cyrillic-guide';
 import { russianAlphabetCyrillicGuideIt } from './articleTranslationsIt/russian-alphabet-cyrillic-guide';
+import { russianVerbalAspectFr } from './articleTranslationsFr/russian-verbal-aspect-perfective-imperfective';
+import { russianVerbalAspectDe } from './articleTranslationsDe/russian-verbal-aspect-perfective-imperfective';
+import { russianVerbalAspectEs } from './articleTranslationsEs/russian-verbal-aspect-perfective-imperfective';
+import { russianVerbalAspectIt } from './articleTranslationsIt/russian-verbal-aspect-perfective-imperfective';
+import { russianVerbalAspectPl } from './articleTranslationsPl/russian-verbal-aspect-perfective-imperfective';
+import { russianVerbalAspectTr } from './articleTranslationsTr/russian-verbal-aspect-perfective-imperfective';
 
 export const learnArticleTranslations: Partial<
   Record<string, Partial<Record<LandingLanguage, LearnArticle>>>
@@ -604,5 +610,13 @@ export const learnArticleTranslations: Partial<
     pl_pl: russianAlphabetCyrillicGuidePl,
     es_es: russianAlphabetCyrillicGuideEs,
     it_it: russianAlphabetCyrillicGuideIt,
+  },
+  'russian-verbal-aspect-perfective-imperfective': {
+    fr_fr: russianVerbalAspectFr,
+    de_de: russianVerbalAspectDe,
+    es_es: russianVerbalAspectEs,
+    it_it: russianVerbalAspectIt,
+    pl_pl: russianVerbalAspectPl,
+    tr_tr: russianVerbalAspectTr,
   },
 };

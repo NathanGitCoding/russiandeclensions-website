@@ -51,6 +51,7 @@ export const ARTICLE_SLUGS = [
   'russian-verbs-of-motion',
   'learn-russian-on-your-own',
   'russian-alphabet-cyrillic-guide',
+  'russian-verbal-aspect-perfective-imperfective',
 ] as const;
 
 const en: LearnPageTranslations = {
@@ -99,6 +100,8 @@ const en: LearnPageTranslations = {
       'Russian Verbs of Motion: The Complete Guide (идти, ходить, ехать, ездить)',
     'learn-russian-on-your-own': 'Can You Learn Russian on Your Own? (Honest Answer + Full Roadmap)',
     'russian-alphabet-cyrillic-guide': 'Russian Alphabet: Learn Cyrillic in 3 Simple Steps',
+    'russian-verbal-aspect-perfective-imperfective':
+      'Russian Verbal Aspect: Perfective vs Imperfective — The Complete Guide',
   },
   practiceQuiz: {
     title: 'Practice Quiz',
@@ -165,6 +168,8 @@ const fr: LearnPageTranslations = {
       'Peut-on apprendre le russe seul ? (Réponse honnête + feuille de route complète)',
     'russian-alphabet-cyrillic-guide':
       "L'alphabet russe : apprendre le cyrillique en 3 étapes simples",
+    'russian-verbal-aspect-perfective-imperfective':
+      'L’aspect verbal en russe : perfectif vs imperfectif — guide complet',
   },
   practiceQuiz: {
     title: 'Quiz de pratique',
@@ -226,6 +231,8 @@ const tr: LearnPageTranslations = {
     'learn-russian-on-your-own':
       'Rusçayı kendi başınıza öğrenebilir misiniz? (Dürüst cevap + tam yol haritası)',
     'russian-alphabet-cyrillic-guide': 'Rus Alfabesi: Kiril Alfabesini 3 Basit Adımda Öğrenin',
+    'russian-verbal-aspect-perfective-imperfective':
+      'Rusça Fiil Görünüşü: Mükemmel ve Kusurlu — Tam Rehber',
   },
   practiceQuiz: {
     title: 'Alıştırma Testi',
@@ -291,6 +298,8 @@ const de: LearnPageTranslations = {
       'Kann man Russisch alleine lernen? (Ehrliche Antwort + vollständiger Lernplan)',
     'russian-alphabet-cyrillic-guide':
       'Russisches Alphabet: Kyrillisch in 3 einfachen Schritten lernen',
+    'russian-verbal-aspect-perfective-imperfective':
+      'Russischer Verbalaspekt: Perfektiv vs. Imperfektiv — Vollständiger Leitfaden',
   },
   practiceQuiz: {
     title: 'Übungsquiz',
@@ -357,6 +366,8 @@ const pl: LearnPageTranslations = {
       'Czy można nauczyć się rosyjskiego samodzielnie? (Szczera odpowiedź + pełny plan)',
     'russian-alphabet-cyrillic-guide':
       'Rosyjski alfabet: naucz się cyrylicy w 3 prostych krokach',
+    'russian-verbal-aspect-perfective-imperfective':
+      'Aspekt czasownika w języku rosyjskim: dokonany i niedokonany — Kompletny przewodnik',
   },
   practiceQuiz: {
     title: 'Quiz praktyczny',
@@ -421,6 +432,8 @@ const ru: LearnPageTranslations = {
       'Можно ли выучить русский самостоятельно? (Честный ответ + полный план)',
     'russian-alphabet-cyrillic-guide':
       'Русский алфавит: учим кириллицу за 3 простых шага',
+    'russian-verbal-aspect-perfective-imperfective':
+      'Вид глагола в русском языке: совершенный и несовершенный — полное руководство',
   },
   practiceQuiz: {
     title: 'Тренировочный тест',
@@ -485,6 +498,8 @@ const es: LearnPageTranslations = {
       '¿Puedes aprender ruso por tu cuenta? (Respuesta honesta + hoja de ruta completa)',
     'russian-alphabet-cyrillic-guide':
       'El alfabeto ruso: aprende el cirílico en 3 pasos simples',
+    'russian-verbal-aspect-perfective-imperfective':
+      'El aspecto verbal en ruso: perfectivo vs imperfectivo — La guía completa',
   },
   practiceQuiz: {
     title: 'Cuestionario de práctica',
@@ -550,6 +565,8 @@ const it: LearnPageTranslations = {
       'Puoi imparare il russo da solo? (Risposta onesta + piano completo)',
     'russian-alphabet-cyrillic-guide':
       "L'alfabeto russo: impara il cirillico in 3 semplici passi",
+    'russian-verbal-aspect-perfective-imperfective':
+      "L'aspetto verbale in russo: perfettivo vs imperfettivo — La guida completa",
   },
   practiceQuiz: {
     title: 'Quiz di esercizio',
@@ -614,6 +631,8 @@ const pt: LearnPageTranslations = {
       'Podes aprender russo sozinho? (Resposta honesta + plano completo)',
     'russian-alphabet-cyrillic-guide':
       'O alfabeto russo: aprende o cirílico em 3 passos simples',
+    'russian-verbal-aspect-perfective-imperfective':
+      'O aspeto verbal em russo: perfectivo vs imperfectivo — Guia completo',
   },
   practiceQuiz: {
     title: 'Questionário de prática',
@@ -679,6 +698,8 @@ const nl: LearnPageTranslations = {
       'Kun je Russisch zelf leren? (Eerlijk antwoord + compleet stappenplan)',
     'russian-alphabet-cyrillic-guide':
       'Russisch alfabet: leer het Cyrillisch in 3 eenvoudige stappen',
+    'russian-verbal-aspect-perfective-imperfective':
+      'Russisch verbaal aspect: perfectief vs imperfectief — Volledige gids',
   },
   practiceQuiz: {
     title: 'Oefenquiz',

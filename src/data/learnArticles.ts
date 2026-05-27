@@ -9113,6 +9113,321 @@ export const learnArticles: Record<string, LearnArticle> = {
       },
     },
   },
+
+  'russian-verbal-aspect-perfective-imperfective': {
+    slug: 'russian-verbal-aspect-perfective-imperfective',
+    introByline: ARTICLE_BYLINE,
+    title: 'Russian Verbal Aspect: Perfective vs Imperfective Explained',
+    metaTitle:
+      'Russian Verbal Aspect: Perfective vs Imperfective — Complete Guide | Russian Cases with Anna',
+    metaDescription:
+      'Master Russian verbal aspect: understand the difference between perfective and imperfective verbs, learn the rules for when to use each, and discover the most common aspect pairs with examples.',
+    keywords: [
+      'russian verbal aspect',
+      'perfective vs imperfective russian',
+      'russian aspect grammar',
+      'imperfective perfective russian verbs',
+      'russian verb aspects explained',
+      'russian perfectif imperfectif',
+      'russian aspect pairs',
+    ],
+    h1: 'Russian Verbal Aspect: Perfective vs Imperfective — The Complete Guide',
+    heroImage: {
+      src: '/articles/russian-verbal-aspect-perfective-imperfective.webp',
+      alt: 'Russian grammar books and study materials for learning verbal aspect',
+      width: 1200,
+      height: 630,
+    },
+    intro:
+      'If Russian cases are the first wall every learner hits, **verbal aspect** is the second — and in some ways, the trickier one. Unlike cases, which at least have visible endings to memorise, aspect is about meaning: the same action expressed in two subtly different ways that English simply does not distinguish.\n\nEvery Russian verb exists in two forms: an **imperfective** form (describing an ongoing, repeated, or uncompleted action) and a **perfective** form (describing a completed, one-time action with a result). These two forms make up an **aspect pair**. Читать / прочитать. Писать / написать. Говорить / сказать.\n\nThe good news: once you grasp the core logic — **process vs. result** — aspect starts to click into place. This guide walks you through everything you need: the rules, the common pairs, the tense interactions, and the most frequent mistakes learners make.',
+    whatYouLearn: [
+      'The core difference between perfective and imperfective — with examples',
+      'When to use each aspect in past, present, and future tenses',
+      'How aspect pairs work — and how to form them',
+      'A table of the 30 most common aspect pairs',
+      'The 5 most common aspect mistakes (and how to avoid them)',
+    ],
+    leadMagnetCta: {
+      title: 'Master Russian grammar — cases and beyond',
+      description:
+        'Download Russian Cases with Anna — the app built for drilling Russian declensions and grammar patterns. 128 lessons, 136 quizzes, 400+ words. Free on iOS and Android.',
+      ctaText: 'Download the app — Free',
+      ctaHref: '/',
+    },
+    sections: [
+      {
+        h2: 'What Is Verbal Aspect?',
+        content:
+          'In English, you can say "I was reading" (in progress) or "I read the book" (completed) — but the verb "read" itself does not change. English uses auxiliary verbs and context to express this distinction.\n\nRussian works differently. Each verb has **two separate dictionary forms**: one for the imperfective aspect and one for the perfective aspect. These are not tenses — they are a built-in layer of meaning about **how** an action unfolds.\n\nThink of it this way:\n\n- **Imperfective** = focus on the **process**, the duration, the habit, or the repetition\n- **Perfective** = focus on the **result**, the completion, or the single occurrence',
+        table: {
+          headers: ['Imperfective', 'Perfective', 'Core meaning'],
+          rows: [
+            ['читать', 'прочитать', 'to read / to finish reading'],
+            ['писать', 'написать', 'to write / to finish writing'],
+            ['делать', 'сделать', 'to do / to get done'],
+            ['говорить', 'сказать', 'to speak / to say (once)'],
+            ['учить', 'выучить', 'to learn / to learn (fully)'],
+          ],
+          caption: 'Aspect pairs: imperfective (process) vs perfective (result)',
+          accentColumnIndices: [1],
+        },
+        bullets: [
+          'The imperfective is usually the **base form** you find first in the dictionary',
+          'The perfective is formed by adding a **prefix** (про-, на-, по-, вы-, с-) or changing the **suffix**',
+          'Some pairs are **suppletive** (completely different roots) — e.g. говорить / сказать',
+        ],
+      },
+      {
+        h2: 'The Imperfective Aspect: When to Use It',
+        content:
+          'Use the **imperfective** when you want to talk about:\n\n1. **Ongoing actions** — something happening right now or at a specific moment\n2. **Repeated or habitual actions** — something that happens regularly\n3. **Duration** — emphasising how long something lasted\n4. **Process** — when the result is irrelevant or unimportant\n5. **Negative statements** — most negations use imperfective',
+        subsections: [
+          {
+            h3: 'Examples in context',
+            content:
+              '**Ongoing action**:\nЯ читаю книгу. — I am reading a book. (right now)\n\n**Habitual action**:\nКаждый день я читаю газету. — Every day I read the newspaper.\n\n**Duration**:\nОн читал два часа. — He read for two hours. (focus on the duration)\n\n**Process without emphasis on result**:\nОна писала письмо, когда он пришёл. — She was writing a letter when he arrived.\n\n**Negation**:\nЯ не читал эту книгу. — I have not read this book.',
+          },
+        ],
+        bullets: [
+          'Time words like **всегда** (always), **часто** (often), **каждый день** (every day) → imperfective',
+          'The **present tense** can only be formed from imperfective verbs — perfective has no present',
+          'When describing **background action** interrupted by another event → imperfective',
+        ],
+      },
+      {
+        h2: 'The Perfective Aspect: When to Use It',
+        content:
+          'Use the **perfective** when you want to talk about:\n\n1. **Completed actions** — something that was finished\n2. **Single, one-time occurrences** — not repeated\n3. **Result-focused actions** — the outcome matters\n4. **Sudden or instantaneous actions** — a quick decisive action\n5. **Sequential events** — a chain of actions (one after the other)',
+        subsections: [
+          {
+            h3: 'Examples in context',
+            content:
+              '**Completed action**:\nЯ прочитал книгу. — I read / finished the book. (it is done)\n\n**One-time occurrence**:\nОн позвонил мне вчера. — He called me yesterday. (once)\n\n**Result-focused**:\nОна написала письмо. — She wrote (and finished) the letter.\n\n**Sequential events**:\nОн пришёл домой, поел и лёг спать. — He came home, ate, and went to sleep. (each completed, then next)',
+          },
+        ],
+        bullets: [
+          'Time words like **вдруг** (suddenly), **наконец** (finally), **сразу** (immediately) → perfective',
+          'A **chain of actions** in the past (first... then... then...) → all perfective',
+          'Questions like "Did you read it?" asking about completion → perfective',
+        ],
+      },
+      {
+        h2: 'Aspect and Tense: How They Interact',
+        content:
+          'One of the most confusing things for beginners: **the perfective aspect has no present tense**. Here is how aspect interacts with each tense:',
+        table: {
+          headers: ['Tense', 'Imperfective', 'Perfective'],
+          rows: [
+            ['Present', 'Yes (ongoing / habitual)', '✗ Not possible'],
+            ['Past', 'Yes (process, repetition, duration)', 'Yes (completion, result)'],
+            ['Future', 'Yes (будет + infinitive — ongoing)', 'Yes (simple future — completion)'],
+          ],
+          caption: 'How aspect combines with tense in Russian',
+        },
+        subsections: [
+          {
+            h3: 'Future tense: the key difference',
+            content:
+              'The future tense is where aspect is most visible:\n\n**Imperfective future** = будет + infinitive (ongoing/repeated future action)\nЯ буду читать эту книгу завтра. — I will be reading this book tomorrow.\n\n**Perfective future** = conjugated perfective verb (completed action)\nЯ прочитаю эту книгу завтра. — I will read (and finish) this book tomorrow.\n\nThe imperfective future uses **буду/будешь/будет/будем/будете/будут + imperfective infinitive**. The perfective future uses the **perfective present-tense conjugation** (same forms as present, but future meaning).',
+          },
+          {
+            h3: 'Past tense: process vs result',
+            content:
+              'In the past tense, both aspects are freely used but convey different information:\n\nОн читал книгу. — He was reading the book. (process, may not be finished)\nОн прочитал книгу. — He read (and finished) the book. (completed)\n\nОна писала письмо три часа. — She wrote the letter for three hours. (duration)\nОна написала письмо за три часа. — She wrote the letter in three hours. (in X time = result)',
+          },
+        ],
+      },
+      {
+        h2: 'How Aspect Pairs Are Formed',
+        content:
+          'Most aspect pairs are formed in predictable ways. Once you know the patterns, you can often guess the perfective from the imperfective (and vice versa).',
+        subsections: [
+          {
+            h3: '1. Prefix added to the imperfective',
+            content:
+              'The most common method: add a prefix to form the perfective.\n\nписать → **на**писать (to write → to finish writing)\nчитать → **про**читать (to read → to finish reading)\nделать → **с**делать (to do → to get done)\nучить → **вы**учить (to learn → to learn fully)\nстроить → **по**строить (to build → to finish building)',
+          },
+          {
+            h3: '2. Suffix change (imperfective from perfective)',
+            content:
+              'Sometimes the perfective is the base form, and the imperfective is formed by changing the suffix:\n\nрешить → **реш**ать (to decide → to be deciding)\nкупить → **покупать** (to buy → to be buying)\nоткрыть → **откры**вать (to open → to be opening)\nобъяснить → **объяс**нять (to explain → to be explaining)',
+          },
+          {
+            h3: '3. Suppletive pairs (different roots)',
+            content:
+              'A small but important group has completely different roots for imperfective and perfective:\n\nговорить / **сказать** (to speak/say)\nбрать / **взять** (to take)\nкласть / **положить** (to put/place)\nловить / **поймать** (to catch)\n\nThese must be memorised individually — there is no pattern to derive them.',
+          },
+        ],
+      },
+      {
+        h2: '30 Essential Aspect Pairs to Learn',
+        content:
+          'Here are the most frequently used Russian verbs with their aspect pairs. Learn these and you will cover the vast majority of everyday usage:',
+        table: {
+          headers: ['Imperfective', 'Perfective', 'Meaning'],
+          rows: [
+            ['читать', 'прочитать', 'to read'],
+            ['писать', 'написать', 'to write'],
+            ['делать', 'сделать', 'to do / make'],
+            ['говорить', 'сказать', 'to speak / say'],
+            ['смотреть', 'посмотреть', 'to look / watch'],
+            ['слышать', 'услышать', 'to hear'],
+            ['видеть', 'увидеть', 'to see'],
+            ['понимать', 'понять', 'to understand'],
+            ['думать', 'подумать', 'to think'],
+            ['знать', '—', 'to know (mainly imperfective)'],
+            ['учить', 'выучить', 'to learn / memorise'],
+            ['учиться', 'научиться', 'to study / learn how to'],
+            ['покупать', 'купить', 'to buy'],
+            ['продавать', 'продать', 'to sell'],
+            ['открывать', 'открыть', 'to open'],
+            ['закрывать', 'закрыть', 'to close'],
+            ['давать', 'дать', 'to give'],
+            ['брать', 'взять', 'to take'],
+            ['класть', 'положить', 'to put / place'],
+            ['приходить', 'прийти', 'to come / arrive (on foot)'],
+            ['приезжать', 'приехать', 'to come / arrive (by vehicle)'],
+            ['уходить', 'уйти', 'to leave / go away'],
+            ['начинать', 'начать', 'to begin / start'],
+            ['кончать', 'кончить', 'to finish / end'],
+            ['отвечать', 'ответить', 'to answer'],
+            ['спрашивать', 'спросить', 'to ask (a question)'],
+            ['рассказывать', 'рассказать', 'to tell / narrate'],
+            ['объяснять', 'объяснить', 'to explain'],
+            ['помогать', 'помочь', 'to help'],
+            ['решать', 'решить', 'to decide / solve'],
+          ],
+          caption: '30 essential Russian aspect pairs for everyday communication',
+          boldColumnIndices: [0, 1],
+          accentColumnIndices: [1],
+        },
+      },
+      {
+        h2: '5 Common Mistakes with Russian Aspect (and How to Fix Them)',
+        content: 'Here are the mistakes that trip up English speakers most often:',
+        subsections: [
+          {
+            h3: 'Mistake 1: Using perfective for habitual actions',
+            content:
+              '**Wrong**: Каждое утро я **выпью** кофе.\n**Correct**: Каждое утро я **пью** кофе.\n\n**Why**: Habitual/repeated actions always use the imperfective. "Every morning I drink coffee" is a habit — the process, not a single completed event.',
+          },
+          {
+            h3: 'Mistake 2: Using imperfective when asking "Did you do it?"',
+            content:
+              '**Wrong**: Ты **читал** эту книгу? (asking if someone has finished it)\n**Correct**: Ты **прочитал** эту книгу?\n\n**Why**: Questions about completion ("Have you read it?", "Did you finish it?") use the perfective. Imperfective would ask about the process ("Were you reading this book?").',
+          },
+          {
+            h3: 'Mistake 3: Forming the wrong perfective with a random prefix',
+            content:
+              '**The problem**: Not all prefixes work with all verbs. Adding **по-** to every verb is a common beginner shortcut, but **по**читать means "to read for a while" — not "to finish reading".\n\n**The fix**: Learn each aspect pair together from the start. Do not try to derive perfectives by guessing prefixes.',
+          },
+          {
+            h3: 'Mistake 4: Using imperfective in a chain of sequential past actions',
+            content:
+              '**Wrong**: Он **приходил** домой, **ел** и **ложился** спать.\n**Correct**: Он **пришёл** домой, **поел** и **лёг** спать.\n\n**Why**: In a sequence of events where each action is completed before the next begins, Russian uses the perfective throughout.',
+          },
+          {
+            h3: 'Mistake 5: Forgetting that the perfective has no present tense',
+            content:
+              '**Wrong**: Я **прочитаю** сейчас. (trying to say "I am reading now")\n**Correct**: Я **читаю** сейчас.\n\n**Why**: The perfective has no present tense form. If you conjugate a perfective verb in the present-tense pattern, you get a **future** meaning, not present.',
+          },
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'What is the difference between perfective and imperfective in Russian?',
+        answer:
+          'The imperfective aspect describes an action as ongoing, repeated, or habitual — the focus is on the process. The perfective aspect describes a completed, one-time action — the focus is on the result. Every Russian verb exists in both forms, and choosing the right one is a matter of what meaning you want to convey.',
+      },
+      {
+        question: 'Does Russian have a present tense for perfective verbs?',
+        answer:
+          'No. The perfective aspect has no present tense. Perfective verbs only exist in past and future tenses. When you conjugate a perfective verb in the present-tense pattern, it carries future meaning (e.g. прочитаю = I will read / I will have read).',
+      },
+      {
+        question: 'How do I know which prefix to use to form the perfective?',
+        answer:
+          'There is no single rule — the correct prefix depends on the specific verb. The safest approach is to learn each aspect pair together from the start (e.g. читать / прочитать, писать / написать). A good Russian dictionary will always list the aspect pair alongside each verb entry.',
+      },
+      {
+        question: 'When should I use imperfective vs perfective in the past tense?',
+        answer:
+          'Use imperfective past for: (1) actions in progress at a moment in the past, (2) habitual past actions, (3) duration ("for two hours"). Use perfective past for: (1) completed actions, (2) single occurrences, (3) a chain of sequential events, (4) actions with a visible result.',
+      },
+      {
+        question: 'Is Russian verbal aspect related to Russian cases?',
+        answer:
+          'They are separate grammar systems, but both are essential for fluent Russian. Cases govern noun endings and show grammatical relationships; aspect governs verb forms and shows how actions unfold in time. Most learners tackle cases first (A1–A2) and then deepen their aspect knowledge at A2–B1.',
+      },
+    ],
+    conclusionIntro: 'Russian verbal aspect is genuinely logical once the core distinction clicks:',
+    conclusionBullets: [
+      '**Imperfective = process** (ongoing, habitual, duration, no emphasis on result)',
+      '**Perfective = result** (completed, one-time, sequential events)',
+      'The **present tense** only exists for imperfective verbs',
+      'In the future tense, imperfective uses **буду + infinitive**; perfective uses a conjugated form',
+      'Learn aspect pairs together — do not try to guess prefixes',
+      'Time words like каждый день → imperfective; вдруг, наконец → perfective',
+    ],
+    conclusionOutro:
+      'Verbal aspect and Russian cases are the two grammar systems that unlock true fluency. If you are still working on cases, our free practice tool at russiandeclensions.com/practice lets you drill all six cases interactively — no sign-up needed.',
+    internalLinks: [
+      { href: '/practice', label: 'Free Russian Declension Quiz — practice all 6 cases' },
+      {
+        href: '/learn/articles/how-long-learn-russian',
+        label: 'How Long Does It Take to Learn Russian? Realistic Timeline',
+      },
+      {
+        href: '/learn/articles/russian-cases-explained-beginners-guide',
+        label: "Russian Cases Explained: A Beginner's Guide",
+      },
+      {
+        href: '/learn/articles/learn-russian-on-your-own',
+        label: 'Can You Learn Russian on Your Own? (Honest Answer + Roadmap)',
+      },
+      {
+        href: '/learn/articles/russian-verbs-of-motion',
+        label: 'Russian Verbs of Motion: The Complete Guide',
+      },
+    ],
+    ctaText: 'Practice Russian Cases — Free →',
+    ctaHref: '/practice',
+    conclusion: '',
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline:
+        'Russian Verbal Aspect: Perfective vs Imperfective — The Complete Guide',
+      description:
+        'Master Russian verbal aspect: understand the difference between perfective and imperfective verbs, learn the rules for when to use each, and discover the most common aspect pairs with examples.',
+      datePublished: '2026-05-27',
+      dateModified: '2026-05-27',
+      author: {
+        '@type': 'Person',
+        name: 'Nathan',
+        url: 'https://russiandeclensions.com/',
+        image: 'https://russiandeclensions.com/landing-cases/founder-photo.webp',
+        description:
+          'Native French speaker learning Russian; writes about grammar, cases, and practical self-study habits.',
+        worksFor: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      },
+      publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id':
+          'https://russiandeclensions.com/learn/articles/russian-verbal-aspect-perfective-imperfective',
+      },
+      keywords:
+        'russian verbal aspect, perfective vs imperfective russian, russian aspect grammar, imperfective perfective russian verbs, russian verb aspects explained',
+      image: {
+        '@type': 'ImageObject',
+        url: 'https://russiandeclensions.com/articles/russian-verbal-aspect-perfective-imperfective.webp',
+        width: 1200,
+        height: 630,
+      },
+    },
+  },
 };
 
 import type { LandingLanguage } from '@/data/website/landingTranslations';
