@@ -96,6 +96,12 @@ import { russianVerbalAspectEs } from './articleTranslationsEs/russian-verbal-as
 import { russianVerbalAspectIt } from './articleTranslationsIt/russian-verbal-aspect-perfective-imperfective';
 import { russianVerbalAspectPl } from './articleTranslationsPl/russian-verbal-aspect-perfective-imperfective';
 import { russianVerbalAspectTr } from './articleTranslationsTr/russian-verbal-aspect-perfective-imperfective';
+import { russianWordStressGuideFr } from './articleTranslationsFr/russian-word-stress-guide';
+import { russianWordStressGuideDe } from './articleTranslationsDe/russian-word-stress-guide';
+import { russianWordStressGuideEs } from './articleTranslationsEs/russian-word-stress-guide';
+import { russianWordStressGuideIt } from './articleTranslationsIt/russian-word-stress-guide';
+import { russianWordStressGuidePl } from './articleTranslationsPl/russian-word-stress-guide';
+import { russianWordStressGuideTr } from './articleTranslationsTr/russian-word-stress-guide';
 
 export const learnArticleTranslations: Partial<
   Record<string, Partial<Record<LandingLanguage, LearnArticle>>>
@@ -618,5 +624,13 @@ export const learnArticleTranslations: Partial<
     it_it: russianVerbalAspectIt,
     pl_pl: russianVerbalAspectPl,
     tr_tr: russianVerbalAspectTr,
+  },
+  'russian-word-stress-guide': {
+    fr_fr: russianWordStressGuideFr,
+    de_de: russianWordStressGuideDe,
+    es_es: russianWordStressGuideEs,
+    it_it: russianWordStressGuideIt,
+    pl_pl: russianWordStressGuidePl,
+    tr_tr: russianWordStressGuideTr,
   },
 };

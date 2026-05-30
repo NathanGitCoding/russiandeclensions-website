@@ -52,6 +52,7 @@ export const ARTICLE_SLUGS = [
   'learn-russian-on-your-own',
   'russian-alphabet-cyrillic-guide',
   'russian-verbal-aspect-perfective-imperfective',
+  'russian-word-stress-guide',
 ] as const;
 
 const en: LearnPageTranslations = {
@@ -102,6 +103,8 @@ const en: LearnPageTranslations = {
     'russian-alphabet-cyrillic-guide': 'Russian Alphabet: Learn Cyrillic in 3 Simple Steps',
     'russian-verbal-aspect-perfective-imperfective':
       'Russian Verbal Aspect: Perfective vs Imperfective — The Complete Guide',
+    'russian-word-stress-guide':
+      'Russian Word Stress: Why It Changes Everything (and How to Master It)',
   },
   practiceQuiz: {
     title: 'Practice Quiz',
@@ -170,6 +173,8 @@ const fr: LearnPageTranslations = {
       "L'alphabet russe : apprendre le cyrillique en 3 étapes simples",
     'russian-verbal-aspect-perfective-imperfective':
       'L’aspect verbal en russe : perfectif vs imperfectif — guide complet',
+    'russian-word-stress-guide':
+      "L'accent tonique en russe : pourquoi il change tout (et comment le maîtriser)",
   },
   practiceQuiz: {
     title: 'Quiz de pratique',
@@ -233,6 +238,8 @@ const tr: LearnPageTranslations = {
     'russian-alphabet-cyrillic-guide': 'Rus Alfabesi: Kiril Alfabesini 3 Basit Adımda Öğrenin',
     'russian-verbal-aspect-perfective-imperfective':
       'Rusça Fiil Görünüşü: Mükemmel ve Kusurlu — Tam Rehber',
+    'russian-word-stress-guide':
+      'Rusça Kelime Vurgusu: Neden Her Şeyi Değiştirir (ve Nasıl Ustalaşılır)',
   },
   practiceQuiz: {
     title: 'Alıştırma Testi',
@@ -300,6 +307,8 @@ const de: LearnPageTranslations = {
       'Russisches Alphabet: Kyrillisch in 3 einfachen Schritten lernen',
     'russian-verbal-aspect-perfective-imperfective':
       'Russischer Verbalaspekt: Perfektiv vs. Imperfektiv — Vollständiger Leitfaden',
+    'russian-word-stress-guide':
+      'Russische Wortbetonung: Warum sie alles verändert (und wie man sie meistert)',
   },
   practiceQuiz: {
     title: 'Übungsquiz',
@@ -368,6 +377,8 @@ const pl: LearnPageTranslations = {
       'Rosyjski alfabet: naucz się cyrylicy w 3 prostych krokach',
     'russian-verbal-aspect-perfective-imperfective':
       'Aspekt czasownika w języku rosyjskim: dokonany i niedokonany — Kompletny przewodnik',
+    'russian-word-stress-guide':
+      'Akcent w języku rosyjskim: dlaczego zmienia wszystko (i jak go opanować)',
   },
   practiceQuiz: {
     title: 'Quiz praktyczny',
@@ -434,6 +445,8 @@ const ru: LearnPageTranslations = {
       'Русский алфавит: учим кириллицу за 3 простых шага',
     'russian-verbal-aspect-perfective-imperfective':
       'Вид глагола в русском языке: совершенный и несовершенный — полное руководство',
+    'russian-word-stress-guide':
+      'Ударение в русском языке: почему оно всё меняет (и как его освоить)',
   },
   practiceQuiz: {
     title: 'Тренировочный тест',
@@ -500,6 +513,8 @@ const es: LearnPageTranslations = {
       'El alfabeto ruso: aprende el cirílico en 3 pasos simples',
     'russian-verbal-aspect-perfective-imperfective':
       'El aspecto verbal en ruso: perfectivo vs imperfectivo — La guía completa',
+    'russian-word-stress-guide':
+      'El acento tónico en ruso: por qué lo cambia todo (y cómo dominarlo)',
   },
   practiceQuiz: {
     title: 'Cuestionario de práctica',
@@ -567,6 +582,8 @@ const it: LearnPageTranslations = {
       "L'alfabeto russo: impara il cirillico in 3 semplici passi",
     'russian-verbal-aspect-perfective-imperfective':
       "L'aspetto verbale in russo: perfettivo vs imperfettivo — La guida completa",
+    'russian-word-stress-guide':
+      "L'accento tonico in russo: perché cambia tutto (e come padroneggiarlo)",
   },
   practiceQuiz: {
     title: 'Quiz di esercizio',
@@ -633,6 +650,8 @@ const pt: LearnPageTranslations = {
       'O alfabeto russo: aprende o cirílico em 3 passos simples',
     'russian-verbal-aspect-perfective-imperfective':
       'O aspeto verbal em russo: perfectivo vs imperfectivo — Guia completo',
+    'russian-word-stress-guide':
+      'O acento tónico em russo: por que muda tudo (e como dominá-lo)',
   },
   practiceQuiz: {
     title: 'Questionário de prática',
@@ -700,6 +719,8 @@ const nl: LearnPageTranslations = {
       'Russisch alfabet: leer het Cyrillisch in 3 eenvoudige stappen',
     'russian-verbal-aspect-perfective-imperfective':
       'Russisch verbaal aspect: perfectief vs imperfectief — Volledige gids',
+    'russian-word-stress-guide':
+      'Russische woordklemtoon: waarom het alles verandert (en hoe je het beheerst)',
   },
   practiceQuiz: {
     title: 'Oefenquiz',

@@ -9428,6 +9428,355 @@ export const learnArticles: Record<string, LearnArticle> = {
       },
     },
   },
+
+  'russian-word-stress-guide': {
+    slug: 'russian-word-stress-guide',
+    introByline: ARTICLE_BYLINE,
+    title: 'Russian Word Stress: Why It Changes Everything (and How to Master It)',
+    metaTitle:
+      'Russian Word Stress: The Complete Guide | Russian Cases with Anna',
+    metaDescription:
+      'Master Russian word stress: understand why stress is unpredictable, how it changes meaning, how it shifts during declension, and practical tips to train your ear.',
+    keywords: [
+      'russian word stress',
+      'stress in russian',
+      'russian accent marks',
+      'russian pronunciation stress',
+      'russian stress rules',
+      'stress patterns in russian',
+    ],
+    h1: 'Russian Word Stress: Why It Changes Everything (and How to Master It)',
+    heroImage: {
+      src: '/articles/russian-word-stress-guide.webp',
+      alt: 'Russian language textbook and study materials with Cyrillic text',
+      width: 1200,
+      height: 630,
+    },
+    intro:
+      "Ask any intermediate Russian learner what trips them up most, and after cases, the answer is almost always the same: **word stress**. Not because stress is conceptually complicated — every word simply has one stressed syllable. The problem is that Russian stress is **free**, **mobile**, and **invisible**.\n\nIn French or Spanish, stress follows predictable rules. In Russian, it does not. Stress can fall on any syllable, it is not marked in standard printed text, and it can shift when you change the case of a noun or the person of a verb. Two words that look identical except for their stress (за́мок vs замо́к) mean completely different things — one is a castle, the other is a lock — solely because of where the stress falls.\n\nThis guide covers everything you need: why Russian stress is difficult, how it changes meaning, how it shifts in declension and conjugation, and — most importantly — practical strategies for actually getting it right.",
+    whatYouLearn: [
+      'Why Russian stress is different from most European languages',
+      'Minimal pairs: words where stress is the only difference in meaning',
+      'How stress shifts when you decline Russian nouns',
+      'How stress shifts in Russian verb conjugation',
+      'Useful patterns that help predict where stress falls',
+      'Practical strategies for training your ear',
+    ],
+    leadMagnetCta: {
+      title: 'Practice Russian grammar — cases and beyond',
+      description:
+        'Russian Cases with Anna gives you 128 structured lessons and 136 quizzes to drill Russian declensions, case endings, and grammar patterns. Free on iOS and Android.',
+      ctaText: 'Download the app — Free',
+      ctaHref: '/',
+    },
+    sections: [
+      {
+        h2: 'What Is Word Stress in Russian?',
+        content:
+          "In Russian, every polysyllabic word has exactly **one stressed syllable**. That syllable is pronounced louder, longer, and at a slightly higher pitch than the others. The vowel in that syllable is also pronounced more clearly — while unstressed vowels are reduced.\n\nThe most important example of vowel reduction: **о** in an unstressed position is pronounced like «а» (or a schwa). This is why молоко (milk) sounds like «малако», not «молоко». Similarly, **е** and **я** in unstressed positions reduce toward a neutral «и» sound.\n\nIn Russian textbooks for learners, stress is marked with an acute accent (′) over the stressed vowel: молоко́, рабо́та, понима́ть. But in **standard printed text** — books, news articles, websites — stress is never marked. You are expected to know where it falls.",
+        bullets: [
+          'Every Russian word has exactly **one stressed syllable**',
+          'Unstressed **о** is pronounced like «а» — this causes many pronunciation mistakes',
+          'Stress is marked in learner dictionaries (молоко́) but **not** in everyday text',
+          'There is no default position for stress — unlike French (last syllable) or Polish (second-to-last)',
+        ],
+      },
+      {
+        h2: 'Why Russian Stress Is Uniquely Difficult',
+        content:
+          "For speakers of English, French, Spanish, or Italian, Russian stress presents a challenge that does not exist in the same way at home.\n\n**1. No fixed position rule.** In French, stress is always on the last syllable. In Polish, always the second-to-last. In Russian, stress can fall on any syllable — first, last, or anywhere in between. There is no universal rule you can lean on.\n\n**2. Stress is not written.** Once you move past learner materials, you are reading Cyrillic text with no stress marks. Every new word you encounter is a guessing game unless you have heard it spoken.\n\n**3. Stress is mobile.** Even if you learn the nominative singular of a noun correctly, the stress can shift in other cases. Even if you learn the infinitive of a verb correctly, the stress can shift in certain conjugations.\n\n**4. Stress changes meaning.** Get the stress wrong and you might say a completely different word.\n\nThe net result: Russian stress is something you have to learn **word by word**, from audio — there is no shortcut.",
+        bullets: [
+          'No position rule: stress can fall on **any** syllable',
+          'Not marked in standard text — you must memorise or confirm with audio each new word',
+          'Mobile stress: can shift across cases (nouns) and persons (verbs)',
+          'Wrong stress = **different word** in several well-known pairs',
+        ],
+      },
+      {
+        h2: 'When Stress Changes Meaning: Russian Minimal Pairs',
+        content:
+          'Russian has several pairs of words that are spelled identically but have completely different meanings depending solely on which syllable is stressed. These are called **minimal pairs by stress**. They are a real hazard in spoken communication.',
+        table: {
+          headers: ['Stressed on 1st syllable', 'Stressed on 2nd syllable', 'Meaning change'],
+          rows: [
+            ['за́мок', 'замо́к', 'castle vs lock'],
+            ['му́ка', 'муко́', 'torment / suffering vs flour'],
+            ['а́тлас', 'атла́с', 'atlas (book of maps) vs satin (fabric)'],
+            ['о́рган', 'орга́н', 'organ (body part) vs organ (instrument)'],
+            ['хло́пок', 'хлопо́к', 'cotton vs clap / pop'],
+            ['по́лки', 'полки́', 'shelves vs regiments'],
+            ['пи́сать', 'писа́ть', 'to urinate (colloquial) vs to write'],
+          ],
+          caption: 'Russian minimal pairs: same spelling, different stress, different meaning',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          'The **замок/замок** pair is the most cited example in Russian grammar textbooks',
+          'The **писать/писать** pair is one every learner must get right to avoid embarrassment',
+          'Stress errors on these words do not just sound foreign — they communicate **the wrong word**',
+        ],
+      },
+      {
+        h2: 'How Stress Shifts When You Decline Russian Nouns',
+        content:
+          'Most Russian nouns have **fixed stress**: the stress stays on the same syllable throughout all cases and both numbers. But a significant group of nouns has **mobile stress**: the stress moves as the noun is declined.\n\nThere are three common mobile stress patterns:',
+        subsections: [
+          {
+            h3: 'Pattern A: stem stress (singular) → ending stress (plural)',
+            content:
+              'The stress sits on the stem in the singular but jumps to the ending in the plural.\n\n— **го́род** (city) → города́, городо́в, города́м\n— **лес** (forest) → леса́, лесо́в, леса́м\n— **о́стров** (island) → острова́, острово́в\n\nThis pattern is very common among masculine nouns.',
+          },
+          {
+            h3: 'Pattern B: ending stress (most forms) → stem stress (accusative singular)',
+            content:
+              'The stress is on the ending in most forms but retreats to the stem in the accusative singular — typical of feminine nouns ending in -а/-я.\n\n— **рука́** (hand): рук**и́**, руке́... but accusative sg. = **ру́ку**\n— **нога́** (leg): ног**и́**, ноге́... but accusative sg. = **но́гу**\n— **голова́** (head): голов**ы́**... but accusative sg. = **го́лову**\n\nThis is one of the trickiest patterns because the accusative stress must be learnt separately.',
+          },
+          {
+            h3: 'Pattern C: full mobility — the complete picture with рука',
+            content:
+              'Some nouns shift stress in almost every case form. The noun рука (hand/arm) is the classic teaching example:',
+            table: {
+              headers: ['Case', 'Singular', 'Plural'],
+              rows: [
+                ['Nominative', 'рука́', 'ру́ки'],
+                ['Accusative', 'ру́ку', 'ру́ки'],
+                ['Genitive', 'руки́', 'ру́к'],
+                ['Dative', 'руке́', 'рука́м'],
+                ['Instrumental', 'руко́й', 'рука́ми'],
+                ['Prepositional', 'руке́', 'рука́х'],
+              ],
+              caption: 'Stress shifts across all case forms for рука (hand/arm)',
+              boldColumnIndices: [1, 2],
+            },
+          },
+        ],
+        bullets: [
+          'Most nouns = **fixed stress** (same syllable across all forms)',
+          '**Mobile stress** nouns require you to learn where the stress falls in each case',
+          'A good dictionary marks stress on every declension form — always use it',
+        ],
+      },
+      {
+        h2: 'How Stress Shifts in Russian Verb Conjugation',
+        content:
+          'Just as with nouns, some Russian verbs have **fixed stress** throughout the conjugation, while others have **mobile stress**. The most common pattern: end-stressed perfective verbs often shift stress to the stem in 1st person singular (я).',
+        table: {
+          headers: ['Person', 'понять (to understand)', 'начать (to begin)', 'взять (to take)'],
+          rows: [
+            ['я (I)', 'пойму́', 'начну́', 'возьму́'],
+            ['ты (you sg.)', 'поймёшь', 'начнёшь', 'возьмёшь'],
+            ['он/она (he/she)', 'поймёт', 'начнёт', 'возьмёт'],
+            ['мы (we)', 'поймём', 'начнём', 'возьмём'],
+            ['вы (you pl.)', 'поймёте', 'начнёте', 'возьмёте'],
+            ['они (they)', 'поймут', 'начнут', 'возьмут'],
+          ],
+          caption: 'Conjugation stress: note how 1st person singular differs in end-stressed verbs',
+          accentColumnIndices: [1, 2, 3],
+        },
+        subsections: [
+          {
+            h3: 'Past tense: masculine vs other forms',
+            content:
+              'Some verbs also shift stress in the past tense. The masculine singular past often has different stress from the feminine, neuter, and plural forms.\n\n— **жить** (to live): жил — жила́ — жи́ло — жи́ли\n— **брать** (to take): брал — брала́ — бра́ло — бра́ли\n— **пить** (to drink): пил — пила́ — пи́ло — пи́ли\n— **дать** (to give): дал — дала́ — да́ло — да́ли\n\nNote: the **feminine past** forms almost always draw stress to the final syllable in these verbs.',
+          },
+        ],
+        bullets: [
+          '**Perfective verbs** often shift stress from stem to ending across the conjugation',
+          'The **feminine past tense** commonly has end stress even when other past forms do not',
+          'High-frequency irregular verbs (жить, брать, пить, дать) must be memorised individually',
+        ],
+      },
+      {
+        h2: '5 Patterns That Help You Predict Russian Stress',
+        content:
+          "There are no absolute rules for Russian stress — but there are **tendencies** that cover a large share of everyday vocabulary. Learning these patterns won't replace audio exposure, but they will give you better guesses when meeting a new word.",
+        subsections: [
+          {
+            h3: '1. Suffixes that consistently attract stress',
+            content:
+              'Certain suffixes reliably draw the stress to themselves:\n\n— **-ость** (abstract nouns): ра́дость (joy), го́рдость (pride), но́вость (news)\n— **-ение/-ание** (verbal nouns): реше́ние (decision), созда́ние (creation)\n— **-ия** (foreign borrowings): исто́рия (history), тера́пия (therapy)\n— **-ист** (professional nouns): журнали́ст (journalist), пиани́ст (pianist)',
+          },
+          {
+            h3: '2. Prefixes rarely carry stress',
+            content:
+              'Prefixes (по-, пере-, вы-, за-, при-, etc.) almost never receive stress in verbs and adjectives. The stress nearly always falls on the **root or suffix**.\n\nThe main exception: the prefix **вы-** in perfective verbs always takes stress — вы́йти (to go out), вы́пить (to drink up), вы́учить (to learn fully). This rule is near-absolute.',
+          },
+          {
+            h3: '3. Compound words: stress on the second element',
+            content:
+              'In compound nouns and adjectives, stress usually falls on the **second root**.\n\n— **самолёт** (airplane): само + лёт → stress on лёт\n— **водопад** (waterfall): водо + пад → stress on пад\n— **землетрясение** (earthquake): земле + трясение → stress on трясение',
+          },
+          {
+            h3: '4. Borrowed words often retain the original stress',
+            content:
+              'International words borrowed from French, English, or German frequently keep the stress of the source language. French borrowings tend to stress the last syllable.\n\n— теа́тр (theatre, from French théâtre)\n— шокола́д (chocolate)\n— телефо́н (telephone)\n— университе́т (university)',
+          },
+          {
+            h3: '5. The вы- prefix rule — the most reliable rule in Russian',
+            content:
+              'When the prefix **вы-** creates a perfective verb, it always takes the stress — regardless of where the imperfective stressed its syllable.\n\n— учи́ть → **вы́**учить\n— пи́ть → **вы́**пить\n— ходи́ть → **вы́**ходить\n\nThis is one of the very few near-absolute stress rules in Russian, and it applies without exception.',
+          },
+        ],
+        bullets: [
+          'These are **tendencies, not rules** — exceptions exist for all patterns except вы-',
+          'The **вы-** prefix rule is the most reliable: it always takes stress',
+          'Use these patterns as first guesses, then always verify with audio',
+        ],
+      },
+      {
+        h2: 'Practical Strategies for Mastering Russian Stress',
+        content:
+          "Since Russian stress cannot be fully deduced from spelling, the only reliable approach is **building a large spoken vocabulary**. Here are the most effective strategies:",
+        subsections: [
+          {
+            h3: '1. Always learn words from audio',
+            content:
+              "Never learn a new Russian word from text alone. Always pair it with audio — a dictionary with pronunciation (Forvo, Wiktionary), a course, a podcast, or a tutor. If you only see the written form, you won't know where the stress falls, and a wrong guess can become a fossilised error.",
+          },
+          {
+            h3: '2. Use a stress-marked dictionary',
+            content:
+              'Make stress marks your default. Use dictionaries that show stress on every form (Wiktionary in Russian marks stress clearly; Russian learner dictionaries like Кузнецов or Ожегов also mark it). When you add a word to your flashcard system (Anki, etc.), always include the stress mark.',
+          },
+          {
+            h3: '3. Shadow native speakers',
+            content:
+              'Shadowing — listening to a native speaker and immediately repeating, matching their rhythm and stress — is one of the most effective methods for internalising stress patterns. Russian podcasts, news broadcasts, and YouTube channels for learners are good shadowing sources.',
+          },
+          {
+            h3: '4. Flag mobile-stress words in your notes',
+            content:
+              'When you learn a new noun or verb, check whether it has mobile stress. A good dictionary will show all case forms with stress marks. For verbs, look up the full conjugation. Mark mobile-stress words specially in your vocabulary notes so you review them more carefully.',
+          },
+        ],
+        bullets: [
+          "Never learn new words **from text alone** — always confirm with audio",
+          'Add stress marks to every word in your flashcard system',
+          'Shadowing is the fastest way to build accurate, automatic stress habits',
+        ],
+      },
+      {
+        h2: '10 Words Russian Learners Almost Always Stress Wrong',
+        content:
+          "These are the words that even intermediate learners frequently mispronounce — the stress is counterintuitive or doesn't match a learner's first guess:",
+        table: {
+          headers: ['Word', 'Correct stress', 'Common error', 'Meaning'],
+          rows: [
+            ['звони́т', 'звони́т (2nd syllable)', 'зво́нит', 'he/she is calling'],
+            ['позвони́шь', 'позвони́шь (3rd syllable)', 'позво́нишь', 'you will call'],
+            ['на́чать', 'на́чать (1st syllable)', 'нача́ть', 'to begin (infinitive)'],
+            ['по́нял', 'по́нял (1st syllable)', 'поня́л', 'he understood (past m.)'],
+            ['ку́хня', 'ку́хня (1st syllable)', 'кухня́', 'kitchen'],
+            ['то́рты', 'то́рты (1st syllable)', 'торты́', 'cakes (plural of торт)'],
+            ['ша́рфы', 'ша́рфы (1st syllable)', 'шарфы́', 'scarves (plural of шарф)'],
+            ['краси́вее', 'краси́вее (2nd syllable)', 'красиве́е', 'more beautiful'],
+            ['алфави́т', 'алфави́т (3rd syllable)', 'алфа́вит', 'alphabet'],
+            ['столя́р', 'столя́р (2nd syllable)', 'сто́ляр', 'carpenter'],
+          ],
+          caption: 'Common Russian stress mistakes — correct forms',
+          boldColumnIndices: [1],
+          accentColumnIndices: [1],
+        },
+        bullets: [
+          '**Звонит/позвонишь** are among the most widely discussed Russian stress errors — even native speakers debate them',
+          '**Торты** and **шарфы** are classic traps — the plural stress does not shift to the ending',
+          "If you are unsure: look it up in Wiktionary's Russian version, which marks stress on every form",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Is Russian stress always unpredictable?',
+        answer:
+          "Not entirely. There are patterns and tendencies — for example, the вы- prefix always takes stress, and certain suffixes (-ость, -ение, -ист) consistently attract it. But unlike French or Polish, there is no universal positional rule. You need to learn most words individually from audio.",
+      },
+      {
+        question: 'How is stress marked in Russian?',
+        answer:
+          'In learner materials and dictionaries, stress is marked with an acute accent (′) over the stressed vowel: молоко́, говори́т, рабо́та. In standard Russian printed text (books, news, websites), stress is not marked. The letter ё always carries stress when it appears — that is the only stress marker found in normal Russian text.',
+      },
+      {
+        question: 'Does the letter ё always indicate stress?',
+        answer:
+          'Yes. In Russian, ё always carries stress. This is why distinguishing е from ё matters: все (everyone, stress on е) vs всё (everything, stressed ё). Many Russian texts replace ё with е for typographic reasons, which can cause confusion — but properly spelled text always uses ё for the stressed vowel.',
+      },
+      {
+        question: 'Do Russian native speakers always know where stress falls?',
+        answer:
+          'Yes — native speakers have internalised stress as part of their vocabulary. However, they occasionally debate certain words (especially звонит vs зво́нит) because stress norms can shift across generations or dialects. The reference authority is always a normative dictionary such as the Орфоэпический словарь, which specifies the correct stress for each word.',
+      },
+      {
+        question: 'How long does it take to master Russian stress?',
+        answer:
+          "There is no point at which you \"finish\" learning Russian stress — it is an ongoing process of building vocabulary from audio. Most learners reach a comfortable level (rarely mispronouncing common vocabulary) after 6–12 months of consistent study with audio exposure. Advanced learners still encounter unfamiliar words where they need to check the stress.",
+      },
+    ],
+    conclusionIntro:
+      'Russian word stress is one of those aspects of the language that rewards patient, audio-driven study:',
+    conclusionBullets: [
+      'Stress is **free** in Russian — it can fall on any syllable, with no universal rule',
+      'Stress is **not written** in standard text — you must learn it from audio',
+      'Stress is **mobile** — it shifts across case forms and verb conjugations for many words',
+      'Some pairs of words differ **only** by stress — wrong stress means the wrong word',
+      'The **вы-** prefix always takes stress — the most reliable rule in Russian',
+      'Learn every new word **from audio**, mark stress on flashcards, and shadow native speakers',
+    ],
+    conclusionOutro:
+      'The good news: the more Russian you hear and speak, the more natural stress becomes. Start with the high-frequency vocabulary — the 500 words you will use every day — and learn their stress correctly from the beginning. Unlearning bad stress habits later is much harder than getting them right from the start.',
+    internalLinks: [
+      {
+        href: '/learn/articles/russian-verbal-aspect-perfective-imperfective',
+        label: 'Russian Verbal Aspect: Perfective vs Imperfective — Complete Guide',
+      },
+      {
+        href: '/learn/articles/russian-alphabet-cyrillic-guide',
+        label: 'Russian Alphabet: Learn Cyrillic in 3 Simple Steps',
+      },
+      {
+        href: '/learn/articles/how-long-learn-russian',
+        label: 'How Long Does It Take to Learn Russian?',
+      },
+      {
+        href: '/learn/articles/learn-russian-on-your-own',
+        label: 'Can You Learn Russian on Your Own?',
+      },
+      { href: '/practice', label: 'Free Russian Declension Quiz — practice all 6 cases' },
+    ],
+    ctaText: 'Practice Russian Cases — Free →',
+    ctaHref: '/practice',
+    conclusion: '',
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: 'Russian Word Stress: Why It Changes Everything (and How to Master It)',
+      description:
+        'Master Russian word stress: understand why stress is unpredictable, how it changes meaning, how it shifts during declension, and practical tips to train your ear.',
+      datePublished: '2026-05-30',
+      dateModified: '2026-05-30',
+      author: {
+        '@type': 'Person',
+        name: 'Nathan',
+        url: 'https://russiandeclensions.com/',
+        image: 'https://russiandeclensions.com/landing-cases/founder-photo.webp',
+        description:
+          'Native French speaker learning Russian; writes about grammar, cases, and practical self-study habits.',
+        worksFor: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      },
+      publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': 'https://russiandeclensions.com/learn/articles/russian-word-stress-guide',
+      },
+      keywords:
+        'russian word stress, stress in russian, russian accent marks, russian pronunciation stress, russian stress rules',
+      image: {
+        '@type': 'ImageObject',
+        url: 'https://russiandeclensions.com/articles/russian-word-stress-guide.webp',
+        width: 1200,
+        height: 630,
+      },
+    },
+  },
 };
 
 import type { LandingLanguage } from '@/data/website/landingTranslations';
