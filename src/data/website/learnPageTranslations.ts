@@ -53,6 +53,7 @@ export const ARTICLE_SLUGS = [
   'russian-alphabet-cyrillic-guide',
   'russian-verbal-aspect-perfective-imperfective',
   'russian-word-stress-guide',
+  'russian-most-common-words',
 ] as const;
 
 const en: LearnPageTranslations = {
@@ -105,6 +106,8 @@ const en: LearnPageTranslations = {
       'Russian Verbal Aspect: Perfective vs Imperfective — The Complete Guide',
     'russian-word-stress-guide':
       'Russian Word Stress: Why It Changes Everything (and How to Master It)',
+    'russian-most-common-words':
+      '100 Most Common Russian Words: The Essential Beginner\'s Vocabulary List',
   },
   practiceQuiz: {
     title: 'Practice Quiz',
@@ -175,6 +178,8 @@ const fr: LearnPageTranslations = {
       'L’aspect verbal en russe : perfectif vs imperfectif — guide complet',
     'russian-word-stress-guide':
       "L'accent tonique en russe : pourquoi il change tout (et comment le maîtriser)",
+    'russian-most-common-words':
+      '100 mots russes les plus courants : la liste de vocabulaire essentielle pour débutants',
   },
   practiceQuiz: {
     title: 'Quiz de pratique',
@@ -240,6 +245,8 @@ const tr: LearnPageTranslations = {
       'Rusça Fiil Görünüşü: Mükemmel ve Kusurlu — Tam Rehber',
     'russian-word-stress-guide':
       'Rusça Kelime Vurgusu: Neden Her Şeyi Değiştirir (ve Nasıl Ustalaşılır)',
+    'russian-most-common-words':
+      'En Yaygın 100 Rusça Kelime: Başlangıç Seviyesi İçin Temel Kelime Listesi',
   },
   practiceQuiz: {
     title: 'Alıştırma Testi',
@@ -309,6 +316,8 @@ const de: LearnPageTranslations = {
       'Russischer Verbalaspekt: Perfektiv vs. Imperfektiv — Vollständiger Leitfaden',
     'russian-word-stress-guide':
       'Russische Wortbetonung: Warum sie alles verändert (und wie man sie meistert)',
+    'russian-most-common-words':
+      '100 häufigste russische Wörter: Die essentielle Vokabelliste für Anfänger',
   },
   practiceQuiz: {
     title: 'Übungsquiz',
@@ -379,6 +388,8 @@ const pl: LearnPageTranslations = {
       'Aspekt czasownika w języku rosyjskim: dokonany i niedokonany — Kompletny przewodnik',
     'russian-word-stress-guide':
       'Akcent w języku rosyjskim: dlaczego zmienia wszystko (i jak go opanować)',
+    'russian-most-common-words':
+      '100 najczęstszych słów rosyjskich: Niezbędna lista słownictwa dla początkujących',
   },
   practiceQuiz: {
     title: 'Quiz praktyczny',
@@ -447,6 +458,8 @@ const ru: LearnPageTranslations = {
       'Вид глагола в русском языке: совершенный и несовершенный — полное руководство',
     'russian-word-stress-guide':
       'Ударение в русском языке: почему оно всё меняет (и как его освоить)',
+    'russian-most-common-words':
+      '100 самых распространённых русских слов: основной список для начинающих',
   },
   practiceQuiz: {
     title: 'Тренировочный тест',
@@ -515,6 +528,8 @@ const es: LearnPageTranslations = {
       'El aspecto verbal en ruso: perfectivo vs imperfectivo — La guía completa',
     'russian-word-stress-guide':
       'El acento tónico en ruso: por qué lo cambia todo (y cómo dominarlo)',
+    'russian-most-common-words':
+      '100 palabras rusas más comunes: La lista de vocabulario esencial para principiantes',
   },
   practiceQuiz: {
     title: 'Cuestionario de práctica',
@@ -584,6 +599,8 @@ const it: LearnPageTranslations = {
       "L'aspetto verbale in russo: perfettivo vs imperfettivo — La guida completa",
     'russian-word-stress-guide':
       "L'accento tonico in russo: perché cambia tutto (e come padroneggiarlo)",
+    'russian-most-common-words':
+      '100 parole russe più comuni: La lista di vocaboli essenziale per principianti',
   },
   practiceQuiz: {
     title: 'Quiz di esercizio',
@@ -652,6 +669,8 @@ const pt: LearnPageTranslations = {
       'O aspeto verbal em russo: perfectivo vs imperfectivo — Guia completo',
     'russian-word-stress-guide':
       'O acento tónico em russo: por que muda tudo (e como dominá-lo)',
+    'russian-most-common-words':
+      '100 palavras russas mais comuns: A lista de vocabulário essencial para iniciantes',
   },
   practiceQuiz: {
     title: 'Questionário de prática',
@@ -721,6 +740,8 @@ const nl: LearnPageTranslations = {
       'Russisch verbaal aspect: perfectief vs imperfectief — Volledige gids',
     'russian-word-stress-guide':
       'Russische woordklemtoon: waarom het alles verandert (en hoe je het beheerst)',
+    'russian-most-common-words':
+      '100 meest voorkomende Russische woorden: De essentiële woordenschatlijst voor beginners',
   },
   practiceQuiz: {
     title: 'Oefenquiz',

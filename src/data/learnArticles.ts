@@ -9500,7 +9500,7 @@ export const learnArticles: Record<string, LearnArticle> = {
           headers: ['Stressed on 1st syllable', 'Stressed on 2nd syllable', 'Meaning change'],
           rows: [
             ['за́мок', 'замо́к', 'castle vs lock'],
-            ['му́ка', 'муко́', 'torment / suffering vs flour'],
+            ['му́ка', 'мука́', 'torment / suffering vs flour'],
             ['а́тлас', 'атла́с', 'atlas (book of maps) vs satin (fabric)'],
             ['о́рган', 'орга́н', 'organ (body part) vs organ (instrument)'],
             ['хло́пок', 'хлопо́к', 'cotton vs clap / pop'],
@@ -9772,6 +9772,355 @@ export const learnArticles: Record<string, LearnArticle> = {
       image: {
         '@type': 'ImageObject',
         url: 'https://russiandeclensions.com/articles/russian-word-stress-guide.webp',
+        width: 1200,
+        height: 630,
+      },
+    },
+  },
+  'russian-most-common-words': {
+    slug: 'russian-most-common-words',
+    introByline: ARTICLE_BYLINE,
+    title: '100 Most Common Russian Words: The Essential Beginner\'s Vocabulary List',
+    metaTitle:
+      '100 Most Common Russian Words: Essential Beginner\'s List | Russian Cases with Anna',
+    metaDescription:
+      'Master the 100 most common Russian words used every day — nouns, verbs, adjectives, and function words — with grammar notes and study tips for beginners.',
+    keywords: [
+      'most common russian words',
+      'common russian words',
+      'russian vocabulary list',
+      'basic russian words',
+      'russian words for beginners',
+      '100 russian words',
+      'everyday russian words',
+      'russian frequency list',
+    ],
+    h1: '100 Most Common Russian Words: The Essential Beginner\'s Vocabulary List',
+    heroImage: {
+      src: '/articles/best-free-resources-learn-russian.webp',
+      alt: 'Russian language study materials and vocabulary notes',
+      width: 1200,
+      height: 630,
+    },
+    intro:
+      'Linguists agree: the most frequent 100 words in any language account for roughly **50% of everything you read and hear**. In Russian, those 100 words do especially heavy lifting — they include the short function words (pronouns, prepositions, conjunctions) that hold sentences together, and many of the most common nouns are the ones that trigger the **six grammatical cases** you will need to master.\n\nStarting with high-frequency vocabulary is not just efficient — it is **the fastest route to real comprehension**. Rather than randomly accumulating 2,000 words you barely use, mastering these 100 gives you an immediate foothold in genuine Russian conversation and text.\n\nThis guide organizes the 100 most common Russian words by category, with pronunciation hints, grammar notes, and practical study strategies. By the end, you will know not just what these words mean, but **how to use them correctly** — including which cases they require and how they change in different grammatical contexts.',
+    whatYouLearn: [
+      'The 20 most frequent Russian words — used in virtually every sentence',
+      'The most common nouns, verbs, and adjectives with grammar notes',
+      'Which common words trigger specific grammatical cases',
+      'A practical method for building core vocabulary quickly',
+      'Why frequency-first vocabulary leads to faster fluency',
+    ],
+    leadMagnetCta: {
+      title: 'Practice Russian cases with 400+ real nouns — free',
+      description:
+        'Once you know the most common nouns, you need to decline them correctly. Russian Cases with Anna gives you structured lessons and smart quizzes to drill all six cases — available free on iOS and Android.',
+      ctaText: 'Download the app — Free',
+      ctaHref: '/',
+    },
+    sections: [
+      {
+        h2: 'Why Start with the 100 Most Common Words?',
+        content:
+          'The idea of frequency-first vocabulary comes from corpus linguistics — the study of large, real-world text collections. When researchers analyze millions of words of Russian text and speech, a clear pattern emerges: a small number of words appear again and again, while the vast majority appear rarely.\n\nHere is what the data shows for Russian: **the top 100 words** account for roughly 50% of everyday spoken and written Russian. **The top 1,000 words** cover approximately 80–85% of general text. Beyond 5,000 words, you are entering territory useful mainly for academic or literary reading.\n\nFor a beginner, the practical implication is clear: **time spent on the top 100 words yields a much higher return than time spent on word 500 or word 1,000.**\n\nThere is a second advantage specific to Russian: many of the most common words are the **grammatical building blocks** of the language — pronouns that change form in six cases, prepositions that trigger specific cases, conjunctions that connect clauses. Learning these words does not just expand your vocabulary; it teaches you how Russian grammar works.',
+        bullets: [
+          'The top 100 Russian words cover ~50% of everyday language',
+          'High-frequency words are often the **grammatical anchors** of sentences',
+          'Many common Russian words are short (1–2 syllables) — easier to pronounce and memorize',
+          'Knowing 300 words lets you understand roughly 65% of general Russian text',
+          'Frequency-first study is backed by decades of applied linguistics research',
+        ],
+      },
+      {
+        h2: 'The 20 Most Frequent Russian Words',
+        content:
+          'These are the words that appear in almost every sentence of Russian. Many are **function words** — they carry grammatical meaning rather than dictionary-entry meaning. Several are prepositions that **trigger specific cases**, which is why learning their grammar alongside their translation is essential.',
+        table: {
+          headers: ['Russian', 'Pronunciation', 'English', 'Grammar note'],
+          rows: [
+            ['и', 'i', 'and', 'conjunction — connects words and clauses'],
+            ['в', 'v', 'in / into', 'preposition — in (prepositional) / into (accusative)'],
+            ['не', 'nye', 'not', 'negative particle — placed before verb'],
+            ['он', 'on', 'he', 'pronoun — changes form in all six cases'],
+            ['на', 'na', 'on / onto', 'preposition — on (prepositional) / onto (accusative)'],
+            ['я', 'ya', 'I', 'pronoun — меня (gen.), мне (dat.), мной (instr.)'],
+            ['что', 'chto', 'that / what', 'conjunction or interrogative pronoun'],
+            ['тот', 'tot', 'that (one)', 'demonstrative pronoun — declines fully'],
+            ['они', 'oni', 'they', 'pronoun — их / им / ими across cases'],
+            ['это', 'eto', 'this / it is', 'pronoun or linking particle'],
+            ['все', 'fsye', 'all / everyone', 'pronoun / adjective — declines fully'],
+            ['так', 'tak', 'so, thus, like this', 'adverb — very common in speech'],
+            ['как', 'kak', 'how / as / like', 'adverb or conjunction'],
+            ['а', 'a', 'and / but', 'conjunction — contrast or addition (not same as и!)'],
+            ['с', 's', 'with / from', 'with (instrumental) / from (genitive)'],
+            ['но', 'no', 'but', 'conjunction — strong contrast'],
+            ['его', 'yevo', 'his / him', 'pronoun (genitive/accusative of он)'],
+            ['из', 'iz', 'from / out of', 'preposition — always takes genitive'],
+            ['же', 'zhe', 'indeed / even', 'emphasis particle — follows the word it stresses'],
+            ['по', 'po', 'along / about / by', 'preposition — takes dative, accusative, or prepositional'],
+          ],
+          caption:
+            'The 20 most frequent Russian words — function words that appear in almost every sentence',
+          boldColumnIndices: [0],
+        },
+      },
+      {
+        h2: 'Most Common Russian Nouns',
+        content:
+          'Russian nouns change form across six grammatical cases and between singular and plural. Knowing the **most common nouns** matters, but knowing how to **decline them** is what allows you to actually use them in sentences. Several of these nouns have irregular plural forms or mobile stress that shifts when the case changes.',
+        table: {
+          headers: ['Russian', 'English', 'Gender', 'Key grammar note'],
+          rows: [
+            ['раз', 'time, occasion', 'M', 'gen. pl. = раз (same as nom. sg.)'],
+            ['год', 'year', 'M', 'after 2–4: года; after 5+: лет (suppletive)'],
+            ['человек', 'person', 'M', 'gen. pl. = людей (from люди — suppletive)'],
+            ['день', 'day', 'M', 'soft stem — gen. sg. = дня'],
+            ['рука', 'hand, arm', 'F', 'mobile stress across all cases'],
+            ['место', 'place, seat', 'N', 'gen. pl. = мест'],
+            ['слово', 'word', 'N', 'gen. pl. = слов'],
+            ['дело', 'matter, affair', 'N', '"Дело в том, что…" = the thing is…'],
+            ['жизнь', 'life', 'F', 'soft stem — gen. sg. = жизни'],
+            ['время', 'time', 'N', 'irregular stem: врем- + -ен- in oblique cases'],
+            ['голова', 'head', 'F', 'mobile stress — acc. sg. = голову'],
+            ['нога', 'leg, foot', 'F', 'mobile stress — acc. sg. = ногу'],
+            ['дом', 'house, home', 'M', 'gen. sg. = дома; nom. pl. = дома (stress!)'],
+            ['конец', 'end', 'M', 'gen. sg. = конца; fleeting -е- in nom.'],
+            ['страна', 'country', 'F', 'gen. pl. = стран'],
+            ['город', 'city, town', 'M', 'gen. pl. = городов; nom. pl. = города'],
+            ['вопрос', 'question', 'M', 'gen. sg. = вопроса; very common in written Russian'],
+            ['сторона', 'side, direction', 'F', '"с одной стороны" = on one hand'],
+            ['ночь', 'night', 'F', 'soft stem — gen. sg. = ночи'],
+            ['глаз', 'eye', 'M', 'gen. pl. = глаз (same spelling as nom. sg.)'],
+          ],
+          caption: 'Most common Russian nouns — with gender and key grammar notes',
+          boldColumnIndices: [0],
+        },
+      },
+      {
+        h2: 'Most Common Russian Verbs',
+        content:
+          'Russian verbs come in **aspect pairs** — a perfective form (completed action) and an imperfective form (ongoing or repeated action). Many of the most frequent verbs are the **auxiliary and state verbs** that appear in almost every context. Note that быть (to be) is typically omitted in present-tense sentences but is essential in the past and future.',
+        table: {
+          headers: ['Russian', 'Aspect', 'English', 'Key usage note'],
+          rows: [
+            ['быть', 'impf.', 'to be', 'omitted in present tense; past: был/была/было/были'],
+            ['сказать', 'pf.', 'to say (once)', 'pair: говорить — "он сказал" = he said'],
+            ['говорить', 'impf.', 'to speak, talk', 'used for ongoing speech or habitual saying'],
+            ['знать', 'impf.', 'to know', 'no perfective needed for the state of knowing'],
+            ['стать', 'pf.', 'to become', 'pair: становиться — стать + instrumental case'],
+            ['мочь', 'impf.', 'to be able to', 'могу / можешь / может — irregular conjugation'],
+            ['видеть', 'impf.', 'to see', 'вижу / видишь / видит — second conjugation'],
+            ['хотеть', 'impf.', 'to want', 'хочу / хочешь / хочет — mixed conjugation'],
+            ['идти', 'impf.', 'to go (now, on foot)', 'unidirectional; pair: ходить (multidirectional)'],
+            ['дать', 'pf.', 'to give', 'дам / дашь / даст — irregular; pair: давать'],
+            ['думать', 'impf.', 'to think', 'думаю / думаешь — very regular first conjugation'],
+            ['делать', 'impf.', 'to do, make', 'pair: сделать — very regular'],
+            ['смотреть', 'impf.', 'to look, watch', 'смотрю / смотришь — second conjugation'],
+            ['стоять', 'impf.', 'to stand; to cost', '"Сколько стоит?" = How much does it cost?'],
+            ['понять', 'pf.', 'to understand', 'pair: понимать — пойму / поймёшь'],
+            ['иметь', 'impf.', 'to have', 'formal; colloquially: "у меня есть"'],
+            ['работать', 'impf.', 'to work', 'работаю / работаешь — very regular'],
+            ['жить', 'impf.', 'to live', 'живу / живёшь — stress shifts in conjugation'],
+            ['любить', 'impf.', 'to love, like', 'люблю / любишь — second conjugation'],
+            ['прийти', 'pf.', 'to come, arrive', 'pair: приходить — приду / придёшь'],
+          ],
+          caption: 'Most common Russian verbs — with aspect and key usage notes',
+          boldColumnIndices: [0],
+        },
+      },
+      {
+        h2: 'Most Common Russian Adjectives',
+        content:
+          'Russian adjectives **agree with the noun they modify** — in gender, number, and case. An adjective like большой (big) becomes большая for feminine nouns, большое for neuter, and большие in the plural. This agreement is one of the core challenges of Russian grammar, but these high-frequency adjectives are worth learning early precisely because they appear everywhere.',
+        table: {
+          headers: ['Masculine form', 'Feminine / Neuter form', 'English'],
+          rows: [
+            ['большой', 'большая / большое', 'big, large'],
+            ['другой', 'другая / другое', 'other, different'],
+            ['первый', 'первая / первое', 'first'],
+            ['новый', 'новая / новое', 'new'],
+            ['хороший', 'хорошая / хорошее', 'good'],
+            ['маленький', 'маленькая / маленькое', 'small, little'],
+            ['старый', 'старая / старое', 'old'],
+            ['последний', 'последняя / последнее', 'last, final'],
+            ['один', 'одна / одно', 'one; alone'],
+            ['наш', 'наша / наше', 'our'],
+            ['целый', 'целая / целое', 'whole, entire'],
+            ['молодой', 'молодая / молодое', 'young'],
+            ['высокий', 'высокая / высокое', 'tall, high'],
+            ['русский', 'русская / русское', 'Russian'],
+            ['каждый', 'каждая / каждое', 'each, every'],
+            ['разный', 'разная / разное', 'various, different'],
+            ['свой', 'своя / своё', 'one\'s own'],
+            ['следующий', 'следующая / следующее', 'next, following'],
+            ['главный', 'главная / главное', 'main, chief'],
+            ['сам', 'сама / само', 'oneself; by oneself'],
+          ],
+          caption: 'Most common Russian adjectives — masculine and feminine/neuter forms',
+          boldColumnIndices: [0],
+        },
+      },
+      {
+        h2: 'Essential Function Words: Prepositions, Conjunctions & Particles',
+        content:
+          'Function words are the glue of Russian grammar. **Prepositions** are particularly important because every Russian preposition **triggers a specific grammatical case** — and several of the most common ones can trigger different cases depending on meaning. Learning these prepositions with their case requirements from the start saves significant confusion later.',
+        subsections: [
+          {
+            h3: 'Common Russian Prepositions and Their Cases',
+            content:
+              'Each preposition is listed with its case trigger. Some prepositions take different cases depending on whether the action expresses a static location or a dynamic direction.',
+            table: {
+              headers: ['Preposition', 'English', 'Case required'],
+              rows: [
+                ['в', 'in (location) / into (direction)', 'prepositional / accusative'],
+                ['на', 'on (location) / onto (direction)', 'prepositional / accusative'],
+                ['с', 'with / from, since', 'instrumental / genitive'],
+                ['из', 'from, out of', 'genitive only'],
+                ['по', 'along, around, about, by', 'dative (mainly)'],
+                ['без', 'without', 'genitive only'],
+                ['до', 'before, until, up to', 'genitive only'],
+                ['для', 'for (the purpose of)', 'genitive only'],
+                ['у', 'at, by; possession ("у меня есть")', 'genitive only'],
+                ['о / об', 'about, concerning', 'prepositional only'],
+                ['за', 'behind; for; during', 'instrumental / accusative'],
+                ['под', 'under (location / direction)', 'instrumental / accusative'],
+                ['при', 'at the time of; in the presence of', 'prepositional only'],
+                ['через', 'across, through; in (time)', 'accusative only'],
+                ['между', 'between, among', 'instrumental'],
+              ],
+              boldColumnIndices: [0],
+            },
+          },
+          {
+            h3: 'Most Common Conjunctions and Particles',
+            content:
+              'These words link clauses, add nuance, and shift the register of a sentence. Many are extremely short but carry dense meaning.',
+            bullets: [
+              '**и** — and (additive) | **а** — and / but (contrasting) | **но** — but (opposition)',
+              '**что** — that / what | **если** — if | **когда** — when | **хотя** — although',
+              '**или** — or | **ни…ни** — neither…nor | **то…то** — sometimes…sometimes',
+              '**уже** — already | **ещё** — still / yet / more | **даже** — even | **тоже** — also',
+              '**вот** — here is / there is | **ну** — well (common filler word in speech)',
+              '**же** — emphasis particle (follows the word it stresses) | **ли** — yes/no question marker',
+            ],
+          },
+        ],
+      },
+      {
+        h2: 'How to Learn These Words Effectively',
+        content:
+          'Knowing 100 words on a list is different from knowing them well enough to use under pressure in conversation. Here are the strategies that actually work for building Russian vocabulary to the point of automatic recall.',
+        subsections: [
+          {
+            h3: 'Use Spaced Repetition (SRS)',
+            content:
+              'Spaced repetition is the most evidence-backed method for vocabulary memorization. Apps like **Anki** (free) let you create flashcards reviewed just before you would forget them — maximizing retention per hour of study. For Russian, add both the base form and 2–3 example sentences showing the word in different cases.',
+          },
+          {
+            h3: 'Learn Words in Context, Not in Isolation',
+            content:
+              'Rather than memorizing "голова = head", learn it in a phrase: **болит голова** (my head hurts) or **потерять голову** (to lose one\'s head / be swept away). Context activates more memory pathways and naturally introduces the grammatical patterns that go with each word.',
+          },
+          {
+            h3: 'Group Words by Grammar Pattern',
+            content:
+              'Many common nouns share a declension pattern. Learning them as a group reinforces both vocabulary and grammar simultaneously. Feminine soft-stem nouns (жизнь, ночь, роль) all follow the same declension table — learn four words and you have acquired the pattern for hundreds more.',
+          },
+          {
+            h3: 'Learn Verbs in Aspect Pairs',
+            content:
+              'Always learn Russian verbs as **aspect pairs**: the imperfective (ongoing) and perfective (completed) forms together. The most common verbs often have **suppletive pairs** — entirely different roots (говорить / сказать; брать / взять). Treat each pair as a single vocabulary item, not two separate words.',
+          },
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'What are the most common Russian words for beginners?',
+        answer:
+          'The most common Russian words for beginners are short function words: **и** (and), **в** (in/into), **не** (not), **на** (on/onto), **я** (I), **он/она/они** (he/she/they), **что** (that/what), and **это** (this/it). After these, the most useful nouns are **человек** (person), **год** (year), **день** (day), **раз** (time/occasion), and **время** (time). These 15 words alone appear in the vast majority of everyday Russian text.',
+      },
+      {
+        question: 'How many Russian words do I need for basic conversation?',
+        answer:
+          'Linguistics research suggests that **500–600 words** is the threshold for very basic conversation — enough for simple daily interactions and familiar topics. With **1,000–1,500 words**, you can handle most everyday conversations with some effort. True fluency across general topics requires 5,000–8,000 words, but the first 100 get you much further than you might expect.',
+      },
+      {
+        question: 'Why do Russian words change form so much?',
+        answer:
+          'Russian is a **highly inflected language** — words change their endings depending on their grammatical role in the sentence. Nouns change form across **six cases**, in two numbers, and across three genders. Adjectives agree with the noun they modify. Verbs change by person, number, tense, and aspect. This richness of form means Russian word order is very flexible — a different trade-off from English, not a harder one.',
+      },
+      {
+        question: 'What is the most used word in Russian?',
+        answer:
+          'The single most frequent word in Russian is **и** (and), which appears in nearly every piece of extended text or speech. After that come short grammatical words: **в** (in/into), **не** (not), **он** (he), **на** (on). In terms of content words, **человек** (person) and **год** (year) rank among the most frequent nouns, and **говорить / сказать** (to say/speak) and **быть** (to be) among the most frequent verbs.',
+      },
+      {
+        question: 'Is there a difference between Russian words for "and"?',
+        answer:
+          'Yes — Russian has two main words translated as "and": **и** and **а**. They are not interchangeable. **И** simply adds things together (books and pens = книги и ручки). **А** marks a contrast or unexpected connection: "Я живу в Москве, а ты — в Париже" (I live in Moscow, and you — in Paris). When pointing out a difference between two things or people, **а** is correct even when English would use "and".',
+      },
+      {
+        question: 'How do I get these 100 Russian words into long-term memory?',
+        answer:
+          'The most effective method is **spaced repetition** combined with **sentence-level exposure**. Create flashcards (Anki works well) with each word in 2–3 real sentence contexts rather than isolated definitions. Review consistently for 10–15 minutes daily. Additionally, audio exposure — through podcasts or shadowing exercises — builds the **listening recognition** that written flashcards alone cannot provide. Once you know the common nouns, use **Russian Cases with Anna** to drill their correct case forms.',
+      },
+    ],
+    conclusion:
+      'The 100 most common Russian words are your foundation. Master the function words first — they appear in every sentence and give you the grammatical skeleton of the language. Add the most common nouns and learn to decline them correctly. Learn the most common verbs in aspect pairs. Build these 100 words into automatic recall, and the next 300 will come much faster.\n\nThe key insight from frequency linguistics is this: the first 100 words are not just vocabulary — they are **the grammar of Russian made visible**. Nearly every preposition on this list triggers a specific case. Nearly every noun changes form in predictable patterns. Learning the words and the grammar together, from day one, is the approach that separates learners who plateau at tourist level from those who eventually achieve real fluency.',
+    ctaText: 'Download Russian Cases with Anna — Free',
+    ctaHref: '/',
+    internalLinks: [
+      {
+        href: '/learn/articles/russian-cases-explained-beginners-guide',
+        label: 'Russian Cases Explained Simply: A Beginner\'s Visual Guide',
+      },
+      {
+        href: '/learn/articles/russian-genitive-case',
+        label: 'Russian Genitive Case: Rules, Endings & 32 Real Examples',
+      },
+      {
+        href: '/learn/articles/russian-word-stress-guide',
+        label: 'Russian Word Stress: Why It Changes Everything (and How to Master It)',
+      },
+      {
+        href: '/learn/articles/how-long-learn-russian',
+        label: 'How Long Does It Take to Learn Russian? (Realistic Timeline)',
+      },
+      {
+        href: '/learn/articles/best-free-resources-learn-russian',
+        label: '15 Best Free Resources to Learn Russian in 2026',
+      },
+      { href: '/practice', label: 'Free Russian Declension Quiz (all six cases)' },
+      { href: '/words', label: 'Browse 400+ Russian Words with Full Declension Tables' },
+    ],
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: '100 Most Common Russian Words: The Essential Beginner\'s Vocabulary List',
+      description:
+        'Master the 100 most common Russian words used every day — nouns, verbs, adjectives, and function words — with grammar notes and study tips for beginners.',
+      datePublished: '2026-05-31',
+      dateModified: '2026-05-31',
+      author: {
+        '@type': 'Person',
+        name: 'Nathan',
+        url: 'https://russiandeclensions.com/',
+        image: 'https://russiandeclensions.com/landing-cases/founder-photo.webp',
+        description:
+          'Native French speaker learning Russian; writes about grammar, cases, and practical self-study habits.',
+        worksFor: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      },
+      publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': 'https://russiandeclensions.com/learn/articles/russian-most-common-words',
+      },
+      keywords:
+        'most common russian words, common russian words, russian vocabulary list, basic russian words, russian words for beginners, 100 russian words',
+      image: {
+        '@type': 'ImageObject',
+        url: 'https://russiandeclensions.com/articles/best-free-resources-learn-russian.webp',
         width: 1200,
         height: 630,
       },

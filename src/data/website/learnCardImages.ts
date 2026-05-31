@@ -37,6 +37,7 @@ const LEARN_CARD_IMAGES: Record<string, string> = {
   'russian-verbal-aspect-perfective-imperfective':
     '/articles/russian-verbal-aspect-perfective-imperfective.webp',
   'russian-word-stress-guide': '/articles/russian-word-stress-guide.webp',
+  'russian-most-common-words': '/articles/best-free-resources-learn-russian.webp',
 };
 
 export function getLearnCardImage(slug: string): string {

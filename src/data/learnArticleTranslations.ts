@@ -102,6 +102,12 @@ import { russianWordStressGuideEs } from './articleTranslationsEs/russian-word-s
 import { russianWordStressGuideIt } from './articleTranslationsIt/russian-word-stress-guide';
 import { russianWordStressGuidePl } from './articleTranslationsPl/russian-word-stress-guide';
 import { russianWordStressGuideTr } from './articleTranslationsTr/russian-word-stress-guide';
+import { russianMostCommonWordsFr } from './articleTranslationsFr/russian-most-common-words';
+import { russianMostCommonWordsDe } from './articleTranslationsDe/russian-most-common-words';
+import { russianMostCommonWordsEs } from './articleTranslationsEs/russian-most-common-words';
+import { russianMostCommonWordsIt } from './articleTranslationsIt/russian-most-common-words';
+import { russianMostCommonWordsPl } from './articleTranslationsPl/russian-most-common-words';
+import { russianMostCommonWordsTr } from './articleTranslationsTr/russian-most-common-words';
 
 export const learnArticleTranslations: Partial<
   Record<string, Partial<Record<LandingLanguage, LearnArticle>>>
@@ -632,5 +638,13 @@ export const learnArticleTranslations: Partial<
     it_it: russianWordStressGuideIt,
     pl_pl: russianWordStressGuidePl,
     tr_tr: russianWordStressGuideTr,
+  },
+  'russian-most-common-words': {
+    fr_fr: russianMostCommonWordsFr,
+    de_de: russianMostCommonWordsDe,
+    es_es: russianMostCommonWordsEs,
+    it_it: russianMostCommonWordsIt,
+    pl_pl: russianMostCommonWordsPl,
+    tr_tr: russianMostCommonWordsTr,
   },
 };
