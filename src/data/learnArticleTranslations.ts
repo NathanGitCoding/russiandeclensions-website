@@ -108,6 +108,18 @@ import { russianMostCommonWordsEs } from './articleTranslationsEs/russian-most-c
 import { russianMostCommonWordsIt } from './articleTranslationsIt/russian-most-common-words';
 import { russianMostCommonWordsPl } from './articleTranslationsPl/russian-most-common-words';
 import { russianMostCommonWordsTr } from './articleTranslationsTr/russian-most-common-words';
+import { russianGreetingsGuideFr } from './articleTranslationsFr/russian-greetings-guide';
+import { russianGreetingsGuideDe } from './articleTranslationsDe/russian-greetings-guide';
+import { russianGreetingsGuideEs } from './articleTranslationsEs/russian-greetings-guide';
+import { russianGreetingsGuideIt } from './articleTranslationsIt/russian-greetings-guide';
+import { russianGreetingsGuidePl } from './articleTranslationsPl/russian-greetings-guide';
+import { russianGreetingsGuideTr } from './articleTranslationsTr/russian-greetings-guide';
+import { russianNumbersGuideFr } from './articleTranslationsFr/russian-numbers-guide';
+import { russianNumbersGuideDe } from './articleTranslationsDe/russian-numbers-guide';
+import { russianNumbersGuideEs } from './articleTranslationsEs/russian-numbers-guide';
+import { russianNumbersGuideIt } from './articleTranslationsIt/russian-numbers-guide';
+import { russianNumbersGuidePl } from './articleTranslationsPl/russian-numbers-guide';
+import { russianNumbersGuideTr } from './articleTranslationsTr/russian-numbers-guide';
 
 export const learnArticleTranslations: Partial<
   Record<string, Partial<Record<LandingLanguage, LearnArticle>>>
@@ -646,5 +658,21 @@ export const learnArticleTranslations: Partial<
     it_it: russianMostCommonWordsIt,
     pl_pl: russianMostCommonWordsPl,
     tr_tr: russianMostCommonWordsTr,
+  },
+  'russian-greetings-guide': {
+    fr_fr: russianGreetingsGuideFr,
+    de_de: russianGreetingsGuideDe,
+    es_es: russianGreetingsGuideEs,
+    it_it: russianGreetingsGuideIt,
+    pl_pl: russianGreetingsGuidePl,
+    tr_tr: russianGreetingsGuideTr,
+  },
+  'russian-numbers-guide': {
+    fr_fr: russianNumbersGuideFr,
+    de_de: russianNumbersGuideDe,
+    es_es: russianNumbersGuideEs,
+    it_it: russianNumbersGuideIt,
+    pl_pl: russianNumbersGuidePl,
+    tr_tr: russianNumbersGuideTr,
   },
 };

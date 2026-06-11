@@ -4,7 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useLandingLanguage } from '@/contexts/LandingLanguageContext';
-import { getLearnPageTranslations, LESSON_SLUGS } from '@/data/website/learnPageTranslations';
+import { getLearnPageTranslations, LESSON_SLUGS, ARTICLE_SLUGS } from '@/data/website/learnPageTranslations';
 import { getLearnCardImage } from '@/data/website/learnCardImages';
 import { PageHero } from '@/components/PageHero';
 import { formatLandingDate } from '@/lib/formatLandingDate';
@@ -64,6 +64,42 @@ export default function LearnIndexClient({
                   </div>
                   <div className="learn-grid-body">
                     <span className="learn-grid-badge">{t.badges.lesson}</span>
+                    <span className="learn-grid-title">{title}</span>
+                    {publishedLabel && (
+                      <time className="learn-grid-date" dateTime={publishedDates[slug]}>
+                        {publishedLabel}
+                      </time>
+                    )}
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+        </section>
+
+        <section className="learn-section">
+          <h2 className="learn-section-title">{t.sections.articles}</h2>
+          <div className="learn-grid">
+            {ARTICLE_SLUGS.map((slug) => {
+              const title = t.articleTitles[slug];
+              if (!title) return null;
+              const publishedLabel = formatLandingDate(publishedDates[slug], landingLanguage);
+              return (
+                <Link
+                  key={slug}
+                  href={`/learn/articles/${slug}`}
+                  className="learn-grid-card"
+                >
+                  <div className="learn-grid-thumb">
+                    <Image
+                      src={getLearnCardImage(slug)}
+                      alt={title}
+                      fill
+                      sizes="(max-width: 640px) 100vw, (max-width: 960px) 50vw, 33vw"
+                    />
+                  </div>
+                  <div className="learn-grid-body">
+                    <span className="learn-grid-badge">{t.badges.article}</span>
                     <span className="learn-grid-title">{title}</span>
                     {publishedLabel && (
                       <time className="learn-grid-date" dateTime={publishedDates[slug]}>

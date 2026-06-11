@@ -77,7 +77,7 @@ export const russianWordStressGuidePl: LearnArticle = {
         headers: ['Akcent na 1. sylabie', 'Akcent na 2. sylabie', 'Zmiana znaczenia'],
         rows: [
           ['за́мок', 'замо́к', 'zamek warowny vs zamek do drzwi'],
-          ['му́ка', 'муко́', 'udręka / cierpienie vs mąka'],
+          ['му́ка', 'мука́', 'udręka / cierpienie vs mąka'],
           ['а́тлас', 'атла́с', 'atlas (książka z mapami) vs atlas (tkanina)'],
           ['о́рган', 'орга́н', 'narząd (ciało) vs organy (instrument)'],
           ['хло́пок', 'хлопо́к', 'bawełna vs klaśnięcie / trzask'],

@@ -1,7 +1,7 @@
 import React from 'react';
 import type { Metadata } from 'next';
 import { getLandingLangFromRequest } from '@/lib/landingLangServer';
-import { getLearnPageTranslations, LESSON_SLUGS } from '@/data/website/learnPageTranslations';
+import { getLearnPageTranslations, LESSON_SLUGS, ARTICLE_SLUGS } from '@/data/website/learnPageTranslations';
 import { getLearnArticlePublishedDate } from '@/data/learnArticles';
 import { getLearnLessonPublishedDate } from '@/data/learnLessons';
 import LearnIndexClient from './LearnIndexClient';
@@ -66,6 +66,19 @@ export default async function LearnIndexPage() {
         position: pos++,
         name: title,
         url: `${siteUrl}${href}`,
+      });
+    }
+  }
+  for (const slug of ARTICLE_SLUGS) {
+    const title = t.articleTitles[slug];
+    const date = getLearnArticlePublishedDate(slug);
+    if (date) publishedDates[slug] = date;
+    if (title) {
+      itemListElements.push({
+        '@type': 'ListItem',
+        position: pos++,
+        name: title,
+        url: `${siteUrl}/learn/articles/${slug}`,
       });
     }
   }

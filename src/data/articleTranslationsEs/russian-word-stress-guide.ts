@@ -77,7 +77,7 @@ export const russianWordStressGuideEs: LearnArticle = {
         headers: ['Acento en la 1.ª sílaba', 'Acento en la 2.ª sílaba', 'Cambio de significado'],
         rows: [
           ['за́мок', 'замо́к', 'castillo vs cerradura'],
-          ['му́ка', 'муко́', 'tormento / sufrimiento vs harina'],
+          ['му́ка', 'мука́', 'tormento / sufrimiento vs harina'],
           ['а́тлас', 'атла́с', 'atlas (libro de mapas) vs satén (tela)'],
           ['о́рган', 'орга́н', 'órgano (cuerpo) vs órgano (instrumento)'],
           ['хло́пок', 'хлопо́к', 'algodón vs palmada / estallido'],

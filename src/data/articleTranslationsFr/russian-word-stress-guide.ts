@@ -78,7 +78,7 @@ export const russianWordStressGuideFr: LearnArticle = {
         headers: ['Accent sur la 1re syllabe', 'Accent sur la 2e syllabe', 'Changement de sens'],
         rows: [
           ['за́мок', 'замо́к', 'château vs serrure'],
-          ['му́ка', 'муко́', 'tourment / souffrance vs farine'],
+          ['му́ка', 'мука́', 'tourment / souffrance vs farine'],
           ['а́тлас', 'атла́с', 'atlas (livre de cartes) vs satin (tissu)'],
           ['о́рган', 'орга́н', 'organe (corps) vs orgue (instrument)'],
           ['хло́пок', 'хлопо́к', 'coton vs claquement'],

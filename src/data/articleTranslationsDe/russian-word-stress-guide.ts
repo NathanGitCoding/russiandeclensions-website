@@ -77,7 +77,7 @@ export const russianWordStressGuideDe: LearnArticle = {
         headers: ['Betonung auf der 1. Silbe', 'Betonung auf der 2. Silbe', 'Bedeutungsunterschied'],
         rows: [
           ['за́мок', 'замо́к', 'Burg vs Schloss (Türschloss)'],
-          ['му́ка', 'муко́', 'Qual / Leid vs Mehl'],
+          ['му́ка', 'мука́', 'Qual / Leid vs Mehl'],
           ['а́тлас', 'атла́с', 'Atlas (Kartenwerk) vs Satin (Stoff)'],
           ['о́рган', 'орга́н', 'Organ (Körper) vs Orgel (Instrument)'],
           ['хло́пок', 'хлопо́к', 'Baumwolle vs Klatschen / Knall'],

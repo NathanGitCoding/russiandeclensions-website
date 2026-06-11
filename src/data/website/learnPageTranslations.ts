@@ -54,6 +54,8 @@ export const ARTICLE_SLUGS = [
   'russian-verbal-aspect-perfective-imperfective',
   'russian-word-stress-guide',
   'russian-most-common-words',
+  'russian-greetings-guide',
+  'russian-numbers-guide',
 ] as const;
 
 const en: LearnPageTranslations = {
@@ -108,6 +110,10 @@ const en: LearnPageTranslations = {
       'Russian Word Stress: Why It Changes Everything (and How to Master It)',
     'russian-most-common-words':
       '100 Most Common Russian Words: The Essential Beginner\'s Vocabulary List',
+    'russian-greetings-guide':
+      'Russian Greetings: How to Say Hello in Russian (Complete Guide 2026)',
+    'russian-numbers-guide':
+      'Russian Numbers: How to Count in Russian (Complete Guide 2026)',
   },
   practiceQuiz: {
     title: 'Practice Quiz',
@@ -180,6 +186,10 @@ const fr: LearnPageTranslations = {
       "L'accent tonique en russe : pourquoi il change tout (et comment le maîtriser)",
     'russian-most-common-words':
       '100 mots russes les plus courants : la liste de vocabulaire essentielle pour débutants',
+    'russian-greetings-guide':
+      'Salutations en russe : comment dire bonjour en russe (guide complet 2026)',
+    'russian-numbers-guide':
+      'Les nombres en russe : comment compter en russe (guide complet 2026)',
   },
   practiceQuiz: {
     title: 'Quiz de pratique',
@@ -247,6 +257,10 @@ const tr: LearnPageTranslations = {
       'Rusça Kelime Vurgusu: Neden Her Şeyi Değiştirir (ve Nasıl Ustalaşılır)',
     'russian-most-common-words':
       'En Yaygın 100 Rusça Kelime: Başlangıç Seviyesi İçin Temel Kelime Listesi',
+    'russian-greetings-guide':
+      "Rusça Selamlaşma: Rusça'da Merhaba Nasıl Denir (Tam Kılavuz 2026)",
+    'russian-numbers-guide':
+      "Rusça Sayılar: Rusça'da Nasıl Sayılır (Tam Kılavuz 2026)",
   },
   practiceQuiz: {
     title: 'Alıştırma Testi',
@@ -318,6 +332,10 @@ const de: LearnPageTranslations = {
       'Russische Wortbetonung: Warum sie alles verändert (und wie man sie meistert)',
     'russian-most-common-words':
       '100 häufigste russische Wörter: Die essentielle Vokabelliste für Anfänger',
+    'russian-greetings-guide':
+      'Russische Begrüßungen: Wie man auf Russisch Hallo sagt (vollständiger Leitfaden 2026)',
+    'russian-numbers-guide':
+      'Russische Zahlen: Auf Russisch zählen (vollständiger Leitfaden 2026)',
   },
   practiceQuiz: {
     title: 'Übungsquiz',
@@ -390,6 +408,10 @@ const pl: LearnPageTranslations = {
       'Akcent w języku rosyjskim: dlaczego zmienia wszystko (i jak go opanować)',
     'russian-most-common-words':
       '100 najczęstszych słów rosyjskich: Niezbędna lista słownictwa dla początkujących',
+    'russian-greetings-guide':
+      'Rosyjskie pozdrowienia: jak powiedzieć cześć po rosyjsku (kompletny przewodnik 2026)',
+    'russian-numbers-guide':
+      'Liczby po rosyjsku: jak liczyć po rosyjsku (kompletny przewodnik 2026)',
   },
   practiceQuiz: {
     title: 'Quiz praktyczny',
@@ -460,6 +482,10 @@ const ru: LearnPageTranslations = {
       'Ударение в русском языке: почему оно всё меняет (и как его освоить)',
     'russian-most-common-words':
       '100 самых распространённых русских слов: основной список для начинающих',
+    'russian-greetings-guide':
+      'Русские приветствия: как поздороваться по-русски (полное руководство 2026)',
+    'russian-numbers-guide':
+      'Русские числа: как считать по-русски (полное руководство 2026)',
   },
   practiceQuiz: {
     title: 'Тренировочный тест',
@@ -530,6 +556,10 @@ const es: LearnPageTranslations = {
       'El acento tónico en ruso: por qué lo cambia todo (y cómo dominarlo)',
     'russian-most-common-words':
       '100 palabras rusas más comunes: La lista de vocabulario esencial para principiantes',
+    'russian-greetings-guide':
+      'Saludos en ruso: cómo decir hola en ruso (guía completa 2026)',
+    'russian-numbers-guide':
+      'Los números en ruso: cómo contar en ruso (guía completa 2026)',
   },
   practiceQuiz: {
     title: 'Cuestionario de práctica',
@@ -601,6 +631,10 @@ const it: LearnPageTranslations = {
       "L'accento tonico in russo: perché cambia tutto (e come padroneggiarlo)",
     'russian-most-common-words':
       '100 parole russe più comuni: La lista di vocaboli essenziale per principianti',
+    'russian-greetings-guide':
+      'Saluti in russo: come dire ciao in russo (guida completa 2026)',
+    'russian-numbers-guide':
+      'I numeri in russo: come contare in russo (guida completa 2026)',
   },
   practiceQuiz: {
     title: 'Quiz di esercizio',
@@ -671,6 +705,10 @@ const pt: LearnPageTranslations = {
       'O acento tónico em russo: por que muda tudo (e como dominá-lo)',
     'russian-most-common-words':
       '100 palavras russas mais comuns: A lista de vocabulário essencial para iniciantes',
+    'russian-greetings-guide':
+      'Saudações em russo: como dizer olá em russo (guia completo 2026)',
+    'russian-numbers-guide':
+      'Os números em russo: como contar em russo (guia completo 2026)',
   },
   practiceQuiz: {
     title: 'Questionário de prática',
@@ -742,6 +780,10 @@ const nl: LearnPageTranslations = {
       'Russische woordklemtoon: waarom het alles verandert (en hoe je het beheerst)',
     'russian-most-common-words':
       '100 meest voorkomende Russische woorden: De essentiële woordenschatlijst voor beginners',
+    'russian-greetings-guide':
+      'Russische begroetingen: hoe zeg je hallo in het Russisch (complete gids 2026)',
+    'russian-numbers-guide':
+      'Russische getallen: hoe tel je in het Russisch (complete gids 2026)',
   },
   practiceQuiz: {
     title: 'Oefenquiz',

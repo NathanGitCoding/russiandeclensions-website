@@ -77,7 +77,7 @@ export const russianWordStressGuideTr: LearnArticle = {
         headers: ['1. hecede vurgu', '2. hecede vurgu', 'Anlam değişimi'],
         rows: [
           ['за́мок', 'замо́к', 'şato vs kilit'],
-          ['му́ка', 'муко́', 'ızdırap / acı vs un'],
+          ['му́ка', 'мука́', 'ızdırap / acı vs un'],
           ['а́тлас', 'атла́с', 'atlas (harita kitabı) vs saten (kumaş)'],
           ['о́рган', 'орга́н', 'organ (vücut) vs org (enstrüman)'],
           ['хло́пок', 'хлопо́к', 'pamuk vs alkış / patlama'],

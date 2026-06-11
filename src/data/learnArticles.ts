@@ -715,7 +715,7 @@ export const learnArticles: Record<string, LearnArticle> = {
       {
         question: 'What is the best app to practice Russian conversation?',
         answer:
-          'For **live speaking**, **italki** is the fastest path to real feedback—you book tutors and bring your own goals. **Busuu Premium** adds **community corrections** on writing and short speaking prompts. **Pimsleur** is not “conversation with a human,” but it is outstanding **audio-first** practice for pronunciation and rhythm when you are often hands-free.',
+          'For **live speaking**, **italki** is the fastest path to real feedback—you book tutors and bring your own goals. **Busuu Premium** adds **community corrections** on writing and short speaking prompts. **Pimsleur** is not "conversation with a human," but it is outstanding **audio-first** practice for pronunciation and rhythm when you are often hands-free.',
       },
       {
         question: 'How many Russian learning apps should I use?',
@@ -725,7 +725,7 @@ export const learnArticles: Record<string, LearnArticle> = {
       {
         question: 'What is the best free app to learn Russian?',
         answer:
-          'Strong free tiers include **Duolingo** (daily habit), **Clozemaster** (sentence-level endings once you are past pure beginner), and **Russian Cases with Anna** plus the **free declension quiz** on this site for focused case practice without installing anything. “Best free” still depends on whether you need habit, grammar depth, or case drills—combine free layers instead of expecting one app to do everything.',
+          'Strong free tiers include **Duolingo** (daily habit), **Clozemaster** (sentence-level endings once you are past pure beginner), and **Russian Cases with Anna** plus the **free declension quiz** on this site for focused case practice without installing anything. "Best free" still depends on whether you need habit, grammar depth, or case drills—combine free layers instead of expecting one app to do everything.',
       },
     ],
     leadMagnetCta: {
@@ -8316,7 +8316,7 @@ export const learnArticles: Record<string, LearnArticle> = {
             content:
               'Here is how prefixed motion verbs work in context. Notice how the prefix makes the direction of movement completely unambiguous:',
             bullets: [
-              '**Он пришёл домой в 6 часов.** — He came home at 6 o’clock. (прийти — arrived on foot, perfective)',
+              '**Он пришёл домой в 6 часов.** — He came home at 6 o\'clock. (прийти — arrived on foot, perfective)',
               '**Она ушла из офиса.** — She left the office. (уйти — departed on foot, perfective)',
               '**Они приехали из Лондона.** — They arrived from London. (приехать — arrived by vehicle, perfective)',
               '**Я выхожу из дома каждое утро.** — I leave the house every morning. (выходить — habitual, imperfective)',
@@ -10121,6 +10121,699 @@ export const learnArticles: Record<string, LearnArticle> = {
       image: {
         '@type': 'ImageObject',
         url: 'https://russiandeclensions.com/articles/best-free-resources-learn-russian.webp',
+        width: 1200,
+        height: 630,
+      },
+    },
+  },
+  'russian-numbers-guide': {
+    slug: 'russian-numbers-guide',
+    introByline: ARTICLE_BYLINE,
+    title: 'Russian Numbers: How to Count in Russian (Complete Guide 2026)',
+    metaTitle:
+      'Russian Numbers: How to Count in Russian | Complete Guide 2026 | Russian Cases with Anna',
+    metaDescription:
+      'Learn Russian numbers 1–1000: cardinal numbers, ordinal numbers, numbers with Russian cases, ages, and dates — complete pronunciation guide with tables.',
+    keywords: [
+      'russian numbers',
+      'how to count in russian',
+      'numbers in russian',
+      'russian numbers 1-10',
+      'russian numbers 1-100',
+      'russian cardinal numbers',
+      'russian ordinal numbers',
+      'counting in russian',
+      'russian number pronunciation',
+      'how to say numbers in russian',
+    ],
+    h1: 'Russian Numbers: How to Count in Russian (Complete Guide)',
+    heroImage: {
+      src: '/articles/russia-kremlin-moscow.webp',
+      alt: 'Learning Russian numbers — complete guide to counting in Russian',
+      width: 1200,
+      height: 630,
+    },
+    intro:
+      'Learning Russian numbers feels manageable at first — until you try to actually use them in a sentence. **Russian numbers are not just labels you attach to objects.** They interact with Russian\'s grammatical case system in ways that trip up even intermediate learners, and several numbers behave in completely unexpected ways.\n\nBut here is the good news: Russian numbers follow clear patterns once you understand the logic. **The first ten numbers unlock the rest of the system.** The "tricky" teens follow a single rule. The tens are predictable. And once you grasp how numbers interact with cases, you will be counting, telling your age, and reading prices with confidence.\n\nThis guide covers everything: **cardinal numbers 1–1000**, ordinal numbers, how to say your age, how to express dates and years, and the one grammar rule (numbers + cases) that makes all the difference in real Russian.',
+    whatYouLearn: [
+      'Cardinal numbers 1–1000 with pronunciation guide',
+      'The irregular numbers you need to memorise: **40, 90, 100**',
+      'How Russian numbers interact with **grammatical cases** — the rule most learners miss',
+      'Ordinal numbers: first, second, third…',
+      'How to say your **age** in Russian (мне X лет)',
+      'How to express **dates and years** in Russian',
+    ],
+    leadMagnetCta: {
+      title: 'Master Russian grammar beyond numbers — free app',
+      description:
+        'Numbers are just the beginning. Russian grammar, cases, and declensions are where real fluency is built. Russian Cases with Anna gives you structured lessons and smart quizzes — free on iOS and Android.',
+      ctaText: 'Download the app — Free',
+      ctaHref: '/',
+    },
+    sections: [
+      {
+        h2: 'Russian Numbers 1–10: The Foundation',
+        content:
+          'The ten cardinal numbers below are the foundation of the entire Russian number system. Notice immediately that **1** and **2** have gender variants — this will matter when you use them with nouns.',
+        table: {
+          headers: ['Number', 'Russian', 'Transliteration', 'Gender note'],
+          rows: [
+            ['1', 'один / одна / одно', 'odin / odna / odno', 'Masculine / Feminine / Neuter'],
+            ['2', 'два / две', 'dva / dve', 'Masc.–Neuter / Feminine'],
+            ['3', 'три', 'tri', '—'],
+            ['4', 'четыре', 'chetyre', '—'],
+            ['5', 'пять', "pyat'", '—'],
+            ['6', 'шесть', "shest'", '—'],
+            ['7', 'семь', "sem'", '—'],
+            ['8', 'восемь', "vosem'", '—'],
+            ['9', 'девять', "devyat'", '—'],
+            ['10', 'десять', "desyat'", '—'],
+          ],
+          caption: 'Russian cardinal numbers 1–10',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          '**Один** (masculine) is used with masculine nouns: один брат (one brother)',
+          '**Одна** (feminine) is used with feminine nouns: одна книга (one book)',
+          '**Одно** (neuter) is used with neuter nouns: одно окно (one window)',
+          '**Два** is used with masculine and neuter nouns; **две** is used with feminine nouns',
+          'Numbers 3–10 do not change with gender',
+          'Numbers 5–10 end in a soft sign (ь) — an important pattern for the case system',
+        ],
+      },
+      {
+        h2: 'Numbers 11–19: The Russian Teens',
+        content:
+          'The teens in Russian are formed by combining a base number with the suffix **-надцать** (a form of "on ten"). Once you see the pattern, all eleven teenagers unlock at once.',
+        table: {
+          headers: ['Number', 'Russian', 'Transliteration', 'Formation pattern'],
+          rows: [
+            ['11', 'одиннадцать', "odinnadtsat'", 'один + надцать'],
+            ['12', 'двенадцать', "dvenadtsat'", 'две + надцать'],
+            ['13', 'тринадцать', "trinadtsat'", 'три + надцать'],
+            ['14', 'четырнадцать', "chetyrnadtsat'", 'четыре + надцать'],
+            ['15', 'пятнадцать', "pyatnadtsat'", 'пять + надцать'],
+            ['16', 'шестнадцать', "shestnadtsat'", 'шесть + надцать'],
+            ['17', 'семнадцать', "semnadtsat'", 'семь + надцать'],
+            ['18', 'восемнадцать', "vosemnadtsat'", 'восемь + надцать'],
+            ['19', 'девятнадцать', "devyatnadtsat'", 'девять + надцать'],
+          ],
+          caption: 'Russian numbers 11–19 with formation pattern',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          'All teens end in **-надцать** — once you hear this suffix, you know it is a teen number',
+          'In speech, the stem often shortens: четыре → четыр- in четырнадцать; пять → пят- in пятнадцать',
+          '**Одиннадцать** doubles the н — the most commonly misspelled Russian teen',
+          'Unlike 1 and 2, the teens do **not** vary by gender',
+        ],
+      },
+      {
+        h2: 'Tens and Hundreds: Counting to 1000',
+        content:
+          'The tens (20–90) and hundreds (100–900) follow mostly regular patterns with a few important irregulars. The critical three to memorise: **сорок** (40), **девяносто** (90), and **сто** (100) are all completely irregular.',
+        subsections: [
+          {
+            h3: 'Tens: 20 to 90',
+            content:
+              'The tens from 20 to 80 follow a compound pattern. Notice that 40 and 90 break entirely from the pattern.',
+            table: {
+              headers: ['Number', 'Russian', 'Transliteration'],
+              rows: [
+                ['20', 'двадцать', "dvadtsat'"],
+                ['30', 'тридцать', "tridtsat'"],
+                ['40', 'сорок', 'sorok'],
+                ['50', 'пятьдесят', "pyat'desyat"],
+                ['60', 'шестьдесят', "shest'desyat"],
+                ['70', 'семьдесят', "sem'desyat"],
+                ['80', 'восемьдесят', "vosem'desyat"],
+                ['90', 'девяносто', 'devyanosto'],
+              ],
+              caption: 'Russian tens 20–90',
+              boldColumnIndices: [0, 1],
+            },
+          },
+          {
+            h3: 'Hundreds: 100 to 1000',
+            content:
+              'The hundreds also follow a pattern — but 100 is irregular (сто), and 200–400 have their own forms before the pattern continues from 500–900.',
+            table: {
+              headers: ['Number', 'Russian', 'Transliteration'],
+              rows: [
+                ['100', 'сто', 'sto'],
+                ['200', 'двести', 'dvesti'],
+                ['300', 'триста', 'trista'],
+                ['400', 'четыреста', 'chetyresta'],
+                ['500', 'пятьсот', "pyat'sot"],
+                ['600', 'шестьсот', "shest'sot"],
+                ['700', 'семьсот', "sem'sot"],
+                ['800', 'восемьсот', "vosem'sot"],
+                ['900', 'девятьсот', "devyat'sot"],
+                ['1000', 'тысяча', 'tysyacha'],
+              ],
+              caption: 'Russian hundreds 100–1000',
+              boldColumnIndices: [0, 1],
+            },
+          },
+        ],
+        bullets: [
+          'Compound numbers are read left to right: **347 = триста сорок семь**',
+          '**Сорок** (40) and **девяносто** (90) are fully irregular — they must be memorised',
+          '**Двести** (200) and **триста / четыреста** (300/400) are also irregular forms',
+          'From 500 upward, hundreds follow the pattern: number + сот (e.g. пять + сот = пятьсот)',
+          '**Тысяча** (1000) is a feminine noun and declines accordingly',
+        ],
+      },
+      {
+        h2: 'Russian Numbers and Cases: The Grammar Rule That Changes Everything',
+        content:
+          'This is where most learners hit a wall. In Russian, **the noun after a number changes its grammatical case** depending on the number. This is not optional — it affects every sentence where you count something.\n\nThe rule has three tiers:\n\n**Tier 1: 1 → Nominative singular.** Один стол (one table), одна книга (one book).\n\n**Tier 2: 2, 3, 4 → Genitive singular.** Два стол**а** (two tables), три книг**и** (three books).\n\n**Tier 3: 5 and above → Genitive plural.** Пять стол**ов** (five tables), десять книг (ten books).\n\nThe rule applies to the **last digit** of a compound number — so 21 behaves like 1, 22 like 2, 25 like 5. But 11–14 always use Tier 3 regardless of their last digit.',
+        table: {
+          headers: ['Number type', 'Case required', 'Example'],
+          rows: [
+            ['1, 21, 31, 41…', 'Nominative singular', 'один стол, двадцать один студент'],
+            ['2, 3, 4 / 22, 23, 24…', 'Genitive singular', 'два стола, тридцать четыре книги'],
+            ['5–20 / 25–30 / 11–14…', 'Genitive plural', 'пять столов, одиннадцать студентов'],
+          ],
+          caption: 'Numbers and noun cases in Russian',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          'The rule is based on the **last digit** for compound numbers (except teens 11–19)',
+          '**11–19 always take the genitive plural** — regardless of their last digit',
+          'This rule applies to nouns; adjectives must also agree with the noun\'s case',
+          'The genitive plural is one of the most irregular noun forms in Russian — practise it early',
+          'Prices follow the same rule: **один рубль**, **два рубля**, **пять рублей**',
+        ],
+      },
+      {
+        h2: 'Ordinal Numbers in Russian: First, Second, Third…',
+        content:
+          'Ordinal numbers (first, second, third…) are adjectives in Russian — they **agree in gender, number, and case** with the noun they describe. Here are the most essential ordinals:',
+        table: {
+          headers: ['Position', 'Ordinal (Masc.)', 'Transliteration', 'Feminine form'],
+          rows: [
+            ['1st', 'первый', 'pervyy', 'первая'],
+            ['2nd', 'второй', 'vtoroy', 'вторая'],
+            ['3rd', 'третий', 'tretiy', 'третья'],
+            ['4th', 'четвёртый', 'chetvyortyy', 'четвёртая'],
+            ['5th', 'пятый', 'pyatyy', 'пятая'],
+            ['6th', 'шестой', 'shestoy', 'шестая'],
+            ['7th', 'седьмой', "sed'moy", 'седьмая'],
+            ['8th', 'восьмой', "vos'moy", 'восьмая'],
+            ['9th', 'девятый', 'devyatyy', 'девятая'],
+            ['10th', 'десятый', 'desyatyy', 'десятая'],
+          ],
+          caption: 'Russian ordinal numbers 1st–10th',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          '**Третий** (third) is irregular — it follows the soft adjective pattern (третья, третьего…)',
+          'For compound ordinals, only the last word changes: **двадцать первый** (twenty-first)',
+          'Ordinals are used in dates: **первое января** (the first of January)',
+          'Floor numbers: **на первом этаже** (on the first floor) — ordinal in prepositional case',
+        ],
+      },
+      {
+        h2: 'How to Say Your Age in Russian',
+        content:
+          'Saying your age in Russian uses the dative case and the word **лет** (years). The structure is: **Мне + [number] + лет / года / год**.\n\nThe noun after the number follows the same three-tier rule:\n\n- **год** (nominative singular) after 1: **Мне двадцать один год** (I am 21)\n- **года** (genitive singular) after 2, 3, 4: **Мне тридцать два года** (I am 32)\n- **лет** (genitive plural) after 5+: **Мне пятьдесят лет** (I am 50)',
+        table: {
+          headers: ['Age', 'Russian', 'Literal meaning'],
+          rows: [
+            ['I am 1 (year old)', 'Мне один год', 'To me one year'],
+            ['I am 2 (years old)', 'Мне два года', 'To me two years'],
+            ['I am 5 (years old)', 'Мне пять лет', 'To me five years'],
+            ['I am 21 (years old)', 'Мне двадцать один год', 'To me twenty-one years'],
+            ['I am 35 (years old)', 'Мне тридцать пять лет', 'To me thirty-five years'],
+            ['How old are you?', 'Сколько вам лет?', 'How many years to you?'],
+          ],
+          caption: 'Saying ages in Russian',
+          boldColumnIndices: [0, 1],
+        },
+      },
+      {
+        h2: 'How to Say the Date and Year in Russian',
+        content:
+          'Dates in Russian use **ordinal numbers in the neuter form** (neuter because the implied word is **число** — date/number, a neuter noun) followed by the month in the **genitive case**.\n\n**Today is the 5th of June → Сегодня пятое июня.**\n\nFor years, Russian uses the ordinal number with the word год (year) in the prepositional case:\n**In 2026 → В две тысячи двадцать шестом году.**',
+        table: {
+          headers: ['Month', 'Russian', 'Genitive (for dates)'],
+          rows: [
+            ['January', 'январь', 'января'],
+            ['February', 'февраль', 'февраля'],
+            ['March', 'март', 'марта'],
+            ['April', 'апрель', 'апреля'],
+            ['May', 'май', 'мая'],
+            ['June', 'июнь', 'июня'],
+            ['July', 'июль', 'июля'],
+            ['August', 'август', 'августа'],
+            ['September', 'сентябрь', 'сентября'],
+            ['October', 'октябрь', 'октября'],
+            ['November', 'ноябрь', 'ноября'],
+            ['December', 'декабрь', 'декабря'],
+          ],
+          caption: 'Russian months with genitive forms (used in dates)',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          '**Какое сегодня число?** = What is today\'s date? (literally: what number is today?)',
+          '**Сегодня первое января** = Today is the first of January',
+          'For birthdays: **Мой день рождения — второе марта** (My birthday is March 2nd)',
+          'Years use long ordinals: **в две тысячи двадцать шестом году** (in 2026)',
+          'Colloquially, Russians often say the year in short form: **в двадцать шестом году** for 2026',
+        ],
+      },
+      {
+        h2: 'Common Mistakes with Russian Numbers',
+        content:
+          'Even advanced learners make predictable mistakes with Russian numbers. Here are the four most common:',
+        bullets: [
+          '**Using nominative after all numbers.** The most common mistake: saying **пять стол** instead of **пять столов**. Remember: 2–4 → genitive singular; 5+ → genitive plural.',
+          '**Forgetting gender for 1 and 2.** Saying **два книга** instead of **две книги** (книга is feminine, so два → две).',
+          '**Treating 11–14 like their last digit.** 11 looks like it ends in 1, but it takes genitive plural: **одиннадцать студентов**, not одиннадцать студент.',
+          '**Mixing up год / года / лет for ages.** The year-noun follows the same three-tier rule: один год, два года, пять лет.',
+          '**Mispronouncing сорок (40).** It is **SO-rok** — stress is on the first syllable.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'What is the Russian word for "one"?',
+        answer:
+          'The Russian word for "one" has three gender variants: **один** (masculine — один брат), **одна** (feminine — одна сестра), and **одно** (neuter — одно окно). Use the form that matches the gender of the noun it describes.',
+      },
+      {
+        question: 'How do Russian numbers interact with noun cases?',
+        answer:
+          'Russian nouns change case after numbers. The rule: 1 → nominative singular (один стол); 2, 3, 4 → genitive singular (два стола); 5 and above → genitive plural (пять столов). For compound numbers, the rule depends on the last digit — but 11–14 always take genitive plural.',
+      },
+      {
+        question: 'What is the difference between два and две?',
+        answer:
+          '**Два** is used with masculine and neuter nouns: два брата (two brothers), два окна (two windows). **Две** is used with feminine nouns: две сестры (two sisters), две книги (two books). The distinction matters — using два with a feminine noun is a grammatical error.',
+      },
+      {
+        question: 'How do you say "I am 25 years old" in Russian?',
+        answer:
+          'Say **Мне двадцать пять лет** (literally: "to me twenty-five years"). The number 25 ends in 5, so the noun is **лет** (genitive plural). If you are 21, say **Мне двадцать один год** (год — nominative singular, because the last digit is 1).',
+      },
+      {
+        question: 'How do you say "100" in Russian?',
+        answer:
+          '100 in Russian is **сто** — an irregular form. 200 is **двести**, 300 is **триста**, 400 is **четыреста**. From 500 upward, hundreds follow a regular pattern: **пятьсот, шестьсот, семьсот, восемьсот, девятьсот**.',
+      },
+    ],
+    conclusion:
+      'Russian numbers are one of those parts of the language that seem simple on a list but require genuine practice to deploy correctly in real speech. The good news: the system is **logical**. Once the three-tier case rule clicks, once you have memorised сорок (40), девяносто (90), and сто (100), and once the gender agreement of один / одна / два / две feels automatic — you are essentially set for the whole number system.\n\nFrom here, the most important next step is **practising numbers in real sentences** — counting objects with the correct case, saying prices, reading dates aloud. That is where passive knowledge of number tables becomes active Russian.',
+    conclusionBullets: [
+      'Numbers 1–10 are the foundation — memorise them with their gender variants',
+      'The teens (11–19) all end in **-надцать** — learn the pattern once',
+      'Memorise the three irregulars: **сорок** (40), **девяносто** (90), **сто** (100)',
+      'Apply the case rule: 1 → nominative, 2–4 → genitive singular, 5+ → genitive plural',
+      'Ordinal numbers are adjectives and must agree in gender, case, and number',
+    ],
+    conclusionOutro:
+      'Numbers are your entry point into Russian\'s grammatical case system — and that case system is where real fluency lives. Every noun, pronoun, and adjective in Russian changes depending on its role in the sentence, and **mastering those declensions is what separates functional Russian from true fluency**.',
+    ctaText: 'Download Russian Cases with Anna — Free',
+    ctaHref: '/',
+    internalLinks: [
+      {
+        href: '/learn/articles/russian-greetings-guide',
+        label: 'Russian Greetings: How to Say Hello in Russian (Complete Guide)',
+      },
+      {
+        href: '/learn/articles/russian-most-common-words',
+        label: "100 Most Common Russian Words: Essential Beginner's Vocabulary List",
+      },
+      {
+        href: '/learn/articles/russian-alphabet-cyrillic-guide',
+        label: 'Russian Alphabet: Learn Cyrillic in 3 Simple Steps',
+      },
+      {
+        href: '/learn/articles/russian-cases-explained-beginners-guide',
+        label: "Russian Cases Explained Simply: A Beginner's Visual Guide",
+      },
+      {
+        href: '/learn/articles/how-long-learn-russian',
+        label: 'How Long Does It Take to Learn Russian? (Realistic Timeline)',
+      },
+      { href: '/practice', label: 'Free Russian Declension Quiz (all six cases)' },
+    ],
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: 'Russian Numbers: How to Count in Russian (Complete Guide 2026)',
+      description:
+        'Learn Russian numbers 1–1000: cardinal numbers, ordinal numbers, numbers with Russian cases, ages, and dates — complete pronunciation guide with tables.',
+      datePublished: '2026-06-11',
+      dateModified: '2026-06-11',
+      author: {
+        '@type': 'Person',
+        name: 'Nathan',
+        url: 'https://russiandeclensions.com/',
+        image: 'https://russiandeclensions.com/landing-cases/founder-photo.webp',
+        description:
+          'Native French speaker learning Russian; writes about grammar, cases, and practical self-study habits.',
+        worksFor: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      },
+      publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': 'https://russiandeclensions.com/learn/articles/russian-numbers-guide',
+      },
+      keywords:
+        'russian numbers, how to count in russian, numbers in russian, russian cardinal numbers, russian ordinal numbers, counting in russian',
+      image: {
+        '@type': 'ImageObject',
+        url: 'https://russiandeclensions.com/articles/russia-kremlin-moscow.webp',
+        width: 1200,
+        height: 630,
+      },
+    },
+  },
+  'russian-greetings-guide': {
+    slug: 'russian-greetings-guide',
+    introByline: ARTICLE_BYLINE,
+    title: 'Russian Greetings: How to Say Hello in Russian (Complete Guide 2026)',
+    metaTitle:
+      'Russian Greetings: How to Say Hello in Russian | Complete Guide 2026 | Russian Cases with Anna',
+    metaDescription:
+      'Master all Russian greetings: formal Здравствуйте, informal Привет, time-specific greetings, farewells, and phone greetings — with pronunciation tips and common mistake fixes.',
+    keywords: [
+      'russian greetings',
+      'how to say hello in russian',
+      'russian hello',
+      'привет russian',
+      'здравствуйте russian',
+      'russian greetings and phrases',
+      'formal russian greetings',
+      'basic russian phrases',
+      'russian hello goodbye',
+      'russian farewell phrases',
+    ],
+    h1: 'Russian Greetings: How to Say Hello in Russian (Complete Guide)',
+    heroImage: {
+      src: '/articles/russia-kremlin-moscow.webp',
+      alt: 'Moscow Red Square — guide to Russian greetings and phrases',
+      width: 1200,
+      height: 630,
+    },
+    intro:
+      'Russian greetings are the first words most learners pick up — and with good reason. But beyond the ubiquitous **Привет** (Privet — Hi), Russian has a rich set of greetings that change depending on **formality, time of day, context**, and even the number of people you are addressing.\n\nGetting greetings wrong is rarely a grammar disaster. But **using the right greeting instantly marks you as a thoughtful learner** — and in Russian culture, the distinction between formal and informal address matters far more than in English. Using **Привет** with a professor, a doctor, or an elderly stranger can come across as rude or dismissive. Using the stiff **Здравствуйте** (Zdravstvuyte) with a close Russian friend will get you curious looks.\n\nThis guide covers every Russian greeting you actually need: formal, informal, time-specific, telephone greetings, and farewells. By the end, you will know not just what to say, but **when and why** — and you will finally be able to pronounce **Здравствуйте** without stumbling.',
+    whatYouLearn: [
+      'The key difference between formal **Здравствуйте** and informal **Привет** — when each is appropriate',
+      'Time-specific greetings: Доброе утро, Добрый день, Добрый вечер',
+      'Informal greetings used by young Russians in 2026',
+      'How to ask "How are you?" in Russian — 5 ways from formal to very casual',
+      'Russian farewells and how to say goodbye in every context',
+      'The one pronunciation trick that makes **Здравствуйте** much easier to say',
+    ],
+    leadMagnetCta: {
+      title: 'Master Russian grammar beyond greetings — free app',
+      description:
+        'Once you can say hello, the real work begins: Russian grammar, cases, and declensions. Russian Cases with Anna gives you structured lessons and smart quizzes to build real fluency — free on iOS and Android.',
+      ctaText: 'Download the app — Free',
+      ctaHref: '/',
+    },
+    sections: [
+      {
+        h2: 'Quick Reference: All Russian Greetings at a Glance',
+        content:
+          'Before diving into the details, here is a complete overview of the most important Russian greetings. The key variable is always **formality**: Russian distinguishes sharply between formal (вы / vy) and informal (ты / ty) register, and this shapes which greeting you use.',
+        table: {
+          headers: ['Russian', 'Transliteration', 'English', 'Register'],
+          rows: [
+            ['Здравствуйте', 'Zdravstvuyte', 'Hello (formal)', 'Formal'],
+            ['Здравствуй', 'Zdravstvuy', 'Hello (informal singular)', 'Semi-formal'],
+            ['Привет', 'Privet', 'Hi / Hey', 'Informal'],
+            ['Доброе утро', 'Dobroye utro', 'Good morning', 'Both'],
+            ['Добрый день', "Dobryy den'", 'Good afternoon', 'Both'],
+            ['Добрый вечер', 'Dobryy vecher', 'Good evening', 'Both'],
+            ['Хай', 'Khay', 'Hi (very casual)', 'Very informal'],
+            ['Ку', 'Ku', 'Hey (slang)', 'Very informal / youth'],
+            ['Приветик', 'Privetik', 'Hey there (affectionate)', 'Very informal'],
+            ['Салют', 'Salyut', 'Hey / Salute', 'Informal'],
+          ],
+          caption: 'Russian greetings: formal vs. informal overview',
+          boldColumnIndices: [0],
+        },
+      },
+      {
+        h2: 'Formal Russian Greetings: Здравствуйте and Its Variants',
+        content:
+          '**Здравствуйте** (Zdravstvuyte) is the standard formal greeting in Russian. Its literal meaning is "be healthy" — from the word здоровье (zdorovye, health) — and it has been the polite greeting in Russian for centuries.\n\nUse **Здравствуйте** with:\n\n- People you are meeting for the first time\n- Professionals: doctors, professors, officials, your boss\n- Elderly people (anyone noticeably older than you)\n- In formal situations: a job interview, a government office, a business meeting\n- Shop staff, bank employees, transport workers\n\nA simpler option, used when addressing one person you know slightly, is **Здравствуй** (Zdravstvuy). In practice, most speakers default to **Здравствуйте** with anyone they are not on first-name terms with.\n\n**Доброе утро**, **Добрый день**, and **Добрый вечер** (Good morning / afternoon / evening) are also fully acceptable formal greetings and sound slightly warmer — they are common in professional settings.',
+        table: {
+          headers: ['Russian', 'Transliteration', 'When to use'],
+          rows: [
+            ['Здравствуйте', 'Zdravstvuyte', 'Standard formal — safest default with strangers and professionals'],
+            ['Здравствуй', 'Zdravstvuy', 'Semi-formal — one person you know slightly but address politely'],
+            ['Доброе утро', 'Dobroye utro', 'Good morning (until ~noon) — formal or neutral'],
+            ["Добрый день", "Dobryy den'", 'Good afternoon (~noon to ~6 pm) — formal or neutral'],
+            ['Добрый вечер', 'Dobryy vecher', 'Good evening (~6 pm onwards) — formal or neutral'],
+          ],
+          caption: 'Formal Russian greetings and when to use them',
+          boldColumnIndices: [0],
+        },
+      },
+      {
+        h2: "Informal Russian Greetings: Привет and What Young Russians Say",
+        content:
+          '**Привет** (Privet) is the most common informal greeting and the one most learners pick up first. It is used freely among friends, colleagues of similar age, and family members.\n\nBeyond **Привет**, here is what young Russians actually say in 2026:',
+        table: {
+          headers: ['Russian', 'Transliteration', 'Meaning / Context'],
+          rows: [
+            ['Привет', 'Privet', 'Hi / Hey — the standard casual greeting'],
+            ['Приветик', 'Privetik', 'Hey there — affectionate, for close friends and children'],
+            ['Хай', 'Khay', 'Hi — borrowed from English, very common among under-35s'],
+            ['Ку', 'Ku', 'Hey — texting slang, used mainly in messages'],
+            ['Салют', 'Salyut', 'Hey — slightly retro, still used informally'],
+            ['Что, как?', 'Shto, kak?', 'What\'s up? — casual opener, literally "What? How?"'],
+            ['Как дела?', 'Kak dela?', 'How are you? — standard follow-up after Привет'],
+          ],
+          caption: 'Informal Russian greetings and slang used today',
+          boldColumnIndices: [0],
+        },
+        bullets: [
+          '**Привет** can be used at any time of day — morning, afternoon, or evening',
+          '**Хай** is increasingly dominant in urban Russian among under-35s, especially in writing',
+          '**Ку** is primarily used in text messages — unusual to say out loud',
+          'Combining greetings is natural: "**Привет, как дела?**" (Hi, how are you?) flows very easily',
+          'With strangers or in professional contexts, always default to **Здравствуйте**',
+        ],
+      },
+      {
+        h2: 'Time-Specific Greetings: Good Morning, Afternoon, and Evening in Russian',
+        content:
+          'Russian has a full set of time-based greetings that work in both formal and informal contexts. They are slightly warmer than **Здравствуйте** and are frequently used in service contexts and when addressing groups.',
+        table: {
+          headers: ['Russian', 'Transliteration', 'English', 'Typical time range'],
+          rows: [
+            ['Доброе утро', 'Dobroye utro', 'Good morning', 'Until ~noon'],
+            ["Добрый день", "Dobryy den'", 'Good afternoon', '~Noon to 6 pm'],
+            ['Добрый вечер', 'Dobryy vecher', 'Good evening', '~6 pm onwards'],
+            ['Спокойной ночи', 'Spokoynoy nochi', 'Good night', 'Farewell at bedtime only'],
+            ['Доброй ночи', 'Dobroy nochi', 'Good night', 'Late evening greeting or farewell'],
+          ],
+          caption: 'Time-specific Russian greetings — morning, afternoon, evening',
+          boldColumnIndices: [0],
+        },
+        bullets: [
+          '**Доброе утро** uses the neuter form because утро (morning) is a neuter noun',
+          '**Добрый день** uses the masculine form because день (day) is masculine',
+          '**Добрый вечер** uses masculine because вечер (evening) is masculine',
+          '**Спокойной ночи** is in the genitive case — a fixed farewell phrase used only at bedtime, never as a greeting',
+          'These greetings can be combined: "**Добрый день, как у вас дела?**" (Good afternoon, how are you?)',
+        ],
+      },
+      {
+        h2: 'How to Ask "How Are You?" in Russian',
+        content:
+          'Asking "how are you" in Russian depends on who you are talking to. Russian has multiple options ranging from formal to very casual — and choosing the right one matters.',
+        table: {
+          headers: ['Russian', 'Transliteration', 'Formality', 'Notes'],
+          rows: [
+            ['Как вы поживаете?', 'Kak vy pozhivayete?', 'Very formal', 'Rarely used in everyday conversation — reserved for older people'],
+            ['Как у вас дела?', 'Kak u vas dela?', 'Formal', 'Standard polite "How are you doing?"'],
+            ['Как дела?', 'Kak dela?', 'Neutral / casual', 'Most common — works in almost all contexts'],
+            ['Как ты?', 'Kak ty?', 'Informal', 'Direct "How are you?" — close friends only'],
+            ['Как сам? / Как сама?', 'Kak sam? / Kak sama?', 'Very casual', 'Masc. / fem. — "How are you doing?" literally "How [yourself]?"'],
+            ['Всё норм?', 'Vsyo norm?', 'Youth slang', '"Everything okay?" — very informal, mostly under-30s'],
+          ],
+          caption: 'Ways to ask "How are you?" in Russian by formality level',
+          boldColumnIndices: [0],
+        },
+        subsections: [
+          {
+            h3: 'How to respond to Как дела?',
+            content:
+              'When asked **Как дела?**, the most common answers are:\n\n**Хорошо, спасибо** (Khorosho, spasibo) — Fine, thanks — the safe, polite default.\n\n**Нормально** (Normal\'no) — Normal / Okay — very common, more honest than "fine".\n\n**Неплохо** (Neplo\'kho) — Not bad — a common positive-neutral response.\n\n**Всё хорошо** (Vsyo khorosho) — Everything is good — slightly more emphatic.\n\nNote: Unlike in English, Russians do not always expect a reciprocal "and you?" after answering. It is polite to add **А у тебя?** (A u tebya? — And you?) but not mandatory in every exchange.',
+          },
+        ],
+      },
+      {
+        h2: 'Russian Farewells: How to Say Goodbye',
+        content:
+          'Russian farewells also vary by formality and context. Here are the most important ones, from formal to casual:',
+        table: {
+          headers: ['Russian', 'Transliteration', 'English', 'Register'],
+          rows: [
+            ['До свидания', 'Do svidaniya', 'Goodbye', 'Formal'],
+            ['До встречи', 'Do vstrechi', 'Until we meet / See you', 'Neutral-formal'],
+            ['До скорого', 'Do skorogo', 'See you soon', 'Informal'],
+            ['Пока', 'Poka', 'Bye / See ya', 'Informal'],
+            ['Всего доброго', 'Vsego dobrogo', 'All the best', 'Formal'],
+            ['Всего хорошего', 'Vsego khoroshego', 'All the best', 'Formal'],
+            ['Счастливо', 'Schastlivo', 'Take care / Good luck', 'Neutral-informal'],
+            ['Бывай', 'Byvay', 'Take care / Catch you later', 'Informal'],
+          ],
+          caption: 'Russian farewells from formal to casual',
+          boldColumnIndices: [0],
+        },
+        bullets: [
+          '**До свидания** literally means "until the meeting" — the default formal goodbye',
+          '**Пока** is the most widely used informal farewell — equivalent to "bye" in English',
+          '**Всего доброго** and **Всего хорошего** are interchangeable warm formal farewells',
+          '**До встречи** implies you will see the person again — good for colleagues and regular contacts',
+          'Young Russians often text **Пк** (shorthand for Пока) just as English speakers use "ttyl"',
+        ],
+      },
+      {
+        h2: 'Russian Phone Greetings and Other Situations',
+        content:
+          'Greetings change slightly in specific situations. Knowing these will help you sound natural beyond face-to-face conversations.',
+        subsections: [
+          {
+            h3: 'Answering the phone',
+            content:
+              'When answering the phone in Russian, the standard response is **Алло** (Allo) — borrowed from French/English. This is universal across all ages and contexts. In more formal settings, you may hear **Слушаю** (Slushayu — I am listening).',
+            bullets: [
+              '**Алло** — standard phone greeting, used by everyone',
+              '**Да?** — very casual, used with close contacts',
+              '**Слушаю** — formal, means "I am listening" — used in professional settings',
+              '**[Name], слушаю** — professional greeting in offices',
+            ],
+          },
+          {
+            h3: 'Entering a room or shop',
+            content:
+              'When entering a space where others are present, Russians typically greet with **Здравствуйте** (formal) or **Привет** (informal, for friends). In smaller towns and villages, greeting strangers you pass on the street is a social norm.',
+            bullets: [
+              'Entering an office: **Здравствуйте, добрый день**',
+              "Entering a friend's home: **Привет!** (to a peer) or **Здравствуйте!** (to their family)",
+              'Entering a shop: **Здравствуйте** or a nod is sufficient',
+            ],
+          },
+          {
+            h3: 'Greeting groups',
+            content:
+              '**Здравствуйте** is the correct form for greeting a group or addressing multiple people formally. **Привет всем!** (Privet vsem! — Hi everyone!) is the casual equivalent for a group of friends or close colleagues.',
+          },
+        ],
+      },
+      {
+        h2: 'Pronunciation Tips and Common Mistakes',
+        content:
+          'The biggest challenge for most learners is **Здравствуйте** — it looks impossible but becomes manageable once you know the trick.',
+        subsections: [
+          {
+            h3: 'How to pronounce Здравствуйте',
+            content:
+              '**Здравствуйте** has 12 letters but only **8 sounds** are actually pronounced. The key: the first **В** (after ЗД) is silent in natural speech.\n\nBreak it down into 3 syllables:\n1. **ЗДРА** = /zdra/ (the ЗД cluster is like "zd" in "Wednesday" without "ne")\n2. **ВСТВУЙ** → first В is silent → say **СТВУЙ** = /stvooy/\n3. **ТЕ** = /tye/\n\nResult: **ZDRA — stvooy — tye** (stress on the second syllable).\n\nPractice slowly three times, then speed it up. Most learners produce a recognisable version within 20 minutes.',
+          },
+          {
+            h3: 'Common mistakes to avoid',
+            content:
+              "**Mistake 1: Using Привет with strangers or older people.** This is the most common cultural error. In Russian, defaulting to informal address with strangers reads as rude, especially across generations. Always default to **Здравствуйте** with anyone you do not know personally.\n\n**Mistake 2: Pronouncing every letter in Здравствуйте.** Do not try to say all 12 letters — native speakers do not. The first В is always dropped in natural speech.\n\n**Mistake 3: Using Спокойной ночи as an evening greeting.** In Russian, **Спокойной ночи** (Good night) is only a farewell at bedtime — never a greeting when meeting someone in the evening. For that, use **Добрый вечер**.\n\n**Mistake 4: Forgetting the time-of-day matching.** Saying **Добрый вечер** in the morning will confuse people. Check the time before choosing your greeting.",
+          },
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'What is the difference between Здравствуйте and Привет in Russian?',
+        answer:
+          '**Здравствуйте** is the formal greeting used with strangers, professionals, elderly people, and in official settings. **Привет** is the informal greeting used with friends, family, and peers your own age. Using **Привет** in a formal context can seem rude; using **Здравствуйте** with close friends sounds stiff or distant.',
+      },
+      {
+        question: 'How do you say "good morning" in Russian?',
+        answer:
+          '**Доброе утро** (Dobroye utro) is "good morning" in Russian, used until approximately noon. Note the adjective form: **доброе** is neuter because утро (morning) is a neuter noun. This greeting works in both formal and informal contexts.',
+      },
+      {
+        question: 'Is Привет formal or informal?',
+        answer:
+          '**Привет** (Privet) is informal — equivalent to "hi" or "hey" in English. It should only be used with people you know personally: friends, family, colleagues of similar age, or children. In formal contexts — with strangers, officials, elderly people, or in professional settings — use **Здравствуйте** instead.',
+      },
+      {
+        question: 'How do you say goodbye in Russian formally?',
+        answer:
+          'The formal way to say goodbye in Russian is **До свидания** (Do svidaniya), which literally means "until the meeting." For a warmer formal farewell, add **Всего доброго** (All the best) or **Всего хорошего** (All the best). **До встречи** (Until we meet) is slightly less formal and implies you expect to see the person again.',
+      },
+      {
+        question: 'What do Russians say when answering the phone?',
+        answer:
+          'When answering the phone, Russians typically say **Алло** (Allo) — borrowed from French. Among close contacts, a simple **Да?** (Yes?) is common. In professional settings, you may hear **Слушаю** (I am listening) or the office name followed by слушаю.',
+      },
+      {
+        question: 'Can I use Добрый день as a formal greeting?',
+        answer:
+          'Yes — **Добрый день** (Good afternoon, used from approximately noon to 6 pm) is fully appropriate as a formal greeting. It sounds warm but respectful and is often preferred in service contexts. You can safely use it instead of **Здравствуйте** in most formal daytime situations.',
+      },
+    ],
+    conclusion:
+      'Russian greetings are about much more than pronunciation — they reflect the entire social structure of the language. **Здравствуйте** signals respect and distance; **Привет** signals warmth and closeness. The time-of-day greetings show attention to context; the farewells show care for the person leaving.\n\nStart with the essentials: **Здравствуйте** for formal situations, **Привет** for informal ones, **Добрый день** as a safe all-purpose polite option, and **До свидания** / **Пока** for goodbyes. Once those feel automatic, expand to the rest of this guide.\n\nGreetings are your entry point into Russian — but the real work begins when you move into grammar. The nouns, pronouns, and adjectives used in every conversation all change form across Russian\'s six grammatical cases, and **mastering those declensions is what turns halting Russian into fluid conversation**.',
+    ctaText: 'Download Russian Cases with Anna — Free',
+    ctaHref: '/',
+    internalLinks: [
+      {
+        href: '/learn/articles/russian-most-common-words',
+        label: "100 Most Common Russian Words: Essential Beginner's Vocabulary List",
+      },
+      {
+        href: '/learn/articles/russian-alphabet-cyrillic-guide',
+        label: 'Russian Alphabet: Learn Cyrillic in 3 Simple Steps',
+      },
+      {
+        href: '/learn/articles/russian-word-stress-guide',
+        label: 'Russian Word Stress: Why It Changes Everything (and How to Master It)',
+      },
+      {
+        href: '/learn/articles/how-long-learn-russian',
+        label: 'How Long Does It Take to Learn Russian? (Realistic Timeline)',
+      },
+      {
+        href: '/learn/articles/best-free-resources-learn-russian',
+        label: '15 Best Free Resources to Learn Russian in 2026',
+      },
+      { href: '/practice', label: 'Free Russian Declension Quiz (all six cases)' },
+    ],
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: 'Russian Greetings: How to Say Hello in Russian (Complete Guide 2026)',
+      description:
+        'Master all Russian greetings: formal Здравствуйте, informal Привет, time-specific greetings, farewells, and phone greetings — with pronunciation tips and common mistake fixes.',
+      datePublished: '2026-06-08',
+      dateModified: '2026-06-08',
+      author: {
+        '@type': 'Person',
+        name: 'Nathan',
+        url: 'https://russiandeclensions.com/',
+        image: 'https://russiandeclensions.com/landing-cases/founder-photo.webp',
+        description:
+          'Native French speaker learning Russian; writes about grammar, cases, and practical self-study habits.',
+        worksFor: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      },
+      publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': 'https://russiandeclensions.com/learn/articles/russian-greetings-guide',
+      },
+      keywords:
+        'russian greetings, how to say hello in russian, russian hello, привет, здравствуйте, formal russian greetings, informal russian greetings, russian farewell',
+      image: {
+        '@type': 'ImageObject',
+        url: 'https://russiandeclensions.com/articles/russia-kremlin-moscow.webp',
         width: 1200,
         height: 630,
       },
