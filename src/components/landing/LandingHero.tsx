@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import { useLandingLanguage } from '@/contexts/LandingLanguageContext';
 import { getLandingTranslations } from '@/data/website/landingTranslations';
+import { APP_STORE_URL, PLAY_STORE_URL } from '@/lib/appStoreLinks';
 
 const ASSETS = '/landing-cases';
 const MOCKUPS = [
@@ -17,10 +18,9 @@ const INTERVAL_MS = 1200;
 
 interface LandingHeroProps {
   onAppStoreClick?: () => void;
-  onPlayStoreClick?: () => void;
 }
 
-export default function LandingHero({ onAppStoreClick, onPlayStoreClick }: LandingHeroProps) {
+export default function LandingHero({ onAppStoreClick }: LandingHeroProps) {
   const { landingLanguage } = useLandingLanguage();
   const t = getLandingTranslations(landingLanguage);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -108,7 +108,7 @@ export default function LandingHero({ onAppStoreClick, onPlayStoreClick }: Landi
               </button>
             ) : (
               <a
-                href="https://apps.apple.com"
+                href={APP_STORE_URL}
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 className="transition-transform hover:scale-105"
@@ -123,39 +123,22 @@ export default function LandingHero({ onAppStoreClick, onPlayStoreClick }: Landi
                 />
               </a>
             )}
-            {onPlayStoreClick ? (
-              <button
-                type="button"
-                onClick={onPlayStoreClick}
-                className="transition-transform hover:scale-105"
-                aria-label={t.hero.playStoreAria}
-              >
-                <Image
-                  src={`${ASSETS}/google-play-badge.svg`}
-                  alt={t.hero.playStoreAria}
-                  width={135}
-                  height={40}
-                  className="h-11 w-auto sm:h-12 md:h-14"
-                  sizes="(max-width: 640px) 88px, (max-width: 768px) 96px, 112px"
-                />
-              </button>
-            ) : (
-              <a
-                href="https://play.google.com"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                className="transition-transform hover:scale-105"
-              >
-                <Image
-                  src={`${ASSETS}/google-play-badge.svg`}
-                  alt={t.hero.playStoreAria}
-                  width={135}
-                  height={40}
-                  className="h-11 w-auto sm:h-12 md:h-14"
-                  sizes="(max-width: 640px) 88px, (max-width: 768px) 96px, 112px"
-                />
-              </a>
-            )}
+            <a
+              href={PLAY_STORE_URL}
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="transition-transform hover:scale-105"
+              aria-label={t.hero.playStoreAria}
+            >
+              <Image
+                src={`${ASSETS}/google-play-badge.svg`}
+                alt={t.hero.playStoreAria}
+                width={135}
+                height={40}
+                className="h-11 w-auto sm:h-12 md:h-14"
+                sizes="(max-width: 640px) 88px, (max-width: 768px) 96px, 112px"
+              />
+            </a>
           </div>
         </div>
       </div>

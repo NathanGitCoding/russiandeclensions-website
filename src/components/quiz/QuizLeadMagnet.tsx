@@ -3,6 +3,7 @@
 import React, { useState, useCallback } from 'react';
 import Image from 'next/image';
 import { WaitlistModal } from '@/components/landing/WaitlistModal';
+import { PLAY_STORE_URL } from '@/lib/appStoreLinks';
 import type { LearnArticleLeadMagnet } from '@/data/learnArticles';
 
 type WaitlistSource = 'ios' | 'android';
@@ -53,14 +54,15 @@ export function QuizLeadMagnet({ cta }: { cta: LearnArticleLeadMagnet }) {
             >
               <Image src="/landing-cases/app-store-badge.svg" alt="" width={100} height={33} />
             </button>
-            <button
-              type="button"
-              onClick={() => openWaitlistModal('android')}
+            <a
+              href={PLAY_STORE_URL}
+              target="_blank"
+              rel="noopener noreferrer nofollow"
               className="transition-transform hover:scale-105"
               aria-label="Get it on Google Play"
             >
               <Image src="/landing-cases/google-play-badge.svg" alt="" width={112} height={33} />
-            </button>
+            </a>
           </div>
         </div>
       </div>

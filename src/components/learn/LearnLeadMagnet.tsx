@@ -3,6 +3,7 @@
 import React, { useState, useCallback } from 'react';
 import Image from 'next/image';
 import { WaitlistModal } from '@/components/landing/WaitlistModal';
+import { PLAY_STORE_URL } from '@/lib/appStoreLinks';
 import type { LearnArticleLeadMagnet } from '@/data/learnArticles';
 
 type WaitlistSource = 'ios' | 'android';
@@ -54,9 +55,10 @@ export function LearnLeadMagnet({ cta }: { cta: LearnArticleLeadMagnet }) {
                 className="learn-lead-magnet-badge-img"
               />
             </button>
-            <button
-              type="button"
-              onClick={() => openWaitlistModal('android')}
+            <a
+              href={PLAY_STORE_URL}
+              target="_blank"
+              rel="noopener noreferrer nofollow"
               className="learn-lead-magnet-badge"
               aria-label="Get Russian Cases with Anna on Google Play"
             >
@@ -67,7 +69,7 @@ export function LearnLeadMagnet({ cta }: { cta: LearnArticleLeadMagnet }) {
                 height={40}
                 className="learn-lead-magnet-badge-img"
               />
-            </button>
+            </a>
           </div>
         </div>
       </aside>

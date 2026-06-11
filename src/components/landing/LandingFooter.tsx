@@ -7,6 +7,7 @@ import { useLandingLanguage } from '@/contexts/LandingLanguageContext';
 import { getLandingTranslations } from '@/data/website/landingTranslations';
 import { LandingLanguageSelector } from '@/components/landing/LandingLanguageSelector';
 import { WaitlistModal } from '@/components/landing/WaitlistModal';
+import { PLAY_STORE_URL } from '@/lib/appStoreLinks';
 
 type WaitlistSource = 'ios' | 'android';
 
@@ -124,9 +125,10 @@ export default function LandingFooter() {
                   className="h-12 w-auto sm:h-14"
                 />
               </button>
-              <button
-                type="button"
-                onClick={() => openWaitlistModal('android')}
+              <a
+                href={PLAY_STORE_URL}
+                target="_blank"
+                rel="noopener noreferrer nofollow"
                 className="transition-transform hover:scale-105"
                 aria-label={t.cta.playStoreAria}
               >
@@ -137,7 +139,7 @@ export default function LandingFooter() {
                   height={52}
                   className="h-12 w-auto sm:h-14"
                 />
-              </button>
+              </a>
             </div>
             <p className="text-sm text-white/60">{t.footer.copyright}</p>
           </div>

@@ -4,15 +4,15 @@ import Image from 'next/image';
 import { useLandingLanguage } from '@/contexts/LandingLanguageContext';
 import { getLandingTranslations } from '@/data/website/landingTranslations';
 import { AnimateOnScroll } from '@/components/landing/AnimateOnScroll';
+import { APP_STORE_URL, PLAY_STORE_URL } from '@/lib/appStoreLinks';
 
 const ASSETS = '/landing-cases';
 
 interface LandingCTAProps {
   onAppStoreClick?: () => void;
-  onPlayStoreClick?: () => void;
 }
 
-export default function LandingCTA({ onAppStoreClick, onPlayStoreClick }: LandingCTAProps) {
+export default function LandingCTA({ onAppStoreClick }: LandingCTAProps) {
   const { landingLanguage } = useLandingLanguage();
   const t = getLandingTranslations(landingLanguage);
   return (
@@ -66,7 +66,7 @@ export default function LandingCTA({ onAppStoreClick, onPlayStoreClick }: Landin
                 </button>
               ) : (
                 <a
-                  href="https://apps.apple.com"
+                  href={APP_STORE_URL}
                   target="_blank"
                   rel="noopener noreferrer nofollow"
                   className="transition-transform hover:scale-105"
@@ -80,37 +80,21 @@ export default function LandingCTA({ onAppStoreClick, onPlayStoreClick }: Landin
                   />
                 </a>
               )}
-              {onPlayStoreClick ? (
-                <button
-                  type="button"
-                  onClick={onPlayStoreClick}
-                  className="transition-transform hover:scale-105"
-                  aria-label={t.cta.playStoreAria}
-                >
-                  <Image
-                    src={`${ASSETS}/google-play-badge.svg`}
-                    alt={t.cta.playStoreAria}
-                    width={135}
-                    height={40}
-                    className="h-14 w-auto"
-                  />
-                </button>
-              ) : (
-                <a
-                  href="https://play.google.com"
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  className="transition-transform hover:scale-105"
-                >
-                  <Image
-                    src={`${ASSETS}/google-play-badge.svg`}
-                    alt={t.cta.playStoreAria}
-                    width={135}
-                    height={40}
-                    className="h-14 w-auto"
-                  />
-                </a>
-              )}
+              <a
+                href={PLAY_STORE_URL}
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                className="transition-transform hover:scale-105"
+                aria-label={t.cta.playStoreAria}
+              >
+                <Image
+                  src={`${ASSETS}/google-play-badge.svg`}
+                  alt={t.cta.playStoreAria}
+                  width={135}
+                  height={40}
+                  className="h-14 w-auto"
+                />
+              </a>
             </div>
           </AnimateOnScroll>
         </div>

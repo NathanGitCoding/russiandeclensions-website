@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import '../landing.css';
 import { getLandingLangFromRequest } from '@/lib/landingLangServer';
 import { getLandingTranslations } from '@/data/website/landingTranslations';
+import { APP_STORE_URL, PLAY_STORE_URL } from '@/lib/appStoreLinks';
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://russiandeclensions.com';
 
@@ -53,11 +54,8 @@ const jsonLd = {
       description:
         'Master Russian grammar in 5 minutes a day. 128 structured lessons, 136 interactive quizzes, vocabulary flashcards.',
       offers: [
-        { '@type': 'Offer', url: 'https://apps.apple.com/app/russian-coach' },
-        {
-          '@type': 'Offer',
-          url: 'https://play.google.com/store/apps/details?id=com.russiancoach.app',
-        },
+        { '@type': 'Offer', url: APP_STORE_URL },
+        { '@type': 'Offer', url: PLAY_STORE_URL },
       ],
     },
     {

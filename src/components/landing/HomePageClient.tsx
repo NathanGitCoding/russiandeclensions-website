@@ -23,10 +23,7 @@ export function HomeHero() {
 
   return (
     <>
-      <LandingHero
-        onAppStoreClick={() => openWaitlistModal('ios')}
-        onPlayStoreClick={() => openWaitlistModal('android')}
-      />
+      <LandingHero onAppStoreClick={() => openWaitlistModal('ios')} />
       <WaitlistModal
         isOpen={waitlistModal.isOpen}
         onClose={closeWaitlistModal}
@@ -52,10 +49,7 @@ export function HomeCTA() {
 
   return (
     <>
-      <LandingCTA
-        onAppStoreClick={() => openWaitlistModal('ios')}
-        onPlayStoreClick={() => openWaitlistModal('android')}
-      />
+      <LandingCTA onAppStoreClick={() => openWaitlistModal('ios')} />
       <WaitlistModal
         isOpen={waitlistModal.isOpen}
         onClose={closeWaitlistModal}
