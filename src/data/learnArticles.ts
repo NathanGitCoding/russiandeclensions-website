@@ -10819,6 +10819,349 @@ export const learnArticles: Record<string, LearnArticle> = {
       },
     },
   },
+  'russian-travel-phrases': {
+    slug: 'russian-travel-phrases',
+    introByline: ARTICLE_BYLINE,
+    title: 'Russian Travel Phrases: Restaurant, Directions & Survival Vocabulary (2026)',
+    metaTitle:
+      'Russian Travel Phrases for Tourists: Restaurant, Directions & Survival Guide 2026 | Russian Cases with Anna',
+    metaDescription:
+      'Essential Russian travel phrases for tourists: order food, ask for directions, buy tickets, check into a hotel, and handle emergencies — with pronunciation and real examples.',
+    keywords: [
+      'russian travel phrases',
+      'russian phrases for travelers',
+      'russian restaurant phrases',
+      'asking for directions in russian',
+      'basic russian for travel',
+      'russian survival phrases',
+      'useful russian phrases for tourists',
+      'russian for tourists',
+      'how to order food in russian',
+      'russian airport phrases',
+    ],
+    h1: 'Russian Travel Phrases: Restaurant, Directions & Survival Vocabulary',
+    heroImage: {
+      src: '/articles/russian-travel-phrases.webp',
+      alt: 'Saint Basil’s Cathedral in Moscow — essential Russian travel phrases for tourists',
+      width: 1200,
+      height: 630,
+    },
+    intro:
+      'You do not need fluent Russian to travel well — but **a small set of high-impact travel phrases** changes everything. Ordering food, asking for the metro exit, checking into a hotel, or saying “I don’t speak Russian” politely are the moments where phrasebook Russian pays off immediately.\n\nMost tourist phrase lists dump 200 random sentences and hope for the best. This guide is different. It focuses on **what travellers actually search for and say**: restaurant Russian, directions, transport tickets, hotels, shopping, and emergencies — with transliteration, meaning, and the one grammar tip that stops you sounding robotic.\n\nBy the end, you will have a **practical survival kit** of Russian travel phrases you can use the same day — and a clear idea of which phrases unlock the next level of real conversation.',
+    whatYouLearn: [
+      'The **must-know survival phrases** every traveller needs on day one',
+      'How to **ask for directions** and understand basic answers',
+      '**Restaurant Russian**: ordering, allergies, the bill, and tipping language',
+      'Transport phrases for metro, taxis, tickets, and platforms',
+      'Hotel check-in vocabulary and polite requests',
+      'Emergency phrases and how to say you need help',
+    ],
+    leadMagnetCta: {
+      title: 'Travel phrases open doors — Russian grammar keeps them open',
+      description:
+        'Once you can order soup and ask for the station, the next bottleneck is grammar: cases and endings. Russian Cases with Anna turns declensions into short lessons and smart quizzes — free on iOS and Android.',
+      ctaText: 'Download the app — Free',
+      ctaHref: '/',
+    },
+    sections: [
+      {
+        h2: 'Must-Know Russian Survival Phrases for Travellers',
+        content:
+          'Start here. These phrases cover **politeness, comprehension, and getting unstuck** — the three skills that matter most in the first 48 hours of a trip.',
+        table: {
+          headers: ['Russian', 'Transliteration', 'English'],
+          rows: [
+            ['Здравствуйте', 'Zdravstvuyte', 'Hello (formal)'],
+            ['Спасибо', 'Spasibo', 'Thank you'],
+            ['Пожалуйста', 'Pozhaluysta', 'Please / You’re welcome'],
+            ['Извините', 'Izvinite', 'Excuse me / Sorry'],
+            ['Да / Нет', 'Da / Net', 'Yes / No'],
+            ['Я не говорю по-русски', 'Ya ne govoryu po-russki', 'I don’t speak Russian'],
+            ['Вы говорите по-английски?', 'Vy govorite po-angliyski?', 'Do you speak English?'],
+            ['Повторите, пожалуйста', 'Povtorite, pozhaluysta', 'Please repeat'],
+            ['Медленнее, пожалуйста', 'Medlennee, pozhaluysta', 'More slowly, please'],
+            ['Где туалет?', 'Gde tualet?', 'Where is the toilet?'],
+            ['Помогите, пожалуйста', 'Pomogite, pozhaluysta', 'Please help me'],
+            ['Сколько это стоит?', 'Skolko eto stoit?', 'How much does this cost?'],
+          ],
+          caption: 'Core Russian survival phrases for tourists',
+          boldColumnIndices: [0, 2],
+        },
+        bullets: [
+          'Use **Здравствуйте** with staff, strangers, and anyone older than you — **Привет** is for friends.',
+          '**Извините** works both to get attention and to apologise.',
+          'If you only memorise three full sentences, pick: **Я не говорю по-русски**, **Вы говорите по-английски?**, and **Повторите, пожалуйста**.',
+        ],
+      },
+      {
+        h2: 'Asking for Directions in Russian',
+        content:
+          'Directions are the #1 phrase category travellers look up mid-trip. Learn the **question frames** first — then the landmarks you will hear in answers.',
+        table: {
+          headers: ['Russian', 'Transliteration', 'English'],
+          rows: [
+            ['Где находится…?', 'Gde nakhoditsya…?', 'Where is… located?'],
+            ['Как пройти к…?', 'Kak proyti k…?', 'How do I get to… (on foot)?'],
+            ['Как добраться до…?', 'Kak dobratsya do…?', 'How do I get to… (in general)?'],
+            ['Это далеко?', 'Eto daleko?', 'Is it far?'],
+            ['Это близко?', 'Eto blizko?', 'Is it close?'],
+            ['Налево / Направо', 'Nalevo / Napravo', 'Left / Right'],
+            ['Прямо', 'Pryamo', 'Straight ahead'],
+            ['На метро', 'Na metro', 'By metro'],
+            ['Остановка', 'Ostanovka', 'Stop (bus/tram)'],
+            ['Вокзал', 'Vokzal', 'Train station'],
+            ['Аэропорт', 'Aeroport', 'Airport'],
+            ['Центр города', 'Tsentr goroda', 'City centre'],
+          ],
+          caption: 'Russian direction phrases and place words',
+          boldColumnIndices: [0, 2],
+        },
+        subsections: [
+          {
+            h3: 'Useful mini-dialogues',
+            content:
+              '**Турист:** Извините, как пройти к Красной площади?\n**Locals often answer with:** Прямо, потом налево. / Пять минут пешком. / Лучше на метро.\n\nTip: **к + dative** appears in “how do I get to…” frames (**к вокзалу**, **к музею**). You do not need to master all cases to travel — but noticing this pattern helps you recognise answers.',
+          },
+        ],
+        bullets: [
+          'Point at a map and ask **Где это?** (“Where is this?”) if pronunciation feels hard.',
+          '**Пешком** = on foot; **на такси** = by taxi; **на автобусе** = by bus.',
+          'Save offline maps, but still learn **налево / направо / прямо** — locals use them constantly.',
+        ],
+      },
+      {
+        h2: 'Russian Restaurant Phrases: Ordering Food Without Panic',
+        content:
+          'Restaurant Russian is high-reward vocabulary. Staff hear these phrases all day, so even imperfect pronunciation is usually understood — especially if you are polite.',
+        table: {
+          headers: ['Russian', 'Transliteration', 'English'],
+          rows: [
+            ['Можно меню, пожалуйста?', 'Mozhno menyu, pozhaluysta?', 'Can I have the menu, please?'],
+            ['Я хочу…', 'Ya khochu…', 'I want…'],
+            ['Мне, пожалуйста…', 'Mne, pozhaluysta…', 'For me, please…'],
+            ['Что вы посоветуете?', 'Chto vy posovetuete?', 'What do you recommend?'],
+            ['Без мяса / Я вегетарианец', 'Bez myasa / Ya vegetarianets', 'Without meat / I’m vegetarian'],
+            ['У меня аллергия на…', 'U menya allergiya na…', 'I am allergic to…'],
+            ['Воды, пожалуйста', 'Vody, pozhaluysta', 'Water, please'],
+            ['Счёт, пожалуйста', "Schyot, pozhaluysta", 'The bill, please'],
+            ['Это вкусно!', 'Eto vkusno!', 'This is delicious!'],
+            ['Отдельно / Вместе', 'Otdelno / Vmeste', 'Separate bills / Together'],
+          ],
+          caption: 'Essential Russian restaurant and ordering phrases',
+          boldColumnIndices: [0, 2],
+        },
+        bullets: [
+          '**Мне, пожалуйста…** sounds more natural than endlessly repeating “I want”.',
+          '**Счёт** (the bill) is the word you need most at the end of a meal.',
+          'Tipping culture varies; a simple **Спасибо!** with a smile is always safe. If you leave a tip, you can say **оставьте сдачу** (“keep the change”).',
+          'Common foods: **суп** (soup), **салат** (salad), **мясо** (meat), **рыба** (fish), **хлеб** (bread), **чай / кофе** (tea / coffee).',
+        ],
+      },
+      {
+        h2: 'Transport Phrases: Metro, Tickets, Taxis',
+        content:
+          'Getting around Russian cities is easier when you can buy a ticket, confirm a stop, and tell a driver where you are going.',
+        table: {
+          headers: ['Russian', 'Transliteration', 'English'],
+          rows: [
+            ['Один билет, пожалуйста', 'Odin bilet, pozhaluysta', 'One ticket, please'],
+            ['Туда и обратно', 'Tuda i obratno', 'Round trip / return'],
+            ['Где вход в метро?', 'Gde vkhod v metro?', 'Where is the metro entrance?'],
+            ['Какая станция?', 'Kakaya stantsiya?', 'Which station?'],
+            ['Следующая остановка…?', 'Sleduyushchaya ostanovka…?', 'Is the next stop…?'],
+            ['Остановите здесь, пожалуйста', 'Ostanovite zdes, pozhaluysta', 'Please stop here'],
+            ['До аэропорта', 'Do aeroporta', 'To the airport'],
+            ['Сколько ехать?', 'Skolko ekhat?', 'How long does it take?'],
+            ['Я опаздываю', 'Ya opazdyvayu', 'I’m running late'],
+          ],
+          caption: 'Russian transport and ticket phrases',
+          boldColumnIndices: [0, 2],
+        },
+        bullets: [
+          'In Moscow and St Petersburg, **metro station names** matter more than street names for many destinations.',
+          'Show the destination written in Russian on your phone if pronunciation fails — drivers appreciate clarity.',
+          '**До + genitive** is common in “to [place]” phrases: **до центра**, **до вокзала**.',
+        ],
+      },
+      {
+        h2: 'Hotel & Check-In Phrases',
+        content:
+          'Hotel Russian is mostly polite requests. Learn these before arrival and check-in becomes much calmer.',
+        table: {
+          headers: ['Russian', 'Transliteration', 'English'],
+          rows: [
+            ['У меня бронь', 'U menya bron', 'I have a reservation'],
+            ['На имя…', 'Na imya…', 'Under the name…'],
+            ['Номер на двоих', 'Nomer na dvoikh', 'A double room / room for two'],
+            ['Есть Wi‑Fi?', 'Est Wi-Fi?', 'Is there Wi‑Fi?'],
+            ['Пароль от Wi‑Fi?', 'Parol ot Wi-Fi?', 'Wi‑Fi password?'],
+            ['Завтрак включён?', "Zavtrak vklyuchyon?", 'Is breakfast included?'],
+            ['Можно ключ?', 'Mozhno klyuch?', 'Can I have the key?'],
+            ['Во сколько выезд?', 'Vo skolko vyezd?', 'What time is check-out?'],
+            ['Можно ещё полотенце?', 'Mozhno yeshchyo polotentse?', 'Can I have another towel?'],
+          ],
+          caption: 'Russian hotel and check-in phrases',
+          boldColumnIndices: [0, 2],
+        },
+      },
+      {
+        h2: 'Shopping, Money & Practical Errands',
+        content:
+          'Markets, pharmacies, and souvenir shops are where short Russian phrases create goodwill fast.',
+        table: {
+          headers: ['Russian', 'Transliteration', 'English'],
+          rows: [
+            ['Можно посмотреть?', 'Mozhno posmotret?', 'Can I look / try this?'],
+            ['Есть другой размер?', 'Est drugoy razmer?', 'Do you have another size?'],
+            ['Слишком дорого', 'Slishkom dorogo', 'Too expensive'],
+            ['Есть скидка?', 'Est skidka?', 'Is there a discount?'],
+            ['Картой можно?', 'Kartoy mozhno?', 'Can I pay by card?'],
+            ['Только наличные', 'Tolko nalichnye', 'Cash only'],
+            ['Аптека', 'Apteka', 'Pharmacy'],
+            ['Мне нужно лекарство от…', 'Mne nuzhno lekarstvo ot…', 'I need medicine for…'],
+            ['Пакет, пожалуйста', 'Paket, pozhaluysta', 'A bag, please'],
+          ],
+          caption: 'Russian shopping and money phrases',
+          boldColumnIndices: [0, 2],
+        },
+        bullets: [
+          '**Картой можно?** is one of the most useful modern travel phrases.',
+          'Learn **аптека** (pharmacy) and **банк / банкомат** (bank / ATM) as landmark words.',
+        ],
+      },
+      {
+        h2: 'Emergency Russian Phrases You Hope Not to Need',
+        content:
+          'Keep these saved offline. You may never use them — but if you do, clarity matters more than perfect grammar.',
+        table: {
+          headers: ['Russian', 'Transliteration', 'English'],
+          rows: [
+            ['Позовите врача', 'Pozovite vracha', 'Call a doctor'],
+            ['Мне плохо', 'Mne plokho', 'I feel ill'],
+            ['Вызовите полицию', 'Vyzovite politsiyu', 'Call the police'],
+            ['Пожар!', 'Pozhar!', 'Fire!'],
+            ['Где больница?', 'Gde bolnitsa?', 'Where is the hospital?'],
+            ['Я потерялся / Я потерялась', 'Ya poteryalsya / Ya poteryalas', 'I’m lost (m/f)'],
+            ['У меня украли…', 'U menya ukrali…', 'My … was stolen'],
+            ['Это срочно', 'Eto srochno', 'This is urgent'],
+          ],
+          caption: 'Emergency Russian phrases for travellers',
+          boldColumnIndices: [0, 2],
+        },
+        bullets: [
+          'Gender matters in **потерялся / потерялась** — match your own gender.',
+          'Emergency number in Russia is **112** (general emergency).',
+        ],
+      },
+      {
+        h2: 'Pronunciation Tips That Make Travel Phrases Work',
+        content:
+          'Perfect accent is optional. **Being understood** is the goal. These five tips fix the mistakes that block communication most often.',
+        bullets: [
+          'Stress matters: **звонИт** vs wrong stress can confuse locals — when unsure, speak slowly and clearly rather than fast and wrong.',
+          'Soft **ль** and **нь** sounds appear everywhere (**пожалуйста**, **меню**) — do not harden them into English “l/n” only.',
+          '**Спасибо** is often pronounced closer to “spa-SI-ba” in natural speech.',
+          'Smile and gesture: pointing at a menu item while saying **мне это, пожалуйста** works extremely well.',
+          'Write key destinations in Russian Cyrillic before you go — showing a phone screen beats fighting pronunciation in a noisy street.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'What are the most useful Russian phrases for tourists?',
+        answer:
+          'Start with hello (**Здравствуйте**), thank you (**Спасибо**), excuse me (**Извините**), “I don’t speak Russian” (**Я не говорю по-русски**), “Do you speak English?” (**Вы говорите по-английски?**), “Where is…?” (**Где…?**), and “How much is it?” (**Сколько это стоит?**). Add restaurant and direction phrases next.',
+      },
+      {
+        question: 'How do you ask for directions in Russian?',
+        answer:
+          'Use **Где находится…?** (“Where is … located?”), **Как пройти к…?** (“How do I get to … on foot?”), or **Как добраться до…?** (“How do I get to …?”). Learn **налево** (left), **направо** (right), and **прямо** (straight) to understand answers.',
+      },
+      {
+        question: 'How do you order food in Russian at a restaurant?',
+        answer:
+          'Ask for the menu with **Можно меню, пожалуйста?** Then order with **Мне, пожалуйста…** or **Я хочу…**. Ask for the bill with **Счёт, пожалуйста**. For allergies, say **У меня аллергия на…**.',
+      },
+      {
+        question: 'Do I need to speak Russian to travel in Russia?',
+        answer:
+          'You can travel with English in major tourist zones, but **basic Russian travel phrases** make transport, restaurants, and hotels much smoother — especially outside central Moscow and St Petersburg. Even 20–30 phrases dramatically reduces friction.',
+      },
+      {
+        question: 'What should I say if I don’t speak Russian?',
+        answer:
+          'Say **Я не говорю по-русски** (“I don’t speak Russian”), then **Вы говорите по-английски?** (“Do you speak English?”). Follow with **Повторите, пожалуйста** or **Медленнее, пожалуйста** if needed.',
+      },
+    ],
+    conclusion:
+      'Russian travel phrases are not about sounding fluent on day one. They are about **removing friction** at the exact moments travel gets stressful: finding the platform, ordering dinner, checking into a room, or asking for help.\n\nIf you learn one cluster at a time — survival phrases, then directions, then restaurant Russian — you will feel capable within a weekend of practice. Write your hotel address and key destinations in Cyrillic, rehearse **Счёт, пожалуйста** and **Как пройти к…?**, and keep this page bookmarked offline.',
+    conclusionBullets: [
+      'Memorise politeness first: **Здравствуйте, Спасибо, Извините, Пожалуйста**',
+      'Master direction frames: **Где…? / Как пройти к…? / налево-направо-прямо**',
+      'Use **Мне, пожалуйста…** and **Счёт, пожалуйста** at restaurants',
+      'Save emergency phrases offline and know **112**',
+      'Show Cyrillic on your phone when pronunciation fails',
+    ],
+    conclusionOutro:
+      'Phrasebooks get you through a trip. **Russian cases and declensions** get you to real sentences — the difference between pointing at a menu and actually understanding what people say back. When you are ready to go deeper, structured grammar practice is the highest-leverage next step.',
+    ctaText: 'Download Russian Cases with Anna — Free',
+    ctaHref: '/',
+    internalLinks: [
+      {
+        href: '/learn/articles/russian-greetings-guide',
+        label: 'Russian Greetings: How to Say Hello in Russian (Complete Guide)',
+      },
+      {
+        href: '/learn/articles/russian-numbers-guide',
+        label: 'Russian Numbers: How to Count in Russian (Complete Guide)',
+      },
+      {
+        href: '/learn/articles/russian-most-common-words',
+        label: "100 Most Common Russian Words: Essential Beginner's Vocabulary List",
+      },
+      {
+        href: '/learn/articles/russian-alphabet-cyrillic-guide',
+        label: 'Russian Alphabet: Learn Cyrillic in 3 Simple Steps',
+      },
+      {
+        href: '/learn/articles/russian-cases-explained-beginners-guide',
+        label: "Russian Cases Explained Simply: A Beginner's Visual Guide",
+      },
+      { href: '/practice', label: 'Free Russian Declension Quiz (all six cases)' },
+    ],
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: 'Russian Travel Phrases: Restaurant, Directions & Survival Vocabulary (2026)',
+      description:
+        'Essential Russian travel phrases for tourists: order food, ask for directions, buy tickets, check into a hotel, and handle emergencies — with pronunciation and real examples.',
+      datePublished: '2026-08-03',
+      dateModified: '2026-08-03',
+      author: {
+        '@type': 'Person',
+        name: 'Nathan',
+        url: 'https://russiandeclensions.com/',
+        image: 'https://russiandeclensions.com/landing-cases/founder-photo.webp',
+        description:
+          'Native French speaker learning Russian; writes about grammar, cases, and practical self-study habits.',
+        worksFor: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      },
+      publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': 'https://russiandeclensions.com/learn/articles/russian-travel-phrases',
+      },
+      keywords:
+        'russian travel phrases, russian phrases for travelers, russian restaurant phrases, asking for directions in russian, basic russian for travel, russian survival phrases',
+      image: {
+        '@type': 'ImageObject',
+        url: 'https://russiandeclensions.com/articles/russian-travel-phrases.webp',
+        width: 1200,
+        height: 630,
+      },
+    },
+  },
+
 };
 
 import type { LandingLanguage } from '@/data/website/landingTranslations';
