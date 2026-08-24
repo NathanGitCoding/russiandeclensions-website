@@ -56,6 +56,7 @@ export const ARTICLE_SLUGS = [
   'russian-most-common-words',
   'russian-greetings-guide',
   'russian-numbers-guide',
+  'russian-travel-phrases',
 ] as const;
 
 const en: LearnPageTranslations = {
@@ -114,6 +115,8 @@ const en: LearnPageTranslations = {
       'Russian Greetings: How to Say Hello in Russian (Complete Guide 2026)',
     'russian-numbers-guide':
       'Russian Numbers: How to Count in Russian (Complete Guide 2026)',
+    'russian-travel-phrases':
+      'Essential Russian Travel Phrases: Restaurant, Directions & Survival Guide 2026',
   },
   practiceQuiz: {
     title: 'Practice Quiz',
@@ -190,6 +193,8 @@ const fr: LearnPageTranslations = {
       'Salutations en russe : comment dire bonjour en russe (guide complet 2026)',
     'russian-numbers-guide':
       'Les nombres en russe : comment compter en russe (guide complet 2026)',
+    'russian-travel-phrases':
+      'Phrases de voyage en russe : restaurant, directions et guide de survie 2026',
   },
   practiceQuiz: {
     title: 'Quiz de pratique',
@@ -261,6 +266,8 @@ const tr: LearnPageTranslations = {
       "Rusça Selamlaşma: Rusça'da Merhaba Nasıl Denir (Tam Kılavuz 2026)",
     'russian-numbers-guide':
       "Rusça Sayılar: Rusça'da Nasıl Sayılır (Tam Kılavuz 2026)",
+    'russian-travel-phrases':
+      'Temel Rusça Seyahat İfadeleri: Restoran, Yol Tarifi ve Hayatta Kalma Rehberi 2026',
   },
   practiceQuiz: {
     title: 'Alıştırma Testi',
@@ -336,6 +343,8 @@ const de: LearnPageTranslations = {
       'Russische Begrüßungen: Wie man auf Russisch Hallo sagt (vollständiger Leitfaden 2026)',
     'russian-numbers-guide':
       'Russische Zahlen: Auf Russisch zählen (vollständiger Leitfaden 2026)',
+    'russian-travel-phrases':
+      'Wichtige Russisch-Reisephrasen: Restaurant, Wegbeschreibung & Überlebensguide 2026',
   },
   practiceQuiz: {
     title: 'Übungsquiz',
@@ -412,6 +421,8 @@ const pl: LearnPageTranslations = {
       'Rosyjskie pozdrowienia: jak powiedzieć cześć po rosyjsku (kompletny przewodnik 2026)',
     'russian-numbers-guide':
       'Liczby po rosyjsku: jak liczyć po rosyjsku (kompletny przewodnik 2026)',
+    'russian-travel-phrases':
+      'Niezbędne rosyjskie zwroty podróżne: restauracja, drogi i przewodnik przetrwania 2026',
   },
   practiceQuiz: {
     title: 'Quiz praktyczny',
@@ -486,6 +497,8 @@ const ru: LearnPageTranslations = {
       'Русские приветствия: как поздороваться по-русски (полное руководство 2026)',
     'russian-numbers-guide':
       'Русские числа: как считать по-русски (полное руководство 2026)',
+    'russian-travel-phrases':
+      'Необходимые фразы для путешествия по России: ресторан, дорога и гид по выживанию 2026',
   },
   practiceQuiz: {
     title: 'Тренировочный тест',
@@ -560,6 +573,8 @@ const es: LearnPageTranslations = {
       'Saludos en ruso: cómo decir hola en ruso (guía completa 2026)',
     'russian-numbers-guide':
       'Los números en ruso: cómo contar en ruso (guía completa 2026)',
+    'russian-travel-phrases':
+      'Frases esenciales de viaje en ruso: restaurante, direcciones y guía de supervivencia 2026',
   },
   practiceQuiz: {
     title: 'Cuestionario de práctica',
@@ -635,6 +650,8 @@ const it: LearnPageTranslations = {
       'Saluti in russo: come dire ciao in russo (guida completa 2026)',
     'russian-numbers-guide':
       'I numeri in russo: come contare in russo (guida completa 2026)',
+    'russian-travel-phrases':
+      'Frasi di viaggio essenziali in russo: ristorante, indicazioni e guida di sopravvivenza 2026',
   },
   practiceQuiz: {
     title: 'Quiz di esercizio',
@@ -709,6 +726,8 @@ const pt: LearnPageTranslations = {
       'Saudações em russo: como dizer olá em russo (guia completo 2026)',
     'russian-numbers-guide':
       'Os números em russo: como contar em russo (guia completo 2026)',
+    'russian-travel-phrases':
+      'Frases essenciais de viagem em russo: restaurante, direções e guia de sobrevivência 2026',
   },
   practiceQuiz: {
     title: 'Questionário de prática',
@@ -784,6 +803,8 @@ const nl: LearnPageTranslations = {
       'Russische begroetingen: hoe zeg je hallo in het Russisch (complete gids 2026)',
     'russian-numbers-guide':
       'Russische getallen: hoe tel je in het Russisch (complete gids 2026)',
+    'russian-travel-phrases':
+      'Essentiële Russische reisfrases: restaurant, routebeschrijving en overlevingsgids 2026',
   },
   practiceQuiz: {
     title: 'Oefenquiz',

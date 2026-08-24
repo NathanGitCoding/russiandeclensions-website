@@ -4,6 +4,7 @@
  */
 
 import { TOP_10_APPS_RUSSIAN_ARTICLE_JSONLD_EXTRAS } from './learnArticleStaticOg';
+import { russianTravelPhrasesArticle } from './articles/russian-travel-phrases';
 
 /** Image 1200×630 pour screenshot app, lazy loading */
 export interface LearnArticleImage {
@@ -10818,6 +10819,10 @@ export const learnArticles: Record<string, LearnArticle> = {
         height: 630,
       },
     },
+  },
+  'russian-travel-phrases': {
+    ...russianTravelPhrasesArticle,
+    introByline: ARTICLE_BYLINE,
   },
 };
 
