@@ -3,32 +3,32 @@ import type { LearnArticle } from '../learnArticles';
 /** Traduction française de l'article `russian-travel-phrases` (source EN : `learnArticles.ts`). */
 export const russianTravelPhrasesFr: LearnArticle = {
   slug: 'russian-travel-phrases',
-  title: 'Expressions russes essentielles pour voyager : restaurant, directions et guide de survie 2026',
+  title: 'Phrases de voyage en russe : restaurant, directions et guide de survie 2026',
   metaTitle:
-    'Expressions russes essentielles pour touristes (2026) | Restaurant, directions et survie | Russian Cases with Anna',
+    'Phrases de voyage essentielles en russe pour touristes (2026) | Restaurant, directions et survie | Russian Cases with Anna',
   metaDescription:
-    "Apprenez les expressions russes essentielles pour touristes : commander au restaurant, demander son chemin, s'enregistrer à l'hôtel, faire des achats et gérer les urgences — avec cyrillique, translittération et conseils de prononciation.",
+    "Apprenez les phrases de voyage essentielles en russe : commander au restaurant, demander son chemin, s'enregistrer à l'hôtel, faire des achats et gérer les urgences — avec cyrillique, translittération et conseils de prononciation.",
   keywords: [
-    'expressions russes pour voyager',
-    'expressions russes pour touristes',
-    'expressions russes de base pour voyager',
-    'expressions russes au restaurant',
+    'phrases de voyage en russe',
+    'phrases russes pour touristes',
+    'phrases russes de base pour voyager',
+    'phrases russes au restaurant',
     'demander son chemin en russe',
-    'expressions russes de survie',
-    'expressions russes utiles pour voyageurs',
-    'expressions russes à l\'hôtel',
+    'phrases de survie en russe',
+    'phrases russes utiles pour voyageurs',
+    'phrases russes à l\'hôtel',
     'comment commander au restaurant en russe',
-    'expressions d\'urgence en russe',
+    'phrases d\'urgence en russe',
   ],
-  h1: 'Expressions russes essentielles pour voyager : restaurant, directions et guide de survie',
+  h1: 'Phrases de voyage essentielles en russe : restaurant, directions et guide de survie',
   heroImage: {
     src: '/articles/russian-travel-phrases.webp',
-    alt: 'Basilique Saint-Basile de Moscou — expressions russes essentielles pour touristes',
+    alt: 'Cathédrale Saint-Basile à Moscou — phrases de voyage essentielles en russe pour touristes',
     width: 1200,
     height: 630,
   },
   intro:
-    "Vous n'avez pas besoin de maîtriser le russe pour voyager sereinement en Russie — mais vous **avez** besoin d'un petit ensemble d'expressions qui fonctionnent dans les situations que chaque touriste rencontre : l'aéroport, le métro, le restaurant, la réception de l'hôtel et le moment où vous êtes perdu dans une rue secondaire.\n\nL'anglais est courant dans les grands hôtels et les zones touristiques de Moscou et Saint-Pétersbourg, mais il disparaît vite une fois qu'on quitte le centre. Un **Здравствуйте** poli, un **Сколько это стоит?** clair et la capacité de demander **Где метро?** transforment les moments stressants en situations gérables — et les locaux répondent presque toujours avec chaleur quand vous essayez.\n\nCe guide est conçu pour une **intention de voyage réelle** : les expressions que les gens recherchent vraiment avant un voyage. Chaque entrée inclut le **cyrillique**, une **translittération** facile et le français. À la fin, vous aurez un kit de survie de poche pour la nourriture, les transports, l'hébergement, les achats et les urgences — plus les habitudes de politesse qui incitent les Russes à vous aider.",
+    "Vous n'avez pas besoin de maîtriser le russe pour voyager sereinement en Russie — mais vous **avez** besoin d'un petit ensemble de phrases qui fonctionnent dans les situations que chaque touriste rencontre : l'aéroport, le métro, le restaurant, la réception de l'hôtel et le moment où vous êtes perdu dans une rue secondaire.\n\nL'anglais est courant dans les grands hôtels et les zones touristiques de Moscou et Saint-Pétersbourg, mais il disparaît vite une fois qu'on quitte le centre. Un **Здравствуйте** poli, un **Сколько это стоит?** clair et la capacité de demander **Где метро?** transforment les moments stressants en situations gérables — et les locaux répondent presque toujours avec chaleur quand vous essayez.\n\nCe guide est conçu pour une **intention de voyage réelle** : les phrases que les gens recherchent vraiment avant un voyage. Chaque entrée inclut le **cyrillique**, une **translittération** facile et le français. À la fin, vous aurez un kit de survie de poche pour la nourriture, les transports, l'hébergement, les achats et les urgences — plus les habitudes de politesse qui incitent les Russes à vous aider.",
   introByline: {
     text: "**Rédigé par Nathan** — francophone passionné de russe ; je partage ce qui fonctionne vraiment pour la grammaire, les cas et la pratique au quotidien.",
     imageSrc: '/landing-cases/founder-photo.webp',
@@ -37,25 +37,25 @@ export const russianTravelPhrasesFr: LearnArticle = {
     imageHeight: 256,
   },
   whatYouLearn: [
-    "Un **kit de survie d'une page** avec les 15 expressions que chaque touriste devrait connaître en premier",
+    "Un **kit de survie d'une page** avec les 15 phrases que chaque touriste devrait connaître en premier",
     "Comment **commander nourriture et boissons** en russe dans un café ou un restaurant",
     "Comment **demander son chemin** et comprendre les réponses de base sur les lieux",
-    "Expressions pour hôtel, aéroport, métro et shopping qui fonctionnent dans les vraies villes",
-    "Expressions d'urgence et de santé pour quand vous avez vraiment besoin d'aide",
-    "Les formules de politesse (пожалуйста, извините) qui vous obtiennent une meilleure aide des locaux",
+    "Phrases pour hôtel, aéroport, métro et shopping qui fonctionnent dans les vraies villes",
+    "Phrases d'urgence et de santé pour quand vous avez vraiment besoin d'aide",
+    "Les formules de politesse (пожалуйста, извините) qui vous aident à obtenir une meilleure aide des locaux",
   ],
   leadMagnetCta: {
-    title: 'Les expressions de voyage ouvrent la porte — la grammaire la maintient ouverte',
+    title: 'Les phrases de voyage ouvrent la porte — la grammaire la maintient ouverte',
     description:
-      "Les expressions de survie vous font passer un voyage. Russian Cases with Anna construit la grammaire en dessous : 128 leçons, 136 quiz et une pratique ciblée sur les déclinaisons — gratuit sur iOS et Android.",
+      'Les phrases de survie suffisent pour un voyage. Russian Cases with Anna construit la grammaire en dessous : 128 leçons, 136 quiz et une pratique ciblée sur les déclinaisons — gratuit sur iOS et Android.',
     ctaText: 'Télécharger Russian Cases with Anna — Gratuit',
     ctaHref: '/',
   },
   sections: [
     {
-      h2: 'Kit de survie rapide : 15 expressions russes dont chaque voyageur a besoin',
+      h2: 'Kit de survie rapide : 15 phrases russes dont chaque voyageur a besoin',
       content:
-        "Si vous n'apprenez qu'un seul bloc avant votre vol, choisissez celui-ci. Ces **15 expressions** couvrent les salutations, les remerciements, les prix, les toilettes et « je ne comprends pas » — le noyau du russe touristique.",
+        "Si vous n'apprenez qu'un seul bloc avant votre vol, choisissez celui-ci. Ces **15 phrases** couvrent les salutations, les remerciements, les prix, les toilettes et « je ne comprends pas » — le noyau du russe touristique.",
       table: {
         headers: ['Russe', 'Translittération', 'Français'],
         rows: [
@@ -357,9 +357,9 @@ export const russianTravelPhrasesFr: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'Expressions russes essentielles pour voyager : restaurant, directions et guide de survie 2026',
+    headline: 'Phrases de voyage en russe : restaurant, directions et guide de survie 2026',
     description:
-      "Apprenez les expressions russes essentielles pour touristes : commander au restaurant, demander son chemin, s'enregistrer à l'hôtel, faire des achats et gérer les urgences — avec cyrillique, translittération et conseils de prononciation.",
+      "Apprenez les phrases de voyage essentielles en russe : commander au restaurant, demander son chemin, s'enregistrer à l'hôtel, faire des achats et gérer les urgences — avec cyrillique, translittération et conseils de prononciation.",
     datePublished: '2026-08-24',
     dateModified: '2026-08-24',
     author: {
@@ -376,7 +376,7 @@ export const russianTravelPhrasesFr: LearnArticle = {
       '@id': 'https://russiandeclensions.com/learn/articles/russian-travel-phrases',
     },
     keywords:
-      'expressions russes pour voyager, expressions russes pour touristes, expressions russes au restaurant, demander son chemin en russe, expressions russes de survie, expressions hôtel russe, expressions urgence russe',
+      'phrases de voyage en russe, phrases russes pour touristes, phrases restaurant russe, demander son chemin en russe, phrases de survie russe, phrases hôtel russe, phrases urgence russe',
     image: {
       '@type': 'ImageObject',
       url: 'https://russiandeclensions.com/articles/russian-travel-phrases.webp',

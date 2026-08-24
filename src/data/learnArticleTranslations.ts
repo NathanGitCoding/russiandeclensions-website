@@ -120,6 +120,12 @@ import { russianNumbersGuideEs } from './articleTranslationsEs/russian-numbers-g
 import { russianNumbersGuideIt } from './articleTranslationsIt/russian-numbers-guide';
 import { russianNumbersGuidePl } from './articleTranslationsPl/russian-numbers-guide';
 import { russianNumbersGuideTr } from './articleTranslationsTr/russian-numbers-guide';
+import { russianTravelPhrasesFr } from './articleTranslationsFr/russian-travel-phrases';
+import { russianTravelPhrasesDe } from './articleTranslationsDe/russian-travel-phrases';
+import { russianTravelPhrasesEs } from './articleTranslationsEs/russian-travel-phrases';
+import { russianTravelPhrasesIt } from './articleTranslationsIt/russian-travel-phrases';
+import { russianTravelPhrasesPl } from './articleTranslationsPl/russian-travel-phrases';
+import { russianTravelPhrasesTr } from './articleTranslationsTr/russian-travel-phrases';
 
 export const learnArticleTranslations: Partial<
   Record<string, Partial<Record<LandingLanguage, LearnArticle>>>
@@ -674,5 +680,13 @@ export const learnArticleTranslations: Partial<
     it_it: russianNumbersGuideIt,
     pl_pl: russianNumbersGuidePl,
     tr_tr: russianNumbersGuideTr,
+  },
+  'russian-travel-phrases': {
+    fr_fr: russianTravelPhrasesFr,
+    de_de: russianTravelPhrasesDe,
+    es_es: russianTravelPhrasesEs,
+    it_it: russianTravelPhrasesIt,
+    pl_pl: russianTravelPhrasesPl,
+    tr_tr: russianTravelPhrasesTr,
   },
 };

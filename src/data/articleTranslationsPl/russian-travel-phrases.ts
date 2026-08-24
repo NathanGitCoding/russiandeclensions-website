@@ -5,12 +5,12 @@ export const russianTravelPhrasesPl: LearnArticle = {
   slug: 'russian-travel-phrases',
   title: 'Niezbędne rosyjskie wyrażenia na podróż: restauracja, droga i przewodnik przetrwania 2026',
   metaTitle:
-    'Niezbędne rosyjskie wyrażenia dla turistów (2026) | Restauracja, droga i przetrwanie | Russian Cases with Anna',
+    'Niezbędne rosyjskie wyrażenia dla turystów (2026) | Restauracja, droga i przetrwanie | Russian Cases with Anna',
   metaDescription:
-    'Naucz się niezbędnych rosyjskich wyrażeń dla turistów: zamawianie w restauracji, pytanie o drogę, meldowanie w hotelu, zakupy i sytuacje awaryjne — z cyrylicą, transkrypcją i wskazówkami dotyczącymi wymowy.',
+    'Naucz się niezbędnych rosyjskich wyrażeń dla turystów: zamawianie w restauracji, pytanie o drogę, meldowanie w hotelu, zakupy i sytuacje awaryjne — z cyrylicą, transkrypcją i wskazówkami dotyczącymi wymowy.',
   keywords: [
     'rosyjskie wyrażenia na podróż',
-    'rosyjskie wyrażenia dla turistów',
+    'rosyjskie wyrażenia dla turystów',
     'podstawowe rosyjskie wyrażenia na podróż',
     'rosyjskie wyrażenia w restauracji',
     'pytanie o drogę po rosyjsku',
@@ -23,7 +23,7 @@ export const russianTravelPhrasesPl: LearnArticle = {
   h1: 'Niezbędne rosyjskie wyrażenia na podróż: restauracja, droga i przewodnik przetrwania',
   heroImage: {
     src: '/articles/russian-travel-phrases.webp',
-    alt: 'Katedra św. Bazylego w Moskwie — niezbędne rosyjskie wyrażenia dla turistów',
+    alt: 'Katedra św. Bazylego w Moskwie — niezbędne rosyjskie wyrażenia dla turystów',
     width: 1200,
     height: 630,
   },
@@ -75,7 +75,7 @@ export const russianTravelPhrasesPl: LearnArticle = {
           ['Остановите здесь', 'Ostanovite zdes', 'Zatrzymaj tutaj (taxi)'],
           ['До свидания', 'Do svidaniya', 'Do widzenia'],
         ],
-        caption: 'Niezbędne rosyjskie wyrażenia przetrwania dla turistów',
+        caption: 'Niezbędne rosyjskie wyrażenia przetrwania dla turystów',
         boldColumnIndices: [0],
       },
       bullets: [
@@ -279,7 +279,7 @@ export const russianTravelPhrasesPl: LearnArticle = {
             '**Спасибо** jest często wymawiane bliżej „spa-SEE-ba”. **Пожалуйста** to w szybkiej mowie około „pa-ZHAL-sta” (sylaby się redukują). **Здравствуйте** traci dźwięk — myśl „ZDRA-stvooy-tye”, nie każda litera na stronie.',
         },
         {
-          h3: 'Typowe błędy turistów',
+          h3: 'Typowe błędy turystów',
           content:
             '**Błąd 1:** Zaczynanie od **Привет** z personelem sklepu lub starszych nieznajomych — użyj **Здравствуйте**.\n\n**Błąd 2:** Mówienie angielskiego głośniej, gdy „Czy mówisz po angielsku?” nie działa — przejdź na wskazywanie + kluczowe rosyjskie słowa.\n\n**Błąd 3:** Całkowite ignorowanie końcówek przypadków w ustalonych wyrażeniach jest OK na poziomie turysty; wymyślanie długich zdań bez przypadków tworzy zamieszanie. Preferuj **krótkie zapamiętane fragmenty**.\n\n**Błąd 4:** Zapominanie form rodzajowych: **заблудился / заблудилась**, **турист / туристка**, **потерял / потеряла**.',
         },
@@ -293,7 +293,7 @@ export const russianTravelPhrasesPl: LearnArticle = {
   ],
   faq: [
     {
-      question: 'Jakie rosyjskie wyrażenia są najbardziej przydatne dla turistów?',
+      question: 'Jakie rosyjskie wyrażenia są najbardziej przydatne dla turystów?',
       answer:
         'Zacznij od **Здравствуйте** (dzień dobry), **Спасибо** (dziękuję), **Пожалуйста** (proszę), **Извините** (przepraszam), **Сколько это стоит?** (ile to kosztuje?), **Где туалет?** (gdzie jest toaleta?), **Я не понимаю** (nie rozumiem) i **Вы говорите по-английски?** (czy mówisz po angielsku?). Pokrywają większość sytuacji pierwszego dnia.',
     },
@@ -359,7 +359,7 @@ export const russianTravelPhrasesPl: LearnArticle = {
     '@type': 'Article',
     headline: 'Niezbędne rosyjskie wyrażenia na podróż: restauracja, droga i przewodnik przetrwania 2026',
     description:
-      'Naucz się niezbędnych rosyjskich wyrażeń dla turistów: zamawianie w restauracji, pytanie o drogę, meldowanie w hotelu, zakupy i sytuacje awaryjne — z cyrylicą, transkrypcją i wskazówkami dotyczącymi wymowy.',
+      'Naucz się niezbędnych rosyjskich wyrażeń dla turystów: zamawianie w restauracji, pytanie o drogę, meldowanie w hotelu, zakupy i sytuacje awaryjne — z cyrylicą, transkrypcją i wskazówkami dotyczącymi wymowy.',
     datePublished: '2026-08-24',
     dateModified: '2026-08-24',
     author: {
@@ -376,7 +376,7 @@ export const russianTravelPhrasesPl: LearnArticle = {
       '@id': 'https://russiandeclensions.com/learn/articles/russian-travel-phrases',
     },
     keywords:
-      'rosyjskie wyrażenia na podróż, rosyjskie wyrażenia dla turistów, rosyjskie wyrażenia w restauracji, pytanie o drogę po rosyjsku, rosyjskie wyrażenia przetrwania, wyrażenia hotelowe rosyjski, wyrażenia awaryjne rosyjski',
+      'rosyjskie wyrażenia na podróż, rosyjskie wyrażenia dla turystów, rosyjskie wyrażenia w restauracji, pytanie o drogę po rosyjsku, rosyjskie wyrażenia przetrwania, wyrażenia hotelowe rosyjski, wyrażenia awaryjne rosyjski',
     image: {
       '@type': 'ImageObject',
       url: 'https://russiandeclensions.com/articles/russian-travel-phrases.webp',
