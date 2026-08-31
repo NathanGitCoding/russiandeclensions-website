@@ -1057,7 +1057,7 @@ export default async function LearnArticlePage({ params }: Props) {
               {article.sections.map((section, idx) => {
                 const insertLeadMagnetAfter =
                   article.leadMagnetCta &&
-                  idx === Math.max(0, Math.ceil(article.sections!.length / 3) - 1);
+                  idx === Math.max(0, Math.ceil(article.sections!.length / 2) - 1);
                 return (
                   <React.Fragment key={idx}>
                     <section className="learn-detail-section">

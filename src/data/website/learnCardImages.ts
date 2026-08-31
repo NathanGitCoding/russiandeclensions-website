@@ -38,6 +38,9 @@ const LEARN_CARD_IMAGES: Record<string, string> = {
     '/articles/russian-verbal-aspect-perfective-imperfective.webp',
   'russian-word-stress-guide': '/articles/russian-word-stress-guide.webp',
   'russian-most-common-words': '/articles/best-free-resources-learn-russian.webp',
+  'russian-greetings-guide': '/articles/russia-kremlin-moscow.webp',
+  'russian-numbers-guide': '/articles/how-to-say-your-age-in-russian-grammar-rule-table.webp',
+  'russian-idioms-untranslatable': '/articles/russian-idioms-untranslatable.webp',
 };
 
 export function getLearnCardImage(slug: string): string {

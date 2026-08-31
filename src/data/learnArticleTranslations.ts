@@ -120,6 +120,12 @@ import { russianNumbersGuideEs } from './articleTranslationsEs/russian-numbers-g
 import { russianNumbersGuideIt } from './articleTranslationsIt/russian-numbers-guide';
 import { russianNumbersGuidePl } from './articleTranslationsPl/russian-numbers-guide';
 import { russianNumbersGuideTr } from './articleTranslationsTr/russian-numbers-guide';
+import { russianIdiomsUntranslatableDe } from './articleTranslationsDe/russian-idioms-untranslatable';
+import { russianIdiomsUntranslatableEs } from './articleTranslationsEs/russian-idioms-untranslatable';
+import { russianIdiomsUntranslatableFr } from './articleTranslationsFr/russian-idioms-untranslatable';
+import { russianIdiomsUntranslatableIt } from './articleTranslationsIt/russian-idioms-untranslatable';
+import { russianIdiomsUntranslatablePl } from './articleTranslationsPl/russian-idioms-untranslatable';
+import { russianIdiomsUntranslatableTr } from './articleTranslationsTr/russian-idioms-untranslatable';
 
 export const learnArticleTranslations: Partial<
   Record<string, Partial<Record<LandingLanguage, LearnArticle>>>
@@ -674,5 +680,13 @@ export const learnArticleTranslations: Partial<
     it_it: russianNumbersGuideIt,
     pl_pl: russianNumbersGuidePl,
     tr_tr: russianNumbersGuideTr,
+  },
+  'russian-idioms-untranslatable': {
+    de_de: russianIdiomsUntranslatableDe,
+    es_es: russianIdiomsUntranslatableEs,
+    fr_fr: russianIdiomsUntranslatableFr,
+    it_it: russianIdiomsUntranslatableIt,
+    pl_pl: russianIdiomsUntranslatablePl,
+    tr_tr: russianIdiomsUntranslatableTr,
   },
 };
