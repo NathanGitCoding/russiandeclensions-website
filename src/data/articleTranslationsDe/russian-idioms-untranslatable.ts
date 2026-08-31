@@ -7,7 +7,7 @@ export const russianIdiomsUntranslatableDe: LearnArticle = {
   metaTitle:
     'Lustige unübersetzbare russische Redewendungen erklärt (15 Ausdrücke) | Russian Cases with Anna',
   metaDescription:
-    'Entdecken Sie 15 lustige, unübersetzbare russische Redewendungen — von «wenn der Fluss auf dem Berg pfeift» bis «jemandem Nudeln an die Ohren hängen». Bedeutungen, wörtliche Übersetzungen und Tipps zur Verwendung.',
+    'Entdecken Sie 15 lustige, unübersetzbare russische Redewendungen — von «wenn der Flusskrebs auf dem Berg pfeift» bis «jemandem Nudeln an die Ohren hängen». Bedeutungen, wörtliche Übersetzungen und Tipps zur Verwendung.',
   keywords: [
     'russische redewendungen',
     'lustige russische redewendungen',

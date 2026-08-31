@@ -27,7 +27,7 @@ _(« TK » dans la spec interne = Turc = `tr_tr`.)_
 
 ## Tableau de suivi
 
-**Dernière mise à jour :** 2026-03-28 — **EN** = source ✅. **FR / DE / TR / PL** : tableau ci-dessous à jour (articles 12–15 branchés dans `learnArticleTranslations.ts`).
+**Dernière mise à jour :** 2026-08-31 — **EN** = source ✅. Nouvel article `russian-idioms-untranslatable` : FR / DE / ES / IT / PL / TR.
 
 | #   | Slug                                      | Sujet (court)                     | EN  | FR  | DE  | TR  | PL  | Notes |
 | --- | ----------------------------------------- | --------------------------------- | --- | --- | --- | --- | --- | ----- |
@@ -47,6 +47,7 @@ _(« TK » dans la spec interne = Turc = `tr_tr`.)_
 | 14  | `how-long-learn-russian`                  | Durée pour apprendre le russe     | ✅  | ✅  | ✅  | ✅  | ✅  |       |
 | 15  | `russian-cases-explained-beginners-guide` | Cas expliqués (débutants)         | ✅  | ✅  | ✅  | ✅  | ✅  |       |
 | 16  | `torfl-trki-russian-language-exam-guide`  | Examen TORFL / ТРКИ               | ✅  | ✅  | ✅  | ✅  | ✅  |       |
+| 17  | `russian-idioms-untranslatable`           | Idiomes russes intraduisibles     | ✅  | ✅  | ✅  | ✅  | ✅  | + ES/IT aussi |
 
 ## Leçons Learn (`/learn/lessons/[slug]`)
 
