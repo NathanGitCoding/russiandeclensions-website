@@ -18,7 +18,7 @@ export const russianCasesExplainedBeginnersGuidePl: LearnArticle = {
   ],
   h1: 'Rosyjskie przypadki prosto: wizualny przewodnik dla początkujących',
   heroImage: {
-    src: '/articles/top-10-apps-to-learn-russian-2026.webp',
+    src: '/articles/russian-cases-explained-notes.webp',
     alt: '6 rosyjskich przypadków prosto wyjaśnionych dla początkujących',
     width: 1200,
     height: 630,

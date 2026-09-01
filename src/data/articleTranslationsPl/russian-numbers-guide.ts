@@ -22,7 +22,7 @@ export const russianNumbersGuidePl: LearnArticle = {
   ],
   h1: 'Liczby po rosyjsku: jak liczyć po rosyjsku (kompletny przewodnik)',
   heroImage: {
-    src: '/articles/russia-kremlin-moscow.webp',
+    src: '/articles/russian-numbers-abacus.webp',
     alt: 'Nauka liczb po rosyjsku — kompletny przewodnik po liczeniu',
     width: 1200,
     height: 630,
@@ -368,7 +368,7 @@ export const russianNumbersGuidePl: LearnArticle = {
       'liczby po rosyjsku, jak liczyć po rosyjsku, rosyjskie liczby główne, rosyjskie liczby porządkowe, liczenie po rosyjsku',
     image: {
       '@type': 'ImageObject',
-      url: 'https://russiandeclensions.com/articles/russia-kremlin-moscow.webp',
+      url: 'https://russiandeclensions.com/articles/russian-numbers-abacus.webp',
       width: 1200,
       height: 630,
     },

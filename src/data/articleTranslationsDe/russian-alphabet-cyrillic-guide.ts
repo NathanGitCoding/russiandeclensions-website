@@ -18,7 +18,7 @@ export const russianAlphabetCyrillicGuideDe: LearnArticle = {
   ],
   h1: 'Russisches Alphabet: Kyrillisch in 3 einfachen Schritten lernen',
   heroImage: {
-    src: '/articles/russian-alphabet-cyrillic-guide.webp',
+    src: '/articles/russian-alphabet-cyrillic-letters.webp',
     alt: 'Russische kyrillische Buchstaben auf einem Lernheft',
     width: 1200,
     height: 630,

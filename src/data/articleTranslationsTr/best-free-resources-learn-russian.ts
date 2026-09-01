@@ -17,7 +17,7 @@ export const bestFreeResourcesLearnRussianTr: LearnArticle = {
   ],
   h1: "2026'da Rusça öğrenmek için en iyi 15 ücretsiz kaynak",
   heroImage: {
-    src: '/articles/top-10-apps-to-learn-russian-2026.webp',
+    src: '/articles/best-free-resources-learn-russian.webp',
     alt: '2026 için Rusça öğrenmeye yönelik en iyi 15 ücretsiz kaynak',
     width: 1200,
     height: 630,

@@ -22,7 +22,7 @@ export const russianNumbersGuideTr: LearnArticle = {
   ],
   h1: "Rusça Sayılar: Rusça'da Nasıl Sayılır (Tam Kılavuz)",
   heroImage: {
-    src: '/articles/russia-kremlin-moscow.webp',
+    src: '/articles/russian-numbers-abacus.webp',
     alt: "Rusça sayıları öğrenme — sayma için tam kılavuz",
     width: 1200,
     height: 630,
@@ -368,7 +368,7 @@ export const russianNumbersGuideTr: LearnArticle = {
       "Rusça sayılar, Rusça'da nasıl sayılır, Rusça kardinal sayılar, Rusça ordinal sayılar, Rusça sayma",
     image: {
       '@type': 'ImageObject',
-      url: 'https://russiandeclensions.com/articles/russia-kremlin-moscow.webp',
+      url: 'https://russiandeclensions.com/articles/russian-numbers-abacus.webp',
       width: 1200,
       height: 630,
     },

@@ -18,7 +18,7 @@ export const bestFreeResourcesLearnRussianPl: LearnArticle = {
   ],
   h1: '15 najlepszych darmowych zasobów do nauki rosyjskiego w 2026 roku',
   heroImage: {
-    src: '/articles/top-10-apps-to-learn-russian-2026.webp',
+    src: '/articles/best-free-resources-learn-russian.webp',
     alt: '15 najlepszych darmowych zasobów do nauki rosyjskiego w 2026',
     width: 1200,
     height: 630,

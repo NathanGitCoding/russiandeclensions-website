@@ -22,8 +22,8 @@ export const russianGreetingsGuideIt: LearnArticle = {
   ],
   h1: 'Saluti in russo: come dire ciao in russo (guida completa)',
   heroImage: {
-    src: '/articles/russia-kremlin-moscow.webp',
-    alt: 'Piazza Rossa di Mosca — guida ai saluti in russo',
+    src: '/articles/russian-greetings-hello.webp',
+    alt: 'Una mano che tiene un cartello con scritto "Hello!" — guida ai saluti in russo',
     width: 1200,
     height: 630,
   },
@@ -327,7 +327,7 @@ export const russianGreetingsGuideIt: LearnArticle = {
       'saluti in russo, come dire ciao in russo, привет, здравствуйте, saluti formali in russo, arrivederci in russo',
     image: {
       '@type': 'ImageObject',
-      url: 'https://russiandeclensions.com/articles/russia-kremlin-moscow.webp',
+      url: 'https://russiandeclensions.com/articles/russian-greetings-hello.webp',
       width: 1200,
       height: 630,
     },

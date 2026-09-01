@@ -19,7 +19,7 @@ export const russianMostCommonWordsPl: LearnArticle = {
   ],
   h1: '100 najczęstszych słów rosyjskich: Niezbędna lista słownictwa dla początkujących',
   heroImage: {
-    src: '/articles/best-free-resources-learn-russian.webp',
+    src: '/articles/russian-most-common-words-cards.webp',
     alt: 'Materiały do nauki języka rosyjskiego i notatki słownikowe',
     width: 1200,
     height: 630,

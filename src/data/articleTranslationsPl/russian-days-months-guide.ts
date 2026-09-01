@@ -22,7 +22,7 @@ export const russianDaysMonthsGuidePl: LearnArticle = {
   ],
   h1: 'Dni tygodnia i miesiące po rosyjsku (kompletny przewodnik)',
   heroImage: {
-    src: '/articles/russia-kremlin-moscow.webp',
+    src: '/articles/russian-days-months-calendar.webp',
     alt: 'Nauka dni tygodnia i miesięcy po rosyjsku — kompletny przewodnik',
     width: 1200,
     height: 630,
@@ -296,7 +296,7 @@ export const russianDaysMonthsGuidePl: LearnArticle = {
       'dni tygodnia po rosyjsku, miesiące po rosyjsku, rosyjskie dni tygodnia, rosyjskie miesiące, słownictwo kalendarza rosyjskiego, gramatyka dat po rosyjsku',
     image: {
       '@type': 'ImageObject',
-      url: 'https://russiandeclensions.com/articles/russia-kremlin-moscow.webp',
+      url: 'https://russiandeclensions.com/articles/russian-days-months-calendar.webp',
       width: 1200,
       height: 630,
     },

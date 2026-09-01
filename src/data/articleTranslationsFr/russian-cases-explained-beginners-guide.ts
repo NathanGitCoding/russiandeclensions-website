@@ -17,7 +17,7 @@ export const russianCasesExplainedBeginnersGuideFr: LearnArticle = {
   ],
   h1: 'Les cas russes expliqués simplement : guide visuel pour débutants',
   heroImage: {
-    src: '/articles/top-10-apps-to-learn-russian-2026.webp',
+    src: '/articles/russian-cases-explained-notes.webp',
     alt: 'Les 6 cas du russe expliqués simplement pour débutants',
     width: 1200,
     height: 630,

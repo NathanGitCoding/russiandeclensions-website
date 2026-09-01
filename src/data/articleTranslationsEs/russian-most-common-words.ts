@@ -19,7 +19,7 @@ export const russianMostCommonWordsEs: LearnArticle = {
   ],
   h1: '100 palabras rusas más comunes: La lista de vocabulario esencial para principiantes',
   heroImage: {
-    src: '/articles/best-free-resources-learn-russian.webp',
+    src: '/articles/russian-most-common-words-cards.webp',
     alt: 'Materiales de estudio de ruso y notas de vocabulario',
     width: 1200,
     height: 630,

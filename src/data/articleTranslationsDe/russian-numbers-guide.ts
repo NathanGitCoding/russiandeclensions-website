@@ -22,7 +22,7 @@ export const russianNumbersGuideDe: LearnArticle = {
   ],
   h1: 'Russische Zahlen: Auf Russisch zählen (vollständiger Leitfaden)',
   heroImage: {
-    src: '/articles/russia-kremlin-moscow.webp',
+    src: '/articles/russian-numbers-abacus.webp',
     alt: 'Russische Zahlen lernen — vollständiger Leitfaden zum Zählen',
     width: 1200,
     height: 630,
@@ -365,7 +365,7 @@ export const russianNumbersGuideDe: LearnArticle = {
       'russische Zahlen, auf Russisch zählen, Zahlen auf Russisch, russische Grundzahlen, russische Ordinalzahlen, Russisch zählen',
     image: {
       '@type': 'ImageObject',
-      url: 'https://russiandeclensions.com/articles/russia-kremlin-moscow.webp',
+      url: 'https://russiandeclensions.com/articles/russian-numbers-abacus.webp',
       width: 1200,
       height: 630,
     },

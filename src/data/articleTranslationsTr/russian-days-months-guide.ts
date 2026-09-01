@@ -22,7 +22,7 @@ export const russianDaysMonthsGuideTr: LearnArticle = {
   ],
   h1: 'Rusçada Haftanın Günleri ve Aylar (Tam Kılavuz)',
   heroImage: {
-    src: '/articles/russia-kremlin-moscow.webp',
+    src: '/articles/russian-days-months-calendar.webp',
     alt: "Rusçada haftanın günlerini ve ayları öğrenmek — tam kılavuz",
     width: 1200,
     height: 630,
@@ -297,7 +297,7 @@ export const russianDaysMonthsGuideTr: LearnArticle = {
       'rusçada haftanın günleri, rusçada aylar, rus haftanın günleri, rus ayları, rus takvim kelimeleri, rusça tarih grameri',
     image: {
       '@type': 'ImageObject',
-      url: 'https://russiandeclensions.com/articles/russia-kremlin-moscow.webp',
+      url: 'https://russiandeclensions.com/articles/russian-days-months-calendar.webp',
       width: 1200,
       height: 630,
     },

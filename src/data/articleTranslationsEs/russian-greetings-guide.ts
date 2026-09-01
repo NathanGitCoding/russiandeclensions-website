@@ -22,8 +22,8 @@ export const russianGreetingsGuideEs: LearnArticle = {
   ],
   h1: 'Saludos en ruso: cómo decir hola en ruso (guía completa)',
   heroImage: {
-    src: '/articles/russia-kremlin-moscow.webp',
-    alt: 'Plaza Roja de Moscú — guía de saludos en ruso',
+    src: '/articles/russian-greetings-hello.webp',
+    alt: 'Una mano sosteniendo un cartel que dice "Hello!" — guía de saludos en ruso',
     width: 1200,
     height: 630,
   },
@@ -327,7 +327,7 @@ export const russianGreetingsGuideEs: LearnArticle = {
       'saludos en ruso, cómo decir hola en ruso, привет, здравствуйте, saludos formales en ruso, adiós en ruso',
     image: {
       '@type': 'ImageObject',
-      url: 'https://russiandeclensions.com/articles/russia-kremlin-moscow.webp',
+      url: 'https://russiandeclensions.com/articles/russian-greetings-hello.webp',
       width: 1200,
       height: 630,
     },

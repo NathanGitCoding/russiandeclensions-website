@@ -22,8 +22,8 @@ export const russianGreetingsGuideDe: LearnArticle = {
   ],
   h1: 'Russische Begrüßungen: Wie man auf Russisch Hallo sagt (vollständiger Leitfaden)',
   heroImage: {
-    src: '/articles/russia-kremlin-moscow.webp',
-    alt: 'Roter Platz Moskau — Leitfaden für russische Begrüßungen',
+    src: '/articles/russian-greetings-hello.webp',
+    alt: 'Eine Hand hält ein Schild mit der Aufschrift „Hello!" — Leitfaden für russische Begrüßungen',
     width: 1200,
     height: 630,
   },
@@ -328,7 +328,7 @@ export const russianGreetingsGuideDe: LearnArticle = {
       'russische Begrüßungen, Hallo auf Russisch, Привет, Здравствуйте, formelle russische Grüße, Auf Wiedersehen Russisch',
     image: {
       '@type': 'ImageObject',
-      url: 'https://russiandeclensions.com/articles/russia-kremlin-moscow.webp',
+      url: 'https://russiandeclensions.com/articles/russian-greetings-hello.webp',
       width: 1200,
       height: 630,
     },

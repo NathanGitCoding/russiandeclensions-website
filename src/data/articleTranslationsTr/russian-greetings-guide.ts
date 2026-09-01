@@ -22,8 +22,8 @@ export const russianGreetingsGuideTr: LearnArticle = {
   ],
   h1: "Rusça Selamlaşma: Rusça'da Merhaba Nasıl Denir (Tam Kılavuz)",
   heroImage: {
-    src: '/articles/russia-kremlin-moscow.webp',
-    alt: "Moskova Kızıl Meydanı — Rusça selamlaşma rehberi",
+    src: '/articles/russian-greetings-hello.webp',
+    alt: "\"Hello!\" yazan bir tabelayı tutan el — Rusça selamlaşma rehberi",
     width: 1200,
     height: 630,
   },
@@ -327,7 +327,7 @@ export const russianGreetingsGuideTr: LearnArticle = {
       "Rusça selamlaşma, Rusça'da merhaba, привет, здравствуйте, resmi Rusça selamlar, hoşça kal Rusça",
     image: {
       '@type': 'ImageObject',
-      url: 'https://russiandeclensions.com/articles/russia-kremlin-moscow.webp',
+      url: 'https://russiandeclensions.com/articles/russian-greetings-hello.webp',
       width: 1200,
       height: 630,
     },

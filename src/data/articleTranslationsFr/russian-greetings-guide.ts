@@ -22,8 +22,8 @@ export const russianGreetingsGuideFr: LearnArticle = {
   ],
   h1: "Salutations en russe : comment dire bonjour en russe (guide complet)",
   heroImage: {
-    src: '/articles/russia-kremlin-moscow.webp',
-    alt: "Place Rouge de Moscou — guide des salutations russes",
+    src: '/articles/russian-greetings-hello.webp',
+    alt: "Une main tenant un panneau « Hello! » — guide des salutations russes",
     width: 1200,
     height: 630,
   },
@@ -328,7 +328,7 @@ export const russianGreetingsGuideFr: LearnArticle = {
       "salutations en russe, comment dire bonjour en russe, привет, здравствуйте, formules russes, au revoir en russe",
     image: {
       '@type': 'ImageObject',
-      url: 'https://russiandeclensions.com/articles/russia-kremlin-moscow.webp',
+      url: 'https://russiandeclensions.com/articles/russian-greetings-hello.webp',
       width: 1200,
       height: 630,
     },

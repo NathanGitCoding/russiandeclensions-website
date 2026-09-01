@@ -19,7 +19,7 @@ export const russianMostCommonWordsTr: LearnArticle = {
   ],
   h1: 'En Yaygın 100 Rusça Kelime: Başlangıç Seviyesi İçin Temel Kelime Listesi',
   heroImage: {
-    src: '/articles/best-free-resources-learn-russian.webp',
+    src: '/articles/russian-most-common-words-cards.webp',
     alt: 'Rusça çalışma materyalleri ve kelime notları',
     width: 1200,
     height: 630,

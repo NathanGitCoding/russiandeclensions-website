@@ -22,7 +22,7 @@ export const russianNumbersGuideEs: LearnArticle = {
   ],
   h1: 'Los números en ruso: cómo contar en ruso (guía completa)',
   heroImage: {
-    src: '/articles/russia-kremlin-moscow.webp',
+    src: '/articles/russian-numbers-abacus.webp',
     alt: 'Aprender los números en ruso — guía completa para contar',
     width: 1200,
     height: 630,
@@ -365,7 +365,7 @@ export const russianNumbersGuideEs: LearnArticle = {
       'números en ruso, cómo contar en ruso, números cardinales rusos, números ordinales rusos, contar en ruso',
     image: {
       '@type': 'ImageObject',
-      url: 'https://russiandeclensions.com/articles/russia-kremlin-moscow.webp',
+      url: 'https://russiandeclensions.com/articles/russian-numbers-abacus.webp',
       width: 1200,
       height: 630,
     },

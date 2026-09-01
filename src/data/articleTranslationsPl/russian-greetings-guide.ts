@@ -22,8 +22,8 @@ export const russianGreetingsGuidePl: LearnArticle = {
   ],
   h1: 'Rosyjskie pozdrowienia: jak powiedzieć cześć po rosyjsku (kompletny przewodnik)',
   heroImage: {
-    src: '/articles/russia-kremlin-moscow.webp',
-    alt: 'Plac Czerwony w Moskwie — przewodnik po rosyjskich pozdrowieniach',
+    src: '/articles/russian-greetings-hello.webp',
+    alt: 'Dłoń trzymająca kartkę z napisem „Hello!" — przewodnik po rosyjskich pozdrowieniach',
     width: 1200,
     height: 630,
   },
@@ -328,7 +328,7 @@ export const russianGreetingsGuidePl: LearnArticle = {
       'rosyjskie pozdrowienia, jak powiedzieć cześć po rosyjsku, привет, здравствуйте, formalne pozdrowienia rosyjskie, do widzenia po rosyjsku',
     image: {
       '@type': 'ImageObject',
-      url: 'https://russiandeclensions.com/articles/russia-kremlin-moscow.webp',
+      url: 'https://russiandeclensions.com/articles/russian-greetings-hello.webp',
       width: 1200,
       height: 630,
     },

@@ -18,7 +18,7 @@ export const russianAlphabetCyrillicGuidePl: LearnArticle = {
   ],
   h1: 'Rosyjski alfabet: naucz się cyrylicy w 3 prostych krokach',
   heroImage: {
-    src: '/articles/russian-alphabet-cyrillic-guide.webp',
+    src: '/articles/russian-alphabet-cyrillic-letters.webp',
     alt: 'Rosyjskie litery cyrylicy w zeszycie do nauki',
     width: 1200,
     height: 630,

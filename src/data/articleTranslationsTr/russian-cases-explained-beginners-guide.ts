@@ -17,7 +17,7 @@ export const russianCasesExplainedBeginnersGuideTr: LearnArticle = {
   ],
   h1: 'Rus halleri basitçe: Yeni başlayanlar için görsel rehber',
   heroImage: {
-    src: '/articles/top-10-apps-to-learn-russian-2026.webp',
+    src: '/articles/russian-cases-explained-notes.webp',
     alt: 'Yeni başlayanlar için 6 Rus hali basitçe açıklanıyor',
     width: 1200,
     height: 630,

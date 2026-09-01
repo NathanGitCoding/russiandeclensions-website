@@ -18,7 +18,7 @@ export const russianAlphabetCyrillicGuideTr: LearnArticle = {
   ],
   h1: 'Rus Alfabesi: Kiril Alfabesini 3 Basit Adımda Öğrenin',
   heroImage: {
-    src: '/articles/russian-alphabet-cyrillic-guide.webp',
+    src: '/articles/russian-alphabet-cyrillic-letters.webp',
     alt: 'Bir öğrenme defterinde Rusça Kiril alfabesi harfleri',
     width: 1200,
     height: 630,

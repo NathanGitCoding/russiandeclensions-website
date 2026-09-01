@@ -22,7 +22,7 @@ export const russianDaysMonthsGuideDe: LearnArticle = {
   ],
   h1: 'Wochentage und Monate auf Russisch (vollständiger Leitfaden)',
   heroImage: {
-    src: '/articles/russia-kremlin-moscow.webp',
+    src: '/articles/russian-days-months-calendar.webp',
     alt: 'Wochentage und Monate auf Russisch lernen — vollständiger Leitfaden',
     width: 1200,
     height: 630,
@@ -297,7 +297,7 @@ export const russianDaysMonthsGuideDe: LearnArticle = {
       'wochentage auf russisch, monate auf russisch, russische wochentage, russische monate, russisches kalendervokabular, russische datumsgrammatik',
     image: {
       '@type': 'ImageObject',
-      url: 'https://russiandeclensions.com/articles/russia-kremlin-moscow.webp',
+      url: 'https://russiandeclensions.com/articles/russian-days-months-calendar.webp',
       width: 1200,
       height: 630,
     },
