@@ -120,6 +120,12 @@ import { russianNumbersGuideEs } from './articleTranslationsEs/russian-numbers-g
 import { russianNumbersGuideIt } from './articleTranslationsIt/russian-numbers-guide';
 import { russianNumbersGuidePl } from './articleTranslationsPl/russian-numbers-guide';
 import { russianNumbersGuideTr } from './articleTranslationsTr/russian-numbers-guide';
+import { russianDaysMonthsGuideFr } from './articleTranslationsFr/russian-days-months-guide';
+import { russianDaysMonthsGuideDe } from './articleTranslationsDe/russian-days-months-guide';
+import { russianDaysMonthsGuideEs } from './articleTranslationsEs/russian-days-months-guide';
+import { russianDaysMonthsGuideIt } from './articleTranslationsIt/russian-days-months-guide';
+import { russianDaysMonthsGuidePl } from './articleTranslationsPl/russian-days-months-guide';
+import { russianDaysMonthsGuideTr } from './articleTranslationsTr/russian-days-months-guide';
 
 export const learnArticleTranslations: Partial<
   Record<string, Partial<Record<LandingLanguage, LearnArticle>>>
@@ -674,5 +680,13 @@ export const learnArticleTranslations: Partial<
     it_it: russianNumbersGuideIt,
     pl_pl: russianNumbersGuidePl,
     tr_tr: russianNumbersGuideTr,
+  },
+  'russian-days-months-guide': {
+    fr_fr: russianDaysMonthsGuideFr,
+    de_de: russianDaysMonthsGuideDe,
+    es_es: russianDaysMonthsGuideEs,
+    it_it: russianDaysMonthsGuideIt,
+    pl_pl: russianDaysMonthsGuidePl,
+    tr_tr: russianDaysMonthsGuideTr,
   },
 };

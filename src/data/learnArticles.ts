@@ -10819,6 +10819,302 @@ export const learnArticles: Record<string, LearnArticle> = {
       },
     },
   },
+  'russian-days-months-guide': {
+    slug: 'russian-days-months-guide',
+    introByline: ARTICLE_BYLINE,
+    title: 'Days of the Week and Months in Russian (Complete Guide 2026)',
+    metaTitle:
+      'Days of the Week and Months in Russian | Complete Guide 2026 | Russian Cases with Anna',
+    metaDescription:
+      'Learn the days of the week and months in Russian with pronunciation, plus the grammar rule that trips up learners: в понедельник (accusative) vs в январе (prepositional).',
+    keywords: [
+      'days of the week in russian',
+      'months in russian',
+      'russian days of the week',
+      'russian months',
+      'how to say days in russian',
+      'russian calendar vocabulary',
+      'понедельник russian',
+      'russian dates grammar',
+      'days and months russian cases',
+      'russian week vocabulary',
+    ],
+    h1: 'Days of the Week and Months in Russian (Complete Guide)',
+    heroImage: {
+      src: '/articles/russia-kremlin-moscow.webp',
+      alt: 'Learning the days of the week and months in Russian — complete guide',
+      width: 1200,
+      height: 630,
+    },
+    intro:
+      'Days of the week and months look like pure vocabulary — seven words, twelve words, memorise and move on. **But in Russian, they come with a grammar trap that catches almost every learner at least once.** Say "on Monday" and you need one grammatical case. Say "in January" and you need a completely different one. Mix them up and you get a sentence that sounds distinctly foreign, even if every word is correct.\n\nThe good news: **the rule is simple once you see it stated clearly**, and native Russian textbooks rarely spell it out in one place. This guide gives you the full list of days and months with pronunciation, the exact case rule for "on [day]" versus "in [month]", how to build a full date, and how to ask what day or date it is today.',
+    whatYouLearn: [
+      'All seven days of the week in Russian, with pronunciation and literal meanings',
+      'All twelve months in Russian, with pronunciation and genitive/prepositional forms',
+      'The core rule: days use **"в" + accusative**, months use **"в" + prepositional**',
+      'How to say **recurring** days: "on Mondays" (по + dative plural)',
+      'How to build a full date and ask "what day is it?" / "what is today\'s date?"',
+      'The most common mistakes — and the one word (среда) that changes stress in the accusative',
+    ],
+    leadMagnetCta: {
+      title: 'Master Russian cases beyond the calendar — free app',
+      description:
+        'Days and months are just two more places where Russian cases show up. Russian Cases with Anna gives you structured lessons and smart quizzes to make every case automatic — free on iOS and Android.',
+      ctaText: 'Download the app — Free',
+      ctaHref: '/',
+    },
+    sections: [
+      {
+        h2: 'Days of the Week in Russian: The Full List',
+        content:
+          'Unlike the English week, the **Russian week starts on Monday** (понедельник) and ends on Sunday (воскресенье) — this matches the ISO standard and every Russian calendar or planner you will see. Several day names are transparent once you know their origin.',
+        table: {
+          headers: ['Day', 'Russian', 'Transliteration', 'Literal origin'],
+          rows: [
+            ['Monday', 'понедельник', "ponedel'nik", 'после недели — "after the (day of) rest"'],
+            ['Tuesday', 'вторник', 'vtornik', 'второй — "the second (day)"'],
+            ['Wednesday', 'среда', 'sreda', 'середина — "the middle (of the week)"'],
+            ['Thursday', 'четверг', 'chetverg', 'четвёртый — "the fourth (day)"'],
+            ['Friday', 'пятница', "pyatnitsa", 'пятый — "the fifth (day)"'],
+            ['Saturday', 'суббота', 'subbota', 'from Hebrew "Shabbat" via Church Slavonic'],
+            ['Sunday', 'воскресенье', "voskresen'ye", 'воскресение — "Resurrection"'],
+          ],
+          caption: 'The seven days of the week in Russian',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          'The Russian week runs **Monday → Sunday**, not Sunday → Saturday',
+          '**Среда** (Wednesday) literally means "the middle" — it sits in the middle of the working week',
+          '**Суббота** (Saturday) is a loanword from Hebrew шаббат (Shabbat), borrowed via Church Slavonic',
+          '**Воскресенье** (Sunday) replaced the older pagan word неделя ("no work") once Christianity spread — неделя now means "week" in modern Russian',
+          'All day names are written **lowercase** in Russian, unlike in English',
+        ],
+      },
+      {
+        h2: 'Months in Russian: The Full List',
+        content:
+          'Russian month names are unrelated to English ones (they come from Old Slavic nature words, not Latin) — with one exception: they are **always lowercase**, and most learners find them easier to pronounce than the days. Below is the nominative form (the "dictionary" form) plus the two forms you will actually use most: genitive (for dates) and prepositional (for "in [month]").',
+        table: {
+          headers: ['Month', 'Russian (nominative)', 'Genitive (dates)', 'Prepositional ("in ...")'],
+          rows: [
+            ['January', 'январь', 'января', 'январе'],
+            ['February', 'февраль', 'февраля', 'феврале'],
+            ['March', 'март', 'марта', 'марте'],
+            ['April', 'апрель', 'апреля', 'апреле'],
+            ['May', 'май', 'мая', 'мае'],
+            ['June', 'июнь', 'июня', 'июне'],
+            ['July', 'июль', 'июля', 'июле'],
+            ['August', 'август', 'августа', 'августе'],
+            ['September', 'сентябрь', 'сентября', 'сентябре'],
+            ['October', 'октябрь', 'октября', 'октябре'],
+            ['November', 'ноябрь', 'ноября', 'ноябре'],
+            ['December', 'декабрь', 'декабря', 'декабре'],
+          ],
+          caption: 'Russian months: nominative, genitive, and prepositional forms',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          'Most months are **masculine** and end in a consonant or **-ь** (январь, май, июнь)',
+          'The genitive form (used in dates) always ends in **-я**: января, февраля, марта…',
+          'The prepositional form (used after "в" for "in [month]") ends in **-е**: январе, феврале, марте…',
+          '**Июнь** (June) and **июль** (July) are easily confused in fast speech — listen for the final consonant: -нь vs -ль',
+          'Month names are never capitalised in Russian, even at the start of a sentence',
+        ],
+      },
+      {
+        h2: 'The Grammar Rule: Days Take Accusative, Months Take Prepositional',
+        content:
+          'This is the rule that catches almost every learner. When you say **"on [day]"** or **"in [month]"** using the preposition **в**, the case that follows is different for days and for months — and there is no shortcut, you simply have to know which is which.\n\n**Days of the week: "в" + accusative.** Он придёт **в понедельник** (He\'ll come on Monday). Мы встречаемся **во вторник** (We\'re meeting on Tuesday).\n\n**Months: "в" + prepositional.** Я родился **в январе** (I was born in January). Свадьба будет **в июне** (The wedding will be in June).\n\nFor masculine day names (понедельник, вторник, четверг) the accusative looks identical to the nominative, so the rule is invisible. It becomes visible with the three feminine day names — среда, пятница, суббота — which genuinely change form, and with воскресенье, which is neuter and also stays the same.',
+        table: {
+          headers: ['Category', 'Case after "в"', 'Example'],
+          rows: [
+            ['Days of the week', 'Accusative', 'в понедельник, во вторник, в среду, в пятницу, в субботу'],
+            ['Months', 'Prepositional', 'в январе, в марте, в июне, в декабре'],
+          ],
+          caption: 'Days vs. months: which case follows "в"',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          '**Среда** (Wednesday) is the trickiest: nominative is stressed sredá, but the accusative **в сре́ду** shifts the stress to the first syllable — a classic Russian stress-shift pattern (like рука́ → в ру́ку)',
+          '**Пятница → в пятницу** and **суббота → в субботу**: both feminine, both take the regular **-у** accusative ending',
+          '**Вторник** becomes **во вторник** (not в вторник) — "в" changes to "во" before a consonant cluster, for ease of pronunciation',
+          'A common mistake is saying "**в январь**" instead of **в январе** — months never take the accusative after "в" in this context',
+          'The same accusative rule applies to other time expressions: **в эту среду** (this Wednesday), **в прошлый вторник** (last Tuesday)',
+        ],
+      },
+      {
+        h2: 'Talking About Every Monday, Every Week: "По" + Dative Plural',
+        content:
+          'To say something happens **regularly** on a given day ("on Mondays", "every Tuesday"), Russian switches prepositions entirely: use **по** with the **dative plural** of the day, not **в** with the accusative singular.',
+        table: {
+          headers: ['English', 'Russian', 'Case'],
+          rows: [
+            ['on Mondays', 'по понедельникам', 'Dative plural'],
+            ['on Tuesdays', 'по вторникам', 'Dative plural'],
+            ['on Wednesdays', 'по средам', 'Dative plural'],
+            ['on Thursdays', 'по четвергам', 'Dative plural'],
+            ['on Fridays', 'по пятницам', 'Dative plural'],
+            ['on Saturdays', 'по субботам', 'Dative plural'],
+            ['on Sundays', 'по воскресеньям', 'Dative plural'],
+          ],
+          caption: 'Recurring days: по + dative plural',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          '**У меня русский по понедельникам** (I have Russian class on Mondays) — a single, recurring day',
+          'Compare: **в понедельник** (this coming/that specific Monday) vs. **по понедельникам** (every Monday, as a rule)',
+          'This is the same **по + dative** pattern used in "по субботам магазин закрыт" (the shop is closed on Saturdays)',
+        ],
+      },
+      {
+        h2: 'How to Say the Full Date in Russian',
+        content:
+          'A full date combines three elements, each in a different form: the **day number** (a neuter ordinal, because the implied noun is число — "date/number"), the **month** (genitive), and the **year** (an ordinal in the prepositional case, introduced by в).\n\n**5 June 2026 → пятое июня две тысячи двадцать шестого года.**\n\nFor a deeper breakdown of ordinal numbers and how years are formed, see our [complete guide to Russian numbers](/learn/articles/russian-numbers-guide) — this section only covers the day/month/year mechanics specific to writing full dates.',
+        table: {
+          headers: ['English', 'Russian', 'Notes'],
+          rows: [
+            ['1 January', 'первое января', 'Ordinal (neuter) + month in genitive'],
+            ['8 March', 'восьмое марта', 'Ordinal (neuter) + month in genitive'],
+            ['9 May', 'девятое мая', 'Ordinal (neuter) + month in genitive'],
+            ['31 December', 'тридцать первое декабря', 'Compound ordinal + month in genitive'],
+          ],
+          caption: 'Writing dates: day (ordinal) + month (genitive)',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          'On a date, "on" is not translated with **в** — you simply use the ordinal alone: **Я приеду пятого июня** (I\'ll arrive on 5 June) — this is genitive, not accusative, because it answers "when exactly" as a date, not a weekday',
+          'Written dates on documents use the numeric format **день.месяц.год**: 05.06.2026',
+          'For years, the "in [year]" construction is **в две тысячи двадцать шестом году** — see the numbers guide for the full breakdown',
+        ],
+      },
+      {
+        h2: 'How to Ask "What Day Is It?" and "What\'s the Date?"',
+        content:
+          'Russian has two separate questions here — do not mix them up, because they use different question words and expect different case answers.',
+        table: {
+          headers: ['Question', 'Russian', 'Sample answer'],
+          rows: [
+            ['What day of the week is it?', 'Какой сегодня день недели?', 'Сегодня среда. (Nominative)'],
+            ["What's today's date?", 'Какое сегодня число?', 'Сегодня пятое июня. (Ordinal + genitive month)'],
+            ['What day will it be on Friday?', 'Какой день недели будет в пятницу?', '—'],
+          ],
+          caption: 'Asking about the day and the date',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          '**Какой сегодня день (недели)?** asks for the weekday — answer in the nominative: Сегодня понедельник (Today is Monday)',
+          '**Какое сегодня число?** asks for the calendar date — answer with the ordinal + genitive month: Сегодня пятнадцатое марта (Today is 15 March)',
+          'Both questions use "сегодня" (today), but **какой** (masculine, agreeing with день) and **какое** (neuter, agreeing with число) are not interchangeable',
+        ],
+      },
+      {
+        h2: 'Common Mistakes with Days and Months',
+        content:
+          'These four mistakes account for most of the errors learners make with Russian days and months:',
+        bullets: [
+          '**Using accusative after months.** Saying "**в январь**" instead of **в январе**. Months always take the prepositional case after в.',
+          '**Using prepositional after days.** Saying "**в понедельнике**" instead of **в понедельник**. Days always take the accusative case after в.',
+          '**Forgetting the stress shift in среда.** Nominative is sredá, but the accusative is **сре́ду** — stress moves to the first syllable. Saying sredú sounds foreign.',
+          '**Confusing какой and какое.** Какой день (masculine, agrees with день) vs. какое число (neuter, agrees with число) — mixing them is a very common beginner slip.',
+          '**Mixing up в + accusative (one specific day) with по + dative plural (every week).** В субботу = this Saturday; по субботам = every Saturday.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'What case do days of the week take in Russian?',
+        answer:
+          'Days of the week take the **accusative case** after the preposition **в**: в понедельник (on Monday), во вторник (on Tuesday), в среду (on Wednesday). Masculine and neuter day names look identical to the nominative in the accusative; the three feminine days (среда, пятница, суббота) change their ending, and среда also shifts its stress: **в сре́ду**.',
+      },
+      {
+        question: 'What case do months take in Russian?',
+        answer:
+          'Months take the **prepositional case** after в when saying "in [month]": в январе (in January), в июне (in June), в декабре (in December). This is different from the accusative used for days — a common source of mistakes for learners.',
+      },
+      {
+        question: 'Does the Russian week start on Monday or Sunday?',
+        answer:
+          'The Russian week starts on **Monday** (понедельник) and ends on **Sunday** (воскресенье), following the ISO 8601 standard. This is the opposite of the traditional US calendar convention, where the week starts on Sunday.',
+      },
+      {
+        question: 'How do you say "every Monday" in Russian?',
+        answer:
+          'Use **по + dative plural**: по понедельникам (on Mondays / every Monday). This is different from **в понедельник** (accusative singular), which refers to one specific Monday, not a recurring pattern.',
+      },
+      {
+        question: 'How do you say a full date in Russian, like "5 June 2026"?',
+        answer:
+          'Combine an ordinal number (neuter, for the day) with the month in the genitive case: **пятое июня** (5 June). For the year, add the ordinal year number in the genitive too, introduced by "of": **пятое июня две тысячи двадцать шестого года**. See our [Russian numbers guide](/learn/articles/russian-numbers-guide) for the full rules on ordinals and years.',
+      },
+    ],
+    conclusion:
+      'Days and months look like simple vocabulary lists, but they are really a compact lesson in how Russian cases work in real, everyday sentences. Once the core rule clicks — **days take accusative after в, months take prepositional after в** — you can talk about your schedule, your birthday, and your plans with real confidence.\n\nThe fastest way to make this automatic is to use it: mention what day something is happening, use по + dative plural for your weekly routine, and practise full dates out loud. Calendar talk comes up in nearly every real conversation, so this is one of the highest-value grammar patterns you can drill.',
+    conclusionBullets: [
+      'The Russian week runs **Monday to Sunday** — seven day names, all lowercase',
+      'The twelve months are unrelated to Latin names and are also always lowercase',
+      'Core rule: **days + в → accusative**; **months + в → prepositional**',
+      'Recurring days use **по + dative plural**: по понедельникам (on Mondays)',
+      'Среда is the one word to watch — its stress shifts in the accusative: **в сре́ду**',
+    ],
+    conclusionOutro:
+      'Days and months are one small corner of a much bigger system — the same accusative and prepositional cases you just used here govern nouns, pronouns, and adjectives across the entire language. **Mastering that full case system is what turns "I know some Russian words" into real, fluent Russian.**',
+    ctaText: 'Download Russian Cases with Anna — Free',
+    ctaHref: '/',
+    internalLinks: [
+      {
+        href: '/learn/articles/russian-numbers-guide',
+        label: 'Russian Numbers: How to Count in Russian (Complete Guide)',
+      },
+      {
+        href: '/learn/articles/russian-greetings-guide',
+        label: 'Russian Greetings: How to Say Hello in Russian (Complete Guide)',
+      },
+      {
+        href: '/learn/articles/russian-word-stress-guide',
+        label: 'Russian Word Stress: Why It Changes Everything (and How to Master It)',
+      },
+      {
+        href: '/learn/articles/russian-cases-explained-beginners-guide',
+        label: "Russian Cases Explained Simply: A Beginner's Visual Guide",
+      },
+      {
+        href: '/learn/articles/russian-prepositions-and-cases',
+        label: 'Russian Prepositions and Cases: Which Case Does Each Preposition Take?',
+      },
+      { href: '/practice', label: 'Free Russian Declension Quiz (all six cases)' },
+    ],
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: 'Days of the Week and Months in Russian (Complete Guide 2026)',
+      description:
+        'Learn the days of the week and months in Russian with pronunciation, plus the grammar rule that trips up learners: в понедельник (accusative) vs в январе (prepositional).',
+      datePublished: '2026-09-01',
+      dateModified: '2026-09-01',
+      author: {
+        '@type': 'Person',
+        name: 'Nathan',
+        url: 'https://russiandeclensions.com/',
+        image: 'https://russiandeclensions.com/landing-cases/founder-photo.webp',
+        description:
+          'Native French speaker learning Russian; writes about grammar, cases, and practical self-study habits.',
+        worksFor: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      },
+      publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': 'https://russiandeclensions.com/learn/articles/russian-days-months-guide',
+      },
+      keywords:
+        'days of the week in russian, months in russian, russian days of the week, russian months, russian calendar vocabulary, russian dates grammar',
+      image: {
+        '@type': 'ImageObject',
+        url: 'https://russiandeclensions.com/articles/russia-kremlin-moscow.webp',
+        width: 1200,
+        height: 630,
+      },
+    },
+  },
 };
 
 import type { LandingLanguage } from '@/data/website/landingTranslations';
