@@ -8485,7 +8485,7 @@ export const learnArticles: Record<string, LearnArticle> = {
     h1: 'Russian Alphabet: Learn Cyrillic in 3 Simple Steps',
     heroImage: {
       src: '/articles/russian-alphabet-cyrillic-letters.webp',
-      alt: 'Close-up of alphabet letters — learning a new alphabet from scratch',
+      alt: 'Cyrillic alphabet letters handwritten in a notebook — learning the Russian alphabet',
       width: 1200,
       height: 630,
     },
@@ -10485,7 +10485,7 @@ export const learnArticles: Record<string, LearnArticle> = {
         'russian numbers, how to count in russian, numbers in russian, russian cardinal numbers, russian ordinal numbers, counting in russian',
       image: {
         '@type': 'ImageObject',
-        url: 'https://russiandeclensions.com/articles/russia-kremlin-moscow.webp',
+        url: 'https://russiandeclensions.com/articles/russian-numbers-abacus.webp',
         width: 1200,
         height: 630,
       },
@@ -10514,7 +10514,7 @@ export const learnArticles: Record<string, LearnArticle> = {
     h1: 'Russian Greetings: How to Say Hello in Russian (Complete Guide)',
     heroImage: {
       src: '/articles/russian-greetings-hello.webp',
-      alt: 'A hand holding a sign that says "Hello!" — guide to Russian greetings',
+      alt: "Saint Basil's Cathedral in Moscow — guide to Russian greetings",
       width: 1200,
       height: 630,
     },
@@ -10813,7 +10813,7 @@ export const learnArticles: Record<string, LearnArticle> = {
         'russian greetings, how to say hello in russian, russian hello, привет, здравствуйте, formal russian greetings, informal russian greetings, russian farewell',
       image: {
         '@type': 'ImageObject',
-        url: 'https://russiandeclensions.com/articles/russia-kremlin-moscow.webp',
+        url: 'https://russiandeclensions.com/articles/russian-greetings-hello.webp',
         width: 1200,
         height: 630,
       },
@@ -11109,7 +11109,7 @@ export const learnArticles: Record<string, LearnArticle> = {
         'days of the week in russian, months in russian, russian days of the week, russian months, russian calendar vocabulary, russian dates grammar',
       image: {
         '@type': 'ImageObject',
-        url: 'https://russiandeclensions.com/articles/russia-kremlin-moscow.webp',
+        url: 'https://russiandeclensions.com/articles/russian-days-months-calendar.webp',
         width: 1200,
         height: 630,
       },

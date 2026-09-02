@@ -24,7 +24,7 @@ const LEARN_CARD_IMAGES: Record<string, string> = {
     '/articles/top-russian-case-errors-and-mistakes-by-english-speakers.webp',
   'how-to-practice-russian-cases': '/articles/how-to-practice-russian-cases.webp',
   'best-free-resources-learn-russian': '/articles/best-free-resources-learn-russian.webp',
-  'russian-cases-explained-beginners-guide': '/articles/the-six-russian-cases-quick-reference.webp',
+  'russian-cases-explained-beginners-guide': '/articles/russian-cases-explained-notes.webp',
   'best-apps-learn-russian-grammar':
     '/articles/what-is-the-best-russian-grammar-app-to-learn-cases.webp',
   'how-long-learn-russian': '/articles/how-long-learn-russian.webp',
@@ -37,7 +37,10 @@ const LEARN_CARD_IMAGES: Record<string, string> = {
   'russian-verbal-aspect-perfective-imperfective':
     '/articles/russian-verbal-aspect-perfective-imperfective.webp',
   'russian-word-stress-guide': '/articles/russian-word-stress-guide.webp',
-  'russian-most-common-words': '/articles/best-free-resources-learn-russian.webp',
+  'russian-most-common-words': '/articles/russian-most-common-words-cards.webp',
+  'russian-greetings-guide': '/articles/russian-greetings-hello.webp',
+  'russian-numbers-guide': '/articles/russian-numbers-abacus.webp',
+  'russian-days-months-guide': '/articles/russian-days-months-calendar.webp',
 };
 
 export function getLearnCardImage(slug: string): string {

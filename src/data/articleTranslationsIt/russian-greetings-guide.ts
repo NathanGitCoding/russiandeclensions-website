@@ -23,7 +23,7 @@ export const russianGreetingsGuideIt: LearnArticle = {
   h1: 'Saluti in russo: come dire ciao in russo (guida completa)',
   heroImage: {
     src: '/articles/russian-greetings-hello.webp',
-    alt: 'Una mano che tiene un cartello con scritto "Hello!" — guida ai saluti in russo',
+    alt: 'La Cattedrale di San Basilio a Mosca — guida ai saluti in russo',
     width: 1200,
     height: 630,
   },

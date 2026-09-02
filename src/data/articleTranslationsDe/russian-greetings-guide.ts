@@ -23,7 +23,7 @@ export const russianGreetingsGuideDe: LearnArticle = {
   h1: 'Russische Begrüßungen: Wie man auf Russisch Hallo sagt (vollständiger Leitfaden)',
   heroImage: {
     src: '/articles/russian-greetings-hello.webp',
-    alt: 'Eine Hand hält ein Schild mit der Aufschrift „Hello!" — Leitfaden für russische Begrüßungen',
+    alt: 'Die Basilius-Kathedrale in Moskau — Leitfaden für russische Begrüßungen',
     width: 1200,
     height: 630,
   },

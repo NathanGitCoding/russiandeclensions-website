@@ -23,7 +23,7 @@ export const russianGreetingsGuideTr: LearnArticle = {
   h1: "Rusça Selamlaşma: Rusça'da Merhaba Nasıl Denir (Tam Kılavuz)",
   heroImage: {
     src: '/articles/russian-greetings-hello.webp',
-    alt: "\"Hello!\" yazan bir tabelayı tutan el — Rusça selamlaşma rehberi",
+    alt: "Moskova'daki Aziz Vasili Katedrali — Rusça selamlaşma rehberi",
     width: 1200,
     height: 630,
   },

@@ -23,7 +23,7 @@ export const russianGreetingsGuidePl: LearnArticle = {
   h1: 'Rosyjskie pozdrowienia: jak powiedzieć cześć po rosyjsku (kompletny przewodnik)',
   heroImage: {
     src: '/articles/russian-greetings-hello.webp',
-    alt: 'Dłoń trzymająca kartkę z napisem „Hello!" — przewodnik po rosyjskich pozdrowieniach',
+    alt: 'Sobór Wasyla Błogosławionego w Moskwie — przewodnik po rosyjskich pozdrowieniach',
     width: 1200,
     height: 630,
   },
