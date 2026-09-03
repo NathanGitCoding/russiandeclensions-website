@@ -8316,7 +8316,7 @@ export const learnArticles: Record<string, LearnArticle> = {
             content:
               'Here is how prefixed motion verbs work in context. Notice how the prefix makes the direction of movement completely unambiguous:',
             bullets: [
-              '**Он пришёл домой в 6 часов.** — He came home at 6 o\'clock. (прийти — arrived on foot, perfective)',
+              "**Он пришёл домой в 6 часов.** — He came home at 6 o'clock. (прийти — arrived on foot, perfective)",
               '**Она ушла из офиса.** — She left the office. (уйти — departed on foot, perfective)',
               '**Они приехали из Лондона.** — They arrived from London. (приехать — arrived by vehicle, perfective)',
               '**Я выхожу из дома каждое утро.** — I leave the house every morning. (выходить — habitual, imperfective)',
@@ -8622,11 +8622,26 @@ export const learnArticles: Record<string, LearnArticle> = {
             table: {
               headers: ['Letter', 'Sound', 'Closest English', 'Memory trick'],
               rows: [
-                ['Ж ж', '/ʒ/ — like "zh"', '"measure", "genre"', 'Looks like a bug — "Ж buzzes like a beetle"'],
+                [
+                  'Ж ж',
+                  '/ʒ/ — like "zh"',
+                  '"measure", "genre"',
+                  'Looks like a bug — "Ж buzzes like a beetle"',
+                ],
                 ['Ц ц', '/ts/ — like "ts"', '"cats", "pizza"', 'Two letters in one: T + S = Ц'],
-                ['Ч ч', '/tʃ/ — "ch"', '"chair"', 'Looks like a backwards 4 — "Ч for Chetyre (four)"'],
+                [
+                  'Ч ч',
+                  '/tʃ/ — "ch"',
+                  '"chair"',
+                  'Looks like a backwards 4 — "Ч for Chetyre (four)"',
+                ],
                 ['Ш ш', '/ʃ/ — "sh"', '"show"', 'Looks like a comb — "Ш makes the SH sound"'],
-                ['Щ щ', '/ʃtʃ/ — "shch"', '"fresh cheese" (run together)', 'Ш with a tail = harder Ш sound'],
+                [
+                  'Щ щ',
+                  '/ʃtʃ/ — "shch"',
+                  '"fresh cheese" (run together)',
+                  'Ш with a tail = harder Ш sound',
+                ],
                 ['Э э', '/e/ — "met"', '"e" in "bed"', 'Backwards С with a tongue — "Э = pure E"'],
                 ['Ю ю', '/ju/ — "you"', '"you", "university"', 'О with a stick — "Ю = YOU"'],
                 ['Я я', '/ja/ — "yard"', '"ya" in "yard"', 'Backwards R — "Я means I (me)"'],
@@ -8709,13 +8724,48 @@ export const learnArticles: Record<string, LearnArticle> = {
         table: {
           headers: ['Day', 'Focus', 'Target', 'Drill method'],
           rows: [
-            ['Day 1', '5 familiar letters (А К М О Т)', 'Instant recognition, no hesitation', 'Write each letter 10×; read 5 short words'],
-            ['Day 2', '8 false friends (В Е Ё Н Р С У Х)', 'Know the sound trap for each', 'Cover the sound column and say it; check'],
-            ['Day 3', 'New letters with English sounds (Б Г Д З И Й Л П Ф)', 'Can read a basic word with each', 'Read 3 words per letter; add to Anki'],
-            ['Day 4', 'New letters with new sounds (Ж Ц Ч Ш Щ Э Ю Я)', 'Can produce each sound correctly', 'Shadowing: listen + repeat 10×'],
-            ['Day 5', 'Special signs (Ъ Ы Ь) + vowel reduction', 'Understand function; can produce Ы', 'Minimal pairs: брат / брать; мы / ми'],
-            ['Day 6', 'Full alphabet review', 'Read all 33 letters without hesitation', 'Random flash test: shuffle and identify'],
-            ['Day 7', 'Read short Russian text aloud', 'Sound out every word in a paragraph', 'Use Duolingo / Babbel / any text at hand'],
+            [
+              'Day 1',
+              '5 familiar letters (А К М О Т)',
+              'Instant recognition, no hesitation',
+              'Write each letter 10×; read 5 short words',
+            ],
+            [
+              'Day 2',
+              '8 false friends (В Е Ё Н Р С У Х)',
+              'Know the sound trap for each',
+              'Cover the sound column and say it; check',
+            ],
+            [
+              'Day 3',
+              'New letters with English sounds (Б Г Д З И Й Л П Ф)',
+              'Can read a basic word with each',
+              'Read 3 words per letter; add to Anki',
+            ],
+            [
+              'Day 4',
+              'New letters with new sounds (Ж Ц Ч Ш Щ Э Ю Я)',
+              'Can produce each sound correctly',
+              'Shadowing: listen + repeat 10×',
+            ],
+            [
+              'Day 5',
+              'Special signs (Ъ Ы Ь) + vowel reduction',
+              'Understand function; can produce Ы',
+              'Minimal pairs: брат / брать; мы / ми',
+            ],
+            [
+              'Day 6',
+              'Full alphabet review',
+              'Read all 33 letters without hesitation',
+              'Random flash test: shuffle and identify',
+            ],
+            [
+              'Day 7',
+              'Read short Russian text aloud',
+              'Sound out every word in a paragraph',
+              'Use Duolingo / Babbel / any text at hand',
+            ],
           ],
           boldColumnIndices: [0],
         },
@@ -8765,7 +8815,8 @@ export const learnArticles: Record<string, LearnArticle> = {
           'The soft sign softens the consonant before it — linguistically, it palatalises it. In practice, it changes the pronunciation and also affects grammar (some feminine nouns end in Ь; the presence or absence of Ь in verb infinitives matters). You will encounter it constantly. Recognise it from Day 1 and learn its effect gradually through real examples.',
       },
     ],
-    conclusionIntro: 'Learning Cyrillic is a one-time investment that unlocks everything else in Russian. Here is the key takeaway:',
+    conclusionIntro:
+      'Learning Cyrillic is a one-time investment that unlocks everything else in Russian. Here is the key takeaway:',
     conclusionBullets: [
       '**5 familiar letters** (А К М О Т) — learn in one session',
       '**8 false friends** (В Е Ё Н Р С У Х) — the most important group to drill carefully',
@@ -8869,9 +8920,21 @@ export const learnArticles: Record<string, LearnArticle> = {
           rows: [
             ['Cyrillic alphabet', 'Yes — 2 to 3 weeks', 'Mnemonic flashcards + daily reading'],
             ['Basic survival phrases', 'Yes — 1 to 2 months', 'App with audio (Babbel, Duolingo)'],
-            ['Grammatical cases (A2)', 'Yes — with the right drill tool', 'Case-focused app + quizzes'],
-            ['Fluid conversation (B1)', 'Mostly — output practice needed', 'italki tutor 1×/week helps'],
-            ['Native-level fluency (C1+)', 'Hard without immersion', 'Time in Russia or intensive input'],
+            [
+              'Grammatical cases (A2)',
+              'Yes — with the right drill tool',
+              'Case-focused app + quizzes',
+            ],
+            [
+              'Fluid conversation (B1)',
+              'Mostly — output practice needed',
+              'italki tutor 1×/week helps',
+            ],
+            [
+              'Native-level fluency (C1+)',
+              'Hard without immersion',
+              'Time in Russia or intensive input',
+            ],
           ],
           boldColumnIndices: [0],
         },
@@ -8950,8 +9013,18 @@ export const learnArticles: Record<string, LearnArticle> = {
         table: {
           headers: ['Pillar', 'Daily time', 'Beginner tools', 'Intermediate tools'],
           rows: [
-            ['Input', '15–20 min', 'Babbel, Pimsleur, Duolingo', 'RussianPod101, YouTube, graded readers'],
-            ['Grammar practice', '10–15 min', 'Russian Cases with Anna', 'Russian Cases with Anna, grammar workbooks'],
+            [
+              'Input',
+              '15–20 min',
+              'Babbel, Pimsleur, Duolingo',
+              'RussianPod101, YouTube, graded readers',
+            ],
+            [
+              'Grammar practice',
+              '10–15 min',
+              'Russian Cases with Anna',
+              'Russian Cases with Anna, grammar workbooks',
+            ],
             ['Output', '5–10 min', 'HelloTalk writing, journaling', 'italki speaking, Tandem chat'],
             ['SRS Review', '10 min', 'Anki (Russian frequency deck)', 'Anki, Clozemaster (B1+)'],
           ],
@@ -8965,9 +9038,24 @@ export const learnArticles: Record<string, LearnArticle> = {
         table: {
           headers: ['Month', 'Daily focus', 'Study time', 'Target milestone'],
           rows: [
-            ['Month 1', 'Cyrillic + survival phrases + accusative case', '30 min/day', 'Read Cyrillic fluently; 200 core words; present tense + accusative'],
-            ['Month 2', 'Genitive, dative cases + past tense + SRS', '40 min/day', '500 words; 4 cases confident; hold a basic 5-minute conversation'],
-            ['Month 3', 'Instrumental + prepositional + verbal aspect + first speaking sessions', '45 min/day', 'All 6 cases in context; first italki session; understand slow podcasts'],
+            [
+              'Month 1',
+              'Cyrillic + survival phrases + accusative case',
+              '30 min/day',
+              'Read Cyrillic fluently; 200 core words; present tense + accusative',
+            ],
+            [
+              'Month 2',
+              'Genitive, dative cases + past tense + SRS',
+              '40 min/day',
+              '500 words; 4 cases confident; hold a basic 5-minute conversation',
+            ],
+            [
+              'Month 3',
+              'Instrumental + prepositional + verbal aspect + first speaking sessions',
+              '45 min/day',
+              'All 6 cases in context; first italki session; understand slow podcasts',
+            ],
           ],
           boldColumnIndices: [0],
         },
@@ -8994,7 +9082,7 @@ export const learnArticles: Record<string, LearnArticle> = {
         content:
           'Consistency beats intensity every time. A 10-minute daily minimum — even on your worst days — maintains momentum and prevents the "I haven\'t studied in two weeks" gap that kills most language goals. Here is a compact routine you can do anywhere:',
         bullets: [
-          '**2 min — SRS review**: Open Anki, review today\'s due cards. Do not skip, even if you only have time for this.',
+          "**2 min — SRS review**: Open Anki, review today's due cards. Do not skip, even if you only have time for this.",
           '**3 min — One grammar point**: Read one rule or example from your current lesson. Write the example sentence in your notebook.',
           '**3 min — Listening**: One audio snippet — a short podcast clip, a YouTube sentence, or a Pimsleur fragment.',
           '**2 min — Output**: Write one sentence in Russian about your day. Translate it yourself without checking.',
@@ -9075,7 +9163,7 @@ export const learnArticles: Record<string, LearnArticle> = {
       },
       {
         href: '/learn/articles/russian-cases-explained-beginners-guide',
-        label: 'Russian Cases Explained: Beginner\'s Guide',
+        label: "Russian Cases Explained: Beginner's Guide",
       },
     ],
     ctaText: 'Start Practicing Russian Cases — Free →',
@@ -9397,8 +9485,7 @@ export const learnArticles: Record<string, LearnArticle> = {
     jsonLd: {
       '@context': 'https://schema.org',
       '@type': 'Article',
-      headline:
-        'Russian Verbal Aspect: Perfective vs Imperfective — The Complete Guide',
+      headline: 'Russian Verbal Aspect: Perfective vs Imperfective — The Complete Guide',
       description:
         'Master Russian verbal aspect: understand the difference between perfective and imperfective verbs, learn the rules for when to use each, and discover the most common aspect pairs with examples.',
       datePublished: '2026-05-27',
@@ -9433,8 +9520,7 @@ export const learnArticles: Record<string, LearnArticle> = {
     slug: 'russian-word-stress-guide',
     introByline: ARTICLE_BYLINE,
     title: 'Russian Word Stress: Why It Changes Everything (and How to Master It)',
-    metaTitle:
-      'Russian Word Stress: The Complete Guide | Russian Cases with Anna',
+    metaTitle: 'Russian Word Stress: The Complete Guide | Russian Cases with Anna',
     metaDescription:
       'Master Russian word stress: understand why stress is unpredictable, how it changes meaning, how it shifts during declension, and practical tips to train your ear.',
     keywords: [
@@ -9453,7 +9539,7 @@ export const learnArticles: Record<string, LearnArticle> = {
       height: 630,
     },
     intro:
-      "Ask any intermediate Russian learner what trips them up most, and after cases, the answer is almost always the same: **word stress**. Not because stress is conceptually complicated — every word simply has one stressed syllable. The problem is that Russian stress is **free**, **mobile**, and **invisible**.\n\nIn French or Spanish, stress follows predictable rules. In Russian, it does not. Stress can fall on any syllable, it is not marked in standard printed text, and it can shift when you change the case of a noun or the person of a verb. Two words that look identical except for their stress (за́мок vs замо́к) mean completely different things — one is a castle, the other is a lock — solely because of where the stress falls.\n\nThis guide covers everything you need: why Russian stress is difficult, how it changes meaning, how it shifts in declension and conjugation, and — most importantly — practical strategies for actually getting it right.",
+      'Ask any intermediate Russian learner what trips them up most, and after cases, the answer is almost always the same: **word stress**. Not because stress is conceptually complicated — every word simply has one stressed syllable. The problem is that Russian stress is **free**, **mobile**, and **invisible**.\n\nIn French or Spanish, stress follows predictable rules. In Russian, it does not. Stress can fall on any syllable, it is not marked in standard printed text, and it can shift when you change the case of a noun or the person of a verb. Two words that look identical except for their stress (за́мок vs замо́к) mean completely different things — one is a castle, the other is a lock — solely because of where the stress falls.\n\nThis guide covers everything you need: why Russian stress is difficult, how it changes meaning, how it shifts in declension and conjugation, and — most importantly — practical strategies for actually getting it right.',
     whatYouLearn: [
       'Why Russian stress is different from most European languages',
       'Minimal pairs: words where stress is the only difference in meaning',
@@ -9473,7 +9559,7 @@ export const learnArticles: Record<string, LearnArticle> = {
       {
         h2: 'What Is Word Stress in Russian?',
         content:
-          "In Russian, every polysyllabic word has exactly **one stressed syllable**. That syllable is pronounced louder, longer, and at a slightly higher pitch than the others. The vowel in that syllable is also pronounced more clearly — while unstressed vowels are reduced.\n\nThe most important example of vowel reduction: **о** in an unstressed position is pronounced like «а» (or a schwa). This is why молоко (milk) sounds like «малако», not «молоко». Similarly, **е** and **я** in unstressed positions reduce toward a neutral «и» sound.\n\nIn Russian textbooks for learners, stress is marked with an acute accent (′) over the stressed vowel: молоко́, рабо́та, понима́ть. But in **standard printed text** — books, news articles, websites — stress is never marked. You are expected to know where it falls.",
+          'In Russian, every polysyllabic word has exactly **one stressed syllable**. That syllable is pronounced louder, longer, and at a slightly higher pitch than the others. The vowel in that syllable is also pronounced more clearly — while unstressed vowels are reduced.\n\nThe most important example of vowel reduction: **о** in an unstressed position is pronounced like «а» (or a schwa). This is why молоко (milk) sounds like «малако», not «молоко». Similarly, **е** and **я** in unstressed positions reduce toward a neutral «и» sound.\n\nIn Russian textbooks for learners, stress is marked with an acute accent (′) over the stressed vowel: молоко́, рабо́та, понима́ть. But in **standard printed text** — books, news articles, websites — stress is never marked. You are expected to know where it falls.',
         bullets: [
           'Every Russian word has exactly **one stressed syllable**',
           'Unstressed **о** is pronounced like «а» — this causes many pronunciation mistakes',
@@ -9484,7 +9570,7 @@ export const learnArticles: Record<string, LearnArticle> = {
       {
         h2: 'Why Russian Stress Is Uniquely Difficult',
         content:
-          "For speakers of English, French, Spanish, or Italian, Russian stress presents a challenge that does not exist in the same way at home.\n\n**1. No fixed position rule.** In French, stress is always on the last syllable. In Polish, always the second-to-last. In Russian, stress can fall on any syllable — first, last, or anywhere in between. There is no universal rule you can lean on.\n\n**2. Stress is not written.** Once you move past learner materials, you are reading Cyrillic text with no stress marks. Every new word you encounter is a guessing game unless you have heard it spoken.\n\n**3. Stress is mobile.** Even if you learn the nominative singular of a noun correctly, the stress can shift in other cases. Even if you learn the infinitive of a verb correctly, the stress can shift in certain conjugations.\n\n**4. Stress changes meaning.** Get the stress wrong and you might say a completely different word.\n\nThe net result: Russian stress is something you have to learn **word by word**, from audio — there is no shortcut.",
+          'For speakers of English, French, Spanish, or Italian, Russian stress presents a challenge that does not exist in the same way at home.\n\n**1. No fixed position rule.** In French, stress is always on the last syllable. In Polish, always the second-to-last. In Russian, stress can fall on any syllable — first, last, or anywhere in between. There is no universal rule you can lean on.\n\n**2. Stress is not written.** Once you move past learner materials, you are reading Cyrillic text with no stress marks. Every new word you encounter is a guessing game unless you have heard it spoken.\n\n**3. Stress is mobile.** Even if you learn the nominative singular of a noun correctly, the stress can shift in other cases. Even if you learn the infinitive of a verb correctly, the stress can shift in certain conjugations.\n\n**4. Stress changes meaning.** Get the stress wrong and you might say a completely different word.\n\nThe net result: Russian stress is something you have to learn **word by word**, from audio — there is no shortcut.',
         bullets: [
           'No position rule: stress can fall on **any** syllable',
           'Not marked in standard text — you must memorise or confirm with audio each new word',
@@ -9626,7 +9712,7 @@ export const learnArticles: Record<string, LearnArticle> = {
       {
         h2: 'Practical Strategies for Mastering Russian Stress',
         content:
-          "Since Russian stress cannot be fully deduced from spelling, the only reliable approach is **building a large spoken vocabulary**. Here are the most effective strategies:",
+          'Since Russian stress cannot be fully deduced from spelling, the only reliable approach is **building a large spoken vocabulary**. Here are the most effective strategies:',
         subsections: [
           {
             h3: '1. Always learn words from audio',
@@ -9650,7 +9736,7 @@ export const learnArticles: Record<string, LearnArticle> = {
           },
         ],
         bullets: [
-          "Never learn new words **from text alone** — always confirm with audio",
+          'Never learn new words **from text alone** — always confirm with audio',
           'Add stress marks to every word in your flashcard system',
           'Shadowing is the fastest way to build accurate, automatic stress habits',
         ],
@@ -9688,7 +9774,7 @@ export const learnArticles: Record<string, LearnArticle> = {
       {
         question: 'Is Russian stress always unpredictable?',
         answer:
-          "Not entirely. There are patterns and tendencies — for example, the вы- prefix always takes stress, and certain suffixes (-ость, -ение, -ист) consistently attract it. But unlike French or Polish, there is no universal positional rule. You need to learn most words individually from audio.",
+          'Not entirely. There are patterns and tendencies — for example, the вы- prefix always takes stress, and certain suffixes (-ость, -ение, -ист) consistently attract it. But unlike French or Polish, there is no universal positional rule. You need to learn most words individually from audio.',
       },
       {
         question: 'How is stress marked in Russian?',
@@ -9708,7 +9794,7 @@ export const learnArticles: Record<string, LearnArticle> = {
       {
         question: 'How long does it take to master Russian stress?',
         answer:
-          "There is no point at which you \"finish\" learning Russian stress — it is an ongoing process of building vocabulary from audio. Most learners reach a comfortable level (rarely mispronouncing common vocabulary) after 6–12 months of consistent study with audio exposure. Advanced learners still encounter unfamiliar words where they need to check the stress.",
+          'There is no point at which you "finish" learning Russian stress — it is an ongoing process of building vocabulary from audio. Most learners reach a comfortable level (rarely mispronouncing common vocabulary) after 6–12 months of consistent study with audio exposure. Advanced learners still encounter unfamiliar words where they need to check the stress.',
       },
     ],
     conclusionIntro:
@@ -9780,9 +9866,8 @@ export const learnArticles: Record<string, LearnArticle> = {
   'russian-most-common-words': {
     slug: 'russian-most-common-words',
     introByline: ARTICLE_BYLINE,
-    title: '100 Most Common Russian Words: The Essential Beginner\'s Vocabulary List',
-    metaTitle:
-      '100 Most Common Russian Words: Essential Beginner\'s List | Russian Cases with Anna',
+    title: "100 Most Common Russian Words: The Essential Beginner's Vocabulary List",
+    metaTitle: "100 Most Common Russian Words: Essential Beginner's List | Russian Cases with Anna",
     metaDescription:
       'Master the 100 most common Russian words used every day — nouns, verbs, adjectives, and function words — with grammar notes and study tips for beginners.',
     keywords: [
@@ -9795,7 +9880,7 @@ export const learnArticles: Record<string, LearnArticle> = {
       'everyday russian words',
       'russian frequency list',
     ],
-    h1: '100 Most Common Russian Words: The Essential Beginner\'s Vocabulary List',
+    h1: "100 Most Common Russian Words: The Essential Beginner's Vocabulary List",
     heroImage: {
       src: '/articles/russian-most-common-words-cards.webp',
       alt: 'Scattered vocabulary word cards — learning the most common Russian words',
@@ -9857,7 +9942,12 @@ export const learnArticles: Record<string, LearnArticle> = {
             ['его', 'yevo', 'his / him', 'pronoun (genitive/accusative of он)'],
             ['из', 'iz', 'from / out of', 'preposition — always takes genitive'],
             ['же', 'zhe', 'indeed / even', 'emphasis particle — follows the word it stresses'],
-            ['по', 'po', 'along / about / by', 'preposition — takes dative, accusative, or prepositional'],
+            [
+              'по',
+              'po',
+              'along / about / by',
+              'preposition — takes dative, accusative, or prepositional',
+            ],
           ],
           caption:
             'The 20 most frequent Russian words — function words that appear in almost every sentence',
@@ -9911,7 +10001,12 @@ export const learnArticles: Record<string, LearnArticle> = {
             ['мочь', 'impf.', 'to be able to', 'могу / можешь / может — irregular conjugation'],
             ['видеть', 'impf.', 'to see', 'вижу / видишь / видит — second conjugation'],
             ['хотеть', 'impf.', 'to want', 'хочу / хочешь / хочет — mixed conjugation'],
-            ['идти', 'impf.', 'to go (now, on foot)', 'unidirectional; pair: ходить (multidirectional)'],
+            [
+              'идти',
+              'impf.',
+              'to go (now, on foot)',
+              'unidirectional; pair: ходить (multidirectional)',
+            ],
             ['дать', 'pf.', 'to give', 'дам / дашь / даст — irregular; pair: давать'],
             ['думать', 'impf.', 'to think', 'думаю / думаешь — very regular first conjugation'],
             ['делать', 'impf.', 'to do, make', 'pair: сделать — very regular'],
@@ -9951,7 +10046,7 @@ export const learnArticles: Record<string, LearnArticle> = {
             ['русский', 'русская / русское', 'Russian'],
             ['каждый', 'каждая / каждое', 'each, every'],
             ['разный', 'разная / разное', 'various, different'],
-            ['свой', 'своя / своё', 'one\'s own'],
+            ['свой', 'своя / своё', "one's own"],
             ['следующий', 'следующая / следующее', 'next, following'],
             ['главный', 'главная / главное', 'main, chief'],
             ['сам', 'сама / само', 'oneself; by oneself'],
@@ -10073,7 +10168,7 @@ export const learnArticles: Record<string, LearnArticle> = {
     internalLinks: [
       {
         href: '/learn/articles/russian-cases-explained-beginners-guide',
-        label: 'Russian Cases Explained Simply: A Beginner\'s Visual Guide',
+        label: "Russian Cases Explained Simply: A Beginner's Visual Guide",
       },
       {
         href: '/learn/articles/russian-genitive-case',
@@ -10097,7 +10192,7 @@ export const learnArticles: Record<string, LearnArticle> = {
     jsonLd: {
       '@context': 'https://schema.org',
       '@type': 'Article',
-      headline: '100 Most Common Russian Words: The Essential Beginner\'s Vocabulary List',
+      headline: "100 Most Common Russian Words: The Essential Beginner's Vocabulary List",
       description:
         'Master the 100 most common Russian words used every day — nouns, verbs, adjectives, and function words — with grammar notes and study tips for beginners.',
       datePublished: '2026-05-31',
@@ -10301,7 +10396,7 @@ export const learnArticles: Record<string, LearnArticle> = {
         bullets: [
           'The rule is based on the **last digit** for compound numbers (except teens 11–19)',
           '**11–19 always take the genitive plural** — regardless of their last digit',
-          'This rule applies to nouns; adjectives must also agree with the noun\'s case',
+          "This rule applies to nouns; adjectives must also agree with the noun's case",
           'The genitive plural is one of the most irregular noun forms in Russian — practise it early',
           'Prices follow the same rule: **один рубль**, **два рубля**, **пять рублей**',
         ],
@@ -10376,7 +10471,7 @@ export const learnArticles: Record<string, LearnArticle> = {
           boldColumnIndices: [0, 1],
         },
         bullets: [
-          '**Какое сегодня число?** = What is today\'s date? (literally: what number is today?)',
+          "**Какое сегодня число?** = What is today's date? (literally: what number is today?)",
           '**Сегодня первое января** = Today is the first of January',
           'For birthdays: **Мой день рождения — второе марта** (My birthday is March 2nd)',
           'Years use long ordinals: **в две тысячи двадцать шестом году** (in 2026)',
@@ -10433,7 +10528,7 @@ export const learnArticles: Record<string, LearnArticle> = {
       'Ordinal numbers are adjectives and must agree in gender, case, and number',
     ],
     conclusionOutro:
-      'Numbers are your entry point into Russian\'s grammatical case system — and that case system is where real fluency lives. Every noun, pronoun, and adjective in Russian changes depending on its role in the sentence, and **mastering those declensions is what separates functional Russian from true fluency**.',
+      "Numbers are your entry point into Russian's grammatical case system — and that case system is where real fluency lives. Every noun, pronoun, and adjective in Russian changes depending on its role in the sentence, and **mastering those declensions is what separates functional Russian from true fluency**.",
     ctaText: 'Download Russian Cases with Anna — Free',
     ctaHref: '/',
     internalLinks: [
@@ -10565,10 +10660,18 @@ export const learnArticles: Record<string, LearnArticle> = {
         table: {
           headers: ['Russian', 'Transliteration', 'When to use'],
           rows: [
-            ['Здравствуйте', 'Zdravstvuyte', 'Standard formal — safest default with strangers and professionals'],
-            ['Здравствуй', 'Zdravstvuy', 'Semi-formal — one person you know slightly but address politely'],
+            [
+              'Здравствуйте',
+              'Zdravstvuyte',
+              'Standard formal — safest default with strangers and professionals',
+            ],
+            [
+              'Здравствуй',
+              'Zdravstvuy',
+              'Semi-formal — one person you know slightly but address politely',
+            ],
             ['Доброе утро', 'Dobroye utro', 'Good morning (until ~noon) — formal or neutral'],
-            ["Добрый день", "Dobryy den'", 'Good afternoon (~noon to ~6 pm) — formal or neutral'],
+            ['Добрый день', "Dobryy den'", 'Good afternoon (~noon to ~6 pm) — formal or neutral'],
             ['Добрый вечер', 'Dobryy vecher', 'Good evening (~6 pm onwards) — formal or neutral'],
           ],
           caption: 'Formal Russian greetings and when to use them',
@@ -10576,7 +10679,7 @@ export const learnArticles: Record<string, LearnArticle> = {
         },
       },
       {
-        h2: "Informal Russian Greetings: Привет and What Young Russians Say",
+        h2: 'Informal Russian Greetings: Привет and What Young Russians Say',
         content:
           '**Привет** (Privet) is the most common informal greeting and the one most learners pick up first. It is used freely among friends, colleagues of similar age, and family members.\n\nBeyond **Привет**, here is what young Russians actually say in 2026:',
         table: {
@@ -10609,7 +10712,7 @@ export const learnArticles: Record<string, LearnArticle> = {
           headers: ['Russian', 'Transliteration', 'English', 'Typical time range'],
           rows: [
             ['Доброе утро', 'Dobroye utro', 'Good morning', 'Until ~noon'],
-            ["Добрый день", "Dobryy den'", 'Good afternoon', '~Noon to 6 pm'],
+            ['Добрый день', "Dobryy den'", 'Good afternoon', '~Noon to 6 pm'],
             ['Добрый вечер', 'Dobryy vecher', 'Good evening', '~6 pm onwards'],
             ['Спокойной ночи', 'Spokoynoy nochi', 'Good night', 'Farewell at bedtime only'],
             ['Доброй ночи', 'Dobroy nochi', 'Good night', 'Late evening greeting or farewell'],
@@ -10632,12 +10735,37 @@ export const learnArticles: Record<string, LearnArticle> = {
         table: {
           headers: ['Russian', 'Transliteration', 'Formality', 'Notes'],
           rows: [
-            ['Как вы поживаете?', 'Kak vy pozhivayete?', 'Very formal', 'Rarely used in everyday conversation — reserved for older people'],
-            ['Как у вас дела?', 'Kak u vas dela?', 'Formal', 'Standard polite "How are you doing?"'],
-            ['Как дела?', 'Kak dela?', 'Neutral / casual', 'Most common — works in almost all contexts'],
+            [
+              'Как вы поживаете?',
+              'Kak vy pozhivayete?',
+              'Very formal',
+              'Rarely used in everyday conversation — reserved for older people',
+            ],
+            [
+              'Как у вас дела?',
+              'Kak u vas dela?',
+              'Formal',
+              'Standard polite "How are you doing?"',
+            ],
+            [
+              'Как дела?',
+              'Kak dela?',
+              'Neutral / casual',
+              'Most common — works in almost all contexts',
+            ],
             ['Как ты?', 'Kak ty?', 'Informal', 'Direct "How are you?" — close friends only'],
-            ['Как сам? / Как сама?', 'Kak sam? / Kak sama?', 'Very casual', 'Masc. / fem. — "How are you doing?" literally "How [yourself]?"'],
-            ['Всё норм?', 'Vsyo norm?', 'Youth slang', '"Everything okay?" — very informal, mostly under-30s'],
+            [
+              'Как сам? / Как сама?',
+              'Kak sam? / Kak sama?',
+              'Very casual',
+              'Masc. / fem. — "How are you doing?" literally "How [yourself]?"',
+            ],
+            [
+              'Всё норм?',
+              'Vsyo norm?',
+              'Youth slang',
+              '"Everything okay?" — very informal, mostly under-30s',
+            ],
           ],
           caption: 'Ways to ask "How are you?" in Russian by formality level',
           boldColumnIndices: [0],
@@ -10723,7 +10851,7 @@ export const learnArticles: Record<string, LearnArticle> = {
           {
             h3: 'Common mistakes to avoid',
             content:
-              "**Mistake 1: Using Привет with strangers or older people.** This is the most common cultural error. In Russian, defaulting to informal address with strangers reads as rude, especially across generations. Always default to **Здравствуйте** with anyone you do not know personally.\n\n**Mistake 2: Pronouncing every letter in Здравствуйте.** Do not try to say all 12 letters — native speakers do not. The first В is always dropped in natural speech.\n\n**Mistake 3: Using Спокойной ночи as an evening greeting.** In Russian, **Спокойной ночи** (Good night) is only a farewell at bedtime — never a greeting when meeting someone in the evening. For that, use **Добрый вечер**.\n\n**Mistake 4: Forgetting the time-of-day matching.** Saying **Добрый вечер** in the morning will confuse people. Check the time before choosing your greeting.",
+              '**Mistake 1: Using Привет with strangers or older people.** This is the most common cultural error. In Russian, defaulting to informal address with strangers reads as rude, especially across generations. Always default to **Здравствуйте** with anyone you do not know personally.\n\n**Mistake 2: Pronouncing every letter in Здравствуйте.** Do not try to say all 12 letters — native speakers do not. The first В is always dropped in natural speech.\n\n**Mistake 3: Using Спокойной ночи as an evening greeting.** In Russian, **Спокойной ночи** (Good night) is only a farewell at bedtime — never a greeting when meeting someone in the evening. For that, use **Добрый вечер**.\n\n**Mistake 4: Forgetting the time-of-day matching.** Saying **Добрый вечер** in the morning will confuse people. Check the time before choosing your greeting.',
           },
         ],
       },
@@ -10761,7 +10889,7 @@ export const learnArticles: Record<string, LearnArticle> = {
       },
     ],
     conclusion:
-      'Russian greetings are about much more than pronunciation — they reflect the entire social structure of the language. **Здравствуйте** signals respect and distance; **Привет** signals warmth and closeness. The time-of-day greetings show attention to context; the farewells show care for the person leaving.\n\nStart with the essentials: **Здравствуйте** for formal situations, **Привет** for informal ones, **Добрый день** as a safe all-purpose polite option, and **До свидания** / **Пока** for goodbyes. Once those feel automatic, expand to the rest of this guide.\n\nGreetings are your entry point into Russian — but the real work begins when you move into grammar. The nouns, pronouns, and adjectives used in every conversation all change form across Russian\'s six grammatical cases, and **mastering those declensions is what turns halting Russian into fluid conversation**.',
+      "Russian greetings are about much more than pronunciation — they reflect the entire social structure of the language. **Здравствуйте** signals respect and distance; **Привет** signals warmth and closeness. The time-of-day greetings show attention to context; the farewells show care for the person leaving.\n\nStart with the essentials: **Здравствуйте** for formal situations, **Привет** for informal ones, **Добрый день** as a safe all-purpose polite option, and **До свидания** / **Пока** for goodbyes. Once those feel automatic, expand to the rest of this guide.\n\nGreetings are your entry point into Russian — but the real work begins when you move into grammar. The nouns, pronouns, and adjectives used in every conversation all change form across Russian's six grammatical cases, and **mastering those declensions is what turns halting Russian into fluid conversation**.",
     ctaText: 'Download Russian Cases with Anna — Free',
     ctaHref: '/',
     internalLinks: [
@@ -10875,7 +11003,7 @@ export const learnArticles: Record<string, LearnArticle> = {
             ['Tuesday', 'вторник', 'vtornik', 'второй — "the second (day)"'],
             ['Wednesday', 'среда', 'sreda', 'середина — "the middle (of the week)"'],
             ['Thursday', 'четверг', 'chetverg', 'четвёртый — "the fourth (day)"'],
-            ['Friday', 'пятница', "pyatnitsa", 'пятый — "the fifth (day)"'],
+            ['Friday', 'пятница', 'pyatnitsa', 'пятый — "the fifth (day)"'],
             ['Saturday', 'суббота', 'subbota', 'from Hebrew "Shabbat" via Church Slavonic'],
             ['Sunday', 'воскресенье', "voskresen'ye", 'воскресение — "Resurrection"'],
           ],
@@ -10895,7 +11023,12 @@ export const learnArticles: Record<string, LearnArticle> = {
         content:
           'Russian month names are unrelated to English ones (they come from Old Slavic nature words, not Latin) — with one exception: they are **always lowercase**, and most learners find them easier to pronounce than the days. Below is the nominative form (the "dictionary" form) plus the two forms you will actually use most: genitive (for dates) and prepositional (for "in [month]").',
         table: {
-          headers: ['Month', 'Russian (nominative)', 'Genitive (dates)', 'Prepositional ("in ...")'],
+          headers: [
+            'Month',
+            'Russian (nominative)',
+            'Genitive (dates)',
+            'Prepositional ("in ...")',
+          ],
           rows: [
             ['January', 'январь', 'января', 'январе'],
             ['February', 'февраль', 'февраля', 'феврале'],
@@ -10928,7 +11061,11 @@ export const learnArticles: Record<string, LearnArticle> = {
         table: {
           headers: ['Category', 'Case after "в"', 'Example'],
           rows: [
-            ['Days of the week', 'Accusative', 'в понедельник, во вторник, в среду, в пятницу, в субботу'],
+            [
+              'Days of the week',
+              'Accusative',
+              'в понедельник, во вторник, в среду, в пятницу, в субботу',
+            ],
             ['Months', 'Prepositional', 'в январе, в марте, в июне, в декабре'],
           ],
           caption: 'Days vs. months: which case follows "в"',
@@ -10994,8 +11131,16 @@ export const learnArticles: Record<string, LearnArticle> = {
         table: {
           headers: ['Question', 'Russian', 'Sample answer'],
           rows: [
-            ['What day of the week is it?', 'Какой сегодня день недели?', 'Сегодня среда. (Nominative)'],
-            ["What's today's date?", 'Какое сегодня число?', 'Сегодня пятое июня. (Ordinal + genitive month)'],
+            [
+              'What day of the week is it?',
+              'Какой сегодня день недели?',
+              'Сегодня среда. (Nominative)',
+            ],
+            [
+              "What's today's date?",
+              'Какое сегодня число?',
+              'Сегодня пятое июня. (Ordinal + genitive month)',
+            ],
             ['What day will it be on Friday?', 'Какой день недели будет в пятницу?', '—'],
           ],
           caption: 'Asking about the day and the date',
@@ -11113,6 +11258,348 @@ export const learnArticles: Record<string, LearnArticle> = {
         width: 1200,
         height: 630,
       },
+    },
+  },
+  'russian-verb-conjugation-guide': {
+    slug: 'russian-verb-conjugation-guide',
+    introByline: ARTICLE_BYLINE,
+    title: 'Russian Verb Conjugation: The Complete Guide (Present, Past & Future)',
+    metaTitle: 'Russian Verb Conjugation: Present, Past & Future Tense | Russian Cases with Anna',
+    metaDescription:
+      'Learn Russian verb conjugation step by step: the two conjugation groups, present-tense endings, consonant mutations, past tense, future tense, and 8 irregular verbs fully conjugated.',
+    keywords: [
+      'russian verb conjugation',
+      'conjugate russian verbs',
+      'russian verb tenses',
+      'russian present tense conjugation',
+      'russian past tense verbs',
+      'first and second conjugation russian',
+      'russian verb endings',
+      'how to conjugate verbs in russian',
+    ],
+    h1: 'Russian Verb Conjugation: The Complete Guide to Present, Past and Future Tense',
+    intro:
+      'Russian nouns decline; Russian verbs conjugate — and the two systems are graded on completely different curves. Cases punish you with a dozen possible endings per word. Verb conjugation, by comparison, is almost mechanical: **once you know which of two conjugation groups a verb belongs to, six endings tell you everything about who is doing what, and when.**\n\nThe catch is that "almost mechanical" still hides a few traps: a handful of verbs that look like one conjugation but behave like the other, consonants that quietly mutate in the "I" form, and a past tense that ignores person entirely and cares only about gender and number. None of this is hard once it is laid out clearly — and unlike cases, most of verb conjugation can be internalised in a single sitting.\n\nThis guide walks through the two conjugation groups, full present-tense tables, the past tense (and its exceptions), the two ways to build a future tense, and eight irregular verbs you will use in nearly every conversation.',
+    whatYouLearn: [
+      'How to tell the two conjugation groups apart from the infinitive — and from the "they" form when the infinitive lies to you',
+      'The full present-tense endings for both conjugation groups, with worked examples',
+      'The consonant mutations that change the "I" (я) form of many verbs',
+      'How to form the past tense in seconds — and the -ти / -чь verbs that break the pattern',
+      'The difference between simple future (perfective) and compound future (buду + infinitive)',
+      '8 irregular verbs you will use every day, fully conjugated',
+    ],
+    leadMagnetCta: {
+      title: 'Verb endings are only half the puzzle — free app',
+      description:
+        'Conjugation handles verbs; Russian cases handle everything else — nouns, adjectives, and pronouns. Russian Cases with Anna drills all six cases with structured lessons and smart quizzes. Free on iOS and Android.',
+      ctaText: 'Download the app — Free',
+      ctaHref: '/',
+    },
+    sections: [
+      {
+        h2: 'The Two Conjugation Groups: How to Tell Them Apart',
+        content:
+          'Every Russian verb belongs to one of two conjugation groups, traditionally called **first conjugation** and **second conjugation**. The group determines which set of six endings the verb takes in the present (and simple future) tense.\n\nThe infinitive ending is a useful first guess: most **-ать / -ять** verbs are first conjugation, and most **-ить** verbs are second conjugation. But it is only a guess — a short, well-known list of exceptions conjugates the "wrong" way, so the infinitive alone is not proof.',
+        table: {
+          headers: ['Conjugation', 'Typical infinitive ending', 'Example', '"They" (они) ending'],
+          rows: [
+            ['First (I)', '-ать, -ять, most -еть', 'читать, гулять, уметь', '-ут / -ют'],
+            [
+              'Second (II)',
+              '-ить (most), a few -еть / -ать',
+              'говорить, смотреть, слышать',
+              '-ат / -ят',
+            ],
+          ],
+          caption: 'The two Russian verb conjugation groups',
+          boldColumnIndices: [0],
+        },
+        bullets: [
+          'The most reliable check is the **они (they)** form: **-ут/-ют** always means first conjugation, **-ат/-ят** always means second conjugation',
+          'A short list of common **-еть** verbs conjugates as **second**, not first: смотреть, видеть, зависеть, вертеть, обидеть, ненавидеть, терпеть',
+          'A short list of **-ать** verbs also conjugates as second: слышать, дышать, держать, гнать — Russian teachers call these "the 7 exception verbs"',
+          '**Брить** (to shave) and **стелить** (to spread/make a bed) look like -ить verbs but conjugate as **first**: бре́ю, бре́ешь, бре́ет…',
+        ],
+      },
+      {
+        h2: 'Present Tense: First Conjugation (-е-) Endings',
+        content:
+          'First-conjugation verbs use an **-е-** vowel in most of their endings. The exact letter (у/ю, ешь, ет…) depends only on whether the verb stem ends in a vowel or a consonant — a spelling rule, not a meaning difference.',
+        table: {
+          headers: ['Pronoun', 'Ending', 'читать (to read)', 'гулять (to walk)'],
+          rows: [
+            ['я', '-у / -ю', 'читаю', 'гуляю'],
+            ['ты', '-ешь', 'читаешь', 'гуляешь'],
+            ['он / она / оно', '-ет', 'читает', 'гуляет'],
+            ['мы', '-ем', 'читаем', 'гуляем'],
+            ['вы', '-ете', 'читаете', 'гуляете'],
+            ['они', '-ут / -ют', 'читают', 'гуляют'],
+          ],
+          caption: 'First-conjugation present-tense endings',
+          boldColumnIndices: [0, 1],
+          accentColumnIndices: [1],
+        },
+        bullets: [
+          'Stems ending in a **consonant** (чита-) take **-у / -ешь / -ет / -ем / -ете / -ут**',
+          'Stems ending in a **vowel** (гуля-) take **-ю / -ешь / -ет / -ем / -ете / -ют** — same endings, just ю instead of у and ют instead of ут',
+          'Stress can jump around unpredictably: писать → пишу́ (stressed ending) but пи́шешь, пи́шет… (stress moves back to the stem) — always check a dictionary for stress placement',
+        ],
+      },
+      {
+        h2: 'Present Tense: Second Conjugation (-и-) Endings',
+        content:
+          'Second-conjugation verbs use an **-и-** vowel in most of their endings. The я-form and они-form are where second conjugation looks most different from first — and where consonant mutations most often appear.',
+        table: {
+          headers: ['Pronoun', 'Ending', 'говорить (to speak)', 'видеть (to see)'],
+          rows: [
+            ['я', '-у / -ю', 'говорю', 'вижу'],
+            ['ты', '-ишь', 'говоришь', 'видишь'],
+            ['он / она / оно', '-ит', 'говорит', 'видит'],
+            ['мы', '-им', 'говорим', 'видим'],
+            ['вы', '-ите', 'говорите', 'видите'],
+            ['они', '-ат / -ят', 'говорят', 'видят'],
+          ],
+          caption: 'Second-conjugation present-tense endings',
+          boldColumnIndices: [0, 1],
+          accentColumnIndices: [1],
+        },
+        subsections: [
+          {
+            h3: 'Consonant mutations in the я-form',
+            content:
+              'A group of second-conjugation verbs quietly swaps a consonant — but **only in the я-form**. Every other form (ты, он, мы, вы, они) keeps the original, unmutated consonant.',
+            table: {
+              headers: ['Mutation', 'Infinitive', 'я-form', 'ты-form (unmutated)'],
+              rows: [
+                ['д → ж', 'видеть', 'вижу', 'видишь'],
+                ['т → ч', 'платить', 'плачу', 'платишь'],
+                ['с → ш', 'просить', 'прошу', 'просишь'],
+                ['ст → щ', 'простить', 'прощу', 'простишь'],
+                ['б → бл', 'любить', 'люблю', 'любишь'],
+                ['в → вл', 'готовить', 'готовлю', 'готовишь'],
+                ['п → пл', 'купить', 'куплю', 'купишь'],
+              ],
+              caption: 'Consonant mutations in the я-form of second-conjugation verbs',
+              boldColumnIndices: [0],
+            },
+          },
+        ],
+        bullets: [
+          'The mutation is **limited to the я-form** — a very common beginner mistake is applying it everywhere: лю́бишь, not *любьишь',
+          'The same kind of mutation also shows up in some **first-conjugation** verbs, but there it runs through the whole present tense, not just я: писать → пишу, пишешь, пишет, пишем, пишете, пишут (с→ш throughout)',
+          'The **7-letter spelling rule** explains why they write **они пишут**, not *пишют: after ж, ш, щ, ч, ц, г, к, х, Russian spelling never allows ю or я — only у or а',
+        ],
+      },
+      {
+        h2: 'Past Tense: The Easiest Tense in Russian (With a Few Traps)',
+        content:
+          'Good news first: **conjugation group does not matter for the past tense.** Drop **-ть** from the infinitive and add an ending that agrees with the **gender and number of the subject** — not with person, which is the opposite of how English and most European languages build their past tense.',
+        table: {
+          headers: ['Subject', 'Ending', 'читать → past', 'говорить → past'],
+          rows: [
+            ['он (masc.)', '-л', 'чита́л', 'говори́л'],
+            ['она (fem.)', '-ла', 'чита́ла', 'говори́ла'],
+            ['оно (neut.)', '-ло', 'чита́ло', 'говори́ло'],
+            ['они / мы / вы', '-ли', 'чита́ли', 'говори́ли'],
+          ],
+          caption: 'Past-tense endings: gender and number, not person',
+          boldColumnIndices: [0, 1],
+        },
+        subsections: [
+          {
+            h3: 'Exceptions: verbs ending in -ти and -чь',
+            content:
+              'A small but frequent group of verbs does not follow the clean -л pattern. Verbs ending in **-ти** (идти, нести, вести) and **-чь** (мочь, помочь, печь) often shift their stem or drop the masculine -л entirely.',
+            table: {
+              headers: ['Infinitive', 'он (masc.)', 'она (fem.)', 'они (pl.)'],
+              rows: [
+                ['идти (to go)', 'шёл', 'шла', 'шли'],
+                ['мочь (to be able)', 'мог', 'могла', 'могли'],
+                ['нести (to carry)', 'нёс', 'несла', 'несли'],
+                ['печь (to bake)', 'пёк', 'пекла', 'пекли'],
+              ],
+              caption: 'Irregular past-tense stems: -ти and -чь verbs',
+              boldColumnIndices: [0],
+            },
+          },
+        ],
+        bullets: [
+          'Past tense agrees with **gender and number**, not person: a male speaker says **я чита́л**, a female speaker says **я чита́ла** — same pronoun, different verb form',
+          '**Мочь** and other -чь verbs drop the masculine -л entirely: **мог**, not *могл',
+          '**Идти** has a fully suppletive past stem (шёл) unlike its present stem (иду) — the two forms share no letters at all',
+        ],
+      },
+      {
+        h2: 'Future Tense: Simple vs Compound',
+        content:
+          'Russian builds the future tense two different ways, and which one you use depends entirely on **aspect**, not on meaning you choose freely. If you have not yet covered perfective vs imperfective verbs, our [guide to Russian verbal aspect](/learn/articles/russian-verbal-aspect-perfective-imperfective) is the natural companion to this section.',
+        table: {
+          headers: ['Aspect', 'Structure', 'Example', 'Meaning'],
+          rows: [
+            [
+              'Perfective — simple future',
+              'Conjugated like a present-tense verb',
+              'я прочита́ю',
+              'I will read it (and finish)',
+            ],
+            [
+              'Imperfective — compound future',
+              'буду/будешь/будет/будем/будете/будут + imperfective infinitive',
+              'я бу́ду чита́ть',
+              'I will be reading / I will read (ongoing)',
+            ],
+          ],
+          caption: 'Simple future (perfective) vs compound future (imperfective)',
+          boldColumnIndices: [0],
+        },
+        bullets: [
+          'A **perfective** verb has no present tense — conjugating it in the present-tense pattern automatically produces a **future** meaning: я прочита́ю (I will read), not "I am reading"',
+          'An **imperfective** verb needs the auxiliary **буду** (I will be) conjugated to match the subject, followed by the imperfective infinitive: мы **будем** говори́ть (we will be talking / we will talk)',
+          'Never conjugate an imperfective infinitive directly for the future — *я читаю за́втра книгу does not mean "I will read the book tomorrow"; it needs буду читать',
+        ],
+      },
+      {
+        h2: '8 Irregular Verbs You Need to Know',
+        content:
+          'A handful of extremely common verbs do not fit either conjugation cleanly. They are worth memorising as standalone patterns — you will use most of them daily.',
+        table: {
+          headers: ['Infinitive', 'я', 'ты', 'он', 'мы', 'вы', 'они'],
+          rows: [
+            ['хоте́ть (to want)', 'хочу́', 'хо́чешь', 'хо́чет', 'хоти́м', 'хоти́те', 'хотя́т'],
+            ['есть (to eat)', 'ем', 'ешь', 'ест', 'еди́м', 'еди́те', 'едя́т'],
+            ['дать (to give)', 'дам', 'дашь', 'даст', 'дади́м', 'дади́те', 'даду́т'],
+            ['бежа́ть (to run)', 'бегу́', 'бежи́шь', 'бежи́т', 'бежи́м', 'бежи́те', 'бегу́т'],
+            ['е́хать (to go, by vehicle)', 'е́ду', 'е́дешь', 'е́дет', 'е́дем', 'е́дете', 'е́дут'],
+            ['пить (to drink)', 'пью', 'пьёшь', 'пьёт', 'пьём', 'пьёте', 'пьют'],
+            ['жить (to live)', 'живу́', 'живёшь', 'живёт', 'живём', 'живёте', 'живу́т'],
+            ['мочь (to be able to)', 'могу́', 'мо́жешь', 'мо́жет', 'мо́жем', 'мо́жете', 'мо́гут'],
+          ],
+          caption: '8 common irregular Russian verbs, fully conjugated',
+          boldColumnIndices: [0],
+        },
+        bullets: [
+          '**Хотеть** mixes conjugations: the singular (хочу́, хо́чешь, хо́чет) follows first conjugation, the plural (хоти́м, хоти́те, хотя́т) follows second — a genuine oddity worth memorising on its own',
+          '**Есть** and **дать** share a rare "athematic" pattern found in only a handful of Russian verbs — neither fits first nor second conjugation',
+          'The present tense of **быть** ("to be") is almost always **omitted** in modern Russian: **Я студе́нт** (I am a student), not *Я есть студе́нт — the archaic form есть survives mainly in set phrases like **У меня́ есть…** (I have…)',
+        ],
+      },
+      {
+        h2: 'Common Mistakes with Russian Verb Conjugation',
+        content: 'These five mistakes account for most of the conjugation errors learners make:',
+        subsections: [
+          {
+            h3: 'Mistake 1: Guessing the wrong conjugation from the infinitive',
+            content:
+              '**Wrong**: Я **смотрею** телевизор.\n**Correct**: Я **смотрю** телевизор.\n\n**Why**: смотреть ends in -еть, which usually signals first conjugation — but смотреть is one of the well-known exceptions that conjugates as **second**.',
+          },
+          {
+            h3: 'Mistake 2: Applying the я-form mutation to every form',
+            content:
+              '**Wrong**: Ты **любишь**… **любю**? — mixing up which form mutates.\n**Correct**: Я **люблю**, ты **любишь**, он **любит**.\n\n**Why**: the б → бл mutation happens **only in the я-form**. Every other form uses the plain, unmutated consonant.',
+          },
+          {
+            h3: 'Mistake 3: Using person-based endings in the past tense',
+            content:
+              '**Wrong**: Она **говорил** по-русски.\n**Correct**: Она **говорила** по-русски.\n\n**Why**: the past tense agrees with the **gender and number of the subject**, never with person. Она is feminine, so the verb must take -ла regardless of who is speaking.',
+          },
+          {
+            h3: 'Mistake 4: Conjugating a perfective verb where a habit is meant',
+            content:
+              '**Wrong**: Ка́ждый день я **прочита́ю** кни́гу.\n**Correct**: Ка́ждый день я **чита́ю** кни́гу.\n\n**Why**: perfective verbs have no present tense, so conjugating прочитать this way actually means "I will read" (future), not a daily habit. Habitual actions need the imperfective, читать.',
+          },
+          {
+            h3: 'Mistake 5: Breaking the 7-letter spelling rule',
+            content:
+              '**Wrong**: Они **пишют** пи́сьма.\n**Correct**: Они **пишут** пи́сьма.\n\n**Why**: after ж, ш, щ, ч, ц, г, к, х, Russian spelling never allows ю or я — write у or а instead, even when the "expected" ending would otherwise use ю or я.',
+          },
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'What are the two conjugation groups in Russian?',
+        answer:
+          'Russian verbs split into **first conjugation** (endings built around -е-: -у/-ю, -ешь, -ет, -ем, -ете, -ут/-ют) and **second conjugation** (endings built around -и-: -у/-ю, -ишь, -ит, -им, -ите, -ат/-ят). Most -ать/-ять verbs are first conjugation and most -ить verbs are second, but a short list of common exceptions (смотреть, слышать, держать…) breaks that pattern.',
+      },
+      {
+        question: 'How do I know if a verb is first or second conjugation?',
+        answer:
+          'The most reliable test is the **они (they)** form: if it ends in **-ут/-ют**, the verb is first conjugation; if it ends in **-ат/-ят**, it is second conjugation. The infinitive ending is a useful first guess but is not proof, since verbs like смотреть (-еть) and держать (-ать) conjugate as second conjugation.',
+      },
+      {
+        question: 'Does the Russian past tense change by person, like English?',
+        answer:
+          'No. The Russian past tense agrees with the **gender and number** of the subject, not with person. Every subject uses the same ending pattern: -л (masculine), -ла (feminine), -ло (neuter), -ли (plural) — so я читал and он читал look identical if the speaker is male.',
+      },
+      {
+        question: 'What is the difference between simple future and compound future in Russian?',
+        answer:
+          "The **simple future** is built by conjugating a perfective verb in the present-tense pattern (я прочита́ю — I will read, completed). The **compound future** is built with the auxiliary буду/будешь/будет/будем/будете/будут plus an imperfective infinitive (я бу́ду чита́ть — I will be reading / I will read, ongoing). Which one you use depends on the verb's aspect, not on personal preference.",
+      },
+      {
+        question: 'Are there truly irregular verbs in Russian, or just exceptions?',
+        answer:
+          'Both exist. Verbs like хотеть (mixed conjugation), есть and дать (a rare athematic pattern), and идти (a suppletive past stem, шёл) are genuinely irregular and must be memorised individually. Most other "irregularities" — like смотреть conjugating as second conjugation, or the -чь verbs dropping -л in the masculine past — are small, well-documented exception groups rather than true chaos.',
+      },
+    ],
+    conclusionIntro:
+      'Russian verb conjugation rewards the effort you put in early — unlike cases, most of it can genuinely click in a single focused study session:',
+    conclusionBullets: [
+      '**Identify the conjugation group** from the они-form, not the infinitive alone — -ут/-ют is first, -ат/-ят is second',
+      '**Learn the exception lists**: смотреть-type -еть verbs and слышать-type -ать verbs conjugate as second',
+      '**Watch for я-form mutations** (любить → люблю) — they apply only to that one form',
+      '**Past tense = gender + number**, not person: -л / -ла / -ло / -ли',
+      '**Future tense follows aspect**: perfective conjugates directly; imperfective needs буду + infinitive',
+      'Memorise the small set of **irregular verbs** (хотеть, есть, дать, идти…) as standalone patterns',
+    ],
+    conclusionOutro:
+      'Conjugation gives you the verb; Russian cases give you everything the verb acts on — the noun, adjective, and pronoun endings that make a sentence actually hang together. Once verb endings feel automatic, our free practice tool at russiandeclensions.com/practice is the natural next step for drilling all six cases interactively — no sign-up needed.',
+    internalLinks: [
+      { href: '/practice', label: 'Free Russian Declension Quiz — practice all 6 cases' },
+      {
+        href: '/learn/articles/russian-verbal-aspect-perfective-imperfective',
+        label: 'Russian Verbal Aspect: Perfective vs Imperfective Explained',
+      },
+      {
+        href: '/learn/articles/russian-verbs-of-motion',
+        label: 'Russian Verbs of Motion: The Complete Guide',
+      },
+      {
+        href: '/learn/articles/russian-word-stress-guide',
+        label: 'Russian Word Stress: Why It Changes Everything (and How to Master It)',
+      },
+      {
+        href: '/learn/articles/russian-cases-explained-beginners-guide',
+        label: "Russian Cases Explained: A Beginner's Guide",
+      },
+    ],
+    ctaText: 'Practice Russian Cases — Free →',
+    ctaHref: '/practice',
+    conclusion: '',
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: 'Russian Verb Conjugation: The Complete Guide to Present, Past and Future Tense',
+      description:
+        'Learn Russian verb conjugation step by step: the two conjugation groups, present-tense endings, consonant mutations, past tense, future tense, and 8 irregular verbs fully conjugated.',
+      datePublished: '2026-09-03',
+      dateModified: '2026-09-03',
+      author: {
+        '@type': 'Person',
+        name: 'Nathan',
+        url: 'https://russiandeclensions.com/',
+        image: 'https://russiandeclensions.com/landing-cases/founder-photo.webp',
+        description:
+          'Native French speaker learning Russian; writes about grammar, cases, and practical self-study habits.',
+        worksFor: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      },
+      publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': 'https://russiandeclensions.com/learn/articles/russian-verb-conjugation-guide',
+      },
+      keywords:
+        'russian verb conjugation, conjugate russian verbs, russian verb tenses, russian present tense conjugation, russian past tense verbs, russian verb endings',
     },
   },
 };
