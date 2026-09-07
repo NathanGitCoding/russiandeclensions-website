@@ -41,6 +41,7 @@ const LEARN_CARD_IMAGES: Record<string, string> = {
   'russian-greetings-guide': '/articles/russian-greetings-hello.webp',
   'russian-numbers-guide': '/articles/russian-numbers-abacus.webp',
   'russian-days-months-guide': '/articles/russian-days-months-calendar.webp',
+  'russian-nominative-case': '/articles/russian-nominative-case-dictionary-form.webp',
 };
 
 export function getLearnCardImage(slug: string): string {

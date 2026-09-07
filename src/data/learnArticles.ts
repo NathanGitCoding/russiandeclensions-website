@@ -172,6 +172,7 @@ export interface LearnArticle {
     | 'instrumental'
     | 'prepositional'
     | 'genitive'
+    | 'nominative'
     | 'orange';
 }
 
@@ -11112,6 +11113,492 @@ export const learnArticles: Record<string, LearnArticle> = {
         url: 'https://russiandeclensions.com/articles/russian-days-months-calendar.webp',
         width: 1200,
         height: 630,
+      },
+    },
+  },
+  'russian-nominative-case': {
+    slug: 'russian-nominative-case',
+    introByline: ARTICLE_BYLINE,
+    title: 'Russian Nominative Case: Rules, Endings & 24 Real Examples',
+    metaTitle: 'Russian Nominative Case: Rules, Endings & Examples | Russian Cases with Anna',
+    metaDescription:
+      'The complete guide to the Russian nominative case: 6 core uses, singular and plural endings, irregular plurals, nominative vs accusative. 24 real examples with transliteration.',
+    keywords: [
+      'russian nominative case',
+      'nominative case russian',
+      'russian nominative case endings',
+      'what is the nominative case in russian',
+      'russian nominative case examples',
+      'russian nominative plural',
+    ],
+    h1: 'Russian Nominative Case: Rules, Endings & 24 Real Examples',
+    heroImage: {
+      src: '/articles/russian-nominative-case-dictionary-form.webp',
+      alt: 'An open Russian dictionary and notebook — learning the nominative case, the base dictionary form of Russian words',
+      width: 1536,
+      height: 1024,
+    },
+    intro:
+      "The nominative case is the first case every Russian learner meets — and the one most learners think they already know. It is the **dictionary form**: the version of a word you look up, memorize as a flashcard, and hear said in isolation. But treating the nominative as \"the case you don't have to think about\" is a mistake. It has its own **rules for plurals**, its own **irregular forms**, and its own **trap** — the exact moment it starts looking identical to the accusative case.\n\nThis guide covers everything about the Russian nominative case: what it is, when to use it beyond the obvious \"subject of the sentence,\" how to form the plural (including the stress-shifted and outright irregular plurals that catch out intermediate learners), and how to tell it apart from the accusative. **24 real Russian examples** included, with transliteration.",
+    whatYouLearn: [
+      'What the Russian nominative case is and the 6 situations where it is used',
+      'Nominative singular endings for every noun gender',
+      'Nominative plural endings — including the stress-shifted plurals (дом → дома, город → города)',
+      '12 irregular nominative plurals to memorize (друг → друзья, ребёнок → дети, etc.)',
+      'How adjectives and pronouns agree with nominative nouns',
+      'Nominative vs accusative — how to tell them apart when the forms look identical',
+      '24 real Russian example sentences with transliteration',
+    ],
+    leadMagnetCta: {
+      title: 'Practice the Russian nominative case (and all 6 cases) with smart exercises',
+      description:
+        'Our mobile app drills all 6 Russian cases — including the trickiest plural forms — with spaced repetition, real sentences, and instant feedback. Available on Android and iOS.',
+      ctaText: 'Download the app and start drilling today',
+      ctaHref: '/',
+    },
+    internalLinks: [
+      {
+        href: '/learn/lessons/russian-cases-complete-guide',
+        label: 'The Complete Guide to Russian Cases: All 6 Cases Explained with Examples',
+      },
+      {
+        href: '/learn/articles/russian-accusative-case',
+        label: 'Russian Accusative Case: Rules, Endings & Examples',
+      },
+      {
+        href: '/learn/articles/russian-case-endings-cheatsheet',
+        label: 'Russian Case Endings: The Ultimate Cheat Sheet',
+      },
+    ],
+    tableAccentVariant: 'nominative',
+    sections: [
+      {
+        h2: 'What Is the Russian Nominative Case?',
+        content:
+          "The **nominative case** (Именительный падеж) is the first and most basic of the six Russian cases. It is the **dictionary form** — the version of every noun, adjective, and pronoun found in a dictionary entry, with no ending changes applied. The nominative answers the questions **Кто?** (Who?) and **Что?** (What?).\n\nEvery other Russian case is a transformation of the nominative — genitive, dative, accusative, instrumental, and prepositional all describe how a word's ending changes when it plays a different grammatical role. The nominative is the starting point everything else declines from.",
+        subsections: [
+          {
+            h3: 'Quick answer',
+            content:
+              'The nominative case answers **Кто?** (Who?) and **Что?** (What?). It marks the **subject** of a sentence — the person or thing performing the action — and is also the citation form used in dictionaries.\n\nEvery Russian sentence contains at least one word in the nominative case.',
+          },
+        ],
+      },
+      {
+        h2: '6 Core Uses of the Russian Nominative Case',
+        content:
+          'While "subject of the sentence" is the nominative\'s headline job, it shows up in five other common situations too.',
+        subsections: [
+          {
+            h3: 'Use 1 — Subject of the Sentence',
+            content:
+              'The most common role: the noun performing the action goes in the nominative.',
+            bullets: [
+              '**Кошка спит.** — The cat sleeps. (кошка = subject)',
+              '**Студент читает книгу.** — The student reads a book. (студент = subject, книгу = accusative object)',
+            ],
+          },
+          {
+            h3: 'Use 2 — Predicate Noun After an Omitted "To Be"',
+            content:
+              'In the present tense, Russian omits the verb "to be" (быть) entirely. Both the subject and the noun describing it stay in the **nominative**, often separated by a dash.',
+            bullets: [
+              '**Она — врач.** — She is a doctor.',
+              '**Москва — столица России.** — Moscow is the capital of Russia.',
+            ],
+          },
+          {
+            h3: 'Use 3 — Naming and Introducing (Это + Nominative)',
+            content:
+              'The word **это** ("this is / that is") is always followed by the **nominative** case, regardless of the gender or number of what follows.',
+            bullets: [
+              '**Это мой брат.** — This is my brother.',
+              '**Это интересная книга.** — This is an interesting book.',
+            ],
+          },
+          {
+            h3: 'Use 4 — Dictionary / Citation Form',
+            content:
+              'Every dictionary entry, vocabulary list, and flashcard app lists Russian nouns and adjectives in the **nominative singular**. It is the form learned first and the one every other case is built from.',
+          },
+          {
+            h3: 'Use 5 — Titles, Signs, and Labels',
+            content:
+              'Book titles, shop signs, street names, and headlines use the nominative by default, since they name something rather than describing an action.',
+            bullets: [
+              '**«Война и мир»** — "War and Peace" (a book title)',
+              '**Аптека** — Pharmacy (a shop sign)',
+            ],
+          },
+          {
+            h3: 'Use 6 — Exclamations and Direct Address',
+            content:
+              "Short exclamations and calling out someone's name use the plain nominative form — Russian lost its separate vocative case centuries ago, except for a few fossilized forms like **Боже!** and **Господи!**",
+            bullets: [
+              '**Пожар!** — Fire!',
+              '**Мама!** — Mom! (calling out — plain nominative, not a separate vocative)',
+            ],
+          },
+        ],
+      },
+      {
+        h2: 'Nominative Singular Endings by Gender',
+        content:
+          "Russian nouns fall into three genders, each with a predictable nominative singular pattern based on the noun's final letter.",
+        table: {
+          caption: 'Nominative singular endings by noun type',
+          boldColumnIndices: [1],
+          headers: ['Gender', 'Typical ending', 'Example', 'Meaning'],
+          rows: [
+            ['Masculine (hard)', '(consonant, no ending)', 'стол', 'table'],
+            ['Masculine (soft)', '-й / -ь', 'музей / словарь', 'museum / dictionary'],
+            ['Feminine (hard)', '-а', 'книга', 'book'],
+            ['Feminine (soft)', '-я', 'неделя', 'week'],
+            ['Feminine (soft, no vowel)', '-ь', 'ночь', 'night'],
+            ['Neuter (hard)', '-о', 'окно', 'window'],
+            ['Neuter (soft)', '-е', 'море', 'sea'],
+          ],
+        },
+        subsections: [
+          {
+            h3: 'How to spot the gender',
+            content:
+              'Masculine nouns end in a **consonant**, **-й**, or a **soft sign -ь** describing a male being or a hard-stem word (словарь, музей). Feminine nouns end in **-а**, **-я**, or a **soft sign -ь** (a large group, including most abstract nouns: жизнь, любовь). Neuter nouns end in **-о** or **-е**. The **-ь** ending is ambiguous between masculine and feminine — it must be memorized noun by noun.',
+          },
+        ],
+      },
+      {
+        h2: 'Nominative Plural Endings',
+        content:
+          'Forming the nominative plural means changing the singular ending — but the exact pattern depends on gender and on a key spelling rule.',
+        table: {
+          caption: 'Nominative plural endings by noun type',
+          boldColumnIndices: [1, 3],
+          headers: ['Noun type', 'Ending', 'Formation', 'Result'],
+          rows: [
+            ['Masculine hard', '-ы', 'стол → стол+ы', 'столы'],
+            ['Masculine (after г/к/х/ж/ш/щ/ч)', '-и', 'язык → язык+и', 'языки'],
+            ['Masculine soft -й', '-и', 'музей → музе+и', 'музеи'],
+            ['Masculine soft -ь', '-и', 'словарь → словар+и', 'словари'],
+            ['Feminine -а (hard)', '-ы', 'женщина → женщин+ы', 'женщины'],
+            ['Feminine -а (after г/к/х/ж/ш/щ/ч)', '-и', 'книга → книг+и', 'книги'],
+            ['Feminine -я', '-и', 'неделя → недел+и', 'недели'],
+            ['Feminine -ь', '-и', 'ночь → ноч+и', 'ночи'],
+            ['Neuter -о', '-а', 'окно → окн+а', 'окна'],
+            ['Neuter -е', '-я', 'море → мор+я', 'моря'],
+          ],
+        },
+        bullets: [
+          '**The 8-letter spelling rule** replaces **Ы** with **И** after **Г, К, Х, Ж, Ш, Щ, Ч, Ц** — this is why книга → книги, not книгы.',
+          '**Neuter nouns** swap **-о** for **-а** and **-е** for **-я** in the plural — a pattern that looks irregular but is fully regular.',
+          '**Masculine soft-sign nouns** (**словарь, зверь**) and **feminine soft-sign nouns** (**ночь, дверь**) form identical-looking plurals in **-и** — only their other case forms reveal the gender.',
+        ],
+      },
+      {
+        h2: 'Irregular & Stress-Shifted Nominative Plurals — Must-Know List',
+        content:
+          'A group of extremely common Russian nouns break the regular pattern entirely — either by shifting stress and taking an unexpected **-а/-я** ending, or by using a completely different plural stem. These must simply be memorized.',
+        table: {
+          caption: '12 irregular and stress-shifted nominative plurals',
+          boldColumnIndices: [1],
+          headers: ['Singular', 'Plural', 'Note'],
+          rows: [
+            ['дом (house)', 'дома́', 'stress-shifted -а plural (not домы)'],
+            ['город (city)', 'города́', 'stress-shifted -а plural'],
+            ['глаз (eye)', 'глаза́', 'stress-shifted -а plural'],
+            ['лес (forest)', 'леса́', 'stress-shifted -а plural'],
+            ['учитель (teacher)', 'учителя́', 'stress-shifted -я plural'],
+            ['паспорт (passport)', 'паспорта́', 'stress-shifted -а plural'],
+            ['друг (friend)', 'друзья́', 'irregular: adds -ья, consonant softens'],
+            ['брат (brother)', 'бра́тья', 'irregular -ья plural'],
+            ['стул (chair)', 'сту́лья', 'irregular -ья plural'],
+            ['лист (leaf)', 'ли́стья', 'irregular -ья plural (ли́сты = "sheets of paper" instead)'],
+            ['ребёнок (child)', 'де́ти', 'suppletive plural (different root)'],
+            ['человек (person)', 'лю́ди', 'suppletive plural (different root)'],
+          ],
+        },
+        bullets: [
+          '**Stress-shifted -а plurals** are a large, productive group of mostly masculine one-syllable nouns: дом, город, лес, глаз, паспорт, вечер (evening) → вечера, доктор → доктора.',
+          '**The -ья plurals** (друзья, братья, стулья, листья) insert a soft consonant before **-я** — they look nothing like their singular form at first glance.',
+          '**Suppletive plurals** (ребёнок → дети, человек → люди) use an entirely different root, similar to English "child → children" or "person → people."',
+          '**лист** has two different plurals depending on meaning: **листья** (leaves of a tree) vs. **листы** (sheets of paper) — a classic vocabulary trap.',
+        ],
+      },
+      {
+        h2: 'Nominative vs. Accusative: How to Tell Them Apart',
+        content:
+          'For **inanimate masculine and neuter nouns**, the accusative case is **identical** to the nominative — no ending changes at all. The same word form, стол or окно, can be either the subject or the direct object of a sentence. Context tells you which.',
+        table: {
+          caption: 'Nominative vs accusative comparison',
+          boldColumnIndices: [0, 1],
+          headers: ['Situation', 'Russian sentence', 'Explanation'],
+          rows: [
+            [
+              'Subject (nominative)',
+              'Стол стоит у окна.',
+              'The table stands by the window. (стол = subject)',
+            ],
+            [
+              'Direct object, inanimate (accusative = nominative)',
+              'Я вижу стол.',
+              'I see the table. (стол is unchanged, but is now the object)',
+            ],
+            ['Subject (nominative)', 'Мой друг пришёл.', 'My friend arrived. (друг = subject)'],
+            [
+              'Direct object, animate (accusative ≠ nominative)',
+              'Я вижу друга.',
+              'I see my friend. (друг → друга — animate masculine takes the genitive-shaped accusative)',
+            ],
+            [
+              'Feminine subject (nominative)',
+              'Книга лежит на столе.',
+              'The book lies on the table.',
+            ],
+            [
+              'Feminine direct object (accusative ≠ nominative)',
+              'Я читаю книгу.',
+              'I am reading a book. (книга → книгу — feminine always changes)',
+            ],
+          ],
+        },
+        subsections: [
+          {
+            h3: 'The rule that decides it',
+            content:
+              '**Animate masculine nouns** switch to the genitive-shaped accusative (друг → друга). **Inanimate masculine and neuter nouns** stay identical to the nominative. **Feminine nouns** always change their ending (-а → -у). This is the exact mirror image of the trap covered in our accusative case guide.',
+          },
+        ],
+      },
+      {
+        h2: 'How Adjectives and Pronouns Agree in the Nominative',
+        content:
+          'Adjectives, possessives, and demonstratives must **agree** with the noun they describe in gender and number — and the nominative forms are the ones learned first.',
+        table: {
+          caption: 'Nominative adjective and pronoun endings',
+          boldColumnIndices: [0],
+          headers: ['Gender / number', 'Adjective (новый)', 'Possessive (мой)', 'Demonstrative (этот)'],
+          rows: [
+            ['Masculine', 'новый', 'мой', 'этот'],
+            ['Feminine', 'новая', 'моя', 'эта'],
+            ['Neuter', 'новое', 'моё', 'это'],
+            ['Plural (all genders)', 'новые', 'мои', 'эти'],
+          ],
+        },
+        bullets: [
+          '**Это**, when used to mean "this is / that is" (Use 3 above), functions as an invariant pointing word and does not change for gender or number in that role.',
+          '**Personal pronouns** in the nominative — я, ты, он/она/оно, мы, вы, они — do not decline by gender except in the third person singular.',
+        ],
+      },
+      {
+        h2: '24 Real Russian Nominative Case Examples',
+        content:
+          'Below are **24 authentic Russian sentences** demonstrating every major use of the nominative case, with transliteration and translation. **1–6:** subject of the sentence | **7–12:** predicate nouns after omitted "to be" | **13–18:** naming with это | **19–24:** titles, signs, and exclamations.',
+        table: {
+          caption: '24 example sentences with the nominative case',
+          boldColumnIndices: [1, 2],
+          headers: ['#', 'Russian', 'Transliteration', 'Translation & notes'],
+          rows: [
+            ['1', 'Собака лает.', 'Sobaka layet.', 'The dog barks. (собака = subject)'],
+            [
+              '2',
+              'Дети играют во дворе.',
+              'Deti igrayut vo dvore.',
+              'The children play in the yard. (дети = irregular plural of ребёнок)',
+            ],
+            [
+              '3',
+              'Погода сегодня хорошая.',
+              'Pogoda segodnya khoroshaya.',
+              'The weather is nice today. (погода = subject)',
+            ],
+            [
+              '4',
+              'Мой брат работает в банке.',
+              'Moy brat rabotayet v banke.',
+              'My brother works at a bank. (брат = subject)',
+            ],
+            [
+              '5',
+              'Друзья приехали вчера.',
+              'Druzya priyekhali vchera.',
+              'The friends arrived yesterday. (друзья = irregular plural of друг)',
+            ],
+            [
+              '6',
+              'Этот дом очень старый.',
+              'Etot dom ochen staryy.',
+              'This house is very old. (дом = subject)',
+            ],
+            [
+              '7',
+              'Она — моя сестра.',
+              'Ona — moya sestra.',
+              'She is my sister. (both nominative, быть omitted)',
+            ],
+            [
+              '8',
+              'Он врач, а она инженер.',
+              'On vrach, a ona inzhener.',
+              'He is a doctor, and she is an engineer.',
+            ],
+            [
+              '9',
+              'Санкт-Петербург — красивый город.',
+              'Sankt-Peterburg — krasivyy gorod.',
+              'Saint Petersburg is a beautiful city.',
+            ],
+            [
+              '10',
+              'Русский язык — мой любимый предмет.',
+              'Russkiy yazyk — moy lyubimyy predmet.',
+              'Russian is my favorite subject.',
+            ],
+            [
+              '11',
+              'Это здание — музей.',
+              'Eto zdaniye — muzey.',
+              'This building is a museum.',
+            ],
+            [
+              '12',
+              'Чай без сахара — моя привычка.',
+              'Chay bez sakhara — moya privychka.',
+              'Tea without sugar is my habit.',
+            ],
+            ['13', 'Это моя мама.', 'Eto moya mama.', 'This is my mom.'],
+            [
+              '14',
+              'Это интересная задача.',
+              'Eto interesnaya zadacha.',
+              'This is an interesting task.',
+            ],
+            [
+              '15',
+              'Кто это? — Это мой сосед.',
+              'Kto eto? — Eto moy sosed.',
+              'Who is that? — That is my neighbor.',
+            ],
+            [
+              '16',
+              'Что это? — Это словарь.',
+              'Chto eto? — Eto slovar.',
+              'What is this? — This is a dictionary.',
+            ],
+            [
+              '17',
+              'Это не ошибка, а шутка.',
+              'Eto ne oshibka, a shutka.',
+              'This is not a mistake, but a joke.',
+            ],
+            [
+              '18',
+              'Это новые студенты.',
+              'Eto novyye studenty.',
+              'These are the new students. (это stays fixed; студенты is plural)',
+            ],
+            [
+              '19',
+              'Роман называется «Преступление и наказание».',
+              'Roman nazyvayetsya "Prestupleniye i nakazaniye".',
+              'The novel is called "Crime and Punishment".',
+            ],
+            ['20', 'Вход', 'Vkhod', 'Entrance (a sign)'],
+            [
+              '21',
+              'Осторожно, ступеньки!',
+              'Ostorozhno, stupenki!',
+              'Careful, steps! (warning sign, nominative plural)',
+            ],
+            ['22', 'Пожар!', 'Pozhar!', 'Fire! (exclamation)'],
+            [
+              '23',
+              'Какая красота!',
+              'Kakaya krasota!',
+              'What beauty! (exclamation with adjective + nominative noun)',
+            ],
+            [
+              '24',
+              'Боже мой!',
+              'Bozhe moy!',
+              'My God! (fossilized vocative form — the rare exception)',
+            ],
+          ],
+        },
+      },
+      {
+        h2: 'Top 5 Nominative Case Mistakes (And How to Fix Them)',
+        content: 'The most common **errors** learners make with the nominative case:',
+        bullets: [
+          '**Using nominative for the direct object of animate nouns** — Я вижу мой друг ✗ → Я вижу моего друга ✓ (animate masculine direct objects need the accusative, which looks like the genitive)',
+          '**Forming irregular plurals with a blind -ы/-и rule** — други ✗ → друзья ✓ (irregular plurals must be memorized individually)',
+          '**Forgetting the 8-letter spelling rule in the plural** — книгы ✗ → книги ✓ (after к, spell -и, not -ы)',
+          '**Treating это as an adjective that must agree** — Эта мой брат ✗ → Это мой брат ✓ (это never changes, regardless of the gender or number of what follows)',
+          '**Using the nominative after a preposition** — в дом for location ✗ → в доме ✓ (the nominative never follows a preposition — that is actually the defining feature of the prepositional case)',
+        ],
+      },
+    ],
+    conclusion:
+      "The Russian nominative case looks deceptively simple — it's the form learned first, with mostly no endings to add. But its plural forms hide some of the trickiest irregulars in the entire language, and its overlap with the accusative case is the single most common stumbling block for early learners.\n\nTo recap: the nominative marks the **subject**, the **predicate noun** after an omitted \"to be,\" and everything following **это**. Singular endings follow gender in a predictable way; plural endings follow the **-ы/-и** pattern (with the 8-letter spelling rule) for most nouns, but a core set of high-frequency words — **друзья, братья, дети, люди, дома, города** — must be memorized individually.",
+    conclusionOutro:
+      'Ready to continue? Explore the other cases in our complete Russian grammar series:',
+    ctaText: 'Practice Russian cases with our app',
+    ctaHref: '/',
+    faq: [
+      {
+        question: 'What is the Russian nominative case used for?',
+        answer:
+          'The Russian nominative case is used for the subject of a sentence (Кошка спит — The cat sleeps), the predicate noun after an omitted form of "to be" (Она — врач — She is a doctor), naming and introducing with это (Это мой брат), and as the dictionary/citation form of every noun.',
+      },
+      {
+        question: 'Is the Russian nominative case the same as the accusative?',
+        answer:
+          'Not exactly, but they overlap for inanimate masculine and neuter nouns: Я вижу стол (I see the table) uses the same form стол as the subject form. For animate masculine nouns, the accusative instead matches the genitive (Я вижу друга — I see my friend). Feminine nouns always change their ending in the accusative (книга → книгу).',
+      },
+      {
+        question: 'How do you form the nominative plural in Russian?',
+        answer:
+          'Most masculine and feminine nouns add -ы (or -и after г, к, х, ж, ш, щ, ч, ц), while neuter nouns swap -о for -а and -е for -я. A group of common nouns is irregular and must be memorized: друг → друзья, брат → братья, стул → стулья, ребёнок → дети, человек → люди, дом → дома, город → города.',
+      },
+      {
+        question: 'Why does это not change with gender or number?',
+        answer:
+          'Это, when used to mean "this is / that is / these are," functions as an invariant pointing word rather than a true demonstrative adjective. It stays as это regardless of what follows: Это мой брат (masculine), Это моя сестра (feminine), Это мои друзья (plural).',
+      },
+      {
+        question: 'Does Russian have a separate vocative case for addressing people?',
+        answer:
+          'Not in modern standard Russian — the historical vocative case disappeared centuries ago, except for a handful of fossilized forms like Боже! (My God!) and Господи! (Lord!). To address or call out to someone today, Russian simply uses the plain nominative form: Мама! (Mom!), Андрей! (Andrey!).',
+      },
+    ],
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: 'Russian Nominative Case: Rules, Endings & 24 Real Examples',
+      description:
+        'The complete guide to the Russian nominative case: 6 core uses, singular and plural endings, irregular plurals, nominative vs accusative. 24 real examples with transliteration.',
+      datePublished: '2026-09-07',
+      dateModified: '2026-09-07',
+      author: {
+        '@type': 'Person',
+        name: 'Nathan',
+        url: 'https://russiandeclensions.com/',
+        image: 'https://russiandeclensions.com/landing-cases/founder-photo.webp',
+        description:
+          'Native French speaker learning Russian; writes about grammar, cases, and practical self-study habits.',
+        worksFor: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      },
+      publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': 'https://russiandeclensions.com/learn/articles/russian-nominative-case',
+      },
+      keywords:
+        'russian nominative case, nominative case russian, russian nominative case endings, what is the nominative case in russian, russian nominative case examples, russian nominative plural',
+      image: {
+        '@type': 'ImageObject',
+        url: 'https://russiandeclensions.com/articles/russian-nominative-case-dictionary-form.webp',
+        width: 1536,
+        height: 1024,
       },
     },
   },
