@@ -126,6 +126,10 @@ import { russianDaysMonthsGuideEs } from './articleTranslationsEs/russian-days-m
 import { russianDaysMonthsGuideIt } from './articleTranslationsIt/russian-days-months-guide';
 import { russianDaysMonthsGuidePl } from './articleTranslationsPl/russian-days-months-guide';
 import { russianDaysMonthsGuideTr } from './articleTranslationsTr/russian-days-months-guide';
+import { russianNominativeCaseFr } from './articleTranslationsFr/russian-nominative-case';
+import { russianNominativeCaseDe } from './articleTranslationsDe/russian-nominative-case';
+import { russianNominativeCaseTr } from './articleTranslationsTr/russian-nominative-case';
+import { russianNominativeCasePl } from './articleTranslationsPl/russian-nominative-case';
 
 export const learnArticleTranslations: Partial<
   Record<string, Partial<Record<LandingLanguage, LearnArticle>>>
@@ -688,5 +692,11 @@ export const learnArticleTranslations: Partial<
     it_it: russianDaysMonthsGuideIt,
     pl_pl: russianDaysMonthsGuidePl,
     tr_tr: russianDaysMonthsGuideTr,
+  },
+  'russian-nominative-case': {
+    fr_fr: russianNominativeCaseFr,
+    de_de: russianNominativeCaseDe,
+    tr_tr: russianNominativeCaseTr,
+    pl_pl: russianNominativeCasePl,
   },
 };
