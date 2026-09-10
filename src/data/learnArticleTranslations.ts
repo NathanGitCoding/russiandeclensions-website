@@ -126,6 +126,10 @@ import { russianDaysMonthsGuideEs } from './articleTranslationsEs/russian-days-m
 import { russianDaysMonthsGuideIt } from './articleTranslationsIt/russian-days-months-guide';
 import { russianDaysMonthsGuidePl } from './articleTranslationsPl/russian-days-months-guide';
 import { russianDaysMonthsGuideTr } from './articleTranslationsTr/russian-days-months-guide';
+import { russianNounGenderGuideFr } from './articleTranslationsFr/russian-noun-gender-guide';
+import { russianNounGenderGuideDe } from './articleTranslationsDe/russian-noun-gender-guide';
+import { russianNounGenderGuideTr } from './articleTranslationsTr/russian-noun-gender-guide';
+import { russianNounGenderGuidePl } from './articleTranslationsPl/russian-noun-gender-guide';
 
 export const learnArticleTranslations: Partial<
   Record<string, Partial<Record<LandingLanguage, LearnArticle>>>
@@ -688,5 +692,11 @@ export const learnArticleTranslations: Partial<
     it_it: russianDaysMonthsGuideIt,
     pl_pl: russianDaysMonthsGuidePl,
     tr_tr: russianDaysMonthsGuideTr,
+  },
+  'russian-noun-gender-guide': {
+    fr_fr: russianNounGenderGuideFr,
+    de_de: russianNounGenderGuideDe,
+    tr_tr: russianNounGenderGuideTr,
+    pl_pl: russianNounGenderGuidePl,
   },
 };

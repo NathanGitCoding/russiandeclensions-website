@@ -11115,6 +11115,304 @@ export const learnArticles: Record<string, LearnArticle> = {
       },
     },
   },
+  'russian-noun-gender-guide': {
+    slug: 'russian-noun-gender-guide',
+    introByline: ARTICLE_BYLINE,
+    title: 'Russian Noun Gender: Masculine, Feminine, Neuter (Complete Guide)',
+    metaTitle:
+      'Russian Noun Gender: Masculine, Feminine, Neuter Explained | Russian Cases with Anna',
+    metaDescription:
+      'Learn how to tell Russian noun gender from its ending, the -ь nouns that trip everyone up, the exceptions (кофе, папа), and how gender controls adjectives, verbs, and cases.',
+    keywords: [
+      'russian noun gender',
+      'masculine feminine neuter russian',
+      'how to tell gender of russian nouns',
+      'russian grammatical gender',
+      'russian noun endings gender rules',
+      'russian soft sign gender',
+      'russian noun gender exceptions',
+      'russian adjective agreement gender',
+      'is кофе masculine or neuter',
+      'russian gender guide',
+    ],
+    h1: 'Russian Noun Gender: Masculine, Feminine, Neuter (Complete Guide)',
+    heroImage: {
+      src: '/articles/russian-noun-gender-chalkboard.webp',
+      alt: 'A chalkboard sorting Russian nouns into masculine, feminine, and neuter columns',
+      width: 1536,
+      height: 1024,
+    },
+    intro:
+      'Every Russian noun belongs to one of three genders — masculine, feminine, or neuter — and that single label quietly controls almost everything else in the sentence around it. Pick the wrong gender and the adjective, the possessive pronoun, the past-tense verb, and eventually the case ending that follows can all come out wrong, even when the noun itself is perfect.\n\nThe good news is that Russian gender is **not random**. **About 90% of nouns reveal their gender through their final letter alone** — a fast, reliable shortcut once you know the pattern. The bad news is the other 10%: nouns ending in the soft sign **-ь** can be either masculine or feminine with no visual clue, and a handful of everyday words (папа, кофе) simply ignore the spelling rule because meaning wins.\n\nThis guide gives you the ending rule that covers most nouns, the -ь trap and the shortcut that tames it, the exceptions worth memorising by heart, and exactly how gender radiates outward into adjectives, past-tense verbs, and the six-case system itself.',
+    whatYouLearn: [
+      'The three-way ending rule that predicts gender for about **90% of Russian nouns**',
+      'Why nouns ending in **-ь** are the biggest gender trap — and the **-ость** shortcut that helps',
+      'The exceptions where natural gender beats spelling (**папа**, **дедушка**) and where loanwords default to neuter (**кино**, **пальто**)',
+      'How gender controls **adjective endings**, **possessive pronouns**, and **past-tense verbs**',
+      'Why gender is the real starting point for learning **Russian case endings**',
+    ],
+    leadMagnetCta: {
+      title: 'Master Russian cases beyond gender — free app',
+      description:
+        'Gender is just the first layer — every noun then declines differently across six cases depending on that gender. Russian Cases with Anna gives you structured lessons and smart quizzes to make every case automatic — free on iOS and Android.',
+      ctaText: 'Download the app — Free',
+      ctaHref: '/',
+    },
+    sections: [
+      {
+        h2: 'Why Russian Noun Gender Matters (It Is Not Just a Label)',
+        content:
+          'In English, grammatical gender is invisible — "table" and "chair" need no gender agreement anywhere else in the sentence. In Russian, gender is **structural**: it decides the ending of any adjective describing the noun, the form of possessive pronouns like "my" or "your", the ending of past-tense verbs when that noun is the subject, and — later on — which set of six case endings the noun follows for the rest of its grammatical life.\n\nLook at how much changes across three otherwise identical sentences, just because the noun\'s gender changes:',
+        table: {
+          headers: ['Gender', 'Russian', 'English'],
+          rows: [
+            ['Masculine', 'Мой новый дом стоял здесь.', 'My new house stood here.'],
+            ['Feminine', 'Моя новая книга лежала здесь.', 'My new book lay here.'],
+            ['Neuter', 'Моё новое окно было здесь.', 'My new window was here.'],
+          ],
+          caption: 'The same sentence pattern, three genders: pronoun, adjective, and verb all change',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          'The possessive pronoun changes: **мой → моя → моё** ("my")',
+          'The adjective ending changes: **новый → новая → новое** ("new")',
+          'The past-tense verb ending changes: **стоял → лежала → было** (agreement, not meaning)',
+          'Later, the **case endings** attached to the noun itself also depend on this same gender',
+        ],
+      },
+      {
+        h2: 'How to Identify Gender by Noun Ending (the 90% Rule)',
+        content:
+          'For the large majority of Russian nouns, you can read the gender directly off the last letter in the **dictionary form** (nominative singular). Learn this table and you can guess correctly almost every time you meet a new noun.',
+        table: {
+          headers: ['Ending', 'Gender', 'Examples'],
+          rows: [
+            ['Consonant', 'Masculine', 'стол (table), дом (house), город (city)'],
+            ['-й', 'Masculine', 'музей (museum), герой (hero), чай (tea)'],
+            ['-а', 'Feminine', 'книга (book), школа (school), мама (mom)'],
+            ['-я', 'Feminine', 'неделя (week), земля (land), тётя (aunt)'],
+            ['-о', 'Neuter', 'окно (window), слово (word), молоко (milk)'],
+            ['-е / -ё', 'Neuter', 'море (sea), поле (field), бельё (linen)'],
+            ['-ь', 'Masculine **or** Feminine', 'see the next section — this is the one exception'],
+          ],
+          caption: 'Predicting Russian noun gender from the final letter',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          'A noun ending in a **hard consonant** or **-й** is almost always masculine — no exceptions worth worrying about at this stage',
+          'A noun ending in **-о** or **-е/-ё** is almost always neuter',
+          'A noun ending in **-а** or **-я** is usually feminine — but watch the exceptions section below, because this is where meaning can override spelling',
+          'This rule works on the **dictionary (nominative singular) form** only — endings change once a noun is declined, so always check the base form first',
+        ],
+      },
+      {
+        h2: 'The Soft Sign Trap: Nouns Ending in -ь',
+        content:
+          'Nouns ending in the soft sign **-ь** are the one place where the spelling gives you no clue at all — they can be masculine or feminine, and both groups are common. There is no visual shortcut here; native speakers simply know each word, and learners have to memorise the list.',
+        table: {
+          headers: ['Feminine -ь nouns', 'Masculine -ь nouns'],
+          rows: [
+            ['ночь (night)', 'день (day)'],
+            ['дверь (door)', 'конь (horse)'],
+            ['мышь (mouse)', 'словарь (dictionary)'],
+            ['кровать (bed)', 'учитель (teacher)'],
+            ['тетрадь (notebook)', 'дождь (rain)'],
+            ['любовь (love)', 'гость (guest)'],
+            ['осень (autumn)', 'рубль (ruble)'],
+          ],
+          caption: 'Common -ь nouns split by gender — no spelling rule distinguishes them',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          'The one reliable shortcut: nouns ending in **-ость** or **-есть** are almost always feminine — радость (joy), скорость (speed), известность (fame)',
+          'Beyond that suffix, there is no pattern by sound or spelling — **дверь** and **словарь** rhyme but have opposite genders',
+          'When you learn a new -ь noun, learn it with a matching adjective or number (**одна дверь**, "one door") so the gender sticks with the word from day one',
+          'This is the single biggest source of gender mistakes among intermediate learners — budget real memorisation time for it',
+        ],
+      },
+      {
+        h2: 'Common Exceptions That Break the Ending Rule',
+        content:
+          'A small number of everyday words ignore the ending rule entirely, for two different reasons: **natural gender** (a person\'s real-world sex overrides the spelling) and **indeclinable loanwords** (borrowed words that never change form and default to neuter unless meaning says otherwise).',
+        table: {
+          headers: ['Word', 'Ending suggests', 'Actual gender', 'Why'],
+          rows: [
+            ['папа (dad)', 'Feminine (-а)', 'Masculine', 'Natural gender: the person is male'],
+            ['дедушка (grandpa)', 'Feminine (-а)', 'Masculine', 'Natural gender: the person is male'],
+            ['дядя (uncle)', 'Feminine (-я)', 'Masculine', 'Natural gender: the person is male'],
+            ['мужчина (man)', 'Feminine (-а)', 'Masculine', 'Natural gender: the person is male'],
+            ['кофе (coffee)', 'No ending / neuter-like', 'Masculine (traditionally)', 'Fixed by convention; neuter is common in casual speech but marked non-standard'],
+            ['кино (cinema)', 'Looks neuter (-о)', 'Neuter', 'Indeclinable loanword — default gender for borrowed inanimate nouns'],
+            ['пальто (coat)', 'Looks neuter (-о)', 'Neuter', 'Indeclinable loanword — default gender'],
+            ['такси (taxi)', 'No clear ending', 'Neuter', 'Indeclinable loanword — default gender'],
+          ],
+          caption: 'Exceptions: when natural gender or loanword convention overrides the ending rule',
+          boldColumnIndices: [0, 2],
+        },
+        bullets: [
+          'A handful of **-а/-я nouns for male people** (папа, дедушка, дядя, мужчина) are grammatically masculine — they still take masculine adjectives and past-tense verbs: **мой добрый дедушка** ("my kind grandpa")',
+          'Indeclinable loanwords (ending in a vowel that never changes: -о, -е, -и, -у) default to **neuter** unless the word\'s meaning points elsewhere — **кофе** is the famous exception, kept masculine by long-standing convention',
+          'A few loanwords take their gender from the **category** they belong to: **авеню** (avenue) is feminine because "улица" (street) is feminine — meaning, not spelling, decides',
+          'These exceptions are a short, learnable list — do not let them shake your confidence in the 90% ending rule',
+        ],
+      },
+      {
+        h2: 'How Gender Controls Adjective and Pronoun Agreement',
+        content:
+          'Every adjective and possessive pronoun in Russian must **agree in gender** with the noun it describes. In the nominative case, each gender has its own dedicated adjective ending — this is the first place beginners consciously "feel" gender at work.',
+        table: {
+          headers: ['Gender', 'Adjective ending', 'Example', 'Meaning'],
+          rows: [
+            ['Masculine', '-ый / -ий', 'новый дом', 'a new house'],
+            ['Feminine', '-ая / -яя', 'новая книга', 'a new book'],
+            ['Neuter', '-ое / -ее', 'новое окно', 'a new window'],
+          ],
+          caption: 'Adjective agreement by gender (nominative case)',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          'Possessive pronouns follow the same three-way split: **мой чай** (my tea, masc.), **моя сумка** (my bag, fem.), **моё имя** (my name, neut.)',
+          'The demonstrative "this" does the same: **этот дом**, **эта книга**, **это окно**',
+          'This agreement is not optional style — using the wrong ending is a grammar error, not just an accent',
+        ],
+      },
+      {
+        h2: 'How Gender Controls Past-Tense Verbs',
+        content:
+          'Russian past-tense verbs agree with the gender of their subject in the singular — a feature English lost centuries ago, so it often surprises learners. The verb itself does not change meaning; only its ending shifts to match who or what did the action.',
+        table: {
+          headers: ['Subject gender', 'Example', 'Meaning'],
+          rows: [
+            ['Masculine', 'Он читал.', 'He read / was reading.'],
+            ['Feminine', 'Она читала.', 'She read / was reading.'],
+            ['Neuter', 'Оно читало.', 'It read / was reading.'],
+          ],
+          caption: 'Past-tense verb agreement by subject gender',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          'The pattern is simple once you see it: **-л** (masc.), **-ла** (fem.), **-ло** (neut.), **-ли** (any plural)',
+          'This is why you must know a noun\'s gender even for a simple past-tense sentence — "the book fell" is **книга упала**, not упал or упало',
+          'The rule applies to the noun\'s **grammatical gender**, not necessarily biological sex, for inanimate objects',
+        ],
+      },
+      {
+        h2: 'How Gender Shapes Case Endings (the Bigger Picture)',
+        content:
+          'Gender is not just about adjectives and past tense — it is the **organising principle** behind the entire six-case declension system. Masculine, feminine, and neuter nouns each follow a different pattern of endings as they move through the nominative, genitive, dative, accusative, instrumental, and prepositional cases. Learn a noun\'s gender first, and the rest of its declension becomes a matter of applying the right pattern rather than guessing from scratch.\n\nIf you have not yet worked through the individual cases, our [complete guide to Russian case endings](/learn/articles/russian-case-endings-cheatsheet) groups every ending by gender, and [Russian Cases Explained: A Beginner\'s Guide](/learn/articles/russian-cases-explained-beginners-guide) is the best next stop after this article.',
+        bullets: [
+          'Feminine -а/-я nouns share one declension pattern; masculine consonant/-й nouns share another; neuter -о/-е nouns share a third',
+          '-ь nouns split their declension pattern by gender too — another reason the masculine/feminine split matters, not just the spelling',
+          'Once gender is automatic, every new noun you learn slots directly into a known declension pattern instead of requiring separate memorisation',
+        ],
+      },
+      {
+        h2: 'Common Mistakes with Russian Noun Gender',
+        bullets: [
+          '**Assuming every -а/-я noun is feminine.** Words for male people (папа, дедушка, дядя, мужчина) stay masculine no matter the ending — check meaning first, spelling second.',
+          '**Guessing -ь nouns from sound alone.** дверь (fem.) and словарь (masc.) rhyme but have opposite genders — there is no shortcut besides memorisation and the -ость pattern.',
+          '**Using neuter adjectives with кофе.** Traditional Russian keeps кофе masculine (**чёрный кофе**, not чёрное кофе), even though many native speakers use neuter casually — the masculine form is still what grammar guides and exams expect.',
+          '**Forgetting that indeclinable loanwords still have a gender.** Words like пальто, метро, and такси never change their ending, but they are still grammatically neuter and need neuter adjectives: **новое пальто** (a new coat).',
+          '**Mixing up masculine and feminine adjective endings under time pressure.** -ый/-ая and -ой/-ая look similar at speed — slow down on new vocabulary until the pairing feels automatic.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'How many genders does Russian have?',
+        answer:
+          'Russian has **three grammatical genders**: masculine, feminine, and neuter. Every noun belongs to exactly one of them, and that choice controls the form of adjectives, possessive pronouns, past-tense verbs, and case endings used with that noun.',
+      },
+      {
+        question: 'How do you know if a Russian noun is masculine or feminine?',
+        answer:
+          'Check the **last letter of the dictionary (nominative singular) form**: a consonant or **-й** is usually masculine, **-а/-я** is usually feminine, and **-о/-е** is usually neuter. This rule covers roughly 90% of nouns. Nouns ending in the soft sign **-ь** are the exception — they can be either masculine or feminine and must be memorised individually.',
+      },
+      {
+        question: 'Are all Russian nouns ending in -а feminine?',
+        answer:
+          'Almost, but not quite. A handful of words for **male people** — папа (dad), дедушка (grandpa), дядя (uncle), мужчина (man) — end in -а or -я but are grammatically **masculine** because natural gender overrides the spelling rule. They still take masculine adjectives and past-tense verbs.',
+      },
+      {
+        question: 'What gender is кофе (coffee) in Russian?',
+        answer:
+          'Traditionally and grammatically, **кофе is masculine** (**чёрный кофе**, "black coffee") even though it is an indeclinable loanword that looks like it should default to neuter. Neuter agreement (**чёрное кофе**) is common in casual speech but is still considered non-standard by most grammar references and exams.',
+      },
+      {
+        question: 'Does a noun\'s gender change in the plural?',
+        answer:
+          'No — a noun keeps the same grammatical gender in every case and number, but in the **plural, adjectives and past-tense verbs no longer distinguish gender**: all three genders share the same plural adjective ending (**новые**) and the same plural past-tense ending (**читали**). Gender agreement only matters in the singular.',
+      },
+    ],
+    conclusion:
+      'Russian noun gender looks intimidating at first because it touches so much of the sentence — adjectives, pronouns, verbs, and eventually every case ending. In practice, it comes down to one reliable rule that covers most nouns, one genuinely tricky group (-ь nouns) that simply needs memorisation, and a short list of exceptions worth learning by heart.\n\nThe fastest way to make gender automatic is to attach it to every new word from day one: learn nouns with their adjective (**новый дом**, **новая книга**, **новое окно**) rather than in isolation, so the gender is never a separate fact you have to recall later.',
+    conclusionBullets: [
+      'Three genders: **masculine, feminine, neuter** — every noun has exactly one',
+      'The 90% rule: **consonant/-й = masculine**, **-а/-я = feminine**, **-о/-е = neuter**',
+      '**-ь nouns** are the real exception — no spelling clue, memorise each one (the **-ость** suffix is reliably feminine)',
+      'A short exception list to learn by heart: **папа, дедушка, дядя** (masculine despite -а/-я), **кофе** (masculine), **кино/пальто/такси** (neuter loanwords)',
+      'Gender drives **adjective endings, possessive pronouns, past-tense verbs**, and the entire **case declension system**',
+    ],
+    conclusionOutro:
+      'Gender is the foundation everything else in Russian grammar is built on. Once it is automatic, learning the six cases stops being six separate mysteries and becomes three familiar patterns applied consistently — **that shift is what makes fluent-sounding Russian possible.**',
+    ctaText: 'Download Russian Cases with Anna — Free',
+    ctaHref: '/',
+    internalLinks: [
+      {
+        href: '/learn/articles/russian-case-endings-cheatsheet',
+        label: 'Russian Case Endings: The Ultimate Cheat Sheet & Chart',
+      },
+      {
+        href: '/learn/articles/russian-cases-explained-beginners-guide',
+        label: "Russian Cases Explained Simply: A Beginner's Visual Guide",
+      },
+      {
+        href: '/learn/articles/russian-genitive-case',
+        label: 'The Russian Genitive Case: Complete Guide',
+      },
+      {
+        href: '/learn/articles/russian-accusative-case',
+        label: 'The Russian Accusative Case: Complete Guide',
+      },
+      {
+        href: '/learn/articles/russian-alphabet-cyrillic-guide',
+        label: 'The Russian Alphabet: A Complete Guide to Cyrillic',
+      },
+      { href: '/practice', label: 'Free Russian Declension Quiz (all six cases)' },
+      { href: '/words', label: 'Browse 400+ Russian Words with Full Declension Tables' },
+    ],
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: 'Russian Noun Gender: Masculine, Feminine, Neuter (Complete Guide)',
+      description:
+        'Learn how to tell Russian noun gender from its ending, the -ь nouns that trip everyone up, the exceptions (кофе, папа), and how gender controls adjectives, verbs, and cases.',
+      datePublished: '2026-09-10',
+      dateModified: '2026-09-10',
+      author: {
+        '@type': 'Person',
+        name: 'Nathan',
+        url: 'https://russiandeclensions.com/',
+        image: 'https://russiandeclensions.com/landing-cases/founder-photo.webp',
+        description:
+          'Native French speaker learning Russian; writes about grammar, cases, and practical self-study habits.',
+        worksFor: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      },
+      publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': 'https://russiandeclensions.com/learn/articles/russian-noun-gender-guide',
+      },
+      keywords:
+        'russian noun gender, masculine feminine neuter russian, how to tell gender of russian nouns, russian grammatical gender, russian soft sign gender, russian noun gender exceptions',
+      image: {
+        '@type': 'ImageObject',
+        url: 'https://russiandeclensions.com/articles/russian-noun-gender-chalkboard.webp',
+        width: 1536,
+        height: 1024,
+      },
+    },
+  },
 };
 
 import type { LandingLanguage } from '@/data/website/landingTranslations';
