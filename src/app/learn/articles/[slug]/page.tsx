@@ -952,10 +952,6 @@ export default async function LearnArticlePage({ params }: Props) {
           <span className="learn-breadcrumb-current">{article.h1}</span>
         </nav>
 
-        {article.tierListChart && article.tierListChart.tiers.length > 0 ? (
-          <LearnArticleTierListChart chart={article.tierListChart} />
-        ) : null}
-
         <header className="learn-detail-header">
           <Link href="/learn" className="learn-detail-back">
             {t.backToLearn}
@@ -1052,6 +1048,10 @@ export default async function LearnArticlePage({ params }: Props) {
         </header>
 
         <div className="learn-detail-body">
+          {article.tierListChart && article.tierListChart.tiers.length > 0 ? (
+            <LearnArticleTierListChart chart={article.tierListChart} />
+          ) : null}
+
           {article.sections && article.sections.length > 0 ? (
             <>
               {article.sections.map((section, idx) => {

@@ -203,6 +203,12 @@ export const learnArticles: Record<string, LearnArticle> = {
       'rosetta stone russian',
     ],
     h1: 'Top 11 Apps to Learn Russian in 2026: Deep Reviews & Rankings',
+    heroImage: {
+      src: '/articles/top-10-apps-to-learn-russian-2026.webp',
+      alt: 'A learner comparing six Russian learning apps — Duolingo, Babbel, Rosetta Stone, Busuu, Memrise, and Pimsleur — side by side on phones',
+      width: 794,
+      height: 446,
+    },
     intro:
       'Learning Russian in 2026 no longer looks like a dusty textbook and a red-pen workbook. Speech recognition, spaced-repetition titans, AI conversation partners, and specialist grammar drills are mainstream—which is exciting until you realise **more** apps means **harder** choices, not simpler ones.\n\nThe App Store and Play Store are crowded with Russian products, each promising fluency on a tight schedule. The real risk is not downloading a "bad" app; it is losing months to the **wrong stack for your goal**—pretty streaks when you need disciplined case practice, or endless gamification when what you actually need is endings you can deploy under pressure in real sentences.\n\nWe have spent 100+ hours testing the latest updates, flagship courses, tutor marketplaces, and niche drill tools to bring you a **definitive ranking of the best Russian learning apps** this year. We stress-tested more than thirty iOS, Android, and web tools—subscriptions, freemium giants, audio-first programmes, community-feedback apps, and case-focused trainers—and narrowed the field to **eleven you can trust**. The picks below are mapped to how people actually study: **daily habit**, **structured scenarios**, **Russian cases and declensions**, **human tutoring**, **audio-first learning**, **memory-driven vocabulary**, **story and podcast immersion**, and **fast pattern practice** once the basics stick.\n\nIf your bottleneck is **Russian cases** (not tourist phrases alone), start with our method piece: [How to practice Russian cases: five methods, drills & a weekly habit](/learn/articles/how-to-practice-russian-cases)—then come back here to choose apps that match how you really learn.',
     introByline: ARTICLE_BYLINE,
@@ -530,8 +536,9 @@ export const learnArticles: Record<string, LearnArticle> = {
           height: 256,
         },
         screenshots: [
-          { src: '/articles/app-screenshots/russian-cases-with-anna/1.jpg', alt: 'Russian Cases with Anna screenshot 1', width: 390, height: 1400 },
-          { src: '/articles/app-screenshots/russian-cases-with-anna/2.jpg', alt: 'Russian Cases with Anna screenshot 2', width: 390, height: 1400 },
+          { src: '/articles/app-screenshots/russian-cases-with-anna/1.jpg', alt: 'Russian Cases with Anna app screenshot 1', width: 480, height: 1091 },
+          { src: '/articles/app-screenshots/russian-cases-with-anna/2.jpg', alt: 'Russian Cases with Anna app screenshot 2', width: 480, height: 1091 },
+          { src: '/articles/app-screenshots/russian-cases-with-anna/3.jpg', alt: 'Russian Cases with Anna app screenshot 3', width: 480, height: 1091 },
         ],
         rating: 9,
         pros: [

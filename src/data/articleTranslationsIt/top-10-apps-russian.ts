@@ -352,8 +352,9 @@ export const top10AppsRussianIt: LearnArticle = {
         height: 256,
       },
       screenshots: [
-        { src: '/articles/app-screenshots/russian-cases-with-anna/1.jpg', alt: 'Russian Cases with Anna screenshot 1', width: 390, height: 1400 },
-        { src: '/articles/app-screenshots/russian-cases-with-anna/2.jpg', alt: 'Russian Cases with Anna screenshot 2', width: 390, height: 1400 },
+        { src: '/articles/app-screenshots/russian-cases-with-anna/1.jpg', alt: 'Russian Cases with Anna app screenshot 1', width: 480, height: 1091 },
+        { src: '/articles/app-screenshots/russian-cases-with-anna/2.jpg', alt: 'Russian Cases with Anna app screenshot 2', width: 480, height: 1091 },
+        { src: '/articles/app-screenshots/russian-cases-with-anna/3.jpg', alt: 'Russian Cases with Anna app screenshot 3', width: 480, height: 1091 },
       ],
       rating: 9,
       pros: [
