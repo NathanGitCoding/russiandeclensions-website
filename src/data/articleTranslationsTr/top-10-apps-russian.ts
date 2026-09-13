@@ -4,21 +4,22 @@ import { TOP_10_APPS_RUSSIAN_ARTICLE_JSONLD_EXTRAS } from '../learnArticleStatic
 /** `top-10-apps-russian` makalesinin Türkçe çevirisi (EN kaynak: `learnArticles.ts`). */
 export const top10AppsRussianTr: LearnArticle = {
   slug: 'top-10-apps-russian',
-  title: "2026'da Rusça öğrenmek için en iyi 10 uygulama",
+  title: "2026'da Rusça öğrenmek için en iyi 11 uygulama",
   metaTitle:
-    "2026'da Rusça öğrenmek için en iyi 10 uygulama: derinlemesine incelemeler ve sıralama | Russian Cases with Anna",
+    "2026'da Rusça öğrenmek için en iyi 11 uygulama: derinlemesine incelemeler ve sıralama | Russian Cases with Anna",
   metaDescription:
-    '2026 genel amaçlı top 10 Rusça uygulama sıralaması: alışkanlık, konuşma, ses, özel ders ve hâller — iOS, Android ve web testleri. Yalnızca dilbilgisine odaklı 8 uygulama incelemesinden ayrıdır.',
+    '2026 genel amaçlı top 11 Rusça uygulama sıralaması: alışkanlık, konuşma, ses, özel ders ve hâller — iOS, Android ve web testleri. Yalnızca dilbilgisine odaklı 8 uygulama incelemesinden ayrıdır.',
   keywords: [
     'Rusça öğrenme uygulaması',
     'en iyi Rusça uygulamaları',
     'Rusça dilbilgisi uygulaması',
     'Rusça hâl uygulaması',
     'Rusça öğrenmek için uygulamalar',
+    'rosetta stone rusça',
   ],
-  h1: "2026'da Rusça öğrenmek için en iyi 10 uygulama: derinlemesine incelemeler ve sıralama",
+  h1: "2026'da Rusça öğrenmek için en iyi 11 uygulama: derinlemesine incelemeler ve sıralama",
   intro:
-    '2026’da Rusça öğrenmek artık tozlu bir ders kitabı ve kırmızı kalemle düzeltilmiş defter demek değil. Konuşma tanıma, aralıklı tekrar devleri, yapay zekâ sohbetleri ve uzman dilbilgisi çalışmaları ana akım — heyecan verici, ta ki **daha fazla** uygulamanın **daha zor** seçimler demek olduğunu fark edene kadar.\n\nApp Store ve Play Store, her biri rekor sürede akıcılık vaat eden Rusça ürünleriyle dolu. Asıl risk “kötü” bir uygulama indirmek değil; **hedefinize uymayan bir yığına** aylar harcamak — disiplinli hâl çalışması gerektiğinde şık seriler, ya da gerçek cümlelerde baskı altında kullanılabilen ekler gerektiğinde sonsuz oyunlaştırma.\n\nBu yıl size **güvenilir bir en iyi Rusça uygulamaları sıralaması** sunmak için güncellemeleri, amiral gemisi kursları, öğretmen pazar yerlerini ve niş tekrar araçlarını test etmek için **100 saatin üzerinde** zaman harcadık. Otuzdan fazla iOS, Android ve web aracını zorladık — abonelikler, freemium devleri, önce ses odaklı programlar, topluluk geri bildirimi ve hâl odaklı antrenörler — ve alanı güvenebileceğiniz **on** uygulamaya indirdik. Aşağıdaki seçimler gerçek çalışma profillerine göre: **günlük alışkanlık**, **yapılandırılmış senaryolar**, **Rusça hâlleri ve çekimler**, **insanla özel ders**, **önce ses**, **hafızaya dayalı kelime hazinesi**, **hikâye ve podcastle içerik** ve temeller oturduktan sonra **hızlı kalıp pratiği**.\n\nDarboğazınız **Rusça hâlleri** ise (yalnızca turist kalıpları değil), önce yöntem rehberimizle başlayın: [Rusça hâllerinde pratik: yöntem, tekrar ve haftalık alışkanlık](/learn/articles/how-to-practice-russian-cases) — ardından buraya dönüp gerçekten nasıl çalıştığınıza uyan uygulamaları seçin.',
+    '2026’da Rusça öğrenmek artık tozlu bir ders kitabı ve kırmızı kalemle düzeltilmiş defter demek değil. Konuşma tanıma, aralıklı tekrar devleri, yapay zekâ sohbetleri ve uzman dilbilgisi çalışmaları ana akım — heyecan verici, ta ki **daha fazla** uygulamanın **daha zor** seçimler demek olduğunu fark edene kadar.\n\nApp Store ve Play Store, her biri rekor sürede akıcılık vaat eden Rusça ürünleriyle dolu. Asıl risk “kötü” bir uygulama indirmek değil; **hedefinize uymayan bir yığına** aylar harcamak — disiplinli hâl çalışması gerektiğinde şık seriler, ya da gerçek cümlelerde baskı altında kullanılabilen ekler gerektiğinde sonsuz oyunlaştırma.\n\nBu yıl size **güvenilir bir en iyi Rusça uygulamaları sıralaması** sunmak için güncellemeleri, amiral gemisi kursları, öğretmen pazar yerlerini ve niş tekrar araçlarını test etmek için **100 saatin üzerinde** zaman harcadık. Otuzdan fazla iOS, Android ve web aracını zorladık — abonelikler, freemium devleri, önce ses odaklı programlar, topluluk geri bildirimi ve hâl odaklı antrenörler — ve alanı güvenebileceğiniz **on bir** uygulamaya indirdik. Aşağıdaki seçimler gerçek çalışma profillerine göre: **günlük alışkanlık**, **yapılandırılmış senaryolar**, **Rusça hâlleri ve çekimler**, **insanla özel ders**, **önce ses**, **hafızaya dayalı kelime hazinesi**, **hikâye ve podcastle içerik** ve temeller oturduktan sonra **hızlı kalıp pratiği**.\n\nDarboğazınız **Rusça hâlleri** ise (yalnızca turist kalıpları değil), önce yöntem rehberimizle başlayın: [Rusça hâllerinde pratik: yöntem, tekrar ve haftalık alışkanlık](/learn/articles/how-to-practice-russian-cases) — ardından buraya dönüp gerçekten nasıl çalıştığınıza uyan uygulamaları seçin.',
   introByline: {
     text: '**Nathan yazdı** — anadili Fransızca; Rusça öğreniyorum ve dilbilgisi, hâller ve günlük pratikte gerçekten işe yarayanları paylaşıyorum.',
     imageSrc: '/landing-cases/founder-photo.webp',
@@ -81,6 +82,12 @@ export const top10AppsRussianTr: LearnArticle = {
           {
             src: '/articles/logos/Pimsleur-app-icon-logo.webp',
             alt: 'Pimsleur',
+            width: 256,
+            height: 256,
+          },
+          {
+            src: '/articles/logos/rosetta-stone-icon-app-logo.webp',
+            alt: 'Rosetta Stone',
             width: 256,
             height: 256,
           },
@@ -165,7 +172,7 @@ export const top10AppsRussianTr: LearnArticle = {
       },
     ],
   },
-  comparisonTableTitle: '10 uygulama bir bakışta',
+  comparisonTableTitle: '11 uygulama bir bakışta',
   comparisonTableIntro:
     'Bu tabloyu 2026 sıralamamızdaki her mobil uygulama için **harita** gibi kullanın — önceliğiniz **günlük Rusça alışkanlığı**, **yapılandırılmış dilbilgisi dersleri**, **hâller ve çekimler**, **ana dili konuşanlarla dinleme**, **yazı geri bildirimi**, **canlı özel ders** veya kısa **kelime hazinesi** seansları olsun. Her satır aracın en iyi ne yaptığını özetler; aşağıdaki **derinlemesine incelemelere** geçmeden önce seviye ve hedeflerinize uygun uygulamaları ön seçmek için.',
   itemsSectionTitle: 'Derinlemesine incelemeler',
@@ -197,6 +204,12 @@ export const top10AppsRussianTr: LearnArticle = {
       {
         src: '/articles/logos/Pimsleur-app-icon-logo.webp',
         alt: 'Pimsleur',
+        width: 256,
+        height: 256,
+      },
+      {
+        src: '/articles/logos/rosetta-stone-icon-app-logo.webp',
+        alt: 'Rosetta Stone',
         width: 256,
         height: 256,
       },
@@ -246,6 +259,10 @@ export const top10AppsRussianTr: LearnArticle = {
         'En uygun': 'Önce ses: telaffuz ve konuşma',
       },
       {
+        Uygulama: '**Rosetta Stone**',
+        'En uygun': 'Çevirisiz daldırma, sezgi geliştirme',
+      },
+      {
         Uygulama: '**italki**',
         'En uygun': 'Öğretmenlerle bire bir ders',
       },
@@ -275,6 +292,11 @@ export const top10AppsRussianTr: LearnArticle = {
         width: 256,
         height: 256,
       },
+      screenshots: [
+        { src: '/articles/app-screenshots/duolingo/1.jpg', alt: 'Duolingo screenshot 1', width: 480, height: 1039 },
+        { src: '/articles/app-screenshots/duolingo/2.jpg', alt: 'Duolingo screenshot 2', width: 480, height: 1039 },
+        { src: '/articles/app-screenshots/duolingo/3.jpg', alt: 'Duolingo screenshot 3', width: 480, height: 1039 },
+      ],
       rating: 7,
       pros: [
         'Güçlü oyunlaştırma ve geri dönüş — uygulama sizi gerçekten yarın da görmek istiyor',
@@ -299,6 +321,11 @@ export const top10AppsRussianTr: LearnArticle = {
         width: 256,
         height: 256,
       },
+      screenshots: [
+        { src: '/articles/app-screenshots/babbel/1.jpg', alt: 'Babbel screenshot 1', width: 480, height: 853 },
+        { src: '/articles/app-screenshots/babbel/2.jpg', alt: 'Babbel screenshot 2', width: 480, height: 853 },
+        { src: '/articles/app-screenshots/babbel/3.jpg', alt: 'Babbel screenshot 3', width: 480, height: 853 },
+      ],
       rating: 8,
       pros: [
         'Dilbilgisi diyaloglara örülür — kurallar ihtiyaç duyduğunuzda gelir',
@@ -323,6 +350,10 @@ export const top10AppsRussianTr: LearnArticle = {
         width: 256,
         height: 256,
       },
+      screenshots: [
+        { src: '/articles/app-screenshots/russian-cases-with-anna/1.jpg', alt: 'Russian Cases with Anna screenshot 1', width: 390, height: 1400 },
+        { src: '/articles/app-screenshots/russian-cases-with-anna/2.jpg', alt: 'Russian Cases with Anna screenshot 2', width: 390, height: 1400 },
+      ],
       rating: 9,
       pros: [
         'Altı hâlin tamamı için yapılandırılmış dersler + sınav',
@@ -346,6 +377,11 @@ export const top10AppsRussianTr: LearnArticle = {
         width: 256,
         height: 256,
       },
+      screenshots: [
+        { src: '/articles/app-screenshots/memrise/1.jpg', alt: 'Memrise screenshot 1', width: 480, height: 853 },
+        { src: '/articles/app-screenshots/memrise/2.jpg', alt: 'Memrise screenshot 2', width: 480, height: 853 },
+        { src: '/articles/app-screenshots/memrise/3.jpg', alt: 'Memrise screenshot 3', width: 480, height: 853 },
+      ],
       rating: 7,
       pros: [
         'Ana dil video klipleri kulağı ayarlamada sentetik sesleri yener',
@@ -370,6 +406,11 @@ export const top10AppsRussianTr: LearnArticle = {
         width: 256,
         height: 256,
       },
+      screenshots: [
+        { src: '/articles/app-screenshots/busuu/1.jpg', alt: 'Busuu screenshot 1', width: 480, height: 853 },
+        { src: '/articles/app-screenshots/busuu/2.jpg', alt: 'Busuu screenshot 2', width: 480, height: 853 },
+        { src: '/articles/app-screenshots/busuu/3.jpg', alt: 'Busuu screenshot 3', width: 480, height: 853 },
+      ],
       rating: 8,
       pros: [
         'Ana dil düzeltmeleri yazılı Rusçayı tahminden çıkarır',
@@ -394,6 +435,11 @@ export const top10AppsRussianTr: LearnArticle = {
         width: 256,
         height: 256,
       },
+      screenshots: [
+        { src: '/articles/app-screenshots/pimsleur/1.jpg', alt: 'Pimsleur screenshot 1', width: 480, height: 853 },
+        { src: '/articles/app-screenshots/pimsleur/2.jpg', alt: 'Pimsleur screenshot 2', width: 480, height: 853 },
+        { src: '/articles/app-screenshots/pimsleur/3.jpg', alt: 'Pimsleur screenshot 3', width: 480, height: 853 },
+      ],
       rating: 7,
       pros: [
         'Ağız ve kulak birlikte — aksan ve ritim için güçlü',
@@ -409,6 +455,35 @@ export const top10AppsRussianTr: LearnArticle = {
     },
     {
       rank: 7,
+      title: 'Rosetta Stone: Daldırmanın kıdemlisi',
+      description:
+        "Rosetta Stone çoğu kişinin önce aradığı isim — **dil öğrenmenin kendisiyle en çok özdeşleşen uygulama**. 2026'da indirmeden önce bilmekte fayda var: mevcut aboneler orijinal **Rosetta Stone Classic** uygulamasını kullanmaya devam ediyor, yeni kayıtlar ise artık aynı yöntemin daha modern bir uygulamayla yeniden inşa edilmiş hâli olan **Rosetta Stone Sapphire**'a düşüyor.\n\nÇekirdek yöntem 30 yıldır değişmedi: **asla çeviri**. Her ders Rusçayı görsel, ses ve tekrarla öğretir — ilk dilinizi öğrendiğiniz gibi. Bu gerçekten Kiril ve cümle ritmi için kulak ve içgüdü kazandırır, ama **dilbilgisini hiçbir şekilde açıkça anlatmaz** — altı hâl sistemini doğrudan öğrenmek yerine hâl kalıplarını kendiniz çıkarırsınız.\n\n**Fiyatlandırma (2026)**\n\n**Model:** **Yalnızca abonelik** — kalıcı ücretsiz katman yok; aylık veya yıllık. **Burada fiyat vermiyoruz.**\n\n**Sonuç:** Yeni bir ambalajda saygın, eski usul bir daldırma yöntemi. Açıklama almaktansa kalıpları özümseyerek en iyi öğreniyorsanız harika — ama **Russian Cases with Anna** ile eşleştirin, çünkü Rosetta Stone bir ismin neden öyle çekimlendiğini asla açıklamayacak.",
+      image: {
+        src: '/articles/logos/rosetta-stone-icon-app-logo.webp',
+        alt: 'Rosetta Stone uygulama simgesi',
+        width: 256,
+        height: 256,
+      },
+      screenshots: [
+        { src: '/articles/app-screenshots/rosetta-stone/1.jpg', alt: 'Rosetta Stone screenshot 1', width: 480, height: 1042 },
+        { src: '/articles/app-screenshots/rosetta-stone/2.jpg', alt: 'Rosetta Stone screenshot 2', width: 480, height: 1042 },
+        { src: '/articles/app-screenshots/rosetta-stone/3.jpg', alt: 'Rosetta Stone screenshot 3', width: 480, height: 1042 },
+      ],
+      rating: 6,
+      pros: [
+        'Çeviri olmadan daldırma, Rusça cümle yapısı için gerçek bir sezgi kazandırır',
+        'TruAccent telaffuz aracı, sesinizi gerçek zamanlı olarak ana dil konuşurlarıyla karşılaştırır',
+        'Otuz yıllık güven, bunu destekleyen yorum hacmiyle',
+      ],
+      cons: [
+        'Dilbilgisini açıkça öğretmez — altı hâl asla adlandırılmaz veya açıklanmaz, yalnızca özümsenir',
+        'Çoğu rakipten daha pahalı, şu anda ömür boyu seçeneği yok',
+        'Classic ile Sapphire karışıklığı — mevcut aboneler eski uygulamada kalır, yeni kullanıcılar yeniden tasarlanmış sürümü alır',
+      ],
+      price: 'Abonelik (uygulama içi)',
+    },
+    {
+      rank: 8,
       title: 'italki: Gerçek insan bağlantısı',
       description:
         'italki kurs üretici değil; **insan pazaryeri**. Prof veya topluluk öğretmeni seçer, 30–60 dakika ayırtır, hedeflerinizi getirirsiniz: “hâllerde takılıyorum”, “TORFL hazırlığı”, “sadece konuşma”. Notlar ve ödev öğretmene göre değişir — profiller ve deneme dersleri önemli.\n\nKalite seçiciliğinize bağlı; ucuz öğretmenler harika olabilir, pahalı olan her zaman değil. Platform esasen **haftalık biriyle Rusça konuşma** sürtünmesini kaldırır.\n\n**Fiyatlandırma (2026)**\n\n**Model:** **Ders başına pazar yeri** — öğretmenleri ayırtır, her seansı uygulamada belirledikleri ücretlere göre ödersiniz. **Burada fiyat vermiyoruz.**\n\n**Sonuç:** **Konuşma kaygısı** ve anlık dilbilgisi soruları için en hızlı ilaç — sadece para değil, takvim de ayırın.',
@@ -418,6 +493,11 @@ export const top10AppsRussianTr: LearnArticle = {
         width: 256,
         height: 256,
       },
+      screenshots: [
+        { src: '/articles/app-screenshots/italki/1.jpg', alt: 'italki screenshot 1', width: 480, height: 853 },
+        { src: '/articles/app-screenshots/italki/2.jpg', alt: 'italki screenshot 2', width: 480, height: 853 },
+        { src: '/articles/app-screenshots/italki/3.jpg', alt: 'italki screenshot 3', width: 480, height: 853 },
+      ],
       rating: 8,
       pros: [
         'Tam kişiselleştirilmiş geri bildirim — her hâli canlı sorun',
@@ -432,7 +512,7 @@ export const top10AppsRussianTr: LearnArticle = {
       price: 'Ders başına (ücretler uygulamada)',
     },
     {
-      rank: 8,
+      rank: 9,
       title: 'RussianPod101: Sonsuz ses kütüphanesi',
       description:
         'RussianPod101 daha az “uygulama kursu”, PDF’li **devasa podcast arşivi**. Yavaş okumalar, satır satır, argo serileri, sınav hazırlığı, hâl veya fiil aspektine derinlemesine — doğru çalma listesini bulursanız.\n\nGüç genişlikte; zayıflık gezinmede. Kendi çalışma planı olmadan parlak dersler arasında zıplamak kolay. Kütüphane kartı gibi: hangi rafa gideceğinizi bildiğinizde inanılmaz güçlü.\n\n**Fiyatlandırma (2026)**\n\n**Model:** **Dönen ücretsiz örnek + abonelik kademeleri** — ücretsiz dönüşümlü içerik; tam kütüphane abonelikle. **Burada fiyat vermiyoruz.**\n\n**Sonuç:** Dilbilgisinin sesle anlatıldığı **orta+ dinleyici** ve kendi yolunu seçmeyi kabul edenler için ideal.',
@@ -442,6 +522,11 @@ export const top10AppsRussianTr: LearnArticle = {
         width: 256,
         height: 256,
       },
+      screenshots: [
+        { src: '/articles/app-screenshots/russianpod101/1.jpg', alt: 'RussianPod101 screenshot 1', width: 480, height: 1039 },
+        { src: '/articles/app-screenshots/russianpod101/2.jpg', alt: 'RussianPod101 screenshot 2', width: 480, height: 1039 },
+        { src: '/articles/app-screenshots/russianpod101/3.jpg', alt: 'RussianPod101 screenshot 3', width: 480, height: 1039 },
+      ],
       rating: 7,
       pros: [
         'Ders kitabı derinliği — hâl, hareket fiilleri vb. tam seriler',
@@ -456,7 +541,7 @@ export const top10AppsRussianTr: LearnArticle = {
       price: 'Dönen ücretsiz + abonelik (uygulama içi)',
     },
     {
-      rank: 9,
+      rank: 10,
       title: 'Clozemaster: Orta düzey öğrenciler için',
       description:
         'Clozemaster **hâllerin ne olduğunu** bildiğinizi varsayar ve **gerçek cümlelerde** doğru eki hızla seçtirir. Oyunlaştırılmış yoğun maruz kalma: boşluğu doldur, satırı dinle, devam. Beyin edatları hâllere bilinçsiz tablo okumadan eşleştirir.\n\nKiril rahat değilse yeni başlayanlar kaybolur — Duolingo acıtmayı bıraktıktan sonra köprü uygulamasıdır. Açık derslerle (Babbel, Russian Cases with Anna) eşleştirin ki sonsuza dek tahmin etmeyin.\n\n**Fiyatlandırma (2026)**\n\n**Model:** **Ücretsiz + abonelik** — genelde sınırlı veya reklamlı ücretsiz başlangıç, tam deneyim için uygulama içi abonelik. **Burada fiyat vermiyoruz** — bölge ve pakete göre değişir.\n\n**Sonuç:** Bilinen kuralları otomatik seçime çevirmek için favori **B1+ spor salonu**.',
@@ -466,6 +551,11 @@ export const top10AppsRussianTr: LearnArticle = {
         width: 256,
         height: 256,
       },
+      screenshots: [
+        { src: '/articles/app-screenshots/clozemaster/1.jpg', alt: 'Clozemaster screenshot 1', width: 480, height: 1039 },
+        { src: '/articles/app-screenshots/clozemaster/2.jpg', alt: 'Clozemaster screenshot 2', width: 480, height: 1039 },
+        { src: '/articles/app-screenshots/clozemaster/3.jpg', alt: 'Clozemaster screenshot 3', width: 480, height: 1039 },
+      ],
       rating: 8,
       pros: [
         'Binlerce otantik cümle — birlikte kullanım için güçlü',
@@ -480,7 +570,7 @@ export const top10AppsRussianTr: LearnArticle = {
       price: 'Ücretsiz + abonelik (uygulama içi)',
     },
     {
-      rank: 10,
+      rank: 11,
       title: 'Drops: Görsel kelime inşaatçısı',
       description:
         'Drops **mikro oturumlara** yaslanır: günde beş dakika ikon kelime. Kaydırırsınız, eşleştirirsiniz, Kiril kelimeleri minimalist çizimlerle bağlarsınız — neredeyse klasik dilbilgisi ekranı yok.\n\nKiril ve somut isimler için parlak; tek başına Rusça stratejisi zayıf. “Ağır” ders kitabı uygulaması açmadan sürtünmesiz kelime istediğinizde kullanın.\n\n**Fiyatlandırma (2026)**\n\n**Model:** **Ücretsiz + abonelik** — günlük ücretsiz kullanım sınırlı; daha fazla süre uygulama içi abonelikle. **Burada fiyat vermiyoruz.**\n\n**Sonuç:** Sözlük ve yazı için güzel **yan tabak** — asla ana protein değil.',
@@ -490,6 +580,11 @@ export const top10AppsRussianTr: LearnArticle = {
         width: 256,
         height: 256,
       },
+      screenshots: [
+        { src: '/articles/app-screenshots/drops/1.jpg', alt: 'Drops screenshot 1', width: 480, height: 853 },
+        { src: '/articles/app-screenshots/drops/2.jpg', alt: 'Drops screenshot 2', width: 480, height: 853 },
+        { src: '/articles/app-screenshots/drops/3.jpg', alt: 'Drops screenshot 3', width: 480, height: 853 },
+      ],
       rating: 6,
       pros: [
         'Çarpıcı arayüz uygulamayı açma enerjisini düşürür',
@@ -512,7 +607,7 @@ export const top10AppsRussianTr: LearnArticle = {
     '**Canlı pratik katmanı (italki, tandem veya sesli pratik):** Haftada bir veya iki kez kelime hazinesi ve dilbilgisini gerçek bir insanla (veya kaliteli sesli diyalogla) sınayın. Alışkanlık ve hassasiyetin konuşulan Rusçaya dönüştüğü yer burasıdır.',
   ],
   conclusionOutro:
-    '**Özet:** Uygulama yığılmasına direnin. **Bir** geniş alışkanlık uygulaması seçin, hâller için **Russian Cases with Anna** ekleyin ve haftalık konuşma için zaman ayırın. Tutarlılık, logo biriktirmeyi yener — özellikle meşgul görünmekten çok **net** duymak istiyorsanız.\n\nTop 10 yol haritamız burada bitiyor: oyunlaştırılmış devlerden uzman motorlara — **yığın kurun, tek tip tek uygulama değil.**',
+    '**Özet:** Uygulama yığılmasına direnin. **Bir** geniş alışkanlık uygulaması seçin, hâller için **Russian Cases with Anna** ekleyin ve haftalık konuşma için zaman ayırın. Tutarlılık, logo biriktirmeyi yener — özellikle meşgul görünmekten çok **net** duymak istiyorsanız.\n\nTop 11 yol haritamız burada bitiyor: oyunlaştırılmış devlerden uzman motorlara — **yığın kurun, tek tip tek uygulama değil.**',
   conclusion: '',
   faq: [
     {
@@ -588,9 +683,9 @@ export const top10AppsRussianTr: LearnArticle = {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline:
-      "2026'da Rusça öğrenmek için en iyi 10 uygulama: derinlemesine incelemeler ve sıralama",
+      "2026'da Rusça öğrenmek için en iyi 11 uygulama: derinlemesine incelemeler ve sıralama",
     description:
-      '2026 genel amaçlı top 10 Rusça öğrenme uygulaması sıralaması: alışkanlık, konuşma, ses, özel ders ve hâller — dilbilgisine odaklı 8 uygulama rehberimize bağlantı içerir.',
+      '2026 genel amaçlı top 11 Rusça öğrenme uygulaması sıralaması: alışkanlık, konuşma, ses, özel ders ve hâller — dilbilgisine odaklı 8 uygulama rehberimize bağlantı içerir.',
     ...TOP_10_APPS_RUSSIAN_ARTICLE_JSONLD_EXTRAS,
     datePublished: '2026-03-11',
     dateModified: '2026-05-03',

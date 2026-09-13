@@ -516,8 +516,8 @@ export const learnArticleTranslations: Partial<
         headline: 'Terminaisons des cas russes : l’aide-mémoire ultime',
         description:
           'Aide-mémoire complète : tableau des noms, adjectifs, pronoms, prépositions par cas. Les 6 cas en un seul tableau.',
-        datePublished: '2025-03-11',
-        dateModified: '2025-03-11',
+        datePublished: '2026-03-11',
+        dateModified: '2026-09-02',
         author: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
         publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
         mainEntityOfPage: {

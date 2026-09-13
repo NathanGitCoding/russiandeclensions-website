@@ -707,8 +707,8 @@ export const russianGenitiveCaseFr: LearnArticle = {
     headline: 'Cas génitif russe : règles, terminaisons et 32 exemples réels',
     description:
       'Guide complet du génitif en russe : 7 emplois, terminaisons singulier et pluriel, formes irrégulières, 16 prépositions, nombres, У + génitif. 32 exemples réels avec translittération.',
-    datePublished: '2025-03-11',
-    dateModified: '2025-03-11',
+    datePublished: '2026-03-11',
+    dateModified: '2026-09-02',
     author: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {

@@ -1611,6 +1611,31 @@ p + .learn-detail-bullets {
     max-height: 6.3rem;
   }
 }
+.learn-article-item-screenshots {
+  display: flex;
+  gap: 0.6rem;
+  overflow-x: auto;
+  padding: 0.15rem 0 0.35rem;
+  margin: 0.75rem 0 0;
+  list-style: none;
+  scrollbar-width: thin;
+}
+.learn-article-item-screenshot {
+  flex-shrink: 0;
+}
+.learn-article-item-screenshot-img {
+  width: 108px;
+  height: auto;
+  border-radius: 0.65rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  display: block;
+}
+@media (min-width: 640px) {
+  .learn-article-item-screenshot-img {
+    width: 132px;
+  }
+}
 .learn-article-item-rating {
   font-size: 0.875rem;
   margin-top: 0.25rem;

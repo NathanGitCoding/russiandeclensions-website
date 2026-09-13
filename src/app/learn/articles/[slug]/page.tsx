@@ -758,7 +758,6 @@ function getRelatedLessons(currentSlug: string, lang?: string): { slug: string; 
 }
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://russiandeclensions.com';
-export const dynamic = 'force-static';
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -771,7 +770,8 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const article = getLearnArticle(slug);
+  const lang = await getLandingLangFromRequest();
+  const article = getLearnArticle(slug, lang);
   if (!article) return { title: 'Article not found' };
 
   const url = `${siteUrl}/learn/articles/${slug}`;
@@ -828,8 +828,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function LearnArticlePage({ params }: Props) {
   const { slug } = await params;
-  const article = getLearnArticle(slug);
   const lang = await getLandingLangFromRequest();
+  const article = getLearnArticle(slug, lang);
   const t = getLearnDetailTranslations(lang);
   if (!article) notFound();
 
@@ -1290,6 +1290,26 @@ export default async function LearnArticlePage({ params }: Props) {
                               <div itemProp="description">
                                 <ArticleItemDescription description={item.description} />
                               </div>
+                              {(item.screenshots?.length ?? 0) > 0 && (
+                                <ul
+                                  className="learn-article-item-screenshots"
+                                  aria-label={`${item.title} — screenshots`}
+                                >
+                                  {item.screenshots!.map((shot, i) => (
+                                    <li key={i} className="learn-article-item-screenshot">
+                                      <Image
+                                        src={shot.src}
+                                        alt={shot.alt}
+                                        width={shot.width ?? 240}
+                                        height={shot.height ?? 427}
+                                        className="learn-article-item-screenshot-img"
+                                        loading="lazy"
+                                        sizes="140px"
+                                      />
+                                    </li>
+                                  ))}
+                                </ul>
+                              )}
                             </div>
                           </div>
                           <div

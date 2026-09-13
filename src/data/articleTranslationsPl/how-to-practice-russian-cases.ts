@@ -47,6 +47,8 @@ export const howToPracticeRussianCasesPl: LearnArticle = {
       '@type': 'WebPage',
       '@id': 'https://russiandeclensions.com/learn/articles/how-to-practice-russian-cases',
     },
+    keywords:
+      'jak ćwiczyć rosyjskie przypadki, ćwiczenia rosyjskie przypadki, praktyka deklinacji rosyjskiej, najlepsza aplikacja rosyjskie przypadki, drille przypadków rosyjskich, jak zapamiętać rosyjskie przypadki',
   },
   sections: [
     {

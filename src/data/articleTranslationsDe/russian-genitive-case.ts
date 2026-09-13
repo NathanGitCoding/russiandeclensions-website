@@ -668,8 +668,8 @@ export const russianGenitiveCaseDe: LearnArticle = {
     headline: 'Russischer Genitiv: Regeln, Endungen und 32 echte Beispiele',
     description:
       'Kompletter Leitfaden zum Genitiv: 7 Verwendungen, Endungen Singular und Plural, unregelmäßige Formen, 16 Präpositionen, Zahlen, У + Genitiv. 32 echte Beispiele mit Transliteration.',
-    datePublished: '2025-03-11',
-    dateModified: '2025-03-11',
+    datePublished: '2026-03-11',
+    dateModified: '2026-09-02',
     author: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {

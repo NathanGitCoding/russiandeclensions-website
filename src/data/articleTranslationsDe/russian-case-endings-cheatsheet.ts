@@ -383,8 +383,8 @@ export const russianCaseEndingsCheatsheetDe: LearnArticle = {
     headline: 'Russische Kasusendungen: Der ultimative Spickzettel',
     description:
       'Vollständiger Spickzettel: Substantiv- und Adjektivtabellen, Pronomen, Präpositionen nach Kasus. Alle 6 Fälle in einer Übersicht.',
-    datePublished: '2025-03-11',
-    dateModified: '2025-03-11',
+    datePublished: '2026-03-11',
+    dateModified: '2026-09-02',
     author: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
