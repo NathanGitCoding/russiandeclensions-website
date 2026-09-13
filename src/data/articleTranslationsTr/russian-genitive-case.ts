@@ -619,8 +619,8 @@ export const russianGenitiveCaseTr: LearnArticle = {
     headline: 'Rus genitifi: kurallar, ekler ve 32 gerçek örnek',
     description:
       'Tam rehber: 7 kullanım, tekil ve çoğul ekler, düzensiz biçimler, 16 edat, sayılar, У + genitif. Transliterasyonlu 32 örnek.',
-    datePublished: '2025-03-11',
-    dateModified: '2025-03-11',
+    datePublished: '2026-03-11',
+    dateModified: '2026-09-02',
     author: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {

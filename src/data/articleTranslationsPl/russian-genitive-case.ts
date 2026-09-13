@@ -639,8 +639,8 @@ export const russianGenitiveCasePl: LearnArticle = {
     headline: 'Rosyjski dopełniacz: zasady, końcówki i 32 prawdziwe przykłady',
     description:
       'Pełny przewodnik po dopełniaczu: 7 zastosowań, końcówki lp. i lm., formy nieregularne, 16 przyimków, liczby, У + dopełniacz. 32 prawdziwe przykłady z transliteracją.',
-    datePublished: '2025-03-11',
-    dateModified: '2025-03-11',
+    datePublished: '2026-03-11',
+    dateModified: '2026-09-02',
     author: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {

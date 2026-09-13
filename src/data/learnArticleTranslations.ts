@@ -126,6 +126,10 @@ import { russianDaysMonthsGuideEs } from './articleTranslationsEs/russian-days-m
 import { russianDaysMonthsGuideIt } from './articleTranslationsIt/russian-days-months-guide';
 import { russianDaysMonthsGuidePl } from './articleTranslationsPl/russian-days-months-guide';
 import { russianDaysMonthsGuideTr } from './articleTranslationsTr/russian-days-months-guide';
+import { russianNounGenderGuideFr } from './articleTranslationsFr/russian-noun-gender-guide';
+import { russianNounGenderGuideDe } from './articleTranslationsDe/russian-noun-gender-guide';
+import { russianNounGenderGuideTr } from './articleTranslationsTr/russian-noun-gender-guide';
+import { russianNounGenderGuidePl } from './articleTranslationsPl/russian-noun-gender-guide';
 import { russianNominativeCaseFr } from './articleTranslationsFr/russian-nominative-case';
 import { russianNominativeCaseDe } from './articleTranslationsDe/russian-nominative-case';
 import { russianNominativeCaseTr } from './articleTranslationsTr/russian-nominative-case';
@@ -520,8 +524,8 @@ export const learnArticleTranslations: Partial<
         headline: 'Terminaisons des cas russes : l’aide-mémoire ultime',
         description:
           'Aide-mémoire complète : tableau des noms, adjectifs, pronoms, prépositions par cas. Les 6 cas en un seul tableau.',
-        datePublished: '2025-03-11',
-        dateModified: '2025-03-11',
+        datePublished: '2026-03-11',
+        dateModified: '2026-09-02',
         author: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
         publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
         mainEntityOfPage: {
@@ -692,6 +696,12 @@ export const learnArticleTranslations: Partial<
     it_it: russianDaysMonthsGuideIt,
     pl_pl: russianDaysMonthsGuidePl,
     tr_tr: russianDaysMonthsGuideTr,
+  },
+  'russian-noun-gender-guide': {
+    fr_fr: russianNounGenderGuideFr,
+    de_de: russianNounGenderGuideDe,
+    tr_tr: russianNounGenderGuideTr,
+    pl_pl: russianNounGenderGuidePl,
   },
   'russian-nominative-case': {
     fr_fr: russianNominativeCaseFr,

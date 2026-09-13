@@ -381,8 +381,8 @@ export const russianCaseEndingsCheatsheetTr: LearnArticle = {
     headline: 'Rus çekim ekleri: Nihai özet sayfası',
     description:
       'Tam özet: isim ve sıfat tabloları, zamirler, edatlara göre haller. 6 hal tek tabloda.',
-    datePublished: '2025-03-11',
-    dateModified: '2025-03-11',
+    datePublished: '2026-03-11',
+    dateModified: '2026-09-02',
     author: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {

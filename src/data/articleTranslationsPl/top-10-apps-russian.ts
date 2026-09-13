@@ -4,21 +4,22 @@ import { TOP_10_APPS_RUSSIAN_ARTICLE_JSONLD_EXTRAS } from '../learnArticleStatic
 /** Tłumaczenie polskie artykułu `top-10-apps-russian` (źródło EN: `learnArticles.ts`). */
 export const top10AppsRussianPl: LearnArticle = {
   slug: 'top-10-apps-russian',
-  title: 'Top 10 aplikacji do nauki rosyjskiego w 2026',
+  title: 'Top 11 aplikacji do nauki rosyjskiego w 2026',
   metaTitle:
-    'Top 10 aplikacji do nauki rosyjskiego w 2026: dogłębne testy i ranking | Russian Cases with Anna',
+    'Top 11 aplikacji do nauki rosyjskiego w 2026: dogłębne testy i ranking | Russian Cases with Anna',
   metaDescription:
-    'Ranking top 10 „wszystko w jednym” aplikacji do rosyjskiego 2026: nawyk, rozmowa, audio, tutoring i przypadki — testy iOS, Android, web. Odrębny od recenzji 8 aplikacji tylko pod gramatykę.',
+    'Ranking top 11 „wszystko w jednym” aplikacji do rosyjskiego 2026: nawyk, rozmowa, audio, tutoring i przypadki — testy iOS, Android, web. Odrębny od recenzji 8 aplikacji tylko pod gramatykę.',
   keywords: [
     'aplikacja nauka rosyjskiego',
     'najlepsze aplikacje rosyjski',
     'aplikacja gramatyka rosyjska',
     'aplikacja przypadki rosyjskie',
     'top aplikacje rosyjski',
+    'rosetta stone rosyjski',
   ],
-  h1: 'Top 10 aplikacji do nauki rosyjskiego w 2026: dogłębne testy i ranking',
+  h1: 'Top 11 aplikacji do nauki rosyjskiego w 2026: dogłębne testy i ranking',
   intro:
-    'Nauka rosyjskiego w 2026 roku to już nie zakurzony podręcznik i zeszyt pełen czerwonych poprawek. Rozpoznawanie mowy, aplikacje z powtórkami rozłożonymi w czasie, rozmowy z AI i wyspecjalizowane ćwiczenia gramatyczne są na porządku dziennym — ekscytujące, dopóki nie dojdziesz do wniosku, że **więcej** aplikacji oznacza **trudniejsze** wybory, a nie prostsze.\n\nApp Store i Play Store roi się od produktów „rosyjski”, każdy obiecuje płynność w ekspresowym tempie. Prawdziwe ryzyko to nie „zła” aplikacja — tylko stracone miesiące na **złym stosie pod cel** — ładne passy, gdy potrzebujesz dyscypliny w **przypadkach**, albo niekończąca się grywalizacja, gdy naprawdę potrzebujesz końcówek, które pod presją da się użyć w prawdziwych zdaniach.\n\nSpędziliśmy ponad **100 godzin** na testach aktualizacji, dużych kursów, marketplace’ów korepetytorów i niszowych narzędzi do drillów, żeby zaproponować w tym roku **ranking referencyjny najlepszych aplikacji do rosyjskiego**. Sprawdziliśmy ponad trzydzieści narzędzi na iOS, Androidzie i w sieci — subskrypcje, freemium, programy „najpierw słuchanie”, feedback społeczności, trening pod przypadki — i zawęziliśmy pole do **dziesięciu godnych zaufania** pozycji. Poniższe typy odpowiadają realnym profilom: **codzienny nawyk**, **scenariusze strukturalne**, **przypadki i deklinacja**, **tutoring z człowiekiem**, **nauka audio**, **słownictwo oparte na powtórkach**, **immersja przez historie i podcasty** oraz **szybka praktyka wzorców**, gdy podstawy już siedzą.\n\nJeśli Twoim wąskim gardłem są **rosyjskie przypadki** (nie same zwroty turystyczne), zacznij od naszego poradnika metody: [Jak ćwiczyć rosyjskie przypadki: metody, drill i nawyk tygodniowy](/learn/articles/how-to-practice-russian-cases) — potem wróć tutaj i dobierz aplikacje pod to, jak naprawdę się uczysz.',
+    'Nauka rosyjskiego w 2026 roku to już nie zakurzony podręcznik i zeszyt pełen czerwonych poprawek. Rozpoznawanie mowy, aplikacje z powtórkami rozłożonymi w czasie, rozmowy z AI i wyspecjalizowane ćwiczenia gramatyczne są na porządku dziennym — ekscytujące, dopóki nie dojdziesz do wniosku, że **więcej** aplikacji oznacza **trudniejsze** wybory, a nie prostsze.\n\nApp Store i Play Store roi się od produktów „rosyjski”, każdy obiecuje płynność w ekspresowym tempie. Prawdziwe ryzyko to nie „zła” aplikacja — tylko stracone miesiące na **złym stosie pod cel** — ładne passy, gdy potrzebujesz dyscypliny w **przypadkach**, albo niekończąca się grywalizacja, gdy naprawdę potrzebujesz końcówek, które pod presją da się użyć w prawdziwych zdaniach.\n\nSpędziliśmy ponad **100 godzin** na testach aktualizacji, dużych kursów, marketplace’ów korepetytorów i niszowych narzędzi do drillów, żeby zaproponować w tym roku **ranking referencyjny najlepszych aplikacji do rosyjskiego**. Sprawdziliśmy ponad trzydzieści narzędzi na iOS, Androidzie i w sieci — subskrypcje, freemium, programy „najpierw słuchanie”, feedback społeczności, trening pod przypadki — i zawęziliśmy pole do **jedenastu godnych zaufania** pozycji. Poniższe typy odpowiadają realnym profilom: **codzienny nawyk**, **scenariusze strukturalne**, **przypadki i deklinacja**, **tutoring z człowiekiem**, **nauka audio**, **słownictwo oparte na powtórkach**, **immersja przez historie i podcasty** oraz **szybka praktyka wzorców**, gdy podstawy już siedzą.\n\nJeśli Twoim wąskim gardłem są **rosyjskie przypadki** (nie same zwroty turystyczne), zacznij od naszego poradnika metody: [Jak ćwiczyć rosyjskie przypadki: metody, drill i nawyk tygodniowy](/learn/articles/how-to-practice-russian-cases) — potem wróć tutaj i dobierz aplikacje pod to, jak naprawdę się uczysz.',
   introByline: {
     text: '**Napisał Nathan** — francuski to mój język ojczysty; uczę się rosyjskiego i dzielę się tym, co naprawdę działa w gramatyce, przypadkach i codziennej praktyce.',
     imageSrc: '/landing-cases/founder-photo.webp',
@@ -81,6 +82,12 @@ export const top10AppsRussianPl: LearnArticle = {
           {
             src: '/articles/logos/Pimsleur-app-icon-logo.webp',
             alt: 'Pimsleur',
+            width: 256,
+            height: 256,
+          },
+          {
+            src: '/articles/logos/rosetta-stone-icon-app-logo.webp',
+            alt: 'Rosetta Stone',
             width: 256,
             height: 256,
           },
@@ -165,7 +172,7 @@ export const top10AppsRussianPl: LearnArticle = {
       },
     ],
   },
-  comparisonTableTitle: 'Wszystkie 10 aplikacji w skrócie',
+  comparisonTableTitle: 'Wszystkie 11 aplikacji w skrócie',
   comparisonTableIntro:
     'Potraktuj tę tabelę jako **mapę** każdej mobilnej aplikacji z naszego rankingu 2026 — niezależnie od tego, czy priorytetem jest **codzienna rutyna po rosyjsku**, **strukturalne lekcje gramatyki**, **przypadki i deklinacja**, **słuchanie z native speakerami**, **feedback do tekstu**, **tutoring na żywo**, czy krótkie sesje **słownictwa**. Każdy wiersz mówi, do czego dane narzędzie pasuje najlepiej, żebyś mógł wyselekcjonować aplikacje pod swój poziom i cele zanim przejdziesz do **dogłębnych recenzji** poniżej.',
   itemsSectionTitle: 'Dogłębne recenzje',
@@ -197,6 +204,12 @@ export const top10AppsRussianPl: LearnArticle = {
       {
         src: '/articles/logos/Pimsleur-app-icon-logo.webp',
         alt: 'Pimsleur',
+        width: 256,
+        height: 256,
+      },
+      {
+        src: '/articles/logos/rosetta-stone-icon-app-logo.webp',
+        alt: 'Rosetta Stone',
         width: 256,
         height: 256,
       },
@@ -247,6 +260,10 @@ export const top10AppsRussianPl: LearnArticle = {
         'Najlepiej do': 'Audio przede wszystkim: akcent i mowa',
       },
       {
+        Aplikacja: '**Rosetta Stone**',
+        'Najlepiej do': 'Immersja bez tłumaczenia, budowanie intuicji',
+      },
+      {
         Aplikacja: '**italki**',
         'Najlepiej do': 'Korepetycje 1:1 z tutorami',
       },
@@ -276,6 +293,11 @@ export const top10AppsRussianPl: LearnArticle = {
         width: 256,
         height: 256,
       },
+      screenshots: [
+        { src: '/articles/app-screenshots/duolingo/1.jpg', alt: 'Duolingo screenshot 1', width: 480, height: 1039 },
+        { src: '/articles/app-screenshots/duolingo/2.jpg', alt: 'Duolingo screenshot 2', width: 480, height: 1039 },
+        { src: '/articles/app-screenshots/duolingo/3.jpg', alt: 'Duolingo screenshot 3', width: 480, height: 1039 },
+      ],
       rating: 7,
       pros: [
         'Silna grywalizacja i retencja — aplikacja naprawdę chce Cię zobaczyć jutro',
@@ -300,6 +322,11 @@ export const top10AppsRussianPl: LearnArticle = {
         width: 256,
         height: 256,
       },
+      screenshots: [
+        { src: '/articles/app-screenshots/babbel/1.jpg', alt: 'Babbel screenshot 1', width: 480, height: 853 },
+        { src: '/articles/app-screenshots/babbel/2.jpg', alt: 'Babbel screenshot 2', width: 480, height: 853 },
+        { src: '/articles/app-screenshots/babbel/3.jpg', alt: 'Babbel screenshot 3', width: 480, height: 853 },
+      ],
       rating: 8,
       pros: [
         'Gramatyka szyta w dialogi — reguły przychodzą, gdy są potrzebne',
@@ -324,6 +351,10 @@ export const top10AppsRussianPl: LearnArticle = {
         width: 256,
         height: 256,
       },
+      screenshots: [
+        { src: '/articles/app-screenshots/russian-cases-with-anna/1.jpg', alt: 'Russian Cases with Anna screenshot 1', width: 390, height: 1400 },
+        { src: '/articles/app-screenshots/russian-cases-with-anna/2.jpg', alt: 'Russian Cases with Anna screenshot 2', width: 390, height: 1400 },
+      ],
       rating: 9,
       pros: [
         'Zaprojektowane pod wszystkie sześć przypadków: lekcje + quizy',
@@ -347,6 +378,11 @@ export const top10AppsRussianPl: LearnArticle = {
         width: 256,
         height: 256,
       },
+      screenshots: [
+        { src: '/articles/app-screenshots/memrise/1.jpg', alt: 'Memrise screenshot 1', width: 480, height: 853 },
+        { src: '/articles/app-screenshots/memrise/2.jpg', alt: 'Memrise screenshot 2', width: 480, height: 853 },
+        { src: '/articles/app-screenshots/memrise/3.jpg', alt: 'Memrise screenshot 3', width: 480, height: 853 },
+      ],
       rating: 7,
       pros: [
         'Natywne klipy wideo biją syntetyczne głosy przy strojeniu ucha',
@@ -371,6 +407,11 @@ export const top10AppsRussianPl: LearnArticle = {
         width: 256,
         height: 256,
       },
+      screenshots: [
+        { src: '/articles/app-screenshots/busuu/1.jpg', alt: 'Busuu screenshot 1', width: 480, height: 853 },
+        { src: '/articles/app-screenshots/busuu/2.jpg', alt: 'Busuu screenshot 2', width: 480, height: 853 },
+        { src: '/articles/app-screenshots/busuu/3.jpg', alt: 'Busuu screenshot 3', width: 480, height: 853 },
+      ],
       rating: 8,
       pros: [
         'Korekty native speakerów ograniczają zgadywanie w piśmie',
@@ -395,6 +436,11 @@ export const top10AppsRussianPl: LearnArticle = {
         width: 256,
         height: 256,
       },
+      screenshots: [
+        { src: '/articles/app-screenshots/pimsleur/1.jpg', alt: 'Pimsleur screenshot 1', width: 480, height: 853 },
+        { src: '/articles/app-screenshots/pimsleur/2.jpg', alt: 'Pimsleur screenshot 2', width: 480, height: 853 },
+        { src: '/articles/app-screenshots/pimsleur/3.jpg', alt: 'Pimsleur screenshot 3', width: 480, height: 853 },
+      ],
       rating: 7,
       pros: [
         'Uczy ust i ucha razem — świetnie na akcent i rytm',
@@ -410,6 +456,35 @@ export const top10AppsRussianPl: LearnArticle = {
     },
     {
       rank: 7,
+      title: 'Rosetta Stone: weteranka immersji',
+      description:
+        "Rosetta Stone to nazwa, której większość szuka najpierw — **aplikacja najbardziej kojarzona z samą ideą nauki języka**. Warto wiedzieć przed pobraniem w 2026 roku: dotychczasowi subskrybenci zostają przy oryginalnej aplikacji **Rosetta Stone Classic**, a nowi użytkownicy trafiają teraz do **Rosetta Stone Sapphire** — przebudowanej wersji tej samej metody w nowocześniejszej aplikacji.\n\nGłówna metoda nie zmieniła się od 30 lat: **nigdy tłumaczenia**. Każda lekcja uczy rosyjskiego przez obrazy, dźwięk i powtórzenia — tak, jak nauczyłeś się swojego pierwszego języka. To naprawdę buduje słuch i wyczucie cyrylicy oraz rytmu zdań, ale **niczego nie tłumaczy wprost z gramatyki** — wzorce przypadków wyłapujesz sam, zamiast dostać wyjaśniony wprost system sześciu przypadków.\n\n**Cennik (2026)**\n\n**Model:** **Tylko subskrypcja** — brak stałego darmowego poziomu; miesięcznie lub rocznie. **Nie podajemy tu cen.**\n\n**Podsumowanie:** szanowana, sprawdzona metoda immersji w nowym opakowaniu. Świetna, jeśli najlepiej uczysz się, chłonąc wzorce, a nie słuchając wyjaśnień — ale połącz ją z **Russian Cases with Anna**, bo Rosetta Stone nigdy nie wytłumaczy, dlaczego rzeczownik odmienia się właśnie tak.",
+      image: {
+        src: '/articles/logos/rosetta-stone-icon-app-logo.webp',
+        alt: 'Ikona aplikacji Rosetta Stone',
+        width: 256,
+        height: 256,
+      },
+      screenshots: [
+        { src: '/articles/app-screenshots/rosetta-stone/1.jpg', alt: 'Rosetta Stone screenshot 1', width: 480, height: 1042 },
+        { src: '/articles/app-screenshots/rosetta-stone/2.jpg', alt: 'Rosetta Stone screenshot 2', width: 480, height: 1042 },
+        { src: '/articles/app-screenshots/rosetta-stone/3.jpg', alt: 'Rosetta Stone screenshot 3', width: 480, height: 1042 },
+      ],
+      rating: 6,
+      pros: [
+        'Immersja bez tłumaczenia buduje realne wyczucie budowy rosyjskiego zdania',
+        'Narzędzie wymowy TruAccent porównuje Twój głos z native speakerami w czasie rzeczywistym',
+        'Trzy dekady zaufania, poparte odpowiednią liczbą recenzji',
+      ],
+      cons: [
+        'Brak jawnego nauczania gramatyki — sześć przypadków nigdy nie jest nazwane ani wyjaśnione, tylko wchłaniane',
+        'Droższa niż większość konkurencji, obecnie bez opcji dożywotniej',
+        'Zamieszanie Classic vs Sapphire — dotychczasowi subskrybenci zostają przy starej aplikacji, nowi dostają przebudowaną wersję',
+      ],
+      price: 'Subskrypcja (w aplikacji)',
+    },
+    {
+      rank: 8,
       title: 'italki: prawdziwy kontakt z człowiekiem',
       description:
         'italki nie generuje kursu — to **rynek ludzi**. Wybierasz nauczycieli zawodowych lub tutorów społeczności, rezerwujesz sloty 30–60 minut i przychodzisz z celami: „blokuję się na przypadkach”, „przygotowanie TORFL”, „tylko konwersacja”. Notatki i praca domowa zależą od prowadzącego — profile i lekcje próbne mają znaczenie.\n\nJakość skaluje się z Twoją wybiórczością; tani tutor może być genialny, drogi nie musi być lepszy. Platforma głównie usuwa tarcie przed **cotygodniową rozmową po rosyjsku z kimś**.\n\n**Cennik (2026)**\n\n**Model:** **Płatność za lekcję** — rezerwujesz nauczycieli i płacisz za każdą sesję według stawek w aplikacji. **Nie podajemy tu cen.**\n\n**Podsumowanie:** najszybsze lekarstwo na **lęk przed mówieniem** i ad hoc pytania gramatyczne — licz czas w kalendarzu, nie tylko budżet.',
@@ -419,6 +494,11 @@ export const top10AppsRussianPl: LearnArticle = {
         width: 256,
         height: 256,
       },
+      screenshots: [
+        { src: '/articles/app-screenshots/italki/1.jpg', alt: 'italki screenshot 1', width: 480, height: 853 },
+        { src: '/articles/app-screenshots/italki/2.jpg', alt: 'italki screenshot 2', width: 480, height: 853 },
+        { src: '/articles/app-screenshots/italki/3.jpg', alt: 'italki screenshot 3', width: 480, height: 853 },
+      ],
       rating: 8,
       pros: [
         'W pełni spersonalizowany feedback — każdy przypadek na żywo',
@@ -433,7 +513,7 @@ export const top10AppsRussianPl: LearnArticle = {
       price: 'Za lekcję (stawki w aplikacji)',
     },
     {
-      rank: 8,
+      rank: 9,
       title: 'RussianPod101: nieskończona biblioteka audio',
       description:
         'RussianPod101 to mniej „apkowy kurs”, a **ogromne archiwum podcastów** z PDF. Wolne czytania, linia po linii, serie slangu, przygotowanie do egzaminów, głębokie wejścia w przypadki lub aspekt — jeśli trafisz na właściwą playlistę.\n\nSiła w szerokości; słabość w nawigacji. Bez własnego planu łatwo skakać między błyszczącymi lekcjami i nie domykać sekwencji. Jak karta biblioteczna: ogromna moc, gdy wiesz, po które półki iść.\n\n**Cennik (2026)**\n\n**Model:** **Rotująca próbka za darmo + poziomy subskrypcji** — część treści na zmianę za darmo; pełna biblioteka w abonamencie. **Nie podajemy tu cen.**\n\n**Podsumowanie:** najlepszy dla **średnio zaawansowanych słuchaczy**, którzy chcą gramatyki w audio i sami układają ścieżkę.',
@@ -443,6 +523,11 @@ export const top10AppsRussianPl: LearnArticle = {
         width: 256,
         height: 256,
       },
+      screenshots: [
+        { src: '/articles/app-screenshots/russianpod101/1.jpg', alt: 'RussianPod101 screenshot 1', width: 480, height: 1039 },
+        { src: '/articles/app-screenshots/russianpod101/2.jpg', alt: 'RussianPod101 screenshot 2', width: 480, height: 1039 },
+        { src: '/articles/app-screenshots/russianpod101/3.jpg', alt: 'RussianPod101 screenshot 3', width: 480, height: 1039 },
+      ],
       rating: 7,
       pros: [
         'Głębia jak w podręczniku — całe serie o przypadkach, czasownikach ruchu itd.',
@@ -457,7 +542,7 @@ export const top10AppsRussianPl: LearnArticle = {
       price: 'Rotująca próbka + subskrypcja (w aplikacji)',
     },
     {
-      rank: 9,
+      rank: 10,
       title: 'Clozemaster: dla poziomu średniego',
       description:
         'Clozemaster zakłada, że wiesz, **czym są przypadki**, i każe wybierać poprawne końcówki w **prawdziwych zdaniach** w tempie. Grywalizowana masa ekspozycji: uzupełnij lukę, posłuchaj linii, idź dalej. Mózg łączy przyimki z przypadkami bez świadomego czytania tablic.\n\nPoczątkujący bez swobody w cyrylicy się pogubią — to most po tym, jak Duolingo przestaje boleć. Paruj z lekcjami explicite (Babbel, Russian Cases with Anna), żeby nie zgadywać w nieskończoność.\n\n**Cennik (2026)**\n\n**Model:** **Darmowy start + subskrypcja** — zwykle darmowy wstęp z limitami lub reklamami, pełniejszy dostęp przez subskrypcję w aplikacji. **Nie podajemy tu cen** — zależą od regionu i planu.\n\n**Podsumowanie:** ulubiona **siłownia B1+**, by znane reguły zamienić w automatyczne wybory.',
@@ -467,6 +552,11 @@ export const top10AppsRussianPl: LearnArticle = {
         width: 256,
         height: 256,
       },
+      screenshots: [
+        { src: '/articles/app-screenshots/clozemaster/1.jpg', alt: 'Clozemaster screenshot 1', width: 480, height: 1039 },
+        { src: '/articles/app-screenshots/clozemaster/2.jpg', alt: 'Clozemaster screenshot 2', width: 480, height: 1039 },
+        { src: '/articles/app-screenshots/clozemaster/3.jpg', alt: 'Clozemaster screenshot 3', width: 480, height: 1039 },
+      ],
       rating: 8,
       pros: [
         'Tysiące autentycznych zdań — świetnie na kolokacje',
@@ -481,7 +571,7 @@ export const top10AppsRussianPl: LearnArticle = {
       price: 'Darmowy start + subskrypcja (w aplikacji)',
     },
     {
-      rank: 10,
+      rank: 11,
       title: 'Drops: wizualny budowniczy słownictwa',
       description:
         'Drops mocno stawia na **mikrosesje**: pięć minut dziennie słownictwa na ikonach. Przesuwasz, dopasowujesz, łączysz słowa cyrylicą z minimalistycznymi ilustracjami — prawie bez klasycznych ekranów gramatyki.\n\nŚwietny na cyrylicę i rzeczowniki konkretne; słaba strategia rosyjskiego w pojedynkę. Używaj, gdy chcesz słownik bez otwierania „ciężkiej” apki kursowej.\n\n**Cennik (2026)**\n\n**Model:** **Darmowy start + subskrypcja** — ograniczone darmowe minuty dziennie, więcej czasu przez subskrypcję w aplikacji. **Nie podajemy tu cen.**\n\n**Podsumowanie:** piękna **przystawka** do leksyki i pisma — nigdy głównego dania.',
@@ -491,6 +581,11 @@ export const top10AppsRussianPl: LearnArticle = {
         width: 256,
         height: 256,
       },
+      screenshots: [
+        { src: '/articles/app-screenshots/drops/1.jpg', alt: 'Drops screenshot 1', width: 480, height: 853 },
+        { src: '/articles/app-screenshots/drops/2.jpg', alt: 'Drops screenshot 2', width: 480, height: 853 },
+        { src: '/articles/app-screenshots/drops/3.jpg', alt: 'Drops screenshot 3', width: 480, height: 853 },
+      ],
       rating: 6,
       pros: [
         'Olśniewający UI obniża próg otwarcia apki',
@@ -513,7 +608,7 @@ export const top10AppsRussianPl: LearnArticle = {
     '**Warstwa na żywo (italki, tandem lub praktyka głosowa):** raz lub dwa razy w tygodniu sprawdzaj słownictwo i gramatykę u człowieka (albo w jakościowym dialogu głosowym). To moment, w którym nawyk i precyzja zamieniają się w mówiony rosyjski.',
   ],
   conclusionOutro:
-    '**Sedno:** nie ulegaj przeciążeniu aplikacjami. Wybierz **jedną** szeroką aplikację nawyku, dodaj **Russian Cases with Anna** do przypadków i chron tygodniowy slot na rozmowę. Konsekwencja bije zbieranie logo — zwłaszcza gdy chodzi o **jasny** rosyjski, a nie tylko wrażenie zajętości.\n\nTo koniec naszej mapy top 10: od gamifikowanych gigantów po wyspecjalizowane silniki — **buduj stos, nie monoaplikację.**',
+    '**Sedno:** nie ulegaj przeciążeniu aplikacjami. Wybierz **jedną** szeroką aplikację nawyku, dodaj **Russian Cases with Anna** do przypadków i chron tygodniowy slot na rozmowę. Konsekwencja bije zbieranie logo — zwłaszcza gdy chodzi o **jasny** rosyjski, a nie tylko wrażenie zajętości.\n\nTo koniec naszej mapy top 11: od gamifikowanych gigantów po wyspecjalizowane silniki — **buduj stos, nie monoaplikację.**',
   conclusion: '',
   faq: [
     {
@@ -588,9 +683,9 @@ export const top10AppsRussianPl: LearnArticle = {
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'Top 10 aplikacji do nauki rosyjskiego w 2026: dogłębne testy i ranking',
+    headline: 'Top 11 aplikacji do nauki rosyjskiego w 2026: dogłębne testy i ranking',
     description:
-      'Top 10 aplikacji do nauki rosyjskiego 2026 (wszechstronny ranking): nawyk, rozmowa, audio, tutoring i przypadki — z linkiem do naszego przewodnika po aplikacjach pod kątem gramatyki (8 aplikacji).',
+      'Top 11 aplikacji do nauki rosyjskiego 2026 (wszechstronny ranking): nawyk, rozmowa, audio, tutoring i przypadki — z linkiem do naszego przewodnika po aplikacjach pod kątem gramatyki (8 aplikacji).',
     ...TOP_10_APPS_RUSSIAN_ARTICLE_JSONLD_EXTRAS,
     datePublished: '2026-03-11',
     dateModified: '2026-05-03',

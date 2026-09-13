@@ -47,6 +47,8 @@ export const howToPracticeRussianCasesTr: LearnArticle = {
       '@type': 'WebPage',
       '@id': 'https://russiandeclensions.com/learn/articles/how-to-practice-russian-cases',
     },
+    keywords:
+      'Rusça halleri pratik, Rusça hal egzersizleri, Rusça çekim pratiği, Rusça halleri öğrenmek için en iyi uygulama, Rusça hal drill, Rusça halleri ezberleme',
   },
   sections: [
     {

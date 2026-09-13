@@ -47,6 +47,8 @@ export const howToPracticeRussianCasesFr: LearnArticle = {
       '@type': 'WebPage',
       '@id': 'https://russiandeclensions.com/learn/articles/how-to-practice-russian-cases',
     },
+    keywords:
+      'comment s’entraîner cas russes, exercices cas russes, pratiquer déclinaison russe, meilleure app cas russes, drills cas russes, mémoriser cas russes',
   },
   sections: [
     {

@@ -390,8 +390,8 @@ export const russianCaseEndingsCheatsheetPl: LearnArticle = {
     headline: 'Rosyjskie końcówki przypadków: kompletna ściąga',
     description:
       'Kompletna ściąga: tabele rzeczowników i przymiotników, zaimki, przyimki według przypadku. Wszystkie 6 przypadków w jednej tabeli.',
-    datePublished: '2025-03-11',
-    dateModified: '2025-03-11',
+    datePublished: '2026-03-11',
+    dateModified: '2026-09-02',
     author: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
     mainEntityOfPage: {
