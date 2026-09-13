@@ -12033,6 +12033,348 @@ export const learnArticles: Record<string, LearnArticle> = {
       },
     },
   },
+  'russian-verb-conjugation-guide': {
+    slug: 'russian-verb-conjugation-guide',
+    introByline: ARTICLE_BYLINE,
+    title: 'Russian Verb Conjugation: The Complete Guide (Present, Past & Future)',
+    metaTitle: 'Russian Verb Conjugation: Present, Past & Future Tense | Russian Cases with Anna',
+    metaDescription:
+      'Learn Russian verb conjugation step by step: the two conjugation groups, present-tense endings, consonant mutations, past tense, future tense, and 8 irregular verbs fully conjugated.',
+    keywords: [
+      'russian verb conjugation',
+      'conjugate russian verbs',
+      'russian verb tenses',
+      'russian present tense conjugation',
+      'russian past tense verbs',
+      'first and second conjugation russian',
+      'russian verb endings',
+      'how to conjugate verbs in russian',
+    ],
+    h1: 'Russian Verb Conjugation: The Complete Guide to Present, Past and Future Tense',
+    intro:
+      'Russian nouns decline; Russian verbs conjugate — and the two systems are graded on completely different curves. Cases punish you with a dozen possible endings per word. Verb conjugation, by comparison, is almost mechanical: **once you know which of two conjugation groups a verb belongs to, six endings tell you everything about who is doing what, and when.**\n\nThe catch is that "almost mechanical" still hides a few traps: a handful of verbs that look like one conjugation but behave like the other, consonants that quietly mutate in the "I" form, and a past tense that ignores person entirely and cares only about gender and number. None of this is hard once it is laid out clearly — and unlike cases, most of verb conjugation can be internalised in a single sitting.\n\nThis guide walks through the two conjugation groups, full present-tense tables, the past tense (and its exceptions), the two ways to build a future tense, and eight irregular verbs you will use in nearly every conversation.',
+    whatYouLearn: [
+      'How to tell the two conjugation groups apart from the infinitive — and from the "they" form when the infinitive lies to you',
+      'The full present-tense endings for both conjugation groups, with worked examples',
+      'The consonant mutations that change the "I" (я) form of many verbs',
+      'How to form the past tense in seconds — and the -ти / -чь verbs that break the pattern',
+      'The difference between simple future (perfective) and compound future (buду + infinitive)',
+      '8 irregular verbs you will use every day, fully conjugated',
+    ],
+    leadMagnetCta: {
+      title: 'Verb endings are only half the puzzle — free app',
+      description:
+        'Conjugation handles verbs; Russian cases handle everything else — nouns, adjectives, and pronouns. Russian Cases with Anna drills all six cases with structured lessons and smart quizzes. Free on iOS and Android.',
+      ctaText: 'Download the app — Free',
+      ctaHref: '/',
+    },
+    sections: [
+      {
+        h2: 'The Two Conjugation Groups: How to Tell Them Apart',
+        content:
+          'Every Russian verb belongs to one of two conjugation groups, traditionally called **first conjugation** and **second conjugation**. The group determines which set of six endings the verb takes in the present (and simple future) tense.\n\nThe infinitive ending is a useful first guess: most **-ать / -ять** verbs are first conjugation, and most **-ить** verbs are second conjugation. But it is only a guess — a short, well-known list of exceptions conjugates the "wrong" way, so the infinitive alone is not proof.',
+        table: {
+          headers: ['Conjugation', 'Typical infinitive ending', 'Example', '"They" (они) ending'],
+          rows: [
+            ['First (I)', '-ать, -ять, most -еть', 'читать, гулять, уметь', '-ут / -ют'],
+            [
+              'Second (II)',
+              '-ить (most), a few -еть / -ать',
+              'говорить, смотреть, слышать',
+              '-ат / -ят',
+            ],
+          ],
+          caption: 'The two Russian verb conjugation groups',
+          boldColumnIndices: [0],
+        },
+        bullets: [
+          'The most reliable check is the **они (they)** form: **-ут/-ют** always means first conjugation, **-ат/-ят** always means second conjugation',
+          'A short list of common **-еть** verbs conjugates as **second**, not first: смотреть, видеть, зависеть, вертеть, обидеть, ненавидеть, терпеть',
+          'A short list of **-ать** verbs also conjugates as second: слышать, дышать, держать, гнать — Russian teachers call these "the 7 exception verbs"',
+          '**Брить** (to shave) and **стелить** (to spread/make a bed) look like -ить verbs but conjugate as **first**: бре́ю, бре́ешь, бре́ет…',
+        ],
+      },
+      {
+        h2: 'Present Tense: First Conjugation (-е-) Endings',
+        content:
+          'First-conjugation verbs use an **-е-** vowel in most of their endings. The exact letter (у/ю, ешь, ет…) depends only on whether the verb stem ends in a vowel or a consonant — a spelling rule, not a meaning difference.',
+        table: {
+          headers: ['Pronoun', 'Ending', 'читать (to read)', 'гулять (to walk)'],
+          rows: [
+            ['я', '-у / -ю', 'читаю', 'гуляю'],
+            ['ты', '-ешь', 'читаешь', 'гуляешь'],
+            ['он / она / оно', '-ет', 'читает', 'гуляет'],
+            ['мы', '-ем', 'читаем', 'гуляем'],
+            ['вы', '-ете', 'читаете', 'гуляете'],
+            ['они', '-ут / -ют', 'читают', 'гуляют'],
+          ],
+          caption: 'First-conjugation present-tense endings',
+          boldColumnIndices: [0, 1],
+          accentColumnIndices: [1],
+        },
+        bullets: [
+          'Stems ending in a **consonant** (чита-) take **-у / -ешь / -ет / -ем / -ете / -ут**',
+          'Stems ending in a **vowel** (гуля-) take **-ю / -ешь / -ет / -ем / -ете / -ют** — same endings, just ю instead of у and ют instead of ут',
+          'Stress can jump around unpredictably: писать → пишу́ (stressed ending) but пи́шешь, пи́шет… (stress moves back to the stem) — always check a dictionary for stress placement',
+        ],
+      },
+      {
+        h2: 'Present Tense: Second Conjugation (-и-) Endings',
+        content:
+          'Second-conjugation verbs use an **-и-** vowel in most of their endings. The я-form and они-form are where second conjugation looks most different from first — and where consonant mutations most often appear.',
+        table: {
+          headers: ['Pronoun', 'Ending', 'говорить (to speak)', 'видеть (to see)'],
+          rows: [
+            ['я', '-у / -ю', 'говорю', 'вижу'],
+            ['ты', '-ишь', 'говоришь', 'видишь'],
+            ['он / она / оно', '-ит', 'говорит', 'видит'],
+            ['мы', '-им', 'говорим', 'видим'],
+            ['вы', '-ите', 'говорите', 'видите'],
+            ['они', '-ат / -ят', 'говорят', 'видят'],
+          ],
+          caption: 'Second-conjugation present-tense endings',
+          boldColumnIndices: [0, 1],
+          accentColumnIndices: [1],
+        },
+        subsections: [
+          {
+            h3: 'Consonant mutations in the я-form',
+            content:
+              'A group of second-conjugation verbs quietly swaps a consonant — but **only in the я-form**. Every other form (ты, он, мы, вы, они) keeps the original, unmutated consonant.',
+            table: {
+              headers: ['Mutation', 'Infinitive', 'я-form', 'ты-form (unmutated)'],
+              rows: [
+                ['д → ж', 'видеть', 'вижу', 'видишь'],
+                ['т → ч', 'платить', 'плачу', 'платишь'],
+                ['с → ш', 'просить', 'прошу', 'просишь'],
+                ['ст → щ', 'простить', 'прощу', 'простишь'],
+                ['б → бл', 'любить', 'люблю', 'любишь'],
+                ['в → вл', 'готовить', 'готовлю', 'готовишь'],
+                ['п → пл', 'купить', 'куплю', 'купишь'],
+              ],
+              caption: 'Consonant mutations in the я-form of second-conjugation verbs',
+              boldColumnIndices: [0],
+            },
+          },
+        ],
+        bullets: [
+          'The mutation is **limited to the я-form** — a very common beginner mistake is applying it everywhere: лю́бишь, not *любьишь',
+          'The same kind of mutation also shows up in some **first-conjugation** verbs, but there it runs through the whole present tense, not just я: писать → пишу, пишешь, пишет, пишем, пишете, пишут (с→ш throughout)',
+          'The **7-letter spelling rule** explains why they write **они пишут**, not *пишют: after ж, ш, щ, ч, ц, г, к, х, Russian spelling never allows ю or я — only у or а',
+        ],
+      },
+      {
+        h2: 'Past Tense: The Easiest Tense in Russian (With a Few Traps)',
+        content:
+          'Good news first: **conjugation group does not matter for the past tense.** Drop **-ть** from the infinitive and add an ending that agrees with the **gender and number of the subject** — not with person, which is the opposite of how English and most European languages build their past tense.',
+        table: {
+          headers: ['Subject', 'Ending', 'читать → past', 'говорить → past'],
+          rows: [
+            ['он (masc.)', '-л', 'чита́л', 'говори́л'],
+            ['она (fem.)', '-ла', 'чита́ла', 'говори́ла'],
+            ['оно (neut.)', '-ло', 'чита́ло', 'говори́ло'],
+            ['они / мы / вы', '-ли', 'чита́ли', 'говори́ли'],
+          ],
+          caption: 'Past-tense endings: gender and number, not person',
+          boldColumnIndices: [0, 1],
+        },
+        subsections: [
+          {
+            h3: 'Exceptions: verbs ending in -ти and -чь',
+            content:
+              'A small but frequent group of verbs does not follow the clean -л pattern. Verbs ending in **-ти** (идти, нести, вести) and **-чь** (мочь, помочь, печь) often shift their stem or drop the masculine -л entirely.',
+            table: {
+              headers: ['Infinitive', 'он (masc.)', 'она (fem.)', 'они (pl.)'],
+              rows: [
+                ['идти (to go)', 'шёл', 'шла', 'шли'],
+                ['мочь (to be able)', 'мог', 'могла', 'могли'],
+                ['нести (to carry)', 'нёс', 'несла', 'несли'],
+                ['печь (to bake)', 'пёк', 'пекла', 'пекли'],
+              ],
+              caption: 'Irregular past-tense stems: -ти and -чь verbs',
+              boldColumnIndices: [0],
+            },
+          },
+        ],
+        bullets: [
+          'Past tense agrees with **gender and number**, not person: a male speaker says **я чита́л**, a female speaker says **я чита́ла** — same pronoun, different verb form',
+          '**Мочь** and other -чь verbs drop the masculine -л entirely: **мог**, not *могл',
+          '**Идти** has a fully suppletive past stem (шёл) unlike its present stem (иду) — the two forms share no letters at all',
+        ],
+      },
+      {
+        h2: 'Future Tense: Simple vs Compound',
+        content:
+          'Russian builds the future tense two different ways, and which one you use depends entirely on **aspect**, not on meaning you choose freely. If you have not yet covered perfective vs imperfective verbs, our [guide to Russian verbal aspect](/learn/articles/russian-verbal-aspect-perfective-imperfective) is the natural companion to this section.',
+        table: {
+          headers: ['Aspect', 'Structure', 'Example', 'Meaning'],
+          rows: [
+            [
+              'Perfective — simple future',
+              'Conjugated like a present-tense verb',
+              'я прочита́ю',
+              'I will read it (and finish)',
+            ],
+            [
+              'Imperfective — compound future',
+              'буду/будешь/будет/будем/будете/будут + imperfective infinitive',
+              'я бу́ду чита́ть',
+              'I will be reading / I will read (ongoing)',
+            ],
+          ],
+          caption: 'Simple future (perfective) vs compound future (imperfective)',
+          boldColumnIndices: [0],
+        },
+        bullets: [
+          'A **perfective** verb has no present tense — conjugating it in the present-tense pattern automatically produces a **future** meaning: я прочита́ю (I will read), not "I am reading"',
+          'An **imperfective** verb needs the auxiliary **буду** (I will be) conjugated to match the subject, followed by the imperfective infinitive: мы **будем** говори́ть (we will be talking / we will talk)',
+          'Never conjugate an imperfective infinitive directly for the future — *я читаю за́втра книгу does not mean "I will read the book tomorrow"; it needs буду читать',
+        ],
+      },
+      {
+        h2: '8 Irregular Verbs You Need to Know',
+        content:
+          'A handful of extremely common verbs do not fit either conjugation cleanly. They are worth memorising as standalone patterns — you will use most of them daily.',
+        table: {
+          headers: ['Infinitive', 'я', 'ты', 'он', 'мы', 'вы', 'они'],
+          rows: [
+            ['хоте́ть (to want)', 'хочу́', 'хо́чешь', 'хо́чет', 'хоти́м', 'хоти́те', 'хотя́т'],
+            ['есть (to eat)', 'ем', 'ешь', 'ест', 'еди́м', 'еди́те', 'едя́т'],
+            ['дать (to give)', 'дам', 'дашь', 'даст', 'дади́м', 'дади́те', 'даду́т'],
+            ['бежа́ть (to run)', 'бегу́', 'бежи́шь', 'бежи́т', 'бежи́м', 'бежи́те', 'бегу́т'],
+            ['е́хать (to go, by vehicle)', 'е́ду', 'е́дешь', 'е́дет', 'е́дем', 'е́дете', 'е́дут'],
+            ['пить (to drink)', 'пью', 'пьёшь', 'пьёт', 'пьём', 'пьёте', 'пьют'],
+            ['жить (to live)', 'живу́', 'живёшь', 'живёт', 'живём', 'живёте', 'живу́т'],
+            ['мочь (to be able to)', 'могу́', 'мо́жешь', 'мо́жет', 'мо́жем', 'мо́жете', 'мо́гут'],
+          ],
+          caption: '8 common irregular Russian verbs, fully conjugated',
+          boldColumnIndices: [0],
+        },
+        bullets: [
+          '**Хотеть** mixes conjugations: the singular (хочу́, хо́чешь, хо́чет) follows first conjugation, the plural (хоти́м, хоти́те, хотя́т) follows second — a genuine oddity worth memorising on its own',
+          '**Есть** and **дать** share a rare "athematic" pattern found in only a handful of Russian verbs — neither fits first nor second conjugation',
+          'The present tense of **быть** ("to be") is almost always **omitted** in modern Russian: **Я студе́нт** (I am a student), not *Я есть студе́нт — the archaic form есть survives mainly in set phrases like **У меня́ есть…** (I have…)',
+        ],
+      },
+      {
+        h2: 'Common Mistakes with Russian Verb Conjugation',
+        content: 'These five mistakes account for most of the conjugation errors learners make:',
+        subsections: [
+          {
+            h3: 'Mistake 1: Guessing the wrong conjugation from the infinitive',
+            content:
+              '**Wrong**: Я **смотрею** телевизор.\n**Correct**: Я **смотрю** телевизор.\n\n**Why**: смотреть ends in -еть, which usually signals first conjugation — but смотреть is one of the well-known exceptions that conjugates as **second**.',
+          },
+          {
+            h3: 'Mistake 2: Applying the я-form mutation to every form',
+            content:
+              '**Wrong**: Ты **любишь**… **любю**? — mixing up which form mutates.\n**Correct**: Я **люблю**, ты **любишь**, он **любит**.\n\n**Why**: the б → бл mutation happens **only in the я-form**. Every other form uses the plain, unmutated consonant.',
+          },
+          {
+            h3: 'Mistake 3: Using person-based endings in the past tense',
+            content:
+              '**Wrong**: Она **говорил** по-русски.\n**Correct**: Она **говорила** по-русски.\n\n**Why**: the past tense agrees with the **gender and number of the subject**, never with person. Она is feminine, so the verb must take -ла regardless of who is speaking.',
+          },
+          {
+            h3: 'Mistake 4: Conjugating a perfective verb where a habit is meant',
+            content:
+              '**Wrong**: Ка́ждый день я **прочита́ю** кни́гу.\n**Correct**: Ка́ждый день я **чита́ю** кни́гу.\n\n**Why**: perfective verbs have no present tense, so conjugating прочитать this way actually means "I will read" (future), not a daily habit. Habitual actions need the imperfective, читать.',
+          },
+          {
+            h3: 'Mistake 5: Breaking the 7-letter spelling rule',
+            content:
+              '**Wrong**: Они **пишют** пи́сьма.\n**Correct**: Они **пишут** пи́сьма.\n\n**Why**: after ж, ш, щ, ч, ц, г, к, х, Russian spelling never allows ю or я — write у or а instead, even when the "expected" ending would otherwise use ю or я.',
+          },
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'What are the two conjugation groups in Russian?',
+        answer:
+          'Russian verbs split into **first conjugation** (endings built around -е-: -у/-ю, -ешь, -ет, -ем, -ете, -ут/-ют) and **second conjugation** (endings built around -и-: -у/-ю, -ишь, -ит, -им, -ите, -ат/-ят). Most -ать/-ять verbs are first conjugation and most -ить verbs are second, but a short list of common exceptions (смотреть, слышать, держать…) breaks that pattern.',
+      },
+      {
+        question: 'How do I know if a verb is first or second conjugation?',
+        answer:
+          'The most reliable test is the **они (they)** form: if it ends in **-ут/-ют**, the verb is first conjugation; if it ends in **-ат/-ят**, it is second conjugation. The infinitive ending is a useful first guess but is not proof, since verbs like смотреть (-еть) and держать (-ать) conjugate as second conjugation.',
+      },
+      {
+        question: 'Does the Russian past tense change by person, like English?',
+        answer:
+          'No. The Russian past tense agrees with the **gender and number** of the subject, not with person. Every subject uses the same ending pattern: -л (masculine), -ла (feminine), -ло (neuter), -ли (plural) — so я читал and он читал look identical if the speaker is male.',
+      },
+      {
+        question: 'What is the difference between simple future and compound future in Russian?',
+        answer:
+          "The **simple future** is built by conjugating a perfective verb in the present-tense pattern (я прочита́ю — I will read, completed). The **compound future** is built with the auxiliary буду/будешь/будет/будем/будете/будут plus an imperfective infinitive (я бу́ду чита́ть — I will be reading / I will read, ongoing). Which one you use depends on the verb's aspect, not on personal preference.",
+      },
+      {
+        question: 'Are there truly irregular verbs in Russian, or just exceptions?',
+        answer:
+          'Both exist. Verbs like хотеть (mixed conjugation), есть and дать (a rare athematic pattern), and идти (a suppletive past stem, шёл) are genuinely irregular and must be memorised individually. Most other "irregularities" — like смотреть conjugating as second conjugation, or the -чь verbs dropping -л in the masculine past — are small, well-documented exception groups rather than true chaos.',
+      },
+    ],
+    conclusionIntro:
+      'Russian verb conjugation rewards the effort you put in early — unlike cases, most of it can genuinely click in a single focused study session:',
+    conclusionBullets: [
+      '**Identify the conjugation group** from the они-form, not the infinitive alone — -ут/-ют is first, -ат/-ят is second',
+      '**Learn the exception lists**: смотреть-type -еть verbs and слышать-type -ать verbs conjugate as second',
+      '**Watch for я-form mutations** (любить → люблю) — they apply only to that one form',
+      '**Past tense = gender + number**, not person: -л / -ла / -ло / -ли',
+      '**Future tense follows aspect**: perfective conjugates directly; imperfective needs буду + infinitive',
+      'Memorise the small set of **irregular verbs** (хотеть, есть, дать, идти…) as standalone patterns',
+    ],
+    conclusionOutro:
+      'Conjugation gives you the verb; Russian cases give you everything the verb acts on — the noun, adjective, and pronoun endings that make a sentence actually hang together. Once verb endings feel automatic, our free practice tool at russiandeclensions.com/practice is the natural next step for drilling all six cases interactively — no sign-up needed.',
+    internalLinks: [
+      { href: '/practice', label: 'Free Russian Declension Quiz — practice all 6 cases' },
+      {
+        href: '/learn/articles/russian-verbal-aspect-perfective-imperfective',
+        label: 'Russian Verbal Aspect: Perfective vs Imperfective Explained',
+      },
+      {
+        href: '/learn/articles/russian-verbs-of-motion',
+        label: 'Russian Verbs of Motion: The Complete Guide',
+      },
+      {
+        href: '/learn/articles/russian-word-stress-guide',
+        label: 'Russian Word Stress: Why It Changes Everything (and How to Master It)',
+      },
+      {
+        href: '/learn/articles/russian-cases-explained-beginners-guide',
+        label: "Russian Cases Explained: A Beginner's Guide",
+      },
+    ],
+    ctaText: 'Practice Russian Cases — Free →',
+    ctaHref: '/practice',
+    conclusion: '',
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: 'Russian Verb Conjugation: The Complete Guide to Present, Past and Future Tense',
+      description:
+        'Learn Russian verb conjugation step by step: the two conjugation groups, present-tense endings, consonant mutations, past tense, future tense, and 8 irregular verbs fully conjugated.',
+      datePublished: '2026-09-03',
+      dateModified: '2026-09-03',
+      author: {
+        '@type': 'Person',
+        name: 'Nathan',
+        url: 'https://russiandeclensions.com/',
+        image: 'https://russiandeclensions.com/landing-cases/founder-photo.webp',
+        description:
+          'Native French speaker learning Russian; writes about grammar, cases, and practical self-study habits.',
+        worksFor: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      },
+      publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': 'https://russiandeclensions.com/learn/articles/russian-verb-conjugation-guide',
+      },
+      keywords:
+        'russian verb conjugation, conjugate russian verbs, russian verb tenses, russian present tense conjugation, russian past tense verbs, russian verb endings',
+    },
+  },
 };
 
 import type { LandingLanguage } from '@/data/website/landingTranslations';

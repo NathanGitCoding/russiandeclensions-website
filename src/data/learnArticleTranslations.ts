@@ -134,6 +134,10 @@ import { russianNominativeCaseFr } from './articleTranslationsFr/russian-nominat
 import { russianNominativeCaseDe } from './articleTranslationsDe/russian-nominative-case';
 import { russianNominativeCaseTr } from './articleTranslationsTr/russian-nominative-case';
 import { russianNominativeCasePl } from './articleTranslationsPl/russian-nominative-case';
+import { russianVerbConjugationGuideFr } from './articleTranslationsFr/russian-verb-conjugation-guide';
+import { russianVerbConjugationGuideDe } from './articleTranslationsDe/russian-verb-conjugation-guide';
+import { russianVerbConjugationGuideTr } from './articleTranslationsTr/russian-verb-conjugation-guide';
+import { russianVerbConjugationGuidePl } from './articleTranslationsPl/russian-verb-conjugation-guide';
 
 export const learnArticleTranslations: Partial<
   Record<string, Partial<Record<LandingLanguage, LearnArticle>>>
@@ -708,5 +712,11 @@ export const learnArticleTranslations: Partial<
     de_de: russianNominativeCaseDe,
     tr_tr: russianNominativeCaseTr,
     pl_pl: russianNominativeCasePl,
+  },
+  'russian-verb-conjugation-guide': {
+    fr_fr: russianVerbConjugationGuideFr,
+    de_de: russianVerbConjugationGuideDe,
+    tr_tr: russianVerbConjugationGuideTr,
+    pl_pl: russianVerbConjugationGuidePl,
   },
 };
