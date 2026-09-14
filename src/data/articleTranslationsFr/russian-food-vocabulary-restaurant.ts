@@ -280,6 +280,7 @@ export const russianFoodVocabularyRestaurantFr: LearnArticle = {
   ],
   ctaText: 'Entraînez-vous aux cas russes — Gratuit →',
   ctaHref: '/practice',
+  conclusion: '',
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',

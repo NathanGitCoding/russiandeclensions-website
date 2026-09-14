@@ -280,6 +280,7 @@ export const russianFoodVocabularyRestaurantDe: LearnArticle = {
   ],
   ctaText: 'Russische Fälle üben — Kostenlos →',
   ctaHref: '/practice',
+  conclusion: '',
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
