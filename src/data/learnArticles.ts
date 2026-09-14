@@ -15208,6 +15208,297 @@ export const learnArticles: Record<string, LearnArticle> = {
       },
     },
   },
+  'russian-names-patronymics-guide': {
+    slug: 'russian-names-patronymics-guide',
+    introByline: ARTICLE_BYLINE,
+    title: 'Russian Names Explained: First Name, Patronymic, Surname (and How They Decline)',
+    metaTitle: 'Russian Names & Patronymics Guide | Russian Cases with Anna',
+    metaDescription:
+      'Understand Russian names: first name, patronymic (отчество), surname endings, nicknames, formal address, and how each one changes by case.',
+    keywords: [
+      'russian names guide',
+      'russian patronymic',
+      'отчество meaning',
+      'russian name declension',
+      'russian nicknames',
+      'ty vs vy russian names',
+      'russian surname endings',
+      'how do russian names work',
+    ],
+    h1: 'Russian Names Explained: First Name, Patronymic, Surname (and How They Decline)',
+    heroImage: {
+      src: '/articles/russian-names-patronymics-guide-header.webp',
+      alt: 'Woman holding a Russian passport next to a notebook with the name Иван Иванович Смирнов, with Saint Basil’s Cathedral in the background',
+      width: 1536,
+      height: 1024,
+    },
+    intro:
+      'A Russian name is not one word — it is three: a **first name** (имя), a **patronymic** (отчество, built from the father’s first name), and a **surname** (фамилия). Get the combination wrong and you can sound rude to a stranger or oddly formal with a friend. And once you start using names in real sentences, they behave like every other Russian noun: they **decline**.\n\nThis guide walks through how the three-part system works, how patronymics and nicknames are built, which surname ending to use for a woman versus a man, and how a name like Иван changes across all six cases.',
+    whatYouLearn: [
+      'How the three-part имя / отчество / фамилия system works',
+      'Building a patronymic from a father’s first name',
+      'Common nicknames for popular Russian first names',
+      'Surname endings and why they change with gender',
+      'When to use ты vs. formal name + patronymic',
+      'How names decline across the six Russian cases',
+    ],
+    leadMagnetCta: {
+      title: 'Names decline too — not just regular nouns',
+      description:
+        'Иван becomes Ивана, Ивану, Иваном depending on the case. Drill real declension patterns, names included, with Russian Cases with Anna — free on iOS and Android.',
+      ctaText: 'Download the app — Free',
+      ctaHref: '/',
+    },
+    tableAccentVariant: 'genitive',
+    sections: [
+      {
+        h2: 'How the Russian Naming System Works',
+        content:
+          'Official documents, school registers, and formal introductions all use three parts: **имя** (first name), **отчество** (patronymic, from the father’s first name), and **фамилия** (surname). Together they identify a person the way a full legal name does in English — but the middle part is not a "middle name," it is generated from your father.',
+        table: {
+          headers: ['Part', 'Russian term', 'Example (son of Иван)'],
+          rows: [
+            ['First name', 'имя', 'Пётр'],
+            ['Patronymic', 'отчество', 'Иванович'],
+            ['Surname', 'фамилия', 'Соколов'],
+          ],
+          caption: 'The three parts of a Russian full name',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          'The patronymic literally means "son of Иван" or "daughter of Иван" — **Иванович** / **Ивановна**.',
+          'All three parts appear on a passport; only the first two are used in polite spoken address.',
+          'Surnames are inherited from the family, like in English — they don’t depend on either parent’s first name.',
+        ],
+      },
+      {
+        h2: 'First Names and Their Nicknames',
+        content:
+          'Russians use short, affectionate forms constantly — with friends, family, and children the full name can even sound cold. Each first name has one or more standard nicknames.',
+        table: {
+          headers: ['Full name', 'Common nicknames', 'Gender'],
+          rows: [
+            ['Александр', 'Саша, Саня, Шура', 'Masculine'],
+            ['Александра', 'Саша, Шура', 'Feminine'],
+            ['Дмитрий', 'Дима, Митя', 'Masculine'],
+            ['Мария', 'Маша, Маруся', 'Feminine'],
+            ['Иван', 'Ваня', 'Masculine'],
+            ['Екатерина', 'Катя, Катюша', 'Feminine'],
+            ['Николай', 'Коля', 'Masculine'],
+            ['Наталья', 'Наташа', 'Feminine'],
+            ['Михаил', 'Миша', 'Masculine'],
+            ['Елена', 'Лена, Алёна', 'Feminine'],
+          ],
+          caption: 'Popular Russian first names and their nicknames',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          'Nicknames are for **informal ты contexts** — never combine a nickname with a patronymic (no "Саша Иванович").',
+          'Adding suffixes like **-очка/-енька** makes names even more affectionate: Машенька, Ванечка.',
+          'For gender rules behind these endings, see the [noun gender guide](/learn/articles/russian-noun-gender-guide).',
+        ],
+      },
+      {
+        h2: 'Building the Patronymic (Отчество)',
+        content:
+          'The patronymic is formed from the **father’s first name** plus a suffix that depends on gender: **-ович / -евич** for sons, **-овна / -евна** for daughters. Names ending in a soft consonant or vowel take a slightly different suffix.',
+        table: {
+          headers: ['Father’s name', 'Son’s patronymic', 'Daughter’s patronymic'],
+          rows: [
+            ['Иван', 'Иванович', 'Ивановна'],
+            ['Сергей', 'Сергеевич', 'Сергеевна'],
+            ['Александр', 'Александрович', 'Александровна'],
+            ['Дмитрий', 'Дмитриевич', 'Дмитриевна'],
+            ['Никита', 'Никитич', 'Никитична'],
+            ['Илья', 'Ильич', 'Ильинична'],
+          ],
+          caption: 'Common patronymic patterns',
+          boldColumnIndices: [0],
+        },
+        bullets: [
+          'The patronymic is used together with the first name — **Иван Иванович**, not alone in most contexts.',
+          'Among older generations, using the patronymic **by itself** (e.g., calling someone just "Ивановна") is a mark of familiar respect, common for older women in a village or workplace.',
+          'You never choose your own patronymic — it comes automatically from your father’s name.',
+        ],
+      },
+      {
+        h2: 'Surnames and Gender Agreement',
+        content:
+          'Unlike English surnames, most Russian surnames change form depending on whether they belong to a man or a woman — because many surnames are grammatically **adjectives**.',
+        table: {
+          headers: ['Masculine surname', 'Feminine surname', 'Pattern'],
+          rows: [
+            ['Иванов', 'Иванова', '-ов / -ова'],
+            ['Смирнов', 'Смирнова', '-ов / -ова'],
+            ['Достоевский', 'Достоевская', '-ский / -ская'],
+            ['Толстой', 'Толстая', '-ой / -ая'],
+          ],
+          caption: 'How surname endings change with gender',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          'Surnames ending in **-ский/-ская** decline exactly like adjectives — see the [adjective declension guide](/learn/articles/russian-adjective-declension).',
+          'Surnames ending in **-ов/-ев/-ин** decline like nouns, with a few adjective-style endings mixed in (instrumental **-ым**).',
+          'Some surnames are **indeclinable**: foreign-origin names and those ending in **-ко, -их, -ых** (e.g., Шевченко, Седых) never change, for any gender or case.',
+        ],
+      },
+      {
+        h2: 'Formal vs. Informal Address: Ты, Вы, and Name Forms',
+        content:
+          'Choosing the right name form is as much about the relationship as the grammar. Mixing a nickname with вы, or a full name+patronymic with ты, sounds off to a Russian ear.',
+        table: {
+          headers: ['Context', 'Address form', 'Example'],
+          rows: [
+            ['Stranger, doctor, official', 'Имя + Отчество + вы', 'Иван Иванович, вы не подскажете...?'],
+            ['New colleague, teacher', 'Имя + Отчество + вы', 'Мария Сергеевна, у меня вопрос.'],
+            ['Close friend, family', 'Nickname + ты', 'Ваня, ты идёшь?'],
+            ['Child speaking to a peer', 'Nickname + ты', 'Саша, пойдём!'],
+          ],
+          caption: 'Matching address form to context',
+          boldColumnIndices: [1],
+        },
+        bullets: [
+          'When in doubt, default to **Имя + Отчество + вы** — it is never rude, only ever safe.',
+          'Foreigners are often forgiven for skipping the patronymic, but attempting it is genuinely appreciated.',
+          'Workplaces are shifting toward first-name-only address for younger staff — follow the room’s lead.',
+        ],
+      },
+      {
+        h2: 'Declining Names by Case',
+        content:
+          'Names are nouns, so they take case endings like everything else in a Russian sentence. First names follow regular noun patterns; patronymics and adjective-type surnames combine noun and adjective endings.',
+        table: {
+          headers: ['Case', 'Иван (first name)', 'Ивановна (patronymic)', 'Иванов (surname)'],
+          rows: [
+            ['Nominative', 'Иван', 'Ивановна', 'Иванов'],
+            ['Genitive', 'Ивана', 'Ивановны', 'Иванова'],
+            ['Dative', 'Ивану', 'Ивановне', 'Иванову'],
+            ['Accusative', 'Ивана', 'Ивановну', 'Иванова'],
+            ['Instrumental', 'Иваном', 'Ивановной', 'Ивановым'],
+            ['Prepositional', 'об Иване', 'об Ивановне', 'об Иванове'],
+          ],
+          caption: 'A name declined across all six cases',
+          boldColumnIndices: [0],
+        },
+        bullets: [
+          '**Я иду к Ивану** ("I’m going to Ivan’s") uses the dative, just like any other noun after к.',
+          '**Я говорю об Ивановне** ("I’m talking about Ivanovna") uses the prepositional after об.',
+          'For the full pattern behind each case, see our [genitive](/learn/articles/russian-genitive-case), [dative](/learn/articles/russian-dative-case), and [prepositional](/learn/articles/russian-prepositional-case) guides.',
+        ],
+        subsections: [
+          {
+            h3: 'What about surnames like Толстой or Достоевская?',
+            content:
+              'These decline exactly like adjectives: **Толстого** (genitive), **Толстому** (dative), **Толстым** (instrumental). If you already know adjective endings, you already know these surnames.',
+          },
+        ],
+      },
+      {
+        h2: 'Common Mistakes with Russian Names',
+        content: 'A few habits give away a beginner immediately — and are easy to fix.',
+        bullets: [
+          '**Саша Иванович** ✗ — never pair a nickname with a patronymic; use either **Иван Иванович** or just **Ваня**.',
+          '**Мария Ивановна** for a woman whose father is Иван ✓ — but check gender: a father named **Илья** gives **Ильинична**, not "Ильевна".',
+          'Forgetting that surnames like **Достоевский** must agree in gender: a woman is **Достоевская**, never "Достоевский".',
+          'Using вы with a nickname ("Ваня, вы...") — pick one register: either full name + вы, or nickname + ты.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'What is a Russian patronymic (отчество)?',
+        answer:
+          'It is a name built from your father’s first name, used as the middle part of a formal Russian name. Sons get -ович/-евич (e.g., Иванович); daughters get -овна/-евна (e.g., Ивановна).',
+      },
+      {
+        question: 'Do I need to use someone’s patronymic?',
+        answer:
+          'In formal, professional, or first-meeting contexts, yes — use first name + patronymic with вы. With friends and family, a nickname with ты is normal and patronymics are dropped entirely.',
+      },
+      {
+        question: 'Why do Russian surnames change between men and women?',
+        answer:
+          'Many Russian surnames are grammatically adjectives or adjective-like nouns, so they agree in gender: Иванов (he) / Иванова (she), Достоевский (he) / Достоевская (she).',
+      },
+      {
+        question: 'Do Russian first names decline by case?',
+        answer:
+          'Yes. First names follow regular noun declension: Иван → Ивана (genitive/accusative), Ивану (dative), Иваном (instrumental), об Иване (prepositional).',
+      },
+      {
+        question: 'Is it rude to use a nickname with a stranger?',
+        answer:
+          'Yes, it can come across as overly familiar. Default to first name + patronymic + вы until the other person invites a more informal register.',
+      },
+    ],
+    conclusionIntro: 'Three parts, two genders, six cases — but a handful of patterns cover almost everyone you’ll meet.',
+    conclusionBullets: [
+      'Use **имя + отчество + вы** with strangers and in formal settings',
+      'Switch to a **nickname + ты** with friends and family',
+      'Match **surname endings** to gender: -ов/-ова, -ский/-ская',
+      'Remember names **decline** like any other Russian noun',
+      'When unsure, the formal form is always the safe choice',
+    ],
+    conclusionOutro:
+      'Once these forms feel natural, harden the case endings behind them with our [genitive](/learn/articles/russian-genitive-case) and [dative](/learn/articles/russian-dative-case) guides, and drill declension patterns in the free [practice tool](/practice).',
+    internalLinks: [
+      {
+        href: '/learn/articles/russian-adjective-declension',
+        label: 'Russian Adjective Declension Guide',
+      },
+      {
+        href: '/learn/articles/russian-genitive-case',
+        label: 'Russian Genitive Case Guide',
+      },
+      {
+        href: '/learn/articles/russian-dative-case',
+        label: 'Russian Dative Case Guide',
+      },
+      {
+        href: '/learn/articles/russian-noun-gender-guide',
+        label: 'Russian Noun Gender Guide',
+      },
+      {
+        href: '/learn/articles/russian-greetings-guide',
+        label: 'Russian Greetings Guide',
+      },
+      { href: '/practice', label: 'Free Russian Declension Quiz' },
+    ],
+    ctaText: 'Practice Russian Cases — Free →',
+    ctaHref: '/practice',
+    conclusion: '',
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: 'Russian Names Explained: First Name, Patronymic, Surname (and How They Decline)',
+      description:
+        'Understand Russian names: first name, patronymic (отчество), surname endings, nicknames, formal address, and how each one changes by case.',
+      datePublished: '2026-09-14',
+      dateModified: '2026-09-14',
+      author: {
+        '@type': 'Person',
+        name: 'Nathan',
+        url: 'https://russiandeclensions.com/',
+        image: 'https://russiandeclensions.com/landing-cases/founder-photo.webp',
+        description:
+          'Native French speaker learning Russian; writes about grammar, cases, and practical self-study habits.',
+        worksFor: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      },
+      publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': 'https://russiandeclensions.com/learn/articles/russian-names-patronymics-guide',
+      },
+      keywords:
+        'russian names guide, russian patronymic, отчество meaning, russian name declension, russian nicknames, russian surname endings',
+      image: {
+        '@type': 'ImageObject',
+        url: 'https://russiandeclensions.com/articles/russian-names-patronymics-guide-header.webp',
+        width: 1536,
+        height: 1024,
+      },
+    },
+  },
 };
 
 import type { LandingLanguage } from '@/data/website/landingTranslations';

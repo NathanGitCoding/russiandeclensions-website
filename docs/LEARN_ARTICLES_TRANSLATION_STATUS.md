@@ -27,7 +27,7 @@ _(« TK » dans la spec interne = Turc = `tr_tr`.)_
 
 ## Tableau de suivi
 
-**Dernière mise à jour :** 2026-09-14 — **EN** = source ✅. Batch SEO : 8/9 traduits FR/DE/TR/PL (reste food).
+**Dernière mise à jour :** 2026-09-14 — **EN** = source ✅. Batch SEO : 9/9 traduits FR/DE/TR/PL (food inclus) + nouvel article noms/patronymes.
 
 | #   | Slug                                      | Sujet (court)                     | EN  | FR  | DE  | TR  | PL  | Notes |
 | --- | ----------------------------------------- | --------------------------------- | --- | --- | --- | --- | --- | ----- |
@@ -56,6 +56,7 @@ _(« TK » dans la spec interne = Turc = `tr_tr`.)_
 | 23  | `torfl-level-guide-which-to-choose`       | TORFL A1/A2/B1                    | ✅  | ✅  | ✅  | ✅  | ✅  | batch SEO 2026-09 |
 | 24  | `russian-time-expressions-cases`          | Expressions de temps + cas        | ✅  | ✅  | ✅  | ✅  | ✅  | batch SEO 2026-09 |
 | 25  | `russian-food-vocabulary-restaurant`      | Food / restaurant                 | ✅  | ✅  | ✅  | ✅  | ✅  | batch SEO 2026-09 |
+| 26  | `russian-names-patronymics-guide`         | Noms, patronymes, déclinaison     | ✅  | ✅  | ✅  | ✅  | ✅  | publié 2026-09-14 |
 
 ## Leçons Learn (`/learn/lessons/[slug]`)
 

@@ -280,6 +280,7 @@ export const russianFoodVocabularyRestaurantTr: LearnArticle = {
   ],
   ctaText: 'Rusça hâlleri çalışın — Ücretsiz →',
   ctaHref: '/practice',
+  conclusion: '',
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',

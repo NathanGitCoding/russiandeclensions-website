@@ -280,6 +280,7 @@ export const russianFoodVocabularyRestaurantPl: LearnArticle = {
   ],
   ctaText: 'Ćwicz rosyjskie przypadki — Za darmo →',
   ctaHref: '/practice',
+  conclusion: '',
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'Article',
