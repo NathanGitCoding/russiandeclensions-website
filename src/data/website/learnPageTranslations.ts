@@ -57,6 +57,15 @@ export const ARTICLE_SLUGS = [
   'russian-greetings-guide',
   'russian-numbers-guide',
   'russian-days-months-guide',
+  'russian-adjective-declension',
+  'russian-family-vocabulary',
+  'russian-pronouns-declension',
+  'anki-vs-app-russian-cases-srs',
+  'russian-hard-soft-consonants-guide',
+  'russian-question-words',
+  'torfl-level-guide-which-to-choose',
+  'russian-time-expressions-cases',
+  'russian-food-vocabulary-restaurant',
 ] as const;
 
 const en: LearnPageTranslations = {
@@ -117,6 +126,24 @@ const en: LearnPageTranslations = {
       'Russian Numbers: How to Count in Russian (Complete Guide 2026)',
     'russian-days-months-guide':
       'Days of the Week and Months in Russian (Complete Guide 2026)',
+    'russian-adjective-declension':
+      'Russian Adjective Declension: Endings Chart for All 6 Cases',
+    'russian-family-vocabulary':
+      'Russian Family Vocabulary: Words for Mom, Dad, Siblings & Relatives',
+    'russian-pronouns-declension':
+      'Russian Pronouns Declension: Personal, Possessive & Demonstrative',
+    'anki-vs-app-russian-cases-srs':
+      'Anki vs App: Best Way to Drill Russian Case Endings with SRS',
+    'russian-hard-soft-consonants-guide':
+      'Russian Hard vs Soft Consonants: The Pronunciation Guide Beginners Skip',
+    'russian-question-words':
+      'Russian Question Words: Who, What, Where, When & How (Complete Guide)',
+    'torfl-level-guide-which-to-choose':
+      'TORFL A1 vs A2 vs B1: Which Level Should You Take First?',
+    'russian-time-expressions-cases':
+      'Russian Time Expressions & Cases: Saying When Something Happens',
+    'russian-food-vocabulary-restaurant':
+      'Russian Food Vocabulary: Order at a Restaurant Without Freezing',
   },
   practiceQuiz: {
     title: 'Practice Quiz',
@@ -195,6 +222,24 @@ const fr: LearnPageTranslations = {
       'Les nombres en russe : comment compter en russe (guide complet 2026)',
     'russian-days-months-guide':
       'Les jours de la semaine et les mois en russe (guide complet 2026)',
+    'russian-adjective-declension':
+      'Déclinaison des adjectifs russes : tableau des terminaisons (6 cas)',
+    'russian-family-vocabulary':
+      'Vocabulaire de la famille en russe : papa, maman, frères, sœurs et proches',
+    'russian-pronouns-declension':
+      'Déclinaison des pronoms russes : personnels, possessifs et démonstratifs',
+    'anki-vs-app-russian-cases-srs':
+      'Anki vs appli : la meilleure façon de driller les cas russes avec le SRS',
+    'russian-hard-soft-consonants-guide':
+      'Consonnes dures et molles en russe : le guide de prononciation souvent sauté',
+    'russian-question-words':
+      'Mots interrogatifs en russe : qui, quoi, où, quand et comment',
+    'torfl-level-guide-which-to-choose':
+      'TORFL A1 vs A2 vs B1 : quel niveau passer en premier ?',
+    'russian-time-expressions-cases':
+      'Expressions de temps en russe et cas : dire quand quelque chose arrive',
+    'russian-food-vocabulary-restaurant':
+      'Vocabulaire de la nourriture en russe : commander au restaurant sans bloquer',
   },
   practiceQuiz: {
     title: 'Quiz de pratique',
@@ -268,6 +313,24 @@ const tr: LearnPageTranslations = {
       "Rusça Sayılar: Rusça'da Nasıl Sayılır (Tam Kılavuz 2026)",
     'russian-days-months-guide':
       'Rusçada Haftanın Günleri ve Aylar (Tam Kılavuz 2026)',
+    'russian-adjective-declension':
+      'Rusça sıfat çekimi: 6 hal için ek tablosu',
+    'russian-family-vocabulary':
+      'Rusça aile kelimeleri: anne, baba, kardeşler ve akrabalar',
+    'russian-pronouns-declension':
+      'Rusça zamir çekimi: kişi, iyelik ve işaret zamirleri',
+    'anki-vs-app-russian-cases-srs':
+      'Anki vs uygulama: Rusça halleri SRS ile ezberlemenin en iyi yolu',
+    'russian-hard-soft-consonants-guide':
+      'Rusçada sert vs yumuşak ünsüzler: yeni başlayanların atladığı telaffuz rehberi',
+    'russian-question-words':
+      'Rusça soru kelimeleri: kim, ne, nerede, ne zaman ve nasıl',
+    'torfl-level-guide-which-to-choose':
+      'TORFL A1 vs A2 vs B1: İlk hangi seviyeyi almalısınız?',
+    'russian-time-expressions-cases':
+      'Rusça zaman ifadeleri ve haller: bir şeyin ne zaman olduğunu söylemek',
+    'russian-food-vocabulary-restaurant':
+      'Rusça yemek kelimeleri: restoranda donmadan sipariş verin',
   },
   practiceQuiz: {
     title: 'Alıştırma Testi',
@@ -345,6 +408,24 @@ const de: LearnPageTranslations = {
       'Russische Zahlen: Auf Russisch zählen (vollständiger Leitfaden 2026)',
     'russian-days-months-guide':
       'Wochentage und Monate auf Russisch (vollständiger Leitfaden 2026)',
+    'russian-adjective-declension':
+      'Russische Adjektivdeklination: Endungstabelle für alle 6 Fälle',
+    'russian-family-vocabulary':
+      'Russischer Familienwortschatz: Mama, Papa, Geschwister & Verwandte',
+    'russian-pronouns-declension':
+      'Russische Pronomen deklinieren: Personal-, Possessiv- und Demonstrativpronomen',
+    'anki-vs-app-russian-cases-srs':
+      'Anki vs App: Russische Fälle mit SRS am besten trainieren',
+    'russian-hard-soft-consonants-guide':
+      'Harte vs weiche Konsonanten im Russischen: Ausspracheguide für Anfänger',
+    'russian-question-words':
+      'Russische Fragewörter: wer, was, wo, wann und wie',
+    'torfl-level-guide-which-to-choose':
+      'TORFL A1 vs A2 vs B1: Welche Stufe zuerst?',
+    'russian-time-expressions-cases':
+      'Russische Zeitausdrücke & Fälle: sagen, wann etwas passiert',
+    'russian-food-vocabulary-restaurant':
+      'Russischer Essenswortschatz: im Restaurant bestellen ohne Panik',
   },
   practiceQuiz: {
     title: 'Übungsquiz',
@@ -423,6 +504,24 @@ const pl: LearnPageTranslations = {
       'Liczby po rosyjsku: jak liczyć po rosyjsku (kompletny przewodnik 2026)',
     'russian-days-months-guide':
       'Dni tygodnia i miesiące po rosyjsku (kompletny przewodnik 2026)',
+    'russian-adjective-declension':
+      'Odmiana przymiotników rosyjskich: tabela końcówek (6 przypadków)',
+    'russian-family-vocabulary':
+      'Słownictwo rodzinne po rosyjsku: mama, tata, rodzeństwo i krewni',
+    'russian-pronouns-declension':
+      'Odmiana zaimków rosyjskich: osobowe, dzierżawcze i wskazujące',
+    'anki-vs-app-russian-cases-srs':
+      'Anki vs aplikacja: najlepszy sposób na przypadki rosyjskie z SRS',
+    'russian-hard-soft-consonants-guide':
+      'Twarde i miękkie spółgłoski w rosyjskim: przewodnik wymowy dla początkujących',
+    'russian-question-words':
+      'Rosyjskie słowa pytające: kto, co, gdzie, kiedy i jak',
+    'torfl-level-guide-which-to-choose':
+      'TORFL A1 vs A2 vs B1: Który poziom wybrać najpierw?',
+    'russian-time-expressions-cases':
+      'Rosyjskie wyrażenia czasu i przypadki: jak mówić kiedy coś się dzieje',
+    'russian-food-vocabulary-restaurant':
+      'Rosyjskie słownictwo kulinarne: zamów w restauracji bez paniki',
   },
   practiceQuiz: {
     title: 'Quiz praktyczny',
@@ -499,6 +598,24 @@ const ru: LearnPageTranslations = {
       'Русские числа: как считать по-русски (полное руководство 2026)',
     'russian-days-months-guide':
       'Дни недели и месяцы в русском языке (полное руководство 2026)',
+    'russian-adjective-declension':
+      'Склонение русских прилагательных: таблица окончаний (6 падежей)',
+    'russian-family-vocabulary':
+      'Семейная лексика на русском: мама, папа, братья, сёстры и родственники',
+    'russian-pronouns-declension':
+      'Склонение русских местоимений: личные, притяжательные и указательные',
+    'anki-vs-app-russian-cases-srs':
+      'Anki или приложение: как лучше зубрить русские падежи с SRS',
+    'russian-hard-soft-consonants-guide':
+      'Твёрдые и мягкие согласные: гид по произношению, который пропускают новички',
+    'russian-question-words':
+      'Вопросительные слова в русском: кто, что, где, когда и как',
+    'torfl-level-guide-which-to-choose':
+      'ТРКИ A1, A2 или B1: какой уровень сдавать первым?',
+    'russian-time-expressions-cases':
+      'Временные выражения и падежи: как сказать, когда что-то происходит',
+    'russian-food-vocabulary-restaurant':
+      'Еда и ресторан по-русски: как сделать заказ без ступора',
   },
   practiceQuiz: {
     title: 'Тренировочный тест',
@@ -575,6 +692,24 @@ const es: LearnPageTranslations = {
       'Los números en ruso: cómo contar en ruso (guía completa 2026)',
     'russian-days-months-guide':
       'Los días de la semana y los meses en ruso (guía completa 2026)',
+    'russian-adjective-declension':
+      'Declinación de adjetivos rusos: tabla de terminaciones (6 casos)',
+    'russian-family-vocabulary':
+      'Vocabulario familiar en ruso: mamá, papá, hermanos y parientes',
+    'russian-pronouns-declension':
+      'Declinación de pronombres rusos: personales, posesivos y demostrativos',
+    'anki-vs-app-russian-cases-srs':
+      'Anki vs app: la mejor forma de memorizar los casos rusos con SRS',
+    'russian-hard-soft-consonants-guide':
+      'Consonantes duras vs blandas en ruso: guía de pronunciación para principiantes',
+    'russian-question-words':
+      'Palabras interrogativas en ruso: quién, qué, dónde, cuándo y cómo',
+    'torfl-level-guide-which-to-choose':
+      'TORFL A1 vs A2 vs B1: ¿Qué nivel presentar primero?',
+    'russian-time-expressions-cases':
+      'Expresiones de tiempo en ruso y casos: decir cuándo ocurre algo',
+    'russian-food-vocabulary-restaurant':
+      'Vocabulario de comida en ruso: pedir en un restaurante sin bloquearte',
   },
   practiceQuiz: {
     title: 'Cuestionario de práctica',
@@ -652,6 +787,24 @@ const it: LearnPageTranslations = {
       'I numeri in russo: come contare in russo (guida completa 2026)',
     'russian-days-months-guide':
       'I giorni della settimana e i mesi in russo (guida completa 2026)',
+    'russian-adjective-declension':
+      'Declinazione degli aggettivi russi: tabella delle desinenze (6 casi)',
+    'russian-family-vocabulary':
+      'Vocabolario della famiglia in russo: mamma, papà, fratelli e parenti',
+    'russian-pronouns-declension':
+      'Declinazione dei pronomi russi: personali, possessivi e dimostrativi',
+    'anki-vs-app-russian-cases-srs':
+      'Anki vs app: il modo migliore per esercitare i casi russi con SRS',
+    'russian-hard-soft-consonants-guide':
+      'Consonanti dure vs molli in russo: guida alla pronuncia per principianti',
+    'russian-question-words':
+      'Parole interrogative in russo: chi, cosa, dove, quando e come',
+    'torfl-level-guide-which-to-choose':
+      'TORFL A1 vs A2 vs B1: quale livello fare per primo?',
+    'russian-time-expressions-cases':
+      'Espressioni di tempo in russo e casi: dire quando succede qualcosa',
+    'russian-food-vocabulary-restaurant':
+      'Vocabolario del cibo in russo: ordinare al ristorante senza bloccarti',
   },
   practiceQuiz: {
     title: 'Quiz di esercizio',
@@ -728,6 +881,24 @@ const pt: LearnPageTranslations = {
       'Os números em russo: como contar em russo (guia completo 2026)',
     'russian-days-months-guide':
       'Os dias da semana e os meses em russo (guia completo 2026)',
+    'russian-adjective-declension':
+      'Declinação dos adjetivos russos: tabela de terminações (6 casos)',
+    'russian-family-vocabulary':
+      'Vocabulário da família em russo: mãe, pai, irmãos e parentes',
+    'russian-pronouns-declension':
+      'Declinação dos pronomes russos: pessoais, possessivos e demonstrativos',
+    'anki-vs-app-russian-cases-srs':
+      'Anki vs app: a melhor forma de treinar os casos russos com SRS',
+    'russian-hard-soft-consonants-guide':
+      'Consoantes duras vs moles em russo: guia de pronúncia para iniciantes',
+    'russian-question-words':
+      'Palavras interrogativas em russo: quem, o que, onde, quando e como',
+    'torfl-level-guide-which-to-choose':
+      'TORFL A1 vs A2 vs B1: qual nível fazer primeiro?',
+    'russian-time-expressions-cases':
+      'Expressões de tempo em russo e casos: dizer quando algo acontece',
+    'russian-food-vocabulary-restaurant':
+      'Vocabulário de comida em russo: pedir no restaurante sem travar',
   },
   practiceQuiz: {
     title: 'Questionário de prática',
@@ -805,6 +976,24 @@ const nl: LearnPageTranslations = {
       'Russische getallen: hoe tel je in het Russisch (complete gids 2026)',
     'russian-days-months-guide':
       'Dagen van de week en maanden in het Russisch (complete gids 2026)',
+    'russian-adjective-declension':
+      'Russische bijvoeglijke naamwoorden: uitgangen voor alle 6 naamvallen',
+    'russian-family-vocabulary':
+      'Russische familievocabulaire: mama, papa, broers, zussen en familie',
+    'russian-pronouns-declension':
+      'Russische voornaamwoorden verbuigen: persoonlijk, bezittelijk en aanwijzend',
+    'anki-vs-app-russian-cases-srs':
+      'Anki vs app: de beste manier om Russische naamvallen met SRS te trainen',
+    'russian-hard-soft-consonants-guide':
+      'Harde vs zachte medeklinkers in het Russisch: uitspraakgids voor beginners',
+    'russian-question-words':
+      'Russische vraagwoorden: wie, wat, waar, wanneer en hoe',
+    'torfl-level-guide-which-to-choose':
+      'TORFL A1 vs A2 vs B1: welk niveau eerst?',
+    'russian-time-expressions-cases':
+      'Russische tijdsuitdrukkingen & naamvallen: zeggen wanneer iets gebeurt',
+    'russian-food-vocabulary-restaurant':
+      'Russische eetvocabulaire: bestellen in een restaurant zonder vast te lopen',
   },
   practiceQuiz: {
     title: 'Oefenquiz',

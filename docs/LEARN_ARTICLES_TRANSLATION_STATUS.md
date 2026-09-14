@@ -27,7 +27,7 @@ _(« TK » dans la spec interne = Turc = `tr_tr`.)_
 
 ## Tableau de suivi
 
-**Dernière mise à jour :** 2026-03-28 — **EN** = source ✅. **FR / DE / TR / PL** : tableau ci-dessous à jour (articles 12–15 branchés dans `learnArticleTranslations.ts`).
+**Dernière mise à jour :** 2026-09-14 — **EN** = source ✅. Batch SEO : 8/9 traduits FR/DE/TR/PL (reste food).
 
 | #   | Slug                                      | Sujet (court)                     | EN  | FR  | DE  | TR  | PL  | Notes |
 | --- | ----------------------------------------- | --------------------------------- | --- | --- | --- | --- | --- | ----- |
@@ -47,6 +47,15 @@ _(« TK » dans la spec interne = Turc = `tr_tr`.)_
 | 14  | `how-long-learn-russian`                  | Durée pour apprendre le russe     | ✅  | ✅  | ✅  | ✅  | ✅  |       |
 | 15  | `russian-cases-explained-beginners-guide` | Cas expliqués (débutants)         | ✅  | ✅  | ✅  | ✅  | ✅  |       |
 | 16  | `torfl-trki-russian-language-exam-guide`  | Examen TORFL / ТРКИ               | ✅  | ✅  | ✅  | ✅  | ✅  |       |
+| 17  | `russian-adjective-declension`            | Déclinaison des adjectifs         | ✅  | ✅  | ✅  | ✅  | ✅  | batch SEO 2026-09 |
+| 18  | `russian-family-vocabulary`               | Vocabulaire famille               | ✅  | ✅  | ✅  | ✅  | ✅  | batch SEO 2026-09 |
+| 19  | `russian-pronouns-declension`             | Pronoms                           | ✅  | ✅  | ✅  | ✅  | ✅  | batch SEO 2026-09 |
+| 20  | `anki-vs-app-russian-cases-srs`           | Anki vs app SRS                   | ✅  | ✅  | ✅  | ✅  | ✅  | batch SEO 2026-09 |
+| 21  | `russian-hard-soft-consonants-guide`      | Consonnes dures/molles            | ✅  | ✅  | ✅  | ✅  | ✅  | batch SEO 2026-09 |
+| 22  | `russian-question-words`                  | Mots interrogatifs                | ✅  | ✅  | ✅  | ✅  | ✅  | batch SEO 2026-09 |
+| 23  | `torfl-level-guide-which-to-choose`       | TORFL A1/A2/B1                    | ✅  | ✅  | ✅  | ✅  | ✅  | batch SEO 2026-09 |
+| 24  | `russian-time-expressions-cases`          | Expressions de temps + cas        | ✅  | ✅  | ✅  | ✅  | ✅  | batch SEO 2026-09 |
+| 25  | `russian-food-vocabulary-restaurant`      | Food / restaurant                 | ✅  | ✅  | ✅  | ✅  | ✅  | batch SEO 2026-09 |
 
 ## Leçons Learn (`/learn/lessons/[slug]`)
 

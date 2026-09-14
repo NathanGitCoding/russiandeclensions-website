@@ -42,6 +42,15 @@ const LEARN_CARD_IMAGES: Record<string, string> = {
   'russian-numbers-guide': '/articles/russian-numbers-abacus.webp',
   'russian-days-months-guide': '/articles/russian-days-months-calendar.webp',
   'russian-nominative-case': '/articles/russian-nominative-case-dictionary-form.webp',
+  'russian-adjective-declension': '/articles/russian-adjective-declension-header.webp',
+  'russian-family-vocabulary': '/articles/russian-family-vocabulary-header.webp',
+  'russian-pronouns-declension': '/articles/russian-pronouns-declension-header.webp',
+  'anki-vs-app-russian-cases-srs': '/articles/anki-vs-app-russian-cases-srs-header.webp',
+  'russian-hard-soft-consonants-guide': '/articles/russian-hard-soft-consonants-header.webp',
+  'russian-question-words': '/articles/russian-question-words-header.webp',
+  'torfl-level-guide-which-to-choose': '/articles/torfl-level-guide-which-to-choose-header.webp',
+  'russian-time-expressions-cases': '/articles/russian-time-expressions-cases-header.webp',
+  'russian-food-vocabulary-restaurant': '/articles/russian-food-vocabulary-restaurant-header.webp',
 };
 
 export function getLearnCardImage(slug: string): string {

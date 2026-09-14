@@ -935,6 +935,14 @@ export const learnArticles: Record<string, LearnArticle> = {
         href: '/learn/articles/russian-prepositions-cases-cheat-sheet',
         label: 'Russian Prepositions & Cases Cheat Sheet',
       },
+          {
+        href: '/learn/articles/russian-adjective-declension',
+        label: 'Russian Adjective Declension: Full Guide',
+      },
+      {
+        href: '/learn/articles/russian-pronouns-declension',
+        label: 'Russian Pronouns Declension',
+      },
     ],
     sections: [
       {
@@ -1337,6 +1345,18 @@ export const learnArticles: Record<string, LearnArticle> = {
       {
         href: '/learn/articles/russian-instrumental-case',
         label: 'Russian Instrumental Case: Endings, Professions & Uses',
+      },
+          {
+        href: '/learn/articles/russian-family-vocabulary',
+        label: 'Russian Family Vocabulary: Mom, Dad, Siblings & Relatives',
+      },
+      {
+        href: '/learn/articles/russian-food-vocabulary-restaurant',
+        label: 'Russian Food Vocabulary: Order at a Restaurant',
+      },
+      {
+        href: '/learn/articles/russian-question-words',
+        label: 'Russian Question Words: Who, What, Where, When & How',
       },
     ],
     sections: [
@@ -2034,6 +2054,14 @@ export const learnArticles: Record<string, LearnArticle> = {
       {
         href: '/learn/articles/russian-instrumental-case',
         label: 'Russian Instrumental Case: Endings, Professions & Uses',
+      },
+          {
+        href: '/learn/articles/russian-food-vocabulary-restaurant',
+        label: 'Russian Food Vocabulary: Order at a Restaurant',
+      },
+      {
+        href: '/learn/articles/russian-time-expressions-cases',
+        label: 'Russian Time Expressions & Cases',
       },
     ],
     sections: [
@@ -5298,6 +5326,10 @@ export const learnArticles: Record<string, LearnArticle> = {
         href: '/learn/articles/russian-instrumental-case',
         label: 'Russian Instrumental Case: Endings, Professions & Uses',
       },
+          {
+        href: '/learn/articles/anki-vs-app-russian-cases-srs',
+        label: 'Anki vs App: Best Way to Drill Russian Case Endings with SRS',
+      },
     ],
     leadMagnetCta: {
       title: 'Start practicing Russian cases today',
@@ -7807,6 +7839,10 @@ export const learnArticles: Record<string, LearnArticle> = {
         label: "Russian Cases Explained: A Beginner's Guide",
       },
       { href: '/words', label: 'Browse All 400+ Russian Declension Tables' },
+          {
+        href: '/learn/articles/torfl-level-guide-which-to-choose',
+        label: 'TORFL A1 vs A2 vs B1: Which Level Should You Take First?',
+      },
     ],
     jsonLd: {
       '@context': 'https://schema.org',
@@ -8929,6 +8965,10 @@ export const learnArticles: Record<string, LearnArticle> = {
       {
         href: '/learn/articles/best-free-resources-learn-russian',
         label: '15 Best Free Resources to Learn Russian',
+      },
+          {
+        href: '/learn/articles/russian-hard-soft-consonants-guide',
+        label: 'Russian Hard vs Soft Consonants',
       },
     ],
     ctaText: 'Practice Russian Cases — Free →',
@@ -10601,6 +10641,14 @@ export const learnArticles: Record<string, LearnArticle> = {
         label: 'How Long Does It Take to Learn Russian? (Realistic Timeline)',
       },
       { href: '/practice', label: 'Free Russian Declension Quiz (all six cases)' },
+          {
+        href: '/learn/articles/russian-time-expressions-cases',
+        label: 'Russian Time Expressions & Cases',
+      },
+      {
+        href: '/learn/articles/russian-question-words',
+        label: 'Russian Question Words (Сколько & more)',
+      },
     ],
     jsonLd: {
       '@context': 'https://schema.org',
@@ -10928,6 +10976,14 @@ export const learnArticles: Record<string, LearnArticle> = {
         label: '15 Best Free Resources to Learn Russian in 2026',
       },
       { href: '/practice', label: 'Free Russian Declension Quiz (all six cases)' },
+          {
+        href: '/learn/articles/russian-family-vocabulary',
+        label: 'Russian Family Vocabulary',
+      },
+      {
+        href: '/learn/articles/russian-question-words',
+        label: 'Russian Question Words',
+      },
     ],
     jsonLd: {
       '@context': 'https://schema.org',
@@ -11223,6 +11279,10 @@ export const learnArticles: Record<string, LearnArticle> = {
         label: 'Russian Prepositions and Cases: Which Case Does Each Preposition Take?',
       },
       { href: '/practice', label: 'Free Russian Declension Quiz (all six cases)' },
+          {
+        href: '/learn/articles/russian-time-expressions-cases',
+        label: 'Russian Time Expressions & Cases: Saying When Something Happens',
+      },
     ],
     jsonLd: {
       '@context': 'https://schema.org',
@@ -11521,6 +11581,14 @@ export const learnArticles: Record<string, LearnArticle> = {
       },
       { href: '/practice', label: 'Free Russian Declension Quiz (all six cases)' },
       { href: '/words', label: 'Browse 400+ Russian Words with Full Declension Tables' },
+          {
+        href: '/learn/articles/russian-adjective-declension',
+        label: 'Russian Adjective Declension: Endings Chart for All 6 Cases',
+      },
+      {
+        href: '/learn/articles/russian-pronouns-declension',
+        label: 'Russian Pronouns Declension',
+      },
     ],
     jsonLd: {
       '@context': 'https://schema.org',
@@ -12380,6 +12448,2764 @@ export const learnArticles: Record<string, LearnArticle> = {
       },
       keywords:
         'russian verb conjugation, conjugate russian verbs, russian verb tenses, russian present tense conjugation, russian past tense verbs, russian verb endings',
+    },
+  },
+  'russian-adjective-declension': {
+    slug: 'russian-adjective-declension',
+    introByline: ARTICLE_BYLINE,
+    title: 'Russian Adjective Declension: Endings Chart for All 6 Cases',
+    metaTitle: 'Russian Adjective Endings Chart | Russian Cases with Anna',
+    metaDescription:
+      'Full Russian adjective endings chart: hard & soft stems, all 6 cases, animate accusative, short forms, and possessives—with real examples.',
+    keywords: [
+      'russian adjective endings',
+      'russian adjective declension',
+      'russian adjective agreement',
+      'hard and soft adjective stems russian',
+      'russian adjective case chart',
+      'short form adjectives russian',
+      'russian possessive adjectives',
+      'decline russian adjectives',
+    ],
+    h1: 'Russian Adjective Declension: Endings Chart for All 6 Cases',
+    heroImage: {
+      src: '/articles/russian-adjective-declension-header.webp',
+      alt: 'Notebook with Russian adjective agreement examples новый новая новое for case endings',
+      width: 1280,
+      height: 720,
+    },
+    intro:
+      'Nouns get most of the attention when learners talk about Russian cases — but **adjectives decline too**, and they must match the noun in **gender, number, and case** every time. Miss the ending and the sentence sounds wrong even when the noun itself is perfect.\n\nThe good news: adjective endings are **more regular than noun endings**. Once you know the hard-stem pattern (`новый`) and the soft-stem pattern (`синий`), you can decline thousands of adjectives. This guide gives you the full charts, the animate/inanimate accusative rule, short forms, possessives, and the mistakes that trip English speakers most often.',
+    whatYouLearn: [
+      'What Russian adjective agreement means (gender × number × case)',
+      'Full hard-stem endings chart with `новый`',
+      'Full soft-stem endings chart with `синий`',
+      'How animate vs inanimate changes the accusative',
+      'Full noun + adjective phrases declined through all 6 cases',
+      'Short-form (predicative) adjectives vs long-form',
+      'Possessive adjectives: `мой`, `наш`, `свой`',
+      '8 common mistakes — and how to fix them',
+    ],
+    leadMagnetCta: {
+      title: 'Drill adjective + noun agreement in all 6 cases',
+      description:
+        'Russian Cases with Anna trains the endings that adjectives and nouns share — with spaced repetition, real sentences, and instant feedback. Free on iOS and Android.',
+      ctaText: 'Download the app and start drilling today',
+      ctaHref: '/',
+    },
+    tableAccentVariant: 'nominative',
+    sections: [
+      {
+        h2: 'What Russian Adjective Agreement Means',
+        content:
+          'In English, adjectives barely change: "a new book," "new books," "about the new book." In Russian, the adjective is a full partner of the noun. If the noun is feminine genitive singular, the adjective must be feminine genitive singular too.\n\nThat three-way agreement — **gender × number × case** — is the whole job of adjective declension.',
+        table: {
+          headers: ['Noun phrase', 'Gender / number / case', 'English'],
+          rows: [
+            ['новый дом', 'masc. sing. nominative', 'a new house'],
+            ['новой книги', 'fem. sing. genitive', 'of a new book'],
+            ['новым окнам', 'neut. pl. dative', 'to the new windows'],
+            ['о синих глазах', 'pl. prepositional', 'about blue eyes'],
+          ],
+          caption: 'The adjective ending always mirrors the noun’s grammar',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          'Learn the **noun’s gender first** — without it, you cannot pick the right adjective ending (see our [noun gender guide](/learn/articles/russian-noun-gender-guide)).',
+          'Adjectives answer the same case questions as nouns: **какой? какая? какое? какие?** plus the declined forms of those questions.',
+          'Spelling rules still apply: after **г, к, х, ж, ш, щ, ч, ц**, Russian prefers **и** over **ы** in many endings — which is why you write **хороший**, not *хорошый*.',
+        ],
+      },
+      {
+        h2: 'Hard-Stem Adjective Endings Chart (новый)',
+        content:
+          'Hard-stem adjectives are the default pattern. In the nominative masculine they usually end in **-ый** (новый, красный) or stressed **-ой** (молодой, большой). All other endings follow the same hard chart.',
+        table: {
+          headers: ['Case', 'Masculine', 'Neuter', 'Feminine', 'Plural'],
+          rows: [
+            ['Nominative', 'новый', 'новое', 'новая', 'новые'],
+            ['Genitive', 'нового', 'нового', 'новой', 'новых'],
+            ['Dative', 'новому', 'новому', 'новой', 'новым'],
+            ['Accusative', 'новый / нового', 'новое', 'новую', 'новые / новых'],
+            ['Instrumental', 'новым', 'новым', 'новой', 'новыми'],
+            ['Prepositional', 'новом', 'новом', 'новой', 'новых'],
+          ],
+          caption: 'Hard-stem adjective endings — example: новый (new)',
+          boldColumnIndices: [0],
+        },
+        bullets: [
+          '**Masculine and neuter share** genitive, dative, instrumental, and prepositional endings — memorize one set, get two genders.',
+          '**Feminine collapses** genitive, dative, instrumental, and prepositional into **-ой** (sometimes poetic **-ою** in the instrumental).',
+          '**Stressed -ой** adjectives (большой, молодой) look different only in the nominative masculine — every other cell matches the hard chart.',
+        ],
+        subsections: [
+          {
+            h3: 'Quick memory aids',
+            content:
+              'If you remember only three facts about hard adjectives, remember these: masculine/neuter oblique forms share **-ого / -ому / -ым / -ом**; feminine oblique forms share **-ой**; plural genitive and prepositional both use **-ых**.',
+          },
+        ],
+      },
+      {
+        h2: 'Soft-Stem Adjective Endings Chart (синий)',
+        content:
+          'Soft-stem adjectives end in **-ий** in the masculine nominative (синий, летний, последний). Their endings swap the hard vowels for soft ones: **о→е**, **ы→и**, **у→ю**, **а→я**.',
+        table: {
+          headers: ['Case', 'Masculine', 'Neuter', 'Feminine', 'Plural'],
+          rows: [
+            ['Nominative', 'синий', 'синее', 'синяя', 'синие'],
+            ['Genitive', 'синего', 'синего', 'синей', 'синих'],
+            ['Dative', 'синему', 'синему', 'синей', 'синим'],
+            ['Accusative', 'синий / синего', 'синее', 'синюю', 'синие / синих'],
+            ['Instrumental', 'синим', 'синим', 'синей', 'синими'],
+            ['Prepositional', 'синем', 'синем', 'синей', 'синих'],
+          ],
+          caption: 'Soft-stem adjective endings — example: синий (blue)',
+          boldColumnIndices: [0],
+        },
+        bullets: [
+          'Soft stems are fewer than hard stems, but they include high-frequency words: **синий, русский, хороший, последний, летний**.',
+          '**Хороший** looks soft (-ий) and declines soft — a very common beginner adjective.',
+          'If the nominative masculine ends in **-ий** (not -ый/-ой), start from the soft chart.',
+        ],
+      },
+      {
+        h2: 'Accusative: Animate vs Inanimate Adjectives',
+        content:
+          'Just like nouns, adjectives follow the **animacy rule** in the accusative for masculine singular and for all plurals. Feminine and neuter singular keep a single accusative form.',
+        table: {
+          headers: ['Situation', 'Adjective form', 'Example', 'English'],
+          rows: [
+            ['Masc. inanimate', '= Nominative', 'Я вижу новый дом.', 'I see a new house.'],
+            ['Masc. animate', '= Genitive', 'Я вижу нового друга.', 'I see a new friend.'],
+            ['Feminine', '-ую / -юю', 'Я вижу новую книгу.', 'I see a new book.'],
+            ['Neuter', '= Nominative', 'Я вижу новое окно.', 'I see a new window.'],
+            ['Plural inanimate', '= Nominative', 'Я вижу новые дома.', 'I see new houses.'],
+            ['Plural animate', '= Genitive', 'Я вижу новых друзей.', 'I see new friends.'],
+          ],
+          caption: 'Accusative adjective endings depend on animacy',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          'The noun and adjective **must agree on animacy** — if the noun takes the genitive-shaped accusative, so does the adjective.',
+          'This is the same rule taught in our [accusative case guide](/learn/articles/russian-accusative-case) — adjectives just inherit it.',
+          'Beginners often decline the noun correctly and leave the adjective in the nominative: *Я вижу новый друга* ✗ → **нового друга** ✓.',
+        ],
+      },
+      {
+        h2: 'Full Noun + Adjective Phrases in All 6 Cases',
+        content:
+          'Charts are useful; full phrases make the system click. Here is **новый дом** (hard, masc. inanimate), **новая книга** (hard, fem.), and **синий карандаш** (soft, masc. inanimate) declined together.',
+        table: {
+          headers: ['Case', 'новый дом', 'новая книга', 'синий карандаш'],
+          rows: [
+            ['Nominative', 'новый дом', 'новая книга', 'синий карандаш'],
+            ['Genitive', 'нового дома', 'новой книги', 'синего карандаша'],
+            ['Dative', 'новому дому', 'новой книге', 'синему карандашу'],
+            ['Accusative', 'новый дом', 'новую книгу', 'синий карандаш'],
+            ['Instrumental', 'новым домом', 'новой книгой', 'синим карандашом'],
+            ['Prepositional', 'о новом доме', 'о новой книге', 'о синем карандаше'],
+          ],
+          caption: 'Adjective + noun phrases declined through all six cases',
+          boldColumnIndices: [0],
+        },
+        subsections: [
+          {
+            h3: 'Animate masculine contrast',
+            content:
+              'Replace дом with **друг** and the accusative (and only the accusative) changes: **нового друга**, not новый друг. Genitive already looked like that — which is why animate accusative “borrows” the genitive shape.',
+          },
+          {
+            h3: 'Where to go deeper by case',
+            content:
+              'Once adjective endings feel familiar, drill them inside each case article: [nominative](/learn/articles/russian-nominative-case), [genitive](/learn/articles/russian-genitive-case), [dative](/learn/articles/russian-dative-case), [accusative](/learn/articles/russian-accusative-case), [instrumental](/learn/articles/russian-instrumental-case), [prepositional](/learn/articles/russian-prepositional-case).',
+          },
+        ],
+      },
+      {
+        h2: 'Short-Form Adjectives (Predicative)',
+        content:
+          'Russian has a second adjective system: **short forms**, used mainly as predicates (after an omitted “to be”). They answer “what is X like?” rather than “which X?”',
+        table: {
+          headers: ['Long form', 'Short masc.', 'Short fem.', 'Short neut.', 'Short plural'],
+          rows: [
+            ['новый', 'нов', 'нова', 'ново', 'новы'],
+            ['красивый', 'красив', 'красива', 'красиво', 'красивы'],
+            ['интересный', 'интересен', 'интересна', 'интересно', 'интересны'],
+            ['занятый', 'занят', 'занята', 'занято', 'заняты'],
+          ],
+          caption: 'Long-form vs short-form adjectives',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          '**Long form** declines by case and sits next to a noun: **новая книга** (a new book).',
+          '**Short form** does **not** decline by case and usually stands alone as the predicate: **Книга нова.** / more naturally **Книга новая.** in modern speech.',
+          'Many short forms are common in set phrases: **Он занят** (He is busy), **Мне холодно** (I am cold — adverbial neuter short form).',
+          'If you are still mastering cases, prioritize **long forms** first — they are what you need for agreement inside noun phrases.',
+        ],
+      },
+      {
+        h2: 'Possessive Adjectives: мой, наш, свой',
+        content:
+          'Possessives behave like adjectives: they agree in gender, number, and case. `мой` / `твой` / `свой` share one pattern; `наш` / `ваш` share another. `его` / `её` / `их` (“his / her / their”) **do not decline**.',
+        table: {
+          headers: ['Case', 'мой (masc.)', 'моя (fem.)', 'моё (neut.)', 'мои (pl.)'],
+          rows: [
+            ['Nominative', 'мой', 'моя', 'моё', 'мои'],
+            ['Genitive', 'моего', 'моей', 'моего', 'моих'],
+            ['Dative', 'моему', 'моей', 'моему', 'моим'],
+            ['Accusative', 'мой / моего', 'мою', 'моё', 'мои / моих'],
+            ['Instrumental', 'моим', 'моей', 'моим', 'моими'],
+            ['Prepositional', 'моём', 'моей', 'моём', 'моих'],
+          ],
+          caption: 'Declension of мой — the model for твой and свой',
+          boldColumnIndices: [0],
+        },
+        bullets: [
+          '**Свой** refers back to the subject (“one’s own”): **Он читает свою книгу** (He is reading his own book) vs **его книгу** (someone else’s).',
+          '**Наш / ваш** follow soft-looking endings: нашего, нашей, наши…',
+          '**Его / её / их** never change: **о его новой машине** — only the adjective and noun decline.',
+        ],
+      },
+      {
+        h2: '8 Common Mistakes with Russian Adjectives',
+        content: 'These are the errors English speakers make most often — each one is fixable with a single rule.',
+        bullets: [
+          '**Leaving the adjective in the nominative** while declining the noun: *в новый доме* ✗ → **в новом доме** ✓.',
+          '**Forgetting animacy in the accusative**: *Я знаю хороший врача* ✗ → **хорошего врача** ✓.',
+          '**Mixing hard and soft charts**: синий takes **синего**, not *синого*.',
+          '**Using -ый after ш/ж/ч/щ/ц**: write **хороший**, **свежий** (spelling rule).',
+          '**Declining его / её / их**: they stay fixed — decline only the following words.',
+          '**Confusing свой and его**: свой = belongs to the subject; его = belongs to someone else already named.',
+          '**Treating short forms as case-marked**: short forms do not take case endings.',
+          '**Ignoring neuter agreement**: окно is neuter → **новое окно**, not *новый окно*.',
+        ],
+      },
+      {
+        h2: 'How to Practice Adjective Declension',
+        content:
+          'Reading charts once is not enough. Use a loop that forces agreement under time pressure:',
+        bullets: [
+          'Pick one noun you know well and decline **adjective + noun** through all 6 cases out loud.',
+          'Switch gender (дом → книга → окно) and repeat with the same adjective.',
+          'Add animacy contrast: новый стол vs новый друг in the accusative.',
+          'Drill inside real sentences with our [free case practice tool](/practice) and the [case endings cheat sheet](/learn/articles/russian-case-endings-cheatsheet).',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Do Russian adjectives change with every case?',
+        answer:
+          'Yes. Long-form adjectives agree with the noun in gender, number, and case, so the ending usually changes whenever the noun’s case changes. Short-form adjectives are the exception: they are used predicatively and do not decline by case.',
+      },
+      {
+        question: 'What is the difference between hard and soft adjective stems?',
+        answer:
+          'Hard-stem adjectives typically end in -ый or -ой in the masculine nominative (новый, большой) and use endings with о/ы/у. Soft-stem adjectives end in -ий (синий, летний) and use е/и/ю instead. The logical pattern is the same; only the vowel set changes.',
+      },
+      {
+        question: 'Why does новый друга look wrong but нового друга look right?',
+        answer:
+          'Because друг is animate masculine. In the accusative, animate masculines (and animate plurals) take the genitive-shaped ending — and the adjective must match: нового друга, not новый друга.',
+      },
+      {
+        question: 'Should beginners learn short-form adjectives early?',
+        answer:
+          'Learn a few high-frequency short forms (занят, рад, должен, нужно/можно as related predicatives), but prioritize long-form declension first. Long forms are what you need for noun phrases in all six cases.',
+      },
+      {
+        question: 'How are possessive words like мой different from его?',
+        answer:
+          'Мой, твой, свой, наш, and ваш decline like adjectives. Его, её, and их never change form; only the noun and any other adjectives around them decline.',
+      },
+    ],
+    conclusionIntro:
+      'Adjective declension looks big on paper, but it compresses into a small set of habits:',
+    conclusionBullets: [
+      'Always match **gender × number × case** — the adjective never sits in the nominative by default',
+      'Master the **hard chart** first, then map it onto the **soft chart**',
+      'Apply the **animacy rule** in the accusative for masculine and plural',
+      'Use **long forms** inside noun phrases; keep **short forms** for predicates',
+      'Decline **мой/твой/свой/наш/ваш**; leave **его/её/их** alone',
+    ],
+    conclusionOutro:
+      'When adjective + noun pairs start to feel automatic, you are ready to push speed in every case. Drill them in our free practice tool — and keep the [Russian case endings cheat sheet](/learn/articles/russian-case-endings-cheatsheet) open while the charts are still settling in.',
+    internalLinks: [
+      {
+        href: '/learn/articles/russian-case-endings-cheatsheet',
+        label: 'Russian Case Endings: The Ultimate Cheat Sheet',
+      },
+      {
+        href: '/learn/articles/russian-noun-gender-guide',
+        label: 'Russian Noun Gender: Masculine, Feminine, Neuter',
+      },
+      {
+        href: '/learn/articles/russian-nominative-case',
+        label: 'Russian Nominative Case: Rules, Endings & Examples',
+      },
+      {
+        href: '/learn/articles/russian-accusative-case',
+        label: 'Russian Accusative Case: Animate vs Inanimate',
+      },
+      { href: '/practice', label: 'Free Russian Declension Quiz — practice all 6 cases' },
+    ],
+    ctaText: 'Practice Russian Cases — Free →',
+    ctaHref: '/practice',
+    conclusion: '',
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: 'Russian Adjective Declension: Endings Chart for All 6 Cases',
+      description:
+        'Full Russian adjective endings chart: hard & soft stems, all 6 cases, animate accusative, short forms, and possessives—with real examples.',
+      datePublished: '2026-09-13',
+      dateModified: '2026-09-13',
+      author: {
+        '@type': 'Person',
+        name: 'Nathan',
+        url: 'https://russiandeclensions.com/',
+        image: 'https://russiandeclensions.com/landing-cases/founder-photo.webp',
+        description:
+          'Native French speaker learning Russian; writes about grammar, cases, and practical self-study habits.',
+        worksFor: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      },
+      publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': 'https://russiandeclensions.com/learn/articles/russian-adjective-declension',
+      },
+      keywords:
+        'russian adjective endings, russian adjective declension, russian adjective agreement, hard and soft adjective stems russian, russian adjective case chart, short form adjectives russian',
+      image: {
+        '@type': 'ImageObject',
+        url: 'https://russiandeclensions.com/articles/russian-adjective-declension-header.webp',
+        width: 1280,
+        height: 720,
+      },
+    },
+  },
+  'russian-family-vocabulary': {
+    slug: 'russian-family-vocabulary',
+    introByline: ARTICLE_BYLINE,
+    title: 'Russian Family Vocabulary: Words for Mom, Dad, Siblings & Relatives',
+    metaTitle: 'Russian Family Vocabulary Guide | Russian Cases with Anna',
+    metaDescription:
+      'Learn Russian family words: мама, папа, siblings, relatives, irregular plurals, and how to say "I have…" with у + genitive—plus a mini-dialogue.',
+    keywords: [
+      'russian family vocabulary',
+      'family members in russian',
+      'russian words for family',
+      'мама папа russian',
+      'russian relatives vocabulary',
+      'how to talk about family in russian',
+      'у меня есть family russian',
+      'russian family members list',
+    ],
+    h1: 'Russian Family Vocabulary: Words for Mom, Dad, Siblings & Relatives',
+    heroImage: {
+      src: '/articles/russian-family-vocabulary-header.webp',
+      alt: 'Open family photo album and notebook with Russian family words мама папа брат сестра',
+      width: 1280,
+      height: 720,
+    },
+    intro:
+      'Family words are some of the first nouns you need in Russian — and some of the most useful. You will use them to introduce yourself, ask about other people, and talk about everyday life. They also pull you straight into **real grammar**: irregular plurals like **брат → братья**, and the classic possession pattern **у меня есть…** with the **genitive**.\n\nThis guide gives you immediate and extended family vocabulary, the plurals that break the regular pattern, ready-made introduction sentences, and a short dialogue you can practise out loud.',
+    whatYouLearn: [
+      'Core immediate-family words (parents, siblings, children, spouse)',
+      'Extended-family vocabulary (grandparents, aunts, uncles, in-laws)',
+      'Irregular plurals you must memorize (братья, сёстры, дети…)',
+      'How to say "I have a…" with **у + genitive**',
+      'Useful sentences for introducing your family',
+      'A mini-dialogue you can reuse in real conversations',
+    ],
+    leadMagnetCta: {
+      title: 'Family words stick faster when cases feel automatic',
+      description:
+        'У меня есть брата is wrong — у меня есть брат is right, but genitive shows up everywhere else around family talk. Russian Cases with Anna drills all six cases with real sentences. Free on iOS and Android.',
+      ctaText: 'Download the app — Free',
+      ctaHref: '/',
+    },
+    tableAccentVariant: 'genitive',
+    sections: [
+      {
+        h2: 'Immediate Family Words',
+        content:
+          'Start here. These are the highest-frequency family nouns in everyday Russian — the ones you will hear in almost every personal introduction.',
+        table: {
+          headers: ['Russian', 'Transliteration', 'English', 'Gender'],
+          rows: [
+            ['мама / мать', 'mama / mat\'', 'mom / mother', 'Feminine'],
+            ['папа / отец', 'papa / otets', 'dad / father', 'Masculine'],
+            ['родители', 'roditeli', 'parents', 'Plural'],
+            ['сын', 'syn', 'son', 'Masculine'],
+            ['дочь', 'doch\'', 'daughter', 'Feminine'],
+            ['ребёнок / дети', 'rebyonok / deti', 'child / children', 'Masc. / Plural'],
+            ['брат', 'brat', 'brother', 'Masculine'],
+            ['сестра', 'sestra', 'sister', 'Feminine'],
+            ['муж', 'muzh', 'husband', 'Masculine'],
+            ['жена', 'zhena', 'wife', 'Feminine'],
+            ['семья', 'sem\'ya', 'family', 'Feminine'],
+          ],
+          caption: 'Immediate family — core beginner vocabulary',
+          boldColumnIndices: [0, 3],
+        },
+        bullets: [
+          '**Мама / папа** are the everyday forms; **мать / отец** sound more formal or official (documents, formal speech).',
+          '**Ребёнок** is singular “child”; the plural is irregular **дети** — not *ребёнки*.',
+          '**Семья** (“family”) is feminine singular even though it means a group: **моя семья большая** (My family is big).',
+          'Natural-gender override: **папа**, **мужчина**, **дедушка** end in **-а/-я** but are **grammatically masculine** — they take masculine adjectives (**мой папа**, not *моя папа*).',
+        ],
+      },
+      {
+        h2: 'Extended Family Words',
+        content:
+          'Once the core set is solid, add the relatives you need for storytelling, holidays, and longer introductions.',
+        table: {
+          headers: ['Russian', 'Transliteration', 'English', 'Gender'],
+          rows: [
+            ['бабушка', 'babushka', 'grandmother', 'Feminine'],
+            ['дедушка', 'dedushka', 'grandfather', 'Masculine'],
+            ['бабушка и дедушка', 'babushka i dedushka', 'grandparents', '—'],
+            ['внук', 'vnuk', 'grandson', 'Masculine'],
+            ['внучка', 'vnuchka', 'granddaughter', 'Feminine'],
+            ['дядя', 'dyadya', 'uncle', 'Masculine'],
+            ['тётя', 'tyotya', 'aunt', 'Feminine'],
+            ['двоюродный брат', 'dvoyurodnyy brat', 'cousin (male)', 'Masculine'],
+            ['двоюродная сестра', 'dvoyurodnaya sestra', 'cousin (female)', 'Feminine'],
+            ['племянник', 'plemyannik', 'nephew', 'Masculine'],
+            ['племянница', 'plemyannitsa', 'niece', 'Feminine'],
+            ['свекровь', 'svekrov\'', 'mother-in-law (husband\'s mother)', 'Feminine'],
+            ['тёща', 'tyoshcha', 'mother-in-law (wife\'s mother)', 'Feminine'],
+            ['свёкор', 'svyokor', 'father-in-law (husband\'s father)', 'Masculine'],
+            ['тесть', 'test\'', 'father-in-law (wife\'s father)', 'Masculine'],
+          ],
+          caption: 'Extended family and in-laws',
+          boldColumnIndices: [0, 3],
+        },
+        bullets: [
+          'Russian often distinguishes **whose** parent an in-law is — English “mother-in-law” splits into **свекровь** vs **тёща**.',
+          '**Дядя** and **дедушка** look feminine (-я/-а) but are masculine: **мой дядя**, **добрый дедушка**.',
+          '“Cousin” is usually **двоюродный брат / двоюродная сестра** — Russian does not rely on one gender-neutral everyday word the way English does.',
+        ],
+      },
+      {
+        h2: 'Irregular Plurals You Must Memorize',
+        content:
+          'Several family nouns refuse the regular plural pattern. Learn these as fixed pairs — they appear constantly in conversation.',
+        table: {
+          headers: ['Singular', 'Plural', 'English', 'Note'],
+          rows: [
+            ['брат', 'бра́тья', 'brother → brothers', 'Irregular -ья plural'],
+            ['сын', 'сыновья́ / сыны́', 'son → sons', 'сыновья is the common spoken plural'],
+            ['друг', 'друзья́', 'friend → friends', 'Same -ья pattern; not family but same trap'],
+            ['ребёнок', 'де́ти', 'child → children', 'Suppletive plural (different root)'],
+            ['человек', 'лю́ди', 'person → people', 'Suppletive; useful when talking about family size'],
+            ['мать', 'ма́тери', 'mother → mothers', 'Stem changes'],
+            ['дочь', 'до́чери', 'daughter → daughters', 'Stem changes'],
+            ['сестра', 'сёстры', 'sister → sisters', 'Stress + ё'],
+            ['муж', 'мужья́', 'husband → husbands', 'Irregular -ья'],
+            ['жена', 'жёны', 'wife → wives', 'Stress + ё'],
+          ],
+          caption: 'Family plurals that break the regular pattern',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          '**Брат → братья** is one of the highest-value irregulars in beginner Russian — drill it early.',
+          '**Дети** is the only normal plural of **ребёнок** in everyday speech.',
+          'For more on irregular nominative plurals, see the [nominative case guide](/learn/articles/russian-nominative-case).',
+        ],
+      },
+      {
+        h2: 'Talking About Your Family with У + Genitive',
+        content:
+          'English “I have…” is usually **у + genitive + есть** in Russian. The **possessor** goes in the genitive after **у**; the thing possessed stays in the **nominative**.',
+        table: {
+          headers: ['Russian', 'Transliteration', 'English'],
+          rows: [
+            ['У меня есть брат.', 'U menya yest\' brat.', 'I have a brother.'],
+            ['У меня есть сестра.', 'U menya yest\' sestra.', 'I have a sister.'],
+            ['У него есть жена.', 'U nego yest\' zhena.', 'He has a wife.'],
+            ['У неё есть дети.', 'U neyo yest\' deti.', 'She has children.'],
+            ['У нас большая семья.', 'U nas bol\'shaya sem\'ya.', 'We have a big family.'],
+            ['У вас есть дети?', 'U vas yest\' deti?', 'Do you have children? (formal/plural)'],
+          ],
+          caption: 'Possession with у + genitive',
+          boldColumnIndices: [0],
+        },
+        subsections: [
+          {
+            h3: 'The pattern in one line',
+            content:
+              '**У + me/you/him… (genitive) + есть + person/thing (nominative).**\n\nSo: **у меня** (genitive of я), **у тебя**, **у него / у неё**, **у нас**, **у вас**, **у них**. After a preposition, **он/она/они** take the **н-** forms: него, неё, них.',
+          },
+          {
+            h3: 'Negation uses genitive for the thing possessed',
+            content:
+              'Positive: **У меня есть брат.** (брат = nominative)\nNegative: **У меня нет брата.** (брата = genitive)\n\nThis is one of the first places learners feel why the [genitive case](/learn/articles/russian-genitive-case) matters so much.',
+          },
+        ],
+        bullets: [
+          'Do **not** say *Я имею брата* for normal “I have a brother” — it sounds unnatural in this meaning.',
+          '**Есть** can drop in casual speech when an adjective is present: **У нас большая семья.**',
+          'Ask follow-ups with the same pattern: **А у тебя?** (And you?).',
+        ],
+      },
+      {
+        h2: 'Useful Sentences for Introductions',
+        content:
+          'Memorize a small set of full sentences. They recycle the vocabulary above and sound natural in first meetings.',
+        table: {
+          headers: ['Russian', 'English'],
+          rows: [
+            ['Это моя семья.', 'This is my family.'],
+            ['Это мой папа и моя мама.', 'This is my dad and my mom.'],
+            ['У меня два брата и одна сестра.', 'I have two brothers and one sister.'],
+            ['Мой младший брат студент.', 'My younger brother is a student.'],
+            ['Моя старшая сестра живёт в Москве.', 'My older sister lives in Moscow.'],
+            ['Мы из большой семьи.', 'We are from a big family.'],
+            ['Знакомьтесь: это мой муж / моя жена.', 'Meet my husband / my wife.'],
+            ['У нас трое детей.', 'We have three children.'],
+          ],
+          caption: 'High-frequency family introduction sentences',
+          boldColumnIndices: [0],
+        },
+        bullets: [
+          '**Старший / младший** (older / younger) agree like adjectives: **старшая сестра**, **младший брат**.',
+          'Numbers trigger case rules: **два брата**, **три сестры**, **пять детей** — details in the [numbers guide](/learn/articles/russian-numbers-guide) and genitive article.',
+          'Pointing with **это** keeps the following noun in the **nominative**: **Это моя мама.**',
+        ],
+      },
+      {
+        h2: 'Mini-Dialogue: Meet My Family',
+        content:
+          'A short conversation you can adapt. Read it aloud, then swap in your own relatives.',
+        table: {
+          headers: ['Speaker', 'Russian', 'English'],
+          rows: [
+            ['Anna', 'Привет! Расскажи о своей семье.', 'Hi! Tell me about your family.'],
+            ['Ivan', 'У меня есть мама, папа и младшая сестра.', 'I have a mom, a dad, and a younger sister.'],
+            ['Anna', 'А братья у тебя есть?', 'And do you have any brothers?'],
+            ['Ivan', 'Нет, у меня нет братьев. А у тебя?', 'No, I don’t have brothers. And you?'],
+            ['Anna', 'У меня два брата. Старший брат женат.', 'I have two brothers. The older one is married.'],
+            ['Ivan', 'Круто. А родители где живут?', 'Cool. And where do your parents live?'],
+            ['Anna', 'В Казани. А моя бабушка живёт с нами.', 'In Kazan. And my grandmother lives with us.'],
+          ],
+          caption: 'Reusable mini-dialogue about family',
+          boldColumnIndices: [1],
+        },
+        bullets: [
+          'Notice **нет братьев** — negation puts “brothers” in the **genitive plural**.',
+          '**Женат** (married, for a man) / **замужем** (married, for a woman) are high-value follow-ups after family talk.',
+          'Swap names and cities, keep the grammar frame.',
+        ],
+      },
+      {
+        h2: 'Common Mistakes with Russian Family Vocabulary',
+        bullets: [
+          '**Saying *моя папа*.** Папа is masculine → **мой папа**.',
+          '**Using *ребёнки* as the plural.** Use **дети**.',
+          '**Forgetting genitive after нет:** *У меня нет брат* ✗ → **У меня нет брата** ✓.',
+          '**Mixing свекровь and тёща** — they are not interchangeable.',
+          '**Translating “I have” as я имею** in casual family talk — prefer **у меня есть**.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'What are the most important Russian family words for beginners?',
+        answer:
+          'Start with мама, папа, брат, сестра, сын, дочь, муж, жена, ребёнок/дети, and семья. Add бабушка, дедушка, дядя, and тётя next. These cover almost every beginner introduction.',
+      },
+      {
+        question: 'How do you say “I have a brother” in Russian?',
+        answer:
+          'Say У меня есть брат. The possessor (меня) is genitive after у, and брат stays nominative. For “I don’t have a brother,” say У меня нет брата — брата is genitive.',
+      },
+      {
+        question: 'Why is папа masculine if it ends in -а?',
+        answer:
+          'Because natural gender wins for male people. Words like папа, дедушка, дядя, and мужчина look feminine in spelling but take masculine agreement: мой папа, добрый дедушка.',
+      },
+      {
+        question: 'What is the plural of брат and ребёнок?',
+        answer:
+          'Брат → братья (irregular). Ребёнок → дети (a different root entirely). Both are must-memorize forms for family conversations.',
+      },
+      {
+        question: 'How do Russians say “cousin”?',
+        answer:
+          'Usually двоюродный брат for a male cousin and двоюродная сестра for a female cousin. There is no single everyday gender-neutral word that works like English “cousin” in all contexts.',
+      },
+    ],
+    conclusionIntro: 'Family vocabulary is a perfect beginner package: useful words plus grammar that actually shows up in speech.',
+    conclusionBullets: [
+      'Learn **immediate family** first, then **extended relatives** and in-laws',
+      'Memorize the **irregular plurals**: братья, дети, мужья, сёстры…',
+      'Build every “I have…” sentence with **у + genitive + (есть) + nominative**',
+      'Use **нет + genitive** for “I don’t have…”',
+      'Practise with a short dialogue until the frames feel automatic',
+    ],
+    conclusionOutro:
+      'When these sentences feel easy, push the grammar further with our [genitive case guide](/learn/articles/russian-genitive-case) and free [declension practice](/practice) — family talk is one of the fastest ways to make cases feel real.',
+    internalLinks: [
+      {
+        href: '/learn/articles/russian-genitive-case',
+        label: 'Russian Genitive Case: Rules, Endings & Examples',
+      },
+      {
+        href: '/learn/articles/russian-greetings-guide',
+        label: 'Russian Greetings: How to Say Hello in Russian',
+      },
+      {
+        href: '/learn/articles/russian-most-common-words',
+        label: '100 Most Common Russian Words',
+      },
+      {
+        href: '/learn/articles/russian-nominative-case',
+        label: 'Russian Nominative Case: Rules, Endings & Examples',
+      },
+      {
+        href: '/learn/articles/russian-noun-gender-guide',
+        label: 'Russian Noun Gender: Masculine, Feminine, Neuter',
+      },
+      { href: '/practice', label: 'Free Russian Declension Quiz' },
+    ],
+    ctaText: 'Practice Russian Cases — Free →',
+    ctaHref: '/practice',
+    conclusion: '',
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: 'Russian Family Vocabulary: Words for Mom, Dad, Siblings & Relatives',
+      description:
+        'Learn Russian family words: мама, папа, siblings, relatives, irregular plurals, and how to say "I have…" with у + genitive—plus a mini-dialogue.',
+      datePublished: '2026-09-13',
+      dateModified: '2026-09-13',
+      author: {
+        '@type': 'Person',
+        name: 'Nathan',
+        url: 'https://russiandeclensions.com/',
+        image: 'https://russiandeclensions.com/landing-cases/founder-photo.webp',
+        description:
+          'Native French speaker learning Russian; writes about grammar, cases, and practical self-study habits.',
+        worksFor: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      },
+      publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': 'https://russiandeclensions.com/learn/articles/russian-family-vocabulary',
+      },
+      keywords:
+        'russian family vocabulary, family members in russian, russian words for family, how to talk about family in russian, у меня есть family russian',
+      image: {
+        '@type': 'ImageObject',
+        url: 'https://russiandeclensions.com/articles/russian-family-vocabulary-header.webp',
+        width: 1280,
+        height: 720,
+      },
+    },
+  },
+  'russian-pronouns-declension': {
+    slug: 'russian-pronouns-declension',
+    introByline: ARTICLE_BYLINE,
+    title: 'Russian Pronouns Declension: Personal, Possessive & Demonstrative',
+    metaTitle: 'Russian Pronouns Declension Chart | Russian Cases with Anna',
+    metaDescription:
+      'Decline Russian pronouns in all 6 cases: personal (я, ты, он…), possessive (мой, наш), demonstratives (этот/тот), plus the него/неё preposition trap.',
+    keywords: [
+      'russian pronouns declension',
+      'russian personal pronouns cases',
+      'decline russian pronouns',
+      'мой наш declension',
+      'этот тот russian',
+      'него неё russian',
+      'russian possessive pronouns',
+      'russian demonstrative pronouns',
+    ],
+    h1: 'Russian Pronouns Declension: Personal, Possessive & Demonstrative',
+    heroImage: {
+      src: '/articles/russian-pronouns-declension-header.webp',
+      alt: 'Flashcards with Russian personal pronouns я ты он она мы вы они on a study desk',
+      width: 1280,
+      height: 720,
+    },
+    intro:
+      'Nouns and adjectives follow fairly regular ending charts. **Pronouns do not.** Forms like **меня, ему, неё, этом** look unrelated to **я, он, она, этот** — until you see them as a closed system you simply have to learn.\n\nThis guide covers the three pronoun groups you need every day: **personal** (я, ты, он…), **possessive** (мой, наш, свой…), and **demonstrative** (этот / тот). You will also get the preposition trap (**него / неё / них**) and 20 example sentences with transliteration.',
+    whatYouLearn: [
+      'Why pronouns break regular noun patterns',
+      'Full personal-pronoun tables for all 6 cases',
+      'Possessive pronouns and agreement (мой, наш, свой)',
+      'Demonstratives: этот and тот declined',
+      'The preposition trap: него, неё, них',
+      '20 real example sentences with transliteration',
+    ],
+    leadMagnetCta: {
+      title: 'Pronouns + cases = real sentences',
+      description:
+        'Russian Cases with Anna drills endings in context — including the pronouns that show up in every dialogue. Free on iOS and Android.',
+      ctaText: 'Download the app — Free',
+      ctaHref: '/',
+    },
+    tableAccentVariant: 'dative',
+    sections: [
+      {
+        h2: 'Why Pronouns Don’t Follow Noun Patterns',
+        content:
+          'Russian noun endings are mostly predictable once you know gender. Pronouns are **suppletive**: many case forms come from older stems, so **я → меня → мне → мной** is a paradigm you memorize as a set, not build letter by letter.\n\nThat sounds worse than it is. There are only a handful of personal pronouns, and you use them constantly — so drilling the tables pays off faster than almost any other grammar chart.',
+        bullets: [
+          'Personal pronouns change **stem** across cases (я / меня / мной).',
+          'Possessive and demonstrative pronouns behave more like **adjectives** — they agree in gender, number, and case.',
+          'After most prepositions, third-person pronouns add **н-**: него, неё, них (not *его, *её, *их).',
+        ],
+      },
+      {
+        h2: 'Personal Pronouns in All 6 Cases',
+        content:
+          'Learn these as vertical columns. The nominative is the citation form; every other case is a speaking form you will hear in real sentences.',
+        table: {
+          headers: ['Case', 'я', 'ты', 'он', 'она', 'оно', 'мы', 'вы', 'они'],
+          rows: [
+            ['Nominative', 'я', 'ты', 'он', 'она', 'оно', 'мы', 'вы', 'они'],
+            ['Genitive', 'меня', 'тебя', 'его', 'её', 'его', 'нас', 'вас', 'их'],
+            ['Dative', 'мне', 'тебе', 'ему', 'ей', 'ему', 'нам', 'вам', 'им'],
+            ['Accusative', 'меня', 'тебя', 'его', 'её', 'его', 'нас', 'вас', 'их'],
+            ['Instrumental', 'мной (-ою)', 'тобой (-ою)', 'им', 'ей (-ею)', 'им', 'нами', 'вами', 'ими'],
+            ['Prepositional', 'мне', 'тебе', 'нём', 'ней', 'нём', 'нас', 'вас', 'них'],
+          ],
+          caption: 'Personal pronouns declined in all six cases',
+          boldColumnIndices: [0],
+        },
+        subsections: [
+          {
+            h3: 'Patterns worth noticing',
+            content:
+              '**Genitive = accusative** for я, ты, он, она, оно, мы, вы, они (same forms: меня, тебя, его…). That cuts memorisation almost in half.\n\n**Dative and prepositional** share **мне / тебе** for first and second person singular.\n\n**Вы** is both plural “you” and polite singular “you” — the forms are identical; only the verb agreement and social context change.',
+          },
+        ],
+        bullets: [
+          'Instrumental **мной / тобой** sometimes appear as **мною / тобою** in formal or poetic style — rare in everyday speech.',
+          '**Он / оно** share almost all non-nominative forms (**его, ему, им, нём**).',
+          'Drill with verbs you already know: **дай мне**, **я вижу тебя**, **мы говорим о нём**.',
+        ],
+      },
+      {
+        h2: 'Possessive Pronouns and Agreement',
+        content:
+          'Possessives answer **чей? чья? чьё? чьи?** (whose?). Unlike English “my,” Russian **мой** changes with the noun it modifies — exactly like an adjective.',
+        table: {
+          headers: ['Case', 'мой (masc.)', 'моя (fem.)', 'моё (neut.)', 'мои (pl.)'],
+          rows: [
+            ['Nominative', 'мой', 'моя', 'моё', 'мои'],
+            ['Genitive', 'моего', 'моей', 'моего', 'моих'],
+            ['Dative', 'моему', 'моей', 'моему', 'моим'],
+            ['Accusative', 'мой / моего', 'мою', 'моё', 'мои / моих'],
+            ['Instrumental', 'моим', 'моей', 'моим', 'моими'],
+            ['Prepositional', 'моём', 'моей', 'моём', 'моих'],
+          ],
+          caption: 'Declension of мой — model for твой and свой',
+          boldColumnIndices: [0],
+        },
+        subsections: [
+          {
+            h3: 'наш / ваш',
+            content:
+              '**Наш** and **ваш** follow a soft-looking pattern: нашего, нашей, нашему, наши… Same agreement logic as мой.',
+          },
+          {
+            h3: 'свой vs его / её / их',
+            content:
+              '**Свой** means “one’s own” and refers back to the **subject**: **Он читает свою книгу** (his own book).\n\n**Его / её / их** mean “his / her / their” and **do not decline**: **Я вижу его книгу** (I see his book). Only the noun (and any adjectives) change.',
+          },
+        ],
+        bullets: [
+          'Accusative animacy applies: **я вижу моего брата**, but **я вижу мой дом**.',
+          'For the full adjective-style logic behind these endings, see [Russian adjective declension](/learn/articles/russian-adjective-declension).',
+        ],
+      },
+      {
+        h2: 'Demonstratives: этот / тот',
+        content:
+          '**Этот** = this (near); **тот** = that (far / previously mentioned). Both decline and agree with the noun.',
+        table: {
+          headers: ['Case', 'этот', 'эта', 'это', 'эти'],
+          rows: [
+            ['Nominative', 'этот', 'эта', 'это', 'эти'],
+            ['Genitive', 'этого', 'этой', 'этого', 'этих'],
+            ['Dative', 'этому', 'этой', 'этому', 'этим'],
+            ['Accusative', 'этот / этого', 'эту', 'это', 'эти / этих'],
+            ['Instrumental', 'этим', 'этой', 'этим', 'этими'],
+            ['Prepositional', 'этом', 'этой', 'этом', 'этих'],
+          ],
+          caption: 'Declension of этот (this)',
+          boldColumnIndices: [0],
+        },
+        subsections: [
+          {
+            h3: 'тот in brief',
+            content:
+              '**Тот / та / то / те** follow the same case logic with different stems: того, той, тому, ту, тем, том, тех…\n\nUseful contrast: **Эта книга интересная, а та — скучная.** (This book is interesting, and that one is boring.)',
+          },
+          {
+            h3: 'это vs этот',
+            content:
+              'Invariant **это** meaning “this is / these are” does **not** decline in that role: **Это мой брат.** Declined **этот/эта/это/эти** modify a noun: **Этот брат живёт в Москве.**',
+          },
+        ],
+      },
+      {
+        h2: 'The Preposition Trap (него, неё, них)',
+        content:
+          'After most prepositions, third-person pronouns take an initial **н-**. Forgetting it is one of the most common intermediate mistakes.',
+        table: {
+          headers: ['Without preposition', 'With preposition', 'English'],
+          rows: [
+            ['я знаю его', 'я думаю о нём', 'I know him / I think about him'],
+            ['я вижу её', 'я иду к ней', 'I see her / I go to her'],
+            ['я слушаю их', 'я говорю с ними', 'I listen to them / I speak with them'],
+            ['это его книга', 'книга у него', 'it is his book / he has a book'],
+          ],
+          caption: 'Third-person pronouns with and without prepositions',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          'Forms to memorize: **него, нему, ним, нём** (он/оно); **неё, ней** (она); **них, ним, ними** (они).',
+          'The **н-** appears after prepositions like **о, у, к, с, для, без, из, от…**',
+          'Possessive **его / её / их** (“his/her/their”) still do not decline — but as object pronouns after a preposition, use the **н-** personal forms.',
+        ],
+      },
+      {
+        h2: '20 Example Sentences',
+        content:
+          'Twenty sentences covering personal, possessive, and demonstrative pronouns. **1–8** personal · **9–14** possessive · **15–20** demonstrative / preposition trap.',
+        table: {
+          headers: ['#', 'Russian', 'Transliteration', 'English'],
+          rows: [
+            ['1', 'Дай мне книгу.', 'Day mne knigu.', 'Give me the book.'],
+            ['2', 'Я вижу тебя.', 'Ya vizhu tebya.', 'I see you.'],
+            ['3', 'Мы говорим о нём.', 'My govorim o nyom.', 'We are talking about him.'],
+            ['4', 'Скажи ей правду.', 'Skazhi yey pravdu.', 'Tell her the truth.'],
+            ['5', 'Он идёт с нами.', 'On idyot s nami.', 'He is going with us.'],
+            ['6', 'Это письмо для вас.', 'Eto pis\'mo dlya vas.', 'This letter is for you.'],
+            ['7', 'Я их не знаю.', 'Ya ikh ne znayu.', 'I don’t know them.'],
+            ['8', 'У неё есть сестра.', 'U neyo yest\' sestra.', 'She has a sister.'],
+            ['9', 'Это мой брат.', 'Eto moy brat.', 'This is my brother.'],
+            ['10', 'Я читаю свою книгу.', 'Ya chitayu svoyu knigu.', 'I am reading my (own) book.'],
+            ['11', 'Где наша машина?', 'Gde nasha mashina?', 'Where is our car?'],
+            ['12', 'Я вижу моего друга.', 'Ya vizhu moyego druga.', 'I see my friend.'],
+            ['13', 'Его дом большой.', 'Yego dom bol\'shoy.', 'His house is big.'],
+            ['14', 'Она любит свою работу.', 'Ona lyubit svoyu rabotu.', 'She loves her (own) job.'],
+            ['15', 'Этот город красивый.', 'Etot gorod krasivyy.', 'This city is beautiful.'],
+            ['16', 'Я живу в этом доме.', 'Ya zhivu v etom dome.', 'I live in this house.'],
+            ['17', 'Дай мне ту ручку.', 'Day mne tu ruchku.', 'Give me that pen.'],
+            ['18', 'Мы говорим об этой проблеме.', 'My govorim ob etoy probleme.', 'We are talking about this problem.'],
+            ['19', 'Кто это? — Это она.', 'Kto eto? — Eto ona.', 'Who is that? — It’s her.'],
+            ['20', 'Я иду к нему.', 'Ya idu k nemu.', 'I am going to him.'],
+          ],
+          caption: '20 pronoun examples with transliteration',
+          boldColumnIndices: [0, 1],
+        },
+      },
+      {
+        h2: 'Common Mistakes with Russian Pronouns',
+        bullets: [
+          '**Using его after a preposition:** *о его* ✗ → **о нём** ✓ (when “him” is the object of the preposition).',
+          '**Confusing свой and его:** subject’s own thing → **свой**; someone else’s → **его/её/их**.',
+          '**Forgetting agreement on мой:** *мой книга* ✗ → **моя книга** ✓.',
+          '**Treating это (this is) like этот (this + noun):** **Это мама** vs **Эта мама**.',
+          '**Mixing dative and accusative:** **дай мне** (dative) vs **вижу меня** (accusative).',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Do Russian personal pronouns have different forms for every case?',
+        answer:
+          'Yes. Each personal pronoun has a full six-case paradigm. The good news is that genitive and accusative are identical for all of them, which reduces what you must memorize.',
+      },
+      {
+        question: 'When do I use него instead of его?',
+        answer:
+          'Use него / неё / них (and related н- forms) after prepositions when the pronoun is the object of that preposition: о нём, у неё, с ними. Bare его / её / их are used without a governing preposition, or as indeclinable possessives meaning his / her / their.',
+      },
+      {
+        question: 'What is the difference between мой and свой?',
+        answer:
+          'Мой means “my” from the speaker’s point of view. Свой means “one’s own” and refers back to the subject of the clause: Он взял свою сумку (He took his own bag).',
+      },
+      {
+        question: 'How do этот and это differ?',
+        answer:
+          'Это as “this is / these are” is invariant: Это мой брат. Этот / эта / это / эти are demonstrative adjectives that agree with a noun: Этот брат живёт здесь.',
+      },
+      {
+        question: 'Is вы always plural?',
+        answer:
+          'Grammatically the forms are the same. Вы can address multiple people or one person politely. Verbs and past-tense forms agree with plural вы even for polite singular: Вы были правы.',
+      },
+    ],
+    conclusionIntro: 'Pronoun declension is finite — and it unlocks almost every Russian sentence.',
+    conclusionBullets: [
+      'Memorize **personal pronouns** as full columns (genitive = accusative)',
+      'Decline **мой / твой / свой / наш / ваш** like adjectives',
+      'Leave possessive **его / её / их** unchanged',
+      'Add **н-** after prepositions: него, неё, них',
+      'Drill **этот / тот** with real nouns until agreement feels automatic',
+    ],
+    conclusionOutro:
+      'Next, connect pronouns to questions (кто? кому? о ком?) in everyday speech, and keep drilling cases in our free [practice tool](/practice). For adjective-style endings in more detail, revisit the [adjective declension guide](/learn/articles/russian-adjective-declension).',
+    internalLinks: [
+      {
+        href: '/learn/articles/russian-adjective-declension',
+        label: 'Russian Adjective Declension: Endings Chart for All 6 Cases',
+      },
+      {
+        href: '/learn/articles/russian-case-endings-cheatsheet',
+        label: 'Russian Case Endings: The Ultimate Cheat Sheet',
+      },
+      {
+        href: '/learn/articles/russian-dative-case',
+        label: 'Russian Dative Case Guide',
+      },
+      {
+        href: '/learn/articles/russian-genitive-case',
+        label: 'Russian Genitive Case Guide',
+      },
+      {
+        href: '/learn/articles/top-10-russian-case-mistakes',
+        label: 'Top 10 Russian Case Mistakes',
+      },
+      { href: '/practice', label: 'Free Russian Declension Quiz' },
+    ],
+    ctaText: 'Practice Russian Cases — Free →',
+    ctaHref: '/practice',
+    conclusion: '',
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: 'Russian Pronouns Declension: Personal, Possessive & Demonstrative',
+      description:
+        'Decline Russian pronouns in all 6 cases: personal (я, ты, он…), possessive (мой, наш), demonstratives (этот/тот), plus the него/неё preposition trap.',
+      datePublished: '2026-09-13',
+      dateModified: '2026-09-13',
+      author: {
+        '@type': 'Person',
+        name: 'Nathan',
+        url: 'https://russiandeclensions.com/',
+        image: 'https://russiandeclensions.com/landing-cases/founder-photo.webp',
+        description:
+          'Native French speaker learning Russian; writes about grammar, cases, and practical self-study habits.',
+        worksFor: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      },
+      publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': 'https://russiandeclensions.com/learn/articles/russian-pronouns-declension',
+      },
+      keywords:
+        'russian pronouns declension, russian personal pronouns cases, мой наш declension, этот тот russian, него неё russian',
+      image: {
+        '@type': 'ImageObject',
+        url: 'https://russiandeclensions.com/articles/russian-pronouns-declension-header.webp',
+        width: 1280,
+        height: 720,
+      },
+    },
+  },
+  'anki-vs-app-russian-cases-srs': {
+    slug: 'anki-vs-app-russian-cases-srs',
+    introByline: ARTICLE_BYLINE,
+    title: 'Anki vs App: Best Way to Drill Russian Case Endings with SRS',
+    metaTitle: 'Anki vs App for Russian Cases | Russian Cases with Anna',
+    metaDescription:
+      'Anki or a dedicated app for Russian case SRS? Honest comparison of setup, feedback, context sentences, cost, and who should choose which—plus a hybrid stack.',
+    keywords: [
+      'best way to memorize russian cases',
+      'anki russian cases',
+      'srs russian declension',
+      'anki vs app language learning',
+      'russian cases spaced repetition',
+      'memorize russian case endings',
+      'best app russian cases',
+      'anki for russian grammar',
+    ],
+    h1: 'Anki vs App: Best Way to Drill Russian Case Endings with SRS',
+    heroImage: {
+      src: '/articles/anki-vs-app-russian-cases-srs-header.webp',
+      alt: 'Paper flashcards next to a phone language drill app for Russian case SRS practice',
+      width: 1280,
+      height: 720,
+    },
+    intro:
+      'If you already know that Russian cases need **spaced repetition**, the next question is practical: **Anki or a dedicated cases app?** Both use SRS. They are not the same product.\n\nAnki is a blank engine — infinitely flexible, free (on most platforms), and powerful if you build good decks. A dedicated Russian-cases app ships the drills, sentence context, and feedback already designed for declensions. This article compares both honestly so you can pick a primary tool — or combine them without wasting time.',
+    whatYouLearn: [
+      'Why Russian case endings specifically need SRS (not just “more reading”)',
+      'What Anki does well — and where DIY decks fall short for cases',
+      'What a dedicated cases app adds: context, targeting, less setup',
+      'A clear side-by-side comparison (setup, feedback, audio, cost, curve)',
+      'Who should choose Anki, who should choose an app, and a hybrid stack that works',
+    ],
+    leadMagnetCta: {
+      title: 'Want SRS without building decks from scratch?',
+      description:
+        'Russian Cases with Anna is built around declension drills with spaced repetition, real sentences, and instant feedback — free on iOS and Android.',
+      ctaText: 'Download the app — Free',
+      ctaHref: '/',
+    },
+    tableAccentVariant: 'orange',
+    sections: [
+      {
+        h2: 'Why Russian Cases Need Spaced Repetition',
+        content:
+          'Cases are not a “read once, understand forever” topic. You can explain the genitive perfectly and still freeze on **нет брата** under time pressure. What fails is not intelligence — it is **retrieval speed**.\n\nSRS fixes that by forcing active recall just before you forget. For endings, that means producing **на столе**, **к другу**, **без молока** again and again until the form arrives before the rule does.',
+        bullets: [
+          'Passive recognition (“I would know it if I saw it”) ≠ active production in speech or writing.',
+          'Six cases × genders × numbers is too large a matrix for cramming.',
+          'Short daily reviews beat long weekend grammar sessions — see our [practice methods guide](/learn/articles/how-to-practice-russian-cases).',
+        ],
+      },
+      {
+        h2: 'How Anki Works for Case Endings',
+        content:
+          'Anki schedules cards with an SRS algorithm you control. For Russian cases, people usually build (or download) decks like: nominative prompt → declined form, or English → Russian phrase with a highlighted ending.',
+        subsections: [
+          {
+            h3: 'Strengths',
+            content:
+              '**Total control.** You decide card format, hints, audio, and tags by case.\n\n**Portability.** Decks sync across devices; your progress is yours.\n\n**Cost.** Anki is free on desktop and Android (iOS app is paid). No subscription required for core SRS.\n\n**Depth.** Power users add cloze deletions, reverse cards, and frequency-sorted noun lists.',
+          },
+          {
+            h3: 'Costs and friction',
+            content:
+              '**Setup time.** A good cases deck takes hours to design — or you inherit someone else’s messy deck.\n\n**Weak grammatical feedback.** Anki marks “right/wrong” based on what *you* typed or self-graded; it does not explain why **брата** is genitive after **нет**.\n\n**Isolation risk.** Single-word ending cards can create “table knowledge” that does not transfer into sentences.\n\n**Maintenance.** Bad cards (ambiguous prompts, missing stress, wrong animacy) silently train errors.',
+          },
+        ],
+        bullets: [
+          'Anki shines if you already enjoy tinkering and will review daily.',
+          'Anki underperforms if you wanted “open app → drill cases” in under a minute.',
+        ],
+      },
+      {
+        h2: 'How a Dedicated Cases App Works',
+        content:
+          'A purpose-built Russian cases app (like **Russian Cases with Anna**) treats declension as the product: lessons and quizzes already map to the six cases, with prompts designed for agreement, animacy, and preposition+case patterns.',
+        subsections: [
+          {
+            h3: 'Strengths',
+            content:
+              '**Zero deck engineering.** Open the app and practise.\n\n**Contextual sentences.** Endings appear inside real phrases, not only isolated nouns.\n\n**Targeted paths.** Drill one case, one construction, or mixed review without tagging cards yourself.\n\n**Faster feedback loop.** Immediate correct/incorrect with the grammar pattern in focus — less self-grading ambiguity.\n\n**Lower cognitive overhead.** Your energy goes to Russian, not to Anki settings.',
+          },
+          {
+            h3: 'Trade-offs',
+            content:
+              '**Less infinite customisation** than Anki — you follow the app’s pedagogy.\n\n**Scope is focused.** A cases app will not replace a general vocab mega-deck for every domain of life.\n\n**Platform choice.** You pick an app that matches your goals (cases-first vs general Russian).',
+          },
+        ],
+      },
+      {
+        h2: 'Side-by-Side Comparison',
+        content: 'Use this table as a decision snapshot — not a morality judgment. Both tools can work; they optimise for different costs.',
+        table: {
+          headers: ['Criterion', 'Anki', 'Dedicated cases app'],
+          rows: [
+            ['Setup time', 'High (build or clean decks)', 'Low (start immediately)'],
+            ['SRS quality', 'Excellent (if configured well)', 'Excellent (built for this job)'],
+            ['Grammar feedback', 'Mostly self-graded', 'Structured around case patterns'],
+            ['Sentence context', 'Only if you add it', 'Usually built in'],
+            ['Customisation', 'Unlimited', 'Guided / limited'],
+            ['Best for cases specifically', 'DIY — variable quality', 'Purpose-built'],
+            ['Cost model', 'Free* (+ time)', 'Free tier / app download'],
+            ['Risk', 'Bad cards train bad habits', 'Less flexible outside cases'],
+          ],
+          caption: 'Anki vs dedicated Russian cases app',
+          boldColumnIndices: [0],
+        },
+        bullets: [
+          '*Anki iOS client is paid; desktop/Android are free.',
+          'If your bottleneck is **consistency**, reduce friction (app). If your bottleneck is **weird custom needs**, use Anki.',
+        ],
+      },
+      {
+        h2: 'Who Should Choose Anki',
+        content: 'Pick Anki as your primary SRS tool if most of these sound like you:',
+        bullets: [
+          'You already use Anki daily for other languages or med school–style study.',
+          'You enjoy building cards and will maintain deck quality.',
+          'You need custom lists (your textbook chapter, TORFL vocab, personal notes).',
+          'You will add **full-sentence** cards, not only bare endings.',
+          'You accept that grammar explanations live elsewhere (blog, tutor, textbook).',
+        ],
+      },
+      {
+        h2: 'Who Should Choose an App',
+        content: 'Pick a dedicated cases app as your primary drill tool if most of these sound like you:',
+        bullets: [
+          'You want maximum practice per minute with minimal setup.',
+          'Cases — not general flashcard hobbyism — are your main pain point.',
+          'You learn better with **sentence context** and clear case targeting.',
+          'Past Anki attempts died in the “I’ll make decks later” phase.',
+          'You want a path that pairs naturally with reading guides on this site and then drilling.',
+        ],
+      },
+      {
+        h2: 'A Hybrid Study Stack That Works',
+        content:
+          'You do not have to pick a tribe. Many strong learners combine both:',
+        bullets: [
+          '**Primary daily drill (10–15 min):** dedicated cases app for endings in context.',
+          '**Secondary SRS (5–10 min):** Anki for personal weak spots — tricky plurals, your job vocab, TORFL lists.',
+          '**Weekly output:** write 10–20 sentences for one case; correct them (see [practice methods](/learn/articles/how-to-practice-russian-cases)).',
+          '**Input:** short reading where you highlight case endings you drilled that week.',
+        ],
+        subsections: [
+          {
+            h3: 'A simple weekly rhythm',
+            content:
+              'Mon–Fri: app reviews + optional Anki.\nSaturday: one focused case writing sprint.\nSunday: light review only — protect the streak, do not binge.',
+          },
+        ],
+      },
+      {
+        h2: 'Common Mistakes When Using SRS for Cases',
+        bullets: [
+          '**Ending-only cards with no context** — you recognise -е but cannot place на столе in a sentence.',
+          '**Adding 200 cards on day one** — backlog death; add small, review daily.',
+          '**Self-grading generously** — if unsure, mark wrong; SRS only works with honest retrieval.',
+          '**Skipping animacy and gender** — half of accusative “exceptions” are just missing metadata on the card.',
+          '**Replacing all study with flashcards** — SRS builds recall; speaking/writing builds use.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Is Anki good for learning Russian cases?',
+        answer:
+          'Yes — if your decks use clear prompts, correct forms (including animacy), and ideally full sentences. Anki’s SRS algorithm is excellent. The weak point is usually deck quality and the lack of built-in grammar feedback, not the software itself.',
+      },
+      {
+        question: 'What is better for Russian cases: Anki or an app?',
+        answer:
+          'If you want the fastest path to consistent case drills with minimal setup, a dedicated cases app is usually better. If you already live in Anki and will maintain high-quality sentence cards, Anki is excellent. Many learners use an app for daily case drilling and Anki for personal vocabulary.',
+      },
+      {
+        question: 'Can I memorize Russian case endings without SRS?',
+        answer:
+          'You can learn the charts without SRS, but automatic recall under time pressure almost always needs repeated retrieval over days and weeks. SRS is simply the most efficient scheduling method for that repetition.',
+      },
+      {
+        question: 'How many minutes a day should I drill cases?',
+        answer:
+          'Fifteen focused minutes daily beats two hours once a week. Keep sessions short enough that you never dread opening the app or Anki — streaks matter more than heroic weekends.',
+      },
+      {
+        question: 'Should beginners start with Anki?',
+        answer:
+          'Only if they already like Anki. Many beginners quit during deck setup. Starting with a guided cases app, then adding Anki later for custom needs, is often the smoother path.',
+      },
+    ],
+    conclusionIntro: 'SRS is non-negotiable for case endings. The tool is a means.',
+    conclusionBullets: [
+      'Use **SRS daily** — algorithm matters less than showing up',
+      'Choose **Anki** for control and custom decks',
+      'Choose a **cases app** for speed, context, and less setup',
+      'Hybrid works: app for declensions, Anki for personal weak spots',
+      'Always prefer **sentence-level** practice over bare ending lists',
+    ],
+    conclusionOutro:
+      'If your goal is specifically to make the six cases automatic, start drilling with a tool built for that job — then keep reading deep guides like our [case endings cheat sheet](/learn/articles/russian-case-endings-cheatsheet) when you need the “why.”',
+    internalLinks: [
+      {
+        href: '/learn/articles/how-to-practice-russian-cases',
+        label: 'How to Practice Russian Cases: 5 Proven Methods',
+      },
+      {
+        href: '/learn/articles/top-10-apps-russian',
+        label: 'Top 10 Apps to Learn Russian in 2026',
+      },
+      {
+        href: '/learn/articles/best-apps-learn-russian-grammar',
+        label: 'Best Apps to Learn Russian Grammar in 2026',
+      },
+      {
+        href: '/learn/articles/learn-russian-on-your-own',
+        label: 'Can You Learn Russian on Your Own?',
+      },
+      {
+        href: '/learn/articles/russian-case-endings-cheatsheet',
+        label: 'Russian Case Endings Cheat Sheet',
+      },
+      { href: '/practice', label: 'Free Russian Declension Quiz' },
+    ],
+    ctaText: 'Try Russian Cases with Anna — Free →',
+    ctaHref: '/',
+    conclusion: '',
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: 'Anki vs App: Best Way to Drill Russian Case Endings with SRS',
+      description:
+        'Anki or a dedicated app for Russian case SRS? Honest comparison of setup, feedback, context sentences, cost, and who should choose which—plus a hybrid stack.',
+      datePublished: '2026-09-13',
+      dateModified: '2026-09-13',
+      author: {
+        '@type': 'Person',
+        name: 'Nathan',
+        url: 'https://russiandeclensions.com/',
+        image: 'https://russiandeclensions.com/landing-cases/founder-photo.webp',
+        description:
+          'Native French speaker learning Russian; writes about grammar, cases, and practical self-study habits.',
+        worksFor: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      },
+      publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': 'https://russiandeclensions.com/learn/articles/anki-vs-app-russian-cases-srs',
+      },
+      keywords:
+        'best way to memorize russian cases, anki russian cases, srs russian declension, anki vs app language learning, russian cases spaced repetition',
+      image: {
+        '@type': 'ImageObject',
+        url: 'https://russiandeclensions.com/articles/anki-vs-app-russian-cases-srs-header.webp',
+        width: 1280,
+        height: 720,
+      },
+    },
+  },
+  'russian-hard-soft-consonants-guide': {
+    slug: 'russian-hard-soft-consonants-guide',
+    introByline: ARTICLE_BYLINE,
+    title: 'Russian Hard vs Soft Consonants: The Pronunciation Guide Beginners Skip',
+    metaTitle: 'Hard vs Soft Consonants in Russian | Russian Cases with Anna',
+    metaDescription:
+      'Learn hard and soft Russian consonants: pairs, soft sign, soft vowels, ы vs и, and how softness changes word endings—with minimal pairs and reading practice.',
+    keywords: [
+      'hard and soft consonants russian',
+      'russian soft consonants',
+      'russian hard soft pairs',
+      'soft sign russian',
+      'ы vs и russian',
+      'palatalization russian',
+      'russian pronunciation beginners',
+      'hard vs soft russian consonants',
+    ],
+    h1: 'Russian Hard vs Soft Consonants: The Pronunciation Guide Beginners Skip',
+    heroImage: {
+      src: '/articles/russian-hard-soft-consonants-header.webp',
+      alt: 'Chalkboard showing Russian hard and soft consonant pairs for pronunciation',
+      width: 1280,
+      height: 720,
+    },
+    intro:
+      'Most beginners learn the Cyrillic alphabet, then rush to vocabulary — and skip the one pronunciation system that makes Russian *sound* Russian: **hard vs soft consonants**.\n\nSoftness (palatalization) is not decoration. It can change meaning (**угол** “corner” vs **уголь** “coal”), it decides whether you write **ы** or **и**, and it explains why soft-stem adjectives and nouns take different endings. This guide gives you the pairs, the soft-sign / soft-vowel rules, the **ы vs и** trap, minimal pairs, and short reading practice.',
+    whatYouLearn: [
+      'What “hard” and “soft” mean in Russian pronunciation',
+      'The hard/soft consonant pairs (with approximate English anchors)',
+      'How the soft sign, soft vowels, and й create softness',
+      'How softness shows up in word endings (grammar link)',
+      'Ы vs и — the classic confusion',
+      'Minimal pairs and a short reading drill',
+    ],
+    leadMagnetCta: {
+      title: 'Pronunciation + cases = words you can actually use',
+      description:
+        'Once endings sound clear, drill them in context. Russian Cases with Anna trains all six cases with spaced repetition. Free on iOS and Android.',
+      ctaText: 'Download the app — Free',
+      ctaHref: '/',
+    },
+    tableAccentVariant: 'nominative',
+    sections: [
+      {
+        h2: 'What “Hard” and “Soft” Mean in Russian',
+        content:
+          'In Russian, many consonants come in **pairs**: a **hard** version and a **soft** version. Soft consonants are pronounced with the middle of the tongue raised toward the palate — a light “y” quality without adding a full extra syllable.\n\nEnglish only does this occasionally (the n in “onion” is closer to soft than the n in “no”). Russian does it **systematically**, on most consonants, in almost every word.',
+        bullets: [
+          'Hard ≠ “loud” and soft ≠ “quiet.” Soft means **palatalized**.',
+          'The same letter shape can represent hard or soft sound depending on what follows (or a soft sign).',
+          'Some consonants are **always hard** or **always soft** — they do not pair.',
+        ],
+      },
+      {
+        h2: 'The Hard/Soft Consonant Pairs',
+        content:
+          'These are the paired consonants. Learn them as twins: same place of articulation, different softness.',
+        table: {
+          headers: ['Hard', 'Soft', 'Rough English anchor', 'Example hard → soft'],
+          rows: [
+            ['б', 'б\'', 'b / by', 'был → бил'],
+            ['п', 'п\'', 'p / py', 'пыль → пить'],
+            ['м', 'м\'', 'm / my', 'мы → мир'],
+            ['в', 'в\'', 'v / vy', 'вы → вид'],
+            ['ф', 'ф\'', 'f / fy', 'факт → фильм'],
+            ['д', 'д\'', 'd / dy', 'дышать → диван'],
+            ['т', 'т\'', 't / ty', 'ты → тихо'],
+            ['н', 'н\'', 'n / ny', 'ныть → низ'],
+            ['з', 'з\'', 'z / zy', 'зыбкий → зима'],
+            ['с', 'с\'', 's / sy', 'сын → синий'],
+            ['л', 'л\'', 'l / ly (dark vs clear)', 'лыжи → лиса'],
+            ['р', 'р\'', 'rolled r / soft r', 'рынок → рис'],
+            ['г', 'г\'', 'g / gy', 'гусь → гимн'],
+            ['к', 'к\'', 'k / ky', 'куст → кино'],
+            ['х', 'х\'', 'loch / softer kh', 'хата → химия'],
+          ],
+          caption: 'Russian hard/soft consonant pairs',
+          boldColumnIndices: [0, 1],
+        },
+        subsections: [
+          {
+            h3: 'Always hard (no soft twin in standard pairing)',
+            content:
+              '**ж, ш, ц** are hard. Even when spelling looks “soft,” pronunciation stays hard: **жить**, **шире**, **цикл**.',
+          },
+          {
+            h3: 'Always soft',
+            content:
+              '**ч, щ, й** are soft. **Чай**, **щека**, **мой** never harden into a hard twin of the same letter.',
+          },
+        ],
+      },
+      {
+        h2: 'Soft Sign, Soft Vowels, and Й',
+        content:
+          'Russian marks softness in three main ways. You need all three to read accurately.',
+        subsections: [
+          {
+            h3: '1. Soft vowels: е, ё, и, ю, я',
+            content:
+              'After a consonant, these usually signal that the consonant is soft: **нет** (n soft), **мёд**, **пила**, **люблю**, **мяч**.\n\nAt the start of a word (or after a vowel), they often include a **y-glide**: **ель**, **ёлка**, **юбка**, **яблоко**.',
+          },
+          {
+            h3: '2. Soft sign ь',
+            content:
+              'The soft sign has **no sound of its own**. It softens the consonant before it: **мать**, **день**, **соль**, **словарь**.\n\nIt also appears in the middle of words to keep a consonant soft before another letter: **семья**.',
+          },
+          {
+            h3: '3. Hard sign ъ',
+            content:
+              'The hard sign also has no sound. It blocks softening / separates a prefix from a soft vowel: **объект**, **съесть**. Beginners meet it less often than ь — learn it as a separator, not a “hard pronunciation button.”',
+          },
+          {
+            h3: '4. Й',
+            content:
+              '**Й** is the consonant “y” sound (as in “boy”). It is always soft in quality and common in endings and diphthong-like sequences: **мой**, **русский**, **чай**.',
+          },
+        ],
+        bullets: [
+          'Hard vowels that typically follow hard consonants: **а, о, у, ы, э**.',
+          'If you only memorize letters without softness, Russian will sound “flat” and stress/ending cues will be harder to hear.',
+        ],
+      },
+      {
+        h2: 'How Softness Changes Word Endings',
+        content:
+          'Softness is not only pronunciation — it feeds grammar. Soft stems take the “soft” ending set.',
+        table: {
+          headers: ['Hard-stem example', 'Soft-stem example', 'What changes'],
+          rows: [
+            ['новый (adj.)', 'синий (adj.)', 'Adjective endings: -ого vs -его, -ым vs -им…'],
+            ['стол → стола', 'словарь → словаря', 'Noun genitive: -а vs -я'],
+            ['карта → карте', 'земля → земле', 'Soft feminine stems favor -е/-и patterns'],
+            ['мы', 'милиция', 'ы appears after hard stems; и after soft'],
+          ],
+          caption: 'Softness links pronunciation to declension endings',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          'This is why soft adjectives are covered separately in our [adjective declension guide](/learn/articles/russian-adjective-declension).',
+          'Noun gender + hard/soft stem together choose the ending chart — see also [noun gender](/learn/articles/russian-noun-gender-guide) and the [case endings cheat sheet](/learn/articles/russian-case-endings-cheatsheet).',
+        ],
+      },
+      {
+        h2: 'Ы vs И: The Classic Confusion',
+        content:
+          'English speakers often hear **ы** and **и** as the same “ee.” Native Russian ears do not.',
+        table: {
+          headers: ['Letter', 'When it appears', 'Feel / tip', 'Example'],
+          rows: [
+            ['и', 'After soft consonants; default “ee”', 'Tongue forward, smile slightly', 'мир, синий, пить'],
+            ['ы', 'After hard consonants', 'Tongue pulled back, darker “ee”', 'мы, сын, ты'],
+          ],
+          caption: 'Ы vs и — distribution and feel',
+          boldColumnIndices: [0],
+        },
+        subsections: [
+          {
+            h3: 'Spelling rule (practical)',
+            content:
+              'After **г, к, х, ж, ш, щ, ч**, Russian writes **и**, not **ы** (жир, шить, чистый) — even when ж/ш stay hard in pronunciation. This is a spelling convention you must memorize.',
+          },
+        ],
+        bullets: [
+          'Minimal contrast: **бил** (he beat) vs **был** (he was) — soft б+и vs hard б+ы.',
+          'If your **ы** sounds identical to **и**, record yourself and compare to native audio; the tongue position is the fix, not volume.',
+        ],
+      },
+      {
+        h2: 'Minimal Pairs to Train Your Ear',
+        content:
+          'Train with contrasts. Say each pair slowly, then at conversation speed.',
+        table: {
+          headers: ['Hard-leaning', 'Soft-leaning', 'Meaning contrast'],
+          rows: [
+            ['угол', 'уголь', 'corner / coal'],
+            ['был', 'бил', 'was / beat'],
+            ['мат', 'мать', 'mat (vulgar slang also exists) / mother'],
+            ['мол', 'моль', 'breakwater / moth'],
+            ['рад', 'ряд', 'glad / row'],
+            ['нос', 'нёс', 'nose / carried (past of нести)'],
+          ],
+          caption: 'Minimal pairs for hard vs soft practice',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          'Not every pair is a perfect dictionary twin — the goal is **hearing and producing** the soft gesture.',
+          'Add audio from any dictionary with sound; visual charts alone will not fix the ear.',
+        ],
+      },
+      {
+        h2: 'Reading Practice',
+        content:
+          'Read these aloud. Mark soft consonants with a mental apostrophe as you go.',
+        table: {
+          headers: ['Russian', 'Focus', 'English'],
+          rows: [
+            ['Синий словарь на столе.', 'soft с, н, р in словарь', 'A blue dictionary is on the table.'],
+            ['Мать и дочь дома.', 'soft soft-sign words', 'Mother and daughter are at home.'],
+            ['Мы были в кино.', 'ы vs и; soft н in кино', 'We were at the cinema.'],
+            ['Холодный день в январе.', 'hard д/н vs soft д in день; я-', 'A cold day in January.'],
+            ['Русский язык трудный, но красивый.', 'always-soft ч; soft к in русский', 'Russian is hard but beautiful.'],
+          ],
+          caption: 'Short reading drill for hard/soft awareness',
+          boldColumnIndices: [0],
+        },
+        bullets: [
+          'Re-read daily for a week; speed comes after accuracy.',
+          'Then revisit the [alphabet guide](/learn/articles/russian-alphabet-cyrillic-guide) and [word stress guide](/learn/articles/russian-word-stress-guide) — stress + softness together create real Russian rhythm.',
+        ],
+      },
+      {
+        h2: 'Common Mistakes with Hard and Soft Consonants',
+        bullets: [
+          '**Ignoring ь** — reading мать like мат.',
+          '**Making ы = и** — мы and ми merge into one sound.',
+          '**Softening ж/ш** — they stay hard even before и.',
+          '**Hardening ч/щ** — they stay soft.',
+          '**Learning endings without softness** — soft-stem charts will feel random until the ear catches up.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'What are hard and soft consonants in Russian?',
+        answer:
+          'Many Russian consonants come in pairs: a hard (non-palatalized) sound and a soft (palatalized) sound. Soft consonants are pronounced with the tongue raised toward the palate. The difference can change meaning and affects spelling and grammar endings.',
+      },
+      {
+        question: 'How do I know if a consonant is soft?',
+        answer:
+          'Look at what follows it. Soft vowels е, ё, и, ю, я usually mark a soft consonant; the soft sign ь also softens the previous consonant. Some letters are always soft (ч, щ, й) or always hard (ж, ш, ц).',
+      },
+      {
+        question: 'What is the difference between ы and и?',
+        answer:
+          'И is a front “ee” sound that typically follows soft consonants. Ы is a darker, more retracted vowel that follows hard consonants (мы, сын). English speakers often merge them at first; tongue position is the key distinction.',
+      },
+      {
+        question: 'Does the soft sign make a sound?',
+        answer:
+          'No. The soft sign ь has no sound of its own. It softens the consonant before it (and can separate sounds inside a word). The hard sign ъ is also silent and mainly separates a prefix from a following soft vowel.',
+      },
+      {
+        question: 'Why does softness matter for Russian cases?',
+        answer:
+          'Soft-stem nouns and adjectives take different ending vowels than hard stems (for example -я/-ю/-е patterns vs -а/-у/-о patterns, and soft adjective endings like -его/-ему). Hearing softness helps you choose the right declension chart automatically.',
+      },
+    ],
+    conclusionIntro: 'Hard vs soft is the hidden layer under Cyrillic reading — and under many endings.',
+    conclusionBullets: [
+      'Treat paired consonants as **hard/soft twins**',
+      'Read softness from **soft vowels**, **ь**, and always-soft letters',
+      'Separate **ы** (hard) from **и** (soft / front)',
+      'Connect softness to **ending charts** for nouns and adjectives',
+      'Train with **minimal pairs** and short daily reading aloud',
+    ],
+    conclusionOutro:
+      'When softness starts to feel automatic, grammar charts stop looking arbitrary. Keep going with the [alphabet](/learn/articles/russian-alphabet-cyrillic-guide), [stress](/learn/articles/russian-word-stress-guide), and [adjective endings](/learn/articles/russian-adjective-declension) guides — then drill forms in our free [practice tool](/practice).',
+    internalLinks: [
+      {
+        href: '/learn/articles/russian-alphabet-cyrillic-guide',
+        label: 'Russian Alphabet: Learn Cyrillic in 3 Simple Steps',
+      },
+      {
+        href: '/learn/articles/russian-word-stress-guide',
+        label: 'Russian Word Stress: Why It Changes Everything',
+      },
+      {
+        href: '/learn/articles/russian-adjective-declension',
+        label: 'Russian Adjective Declension: Endings Chart',
+      },
+      {
+        href: '/learn/articles/russian-case-endings-cheatsheet',
+        label: 'Russian Case Endings Cheat Sheet',
+      },
+      {
+        href: '/learn/articles/russian-nominative-case',
+        label: 'Russian Nominative Case Guide',
+      },
+      { href: '/practice', label: 'Free Russian Declension Quiz' },
+    ],
+    ctaText: 'Practice Russian Cases — Free →',
+    ctaHref: '/practice',
+    conclusion: '',
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: 'Russian Hard vs Soft Consonants: The Pronunciation Guide Beginners Skip',
+      description:
+        'Learn hard and soft Russian consonants: pairs, soft sign, soft vowels, ы vs и, and how softness changes word endings—with minimal pairs and reading practice.',
+      datePublished: '2026-09-13',
+      dateModified: '2026-09-13',
+      author: {
+        '@type': 'Person',
+        name: 'Nathan',
+        url: 'https://russiandeclensions.com/',
+        image: 'https://russiandeclensions.com/landing-cases/founder-photo.webp',
+        description:
+          'Native French speaker learning Russian; writes about grammar, cases, and practical self-study habits.',
+        worksFor: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      },
+      publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': 'https://russiandeclensions.com/learn/articles/russian-hard-soft-consonants-guide',
+      },
+      keywords:
+        'hard and soft consonants russian, russian soft consonants, soft sign russian, ы vs и russian, palatalization russian',
+      image: {
+        '@type': 'ImageObject',
+        url: 'https://russiandeclensions.com/articles/russian-hard-soft-consonants-header.webp',
+        width: 1280,
+        height: 720,
+      },
+    },
+  },
+  'russian-question-words': {
+    slug: 'russian-question-words',
+    introByline: ARTICLE_BYLINE,
+    title: 'Russian Question Words: Who, What, Where, When & How (Complete Guide)',
+    metaTitle: 'Russian Question Words Guide | Russian Cases with Anna',
+    metaDescription:
+      'Learn Russian question words: кто, что, где, куда, какой, сколько—and which case each one triggers, with 25 ready-to-use questions.',
+    keywords: [
+      'russian question words',
+      'russian interrogatives',
+      'кто что где куда',
+      'russian question words list',
+      'how to ask questions in russian',
+      'какой который чей russian',
+      'сколько genitive russian',
+      'где vs куда vs откуда',
+    ],
+    h1: 'Russian Question Words: Who, What, Where, When & How (Complete Guide)',
+    heroImage: {
+      src: '/articles/russian-question-words-header.webp',
+      alt: 'Notebook with handwritten Russian question words кто что где куда когда как почему',
+      width: 1280,
+      height: 720,
+    },
+    intro:
+      'If you can ask questions in Russian, you can steer almost any conversation. The catch: many Russian question words are **tied to cases**. **Кого?** is not just “who?” — it is “whom?” in the genitive/accusative. **Сколько?** pulls the following noun into the **genitive**. **Где?** and **куда?** look similar in English (“where?”) but demand different grammar.\n\nThis guide gives you the full beginner set, shows how **кто/что** decline, separates **где / куда / откуда**, covers **какой / который / чей**, explains **сколько + genitive**, and ends with **25 ready-to-use questions**.',
+    whatYouLearn: [
+      'A complete list of the most useful Russian question words',
+      'How кто and что decline across cases',
+      'Где vs куда vs откуда (location vs direction vs origin)',
+      'Какой, который, and чей — and how they agree',
+      'Сколько and why it takes the genitive',
+      '25 ready-to-use questions for real conversations',
+    ],
+    leadMagnetCta: {
+      title: 'Questions get easier when case endings feel automatic',
+      description:
+        'Russian Cases with Anna drills the endings behind кого, чему, о ком, and сколько + genitive. Free on iOS and Android.',
+      ctaText: 'Download the app — Free',
+      ctaHref: '/',
+    },
+    tableAccentVariant: 'genitive',
+    sections: [
+      {
+        h2: 'Complete List of Russian Question Words',
+        content:
+          'Start with this overview. Bookmark it, then dig into the sections below for the grammar that each word triggers.',
+        table: {
+          headers: ['Russian', 'Transliteration', 'English', 'Grammar note'],
+          rows: [
+            ['кто', 'kto', 'who', 'Declines (кого, кому…)' ],
+            ['что', 'chto', 'what', 'Declines (чего, чему…)' ],
+            ['где', 'gde', 'where (location)', 'Answer often in prepositional' ],
+            ['куда', 'kuda', 'where to (direction)', 'Answer often in accusative' ],
+            ['откуда', 'otkuda', 'where from', 'Answer often from + genitive' ],
+            ['когда', 'kogda', 'when', 'Time expressions / cases vary' ],
+            ['почему', 'pochemu', 'why (reason)', 'Often потому что…' ],
+            ['зачем', 'zachem', 'why (purpose)', 'Goal / what for' ],
+            ['как', 'kak', 'how', 'Manner; also “what’s … like?”' ],
+            ['какой / какая / какое / какие', 'kakoy…', 'which / what kind', 'Agrees like an adjective' ],
+            ['который', 'kotoryy', 'which (of a set) / that', 'Relative / which one' ],
+            ['чей / чья / чьё / чьи', 'chey…', 'whose', 'Agrees with the noun' ],
+            ['сколько', 'skol\'ko', 'how many / how much', 'Noun in genitive' ],
+            ['сколько стоит…?', 'skol\'ko stoit', 'how much does it cost?', 'Fixed shopping question' ],
+          ],
+          caption: 'Core Russian question words at a glance',
+          boldColumnIndices: [0, 3],
+        },
+      },
+      {
+        h2: 'Кто and Что — and How They Decline',
+        content:
+          '**Кто?** (who?) and **Что?** (what?) are the foundation. In the nominative they look simple. In other cases they become the forms English speakers forget first: **кого, чему, о ком…**',
+        table: {
+          headers: ['Case', 'кто', 'что', 'English cue'],
+          rows: [
+            ['Nominative', 'кто', 'что', 'who? / what? (subject)'],
+            ['Genitive', 'кого', 'чего', 'of whom? / of what? / нет кого?'],
+            ['Dative', 'кому', 'чему', 'to whom? / to what?'],
+            ['Accusative', 'кого', 'что', 'whom? / what? (object)'],
+            ['Instrumental', 'кем', 'чем', 'with/by whom? / with what?'],
+            ['Prepositional', 'о ком', 'о чём', 'about whom? / about what?'],
+          ],
+          caption: 'Declension of кто and что',
+          boldColumnIndices: [0, 1, 2],
+        },
+        subsections: [
+          {
+            h3: 'Quick examples',
+            content:
+              '**Кто это?** — Who is that?\n**Кого ты видишь?** — Whom do you see?\n**Кому дать книгу?** — Who should I give the book to?\n**О чём вы говорите?** — What are you talking about?\n**Чем ты пишешь?** — What are you writing with?',
+          },
+        ],
+        bullets: [
+          '**Кого** is both genitive and accusative of кто — context tells you which.',
+          'For pronoun parallels (мне, его, неё…), see [Russian pronouns declension](/learn/articles/russian-pronouns-declension).',
+        ],
+      },
+      {
+        h2: 'Где vs Куда vs Откуда',
+        content:
+          'English often uses one word — “where?” Russian splits location, destination, and origin. Mixing them is one of the most common beginner mistakes.',
+        table: {
+          headers: ['Question', 'Meaning', 'Typical answer pattern', 'Example'],
+          rows: [
+            ['Где?', 'Where (at/in)?', 'в/на + prepositional', 'Где книга? — На столе.'],
+            ['Куда?', 'Where to?', 'в/на + accusative', 'Куда ты идёшь? — В школу.'],
+            ['Откуда?', 'Where from?', 'из/с/от + genitive', 'Откуда ты? — Из Франции.'],
+          ],
+          caption: 'Location vs direction vs origin',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          '**Где?** → static location (often [prepositional case](/learn/articles/russian-prepositional-case)).',
+          '**Куда?** → motion toward (often [accusative](/learn/articles/russian-accusative-case) after в/на).',
+          '**Откуда?** → origin (often [genitive](/learn/articles/russian-genitive-case) after из/с/от).',
+          'Same noun, three shapes: **в школе** / **в школу** / **из школы**.',
+        ],
+      },
+      {
+        h2: 'Какой, Который, and Чей',
+        content:
+          'These three look similar in English translations (“which / what / whose”) but they are not interchangeable.',
+        subsections: [
+          {
+            h3: 'Какой — what kind / which',
+            content:
+              '**Какой?** agrees like an adjective: какая, какое, какие + case endings.\n**Какой это фильм?** — What kind of film is this?\n**В каком доме ты живёшь?** — Which house do you live in?',
+          },
+          {
+            h3: 'Который — which one / that (relative)',
+            content:
+              '**Который** picks from a known set or introduces a relative clause.\n**Который час?** — What time is it?\n**Книга, которую я читаю…** — The book that I am reading…',
+          },
+          {
+            h3: 'Чей — whose',
+            content:
+              '**Чей / чья / чьё / чьи** agree with the **thing possessed**, not the owner.\n**Чья это сумка?** — Whose bag is this?\n**Чьи это ключи?** — Whose keys are these?',
+          },
+        ],
+        bullets: [
+          'If you need adjective agreement charts, see [adjective declension](/learn/articles/russian-adjective-declension).',
+          '**Какой** is the everyday workhorse for “what/which + noun.”',
+        ],
+      },
+      {
+        h2: 'Сколько and the Genitive',
+        content:
+          '**Сколько?** means “how many?” or “how much?” The noun that follows is normally in the **genitive**.',
+        table: {
+          headers: ['Russian', 'English', 'Note'],
+          rows: [
+            ['Сколько у тебя братьев?', 'How many brothers do you have?', 'братьев = genitive plural'],
+            ['Сколько это стоит?', 'How much does this cost?', 'Fixed commerce question'],
+            ['Сколько времени?', 'How much time?', 'времени = genitive'],
+            ['Сколько лет тебе?', 'How old are you?', 'Age pattern with dative тебе'],
+          ],
+          caption: 'Сколько questions with genitive',
+          boldColumnIndices: [0],
+        },
+        bullets: [
+          'Numbers themselves also interact with genitive — details in the [numbers guide](/learn/articles/russian-numbers-guide) and [genitive case guide](/learn/articles/russian-genitive-case).',
+          'After **сколько**, do not leave the noun in the nominative: *сколько братья* ✗ → **сколько братьев** ✓.',
+        ],
+      },
+      {
+        h2: '25 Ready-to-Use Questions',
+        content:
+          'Memorize these as frames. Swap in your own nouns once the pattern feels automatic.',
+        table: {
+          headers: ['#', 'Russian', 'English'],
+          rows: [
+            ['1', 'Кто это?', 'Who is that?'],
+            ['2', 'Что это?', 'What is that?'],
+            ['3', 'Как тебя зовут?', 'What is your name?'],
+            ['4', 'Откуда ты?', 'Where are you from?'],
+            ['5', 'Где ты живёшь?', 'Where do you live?'],
+            ['6', 'Куда ты идёшь?', 'Where are you going?'],
+            ['7', 'Когда мы встретимся?', 'When will we meet?'],
+            ['8', 'Почему ты устал?', 'Why are you tired?'],
+            ['9', 'Зачем тебе это?', 'What do you need that for?'],
+            ['10', 'Как дела?', 'How are you? / How are things?'],
+            ['11', 'Какой сегодня день?', 'What day is it today?'],
+            ['12', 'Который час?', 'What time is it?'],
+            ['13', 'Чья это книга?', 'Whose book is this?'],
+            ['14', 'Сколько это стоит?', 'How much does this cost?'],
+            ['15', 'Сколько тебе лет?', 'How old are you?'],
+            ['16', 'Кого ты ждёшь?', 'Who are you waiting for?'],
+            ['17', 'Кому позвонить?', 'Who should I call?'],
+            ['18', 'О чём фильм?', 'What is the film about?'],
+            ['19', 'Чем ты занимаешься?', 'What do you do? / What are you up to?'],
+            ['20', 'В каком городе ты был?', 'Which city were you in?'],
+            ['21', 'Как пройти к метро?', 'How do I get to the metro?'],
+            ['22', 'Где можно купить билет?', 'Where can I buy a ticket?'],
+            ['23', 'Когда открывается музей?', 'When does the museum open?'],
+            ['24', 'Почему здесь так шумно?', 'Why is it so noisy here?'],
+            ['25', 'Сколько остановок до центра?', 'How many stops to the centre?'],
+          ],
+          caption: '25 high-frequency Russian questions',
+          boldColumnIndices: [0, 1],
+        },
+      },
+      {
+        h2: 'Common Mistakes with Russian Question Words',
+        bullets: [
+          '**Using где for direction:** *Где ты идёшь?* ✗ → **Куда ты идёшь?** ✓.',
+          '**Forgetting genitive after сколько:** *Сколько братья?* ✗ → **Сколько братьев?** ✓.',
+          '**Leaving кто/что stuck in nominative** after prepositions: need **о ком / о чём**, **с кем / с чем**.',
+          '**Mixing почему and зачем** — reason vs purpose.',
+          '**Using который when какой is the natural everyday choice** for “what kind of…”.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'What are the most important Russian question words for beginners?',
+        answer:
+          'Start with кто, что, где, куда, откуда, когда, почему, как, какой, чей, and сколько. These cover introductions, directions, time, reasons, and shopping.',
+      },
+      {
+        question: 'What is the difference between где and куда?',
+        answer:
+          'Где asks about location (Where are you?). Куда asks about destination (Where are you going?). Answers usually use different cases: prepositional for где, accusative direction for куда after в/на.',
+      },
+      {
+        question: 'Do кто and что change with cases?',
+        answer:
+          'Yes. They decline fully: кого/чего, кому/чему, кем/чем, о ком/о чём, and so on. Learning these forms is essential for natural questions.',
+      },
+      {
+        question: 'Why does сколько take the genitive?',
+        answer:
+          'Because quantity expressions in Russian typically require the genitive of the counted noun: сколько братьев, сколько времени. This is the same family of rules you meet with numbers and нет + genitive.',
+      },
+      {
+        question: 'When should I use какой vs который?',
+        answer:
+          'Какой is the common question for “what/which/what kind of” with a noun. Который often means “which one” from a set or introduces a relative clause (the book that…).',
+      },
+    ],
+    conclusionIntro: 'Question words are vocabulary plus case logic in one package.',
+    conclusionBullets: [
+      'Learn the **core list**, then the **case forms** of кто/что',
+      'Never mix **где / куда / откуда**',
+      'Decline **какой / чей** like adjectives',
+      'Put nouns after **сколько** in the **genitive**',
+      'Drill the **25 frames** until they come out automatically',
+    ],
+    conclusionOutro:
+      'Next, connect these questions to full case drills in our free [practice tool](/practice), and keep the [pronouns](/learn/articles/russian-pronouns-declension) and [genitive](/learn/articles/russian-genitive-case) guides open while the forms settle.',
+    internalLinks: [
+      {
+        href: '/learn/articles/russian-pronouns-declension',
+        label: 'Russian Pronouns Declension',
+      },
+      {
+        href: '/learn/articles/russian-genitive-case',
+        label: 'Russian Genitive Case Guide',
+      },
+      {
+        href: '/learn/articles/russian-accusative-case',
+        label: 'Russian Accusative Case Guide',
+      },
+      {
+        href: '/learn/articles/russian-prepositional-case',
+        label: 'Russian Prepositional Case Guide',
+      },
+      {
+        href: '/learn/articles/russian-greetings-guide',
+        label: 'Russian Greetings Guide',
+      },
+      { href: '/practice', label: 'Free Russian Declension Quiz' },
+    ],
+    ctaText: 'Practice Russian Cases — Free →',
+    ctaHref: '/practice',
+    conclusion: '',
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: 'Russian Question Words: Who, What, Where, When & How (Complete Guide)',
+      description:
+        'Learn Russian question words: кто, что, где, куда, какой, сколько—and which case each one triggers, with 25 ready-to-use questions.',
+      datePublished: '2026-09-13',
+      dateModified: '2026-09-13',
+      author: {
+        '@type': 'Person',
+        name: 'Nathan',
+        url: 'https://russiandeclensions.com/',
+        image: 'https://russiandeclensions.com/landing-cases/founder-photo.webp',
+        description:
+          'Native French speaker learning Russian; writes about grammar, cases, and practical self-study habits.',
+        worksFor: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      },
+      publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': 'https://russiandeclensions.com/learn/articles/russian-question-words',
+      },
+      keywords:
+        'russian question words, russian interrogatives, кто что где куда, сколько genitive russian, где vs куда vs откуда',
+      image: {
+        '@type': 'ImageObject',
+        url: 'https://russiandeclensions.com/articles/russian-question-words-header.webp',
+        width: 1280,
+        height: 720,
+      },
+    },
+  },
+  'torfl-level-guide-which-to-choose': {
+    slug: 'torfl-level-guide-which-to-choose',
+    introByline: ARTICLE_BYLINE,
+    title: 'TORFL A1 vs A2 vs B1: Which Level Should You Take First?',
+    metaTitle: 'TORFL A1 vs A2 vs B1: Which Level? | Russian Cases with Anna',
+    metaDescription:
+      'TORFL A1 vs A2 vs B1 compared: skills, vocab, cases required, prep time, and which level to register for first—citizenship, residency, or study.',
+    keywords: [
+      'which torfl level',
+      'torfl a1 vs a2 vs b1',
+      'which torfl level to take',
+      'трки какой уровень',
+      'torfl b1 requirements',
+      'torfl a2 residency',
+      'torfl exam level guide',
+      'russian language exam levels',
+    ],
+    h1: 'TORFL A1 vs A2 vs B1: Which Level Should You Take First?',
+    heroImage: {
+      src: '/articles/torfl-level-guide-which-to-choose-header.webp',
+      alt: 'Study desk with A1 A2 B1 folders for choosing a TORFL exam level',
+      width: 1280,
+      height: 720,
+    },
+    intro:
+      'The full TORFL system runs from A1 to C2 — but most learners are really choosing between **three first steps**: **A1 (ТЭУ)**, **A2 (ТБУ)**, and **B1 (ТРКИ-1)**. Register too low and you waste money on a certificate that unlocks almost nothing. Register too high and you fail a paper you were almost ready for.\n\nThis guide is the decision layer on top of our [complete TORFL exam guide](/learn/articles/torfl-trki-russian-language-exam-guide): what each of the first three levels actually requires, how they compare, which one fits your goal, and a realistic prep timeline.',
+    whatYouLearn: [
+      'What A1, A2, and B1 each prove in practice',
+      'Vocab size, cases, and skills expected at each level',
+      'A clear comparison table: A1 vs A2 vs B1',
+      'Which level to pick for residency, citizenship, university, or personal goals',
+      'Common registration mistakes and a 4–12 week prep outline',
+    ],
+    leadMagnetCta: {
+      title: 'Cases are the bottleneck on every TORFL grammar paper',
+      description:
+        'A2 and B1 both punish weak declensions. Russian Cases with Anna drills all six cases with spaced repetition — free on iOS and Android.',
+      ctaText: 'Download the app — Free',
+      ctaHref: '/',
+    },
+    tableAccentVariant: 'orange',
+    sections: [
+      {
+        h2: 'Quick Recap of TORFL / ТРКИ Levels',
+        content:
+          'TORFL (ТРКИ) is Russia’s official Test of Russian as a Foreign Language. The early ladder looks like this:',
+        table: {
+          headers: ['CEFR', 'Russian name', 'Common label', 'Typical use'],
+          rows: [
+            ['A1', 'ТЭУ — Элементарный', 'Elementary', 'Personal milestone'],
+            ['A2', 'ТБУ — Базовый', 'Basic', 'Often tied to temporary residency (РВП)'],
+            ['B1', 'ТРКИ-1 — Первый', 'First Certificate', 'Citizenship & many universities'],
+          ],
+          caption: 'The three TORFL levels most beginners choose between',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          'For exam format, centers, and costs, use the [full TORFL guide](/learn/articles/torfl-trki-russian-language-exam-guide).',
+          'This article answers one question only: **which of these three should you book first?**',
+        ],
+      },
+      {
+        h2: 'What A1 Really Requires',
+        content:
+          '**A1 / ТЭУ** proves survival Russian: introduce yourself, ask basic questions, understand slow speech and short texts.',
+        bullets: [
+          '**Vocabulary:** roughly **700–800** words.',
+          '**Cases:** mainly **nominative + accusative**; limited exposure to others.',
+          '**Tenses:** present; very basic past/future recognition.',
+          '**Outcome:** confidence milestone more than a career/immigration unlock.',
+          '**Choose A1 if** you are truly early-stage and want a first official win — not if you already handle everyday errands in Russian.',
+        ],
+      },
+      {
+        h2: 'What A2 Really Requires',
+        content:
+          '**A2 / ТБУ** is everyday competence: shops, transport, doctor visits, daily routine, simple opinions.',
+        bullets: [
+          '**Vocabulary:** around **1,300** words.',
+          '**Cases:** **nominative, accusative, genitive, prepositional** used productively; dative/instrumental appear but less deeply.',
+          '**Tenses:** present, past, and future in common patterns.',
+          '**Outcome:** often relevant for **temporary residency (РВП)** pathways — verify current legal requirements for your situation.',
+          '**Choose A2 if** you can survive daily life in Russian but are not yet ready for extended argument, study, or citizenship-level B1.',
+        ],
+      },
+      {
+        h2: 'What B1 Really Requires',
+        content:
+          '**B1 / ТРКИ-1** is the first “serious” certificate for many official goals: you can handle familiar topics in connected speech and writing, including opinions and narration.',
+        bullets: [
+          '**Vocabulary:** commonly cited around **2,300+** words (sources vary; treat as order of magnitude).',
+          '**Cases:** all **six cases** expected with far fewer basic errors — this is where weak declension fails candidates.',
+          '**Skills:** describe experiences, explain plans, handle study/work situations at a threshold independent level.',
+          '**Outcome:** frequently required for **Russian citizenship** applications and **many university** tracks.',
+          '**Choose B1 if** your goal document explicitly asks for ТРКИ-1 / B1 — do not “warm up” with A2 unless you genuinely need A2 for residency first.',
+        ],
+      },
+      {
+        h2: 'Comparison Table: A1 vs A2 vs B1',
+        content: 'Use this as a one-screen decision aid.',
+        table: {
+          headers: ['Criterion', 'A1 (ТЭУ)', 'A2 (ТБУ)', 'B1 (ТРКИ-1)'],
+          rows: [
+            ['CEFR', 'A1', 'A2', 'B1'],
+            ['Vocab (approx.)', '700–800', '~1,300', '~2,300+'],
+            ['Cases focus', 'Nom + Acc', 'Nom Acc Gen Prep', 'All 6 cases'],
+            ['Typical prep after A0', '1–3 months', '3–6 months', '6–12+ months'],
+            ['Main unlock', 'Milestone', 'Often residency-related', 'Citizenship / uni'],
+            ['Fail risk if weak at…', 'Basic phrases', 'Genitive + prep. location', 'Full case accuracy'],
+            ['Worth paying for?', 'Sometimes', 'If required / close', 'If goal needs B1'],
+          ],
+          caption: 'A1 vs A2 vs B1 at a glance',
+          boldColumnIndices: [0],
+        },
+        bullets: [
+          'Prep times assume steady study; see also [how long to learn Russian](/learn/articles/how-long-learn-russian).',
+          'Always confirm the **exact certificate name** your embassy, HR, or university lists.',
+        ],
+      },
+      {
+        h2: 'Which Level Should You Register For?',
+        content: 'Match the certificate to the unlock — then check readiness honestly.',
+        subsections: [
+          {
+            h3: 'Pick A1 if…',
+            content:
+              'You are a beginner who wants external proof of progress, or a school/course requires an elementary checkpoint. Skip A1 if you already live daily life in Russian.',
+          },
+          {
+            h3: 'Pick A2 if…',
+            content:
+              'You need a **basic / ТБУ** certificate for a residency-related process, or B1 still feels far (you freeze on genitive plurals, prepositional location, and short narratives).',
+          },
+          {
+            h3: 'Pick B1 if…',
+            content:
+              'Citizenship, university admission, or an employer asks for **ТРКИ-1 / B1**. If that is the requirement, registering for A2 “for practice” usually costs time and fees without satisfying the goal.',
+          },
+          {
+            h3: 'A simple readiness check',
+            content:
+              'Can you correctly use **нет + genitive**, **в/на + prepositional vs accusative**, and basic **dative** (мне нужно, дать другу) in speech without translating word-by-word?\n- Mostly no → A2 lane (or keep preparing).\n- Mostly yes, and you can narrate past events → B1 lane.\n- Still stuck on “I / you / this is…” → A1 lane.',
+          },
+        ],
+      },
+      {
+        h2: 'Common Registration Mistakes',
+        bullets: [
+          '**Booking B1 because “it sounds prestigious”** without the case control B1 demands.',
+          '**Sitting A1 when you already function at A2** — easy pass, weak ROI.',
+          '**Ignoring the legal/university wording** — they may require a specific Russian label (ТБУ vs ТРКИ-1), not just “A2/B1” in conversation.',
+          '**Cramming vocab while skipping cases** — grammar papers punish declension gaps hardest.',
+          '**No timed practice** — TORFL is a multi-section exam; stamina matters.',
+        ],
+      },
+      {
+        h2: 'A Realistic Prep Timeline',
+        content:
+          'These are planning ranges, not promises. Adjust for hours per week and prior Slavic languages.',
+        table: {
+          headers: ['Target', 'If you are around…', 'Focus block (4–12 weeks)'],
+          rows: [
+            ['A1', 'Alphabet + basic phrases', 'Core vocab, Nom/Acc, question words, listening to slow speech'],
+            ['A2', 'A1-ish / early A2', 'Genitive + prepositional, daily-life topics, short writing'],
+            ['B1', 'Solid A2', 'All 6 cases under time pressure, connected speaking, past narration'],
+          ],
+          caption: 'Prep focus by target level',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          'Daily: 15–20 minutes of case SRS (see [Anki vs app](/learn/articles/anki-vs-app-russian-cases-srs)).',
+          'Weekly: one timed reading + one short writing on a TORFL-style topic.',
+          'Grammar core: [case endings cheat sheet](/learn/articles/russian-case-endings-cheatsheet) + [practice quiz](/practice).',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Should I take TORFL A1 or jump to A2?',
+        answer:
+          'Jump to A2 if you already handle everyday errands in Russian and need A2/ТБУ for a practical goal. Take A1 only if you are still at survival level or specifically need an elementary certificate.',
+      },
+      {
+        question: 'Is TORFL B1 required for Russian citizenship?',
+        answer:
+          'ТРКИ-1 (B1) is commonly cited as the language requirement for many citizenship pathways, but rules can change and exceptions exist. Always verify the current requirement with official sources for your case.',
+      },
+      {
+        question: 'What is the biggest difference between A2 and B1?',
+        answer:
+          'Breadth and accuracy. B1 expects more vocabulary, more connected speech/writing, and reliable use of all six cases. A2 can still be uneven on dative/instrumental; B1 cannot afford basic case collapse.',
+      },
+      {
+        question: 'Can I skip A2 and go straight to B1?',
+        answer:
+          'Yes — levels are not mandatory stepping stones. If your goal needs B1 and your skills match, register for B1. Take A2 first only if you need that certificate or you are clearly not B1-ready.',
+      },
+      {
+        question: 'How important are Russian cases for TORFL?',
+        answer:
+          'Critical from A2 upward, and decisive at B1. Case errors are easy for examiners to spot in writing and speaking. Dedicated case drilling is one of the highest-ROI prep activities.',
+      },
+    ],
+    conclusionIntro: 'Choose the level that unlocks your goal — then prepare for the grammar that level actually tests.',
+    conclusionBullets: [
+      '**A1** = milestone / survival proof',
+      '**A2** = everyday Russian; often residency-related',
+      '**B1** = citizenship & many academic doors',
+      'Do not over-register; do not under-register for prestige',
+      'Make **cases** a daily drill, not a weekend cram',
+    ],
+    conclusionOutro:
+      'When you know your target level, read the [full TORFL guide](/learn/articles/torfl-trki-russian-language-exam-guide) for format and logistics, then harden declensions with our free [practice tool](/practice).',
+    internalLinks: [
+      {
+        href: '/learn/articles/torfl-trki-russian-language-exam-guide',
+        label: 'TORFL Exam (ТРКИ): Complete Guide',
+      },
+      {
+        href: '/learn/articles/how-long-learn-russian',
+        label: 'How Long Does It Take to Learn Russian?',
+      },
+      {
+        href: '/learn/articles/how-to-practice-russian-cases',
+        label: 'How to Practice Russian Cases',
+      },
+      {
+        href: '/learn/articles/anki-vs-app-russian-cases-srs',
+        label: 'Anki vs App for Russian Case SRS',
+      },
+      {
+        href: '/learn/articles/russian-case-endings-cheatsheet',
+        label: 'Russian Case Endings Cheat Sheet',
+      },
+      { href: '/practice', label: 'Free Russian Declension Quiz' },
+    ],
+    ctaText: 'Drill Cases for TORFL — Free →',
+    ctaHref: '/practice',
+    conclusion: '',
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: 'TORFL A1 vs A2 vs B1: Which Level Should You Take First?',
+      description:
+        'TORFL A1 vs A2 vs B1 compared: skills, vocab, cases required, prep time, and which level to register for first—citizenship, residency, or study.',
+      datePublished: '2026-09-13',
+      dateModified: '2026-09-13',
+      author: {
+        '@type': 'Person',
+        name: 'Nathan',
+        url: 'https://russiandeclensions.com/',
+        image: 'https://russiandeclensions.com/landing-cases/founder-photo.webp',
+        description:
+          'Native French speaker learning Russian; writes about grammar, cases, and practical self-study habits.',
+        worksFor: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      },
+      publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': 'https://russiandeclensions.com/learn/articles/torfl-level-guide-which-to-choose',
+      },
+      keywords:
+        'which torfl level, torfl a1 vs a2 vs b1, which torfl level to take, torfl b1 requirements, torfl a2 residency',
+      image: {
+        '@type': 'ImageObject',
+        url: 'https://russiandeclensions.com/articles/torfl-level-guide-which-to-choose-header.webp',
+        width: 1280,
+        height: 720,
+      },
+    },
+  },
+  'russian-time-expressions-cases': {
+    slug: 'russian-time-expressions-cases',
+    introByline: ARTICLE_BYLINE,
+    title: 'Russian Time Expressions & Cases: Saying When Something Happens',
+    metaTitle: 'Russian Time Expressions & Cases | Russian Cases with Anna',
+    metaDescription:
+      'Say when in Russian with the right case: times of day, days, dates, duration, and frequency—plus a master chart and 30 examples.',
+    keywords: [
+      'russian time expressions',
+      'russian time expressions cases',
+      'days months cases russian',
+      'в + accusative time',
+      'russian duration genitive',
+      'утром вечером instrumental',
+      'how to say when in russian',
+      'russian frequency expressions',
+    ],
+    h1: 'Russian Time Expressions & Cases: Saying When Something Happens',
+    heroImage: {
+      src: '/articles/russian-time-expressions-cases-header.webp',
+      alt: 'Clock, calendar, and notebook with Russian time expressions утром вечером',
+      width: 1280,
+      height: 720,
+    },
+    intro:
+      'In English, “on Monday,” “in the morning,” “for two hours,” and “every week” barely change the nouns involved. In Russian, **time is a case problem**. The same idea of “when” can require the **instrumental**, **accusative**, **genitive**, or **prepositional** — sometimes with **в**, **по**, **за**, or **в течение**.\n\nThis guide organises time expressions by the case they trigger, with a master chart and 30 examples. For the full day/month vocabulary lists, see our [days and months guide](/learn/articles/russian-days-months-guide).',
+    whatYouLearn: [
+      'Why time expressions force case choices in Russian',
+      'Times of day (утром, вечером…) and related patterns',
+      'Days and dates: accusative vs genitive vs prepositional',
+      'Duration and “how long” structures',
+      'Frequency: каждый, раз в…, по + dative',
+      'A master chart (expression → case) and 30 examples',
+    ],
+    leadMagnetCta: {
+      title: 'Time phrases stick when case endings are automatic',
+      description:
+        'Russian Cases with Anna drills all six cases in real sentences — including the endings inside time expressions. Free on iOS and Android.',
+      ctaText: 'Download the app — Free',
+      ctaHref: '/',
+    },
+    tableAccentVariant: 'instrumental',
+    sections: [
+      {
+        h2: 'Why Time in Russian Is a Case Problem',
+        content:
+          'Russian does not have a single “time case.” Instead, different **time meanings** map to different cases and prepositions:',
+        table: {
+          headers: ['Time meaning', 'Typical case', 'Example'],
+          rows: [
+            ['Clock-ish / clock points', 'Accusative (often)', 'в три часа'],
+            ['Days of the week', 'в + Accusative', 'в понедельник'],
+            ['Months / years (in…)', 'в + Prepositional', 'в январе / в 2026 году'],
+            ['Dates (on the 5th)', 'Genitive', 'пятого мая'],
+            ['Parts of day (bare adverbials)', 'Instrumental', 'утром, вечером'],
+            ['Duration', 'Accusative / Genitive patterns', 'два часа / в течение часа'],
+            ['Frequency', 'Accusative / Dative / fixed frames', 'каждый день / раз в неделю / по понедельникам'],
+          ],
+          caption: 'Time meanings mapped to cases',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          'Learn **frames**, not isolated words: в + day, в + month, утром, каждый…',
+          'Mixing day and month cases is the classic trap — covered deeply in the [days & months article](/learn/articles/russian-days-months-guide).',
+        ],
+      },
+      {
+        h2: 'Times of Day (Instrumental and More)',
+        content:
+          'The everyday “in the morning / afternoon / evening / at night” set often uses the **instrumental** as a bare adverbial — no preposition.',
+        table: {
+          headers: ['Russian', 'Case / pattern', 'English'],
+          rows: [
+            ['утром', 'Instrumental', 'in the morning'],
+            ['днём', 'Instrumental', 'in the afternoon / daytime'],
+            ['вечером', 'Instrumental', 'in the evening'],
+            ['ночью', 'Instrumental', 'at night'],
+            ['сегодня утром', 'fixed + instrumental', 'this morning'],
+            ['завтра вечером', 'fixed + instrumental', 'tomorrow evening'],
+            ['в три часа', 'в + Accusative', 'at three o’clock'],
+            ['в половине шестого', 'в + Prepositional phrase', 'at half past five (common clock talk)'],
+          ],
+          caption: 'Parts of day and clock time',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          '**Утром / вечером** are instrumental forms of утро / вечер used as time adverbs.',
+          'Clock times with **в** usually take the **accusative**: **в два часа**, **в пять минут шестого** (patterns vary by exact clock phrasing).',
+          'For number forms inside clock talk, see the [numbers guide](/learn/articles/russian-numbers-guide).',
+        ],
+      },
+      {
+        h2: 'Days and Dates (Accusative + Genitive)',
+        content:
+          'Days and calendar dates use different case systems. Keep them separate.',
+        subsections: [
+          {
+            h3: 'Days of the week — в + accusative',
+            content:
+              '**В понедельник**, **во вторник**, **в среду**, **в пятницу**…\nFeminine days show the accusative clearly (**среду, пятницу, субботу**). Masculine days often look like the nominative.',
+          },
+          {
+            h3: 'Months “in …” — в + prepositional',
+            content:
+              '**В январе**, **в июне**, **в декабре**. Do not use the day pattern here.',
+          },
+          {
+            h3: 'Dates — genitive',
+            content:
+              '**Сегодня пятое мая.** When saying “on the fifth of May,” Russian typically uses genitive forms: **пятого мая**, **первого сентября**.\nYears often appear as **в 2026 году** (prepositional) or in genitive date strings depending on the full formula.',
+          },
+        ],
+        bullets: [
+          'Recurring days: **по понедельникам** (по + dative plural) = on Mondays.',
+          'Full vocabulary tables: [days of the week and months](/learn/articles/russian-days-months-guide).',
+        ],
+      },
+      {
+        h2: 'Duration Expressions',
+        content:
+          '“For how long?” is not one structure in Russian. These are the high-frequency frames:',
+        table: {
+          headers: ['Frame', 'Case pattern', 'Example', 'English'],
+          rows: [
+            ['Bare duration', 'Accusative time amount', 'Я ждал час.', 'I waited (for) an hour.'],
+            ['два / три / четыре + …', 'Genitive singular noun', 'два часа, три дня', 'two hours, three days'],
+            ['пять+ / много…', 'Genitive plural', 'пять часов, много лет', 'five hours, many years'],
+            ['в течение + …', 'Genitive', 'в течение недели', 'during / for a week'],
+            ['за + …', 'Accusative (often “within”)', 'за два дня', 'in two days’ time / within two days'],
+            ['с … до …', 'Genitive … Genitive', 'с утра до вечера', 'from morning till evening'],
+          ],
+          caption: 'Duration frames and their cases',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          'Number + time unit follows the same genitive rules as other quantified nouns — see [genitive](/learn/articles/russian-genitive-case).',
+          '**За** + accusative often means “within a span” or “in exchange for time,” depending on context — learn common collocations.',
+        ],
+      },
+      {
+        h2: 'Frequency Expressions',
+        content:
+          'How often something happens has its own small toolkit:',
+        table: {
+          headers: ['Russian', 'Pattern', 'English'],
+          rows: [
+            ['каждый день', 'каждый + Accusative (agreement)', 'every day'],
+            ['каждую неделю', 'feminine accusative', 'every week'],
+            ['каждый месяц / год', 'agreement with noun', 'every month / year'],
+            ['раз в неделю', 'раз в + Accusative', 'once a week'],
+            ['два раза в день', 'раз(а) в + Acc.', 'twice a day'],
+            ['по вечерам', 'по + Dative plural', 'in the evenings (habitually)'],
+            ['по понедельникам', 'по + Dative plural', 'on Mondays'],
+            ['иногда / часто / редко', 'adverbs (no case)', 'sometimes / often / rarely'],
+          ],
+          caption: 'Frequency expressions',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          '**Каждый** agrees like an adjective with the time noun.',
+          '**По + dative plural** is the “habitual on X-days / in the evenings” pattern.',
+        ],
+      },
+      {
+        h2: 'Master Chart: Time Expression → Case',
+        content: 'One screen to review before speaking or writing.',
+        table: {
+          headers: ['If you want to say…', 'Use…', 'Case'],
+          rows: [
+            ['in the morning/evening', 'утром / вечером', 'Instrumental'],
+            ['on Monday', 'в понедельник', 'в + Accusative'],
+            ['on Mondays (habit)', 'по понедельникам', 'по + Dative pl.'],
+            ['in January', 'в январе', 'в + Prepositional'],
+            ['on May 5th', 'пятого мая', 'Genitive'],
+            ['at 3 o’clock', 'в три часа', 'в + Accusative'],
+            ['for an hour', 'час / в течение часа', 'Acc. / в течение + Gen.'],
+            ['every day', 'каждый день', 'каждый + Acc.'],
+            ['once a week', 'раз в неделю', 'в + Accusative'],
+            ['from morning to night', 'с утра до вечера', 'с/до + Genitive'],
+          ],
+          caption: 'Master chart of Russian time → case',
+          boldColumnIndices: [0, 2],
+        },
+      },
+      {
+        h2: '30 Example Sentences',
+        content:
+          '**1–8** parts of day & clock · **9–16** days/dates · **17–23** duration · **24–30** frequency.',
+        table: {
+          headers: ['#', 'Russian', 'English'],
+          rows: [
+            ['1', 'Я встаю рано утром.', 'I get up early in the morning.'],
+            ['2', 'Вечером мы смотрим фильм.', 'In the evening we watch a film.'],
+            ['3', 'Ночью было холодно.', 'It was cold at night.'],
+            ['4', 'Встретимся в три часа.', 'Let’s meet at three o’clock.'],
+            ['5', 'Занятия начинаются в девять.', 'Classes start at nine.'],
+            ['6', 'Сегодня днём идёт дождь.', 'It is raining this afternoon.'],
+            ['7', 'Завтра утром звони мне.', 'Call me tomorrow morning.'],
+            ['8', 'Он работает до позднего вечера.', 'He works until late evening.'],
+            ['9', 'В понедельник у меня экзамен.', 'On Monday I have an exam.'],
+            ['10', 'Мы едем в пятницу.', 'We are leaving on Friday.'],
+            ['11', 'По субботам я сплю дольше.', 'On Saturdays I sleep longer.'],
+            ['12', 'Я родился в марте.', 'I was born in March.'],
+            ['13', 'Свадьба в июне.', 'The wedding is in June.'],
+            ['14', 'Сегодня первое сентября.', 'Today is the first of September.'],
+            ['15', 'Концерт пятого мая.', 'The concert is on the fifth of May.'],
+            ['16', 'В 2024 году я начал учить русский.', 'In 2024 I started learning Russian.'],
+            ['17', 'Я ждал тебя час.', 'I waited for you for an hour.'],
+            ['18', 'Фильм шёл два часа.', 'The film lasted two hours.'],
+            ['19', 'Мы жили там пять лет.', 'We lived there for five years.'],
+            ['20', 'В течение недели будет тепло.', 'It will be warm during the week.'],
+            ['21', 'За три дня я прочитал книгу.', 'I read the book in three days.'],
+            ['22', 'С утра до вечера на работе.', 'From morning till evening at work.'],
+            ['23', 'Отпуск длится две недели.', 'The holiday lasts two weeks.'],
+            ['24', 'Я тренируюсь каждый день.', 'I train every day.'],
+            ['25', 'Она звонит раз в неделю.', 'She calls once a week.'],
+            ['26', 'Мы встречаемся два раза в месяц.', 'We meet twice a month.'],
+            ['27', 'По вечерам я читаю.', 'In the evenings I read.'],
+            ['28', 'По воскресеньям мы ходим в парк.', 'On Sundays we go to the park.'],
+            ['29', 'Иногда я опаздываю.', 'Sometimes I am late.'],
+            ['30', 'Редко смотрю телевизор.', 'I rarely watch TV.'],
+          ],
+          caption: '30 time-expression examples',
+          boldColumnIndices: [0, 1],
+        },
+      },
+      {
+        h2: 'Common Mistakes with Russian Time Expressions',
+        bullets: [
+          '**в январь** ✗ → **в январе** ✓ (month = prepositional).',
+          '**в понедельнике** ✗ → **в понедельник** ✓ (day = accusative).',
+          '**каждый днём** ✗ → **каждый день** ✓.',
+          'Using English “for” literally everywhere — Russian often uses bare accusative duration (**час**) or **в течение**.',
+          'Forgetting genitive after numbers: **два часа**, **пять часов**.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Which case do I use for days of the week in Russian?',
+        answer:
+          'With в meaning “on [day],” use the accusative: в понедельник, в среду. For habitual “on Mondays,” use по + dative plural: по понедельникам.',
+      },
+      {
+        question: 'Why is “in January” not the same case as “on Monday”?',
+        answer:
+          'Days with в take accusative; months with в take prepositional (в январе). It is a fixed distribution learners must memorize — not a logic error in your English intuition.',
+      },
+      {
+        question: 'How do I say “in the morning” in Russian?',
+        answer:
+          'The most common everyday form is утром (instrumental used adverbially). You will also hear сегодня утром, завтра утром for “this/tomorrow morning.”',
+      },
+      {
+        question: 'How do I express duration like “for two hours”?',
+        answer:
+          'Often with an accusative time amount (два часа) in sentences like Фильм шёл два часа, or with в течение + genitive (в течение двух часов). Number rules still apply (два часа vs пять часов).',
+      },
+      {
+        question: 'How do I say “every day” and “once a week”?',
+        answer:
+          'Каждый день (каждый agrees with день) and раз в неделю (в + accusative). Habitual evenings/days also use по + dative plural: по вечерам, по пятницам.',
+      },
+    ],
+    conclusionIntro: 'Time talk becomes easy when you attach each meaning to a case frame.',
+    conclusionBullets: [
+      '**Parts of day** → often instrumental (утром)',
+      '**Days** → в + accusative; habits → по + dative plural',
+      '**Months** → в + prepositional; **dates** → genitive',
+      '**Duration / frequency** → learn the fixed frames',
+      'Drill with the **master chart** until choosing a case feels automatic',
+    ],
+    conclusionOutro:
+      'Keep the [days & months](/learn/articles/russian-days-months-guide) lists nearby, deepen [accusative](/learn/articles/russian-accusative-case), [genitive](/learn/articles/russian-genitive-case), and [instrumental](/learn/articles/russian-instrumental-case), and practise endings in our free [declension quiz](/practice).',
+    internalLinks: [
+      {
+        href: '/learn/articles/russian-days-months-guide',
+        label: 'Days of the Week and Months in Russian',
+      },
+      {
+        href: '/learn/articles/russian-numbers-guide',
+        label: 'Russian Numbers Guide',
+      },
+      {
+        href: '/learn/articles/russian-accusative-case',
+        label: 'Russian Accusative Case',
+      },
+      {
+        href: '/learn/articles/russian-genitive-case',
+        label: 'Russian Genitive Case',
+      },
+      {
+        href: '/learn/articles/russian-instrumental-case',
+        label: 'Russian Instrumental Case',
+      },
+      {
+        href: '/learn/articles/russian-prepositional-case',
+        label: 'Russian Prepositional Case',
+      },
+      { href: '/practice', label: 'Free Russian Declension Quiz' },
+    ],
+    ctaText: 'Practice Russian Cases — Free →',
+    ctaHref: '/practice',
+    conclusion: '',
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: 'Russian Time Expressions & Cases: Saying When Something Happens',
+      description:
+        'Say when in Russian with the right case: times of day, days, dates, duration, and frequency—plus a master chart and 30 examples.',
+      datePublished: '2026-09-13',
+      dateModified: '2026-09-13',
+      author: {
+        '@type': 'Person',
+        name: 'Nathan',
+        url: 'https://russiandeclensions.com/',
+        image: 'https://russiandeclensions.com/landing-cases/founder-photo.webp',
+        description:
+          'Native French speaker learning Russian; writes about grammar, cases, and practical self-study habits.',
+        worksFor: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      },
+      publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': 'https://russiandeclensions.com/learn/articles/russian-time-expressions-cases',
+      },
+      keywords:
+        'russian time expressions, russian time expressions cases, утром вечером instrumental, в + accusative time, russian duration genitive',
+      image: {
+        '@type': 'ImageObject',
+        url: 'https://russiandeclensions.com/articles/russian-time-expressions-cases-header.webp',
+        width: 1280,
+        height: 720,
+      },
+    },
+  },
+  'russian-food-vocabulary-restaurant': {
+    slug: 'russian-food-vocabulary-restaurant',
+    introByline: ARTICLE_BYLINE,
+    title: 'Russian Food Vocabulary: Order at a Restaurant Without Freezing',
+    metaTitle: 'Russian Food & Restaurant Phrases | Russian Cases with Anna',
+    metaDescription:
+      'Order food in Russian: restaurant phrases, food vocabulary, accusative ordering, без + genitive, a full dialogue, and politeness tips.',
+    keywords: [
+      'russian restaurant phrases',
+      'russian food vocabulary',
+      'order food in russian',
+      'russian cafe phrases',
+      'без genitive russian',
+      'я возьму russian',
+      'russian menu vocabulary',
+      'how to order in russian restaurant',
+    ],
+    h1: 'Russian Food Vocabulary: Order at a Restaurant Without Freezing',
+    heroImage: {
+      src: '/articles/russian-food-vocabulary-restaurant-header.webp',
+      alt: 'Russian cafe table with borscht, tea, and a menu for restaurant vocabulary',
+      width: 1280,
+      height: 720,
+    },
+    intro:
+      'Restaurant Russian is high-stakes for beginners: you are hungry, someone is waiting, and grammar still wants the **accusative** for what you order and the **genitive** for “without onions.” Freeze, and you point at the menu. This guide gives you survival phrases, food vocabulary, the case patterns behind ordering, a full server–customer dialogue, and the politeness details that make you sound human.\n\nYou do not need perfect cases to eat — but a few frames make the whole interaction smoother.',
+    whatYouLearn: [
+      'Must-know restaurant phrases (menu, order, bill, takeaway)',
+      'Core food and drink vocabulary',
+      'Ordering with the accusative (Я возьму…)',
+      '“Without…” and quantities with the genitive',
+      'A full server–customer dialogue you can reuse',
+      'Politeness, ты/вы, and common pitfalls',
+    ],
+    leadMagnetCta: {
+      title: 'Restaurant talk is accusative + genitive in disguise',
+      description:
+        'Drill those cases until Я возьму… and без лука feel automatic. Russian Cases with Anna — free on iOS and Android.',
+      ctaText: 'Download the app — Free',
+      ctaHref: '/',
+    },
+    tableAccentVariant: 'accusative',
+    sections: [
+      {
+        h2: 'Must-Know Restaurant Phrases',
+        content:
+          'Memorize these first. They cover 80% of cafe and restaurant interactions.',
+        table: {
+          headers: ['Russian', 'Transliteration', 'English'],
+          rows: [
+            ['Можно меню, пожалуйста?', 'Mozhno menyu, pozhaluysta?', 'Can I have the menu, please?'],
+            ['Что вы посоветуете?', 'Chto vy posovetuyete?', 'What do you recommend?'],
+            ['Я буду / Я возьму…', 'Ya budu / Ya voz\'mu…', 'I\'ll have…'],
+            ['Для меня…', 'Dlya menya…', 'For me…'],
+            ['Ещё один, пожалуйста.', 'Yeshchyo odin, pozhaluysta.', 'One more, please.'],
+            ['Это остро?', 'Eto ostro?', 'Is this spicy?'],
+            ['Можно без лука?', 'Mozhno bez luka?', 'Can I have it without onion?'],
+            ['С собой, пожалуйста.', 'S soboy, pozhaluysta.', 'To take away, please.'],
+            ['Здесь / в зале.', 'Zdes\' / v zale.', 'For here / in the dining room.'],
+            ['Счёт, пожалуйста.', 'Schyot, pozhaluysta.', 'The bill, please.'],
+            ['Можно картой?', 'Mozhno kartoy?', 'Can I pay by card?'],
+            ['Спасибо, всё было вкусно!', 'Spasibo, vsyo bylo vkusno!', 'Thanks, everything was delicious!'],
+          ],
+          caption: 'Core restaurant survival phrases',
+          boldColumnIndices: [0],
+        },
+        bullets: [
+          '**Пожалуйста** softens almost every request — use it freely.',
+          '**Я буду** and **Я возьму** are both natural for ordering; **возьму** feels a bit more “I\'ll take.”',
+          'For greetings on arrival, see the [greetings guide](/learn/articles/russian-greetings-guide).',
+        ],
+      },
+      {
+        h2: 'Food and Drink Vocabulary',
+        content:
+          'A compact menu of high-frequency words. Gender matters for agreement later.',
+        table: {
+          headers: ['Russian', 'English', 'Gender'],
+          rows: [
+            ['меню', 'menu', 'Neuter (indeclinable)'],
+            ['заказ', 'order', 'Masculine'],
+            ['счёт', 'bill / check', 'Masculine'],
+            ['официант / официантка', 'waiter / waitress', 'Masc. / Fem.'],
+            ['суп', 'soup', 'Masculine'],
+            ['салат', 'salad', 'Masculine'],
+            ['борщ', 'borscht', 'Masculine'],
+            ['пельмени', 'pelmeni (dumplings)', 'Plural'],
+            ['блины', 'blini / pancakes', 'Plural'],
+            ['мясо', 'meat', 'Neuter'],
+            ['курица', 'chicken', 'Feminine'],
+            ['рыба', 'fish', 'Feminine'],
+            ['овощи', 'vegetables', 'Plural'],
+            ['хлеб', 'bread', 'Masculine'],
+            ['сыр', 'cheese', 'Masculine'],
+            ['рис', 'rice', 'Masculine'],
+            ['картошка / картофель', 'potato(es)', 'Fem. colloquial / Masc.'],
+            ['вода', 'water', 'Feminine'],
+            ['сок', 'juice', 'Masculine'],
+            ['чай', 'tea', 'Masculine'],
+            ['кофе', 'coffee', 'Masculine (traditionally)'],
+            ['пиво', 'beer', 'Neuter'],
+            ['вино', 'wine', 'Neuter'],
+            ['десерт', 'dessert', 'Masculine'],
+            ['мороженое', 'ice cream', 'Neuter'],
+            ['соль / перец / сахар', 'salt / pepper / sugar', 'Fem. / Masc. / Masc.'],
+          ],
+          caption: 'High-frequency food and drink words',
+          boldColumnIndices: [0, 2],
+        },
+        subsections: [
+          {
+            h3: 'Dietary extras',
+            content:
+              '**вегетарианский** (vegetarian), **без мяса** (without meat), **без глютена** (without gluten), **аллергия на…** (allergy to…).\n**Я не ем мясо.** — I don’t eat meat.',
+          },
+        ],
+      },
+      {
+        h2: 'Ordering with the Accusative',
+        content:
+          'What you order is usually a **direct object** → **accusative**. Feminine nouns in **-а/-я** show the change clearly.',
+        table: {
+          headers: ['Nominative (menu form)', 'Accusative in the order', 'Example'],
+          rows: [
+            ['вода', 'воду', 'Я возьму воду.'],
+            ['рыба', 'рыбу', 'Для меня рыбу.'],
+            ['курица', 'курицу', 'Я буду курицу.'],
+            ['пицца*', 'пиццу', 'Одну пиццу, пожалуйста.'],
+            ['чай', 'чай', 'Я возьму чай. (masc. inanimate = same form)'],
+            ['кофе', 'кофе', 'Кофе, пожалуйста. (indeclinable in practice)'],
+            ['пельмени', 'пельмени', 'Пельмени, пожалуйста. (pl. inanimate)'],
+          ],
+          caption: 'Accusative forms when ordering',
+          boldColumnIndices: [0, 1],
+        },
+        bullets: [
+          '*пицца is a common loanword; accusative **пиццу** is widely used.',
+          'Animate objects (rare on menus) would take genitive-shaped accusative — see the [accusative guide](/learn/articles/russian-accusative-case).',
+          'Numbers: **два чая**, **две воды** follow number+case rules from the [numbers guide](/learn/articles/russian-numbers-guide).',
+        ],
+      },
+      {
+        h2: '“Without…” and Quantities (Genitive)',
+        content:
+          '**Без** always takes the **genitive**. This is the most useful restaurant grammar after the accusative.',
+        table: {
+          headers: ['Russian', 'English', 'Genitive cue'],
+          rows: [
+            ['без лука', 'without onion', 'лук → лука'],
+            ['без сахара', 'without sugar', 'сахар → сахара'],
+            ['без мяса', 'without meat', 'мясо → мяса'],
+            ['без молока', 'without milk', 'молоко → молока'],
+            ['без льда', 'without ice', 'лёд → льда'],
+            ['чашка чая', 'a cup of tea', 'partitive-ish genitive'],
+            ['тарелка супа', 'a bowl/plate of soup', 'quantity + genitive'],
+            ['бутылка воды', 'a bottle of water', 'quantity + genitive'],
+          ],
+          caption: 'Genitive after без and quantity words',
+          boldColumnIndices: [0],
+        },
+        bullets: [
+          '**Можно без лука?** is polite and crystal clear.',
+          'Quantity nouns (**чашка, тарелка, бутылка**) push the food/drink into the genitive.',
+          'Deeper rules: [genitive case guide](/learn/articles/russian-genitive-case).',
+        ],
+      },
+      {
+        h2: 'Full Server–Customer Dialogue',
+        content:
+          'A reusable script. Swap dishes; keep the frames.',
+        table: {
+          headers: ['Speaker', 'Russian', 'English'],
+          rows: [
+            ['Server', 'Здравствуйте! Что будете заказывать?', 'Hello! What will you order?'],
+            ['You', 'Здравствуйте. Можно меню, пожалуйста?', 'Hello. Can I have the menu, please?'],
+            ['Server', 'Конечно. Вот меню.', 'Of course. Here’s the menu.'],
+            ['You', 'Что вы посоветуете?', 'What do you recommend?'],
+            ['Server', 'Борщ очень хороший. И пирожки свежие.', 'The borscht is very good. And the pirozhki are fresh.'],
+            ['You', 'Тогда я возьму борщ и чай без сахара.', 'Then I’ll take borscht and tea without sugar.'],
+            ['Server', 'Вам здесь или с собой?', 'For here or to go?'],
+            ['You', 'Здесь, пожалуйста.', 'For here, please.'],
+            ['Server', 'Хорошо. Минутку!', 'Alright. Just a minute!'],
+            ['You', 'Счёт, пожалуйста. Можно картой?', 'The bill, please. Can I pay by card?'],
+            ['Server', 'Да, конечно.', 'Yes, of course.'],
+            ['You', 'Спасибо, всё было вкусно!', 'Thanks, everything was delicious!'],
+          ],
+          caption: 'Cafe/restaurant dialogue',
+          boldColumnIndices: [1],
+        },
+      },
+      {
+        h2: 'Politeness and Common Pitfalls',
+        content:
+          'Small social details matter as much as vocabulary.',
+        bullets: [
+          'Default to **вы** with staff: **Что вы посоветуете?** not ты.',
+          '**Пожалуйста** on requests; **спасибо** when food arrives and when leaving.',
+          'Tipping norms vary by city and place — follow local cues; the phrase **оставьте сдачу** (keep the change) appears in some contexts.',
+          'Don’t panic if you forget an ending — pointing + **это, пожалуйста** still works; then upgrade to full phrases.',
+          '**Кофе** is traditionally masculine (**чёрный кофе**); many speakers use neuter casually — masculine is safer in careful speech.',
+        ],
+        subsections: [
+          {
+            h3: 'Mistakes to avoid',
+            content:
+              '**без лук** ✗ → **без лука** ✓.\n**Я возьму вода** ✗ → **воду** ✓.\n**Счёт?** alone can sound abrupt — add **пожалуйста**.',
+          },
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'How do you politely order food in Russian?',
+        answer:
+          'Use Я возьму… or Я буду… plus пожалуйста. Example: Я возьму борщ и чай, пожалуйста. Addressing staff with вы keeps the tone polite.',
+      },
+      {
+        question: 'What case do I use when ordering?',
+        answer:
+          'The thing you order is usually in the accusative (direct object): Я возьму воду, Я буду рыбу. Masculine inanimate nouns often look the same as the nominative (чай, суп).',
+      },
+      {
+        question: 'How do I say “without sugar” or “without onion”?',
+        answer:
+          'Use без + genitive: без сахара, без лука, без молока. Можно без лука? is a natural polite request.',
+      },
+      {
+        question: 'How do I ask for the bill in Russian?',
+        answer:
+          'Say Счёт, пожалуйста. To ask about card payment: Можно картой?',
+      },
+      {
+        question: 'How do I order takeaway?',
+        answer:
+          'Say С собой, пожалуйста (to go / with me). For dining in: Здесь or В зале.',
+      },
+    ],
+    conclusionIntro: 'A short phrase kit plus two cases will get you through most Russian cafes.',
+    conclusionBullets: [
+      'Learn the **survival phrases** (menu, order, bill, card)',
+      'Order with the **accusative** (Я возьму…)',
+      'Use **без + genitive** for customizations',
+      'Stay on **вы + пожалуйста**',
+      'Practise the **dialogue** until it feels boring — then you’re ready',
+    ],
+    conclusionOutro:
+      'When these frames feel easy, harden the grammar with our [accusative](/learn/articles/russian-accusative-case) and [genitive](/learn/articles/russian-genitive-case) guides, and drill endings in the free [practice tool](/practice).',
+    internalLinks: [
+      {
+        href: '/learn/articles/russian-accusative-case',
+        label: 'Russian Accusative Case Guide',
+      },
+      {
+        href: '/learn/articles/russian-genitive-case',
+        label: 'Russian Genitive Case Guide',
+      },
+      {
+        href: '/learn/articles/russian-greetings-guide',
+        label: 'Russian Greetings Guide',
+      },
+      {
+        href: '/learn/articles/russian-numbers-guide',
+        label: 'Russian Numbers Guide',
+      },
+      {
+        href: '/learn/articles/russian-most-common-words',
+        label: '100 Most Common Russian Words',
+      },
+      { href: '/practice', label: 'Free Russian Declension Quiz' },
+    ],
+    ctaText: 'Practice Russian Cases — Free →',
+    ctaHref: '/practice',
+    conclusion: '',
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: 'Russian Food Vocabulary: Order at a Restaurant Without Freezing',
+      description:
+        'Order food in Russian: restaurant phrases, food vocabulary, accusative ordering, без + genitive, a full dialogue, and politeness tips.',
+      datePublished: '2026-09-13',
+      dateModified: '2026-09-13',
+      author: {
+        '@type': 'Person',
+        name: 'Nathan',
+        url: 'https://russiandeclensions.com/',
+        image: 'https://russiandeclensions.com/landing-cases/founder-photo.webp',
+        description:
+          'Native French speaker learning Russian; writes about grammar, cases, and practical self-study habits.',
+        worksFor: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      },
+      publisher: { '@type': 'Organization', name: 'Russian Cases with Anna®' },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': 'https://russiandeclensions.com/learn/articles/russian-food-vocabulary-restaurant',
+      },
+      keywords:
+        'russian restaurant phrases, russian food vocabulary, order food in russian, без genitive russian, я возьму russian',
+      image: {
+        '@type': 'ImageObject',
+        url: 'https://russiandeclensions.com/articles/russian-food-vocabulary-restaurant-header.webp',
+        width: 1280,
+        height: 720,
+      },
     },
   },
 };

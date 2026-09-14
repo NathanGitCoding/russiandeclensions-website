@@ -138,6 +138,42 @@ import { russianVerbConjugationGuideFr } from './articleTranslationsFr/russian-v
 import { russianVerbConjugationGuideDe } from './articleTranslationsDe/russian-verb-conjugation-guide';
 import { russianVerbConjugationGuideTr } from './articleTranslationsTr/russian-verb-conjugation-guide';
 import { russianVerbConjugationGuidePl } from './articleTranslationsPl/russian-verb-conjugation-guide';
+import { russianAdjectiveDeclensionFr } from './articleTranslationsFr/russian-adjective-declension';
+import { russianAdjectiveDeclensionDe } from './articleTranslationsDe/russian-adjective-declension';
+import { russianAdjectiveDeclensionTr } from './articleTranslationsTr/russian-adjective-declension';
+import { russianAdjectiveDeclensionPl } from './articleTranslationsPl/russian-adjective-declension';
+import { russianFamilyVocabularyFr } from './articleTranslationsFr/russian-family-vocabulary';
+import { russianFamilyVocabularyDe } from './articleTranslationsDe/russian-family-vocabulary';
+import { russianFamilyVocabularyTr } from './articleTranslationsTr/russian-family-vocabulary';
+import { russianFamilyVocabularyPl } from './articleTranslationsPl/russian-family-vocabulary';
+import { russianPronounsDeclensionFr } from './articleTranslationsFr/russian-pronouns-declension';
+import { russianPronounsDeclensionDe } from './articleTranslationsDe/russian-pronouns-declension';
+import { russianPronounsDeclensionTr } from './articleTranslationsTr/russian-pronouns-declension';
+import { russianPronounsDeclensionPl } from './articleTranslationsPl/russian-pronouns-declension';
+import { ankiVsAppRussianCasesSrsFr } from './articleTranslationsFr/anki-vs-app-russian-cases-srs';
+import { ankiVsAppRussianCasesSrsDe } from './articleTranslationsDe/anki-vs-app-russian-cases-srs';
+import { ankiVsAppRussianCasesSrsTr } from './articleTranslationsTr/anki-vs-app-russian-cases-srs';
+import { ankiVsAppRussianCasesSrsPl } from './articleTranslationsPl/anki-vs-app-russian-cases-srs';
+import { russianHardSoftConsonantsGuideFr } from './articleTranslationsFr/russian-hard-soft-consonants-guide';
+import { russianHardSoftConsonantsGuideDe } from './articleTranslationsDe/russian-hard-soft-consonants-guide';
+import { russianHardSoftConsonantsGuideTr } from './articleTranslationsTr/russian-hard-soft-consonants-guide';
+import { russianHardSoftConsonantsGuidePl } from './articleTranslationsPl/russian-hard-soft-consonants-guide';
+import { russianQuestionWordsFr } from './articleTranslationsFr/russian-question-words';
+import { russianQuestionWordsDe } from './articleTranslationsDe/russian-question-words';
+import { russianQuestionWordsTr } from './articleTranslationsTr/russian-question-words';
+import { russianQuestionWordsPl } from './articleTranslationsPl/russian-question-words';
+import { torflLevelGuideWhichToChooseFr } from './articleTranslationsFr/torfl-level-guide-which-to-choose';
+import { torflLevelGuideWhichToChooseDe } from './articleTranslationsDe/torfl-level-guide-which-to-choose';
+import { torflLevelGuideWhichToChooseTr } from './articleTranslationsTr/torfl-level-guide-which-to-choose';
+import { torflLevelGuideWhichToChoosePl } from './articleTranslationsPl/torfl-level-guide-which-to-choose';
+import { russianTimeExpressionsCasesFr } from './articleTranslationsFr/russian-time-expressions-cases';
+import { russianTimeExpressionsCasesDe } from './articleTranslationsDe/russian-time-expressions-cases';
+import { russianTimeExpressionsCasesTr } from './articleTranslationsTr/russian-time-expressions-cases';
+import { russianTimeExpressionsCasesPl } from './articleTranslationsPl/russian-time-expressions-cases';
+import { russianFoodVocabularyRestaurantFr } from './articleTranslationsFr/russian-food-vocabulary-restaurant';
+import { russianFoodVocabularyRestaurantDe } from './articleTranslationsDe/russian-food-vocabulary-restaurant';
+import { russianFoodVocabularyRestaurantTr } from './articleTranslationsTr/russian-food-vocabulary-restaurant';
+import { russianFoodVocabularyRestaurantPl } from './articleTranslationsPl/russian-food-vocabulary-restaurant';
 
 export const learnArticleTranslations: Partial<
   Record<string, Partial<Record<LandingLanguage, LearnArticle>>>
@@ -718,5 +754,59 @@ export const learnArticleTranslations: Partial<
     de_de: russianVerbConjugationGuideDe,
     tr_tr: russianVerbConjugationGuideTr,
     pl_pl: russianVerbConjugationGuidePl,
+  },
+  'russian-adjective-declension': {
+    fr_fr: russianAdjectiveDeclensionFr,
+    de_de: russianAdjectiveDeclensionDe,
+    tr_tr: russianAdjectiveDeclensionTr,
+    pl_pl: russianAdjectiveDeclensionPl,
+  },
+  'russian-family-vocabulary': {
+    fr_fr: russianFamilyVocabularyFr,
+    de_de: russianFamilyVocabularyDe,
+    tr_tr: russianFamilyVocabularyTr,
+    pl_pl: russianFamilyVocabularyPl,
+  },
+  'russian-pronouns-declension': {
+    fr_fr: russianPronounsDeclensionFr,
+    de_de: russianPronounsDeclensionDe,
+    tr_tr: russianPronounsDeclensionTr,
+    pl_pl: russianPronounsDeclensionPl,
+  },
+  'anki-vs-app-russian-cases-srs': {
+    fr_fr: ankiVsAppRussianCasesSrsFr,
+    de_de: ankiVsAppRussianCasesSrsDe,
+    tr_tr: ankiVsAppRussianCasesSrsTr,
+    pl_pl: ankiVsAppRussianCasesSrsPl,
+  },
+  'russian-hard-soft-consonants-guide': {
+    fr_fr: russianHardSoftConsonantsGuideFr,
+    de_de: russianHardSoftConsonantsGuideDe,
+    tr_tr: russianHardSoftConsonantsGuideTr,
+    pl_pl: russianHardSoftConsonantsGuidePl,
+  },
+  'russian-question-words': {
+    fr_fr: russianQuestionWordsFr,
+    de_de: russianQuestionWordsDe,
+    tr_tr: russianQuestionWordsTr,
+    pl_pl: russianQuestionWordsPl,
+  },
+  'torfl-level-guide-which-to-choose': {
+    fr_fr: torflLevelGuideWhichToChooseFr,
+    de_de: torflLevelGuideWhichToChooseDe,
+    tr_tr: torflLevelGuideWhichToChooseTr,
+    pl_pl: torflLevelGuideWhichToChoosePl,
+  },
+  'russian-time-expressions-cases': {
+    fr_fr: russianTimeExpressionsCasesFr,
+    de_de: russianTimeExpressionsCasesDe,
+    tr_tr: russianTimeExpressionsCasesTr,
+    pl_pl: russianTimeExpressionsCasesPl,
+  },
+  'russian-food-vocabulary-restaurant': {
+    fr_fr: russianFoodVocabularyRestaurantFr,
+    de_de: russianFoodVocabularyRestaurantDe,
+    tr_tr: russianFoodVocabularyRestaurantTr,
+    pl_pl: russianFoodVocabularyRestaurantPl,
   },
 };
