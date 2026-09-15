@@ -174,6 +174,10 @@ import { russianFoodVocabularyRestaurantFr } from './articleTranslationsFr/russi
 import { russianFoodVocabularyRestaurantDe } from './articleTranslationsDe/russian-food-vocabulary-restaurant';
 import { russianFoodVocabularyRestaurantTr } from './articleTranslationsTr/russian-food-vocabulary-restaurant';
 import { russianFoodVocabularyRestaurantPl } from './articleTranslationsPl/russian-food-vocabulary-restaurant';
+import { russianNamesPatronymicsGuideFr } from './articleTranslationsFr/russian-names-patronymics-guide';
+import { russianNamesPatronymicsGuideDe } from './articleTranslationsDe/russian-names-patronymics-guide';
+import { russianNamesPatronymicsGuideTr } from './articleTranslationsTr/russian-names-patronymics-guide';
+import { russianNamesPatronymicsGuidePl } from './articleTranslationsPl/russian-names-patronymics-guide';
 
 export const learnArticleTranslations: Partial<
   Record<string, Partial<Record<LandingLanguage, LearnArticle>>>
@@ -808,5 +812,11 @@ export const learnArticleTranslations: Partial<
     de_de: russianFoodVocabularyRestaurantDe,
     tr_tr: russianFoodVocabularyRestaurantTr,
     pl_pl: russianFoodVocabularyRestaurantPl,
+  },
+  'russian-names-patronymics-guide': {
+    fr_fr: russianNamesPatronymicsGuideFr,
+    de_de: russianNamesPatronymicsGuideDe,
+    tr_tr: russianNamesPatronymicsGuideTr,
+    pl_pl: russianNamesPatronymicsGuidePl,
   },
 };
